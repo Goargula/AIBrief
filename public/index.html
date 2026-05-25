@@ -16,10 +16,14 @@
           <strong id="storyPosition">Loading</strong>
         </div>
         <div class="top-actions">
-          <button id="refreshButton" type="button" aria-label="Update stories" title="Update stories">Update</button>
+          <button id="refreshButton" class="icon-action" type="button" aria-label="Refresh stories" title="Refresh stories">
+            <span aria-hidden="true">&#8635;</span>
+          </button>
           <button class="mode active" type="button" data-mode="important">Important</button>
           <button class="mode" type="button" data-mode="all">All</button>
-          <button id="profileButton" type="button">Profile</button>
+          <button id="profileButton" class="icon-action" type="button" aria-label="Open profile" title="Profile">
+            <span aria-hidden="true">&#9678;</span>
+          </button>
         </div>
       </header>
 
@@ -98,6 +102,6 @@
       </section>
     </dialog>
 
-    <script src="/app.js?v=5" type="module"></script>
+    <script src="/app.js?v=6" type="module"></script>
   </body>
 </html>
