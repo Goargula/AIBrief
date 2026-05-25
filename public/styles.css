@@ -45,36 +45,36 @@ a {
   left: 0;
   right: 0;
   z-index: 10;
-  display: flex;
+  display: grid;
+  grid-template-columns: minmax(88px, 1fr) auto auto;
   align-items: center;
-  justify-content: space-between;
-  gap: 12px;
+  gap: 8px;
   padding: max(14px, env(safe-area-inset-top)) 14px 10px;
   background: linear-gradient(180deg, rgba(7, 10, 15, 0.76), transparent);
 }
 
 .sort-bar {
-  position: fixed;
-  top: 58px;
-  left: 14px;
-  right: 14px;
-  z-index: 10;
-  display: flex;
-  gap: 6px;
-  pointer-events: none;
-}
-
-.sort {
-  height: 32px;
+  display: inline-flex;
+  justify-self: center;
+  gap: 2px;
+  max-width: 100%;
   border: 1px solid var(--line);
   border-radius: 8px;
   background: rgba(7, 10, 15, 0.52);
+  padding: 2px;
+}
+
+.sort {
+  height: 30px;
+  border: 0;
+  border-radius: 6px;
+  background: transparent;
   color: var(--text);
-  padding: 0 10px;
-  font-size: 0.78rem;
+  padding: 0 9px;
+  font-size: 0.74rem;
   font-weight: 850;
   cursor: pointer;
-  pointer-events: auto;
+  white-space: nowrap;
 }
 
 .sort.active {
@@ -89,6 +89,10 @@ a {
   margin: 0;
 }
 
+.reader-top > div:first-child {
+  min-width: 0;
+}
+
 .reader-top p {
   display: flex;
   align-items: center;
@@ -97,6 +101,7 @@ a {
   font-size: 0.78rem;
   font-weight: 800;
   text-transform: uppercase;
+  white-space: nowrap;
 }
 
 .top-logo {
@@ -108,11 +113,15 @@ a {
   margin-top: 2px;
   color: var(--text);
   font-size: 0.88rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 .top-actions {
   display: flex;
   align-items: center;
+  justify-self: end;
   gap: 6px;
 }
 
@@ -493,7 +502,43 @@ details p {
   }
 
   .sort-bar {
-    left: calc((100% - min(480px, 100%)) / 2 + 14px);
-    right: calc((100% - min(480px, 100%)) / 2 + 14px);
+    justify-self: center;
+  }
+}
+
+@media (max-width: 380px) {
+  .reader-top {
+    grid-template-columns: minmax(78px, 1fr) auto auto;
+    gap: 6px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .reader-top p {
+    gap: 5px;
+    font-size: 0.72rem;
+  }
+
+  .top-logo {
+    width: 16px;
+    height: 16px;
+  }
+
+  .reader-top strong {
+    font-size: 0.72rem;
+  }
+
+  .sort {
+    padding: 0 7px;
+    font-size: 0.7rem;
+  }
+
+  .top-actions {
+    gap: 4px;
+  }
+
+  .top-actions .icon-action {
+    width: 34px;
+    height: 34px;
   }
 }
