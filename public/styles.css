@@ -53,6 +53,36 @@ a {
   background: linear-gradient(180deg, rgba(7, 10, 15, 0.76), transparent);
 }
 
+.sort-bar {
+  position: fixed;
+  top: 58px;
+  left: 14px;
+  right: 14px;
+  z-index: 10;
+  display: flex;
+  gap: 6px;
+  pointer-events: none;
+}
+
+.sort {
+  height: 32px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: rgba(7, 10, 15, 0.52);
+  color: var(--text);
+  padding: 0 10px;
+  font-size: 0.78rem;
+  font-weight: 850;
+  cursor: pointer;
+  pointer-events: auto;
+}
+
+.sort.active {
+  border-color: var(--text);
+  background: var(--text);
+  color: var(--ink);
+}
+
 .reader-top p,
 .reader-top strong {
   display: block;
@@ -460,5 +490,10 @@ details p {
   .reader-top {
     width: min(480px, 100%);
     margin: 0 auto;
+  }
+
+  .sort-bar {
+    left: calc((100% - min(480px, 100%)) / 2 + 14px);
+    right: calc((100% - min(480px, 100%)) / 2 + 14px);
   }
 }
