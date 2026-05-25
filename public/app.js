@@ -4,6 +4,7 @@ const RENDER_BATCH = 8;
 
 const state = {
   items: [],
+  sort: "relevance",
   renderedCount: INITIAL_RENDER_COUNT,
   activeIndex: 0,
   saved: new Set(),
@@ -112,7 +113,16 @@ function laneLabel(lane) {
 }
 
 function visibleItems() {
-  return state.items.slice(0, state.renderedCount);
+  return sortedItems().slice(0, state.renderedCount);
+}
+
+function sortedItems() {
+  const items = [...state.items];
+  if (state.sort === "recency") {
+    return items.sort((a, b) => new Date(b.publishedAt) - new Date(a.publishedAt));
+  }
+
+  return items.sort((a, b) => (b.importance || 0) - (a.importance || 0) || new Date(b.publishedAt) - new Date(a.publishedAt));
 }
 
 function buildStory(item) {
@@ -136,7 +146,7 @@ function buildStory(item) {
 }
 
 function setPosition() {
-  const total = state.items.length || visibleItems().length;
+  const total = sortedItems().length || visibleItems().length;
   const current = Math.min(state.activeIndex + 1, total || 1);
   storyPosition.textContent = `Story ${current} of ${total || 1}`;
 }
@@ -221,7 +231,7 @@ function setupObserver() {
       persistLocalState();
       setPosition();
 
-      if (state.activeIndex >= state.renderedCount - 3 && state.renderedCount < state.items.length) {
+      if (state.activeIndex >= state.renderedCount - 3 && state.renderedCount < sortedItems().length) {
         state.renderedCount += RENDER_BATCH;
         render();
       }
@@ -296,7 +306,7 @@ function closeProfileDialog() {
 }
 
 function jumpToStory(id) {
-  const index = state.items.findIndex((item) => item.id === id);
+  const index = sortedItems().findIndex((item) => item.id === id);
   if (index < 0) return;
   state.renderedCount = Math.max(state.renderedCount, index + 4);
   render();
@@ -334,6 +344,17 @@ async function loadFeed(force = false) {
 
 refreshButton.addEventListener("click", () => loadFeed(true));
 profileButton.addEventListener("click", openProfile);
+document.querySelectorAll(".sort").forEach((button) => {
+  button.addEventListener("click", () => {
+    document.querySelector(".sort.active")?.classList.remove("active");
+    button.classList.add("active");
+    state.sort = button.dataset.sort;
+    state.activeIndex = 0;
+    state.renderedCount = INITIAL_RENDER_COUNT;
+    render();
+    storyDeck.scrollTo({ top: 0, behavior: "instant" });
+  });
+});
 closeProfile.addEventListener("click", closeProfileDialog);
 profileDialog.addEventListener("cancel", (event) => {
   event.preventDefault();
