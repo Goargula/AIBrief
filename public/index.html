@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#070a0f">
+    <title>AI Brief</title>
+    <link rel="manifest" href="/manifest.json">
+    <link rel="stylesheet" href="/styles.css">
+  </head>
+  <body>
+    <main class="reader-shell">
+      <header class="reader-top">
+        <div>
+          <p><img src="/logo.svg" alt="" class="top-logo"> AI Brief</p>
+          <strong id="storyPosition">Loading</strong>
+        </div>
+        <div class="top-actions">
+          <button id="refreshButton" type="button" aria-label="Update stories" title="Update stories">Update</button>
+          <button class="mode active" type="button" data-mode="important">Important</button>
+          <button class="mode" type="button" data-mode="all">All</button>
+          <button id="profileButton" type="button">Profile</button>
+        </div>
+      </header>
+
+      <section id="storyDeck" class="story-deck" aria-label="AI story reader"></section>
+    </main>
+
+    <template id="storyTemplate">
+      <article class="story-card">
+        <img class="story-image" alt="">
+        <div class="story-shade"></div>
+        <div class="story-content">
+          <div class="story-meta">
+            <span class="lane"></span>
+            <span class="source"></span>
+            <span class="time"></span>
+          </div>
+          <h1></h1>
+          <p class="hook"></p>
+          <details>
+            <summary>More context</summary>
+            <p class="change"></p>
+            <p class="watch"></p>
+          </details>
+          <div class="story-actions">
+            <button class="save" type="button">Save</button>
+            <button class="comment" type="button">Comment</button>
+            <button class="share" type="button">Share</button>
+            <a class="original" target="_blank" rel="noopener noreferrer">Original</a>
+          </div>
+        </div>
+      </article>
+    </template>
+
+    <dialog id="commentDialog" class="comment-dialog">
+      <form method="dialog" class="comment-sheet">
+        <h2>Private comment</h2>
+        <textarea id="commentText" rows="6" placeholder="Add your thought on this story..."></textarea>
+        <div>
+          <button id="closeComment" value="cancel" type="submit">Done</button>
+        </div>
+      </form>
+    </dialog>
+
+    <dialog id="profileDialog" class="profile-dialog">
+      <section class="profile-sheet">
+        <header>
+          <div>
+            <p>Profile</p>
+            <h2>Your reading trail</h2>
+          </div>
+          <button id="closeProfile" type="button" aria-label="Close profile">Close</button>
+        </header>
+        <div class="profile-stats">
+          <div>
+            <span id="savedCount">0</span>
+            <strong>Saved</strong>
+          </div>
+          <div>
+            <span id="commentedCount">0</span>
+            <strong>Commented</strong>
+          </div>
+          <div>
+            <span id="openedCount">0</span>
+            <strong>Opened</strong>
+          </div>
+        </div>
+        <div class="profile-panel">
+          <h3>Saved stories</h3>
+          <div id="savedList" class="profile-list"></div>
+        </div>
+        <div class="profile-panel">
+          <h3>Commented stories</h3>
+          <div id="commentedList" class="profile-list"></div>
+        </div>
+        <p class="profile-note">No login needed to read. A profile makes saved stories, comments, and personalisation available across sessions on this device.</p>
+      </section>
+    </dialog>
+
+    <script src="/app.js?v=5" type="module"></script>
+  </body>
+</html>
