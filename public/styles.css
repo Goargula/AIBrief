@@ -83,7 +83,7 @@ a {
 .top-actions {
   display: flex;
   align-items: center;
-  gap: 8px;
+  gap: 6px;
 }
 
 .top-actions button {
@@ -95,6 +95,12 @@ a {
   padding: 0 9px;
   font-weight: 800;
   cursor: pointer;
+}
+
+.top-actions .icon-action {
+  width: 36px;
+  padding: 0;
+  font-size: 1.05rem;
 }
 
 .top-actions button:disabled {
