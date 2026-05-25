@@ -4,14 +4,12 @@ const RENDER_BATCH = 8;
 
 const state = {
   items: [],
-  mode: "important",
   renderedCount: INITIAL_RENDER_COUNT,
   activeIndex: 0,
   saved: new Set(),
   opened: new Set(),
   notes: {},
-  selectedId: null,
-  autoSwitchedFromImportant: false
+  selectedId: null
 };
 
 const fallbackItems = [
@@ -114,7 +112,6 @@ function laneLabel(lane) {
 }
 
 function visibleItems() {
-  if (state.mode === "important") return state.items.slice(0, 12);
   return state.items.slice(0, state.renderedCount);
 }
 
@@ -139,15 +136,9 @@ function buildStory(item) {
 }
 
 function setPosition() {
-  const total = visibleItems().length;
-  const label = state.mode === "important" ? "Important" : "All";
-  storyPosition.textContent = `${label} ${Math.min(state.activeIndex + 1, total)} of ${total}`;
-}
-
-function setMode(mode) {
-  document.querySelector(".mode.active")?.classList.remove("active");
-  document.querySelector(`.mode[data-mode="${mode}"]`)?.classList.add("active");
-  state.mode = mode;
+  const total = state.items.length || visibleItems().length;
+  const current = Math.min(state.activeIndex + 1, total || 1);
+  storyPosition.textContent = `Story ${current} of ${total || 1}`;
 }
 
 function render() {
@@ -230,24 +221,7 @@ function setupObserver() {
       persistLocalState();
       setPosition();
 
-      if (
-        state.mode === "important" &&
-        !state.autoSwitchedFromImportant &&
-        state.activeIndex >= visibleItems().length - 1 &&
-        state.items.length > visibleItems().length
-      ) {
-        state.autoSwitchedFromImportant = true;
-        setTimeout(() => {
-          setMode("all");
-          state.activeIndex = 0;
-          state.renderedCount = Math.max(INITIAL_RENDER_COUNT, 16);
-          render();
-          storyDeck.scrollTo({ top: 0, behavior: "smooth" });
-        }, 700);
-        return;
-      }
-
-      if (state.mode === "all" && state.activeIndex >= state.renderedCount - 3 && state.renderedCount < state.items.length) {
+      if (state.activeIndex >= state.renderedCount - 3 && state.renderedCount < state.items.length) {
         state.renderedCount += RENDER_BATCH;
         render();
       }
@@ -322,10 +296,6 @@ function closeProfileDialog() {
 }
 
 function jumpToStory(id) {
-  if (state.mode === "important" && !visibleItems().some((item) => item.id === id)) {
-    setMode("all");
-  }
-
   const index = state.items.findIndex((item) => item.id === id);
   if (index < 0) return;
   state.renderedCount = Math.max(state.renderedCount, index + 4);
@@ -361,17 +331,6 @@ async function loadFeed(force = false) {
     render();
   }
 }
-
-document.querySelectorAll(".mode").forEach((button) => {
-  button.addEventListener("click", () => {
-    setMode(button.dataset.mode);
-    state.activeIndex = 0;
-    state.renderedCount = INITIAL_RENDER_COUNT;
-    if (state.mode === "important") state.autoSwitchedFromImportant = false;
-    render();
-    storyDeck.scrollTo({ top: 0, behavior: "instant" });
-  });
-});
 
 refreshButton.addEventListener("click", () => loadFeed(true));
 profileButton.addEventListener("click", openProfile);
