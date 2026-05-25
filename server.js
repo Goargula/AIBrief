@@ -8,8 +8,51 @@ const publicDir = path.join(__dirname, "public");
 const PORT = Number(process.env.PORT || 4173);
 const REFRESH_MS = Number(process.env.REFRESH_MS || 3 * 60 * 60 * 1000);
 const FETCH_TIMEOUT_MS = Number(process.env.FETCH_TIMEOUT_MS || 12000);
+const MAX_ITEM_AGE_DAYS = Number(process.env.MAX_ITEM_AGE_DAYS || 21);
 
 const sources = [
+  {
+    id: "google-news-ai",
+    name: "Google News AI",
+    lane: "news",
+    type: "rss",
+    url: "https://news.google.com/rss/search?q=artificial%20intelligence%20OR%20AI%20when:7d&hl=en-US&gl=US&ceid=US:en"
+  },
+  {
+    id: "google-news-funding",
+    name: "Google News AI Funding",
+    lane: "startups",
+    type: "rss",
+    url: "https://news.google.com/rss/search?q=AI%20startup%20funding%20OR%20artificial%20intelligence%20startup%20when:14d&hl=en-US&gl=US&ceid=US:en"
+  },
+  {
+    id: "google-news-deals",
+    name: "Google News AI Deals",
+    lane: "deals",
+    type: "rss",
+    url: "https://news.google.com/rss/search?q=AI%20acquisition%20OR%20artificial%20intelligence%20acquires%20when:30d&hl=en-US&gl=US&ceid=US:en"
+  },
+  {
+    id: "openai-news",
+    name: "OpenAI News",
+    lane: "news",
+    type: "rss",
+    url: "https://openrss.org/openai.com/news/rss.xml"
+  },
+  {
+    id: "google-ai-blog",
+    name: "Google AI",
+    lane: "news",
+    type: "rss",
+    url: "https://blog.google/technology/ai/rss/"
+  },
+  {
+    id: "deepmind-blog",
+    name: "Google DeepMind",
+    lane: "papers",
+    type: "rss",
+    url: "https://www.deepmind.com/blog/rss.xml"
+  },
   {
     id: "techcrunch-ai",
     name: "TechCrunch AI",
@@ -30,13 +73,6 @@ const sources = [
     lane: "news",
     type: "rss",
     url: "https://www.technologyreview.com/topic/artificial-intelligence/feed"
-  },
-  {
-    id: "the-verge-ai",
-    name: "The Verge AI",
-    lane: "news",
-    type: "rss",
-    url: "https://www.theverge.com/ai-artificial-intelligence/rss/index.xml"
   },
   {
     id: "crunchbase-news",
@@ -219,7 +255,7 @@ function summarize(text, lane) {
 function scoreItem(item) {
   const text = `${item.title} ${item.summary}`.toLowerCase();
   const hoursOld = Math.max(0, (Date.now() - new Date(item.publishedAt).getTime()) / 36e5);
-  let score = Math.max(0, 72 - hoursOld);
+  let score = Math.max(0, 120 - hoursOld * 2);
 
   const highSignal = [
     "openai",
@@ -251,8 +287,78 @@ function scoreItem(item) {
   if (item.sourceName.includes("TechCrunch")) score += 6;
   if (item.points) score += Math.min(30, item.points / 8);
   if (item.comments) score += Math.min(20, item.comments / 5);
+  if (hoursOld > 24 * 7) score *= 0.45;
+  if (hoursOld > 24 * 14) score *= 0.2;
 
   return Math.round(score);
+}
+
+function isFreshItem(item) {
+  const published = new Date(item.publishedAt).getTime();
+  if (Number.isNaN(published)) return true;
+  return Date.now() - published <= MAX_ITEM_AGE_DAYS * 24 * 60 * 60 * 1000;
+}
+
+function topicWords(item) {
+  const text = item.title
+    .replace(/\s+-\s+[^-]+$/g, "")
+    .toLowerCase()
+    .replace(/artificial intelligence/g, "ai")
+    .replace(/\bpapal\b|\bpope leo\b|\bleo xiv\b/g, "pope")
+    .replace(/[^a-z0-9]+/g, " ");
+  const stop = new Set([
+    "about",
+    "after",
+    "again",
+    "amid",
+    "for",
+    "from",
+    "have",
+    "into",
+    "more",
+    "news",
+    "over",
+    "says",
+    "than",
+    "that",
+    "the",
+    "this",
+    "uses",
+    "what",
+    "when",
+    "with",
+    "will",
+    "your"
+  ]);
+  return new Set(
+    text
+      .split(/\s+/)
+      .map((word) => word.replace(/s$/, ""))
+      .filter((word) => (word === "ai" || word.length > 2) && !stop.has(word))
+  );
+}
+
+function isNearDuplicate(a, b) {
+  const aWords = topicWords(a);
+  const bWords = topicWords(b);
+  if (!aWords.size || !bWords.size) return false;
+  const common = [...aWords].filter((word) => bWords.has(word));
+  const unionSize = new Set([...aWords, ...bWords]).size;
+  const overlap = common.length / unionSize;
+  const topicAnchors = new Set(["ai", "pope", "openai", "anthropic", "google", "deepmind", "nvidia", "microsoft", "meta", "claude", "chatgpt", "gemini"]);
+  const hasAnchor = common.some((word) => topicAnchors.has(word));
+  if (common.includes("ai") && common.includes("pope")) return true;
+  return common.length >= 3 || (common.length >= 2 && hasAnchor && overlap >= 0.22);
+}
+
+function diversify(items) {
+  const primary = [];
+  const delayed = [];
+  for (const item of items) {
+    if (primary.some((kept) => isNearDuplicate(item, kept))) delayed.push({ ...item, importance: item.importance - 25 });
+    else primary.push(item);
+  }
+  return primary.concat(delayed.sort((a, b) => b.importance - a.importance || new Date(b.publishedAt) - new Date(a.publishedAt)));
 }
 
 function dedupe(items) {
@@ -300,10 +406,11 @@ async function refreshFeeds() {
     })
   );
 
-  const items = dedupe(batches.flat())
+  const items = diversify(dedupe(batches.flat())
     .filter((item) => item.title && item.url)
+    .filter(isFreshItem)
     .map((item) => ({ ...item, importance: scoreItem(item) }))
-    .sort((a, b) => b.importance - a.importance || new Date(b.publishedAt) - new Date(a.publishedAt));
+    .sort((a, b) => b.importance - a.importance || new Date(b.publishedAt) - new Date(a.publishedAt)));
 
   cache = {
     generatedAt: new Date().toISOString(),
