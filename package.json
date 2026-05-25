@@ -1,0 +1,11 @@
+{
+  "name": "ai-news-app",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Personal AI intelligence digest app with live feed aggregation.",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  }
+}
