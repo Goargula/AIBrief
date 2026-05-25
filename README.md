@@ -26,10 +26,10 @@ The refresh button also forces a live reload.
 
 ## Reader behavior
 
-- `Important` shows the top ranked stories first.
-- `All` shows the complete stream and renders more stories as you swipe.
+- The feed is continuous: higher-signal stories appear first, then the rest keep flowing as you swipe.
 - Each story fills the screen with a visual, headline, short brief, and expandable context.
 - Swipe up to move to the next story.
+- Sort by `Relevant` or `Recent`.
 - Use `Save`, `Comment`, `Share`, or `Original` from each story.
 - `Profile` works without login and shows saved, commented, and opened story counts on the current device.
 
