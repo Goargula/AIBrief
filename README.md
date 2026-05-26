@@ -24,6 +24,40 @@ $env:REFRESH_MS=7200000; node server.js
 
 The refresh button also forces a live reload.
 
+## Chat-curated refresh
+
+The app checks `public/curated-feed.json` first. When that file exists, the app serves the manually curated feed written in this chat, so no API key is required.
+
+Use `REFRESH_FEED_WITH_CHAT.md` whenever the feed needs to be refreshed this way. The workflow is:
+
+1. Fetch current AI news, papers, funding rounds, acquisitions, policy stories, and product launches.
+2. Merge duplicate coverage into one story.
+3. Write each story with a short summary, a longer `fullSummary`, exact `keyFacts`, source links, and `summaryEngine: "chat-curated"`.
+4. Save the result to `public/curated-feed.json`.
+5. Restart the local server and check `/api/feed`.
+
+To go back to live RSS/model-generated summaries, remove or rename `public/curated-feed.json`.
+
+## Model summaries
+
+Optional: set `OPENAI_API_KEY` before starting the server to have the server summarize live RSS stories after duplicate stories are merged:
+
+```powershell
+$env:OPENAI_API_KEY="sk-..."
+node server.js
+```
+
+Optional settings:
+
+```powershell
+$env:OPENAI_SUMMARY_MODEL="gpt-5.5"
+$env:OPENAI_SUMMARY_MAX_ITEMS=250
+$env:OPENAI_SUMMARY_CONCURRENCY=4
+$env:OPENAI_SUMMARY_WEB_SEARCH=1
+```
+
+You can also put these values in a local `.env` file. If no key is set, the app falls back to local summaries and reports that in `/api/feed`.
+
 ## Reader behavior
 
 - The feed is continuous: higher-signal stories appear first, then the rest keep flowing as you swipe.
