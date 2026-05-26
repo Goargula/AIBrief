@@ -288,6 +288,15 @@ details p {
   color: #d1dae4;
 }
 
+.facts {
+  color: #f0f5fb;
+  font-weight: 750;
+}
+
+.coverage {
+  color: var(--muted);
+}
+
 .story-actions {
   display: grid;
   grid-template-columns: repeat(4, minmax(0, 1fr));
