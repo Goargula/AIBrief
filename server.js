@@ -5,6 +5,7 @@ import { fileURLToPath } from "node:url";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const publicDir = path.join(__dirname, "public");
+const curatedFeedPath = path.join(publicDir, "curated-feed.json");
 const PORT = Number(process.env.PORT || 4173);
 const REFRESH_MS = Number(process.env.REFRESH_MS || 3 * 60 * 60 * 1000);
 const FETCH_TIMEOUT_MS = Number(process.env.FETCH_TIMEOUT_MS || 12000);
@@ -101,8 +102,42 @@ let cache = {
   generatedAt: null,
   nextRefreshAt: null,
   items: [],
-  errors: []
+  errors: [],
+  summaryEngine: "fallback"
 };
+
+async function loadCuratedFeed() {
+  try {
+    const payload = JSON.parse(await readFile(curatedFeedPath, "utf8"));
+    if (!Array.isArray(payload.items) || !payload.items.length) return null;
+    return {
+      generatedAt: payload.generatedAt || new Date().toISOString(),
+      nextRefreshAt: payload.nextRefreshAt || null,
+      items: payload.items.map((item, index) => ({
+        id: item.id || `curated-${index + 1}`,
+        title: item.title || "Untitled update",
+        summary: item.summary || item.fullSummary || "Curated AI story.",
+        fullSummary: item.fullSummary || item.summary || "Curated AI story.",
+        keyFacts: Array.isArray(item.keyFacts) ? item.keyFacts : [],
+        imageUrl: item.imageUrl || `/visual.svg?lane=${encodeURIComponent(item.lane || "news")}&title=${encodeURIComponent(item.title || "AI Brief")}`,
+        url: item.url || "#",
+        sourceName: item.sourceName || "Curated Feed",
+        lane: item.lane || "news",
+        publishedAt: item.publishedAt || payload.generatedAt || new Date().toISOString(),
+        importance: Number(item.importance || 100 - index),
+        relatedSources: item.relatedSources || undefined,
+        relatedLinks: item.relatedLinks || undefined,
+        sourceConfidence: item.sourceConfidence || "medium",
+        summaryEngine: item.summaryEngine || payload.summaryEngine || "chat-curated"
+      })),
+      errors: payload.errors || [],
+      summaryEngine: payload.summaryEngine || "chat-curated",
+      curated: true
+    };
+  } catch {
+    return null;
+  }
+}
 
 function stripHtml(value = "") {
   return decodeHtml(value)
@@ -129,6 +164,14 @@ function decodeHtml(value = "") {
     .replace(/&#8211;/g, "-")
     .replace(/&#8212;/g, "-")
     .replace(/&#(\d+);/g, (_, code) => String.fromCharCode(Number(code)));
+}
+
+function tidyText(value = "") {
+  return stripHtml(value)
+    .replace(/[{}]/g, "")
+    .replace(/\u00a0/g, " ")
+    .replace(/\s+/g, " ")
+    .trim();
 }
 
 function getTag(block, tag) {
@@ -217,14 +260,17 @@ function parseHackerNews(payload, source) {
 function normalizeItem(item) {
   const lane = classifyLane(item);
   const published = new Date(item.publishedAt);
-  const cleanTitle = item.title.replace(/\s+/g, " ").trim();
-  const summary = item.summary || `A new ${lane} item from ${item.sourceName}.`;
+  const cleanTitle = tidyText(item.title).replace(/\s[-\u2013]\s[^-\u2013]{2,80}$/, "").trim();
+  const summary = buildFallbackSummary(item.summary, lane, cleanTitle, item.sourceName);
 
   return {
     ...item,
     id: item.id || `${item.sourceName}:${item.url || cleanTitle}`,
     title: cleanTitle || "Untitled update",
-    summary: summarize(summary, lane),
+    sourceSummary: tidyText(item.summary),
+    summary: summary.summary,
+    fullSummary: summary.fullSummary,
+    keyFacts: summary.keyFacts,
     imageUrl: item.imageUrl || `/visual.svg?lane=${encodeURIComponent(lane)}&title=${encodeURIComponent(cleanTitle)}`,
     lane,
     publishedAt: Number.isNaN(published.getTime()) ? new Date().toISOString() : published.toISOString()
@@ -240,16 +286,46 @@ function classifyLane(item) {
   return "news";
 }
 
-function summarize(text, lane) {
-  const clean = stripHtml(text);
-  if (!clean) return `New ${lane} update.`;
-  const sentences = clean.match(/[^.!?]+[.!?]+/g) || [clean];
-  return sentences
-    .slice(0, 2)
-    .join(" ")
-    .replace(/\s+/g, " ")
-    .slice(0, 320)
-    .trim();
+function splitSentences(text) {
+  return tidyText(text)
+    .replace(/\bA\.\s*I\./g, "AI")
+    .split(/(?<=[.!?])\s+(?=[A-Z0-9"'])/)
+    .filter(Boolean);
+}
+
+function extractKeyFacts(...values) {
+  const text = values.filter(Boolean).map((value) => tidyText(value)).join(" ");
+  const facts = [];
+  const patterns = [
+    /\$[0-9]+(?:,[0-9]{3})*(?:\.[0-9]+)?\s?(?:trillion|billion|million|bn|m|b)?/gi,
+    /\b[0-9]+(?:\.[0-9]+)?\s?(?:trillion|billion|million|bn|m)\b/gi,
+    /\b[0-9]+(?:\.[0-9]+)?%/g,
+    /\bSeries\s+[A-Z]\b/gi,
+    /\b[0-9]{1,3}(?:,[0-9]{3})+\b/g,
+    /\b(?:Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Sept|Oct|Nov|Dec)[a-z]*\.?\s+[0-9]{1,2}(?:,\s*[0-9]{4})?\b/gi
+  ];
+
+  for (const pattern of patterns) {
+    for (const match of text.matchAll(pattern)) {
+      const fact = match[0].trim();
+      if (fact && !facts.some((kept) => kept.toLowerCase() === fact.toLowerCase())) facts.push(fact);
+      if (facts.length >= 8) return facts;
+    }
+  }
+
+  return facts;
+}
+
+function buildFallbackSummary(text, lane, title, sourceName) {
+  const clean = tidyText(text);
+  const sentences = splitSentences(clean);
+  const keyFacts = extractKeyFacts(title, clean);
+  const lead = sentences.length
+    ? sentences.slice(0, 2).join(" ").slice(0, 340).trim()
+    : `${sourceName} has a new ${lane} item about ${title}.`;
+  const factLine = keyFacts.length ? ` Key details mentioned: ${keyFacts.join(", ")}.` : "";
+  const fullSummary = `${lead}${factLine} Read the original source for the primary evidence, exact framing, and any caveats that are not visible from the feed snippet.`;
+  return { summary: lead, fullSummary, keyFacts };
 }
 
 function scoreItem(item) {
@@ -257,26 +333,7 @@ function scoreItem(item) {
   const hoursOld = Math.max(0, (Date.now() - new Date(item.publishedAt).getTime()) / 36e5);
   let score = Math.max(0, 120 - hoursOld * 2);
 
-  const highSignal = [
-    "openai",
-    "anthropic",
-    "google deepmind",
-    "deepmind",
-    "meta ai",
-    "microsoft",
-    "nvidia",
-    "model release",
-    "frontier",
-    "agent",
-    "acquisition",
-    "raises",
-    "funding",
-    "series",
-    "benchmark",
-    "safety",
-    "regulation"
-  ];
-  for (const word of highSignal) {
+  for (const word of ["openai", "anthropic", "google deepmind", "deepmind", "microsoft", "nvidia", "agent", "acquisition", "raises", "funding", "series", "benchmark", "safety", "regulation"]) {
     if (text.includes(word)) score += 16;
   }
 
@@ -299,76 +356,25 @@ function isFreshItem(item) {
   return Date.now() - published <= MAX_ITEM_AGE_DAYS * 24 * 60 * 60 * 1000;
 }
 
-function topicWords(item) {
-  const text = item.title
-    .replace(/\s+-\s+[^-]+$/g, "")
+function canonicalTitle(value = "") {
+  return value
     .toLowerCase()
+    .replace(/\ba\.?\s*i\.?\b/g, "ai")
     .replace(/artificial intelligence/g, "ai")
-    .replace(/\bpapal\b|\bpope leo\b|\bleo xiv\b/g, "pope")
-    .replace(/[^a-z0-9]+/g, " ");
-  const stop = new Set([
-    "about",
-    "after",
-    "again",
-    "amid",
-    "for",
-    "from",
-    "have",
-    "into",
-    "more",
-    "news",
-    "over",
-    "says",
-    "than",
-    "that",
-    "the",
-    "this",
-    "uses",
-    "what",
-    "when",
-    "with",
-    "will",
-    "your"
-  ]);
-  return new Set(
-    text
-      .split(/\s+/)
-      .map((word) => word.replace(/s$/, ""))
-      .filter((word) => (word === "ai" || word.length > 2) && !stop.has(word))
-  );
-}
-
-function isNearDuplicate(a, b) {
-  const aWords = topicWords(a);
-  const bWords = topicWords(b);
-  if (!aWords.size || !bWords.size) return false;
-  const common = [...aWords].filter((word) => bWords.has(word));
-  const unionSize = new Set([...aWords, ...bWords]).size;
-  const overlap = common.length / unionSize;
-  const topicAnchors = new Set(["ai", "pope", "openai", "anthropic", "google", "deepmind", "nvidia", "microsoft", "meta", "claude", "chatgpt", "gemini"]);
-  const hasAnchor = common.some((word) => topicAnchors.has(word));
-  if (common.includes("ai") && common.includes("pope")) return true;
-  return common.length >= 3 || (common.length >= 2 && hasAnchor && overlap >= 0.22);
-}
-
-function diversify(items) {
-  const primary = [];
-  const delayed = [];
-  for (const item of items) {
-    if (primary.some((kept) => isNearDuplicate(item, kept))) delayed.push({ ...item, importance: item.importance - 25 });
-    else primary.push(item);
-  }
-  return primary.concat(delayed.sort((a, b) => b.importance - a.importance || new Date(b.publishedAt) - new Date(a.publishedAt)));
+    .replace(/[^a-z0-9]+/g, " ")
+    .replace(/\s+/g, " ")
+    .trim();
 }
 
 function dedupe(items) {
-  const seen = new Map();
+  const seen = [];
   for (const item of items) {
-    const key = item.url || item.title.toLowerCase().replace(/[^a-z0-9]+/g, " ").trim();
-    const current = seen.get(key);
-    if (!current || item.importance > current.importance) seen.set(key, item);
+    const key = item.url || canonicalTitle(item.title);
+    const existing = seen.find((kept) => kept.url === key || canonicalTitle(kept.title) === canonicalTitle(item.title));
+    if (!existing) seen.push(item);
+    else if ((item.importance || 0) > (existing.importance || 0)) Object.assign(existing, item);
   }
-  return [...seen.values()];
+  return seen;
 }
 
 async function fetchSource(source) {
@@ -382,14 +388,8 @@ async function fetchSource(source) {
     }
   }).finally(() => clearTimeout(timeout));
 
-  if (!response.ok) {
-    throw new Error(`${source.name} returned ${response.status}`);
-  }
-
-  if (source.type === "hn") {
-    return parseHackerNews(await response.json(), source);
-  }
-
+  if (!response.ok) throw new Error(`${source.name} returned ${response.status}`);
+  if (source.type === "hn") return parseHackerNews(await response.json(), source);
   return parseXmlFeed(await response.text(), source);
 }
 
@@ -406,17 +406,18 @@ async function refreshFeeds() {
     })
   );
 
-  const items = diversify(dedupe(batches.flat())
+  const items = dedupe(batches.flat())
     .filter((item) => item.title && item.url)
     .filter(isFreshItem)
-    .map((item) => ({ ...item, importance: scoreItem(item) }))
-    .sort((a, b) => b.importance - a.importance || new Date(b.publishedAt) - new Date(a.publishedAt)));
+    .map((item) => ({ ...item, importance: scoreItem(item), summaryEngine: "fallback" }))
+    .sort((a, b) => b.importance - a.importance || new Date(b.publishedAt) - new Date(a.publishedAt));
 
   cache = {
     generatedAt: new Date().toISOString(),
     nextRefreshAt: new Date(Date.now() + REFRESH_MS).toISOString(),
     items,
-    errors
+    errors,
+    summaryEngine: "fallback"
   };
 
   console.log(`Loaded ${items.length} AI updates with ${errors.length} source errors.`);
@@ -481,6 +482,16 @@ const server = http.createServer(async (req, res) => {
     }
 
     if (req.url.startsWith("/api/feed")) {
+      const curatedFeed = await loadCuratedFeed();
+      if (curatedFeed) {
+        res.writeHead(200, {
+          "Content-Type": "application/json; charset=utf-8",
+          "Cache-Control": "no-store"
+        });
+        res.end(JSON.stringify({ ...curatedFeed, refreshEveryMs: REFRESH_MS }));
+        return;
+      }
+
       await ensureFresh(req.url.includes("refresh=1"));
       res.writeHead(200, {
         "Content-Type": "application/json; charset=utf-8",
