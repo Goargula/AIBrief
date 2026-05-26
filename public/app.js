@@ -127,7 +127,13 @@ function sortedItems() {
 
 function buildStory(item) {
   const summary = item.summary || "A new AI update is worth tracking.";
+  const fullSummary = item.fullSummary || summary;
   const lower = `${item.title} ${summary}`.toLowerCase();
+  const coverage =
+    item.relatedSources && item.relatedSources.length > 1
+      ? `Merged coverage from ${item.relatedSources.slice(0, 3).join(", ")}${item.relatedSources.length > 3 ? " and others" : ""}.`
+      : "";
+  const facts = item.keyFacts && item.keyFacts.length ? `Key details: ${item.keyFacts.slice(0, 8).join(", ")}.` : "";
 
   let watch = "Watch whether this becomes a product feature, a new standard others copy, or a short-lived announcement.";
   if (lower.includes("openai") || lower.includes("anthropic") || lower.includes("deepmind")) {
@@ -140,7 +146,9 @@ function buildStory(item) {
 
   return {
     hook: summary,
-    change: `What changed: ${summary}`,
+    change: fullSummary,
+    facts,
+    coverage,
     watch: `What to watch next: ${watch}`
   };
 }
@@ -183,6 +191,8 @@ function createStoryCard(item, index) {
   const title = fragment.querySelector("h1");
   const hook = fragment.querySelector(".hook");
   const change = fragment.querySelector(".change");
+  const facts = fragment.querySelector(".facts");
+  const coverage = fragment.querySelector(".coverage");
   const watch = fragment.querySelector(".watch");
   const save = fragment.querySelector(".save");
   const comment = fragment.querySelector(".comment");
@@ -200,6 +210,10 @@ function createStoryCard(item, index) {
   title.textContent = item.title;
   hook.textContent = story.hook;
   change.textContent = story.change;
+  facts.textContent = story.facts;
+  facts.hidden = !story.facts;
+  coverage.textContent = story.coverage;
+  coverage.hidden = !story.coverage;
   watch.textContent = story.watch;
   original.href = item.url;
   save.textContent = state.saved.has(item.id) ? "Saved" : "Save";
