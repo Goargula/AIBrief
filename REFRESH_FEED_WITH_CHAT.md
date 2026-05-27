@@ -19,19 +19,39 @@ $payload = Invoke-RestMethod -Uri 'http://localhost:4173/api/feed?refresh=1' -Ti
 $payload.items | Select-Object title,sourceName,lane,publishedAt,url,summary,keyFacts,relatedSources | ConvertTo-Json -Depth 8
 ```
 
-2. Use web search for the volatile/high-value items:
+2. Load the existing `public/curated-feed.json` before writing. Preserve older items and append/merge new items into the existing list.
+
+3. Do a recency-first sweep before the relevance sweep:
+
+- Check the latest pages or feeds from at least two broad news sources, such as TechCrunch Latest/AI, VentureBeat AI, Reuters/AP where available, The Verge, MIT Technology Review, Business Wire, PR Newswire, and Google News-style searches.
+- Search for both `today` and `yesterday` using the current date. If the newest curated story is older than 12 hours, explicitly look for a fresher factual story before finalizing.
+- Do not add conference calendars, earnings-call reminders, scraped reposts, Reddit-only claims, or generic investor notices just to make the feed look fresh.
+- If no fresher story passes the quality bar, keep the older top story and note why.
+
+4. Use web search for the volatile/high-value items:
 
 - AI news and policy
 - AI startup funding
 - AI acquisitions and partnerships
 - AI research papers and benchmark releases
 - Product/model launches from OpenAI, Google/DeepMind, Anthropic, Microsoft, Nvidia, Meta, AWS
+- Smaller and regional model releases, including Cohere, Mistral, Qwen/Alibaba, Baidu, DeepSeek, Tencent, Huawei, Moonshot, MiniMax, Zhipu, Sarvam, Sakana, Naver, Kakao, Stability, Runway, ElevenLabs, and open-weight releases on Hugging Face
+- AI chips, compute, and infrastructure, including Nvidia, AMD, Intel, Huawei Ascend, Cerebras, Groq, SambaNova, Tenstorrent, CoreWeave, cloud providers, AI storage/networking, export controls, and sovereign-compute moves
+- Practical applications, including healthcare, drug discovery, diagnostics, robotics, agriculture, education, finance, legal, security operations, creative tools, industrial AI, and public-sector deployments
+- Science and biomedical AI sources, including Nature, Science, EurekAlert, News-Medical, university labs, research institutes, and official company/lab announcements
 
-3. Load the existing `public/curated-feed.json` before writing. Preserve older items and append/merge new items into the existing list.
+5. Run a coverage checklist before writing. At minimum, ask whether the refresh includes or intentionally excludes:
 
-4. De-duplicate stories before writing the curated JSON. Merge coverage when several sources describe the same underlying story. Do not delete older, still-valid stories just because they are no longer fresh.
+- Latest model releases and open-weight releases
+- Latest funding rounds and acquisitions
+- Latest AI-chip/compute/geopolitical infrastructure stories
+- Latest notable AI applications outside software, especially healthcare, drug discovery, robotics, agriculture, and education
+- Latest policy/safety/security stories
+- Latest research papers, benchmarks, and evaluation/tooling releases
 
-5. For each curated story, write:
+6. De-duplicate stories before writing the curated JSON. Merge coverage when several sources describe the same underlying story. Do not delete older, still-valid stories just because they are no longer fresh.
+
+7. For each curated story, write:
 
 - `summary`: one or two punchy sentences with the core fact.
 - `fullSummary`: a fuller 100-180 word explanation with the key numbers, named companies/people, context, why it matters, and what to watch.
@@ -39,25 +59,28 @@ $payload.items | Select-Object title,sourceName,lane,publishedAt,url,summary,key
 - `sourceConfidence`: `high`, `medium`, or `low`.
 - `summaryEngine`: `chat-curated`.
 
-6. Rank by recency and importance:
+8. Rank by recency and importance:
 
 - New or materially updated stories should sit near the top.
 - Older stories should keep their original `publishedAt` and receive lower `importance` so they naturally move down.
 - Keep stable `id` values for existing stories so the feed behaves like a database.
+- After writing, verify both relevance order and recency order. The app's `Recent` view sorts strictly by `publishedAt`, so check the newest 8-12 stories by timestamp.
 
-7. Save the feed to:
+9. Save the feed to:
 
 ```text
 public/curated-feed.json
 ```
 
-8. Restart the local server if needed. Verify:
+10. Restart the local server if needed. Verify:
 
 ```powershell
 Invoke-RestMethod -Uri 'http://localhost:4173/api/feed' | Select-Object summaryEngine,curated,generatedAt
+$payload = Invoke-RestMethod -Uri 'http://localhost:4173/api/feed'
+$payload.items | Sort-Object {[datetime]$_.publishedAt} -Descending | Select-Object -First 8 title,publishedAt,sourceName,lane
 ```
 
-9. Open the app and check the first card plus `Read more`.
+11. Open the app and check the first card plus `Read more` when browser automation is available. If browser automation is blocked, say that and rely on JSON plus HTTP endpoint verification.
 
 ## Quality Bar
 
@@ -66,3 +89,5 @@ Invoke-RestMethod -Uri 'http://localhost:4173/api/feed' | Select-Object summaryE
 - If source details are thin, say only what is known and mark confidence `medium` or `low`.
 - Prefer fewer, well-written, merged stories over hundreds of weak headlines.
 - Keep the feed balanced across news, funding, deals, papers, products, policy, and practical adoption.
+- Prefer primary sources and reputable reporting. For biomedical or public-health claims, use official research institutions, journals, WHO/CDC/public-health sources, or reputable science outlets; avoid implying a treatment works until validated in lab, animal, or clinical testing.
+- For semiconductor/geopolitical AI stories, distinguish company claims, analyst estimates, and confirmed production or revenue. Do not present roadmap claims as achieved performance.

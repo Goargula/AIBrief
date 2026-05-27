@@ -1,20 +1,616 @@
 {
-  "generatedAt": "2026-05-26T20:08:29.537Z",
-  "nextRefreshAt": "2026-05-26T23:08:29.537Z",
+  "generatedAt": "2026-05-27T09:11:58.187Z",
+  "nextRefreshAt": "2026-05-27T12:11:58.187Z",
   "summaryEngine": "chat-curated",
   "curated": true,
   "items": [
+    {
+      "id": "curated-openrouter-113m-series-b-2026-05-26",
+      "title": "OpenRouter raises $113M as model routing becomes core AI infrastructure",
+      "summary": "OpenRouter raised a $113M Series B led by CapitalG after usage jumped to 25T tokens per week, turning multi-model routing into a visible AI infrastructure layer.",
+      "fullSummary": "OpenRouter's May 26 round is one of the clearest signals that enterprises do not want to lock every workload to one model provider. The AI model exchange raised $113M in a Series B led by CapitalG, with NVentures, ServiceNow Ventures, MongoDB Ventures, Snowflake Ventures, Databricks Ventures, Andreessen Horowitz, Menlo Ventures, and others participating. The company says weekly volume has reached 25T tokens, or about 100T tokens per month, a 5x jump from six months earlier. It gives developers access to 400+ models from providers including Anthropic, Google, OpenAI, xAI, and DeepSeek, and says it now serves more than 8M global users. TechCrunch reports the new valuation is roughly $1.3B post-money, up from an estimated $547M after its 2025 Series A. The watch item is whether model gateways become the enterprise control plane for cost, reliability, policy, and model choice.",
+      "keyFacts": [
+        "OpenRouter",
+        "$113M Series B",
+        "CapitalG",
+        "$1.3B reported post-money valuation",
+        "25T tokens per week",
+        "100T tokens per month",
+        "400+ models",
+        "8M+ users",
+        "NVentures",
+        "ServiceNow Ventures"
+      ],
+      "url": "https://www.businesswire.com/news/home/20260526953416/en/OpenRouter-Raises-%24113-Million-CapitalG-led-Series-B-as-Weekly-Volume-Explodes-to-25T-Tokens",
+      "sourceName": "Business Wire + TechCrunch",
+      "relatedSources": [
+        "Business Wire",
+        "TechCrunch"
+      ],
+      "relatedLinks": [
+        {
+          "title": "OpenRouter raises $113M Series B",
+          "url": "https://www.businesswire.com/news/home/20260526953416/en/OpenRouter-Raises-%24113-Million-CapitalG-led-Series-B-as-Weekly-Volume-Explodes-to-25T-Tokens",
+          "sourceName": "Business Wire"
+        },
+        {
+          "title": "OpenRouter more than doubles valuation to $1.3B",
+          "url": "https://techcrunch.com/2026/05/26/openrouter-more-than-doubles-valuation-to-1-3b-in-a-year/",
+          "sourceName": "TechCrunch"
+        }
+      ],
+      "lane": "startups",
+      "publishedAt": "2026-05-26T18:33:00.000Z",
+      "importance": 170,
+      "sourceConfidence": "high",
+      "summaryEngine": "chat-curated"
+    },
+    {
+      "id": "curated-pope-leo-ai-encyclical-2026-05-26",
+      "title": "Pope Leo turns AI governance into a global moral issue",
+      "summary": "Pope Leo XIV used his first encyclical, Magnifica Humanitas, to call for robust AI regulation and warn against delegating lethal decisions to machines.",
+      "fullSummary": "Pope Leo XIV's first encyclical has become one of the week's biggest AI policy stories because it frames artificial intelligence as a human-dignity issue rather than a narrow technology debate. The Vatican released Magnifica Humanitas on May 25, and AP reports that Leo called for robust AI regulation, urged developers to work for the common good rather than profit, and said irreversible lethal decisions must not be entrusted to AI systems. The launch also featured Anthropic co-founder Christopher Olah, tying the Vatican's moral argument directly to the frontier-lab debate over military use, opaque systems, and concentration of power. This matters because papal encyclicals often become reference points far outside Catholic institutions. Watch whether regulators, universities, civil society groups, and faith-based organizations cite the document in fights over autonomous weapons, labor displacement, synthetic media, and human oversight rules.",
+      "keyFacts": [
+        "Pope Leo XIV",
+        "Magnifica Humanitas",
+        "May 25, 2026",
+        "first encyclical",
+        "AI regulation",
+        "autonomous weapons",
+        "Christopher Olah",
+        "Anthropic",
+        "Vatican"
+      ],
+      "url": "https://apnews.com/article/pope-ai-tech-trump-vatican-anthropic-d92d0108730d146baa46da041b8523da",
+      "sourceName": "AP + Vatican",
+      "relatedSources": [
+        "AP",
+        "Vatican Press Office",
+        "Vatican News"
+      ],
+      "relatedLinks": [
+        {
+          "title": "Pope calls for robust regulation of AI",
+          "url": "https://apnews.com/article/pope-ai-tech-trump-vatican-anthropic-d92d0108730d146baa46da041b8523da",
+          "sourceName": "AP"
+        },
+        {
+          "title": "Encyclical Letter Magnifica Humanitas",
+          "url": "https://press.vatican.va/content/salastampa/en/bollettino/pubblico/2026/05/25/260525e.html",
+          "sourceName": "Vatican Press Office"
+        }
+      ],
+      "lane": "news",
+      "publishedAt": "2026-05-25T09:31:58.000Z",
+      "importance": 168,
+      "sourceConfidence": "high",
+      "summaryEngine": "chat-curated"
+    },
+    {
+      "id": "curated-cohere-command-a-plus-2026-05-20",
+      "title": "Cohere releases Command A+ as an open-source sovereign AI model",
+      "summary": "Cohere's Command A+ is a 218B-parameter MoE model with 25B active parameters, vision, reasoning, agentic tasks, and 48-language support under Apache 2.0.",
+      "fullSummary": "Cohere's Command A+ is an important model release because it targets the enterprise and sovereign-AI middle ground rather than pure leaderboard spectacle. Released May 20, the model is Cohere's first mixture-of-experts model, with 218B total parameters and 25B active parameters. Cohere says it combines vision inputs, reasoning, translation, and agentic tasks in one set of weights, supports 48 languages including all official EU languages, and can be deployed with as little as one B200 or two H100 GPUs. The company also says throughput is up to 110% higher and latency 30% lower than Command A Reasoning. The key point is deployability: Apache 2.0 open-source licensing and lower hardware requirements make this a serious option for governments, regulated industries, and enterprises that want private model control without starting from scratch.",
+      "keyFacts": [
+        "Cohere",
+        "Command A+",
+        "May 20, 2026",
+        "218B total parameters",
+        "25B active parameters",
+        "Mixture of Experts",
+        "Apache 2.0",
+        "48 languages",
+        "1x B200 or 2x H100 deployment",
+        "vision and reasoning"
+      ],
+      "url": "https://cohere.com/blog/command-a-plus",
+      "sourceName": "Cohere",
+      "relatedSources": [
+        "Cohere",
+        "Cohere Docs"
+      ],
+      "relatedLinks": [
+        {
+          "title": "Introducing Command A+",
+          "url": "https://cohere.com/blog/command-a-plus",
+          "sourceName": "Cohere"
+        },
+        {
+          "title": "Cohere changelog for Command A+",
+          "url": "https://docs.cohere.com/changelog",
+          "sourceName": "Cohere Docs"
+        }
+      ],
+      "lane": "news",
+      "publishedAt": "2026-05-20T15:30:00.000Z",
+      "importance": 166,
+      "sourceConfidence": "high",
+      "summaryEngine": "chat-curated"
+    },
+    {
+      "id": "curated-qwen-37-max-agent-model-2026-05-26",
+      "title": "Alibaba's Qwen 3.7-Max shows China's agent-model race is still moving fast",
+      "summary": "Alibaba unveiled Qwen 3.7-Max and agentic cloud products, pushing the Qwen line toward long-context, tool-heavy workflows rather than just chat.",
+      "fullSummary": "Qwen 3.7-Max is worth tracking even though some details remain vendor-stated and coverage is still emerging. Computer Weekly reports Alibaba Cloud unveiled the flagship model at its international Qwen Conference in Singapore on May 26, alongside agentic cloud products. Other coverage says the model is available through the Qwen app, PC, and web experiences, with a focus on agent workflows and very long context. The strategic signal is bigger than one benchmark: Alibaba is trying to make Qwen an international developer platform, not just a Chinese chatbot, while Chinese labs compress release cycles around agentic coding, long-context work, and domestic cloud infrastructure. Confidence is medium because full model cards and open weights were not clearly available in the sources checked. Watch whether Alibaba releases smaller open-weight variants and whether Qwen gains real usage through model routers and cloud APIs.",
+      "keyFacts": [
+        "Alibaba Cloud",
+        "Qwen 3.7-Max",
+        "May 26, 2026",
+        "Singapore Qwen Conference",
+        "agentic cloud products",
+        "Qwen app",
+        "PC and web access",
+        "long-context model",
+        "China AI"
+      ],
+      "url": "https://www.computerweekly.com/news/366643330/Alibaba-unveils-Qwen-37-Max-at-inaugural-Singapore-conference",
+      "sourceName": "Computer Weekly + Qwen coverage",
+      "relatedSources": [
+        "Computer Weekly",
+        "AIBase"
+      ],
+      "relatedLinks": [
+        {
+          "title": "Alibaba unveils Qwen 3.7-Max",
+          "url": "https://www.computerweekly.com/news/366643330/Alibaba-unveils-Qwen-37-Max-at-inaugural-Singapore-conference",
+          "sourceName": "Computer Weekly"
+        },
+        {
+          "title": "Qwen3.7-Max integrated into Qwen App and web",
+          "url": "https://www.aibase.com/news/28282",
+          "sourceName": "AIBase"
+        }
+      ],
+      "lane": "news",
+      "publishedAt": "2026-05-26T08:03:00.000Z",
+      "importance": 164,
+      "sourceConfidence": "medium",
+      "summaryEngine": "chat-curated"
+    },
+    {
+      "id": "curated-duckduckgo-ai-search-backlash-2026-05-26",
+      "title": "DuckDuckGo installs jump as users push back on Google's AI Search",
+      "summary": "DuckDuckGo says U.S. installs rose after Google's AI-heavy Search overhaul, peaking at 30.5% week-over-week growth as users looked for an AI-free option.",
+      "fullSummary": "TechCrunch reports that DuckDuckGo is benefiting from backlash to Google's new AI-forward Search experience. After Google said traditional blue links are being replaced by an AI agent that can answer, execute tasks, and run background monitoring agents, DuckDuckGo said U.S. app installs rose 18.1% week over week on average from May 20 to May 25 and peaked at 30.5% on May 25. iOS growth was stronger, averaging 33% and peaking at 69.9%. Visits to DuckDuckGo's AI-free search page also averaged 22.7% week-over-week growth, peaking at 27.7% on May 24. The story matters because AI search is no longer just a product upgrade; it is becoming a user-choice fight. Watch whether Google adds stronger opt-outs and whether privacy/search alternatives can convert backlash into durable share.",
+      "keyFacts": [
+        "DuckDuckGo",
+        "Google AI Search",
+        "May 26, 2026",
+        "18.1% U.S. install growth",
+        "30.5% peak install growth",
+        "33% average iOS growth",
+        "69.9% iOS peak",
+        "22.7% AI-free page visit growth",
+        "May 20-May 25"
+      ],
+      "url": "https://techcrunch.com/2026/05/26/duckduckgo-installs-are-up-30-as-users-reject-being-force-fed-googles-ai-search/",
+      "sourceName": "TechCrunch",
+      "relatedSources": [
+        "TechCrunch",
+        "DuckDuckGo"
+      ],
+      "lane": "signal",
+      "publishedAt": "2026-05-26T22:32:00.000Z",
+      "importance": 162,
+      "sourceConfidence": "high",
+      "summaryEngine": "chat-curated"
+    },
+    {
+      "id": "curated-huawei-tau-scaling-logicfolding-2026-05-25",
+      "title": "Huawei pitches Tau Scaling and LogicFolding as a sanctions-era chip path",
+      "summary": "Huawei says its Tau Scaling Law and LogicFolding architecture could deliver 1.4nm-equivalent transistor density by 2031, with a route into Ascend AI chips and data-center clusters.",
+      "fullSummary": "Huawei's semiconductor announcement should be treated as an ambitious roadmap claim, not a proven production breakthrough, but it belongs in the feed. In a May 25 announcement tied to IEEE ISCAS, Huawei introduced the Tau Scaling Law and LogicFolding as a way to improve transistor density and system performance through co-optimization across devices, circuits, chips, and systems. Huawei says high-end chips designed with the approach are expected to reach transistor density equivalent to 14 angstrom, or 1.4nm, processes by 2031. Coverage from Tom's Hardware and regional tech outlets frames this as a sanctions-era alternative to conventional EUV-dependent node scaling and says Huawei aims to extend the architecture beyond Kirin chips into Ascend AI processors and data-center clusters. The important caveat is that Huawei has announced a direction and claims, not independently benchmarked 1.4nm-class production silicon.",
+      "keyFacts": [
+        "Huawei",
+        "Tau Scaling Law",
+        "LogicFolding",
+        "IEEE ISCAS 2026",
+        "May 25, 2026",
+        "14 angstrom / 1.4nm-equivalent target",
+        "2031 roadmap",
+        "Ascend AI processors",
+        "Kirin chips",
+        "sanctions-era semiconductor strategy"
+      ],
+      "url": "https://www.huawei.com/en/news/2026/5/ieee-iscas-tau-scaling",
+      "sourceName": "Huawei + Tom's Hardware",
+      "relatedSources": [
+        "Huawei",
+        "Tom's Hardware",
+        "Times of India"
+      ],
+      "relatedLinks": [
+        {
+          "title": "Huawei presents the Tau Scaling Law",
+          "url": "https://www.huawei.com/en/news/2026/5/ieee-iscas-tau-scaling",
+          "sourceName": "Huawei"
+        },
+        {
+          "title": "Huawei claims sanctions-busting breakthrough with 1.4nm-class chips by 2031",
+          "url": "https://www.tomshardware.com/tech-industry/semiconductors/huawei-claims-sanctions-busting-breakthrough-with-1-4nm-class-chips-by-2031-claims-55-percent-higher-transistor-density-firm-claims-new-logicfolding-chip-architecture-can-bypass-euv-restrictions-introduces-tau-scaling-law-to-replace-moores-law",
+          "sourceName": "Tom's Hardware"
+        }
+      ],
+      "lane": "news",
+      "publishedAt": "2026-05-25T13:10:31.000Z",
+      "importance": 160,
+      "sourceConfidence": "high",
+      "summaryEngine": "chat-curated"
+    },
+    {
+      "id": "curated-ernie-51-baidu-2026-05-09",
+      "title": "Baidu releases ERNIE 5.1 with a cheaper agent-training stack",
+      "summary": "Baidu says ERNIE 5.1 cuts total parameters to about one-third and uses about 6% of comparable pretraining cost while improving agentic post-training.",
+      "fullSummary": "Baidu's ERNIE 5.1 is a good example of the non-U.S. model race shifting from raw scale to training efficiency. In its official May 9 release, Baidu says ERNIE 5.1 inherits ERNIE 5.0's pretraining foundation while compressing total parameters to roughly one-third and active parameters to roughly one-half. Baidu also claims it reaches leading performance at its model scale using about 6% of the pretraining cost of comparable models. The more interesting technical detail is infrastructure: Baidu says it built a disaggregated, fully asynchronous reinforcement-learning system to handle training-inference divergence, low resource utilization, and long-tail tasks, then used scaled agentic post-training. The model is available through the ERNIE site rather than as an open-weight release. Watch whether efficiency claims translate into cheaper inference and better agents in Baidu's search, cloud, and app ecosystem.",
+      "keyFacts": [
+        "Baidu",
+        "ERNIE 5.1",
+        "May 9, 2026",
+        "one-third total parameters",
+        "one-half active parameters",
+        "about 6% pretraining cost",
+        "asynchronous reinforcement learning",
+        "agentic post-training",
+        "closed model"
+      ],
+      "url": "https://ernie.baidu.com/blog/posts/ernie-5.1-0508-release/",
+      "sourceName": "Baidu ERNIE",
+      "relatedSources": [
+        "Baidu ERNIE"
+      ],
+      "lane": "news",
+      "publishedAt": "2026-05-09T00:00:00.000Z",
+      "importance": 158,
+      "sourceConfidence": "high",
+      "summaryEngine": "chat-curated"
+    },
+    {
+      "id": "curated-swri-ai-ebola-bundibugyo-drug-candidates-2026-05-26",
+      "title": "SwRI uses AI to find Ebola Bundibugyo antiviral candidates",
+      "summary": "Southwest Research Institute says its GAMES AI model identified nearly two dozen antiviral candidates for Bundibugyo Ebola, which Texas Biomed will test in a BSL-4 lab.",
+      "fullSummary": "This was a real miss because it is exactly the kind of practical AI application the feed should catch. Southwest Research Institute and Texas Biomed announced on May 26 that SwRI used AI tools to identify nearly two dozen antiviral compounds that could potentially treat Bundibugyo virus, a rare Ebola species involved in the current DRC outbreak. The SwRI-developed GAMES language model prioritized precursors used to synthesize 18 novel analogs for screening against Bundibugyo, and Texas Biomed will test the compounds in its Biosafety Level 4 laboratory. WHO says there is no licensed vaccine or specific therapeutic against Bundibugyo virus, though supportive care is lifesaving, so even early candidate discovery is notable. The caveat is critical: these are pilot compounds for lab screening, not approved drugs or validated treatments. Watch test results, animal data, and whether any candidate moves toward emergency evaluation.",
+      "keyFacts": [
+        "Southwest Research Institute",
+        "Texas Biomed",
+        "May 26, 2026",
+        "Bundibugyo Ebola virus",
+        "nearly two dozen antiviral candidates",
+        "18 novel analogs",
+        "GAMES language model",
+        "BSL-4 laboratory",
+        "DRC outbreak",
+        "no approved Bundibugyo-specific therapeutics"
+      ],
+      "url": "https://www.eurekalert.org/news-releases/1129665",
+      "sourceName": "EurekAlert / SwRI",
+      "relatedSources": [
+        "EurekAlert",
+        "Southwest Research Institute",
+        "WHO"
+      ],
+      "relatedLinks": [
+        {
+          "title": "SwRI, Texas Biomed to test antiviral compounds for Ebola virus",
+          "url": "https://www.eurekalert.org/news-releases/1129665",
+          "sourceName": "EurekAlert"
+        },
+        {
+          "title": "WHO disease outbreak news on Bundibugyo Ebola",
+          "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON602",
+          "sourceName": "WHO"
+        }
+      ],
+      "lane": "news",
+      "publishedAt": "2026-05-26T12:00:00.000Z",
+      "importance": 156,
+      "sourceConfidence": "high",
+      "summaryEngine": "chat-curated"
+    },
+    {
+      "id": "curated-elevenlabs-music-v2-2026-05-26",
+      "title": "ElevenLabs Music v2 turns AI music into structured song building",
+      "summary": "ElevenLabs released Music v2, a model for building full songs section by section, and cut music-generation pricing across its API and creative products.",
+      "fullSummary": "ElevenLabs' Music v2 is a small but important creative-AI release because it moves beyond short clip generation toward controllable song structure. The company says Music v2 lets users build full songs section by section, including intros, verses, choruses, and later sections, while maintaining continuity. The model powers three ElevenLabs platforms and ships alongside price reductions: up to 50% for ElevenAPI and up to 40% for ElevenCreative self-serve customers. This sits on top of ElevenMusic, the company's April app for discovering, remixing, creating, publishing, and earning from AI music. The broader signal is that AI music is becoming a product surface with creator economics, remix workflows, and publishing loops, not just a novelty prompt box. Watch rights, royalties, disclosure, and whether section-level control makes generated music more usable for creators.",
+      "keyFacts": [
+        "ElevenLabs",
+        "Music v2",
+        "May 26, 2026",
+        "section-by-section full songs",
+        "ElevenAPI",
+        "ElevenCreative",
+        "up to 50% API price cut",
+        "up to 40% self-serve price cut",
+        "ElevenMusic"
+      ],
+      "url": "https://elevenlabs.io/blog/introducing-music-v2",
+      "sourceName": "ElevenLabs",
+      "relatedSources": [
+        "ElevenLabs",
+        "TechCrunch"
+      ],
+      "lane": "news",
+      "publishedAt": "2026-05-26T12:00:00.000Z",
+      "importance": 154,
+      "sourceConfidence": "high",
+      "summaryEngine": "chat-curated"
+    },
+    {
+      "id": "curated-tencent-mavis-os-agent-2026-05-21",
+      "title": "Tencent's Mavis turns the Windows desktop into an AI-agent surface",
+      "summary": "Tencent unveiled Mavis, an OS-integrated AI assistant that understands device context, coordinates models, and can control mobile apps from the desktop.",
+      "fullSummary": "Tencent's Mavis is a useful counterweight to U.S. browser and cloud-agent launches because it treats the PC itself as the agent surface. TechNode reports that Mavis is integrated with the operating system and file system, can understand device-level context, coordinate AI models based on tasks, operate mobile applications from the desktop, and monitor mobile-side processes through cloud-based control. Related Chinese coverage says the assistant became available through Marvis.qq.com without an invitation code after an earlier beta period. The design is interesting because it combines local context, cross-device control, and model routing rather than asking users to live inside one chatbot tab. Confidence is medium because some product details come through regional tech coverage rather than a full English product paper. Watch privacy controls, local mode, and whether Tencent connects Mavis to WeChat, Yingyongbao, and its broader app ecosystem.",
+      "keyFacts": [
+        "Tencent",
+        "Mavis / Marvis",
+        "May 21, 2026",
+        "OS-level AI assistant",
+        "Windows PC",
+        "file-system context",
+        "cross-device control",
+        "mobile app control",
+        "model routing"
+      ],
+      "url": "https://technode.com/2026/05/21/tencent-unveils-mavis-ai-assistant-that-turns-pcs-into-conversational-interfaces/",
+      "sourceName": "TechNode + China tech coverage",
+      "relatedSources": [
+        "TechNode",
+        "AIBase",
+        "ChinaBizInsider"
+      ],
+      "relatedLinks": [
+        {
+          "title": "Tencent unveils Mavis AI assistant",
+          "url": "https://technode.com/2026/05/21/tencent-unveils-mavis-ai-assistant-that-turns-pcs-into-conversational-interfaces/",
+          "sourceName": "TechNode"
+        },
+        {
+          "title": "Tencent launches operating system-level AI assistant",
+          "url": "https://news.aibase.com/news/28189",
+          "sourceName": "AIBase"
+        }
+      ],
+      "lane": "news",
+      "publishedAt": "2026-05-21T12:00:00.000Z",
+      "importance": 152,
+      "sourceConfidence": "medium",
+      "summaryEngine": "chat-curated"
+    },
+    {
+      "id": "curated-quanscient-10m-series-a-2026-05-26",
+      "title": "Quanscient raises EUR10M for AI-native hardware simulation",
+      "summary": "Finnish deep-tech company Quanscient raised a EUR10M Series A to expand cloud-native multiphysics simulation software with quantum algorithms and AI-native engineering workflows.",
+      "fullSummary": "Quanscient's EUR10M Series A is a smaller round than the U.S. AI mega-deals, but it is useful signal from the industrial AI stack. The Finnish company builds cloud-based multiphysics simulation technology and quantum algorithms for hardware engineering, where teams need to model electromagnetic, thermal, mechanical, fluid, and other effects before real-world manufacturing. The round was led by Danish quantum fund 55 North and Austrian industrial investor B&C Group, with existing investors Maki.vc, Crowberry Capital, QAI Ventures, and First Fellow Partners rejoining. The company says the capital will support international expansion and strengthen its position in multiphysics simulations, quantum algorithms, and AI-native hardware engineering. The reason it matters is that AI adoption in physical industries depends on reliable simulation and design optimization, not only chat interfaces. Watch whether these tools become mainstream engineering infrastructure or remain specialist simulation software.",
+      "keyFacts": [
+        "Quanscient",
+        "EUR10M Series A",
+        "May 26, 2026",
+        "55 North",
+        "B&C Group",
+        "Maki.vc",
+        "Crowberry Capital",
+        "QAI Ventures",
+        "multiphysics simulation",
+        "quantum algorithms"
+      ],
+      "url": "https://quanscient.com/news/quanscient-raises-10m-leads-the-shift-to-quantum-and-ai-native-hardware-engineering",
+      "sourceName": "Quanscient",
+      "relatedSources": [
+        "Quanscient",
+        "Today's Startup News"
+      ],
+      "lane": "startups",
+      "publishedAt": "2026-05-26T12:00:00.000Z",
+      "importance": 150,
+      "sourceConfidence": "high",
+      "summaryEngine": "chat-curated"
+    },
+    {
+      "id": "curated-mistral-medium-35-2026-04-29",
+      "title": "Mistral Medium 3.5 keeps Europe in the open-weight agent race",
+      "summary": "Mistral Medium 3.5 is a 128B open-weight model for agentic and coding use cases, with configurable reasoning and a 256K-token context window.",
+      "fullSummary": "Mistral Medium 3.5 belongs in the feed because it is one of the more practical non-U.S., non-Chinese model releases in the current cycle. Mistral's docs describe Medium 3.5 as a frontier-class multimodal model optimized for agentic and coding use cases with adjustable reasoning through a reasoning_effort parameter. Coverage around the April 29 release reports a 128B dense model, 256K context window, and open weights on Hugging Face. The model matters less as a single benchmark result and more as a European infrastructure option: companies can build agentic and coding workflows on a strong open-weight model without tying every workload to a U.S. closed API or a Chinese model ecosystem. Watch the license terms, commercial restrictions, and whether Mistral's Vibe agents and Le Chat Work Mode create real distribution for the model.",
+      "keyFacts": [
+        "Mistral AI",
+        "Mistral Medium 3.5",
+        "April 29, 2026",
+        "128B dense model",
+        "256K context",
+        "reasoning_effort",
+        "agentic coding",
+        "multimodal",
+        "open weights",
+        "Hugging Face"
+      ],
+      "url": "https://docs.mistral.ai/models/model-cards/mistral-medium-3-5-26-04",
+      "sourceName": "Mistral Docs + coverage",
+      "relatedSources": [
+        "Mistral Docs",
+        "WinBuzzer",
+        "Hugging Face"
+      ],
+      "lane": "news",
+      "publishedAt": "2026-04-29T12:00:00.000Z",
+      "importance": 150,
+      "sourceConfidence": "high",
+      "summaryEngine": "chat-curated"
+    },
+    {
+      "id": "curated-claw-anything-agent-benchmark-2026-05-25",
+      "title": "Claw-Anything benchmarks always-on personal AI agents",
+      "summary": "The new Claw-Anything paper expands agent evaluation to long activity histories, connected backend services, and combined GUI and CLI control across devices.",
+      "fullSummary": "Claw-Anything is a timely research benchmark because the industry is moving from chatbots toward always-on personal agents such as Gemini Spark, computer-use assistants, and agentic OS layers. The paper argues that the next leap for LLM agents requires scaling the slice of a user's digital world that an assistant can perceive, reason over, and act on. Its benchmark expands agent context across three dimensions: long-horizon activity histories, interdependent backend services, and integrated GUI plus CLI interaction across multiple devices. That is more realistic than single-task web or terminal benchmarks, but it also raises the hard problems: privacy, identity, permissions, persistent memory, recovery from mistakes, and evaluation of actions that unfold over time. Watch whether frontier labs and open-source agent builders start reporting performance on richer personal-assistant benchmarks instead of relying on narrow tool-use demos.",
+      "keyFacts": [
+        "Claw-Anything",
+        "arXiv 2605.26086",
+        "May 25, 2026",
+        "always-on personal assistants",
+        "long-horizon activity histories",
+        "backend services",
+        "GUI and CLI interaction",
+        "multi-device agents"
+      ],
+      "url": "https://huggingface.co/papers/2605.26086",
+      "sourceName": "Hugging Face Papers / arXiv",
+      "relatedSources": [
+        "Hugging Face Papers",
+        "arXiv"
+      ],
+      "lane": "papers",
+      "publishedAt": "2026-05-25T00:00:00.000Z",
+      "importance": 148,
+      "sourceConfidence": "high",
+      "summaryEngine": "chat-curated"
+    },
+    {
+      "id": "curated-hark-700m-series-a-2026-05-21",
+      "title": "Hark raises $700M Series A for a secretive universal AI interface",
+      "summary": "Hark raised $700M at a $6B post-money valuation before shipping a public product, betting that consumer AI needs models, hardware, and a new interface layer.",
+      "fullSummary": "Hark's $700M Series A is the kind of round that shows how distorted, and how ambitious, AI funding has become. TechCrunch reports that the company, founded by Figure AI and Archer founder Brett Adcock, is building models and hardware for an AI personal assistant that works as a universal interface to the digital world. Parkway Venture Capital led the round, joined by Nvidia, AMD Ventures, Intel Capital, Qualcomm Ventures, Salesforce Ventures, ARK Invest, Brookfield, Greycroft, Align Ventures, Prime Movers Lab, and others. Hark says it has 70 employees, a data center with Nvidia B200 GPUs, and plans to release its first multimodal models this summer. The risk is obvious: little has been shown publicly. The opportunity is also obvious: if agents become the interface to software, the company that owns the interface can sit above apps, devices, and model providers.",
+      "keyFacts": [
+        "Hark",
+        "$700M Series A",
+        "$6B post-money valuation",
+        "Brett Adcock",
+        "Parkway Venture Capital",
+        "Nvidia",
+        "AMD Ventures",
+        "Intel Capital",
+        "Qualcomm Ventures",
+        "70 employees",
+        "Nvidia B200 GPUs"
+      ],
+      "url": "https://techcrunch.com/2026/05/21/hark-raises-700m-series-a-for-its-secretive-universal-ai-interface/",
+      "sourceName": "TechCrunch",
+      "relatedSources": [
+        "TechCrunch",
+        "Axios Pro Rata"
+      ],
+      "lane": "startups",
+      "publishedAt": "2026-05-21T14:00:00.000Z",
+      "importance": 146,
+      "sourceConfidence": "high",
+      "summaryEngine": "chat-curated"
+    },
+    {
+      "id": "curated-kore-artemis-agent-platform-2026-05-21",
+      "title": "Kore.ai Artemis tries to industrialize multi-agent deployment",
+      "summary": "Kore.ai launched Artemis, an AI-native agent platform for building, governing, and optimizing production multi-agent systems in days instead of months.",
+      "fullSummary": "Kore.ai's Artemis launch is a practical enterprise-agent story that would be easy to miss under the frontier-lab noise. The company says the Artemis edition of its Agent Platform is an AI-programmable foundation for building, governing, and optimizing agents, systems, and workflows across enterprises. It launches initially on Microsoft Azure, with broader cloud availability planned. The important details are operational rather than flashy: real-time PII tokenization, tenant isolation, immutable audit trails, SOC 2 Type II, ISO 27001, PCI DSS, FedRAMP Moderate authorization, HIPAA alignment, HiTrust, GDPR, 40+ voice and digital channels, and 300+ integrations. That is the direction enterprise agents are moving: less demo magic, more permissions, observability, auditability, and deployment controls. Watch whether Kore.ai can compete with Salesforce, ServiceNow, Microsoft, and Google by being a neutral orchestration layer.",
+      "keyFacts": [
+        "Kore.ai",
+        "Artemis",
+        "May 21, 2026",
+        "Agent Platform",
+        "Microsoft Azure",
+        "FedRAMP Moderate",
+        "SOC 2 Type II",
+        "40+ channels",
+        "300+ integrations",
+        "500+ Global 2000 organizations"
+      ],
+      "url": "https://www.kore.ai/news/kore-ai-launches-artemis-the-new-generation-of-the-kore-ai-agent-platform-for-building-governing-and-optimizing-enterprise-ai",
+      "sourceName": "Kore.ai + VentureBeat",
+      "relatedSources": [
+        "Kore.ai",
+        "VentureBeat"
+      ],
+      "lane": "news",
+      "publishedAt": "2026-05-21T13:00:00.000Z",
+      "importance": 146,
+      "sourceConfidence": "high",
+      "summaryEngine": "chat-curated"
+    },
     {
       "id": "curated-nvidia-vera-agentic-cpu-200b-2026-05-27",
       "title": "Nvidia pitches Vera as a $200B CPU market for AI agents",
       "summary": "Jensen Huang says Nvidia's Vera CPU opens a new $200B market as billions of AI agents begin running tool-heavy workloads.",
       "fullSummary": "TechCrunch's latest Nvidia readout highlights a strategic shift beyond GPUs. After Nvidia reported $81.6B in quarterly revenue and guided for roughly $91B next quarter, Jensen Huang framed the new Vera CPU as a purpose-built processor for agentic AI. His argument is that GPUs handle model thinking, while agents will spend much of their time using tools, calling services, and running CPU-heavy workflows. Huang said Vera opens a new $200B total addressable market and claimed Nvidia has already sold $20B worth of standalone Vera CPUs this year. The story matters because it turns the agent boom into a hardware-market thesis: if companies deploy billions of software agents, CPU design and token-throughput efficiency may become as strategically important as accelerator supply.",
-      "keyFacts": ["Nvidia", "Jensen Huang", "Vera CPU", "$200B TAM", "$81.6B quarterly revenue", "$91B next-quarter guidance", "$20B Vera CPU sales", "agentic AI"],
+      "keyFacts": [
+        "Nvidia",
+        "Jensen Huang",
+        "Vera CPU",
+        "$200B TAM",
+        "$81.6B quarterly revenue",
+        "$91B next-quarter guidance",
+        "$20B Vera CPU sales",
+        "agentic AI"
+      ],
       "url": "https://techcrunch.com/2026/05/20/jensen-huang-says-hes-found-a-brand-new-200b-market-for-nvidia/",
       "sourceName": "TechCrunch",
-      "relatedSources": ["TechCrunch"],
+      "relatedSources": [
+        "TechCrunch"
+      ],
       "lane": "news",
       "publishedAt": "2026-05-20T21:28:00.000Z",
+      "importance": 144,
+      "sourceConfidence": "high",
+      "summaryEngine": "chat-curated"
+    },
+    {
+      "id": "curated-anthropic-spacex-compute-15b-year-2026-05-20",
+      "title": "Anthropic's SpaceX compute bill reaches $1.25B per month",
+      "summary": "Axios says Anthropic will pay SpaceX about $1.25B per month through May 2029 for Colossus compute, turning Musk's infrastructure into a major Claude scaling lever.",
+      "fullSummary": "Anthropic's expanded SpaceX compute deal is one of the clearest examples of how AI competition is becoming an infrastructure war. Axios reports that Anthropic is paying SpaceX $1.25B per month through May 2029 for access to Colossus supercomputing infrastructure, with ramp-up reductions in May and June. Anthropic co-founder and chief compute officer Tom Brown also said the company is expanding from Colossus 1 to Colossus 2 and scaling up Nvidia GB200 capacity through June. The headline number is staggering because SpaceX's annual revenue is reported around $18B, meaning one AI customer can become a major business line. It also makes Elon Musk a compute landlord to a frontier-lab rival while SpaceX moves toward an IPO. Watch whether Anthropic can turn that capacity into Claude revenue fast enough to justify the fixed spend.",
+      "keyFacts": [
+        "Anthropic",
+        "SpaceX",
+        "$1.25B per month",
+        "$15B per year",
+        "through May 2029",
+        "Colossus 1",
+        "Colossus 2",
+        "Nvidia GB200",
+        "Tom Brown"
+      ],
+      "url": "https://www.axios.com/2026/05/20/anthropic-spacex-compute",
+      "sourceName": "Axios",
+      "relatedSources": [
+        "Axios",
+        "SpaceX IPO filing references"
+      ],
+      "lane": "news",
+      "publishedAt": "2026-05-20T16:00:00.000Z",
+      "importance": 144,
+      "sourceConfidence": "high",
+      "summaryEngine": "chat-curated"
+    },
+    {
+      "id": "curated-google-pics-workspace-2026-05-19",
+      "title": "Google Pics brings AI image editing into Workspace",
+      "summary": "Google launched Pics, an AI image creation and editing tool for Workspace, as design becomes a major battleground inside productivity suites.",
+      "fullSummary": "Google Pics is a useful application story because it shows generative design moving directly into office software. Google says Pics is an image creation and editing tool for Workspace that can help users build designs from a blank canvas or edit existing photos without wrestling with complex prompts. TechCrunch framed the launch as Google declaring itself a contender in AI design, while Google's Workspace update also bundled voice features for Gmail, Docs, and Keep, AI Inbox updates, and Gemini Spark. The practical significance is distribution: image generation and editing no longer need to live in standalone creator apps if they are embedded into the documents, slides, campaigns, and everyday assets where teams already work. Watch whether Pics becomes a Canva competitor, a lightweight internal-design tool, or just another Gemini feature in Workspace.",
+      "keyFacts": [
+        "Google Pics",
+        "Google Workspace",
+        "May 19, 2026",
+        "AI image creation",
+        "AI image editing",
+        "Google I/O 2026",
+        "Gmail",
+        "Docs",
+        "Keep",
+        "AI Inbox"
+      ],
+      "url": "https://blog.google/products-and-platforms/products/workspace/workspace-updates/",
+      "sourceName": "Google + TechCrunch",
+      "relatedSources": [
+        "Google",
+        "TechCrunch"
+      ],
+      "relatedLinks": [
+        {
+          "title": "New ways to create and get stuff done in Google Workspace",
+          "url": "https://blog.google/products-and-platforms/products/workspace/workspace-updates/",
+          "sourceName": "Google"
+        },
+        {
+          "title": "Google just declared itself a contender in AI design",
+          "url": "https://techcrunch.com/2026/05/19/ai-design-tools-are-the-next-big-battleground-and-google-is-going-all-in/",
+          "sourceName": "TechCrunch"
+        }
+      ],
+      "lane": "news",
+      "publishedAt": "2026-05-19T12:00:00.000Z",
       "importance": 144,
       "sourceConfidence": "high",
       "summaryEngine": "chat-curated"
@@ -24,12 +620,53 @@
       "title": "OpenAI offers $2M in tokens to every current YC startup",
       "summary": "Sam Altman offered every startup in the current Y Combinator batch $2M in OpenAI tokens through an uncapped SAFE, turning inference credits into venture strategy.",
       "fullSummary": "TechCrunch reports that OpenAI offered $2M worth of tokens to each startup in the current Y Combinator class, which YC says includes about 169 startups. The deal is structured as an uncapped SAFE, so OpenAI's equity stake would convert at the startup's next priced round rather than at a fixed valuation today. The move is clever and controversial. For startups, token credits can offset one of the largest early AI infrastructure costs. For OpenAI, the offer creates equity exposure and pushes a whole batch of startups to build on OpenAI rather than Anthropic, Google, or open-source stacks. The risk is lock-in and idea exposure: founders are trading scarce equity for compute that may get cheaper over time.",
-      "keyFacts": ["OpenAI", "Sam Altman", "Y Combinator", "$2M in tokens per startup", "169 startups", "uncapped SAFE", "current YC batch"],
+      "keyFacts": [
+        "OpenAI",
+        "Sam Altman",
+        "Y Combinator",
+        "$2M in tokens per startup",
+        "169 startups",
+        "uncapped SAFE",
+        "current YC batch"
+      ],
       "url": "https://techcrunch.com/2026/05/20/sam-altman-makes-mic-drop-offer-to-every-y-combinator-startup/",
       "sourceName": "TechCrunch",
-      "relatedSources": ["TechCrunch", "Y Combinator commentary"],
+      "relatedSources": [
+        "TechCrunch",
+        "Y Combinator commentary"
+      ],
       "lane": "startups",
       "publishedAt": "2026-05-20T18:23:00.000Z",
+      "importance": 142,
+      "sourceConfidence": "high",
+      "summaryEngine": "chat-curated"
+    },
+    {
+      "id": "curated-openai-geometry-proof-2026-05-20",
+      "title": "OpenAI model disproves a decades-old discrete geometry conjecture",
+      "summary": "OpenAI says an internal reasoning model autonomously found a proof that disproves a central unit-distance conjecture from Erdős-style discrete geometry.",
+      "fullSummary": "OpenAI's May 20 research announcement is a major science-AI story rather than a product launch. The company says an internal general-purpose reasoning model autonomously disproved a longstanding conjecture in the planar unit distance problem, first posed by Paul Erdős in 1946. The question asks how many pairs of n points in the plane can be exactly distance 1 apart. OpenAI says the model found an infinite family of examples that beat the widely believed n^(1+o(1)) limit, with a polynomial improvement; a refinement by Princeton professor Will Sawin gives delta = 0.014 for infinitely many n. External mathematicians checked the proof and wrote companion remarks, with Tim Gowers calling it a milestone in AI mathematics. The result matters because it suggests models can contribute original research insights, not just assist with known proof search. The watch item is reproducibility and whether similar systems solve problems outside carefully selected evaluations.",
+      "keyFacts": [
+        "OpenAI",
+        "May 20, 2026",
+        "unit distance problem",
+        "Paul Erdos",
+        "1946",
+        "discrete geometry",
+        "n^(1+delta)",
+        "delta = 0.014",
+        "Will Sawin",
+        "Tim Gowers",
+        "external mathematicians"
+      ],
+      "url": "https://openai.com/index/model-disproves-discrete-geometry-conjecture/",
+      "sourceName": "OpenAI",
+      "relatedSources": [
+        "OpenAI",
+        "Axios"
+      ],
+      "lane": "papers",
+      "publishedAt": "2026-05-20T12:00:00.000Z",
       "importance": 142,
       "sourceConfidence": "high",
       "summaryEngine": "chat-curated"
@@ -39,12 +676,95 @@
       "title": "Intuit cuts 17% of staff to redirect resources toward AI",
       "summary": "Intuit is laying off more than 3,000 employees while saying it will simplify the company and focus more sharply on AI products.",
       "fullSummary": "TechCrunch, citing Reuters, reports that Intuit is cutting about 17% of its workforce, or more than 3,000 people, as CEO Sasan Goodarzi redirects resources toward AI. The company had 18,200 employees worldwide as of July 2025 and reported $4.65B in fiscal second-quarter revenue, up 17%, with $693M in net profit, up 48%. That contrast is the point: many tech layoffs are now happening at profitable companies that are using AI as a reason to restructure rather than as a response to collapse. For traditional software vendors, the pressure is acute because AI threatens both how software is built and how customers interact with products such as TurboTax, QuickBooks, and Credit Karma.",
-      "keyFacts": ["Intuit", "17% workforce reduction", "3,000+ employees", "Sasan Goodarzi", "$4.65B Q2 revenue", "$693M net profit", "TurboTax", "QuickBooks", "Credit Karma"],
+      "keyFacts": [
+        "Intuit",
+        "17% workforce reduction",
+        "3,000+ employees",
+        "Sasan Goodarzi",
+        "$4.65B Q2 revenue",
+        "$693M net profit",
+        "TurboTax",
+        "QuickBooks",
+        "Credit Karma"
+      ],
       "url": "https://techcrunch.com/2026/05/20/intuit-to-lay-off-over-3000-employees-to-refocus-on-ai/",
       "sourceName": "TechCrunch + Reuters",
-      "relatedSources": ["TechCrunch", "Reuters"],
+      "relatedSources": [
+        "TechCrunch",
+        "Reuters"
+      ],
       "lane": "news",
       "publishedAt": "2026-05-20T12:14:00.000Z",
+      "importance": 140,
+      "sourceConfidence": "high",
+      "summaryEngine": "chat-curated"
+    },
+    {
+      "id": "curated-google-gemini-spark-omni-io-2026-05-19",
+      "title": "Google I/O turns Gemini into a 24/7 agent and multimodal media stack",
+      "summary": "Google introduced Gemini Spark, Daily Brief, Neural Expressive, and Gemini Omni as it tries to make Gemini the active AI layer across everyday apps.",
+      "fullSummary": "Google's I/O 2026 Gemini package is bigger than a chatbot refresh. Google says Gemini Spark is a 24/7 personal AI agent that runs on Gemini 3.5 and the Antigravity platform, works in the background, and checks with users before major actions. Daily Brief rolls out to U.S. Google AI subscribers with connected Google apps, using inbox, calendar, and task context to organize the day and suggest next steps. The Gemini app also gets a redesigned Neural Expressive interface, while Gemini Omni brings a more unified multimodal video model into Google Flow and YouTube Shorts for subscribers. TechCrunch notes the Gemini app has more than 900M monthly users across 230+ countries and 70+ languages, which gives Google unusual distribution for agent features. The watch item is trust: background agents inside Gmail, Docs, Keep, Search, and Android will need clear permissions, memory controls, and failure recovery.",
+      "keyFacts": [
+        "Google I/O 2026",
+        "Gemini Spark",
+        "Gemini 3.5",
+        "Google Antigravity",
+        "Daily Brief",
+        "Neural Expressive",
+        "Gemini Omni",
+        "900M+ monthly Gemini app users",
+        "230+ countries",
+        "70+ languages"
+      ],
+      "url": "https://blog.google/innovation-and-ai/technology/ai/google-io-2026-all-our-announcements/",
+      "sourceName": "Google + TechCrunch",
+      "relatedSources": [
+        "Google",
+        "TechCrunch"
+      ],
+      "relatedLinks": [
+        {
+          "title": "100 things announced at Google I/O 2026",
+          "url": "https://blog.google/innovation-and-ai/technology/ai/google-io-2026-all-our-announcements/",
+          "sourceName": "Google"
+        },
+        {
+          "title": "Google updates Gemini app at I/O 2026",
+          "url": "https://techcrunch.com/2026/05/19/google-updates-its-gemini-app-to-take-on-chatgpt-and-claude-at-io-2026/",
+          "sourceName": "TechCrunch"
+        }
+      ],
+      "lane": "news",
+      "publishedAt": "2026-05-19T17:45:00.000Z",
+      "importance": 140,
+      "sourceConfidence": "high",
+      "summaryEngine": "chat-curated"
+    },
+    {
+      "id": "curated-doola-mcp-chatgpt-llc-2026-05-14",
+      "title": "doola lets founders form an LLC from inside ChatGPT",
+      "summary": "doola's MCP integration brings U.S. LLC formation into ChatGPT, extending its agentic company-formation workflow across Claude, Replit, and OpenAI's chat surface.",
+      "fullSummary": "doola's ChatGPT integration is a small but sharp example of what agentic commerce can look like when the workflow has a real-world legal endpoint. The company says its Model Context Protocol integration is live in ChatGPT after earlier Claude and Replit launches. A founder can connect doola, ask to form an LLC, and the chat flow handles company name, formation state, package selection, Stripe checkout, and post-payment setup while doola manages backend filing and registered-agent coordination. The claim that matters is not the exact user count, but the product pattern: regulated or semi-regulated services can expose a tool to a conversational agent and turn planning into execution. Watch the trust boundary carefully: company formation involves identity, payment, legal documents, and state filings, so confirmation, audit trails, and user understanding matter more than speed.",
+      "keyFacts": [
+        "doola",
+        "Model Context Protocol",
+        "ChatGPT",
+        "May 14, 2026",
+        "LLC formation",
+        "Claude",
+        "Replit",
+        "Stripe checkout",
+        "registered agent",
+        "EIN and banking setup"
+      ],
+      "url": "https://www.newswire.com/news/doola-brings-llc-formation-to-chatgpt-reaching-800m-weekly-users",
+      "sourceName": "Newswire / doola",
+      "relatedSources": [
+        "Newswire",
+        "doola"
+      ],
+      "lane": "news",
+      "publishedAt": "2026-05-14T12:00:00.000Z",
       "importance": 140,
       "sourceConfidence": "high",
       "summaryEngine": "chat-curated"
@@ -54,13 +774,139 @@
       "title": "SpaceX's IPO filing turns xAI into a major investor concern",
       "summary": "SpaceX's public S-1 shows an AI-heavy conglomerate: xAI absorbed about 60% of 2025 capital spending while the filing points to a $22.7T enterprise-AI opportunity.",
       "fullSummary": "TechCrunch's review of SpaceX's public IPO filing shows how deeply AI has entered the company's investment story. SpaceX chose the ticker SPCX and is reportedly heading toward a roughly $75B raise and $1.75T valuation, but the filing is not just about rockets. It says the company lost about $4.9B in 2025 on more than $18B in revenue, with Starlink generating around $11B. The AI division that houses xAI reportedly absorbed about 60% of capital spending in 2025, or around $20B, while SpaceX describes a $28.5T total addressable market, including $22.7T for enterprise AI. The tension is obvious: investors are being asked to value one company as rockets, satellite internet, AI infrastructure, and Musk execution risk all at once.",
-      "keyFacts": ["SpaceX", "SPCX ticker", "$75B expected raise", "$1.75T reported valuation", "$4.9B 2025 loss", "$18B+ 2025 revenue", "$11B Starlink revenue", "$20B AI capex", "$22.7T enterprise AI TAM"],
+      "keyFacts": [
+        "SpaceX",
+        "SPCX ticker",
+        "$75B expected raise",
+        "$1.75T reported valuation",
+        "$4.9B 2025 loss",
+        "$18B+ 2025 revenue",
+        "$11B Starlink revenue",
+        "$20B AI capex",
+        "$22.7T enterprise AI TAM"
+      ],
       "url": "https://techcrunch.com/2026/05/20/the-spacex-ipo-filing-ai-bets-starship-dreams-elon-musk/",
       "sourceName": "TechCrunch",
-      "relatedSources": ["TechCrunch", "SpaceX S-1"],
+      "relatedSources": [
+        "TechCrunch",
+        "SpaceX S-1"
+      ],
       "lane": "deals",
       "publishedAt": "2026-05-20T20:03:00.000Z",
       "importance": 138,
+      "sourceConfidence": "high",
+      "summaryEngine": "chat-curated"
+    },
+    {
+      "id": "curated-hellbender-edge-ai-camera-2026-05-19",
+      "title": "Hellbender launches edge AI cameras for physical-world deployment",
+      "summary": "Hellbender raised $12.5M and launched on-edge AI camera systems meant to bring perception and decision-making into energy, logistics, agriculture, manufacturing, and healthcare.",
+      "fullSummary": "Hellbender is a good example of physical AI infrastructure below the hype layer. The Pittsburgh company raised a $12.5M seed round co-led by Magarac Venture Partners and Veredas Partners, with participation from Mana Ventures, Gaingels, Sum VC, and Active Angels Network. More interesting than the round is the product shift: Hellbender is moving from an engineering and AI hardware manufacturing arm into a commercial provider of edge AI platforms, including stereo and vine AI camera systems. The pitch is to let software teams deploy perception, reasoning, and decision-making directly in physical environments without building custom hardware stacks. Target industries include energy, logistics, agriculture, manufacturing, and healthcare. Watch whether secure, onshore, edge-native AI hardware becomes a procurement requirement as robotics and computer vision leave labs and move into facilities.",
+      "keyFacts": [
+        "Hellbender",
+        "$12.5M seed",
+        "May 19, 2026",
+        "Magarac Venture Partners",
+        "Veredas Partners",
+        "edge AI cameras",
+        "physical AI",
+        "agriculture",
+        "manufacturing",
+        "healthcare"
+      ],
+      "url": "https://www.prnewswire.com/news-releases/hellbender-secures-12-5m-seed-round-to-accelerate-domestic-manufacturing-of-physical-ai-and-launch-its-on-edge-camera-line-302775081.html",
+      "sourceName": "PR Newswire / Hellbender",
+      "relatedSources": [
+        "PR Newswire",
+        "Hellbender"
+      ],
+      "lane": "startups",
+      "publishedAt": "2026-05-19T12:00:00.000Z",
+      "importance": 138,
+      "sourceConfidence": "high",
+      "summaryEngine": "chat-curated"
+    },
+    {
+      "id": "curated-google-co-scientist-nature-2026-05-19",
+      "title": "Google DeepMind publishes Co-Scientist and opens Hypothesis Generation",
+      "summary": "Google DeepMind published Co-Scientist research in Nature and is rolling out a Gemini-powered Hypothesis Generation tool for researchers.",
+      "fullSummary": "Google DeepMind's Co-Scientist update is the research counterpart to Google's consumer-agent push. The company says Nature published its latest Co-Scientist research on May 19, describing a multi-agent AI system built with Gemini that iteratively generates, debates, and evolves hypotheses for complex scientific problems. Google is also making the system available to individual researchers through Hypothesis Generation, an experimental tool developed across Google DeepMind, Google Research, Google Cloud, and Google Labs. The practical promise is to let scientists turn a research goal into candidate hypotheses and lines of inquiry faster than manual literature synthesis alone. The caution is that hypothesis generation is not scientific validation: lab work, domain expertise, negative results, and reproducibility still decide what is real. Watch whether Co-Scientist becomes a durable research workflow or remains a high-profile demo around selected biology and science examples.",
+      "keyFacts": [
+        "Google DeepMind",
+        "Co-Scientist",
+        "Nature",
+        "May 19, 2026",
+        "Gemini",
+        "multi-agent AI system",
+        "Hypothesis Generation",
+        "Google Research",
+        "Google Cloud",
+        "Google Labs"
+      ],
+      "url": "https://deepmind.google/blog/co-scientist-a-multi-agent-ai-partner-to-accelerate-research/",
+      "sourceName": "Google DeepMind",
+      "relatedSources": [
+        "Google DeepMind",
+        "Nature"
+      ],
+      "lane": "papers",
+      "publishedAt": "2026-05-19T12:00:00.000Z",
+      "importance": 138,
+      "sourceConfidence": "high",
+      "summaryEngine": "chat-curated"
+    },
+    {
+      "id": "curated-human-archive-india-robot-data-2026-05-26",
+      "title": "Human Archive uses India's gig economy to collect robot-training data",
+      "summary": "Human Archive raised $8.2M while deploying camera headsets and sensor rigs with service workers in India to gather first-person data for physical AI labs.",
+      "fullSummary": "Human Archive is a smaller but very interesting robotics-data story. TechCrunch reports the startup is partnering with service, hotel, and restaurant companies in India to collect egocentric video and multimodal sensor data from workers doing everyday tasks. The company says it has more than 1,000 active headsets deployed and more than 50 devices collecting different data streams, including RGB-D video, tactile gloves, a full-body motion-capture suit, and wrist cameras. It raised $8.2M from Wing Venture Capital, NVP Capital, Y Combinator, and angels from OpenAI, Nvidia, Google, Mercor, BAIR, SAIL, and Meta. The upside is clear: robotics labs need real-world manipulation data. The concern is also clear: worker consent, compensation, customer privacy, and India DPDP Act compliance will define whether this becomes a scalable data layer or a controversy.",
+      "keyFacts": [
+        "Human Archive",
+        "$8.2M funding",
+        "May 26, 2026",
+        "India",
+        "1,000+ active headsets",
+        "50+ devices",
+        "RGB-D data",
+        "tactile gloves",
+        "Wing Venture Capital",
+        "Y Combinator"
+      ],
+      "url": "https://techcrunch.com/2026/05/26/human-archive-taps-into-indias-services-startups-to-collect-data-for-physical-ai/",
+      "sourceName": "TechCrunch",
+      "relatedSources": [
+        "TechCrunch",
+        "Human Archive"
+      ],
+      "lane": "startups",
+      "publishedAt": "2026-05-26T16:00:00.000Z",
+      "importance": 136,
+      "sourceConfidence": "high",
+      "summaryEngine": "chat-curated"
+    },
+    {
+      "id": "curated-nvidia-816b-quarter-2026-05-20",
+      "title": "Nvidia's $81.6B quarter shows AI infrastructure demand is still roaring",
+      "summary": "Nvidia reported $81.6B in quarterly revenue, $75.2B from data center, guided above estimates, and authorized $80B in buybacks.",
+      "fullSummary": "Nvidia's latest results reinforce that AI infrastructure demand has not cooled. Axios reports quarterly revenue of $81.6B, ahead of estimates, with data center revenue alone at $75.2B. The company also guided the next quarter to between $89.18B and $92.8B, boosted its dividend, and authorized $80B of buybacks. The numbers matter because they show AI buildouts are still converting into near-term hardware revenue even as investors question whether applications can justify the capex. They also pair with Nvidia's broader Vera CPU push for agentic workloads, where the company argues AI agents will increase demand for CPU orchestration as well as GPU compute. Watch gross margins, China restrictions, hyperscaler concentration, and whether inference workloads start shifting to custom silicon or remain heavily Nvidia-centered.",
+      "keyFacts": [
+        "Nvidia",
+        "$81.6B quarterly revenue",
+        "$75.2B data center revenue",
+        "$89.18B-$92.8B guidance",
+        "$80B buyback authorization",
+        "Jensen Huang",
+        "AI infrastructure"
+      ],
+      "url": "https://www.axios.com/2026/05/20/nvidia-earnings-shows-ai-demand-is-still-roaring",
+      "sourceName": "Axios",
+      "relatedSources": [
+        "Axios",
+        "Nvidia"
+      ],
+      "lane": "news",
+      "publishedAt": "2026-05-20T16:00:00.000Z",
+      "importance": 136,
       "sourceConfidence": "high",
       "summaryEngine": "chat-curated"
     },
@@ -69,12 +915,52 @@
       "title": "OpenAI adds SynthID and C2PA signals to generated images",
       "summary": "OpenAI is layering C2PA metadata, Google DeepMind's SynthID watermark, and a public verification preview onto images from ChatGPT, Codex, and the API.",
       "fullSummary": "OpenAI's May provenance update is a practical synthetic-media infrastructure story. The company says it has become a C2PA conforming generator product, is incorporating Google DeepMind's SynthID watermark into images generated through ChatGPT, Codex, and the OpenAI API, and is previewing a public verification tool. C2PA can provide structured metadata about how a file was made or edited, while SynthID is designed to survive some transformations that strip metadata. The important limitation is that provenance is a signal, not proof of truth: files can lack credentials for innocent reasons, and determined adversaries can still use tools outside participating ecosystems. Still, OpenAI adopting a Google watermarking standard is a meaningful step toward cross-platform media provenance.",
-      "keyFacts": ["OpenAI", "May 19, 2026", "C2PA conforming generator", "Google DeepMind SynthID", "ChatGPT images", "Codex images", "OpenAI API", "public verification preview"],
+      "keyFacts": [
+        "OpenAI",
+        "May 19, 2026",
+        "C2PA conforming generator",
+        "Google DeepMind SynthID",
+        "ChatGPT images",
+        "Codex images",
+        "OpenAI API",
+        "public verification preview"
+      ],
       "url": "https://openai.com/index/advancing-content-provenance/",
       "sourceName": "OpenAI",
-      "relatedSources": ["OpenAI", "Google DeepMind SynthID ecosystem coverage"],
+      "relatedSources": [
+        "OpenAI",
+        "Google DeepMind SynthID ecosystem coverage"
+      ],
       "lane": "news",
       "publishedAt": "2026-05-19T12:00:00.000Z",
+      "importance": 136,
+      "sourceConfidence": "high",
+      "summaryEngine": "chat-curated"
+    },
+    {
+      "id": "curated-genesis-gene-265-robotics-2026-05-06",
+      "title": "Genesis AI unveils GENE-26.5 for dexterous robot manipulation",
+      "summary": "Genesis AI introduced GENE-26.5, a robotics foundation model paired with a dexterous robotic hand and data engine for human-like manipulation tasks.",
+      "fullSummary": "Genesis AI's GENE-26.5 announcement is one of the more interesting embodied-AI updates of the month. The company says the model is purpose-built for robotics and designed to absorb large amounts of data and environments. It also introduced a data system built around a proprietary human-scale dexterous robotic hand, intended to support direct skill transfer from humans to robots and train the model at scale. The company framed GENE-26.5 as a robotic brain for physical manipulation, and released a demo video showing complex object-handling tasks. Claims like 'human-level' should be treated cautiously until independent benchmarks and deployments appear, but the product direction is important: robotics labs are converging on full-stack data, model, hardware, and manipulation systems rather than generic language-model wrappers. Watch reproducibility, safety, cost, and whether the hand-data pipeline scales beyond demos.",
+      "keyFacts": [
+        "Genesis AI",
+        "GENE-26.5",
+        "May 6, 2026",
+        "robotics foundation model",
+        "dexterous robotic hand",
+        "data engine",
+        "physical manipulation",
+        "Paris",
+        "San Carlos"
+      ],
+      "url": "https://www.prnewswire.com/news-releases/genesis-ai-unveils-gene-26-5--the-first-ai-brain-to-enable-robots-with-human-level-physical-manipulation-capabilities-302763638.html",
+      "sourceName": "PR Newswire / Genesis AI",
+      "relatedSources": [
+        "PR Newswire",
+        "Genesis AI"
+      ],
+      "lane": "news",
+      "publishedAt": "2026-05-06T13:00:00.000Z",
       "importance": 136,
       "sourceConfidence": "high",
       "summaryEngine": "chat-curated"
@@ -84,12 +970,51 @@
       "title": "Google's AI Search rollout stumbles on the word 'disregard'",
       "summary": "TechCrunch found that Google's new AI-heavy Search experience can treat ordinary vocabulary queries like LLM instructions, leaving users with broken results.",
       "fullSummary": "TechCrunch's small but telling Google Search story shows why AI summaries are hard to graft onto keyword search at web scale. After Google pushed a new AI-forward Search experience, a query for the word 'disregard' produced an effectively broken result: the system appeared to treat the word as an instruction instead of a vocabulary lookup, pushing useful links far down the page. The story is not just a funny edge case. It shows a structural mismatch between search intent and language-model instruction following. Search has to handle tiny, ambiguous, adversarial, and boring queries reliably. If AI layers misread queries as prompts, Google risks weakening the core utility that made Search dominant.",
-      "keyFacts": ["Google Search", "AI summaries", "AI Mode", "disregard query", "May 22, 2026", "TechCrunch"],
+      "keyFacts": [
+        "Google Search",
+        "AI summaries",
+        "AI Mode",
+        "disregard query",
+        "May 22, 2026",
+        "TechCrunch"
+      ],
       "url": "https://techcrunch.com/2026/05/22/you-can-no-longer-google-the-word-disregard/",
       "sourceName": "TechCrunch",
-      "relatedSources": ["TechCrunch"],
+      "relatedSources": [
+        "TechCrunch"
+      ],
       "lane": "signal",
       "publishedAt": "2026-05-22T13:16:00.000Z",
+      "importance": 134,
+      "sourceConfidence": "high",
+      "summaryEngine": "chat-curated"
+    },
+    {
+      "id": "curated-ocean-28m-agentic-email-security-2026-05-21",
+      "title": "Ocean raises $28M for agentic email security",
+      "summary": "Ocean emerged from stealth with $28M to fight business email compromise, vendor fraud, and AI-generated phishing with an agentic email-security platform.",
+      "fullSummary": "Ocean's $28M raise is a useful security signal because AI is raising the quality and scale of phishing while enterprises are also trying to deploy agents internally. SecurityWeek reports that Ocean emerged from stealth with $28M in funding for an agentic email security platform focused on business email compromise, vendor email compromise, and AI-generated phishing. The round was led by Lightspeed Venture Partners with participation from Picture Capital and Cerca Partners, according to follow-on coverage. The company was founded by Shay Shwartz, whose background includes Israeli defense cybersecurity work. The practical angle is that email defense is moving from static filters toward systems that reason about intent, identity, vendor relationships, and workflows. The risk is that security agents need deep access to communications and identity context, so buyers will demand strong audit trails, explainability, and low false-positive rates.",
+      "keyFacts": [
+        "Ocean",
+        "$28M funding",
+        "Lightspeed Venture Partners",
+        "Picture Capital",
+        "Cerca Partners",
+        "Shay Shwartz",
+        "agentic email security",
+        "business email compromise",
+        "vendor email compromise",
+        "AI-generated phishing"
+      ],
+      "url": "https://www.securityweek.com/ocean-emerges-from-stealth-with-28m-for-agentic-email-security-platform/",
+      "sourceName": "SecurityWeek",
+      "relatedSources": [
+        "SecurityWeek",
+        "The AI Insider",
+        "TechCrunch-linked coverage"
+      ],
+      "lane": "startups",
+      "publishedAt": "2026-05-21T11:45:00.000Z",
       "importance": 134,
       "sourceConfidence": "high",
       "summaryEngine": "chat-curated"
@@ -99,12 +1024,51 @@
       "title": "Figma adds a native AI design agent to its collaborative canvas",
       "summary": "Figma's new agent can generate, edit, and automate interface design work directly inside Figma Design, with multiple agents able to run in parallel.",
       "fullSummary": "Figma's latest AI move brings agentic design work into the main collaborative canvas rather than keeping generation in a separate tool. Coverage around the launch says users can select an artboard, open a prompt box, and use natural language to generate new interface designs, update existing work, create UI elements, or automate repetitive tasks. The results remain editable Figma objects, which is important because design teams need control rather than static AI images. The move builds on Figma's integrations with Claude Code and OpenAI Codex, but it also makes Figma itself more of an AI-native workspace. Watch whether designers treat this as a production accelerator or as another review-heavy draft generator.",
-      "keyFacts": ["Figma", "AI design agent", "Figma Design", "May 21, 2026", "multiple agents in parallel", "Claude Code integration", "OpenAI Codex integration"],
+      "keyFacts": [
+        "Figma",
+        "AI design agent",
+        "Figma Design",
+        "May 21, 2026",
+        "multiple agents in parallel",
+        "Claude Code integration",
+        "OpenAI Codex integration"
+      ],
       "url": "https://alternativeto.net/news/2026/5/figma-launches-a-built-in-ai-agent-for-generating-and-editing-full-interface-designs/",
       "sourceName": "AlternativeTo + AI design coverage",
-      "relatedSources": ["AlternativeTo", "The AI Insider"],
+      "relatedSources": [
+        "AlternativeTo",
+        "The AI Insider"
+      ],
       "lane": "news",
       "publishedAt": "2026-05-21T05:56:00.000Z",
+      "importance": 132,
+      "sourceConfidence": "medium",
+      "summaryEngine": "chat-curated"
+    },
+    {
+      "id": "curated-jabas-ai-ag-robot-navigation-2026-05-13",
+      "title": "JABAS.AI tackles GPS-free navigation for agricultural robot fleets",
+      "summary": "University of Lincoln spinout JABAS.AI launched with pre-seed funding and trials for autonomous farm-robot navigation in GPS-constrained environments.",
+      "fullSummary": "JABAS.AI is a small but useful applied-AI story because farm robotics often fails on the unglamorous problem of navigation. iGrow News reports the company spun out from Ceres Agri-Tech and the University of Lincoln with a platform for autonomous agricultural robot fleets in GPS-constrained and unstructured farm environments. The target settings include canopy, polytunnels, and areas near farm structures where conventional GPS navigation degrades. The company has secured pre-seed investment and is working with six commercial operators on live trials. This is exactly the kind of narrow infrastructure that can decide whether agricultural robotics becomes practical: not another generic model, but a reliability layer for real fields. Watch whether JABAS.AI can generalize across crops, terrain, lighting, weather, and mixed fleets from different robot vendors.",
+      "keyFacts": [
+        "JABAS.AI",
+        "May 13, 2026",
+        "Ceres Agri-Tech",
+        "University of Lincoln",
+        "pre-seed investment",
+        "six commercial operators",
+        "agricultural robot fleets",
+        "GPS-constrained navigation",
+        "polytunnels",
+        "canopy environments"
+      ],
+      "url": "https://igrownews.com/jabas-ai-latest-news/",
+      "sourceName": "iGrow News",
+      "relatedSources": [
+        "iGrow News"
+      ],
+      "lane": "startups",
+      "publishedAt": "2026-05-13T12:00:00.000Z",
       "importance": 132,
       "sourceConfidence": "medium",
       "summaryEngine": "chat-curated"
@@ -114,10 +1078,25 @@
       "title": "NanoClaw turns a secure agent harness into a funded startup",
       "summary": "NanoCo raised a $12M seed round for NanoClaw after rejecting a roughly $20M acquisition offer, showing investor demand for safer AI-agent infrastructure.",
       "fullSummary": "TechCrunch reports that NanoCo, the company behind the security-focused NanoClaw agent framework, raised a $12M seed round led by Valley Capital Partners with participation from Docker, Vercel, Monday.com, Slow Ventures, and Hugging Face CEO Clem Delangue. The founders, Gavriel and Lazer Cohen, reportedly declined an acquisition offer around $20M after NanoClaw went viral. The product's appeal is practical: instead of giving an agent broad access to a user's machine and credentials, NanoClaw runs sandboxed in a container. That puts it in the same risk conversation as Claude Code, OpenClaw, and enterprise agent rollouts. The funding suggests the agent market is shifting from demos to controls, permissions, and deployment support.",
-      "keyFacts": ["NanoCo", "NanoClaw", "$12M seed round", "$20M rejected acquisition offer", "Valley Capital Partners", "Docker", "Vercel", "Monday.com", "Clem Delangue", "container sandbox"],
+      "keyFacts": [
+        "NanoCo",
+        "NanoClaw",
+        "$12M seed round",
+        "$20M rejected acquisition offer",
+        "Valley Capital Partners",
+        "Docker",
+        "Vercel",
+        "Monday.com",
+        "Clem Delangue",
+        "container sandbox"
+      ],
       "url": "https://techcrunch.com/2026/05/20/nanoclaw-creator-turns-down-20m-buyout-offer-raises-12m-seed-instead/",
       "sourceName": "TechCrunch",
-      "relatedSources": ["TechCrunch", "VentureBeat", "SiliconANGLE"],
+      "relatedSources": [
+        "TechCrunch",
+        "VentureBeat",
+        "SiliconANGLE"
+      ],
       "lane": "startups",
       "publishedAt": "2026-05-20T11:00:00.000Z",
       "importance": 130,
@@ -125,29 +1104,55 @@
       "summaryEngine": "chat-curated"
     },
     {
-      "id": "curated-pope-leo-ai-encyclical-2026-05-26",
-      "title": "Pope Leo makes AI the center of his first major encyclical",
-      "summary": "Pope Leo's Magnifica Humanitas turned AI into a front-page moral and policy issue, calling for stronger human control over automated systems and weapons.",
-      "fullSummary": "Pope Leo XIV used his first encyclical, Magnifica Humanitas, to frame artificial intelligence as one of the defining human-dignity questions of the decade. AP, Reuters-linked coverage, Vatican News, Axios, Le Monde, and other outlets described the text as a direct warning about opaque algorithms, autonomous weapons, workplace disruption, misinformation, and technology controlled by a small number of institutions. The story matters because it is not a narrow church document; it is an attempt to influence the global AI governance debate from a moral authority outside the technology industry. The practical follow-up is whether governments, Catholic institutions, and civil society groups cite the encyclical in fights over autonomous weapons, labor policy, disclosure rules, and human oversight standards.",
-      "keyFacts": ["Magnifica Humanitas", "May 25, 2026", "Pope Leo XIV", "AI regulation", "autonomous weapons", "human dignity"],
-      "url": "https://apnews.com/article/d92d0108730d146baa46da041b8523da",
-      "sourceName": "AP + Vatican News + Reuters coverage",
-      "relatedSources": ["AP", "Vatican News", "Axios", "Le Monde", "Reuters via Investing.com"],
-      "relatedLinks": [
-        {
-          "title": "Pope calls for robust regulation of AI",
-          "url": "https://apnews.com/article/d92d0108730d146baa46da041b8523da",
-          "sourceName": "AP"
-        },
-        {
-          "title": "Pope Leo presents Magnifica Humanitas",
-          "url": "https://www.vaticannews.va/en/pope/news/2026-05/pope-leo-xiv-magnifica-humanitas-presentation-ai-disarmament.html",
-          "sourceName": "Vatican News"
-        }
+      "id": "curated-verily-me-health-app-2026-05-15",
+      "title": "Verily Me brings AI health interpretation to U.S. consumers",
+      "summary": "Verily says its Verily Me app is now officially available for U.S. consumers, offering a private space to make sense of health data and care gaps.",
+      "fullSummary": "Verily Me is an applied healthcare-AI story worth tracking because it sits between consumer wellness apps and clinical infrastructure. Verily says the app, announced at SXSW 2026, is now officially available for U.S. consumers and is designed to close gaps in care. The company frames it as a private space to make sense of health information, while its broader site positions Verily around precision health AI and an AI-native platform called Verily Pre. The open question is how far the app goes beyond organization and explanation into recommendations, triage, or care navigation. Healthcare AI apps have to clear a higher bar than productivity tools: privacy, clinical accuracy, escalation pathways, and user trust matter more than slick UX. Watch whether Verily connects consumer data, care teams, and healthcare partners in a way that measurably improves outcomes.",
+      "keyFacts": [
+        "Verily",
+        "Verily Me",
+        "May 15, 2026",
+        "U.S. consumers",
+        "SXSW 2026",
+        "precision health AI",
+        "Verily Pre",
+        "health data",
+        "care gaps"
+      ],
+      "url": "https://verily.com/",
+      "sourceName": "Verily",
+      "relatedSources": [
+        "Verily"
       ],
       "lane": "news",
-      "publishedAt": "2026-05-25T13:30:00.000Z",
+      "publishedAt": "2026-05-15T12:00:00.000Z",
       "importance": 130,
+      "sourceConfidence": "medium",
+      "summaryEngine": "chat-curated"
+    },
+    {
+      "id": "curated-farther-150m-series-d-2026-05-21",
+      "title": "Farther raises $150M Series D for AI-native wealth management",
+      "summary": "Farther raised $150M led by General Atlantic to scale an AI-centered wealth-management platform for advisors and clients.",
+      "fullSummary": "Farther's $150M Series D shows how AI is moving into regulated professional workflows rather than just general productivity. General Atlantic says it led the round, with existing investors also participating, to help Farther expand platform capabilities and support more advisors and clients. Farther positions its Intelligent Wealth Platform as AI-native, built to give financial advisors more personalized and efficient planning, client service, and operational support. Axios Pro Rata also listed the deal among the week's notable venture rounds, alongside Hark and Modal. The reason this matters is that wealth management is a high-trust market where automation must improve advisor leverage without eroding compliance, fiduciary duty, or client confidence. Watch whether Farther uses the capital primarily for advisor recruiting and onboarding, deeper AI planning features, or broader family-office and enterprise offerings.",
+      "keyFacts": [
+        "Farther",
+        "$150M Series D",
+        "May 21, 2026",
+        "General Atlantic",
+        "AI-native wealth management",
+        "Intelligent Wealth Platform",
+        "financial advisors"
+      ],
+      "url": "https://www.generalatlantic.com/media-article/farther-raises-150-million-series-d-led-by-general-atlantic-to-scale-intelligent-wealth-management/",
+      "sourceName": "General Atlantic + Axios Pro Rata",
+      "relatedSources": [
+        "General Atlantic",
+        "Axios Pro Rata"
+      ],
+      "lane": "startups",
+      "publishedAt": "2026-05-21T12:00:00.000Z",
+      "importance": 128,
       "sourceConfidence": "high",
       "summaryEngine": "chat-curated"
     },
@@ -156,10 +1161,19 @@
       "title": "Google I/O pushes Gemini 3.5 and Antigravity as an agent platform",
       "summary": "Google's I/O package centered on Gemini 3.5 Flash, Antigravity, managed agents, and an Interactions API that moves developers from prompts toward action.",
       "fullSummary": "Google's I/O 2026 announcements were less about one model and more about making agentic workflows a first-class developer surface. Google said Gemini 3.5 Flash is generally available through Google Antigravity, the Gemini API in AI Studio, and Android Studio, while managed agents are powered by the Antigravity harness and exposed through the Interactions API. That framing matters because Google is packaging model capability, tool orchestration, and deployment into one platform story. The competitive question is whether developers choose Google's agent stack because it has better integration with Android, Search, Workspace, and Cloud, or whether they keep spreading workloads across OpenAI, Anthropic, open models, and cloud-specific inference services.",
-      "keyFacts": ["Google I/O 2026", "Gemini 3.5 Flash", "Google Antigravity", "Interactions API", "Google AI Studio", "Android Studio"],
+      "keyFacts": [
+        "Google I/O 2026",
+        "Gemini 3.5 Flash",
+        "Google Antigravity",
+        "Interactions API",
+        "Google AI Studio",
+        "Android Studio"
+      ],
       "url": "https://blog.google/innovation-and-ai/technology/developers-tools/google-io-2026-developer-highlights/",
       "sourceName": "Google",
-      "relatedSources": ["Google Keyword"],
+      "relatedSources": [
+        "Google Keyword"
+      ],
       "lane": "news",
       "publishedAt": "2026-05-20T12:00:00.000Z",
       "importance": 128,
@@ -167,17 +1181,110 @@
       "summaryEngine": "chat-curated"
     },
     {
+      "id": "curated-modal-355m-series-c-2026-05-22",
+      "title": "Modal raises $355M as AI infrastructure startups keep scaling",
+      "summary": "Modal raised a $355M Series C at a $4.65B post-money valuation, adding another large round to the AI infrastructure boom.",
+      "fullSummary": "Modal's $355M Series C adds to a busy week for AI infrastructure funding. Axios Pro Rata reported that the San Francisco AI infrastructure layer raised the round at a $4.65B post-money valuation, led by General Catalyst and Redpoint Ventures, with Menlo Ventures and Accel participating. Follow-on startup coverage says the round follows a 2025 Series B at roughly a $1.1B post-money valuation, reflecting investor demand for programmable compute and deployment layers around AI workloads. The significance is that value is concentrating not only in frontier model labs, but also in the infrastructure that lets companies run, scale, and own AI workloads without building full cloud platforms themselves. Watch whether Modal's growth comes from AI-native startups, enterprise internal tooling, model-serving workloads, or broader serverless compute demand.",
+      "keyFacts": [
+        "Modal",
+        "$355M Series C",
+        "$4.65B post-money valuation",
+        "General Catalyst",
+        "Redpoint Ventures",
+        "Menlo Ventures",
+        "Accel",
+        "AI infrastructure"
+      ],
+      "url": "https://www.axios.com/newsletters/axios-pro-rata-6dfd5c3c-d414-4213-be8b-86d42575232f",
+      "sourceName": "Axios Pro Rata",
+      "relatedSources": [
+        "Axios Pro Rata",
+        "SuperbCrew"
+      ],
+      "lane": "startups",
+      "publishedAt": "2026-05-22T13:21:58.000Z",
+      "importance": 126,
+      "sourceConfidence": "medium",
+      "summaryEngine": "chat-curated"
+    },
+    {
       "id": "curated-openai-dell-codex-enterprise-2026-05-26",
       "title": "OpenAI and Dell move Codex toward hybrid and on-prem enterprise use",
       "summary": "OpenAI's latest company-news slate includes a Dell partnership to bring Codex into hybrid and on-premises enterprise environments.",
       "fullSummary": "OpenAI's newsroom lists a May 18 partnership with Dell Technologies to bring Codex to hybrid and on-premises enterprise environments. The announcement sits alongside recent Codex product updates, GPT-5.5, ChatGPT Images 2.0, and API voice-model releases, but the Dell item is the most enterprise-infrastructure-heavy signal. It points to a practical demand pattern: large companies want coding agents, but many also want deployment options that fit internal controls, private infrastructure, regulated data, or existing Dell footprints. The key thing to watch is whether Codex becomes a cloud-only developer tool for most teams or a packaged enterprise capability that can run close to company data and internal software systems.",
-      "keyFacts": ["OpenAI", "Dell Technologies", "Codex", "May 18, 2026", "hybrid environments", "on-premises enterprise"],
+      "keyFacts": [
+        "OpenAI",
+        "Dell Technologies",
+        "Codex",
+        "May 18, 2026",
+        "hybrid environments",
+        "on-premises enterprise"
+      ],
       "url": "https://openai.com/news/company-announcements/",
       "sourceName": "OpenAI",
-      "relatedSources": ["OpenAI Newsroom"],
+      "relatedSources": [
+        "OpenAI Newsroom"
+      ],
       "lane": "news",
       "publishedAt": "2026-05-18T12:00:00.000Z",
       "importance": 126,
+      "sourceConfidence": "high",
+      "summaryEngine": "chat-curated"
+    },
+    {
+      "id": "curated-inviah-ai-home-visit-beta-2026-05-07",
+      "title": "INVIAH beta tests AI-powered doctor home visits in Chicago",
+      "summary": "INVIAH launched a public beta for a physician home-visit app that uses proprietary AI to route urgent and elective care to patients in the Chicago area.",
+      "fullSummary": "INVIAH is a modest but concrete example of AI being used around healthcare logistics rather than diagnosis alone. The company launched a public beta of its mobile app in Chicago on May 7, describing it as a physician home-visit platform powered by proprietary AI technology. The service targets urgent and elective in-person care across Chicago's North Shore, western suburbs, and established city neighborhoods. The interesting part is operational: if AI can match demand, geography, clinician availability, urgency, and patient needs, home-visit medicine could become less boutique and more scalable. Confidence is medium because the details come from a company announcement and need real utilization evidence. Watch response times, clinical governance, pricing, insurance acceptance, and whether the AI improves routing enough to change access rather than just marketing the app.",
+      "keyFacts": [
+        "INVIAH",
+        "May 7, 2026",
+        "Chicago",
+        "public beta",
+        "physician home visits",
+        "AI-powered routing",
+        "urgent care",
+        "elective care",
+        "mobile app"
+      ],
+      "url": "https://www.globenewswire.com/news-release/2026/05/07/3290404/0/en/inviah-launches-beta-in-chicago-the-doctor-comes-to-you.html",
+      "sourceName": "GlobeNewswire / INVIAH",
+      "relatedSources": [
+        "GlobeNewswire",
+        "INVIAH"
+      ],
+      "lane": "news",
+      "publishedAt": "2026-05-07T12:00:00.000Z",
+      "importance": 126,
+      "sourceConfidence": "medium",
+      "summaryEngine": "chat-curated"
+    },
+    {
+      "id": "curated-umg-tiktok-ai-music-renewal-2026-05-26",
+      "title": "UMG and TikTok renew their deal with stronger AI-music takedown commitments",
+      "summary": "Universal Music Group and TikTok renewed their licensing agreement with a promise to remove unauthorized AI-generated music and improve artist attribution.",
+      "fullSummary": "Universal Music Group and TikTok's renewed agreement is a practical platform-governance story for AI music. TechCrunch reports that the deal includes a commitment to remove unauthorized AI-generated music from TikTok and improve how artists and songwriters are credited. That matters because UMG previously pulled its music catalog from TikTok in 2024 after accusing the platform of failing to address AI-generated music and copyright issues. The renewal suggests major labels and social platforms are settling into a new bargain: licensed catalogs stay valuable, but platforms must police synthetic tracks, voice clones, attribution, and platform economics more aggressively. The watch item is enforcement. Takedown promises are easier than detecting manipulated or AI-generated songs at TikTok scale, especially as tools for mimicking famous voices keep improving.",
+      "keyFacts": [
+        "Universal Music Group",
+        "TikTok",
+        "May 26, 2026",
+        "licensing renewal",
+        "unauthorized AI-generated music",
+        "artist attribution",
+        "songwriter attribution",
+        "2024 UMG-TikTok dispute",
+        "AI music governance"
+      ],
+      "url": "https://techcrunch.com/2026/05/26/universal-music-group-and-tiktok-renew-agreement-to-combat-unauthorized-ai-music/",
+      "sourceName": "TechCrunch",
+      "relatedSources": [
+        "TechCrunch",
+        "Universal Music Group",
+        "TikTok"
+      ],
+      "lane": "news",
+      "publishedAt": "2026-05-26T14:55:00.000Z",
+      "importance": 124,
       "sourceConfidence": "high",
       "summaryEngine": "chat-curated"
     },
@@ -186,12 +1293,54 @@
       "title": "AWS adds OpenAI-compatible APIs to SageMaker endpoints",
       "summary": "Amazon SageMaker AI now supports OpenAI-compatible inference APIs, letting teams reuse OpenAI SDK, LangChain, and Strands Agents clients with SageMaker endpoints.",
       "fullSummary": "AWS added OpenAI-compatible API support for Amazon SageMaker AI real-time inference endpoints, including a standard /openai/v1 path for chat completions and streaming. The practical pitch is simple: teams using the OpenAI SDK, LangChain, or Strands Agents can point existing clients at SageMaker by changing the endpoint URL rather than writing a custom integration or SigV4 wrapper. This matters because enterprises increasingly want OpenAI-style developer ergonomics with models running in their own AWS accounts, VPC controls, dedicated GPU instances, or fine-tuned open-source deployments. Watch whether compatibility covers enough production features, including tool calling, streaming behavior, model routing, and authentication, to make SageMaker a real drop-in target for agent workloads.",
-      "keyFacts": ["Amazon SageMaker AI", "OpenAI-compatible APIs", "May 20-21, 2026", "/openai/v1", "OpenAI SDK", "LangChain", "Strands Agents"],
+      "keyFacts": [
+        "Amazon SageMaker AI",
+        "OpenAI-compatible APIs",
+        "May 20-21, 2026",
+        "/openai/v1",
+        "OpenAI SDK",
+        "LangChain",
+        "Strands Agents"
+      ],
       "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-sagemaker-ai-openai-apis/",
       "sourceName": "AWS",
-      "relatedSources": ["AWS What's New", "AWS Machine Learning Blog", "Amazon SageMaker docs"],
+      "relatedSources": [
+        "AWS What's New",
+        "AWS Machine Learning Blog",
+        "Amazon SageMaker docs"
+      ],
       "lane": "news",
       "publishedAt": "2026-05-21T12:00:00.000Z",
+      "importance": 124,
+      "sourceConfidence": "high",
+      "summaryEngine": "chat-curated"
+    },
+    {
+      "id": "curated-meta-muse-spark-rollout-2026-05-12",
+      "title": "Meta starts rolling Muse Spark into apps, glasses, and shopping flows",
+      "summary": "Meta updated its Muse Spark rollout with faster voice responses, smarter AI glasses, and conversational shopping and help features across its ecosystem.",
+      "fullSummary": "Meta's Muse Spark update is worth including because it shows a different model strategy from API-first frontier labs. Meta introduced Muse Spark in April as the first major model from Meta Superintelligence Labs, then updated the rollout on May 12 with faster voice responses in the Meta AI app, smarter AI glasses, and new ways to shop and get help in conversations. Meta says Muse Spark powers the Meta AI app and website, will roll out across WhatsApp, Instagram, Facebook, Messenger, and AI glasses, and will be offered in private API preview to select partners. The practical angle is distribution and context: Meta can connect AI to social content, messaging, commerce, and wearables. The concern is privacy, because personal assistants inside social apps can learn from intimate user behavior. Watch opt-in controls and whether parallel subagents become useful or intrusive.",
+      "keyFacts": [
+        "Meta",
+        "Muse Spark",
+        "Meta Superintelligence Labs",
+        "May 12, 2026 update",
+        "Meta AI app",
+        "AI glasses",
+        "WhatsApp",
+        "Instagram",
+        "Facebook",
+        "Messenger",
+        "private API preview"
+      ],
+      "url": "https://about.fb.com/news/2026/04/introducing-muse-spark-meta-superintelligence-labs/",
+      "sourceName": "Meta",
+      "relatedSources": [
+        "Meta",
+        "Axios"
+      ],
+      "lane": "news",
+      "publishedAt": "2026-05-12T14:00:00.000Z",
       "importance": 124,
       "sourceConfidence": "high",
       "summaryEngine": "chat-curated"
@@ -201,12 +1350,50 @@
       "title": "ClickUp cuts 22% of staff while pushing 3,000 internal AI agents",
       "summary": "ClickUp's AI-first restructuring is a live case study in whether agent productivity claims translate into better products, higher pay, or simply fewer jobs.",
       "fullSummary": "TechCrunch reports that ClickUp laid off 22% of its workforce after CEO Zeb Evans framed the move as a radical embrace of AI rather than ordinary cost cutting. The company has reportedly deployed roughly 3,000 internal AI agents, and remaining staff are expected to direct and review agent output rather than perform every task themselves. Evans also said savings would flow to employees who create outsized impact with AI, including million-dollar salary bands. This is a useful signal because it moves the AI labor debate from theory to operating model: companies are not only buying assistants, they are redesigning headcount, incentives, and management metrics around agents. Watch whether ClickUp can show durable product improvement instead of only lower payroll.",
-      "keyFacts": ["ClickUp", "22% workforce reduction", "3,000 internal AI agents", "Zeb Evans", "100x org", "$4B prior valuation"],
+      "keyFacts": [
+        "ClickUp",
+        "22% workforce reduction",
+        "3,000 internal AI agents",
+        "Zeb Evans",
+        "100x org",
+        "$4B prior valuation"
+      ],
       "url": "https://techcrunch.com/2026/05/25/what-clickups-mass-layoff-tells-us-about-the-future-of-work/",
       "sourceName": "TechCrunch",
-      "relatedSources": ["TechCrunch", "Fortune"],
+      "relatedSources": [
+        "TechCrunch",
+        "Fortune"
+      ],
       "lane": "news",
       "publishedAt": "2026-05-25T16:00:00.000Z",
+      "importance": 122,
+      "sourceConfidence": "high",
+      "summaryEngine": "chat-curated"
+    },
+    {
+      "id": "curated-qwen-scope-interpretability-2026-05-12",
+      "title": "Qwen-Scope gives developers sparse-feature tools for Qwen models",
+      "summary": "Qwen-Scope introduces an open-source suite of sparse autoencoders across Qwen3 and Qwen3.5 variants, turning model internals into developer-facing interpretability tools.",
+      "fullSummary": "Qwen-Scope is not a consumer release, but it is an interesting model-tooling update because interpretability is becoming a practical development layer. The arXiv paper introduces an open-source suite of sparse autoencoders built on the Qwen model family. It covers 14 groups of SAEs across seven Qwen3 and Qwen3.5 variants, including dense and mixture-of-experts architectures. The pitch is that sparse features can become development tools for understanding and steering large language models, not just research artifacts. This matters as more organizations deploy open or semi-open Chinese model families in production: developers need ways to inspect behavior, diagnose failures, and understand feature activations. Watch whether Qwen-Scope becomes a real part of Qwen model operations or remains a research-side interpretability release.",
+      "keyFacts": [
+        "Qwen-Scope",
+        "arXiv 2605.11887",
+        "May 12, 2026",
+        "sparse autoencoders",
+        "14 groups of SAEs",
+        "7 Qwen variants",
+        "Qwen3",
+        "Qwen3.5",
+        "dense and MoE models",
+        "interpretability"
+      ],
+      "url": "https://arxiv.org/abs/2605.11887",
+      "sourceName": "arXiv",
+      "relatedSources": [
+        "arXiv"
+      ],
+      "lane": "papers",
+      "publishedAt": "2026-05-12T10:01:06.000Z",
       "importance": 122,
       "sourceConfidence": "high",
       "summaryEngine": "chat-curated"
@@ -216,10 +1403,21 @@
       "title": "Uber questions whether rising AI token spend is paying off",
       "summary": "Reports around Uber president Andrew Macdonald point to a growing enterprise problem: AI usage is easy to measure, but ROI is harder to prove.",
       "fullSummary": "A cluster of May 26 coverage says Uber's leadership is finding it harder to justify AI spending when token consumption cannot be cleanly tied to useful customer-facing features. The reported tension is exactly what many large companies are now facing: coding agents, copilots, and internal AI tools can drive heavy usage, but usage is not the same as measurable product velocity, revenue, or cost reduction. This story pairs well with ClickUp's agent-heavy restructuring. Together, they show two sides of the same operating question: should AI budgets be treated as productivity investment, infrastructure cost, or experimental spend that must clear a much tighter ROI bar?",
-      "keyFacts": ["Uber", "Andrew Macdonald", "AI token spend", "Claude Code", "enterprise AI ROI", "May 26, 2026"],
+      "keyFacts": [
+        "Uber",
+        "Andrew Macdonald",
+        "AI token spend",
+        "Claude Code",
+        "enterprise AI ROI",
+        "May 26, 2026"
+      ],
       "url": "https://www.themodelwire.com/article/uber-president-says-ai-spending-is-getting-harder-to-justify-01KSHVW7WJSJQBATQJW118KFG2",
       "sourceName": "The Verge via Modelwire + Business Insider Japan",
-      "relatedSources": ["The Verge", "Business Insider Japan", "Rapid Response"],
+      "relatedSources": [
+        "The Verge",
+        "Business Insider Japan",
+        "Rapid Response"
+      ],
       "lane": "news",
       "publishedAt": "2026-05-26T08:00:00.000Z",
       "importance": 120,
@@ -231,12 +1429,52 @@
       "title": "MIT Technology Review splits AI jobs panic from the entry-level risk",
       "summary": "MIT Technology Review's latest AI labor coverage argues against simplistic mass-unemployment panic while warning that entry-level work may be the real weak point.",
       "fullSummary": "MIT Technology Review published a pair of May 26 labor-market pieces that are useful because they separate two claims often mashed together. One pushes back on sweeping claims that AI has already destroyed white-collar employment at scale. The other focuses on a narrower and more plausible risk: AI may hollow out entry-level work, reducing the apprenticeship layer where junior employees learn by doing. That distinction matters for policy and company planning. A stable headline employment number can still hide damage to career ladders in law, finance, consulting, software, media, and operations. The concrete thing to watch is whether labor data starts showing weaker hiring in junior roles with high AI exposure even while total employment remains resilient.",
-      "keyFacts": ["MIT Technology Review", "May 26, 2026", "AI jobs", "entry-level work", "career ladders", "white-collar employment"],
+      "keyFacts": [
+        "MIT Technology Review",
+        "May 26, 2026",
+        "AI jobs",
+        "entry-level work",
+        "career ladders",
+        "white-collar employment"
+      ],
       "url": "https://www.technologyreview.com/2026/05/26/1137855/a-reality-check-on-the-ai-jobs-hysteria/",
       "sourceName": "MIT Technology Review",
-      "relatedSources": ["MIT Technology Review", "Modelwire"],
+      "relatedSources": [
+        "MIT Technology Review",
+        "Modelwire"
+      ],
       "lane": "news",
       "publishedAt": "2026-05-26T09:00:00.000Z",
+      "importance": 118,
+      "sourceConfidence": "medium",
+      "summaryEngine": "chat-curated"
+    },
+    {
+      "id": "curated-caisi-frontier-model-testing-2026-05-05",
+      "title": "U.S. model-testing deals bring major frontier labs under CAISI review",
+      "summary": "Google DeepMind, Microsoft, and xAI joined CAISI frontier-model testing agreements, adding to earlier OpenAI and Anthropic arrangements.",
+      "fullSummary": "The U.S. government's frontier-model testing program is becoming a meaningful launch-process story. NIST's Center for AI Standards and Innovation signed agreements in May with Google DeepMind, Microsoft, and xAI for national security testing, building on prior OpenAI and Anthropic relationships from 2024. Tom's Hardware and policy groups summarized the practical implication: every major U.S. frontier AI lab is now participating in voluntary pre-release or national-security-oriented model evaluation arrangements. This is not the same as EU-style binding product regulation, but it creates a route for Washington to inspect powerful systems before public deployment and before federal procurement decisions. The watch item is how much access CAISI gets to scaffolding, tools, and unreleased capabilities, because modern agent risk often comes from a model plus environment rather than a base model alone.",
+      "keyFacts": [
+        "CAISI",
+        "NIST",
+        "May 5, 2026",
+        "Google DeepMind",
+        "Microsoft",
+        "xAI",
+        "OpenAI",
+        "Anthropic",
+        "frontier model testing",
+        "national security evaluations"
+      ],
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/google-microsoft-and-xai-agree-to-let-us-govenment-test-ai-models-before-public-release",
+      "sourceName": "Tom's Hardware + NIST references",
+      "relatedSources": [
+        "Tom's Hardware",
+        "NIST",
+        "Americans for Responsible Innovation"
+      ],
+      "lane": "news",
+      "publishedAt": "2026-05-05T14:11:12.000Z",
       "importance": 118,
       "sourceConfidence": "medium",
       "summaryEngine": "chat-curated"
@@ -246,10 +1484,21 @@
       "title": "AI note-taking enters the therapy room",
       "summary": "Public-radio coverage of therapists using AI note tools shows why healthcare AI adoption lives or dies on consent, privacy, and trust.",
       "fullSummary": "WUNC's May 26 story on therapists using AI to take notes captures one of the clearest real-world healthcare AI tradeoffs. The tool can record a session, transcribe it, and generate a draft clinical note for a therapist to review, reducing administrative work. But therapy is also one of the most trust-sensitive settings imaginable. Patients may react differently if they know an AI system is listening, and clinicians need to explain where recordings go, how notes are stored, what vendors can access, and whether consent is meaningful. This is not a generic productivity story. It is a reminder that AI products in mental health and healthcare need a higher bar than normal office software.",
-      "keyFacts": ["WUNC", "May 26, 2026", "AI note-taking", "therapy", "clinical notes", "privacy", "consent"],
+      "keyFacts": [
+        "WUNC",
+        "May 26, 2026",
+        "AI note-taking",
+        "therapy",
+        "clinical notes",
+        "privacy",
+        "consent"
+      ],
       "url": "https://www.wunc.org/2026-05-26/therapists-are-using-ai-to-take-notes-is-it-a-useful-tool-or-a-breach-of-trust",
       "sourceName": "WUNC / NPR network",
-      "relatedSources": ["WUNC", "NPR network"],
+      "relatedSources": [
+        "WUNC",
+        "NPR network"
+      ],
       "lane": "news",
       "publishedAt": "2026-05-26T09:00:00.000Z",
       "importance": 116,
@@ -261,10 +1510,22 @@
       "title": "Anthropic buys Stainless to deepen agent connectivity",
       "summary": "Anthropic acquired Stainless, the SDK and MCP tooling company behind its official SDK generation, to improve how Claude connects to APIs and tools.",
       "fullSummary": "Anthropic acquired Stainless on May 18, describing the deal as a bet on agents that act rather than models that only answer. Stainless was founded in 2022 and has generated official Anthropic SDKs since the early days of the Claude API. Its tooling turns API specs into SDKs, command-line tools, and MCP servers across languages including TypeScript, Python, Go, and Java. The strategic point is clear: agents become more valuable when they can reliably reach external systems. For Anthropic, Stainless is not just developer-experience polish; it is infrastructure for letting Claude connect to data, APIs, workflows, and enterprise tools with fewer integration gaps.",
-      "keyFacts": ["Anthropic", "Stainless", "May 18, 2026", "SDKs", "MCP servers", "TypeScript", "Python", "Go", "Java"],
+      "keyFacts": [
+        "Anthropic",
+        "Stainless",
+        "May 18, 2026",
+        "SDKs",
+        "MCP servers",
+        "TypeScript",
+        "Python",
+        "Go",
+        "Java"
+      ],
       "url": "https://www.anthropic.com/news/anthropic-acquires-stainless?guides=image-generation-social-good",
       "sourceName": "Anthropic",
-      "relatedSources": ["Anthropic"],
+      "relatedSources": [
+        "Anthropic"
+      ],
       "lane": "deals",
       "publishedAt": "2026-05-18T12:00:00.000Z",
       "importance": 114,
@@ -276,10 +1537,19 @@
       "title": "KPMG rolls Claude into a 276,000-person alliance",
       "summary": "Anthropic says KPMG is integrating Claude into its Digital Gateway platform and making it available across a workforce of more than 276,000 people.",
       "fullSummary": "Anthropic's newsroom lists a May 19 strategic alliance in which KPMG integrates Claude across its core business and workforce of more than 276,000 employees. The key signal is enterprise scale. Consulting and audit firms are natural early adopters because their work includes document analysis, knowledge retrieval, deal support, software delivery, compliance workflows, and client transformation projects. But they also face high scrutiny around confidentiality, accuracy, and professional responsibility. The important question is whether Claude becomes a broad productivity layer inside KPMG or a controlled tool for specific functions where quality assurance and auditability are easier to enforce.",
-      "keyFacts": ["KPMG", "Anthropic", "Claude", "276,000+ employees", "Digital Gateway", "May 19, 2026"],
+      "keyFacts": [
+        "KPMG",
+        "Anthropic",
+        "Claude",
+        "276,000+ employees",
+        "Digital Gateway",
+        "May 19, 2026"
+      ],
       "url": "https://www.anthropic.com/news",
       "sourceName": "Anthropic",
-      "relatedSources": ["Anthropic Newsroom"],
+      "relatedSources": [
+        "Anthropic Newsroom"
+      ],
       "lane": "news",
       "publishedAt": "2026-05-19T12:00:00.000Z",
       "importance": 112,
@@ -291,10 +1561,23 @@
       "title": "AI megadeals pushed Q1 startup funding to a record",
       "summary": "TechCrunch, citing Crunchbase data, says global startup investing reached $297B in Q1 2026, with four mega-rounds accounting for more than 63% of the total.",
       "fullSummary": "The latest funding backdrop is extreme concentration. TechCrunch reported that global startup investing hit $297B in Q1 2026, up 2.5x from $118B in the previous quarter and higher than every full year before 2019. Four mega-deals drove the surge: OpenAI at $122B, Anthropic at $30B, xAI at $20B, and Waymo at $16B. Together, those rounds accounted for more than $188B, or over 63% of the quarter's total. This matters because AI funding headlines can make the whole venture market look healthy even when the center of gravity is a handful of infrastructure, frontier-model, and autonomous-vehicle bets. For ordinary startups, the question is whether capital remains available outside the mega-round tier.",
-      "keyFacts": ["$297B Q1 2026 startup funding", "2.5x quarter-over-quarter", "$118B previous quarter", "$188B from four rounds", "63%+ concentration", "OpenAI $122B", "Anthropic $30B", "xAI $20B", "Waymo $16B"],
+      "keyFacts": [
+        "$297B Q1 2026 startup funding",
+        "2.5x quarter-over-quarter",
+        "$118B previous quarter",
+        "$188B from four rounds",
+        "63%+ concentration",
+        "OpenAI $122B",
+        "Anthropic $30B",
+        "xAI $20B",
+        "Waymo $16B"
+      ],
       "url": "https://techcrunch.com/2026/04/01/startup-funding-shatters-all-records-in-q1/",
       "sourceName": "TechCrunch + Crunchbase data",
-      "relatedSources": ["TechCrunch", "Crunchbase"],
+      "relatedSources": [
+        "TechCrunch",
+        "Crunchbase"
+      ],
       "lane": "startups",
       "publishedAt": "2026-04-01T20:25:00.000Z",
       "importance": 110,
@@ -306,10 +1589,19 @@
       "title": "Seed rounds keep getting larger while Series A remains harder",
       "summary": "Crunchbase's latest seed-market signal says $8M to $10M seed rounds are more common, but bigger early checks do not guarantee a cleaner Series A path.",
       "fullSummary": "Crunchbase's May 26 seed-funding analysis is a useful counterweight to the mega-round narrative. Seed rounds are getting larger, with $8M to $10M checks appearing more often, especially in AI-heavy categories where compute, senior engineering, and go-to-market proof are expensive. But the Series A bar has also moved up. Larger seed rounds can give founders more runway, yet they can also postpone the moment when investors demand evidence of revenue quality, retention, and durable distribution. For AI startups, this is especially important because a big seed can fund demos and infrastructure bills without proving that customers will keep paying at scale.",
-      "keyFacts": ["Crunchbase", "$8M seed rounds", "$10M seed rounds", "Series A", "AI startup funding", "May 26, 2026"],
+      "keyFacts": [
+        "Crunchbase",
+        "$8M seed rounds",
+        "$10M seed rounds",
+        "Series A",
+        "AI startup funding",
+        "May 26, 2026"
+      ],
       "url": "https://news.crunchbase.com/seed/data-bigger-deals-longer-seriesa-2026/",
       "sourceName": "Crunchbase News",
-      "relatedSources": ["Crunchbase News"],
+      "relatedSources": [
+        "Crunchbase News"
+      ],
       "lane": "startups",
       "publishedAt": "2026-05-26T11:00:14.000Z",
       "importance": 108,
@@ -317,29 +1609,25 @@
       "summaryEngine": "chat-curated"
     },
     {
-      "id": "curated-polsia-zero-employee-30m-2026-05-26",
-      "title": "Polsia's $30M round tests the zero-employee AI startup story",
-      "summary": "Polsia's reported $30M raise at a $250M valuation is spreading because it packages the most aggressive version of the AI-agent operating model.",
-      "fullSummary": "Polsia has become a useful symbol for the AI-agent startup boom. TechCrunch referenced the company as a one-year-old startup run by founder and CEO Ben Broca that claims to handle software operations for solopreneurs, and said it raised $30M at a $250M valuation. Earlier coverage named investors including Sound Ventures, True Ventures, Offline Ventures, Adjacent, Tekton Ventures, Drysdale Ventures, VaynerFund, and angels. The reason the story matters is not only the money. It is the claim that AI agents can compress a software company's operating structure so dramatically that a tiny team can run what used to require departments. Treat the operating claims as reported, not proven; customer quality and revenue durability are the real tests.",
-      "keyFacts": ["Polsia", "$30M", "$250M reported valuation", "Ben Broca", "AI agents", "zero-employee claim"],
-      "url": "https://techcrunch.com/2026/05/25/what-clickups-mass-layoff-tells-us-about-the-future-of-work/",
-      "sourceName": "TechCrunch + AIN",
-      "relatedSources": ["TechCrunch", "AIN"],
-      "lane": "startups",
-      "publishedAt": "2026-05-25T16:00:00.000Z",
-      "importance": 106,
-      "sourceConfidence": "medium",
-      "summaryEngine": "chat-curated"
-    },
-    {
       "id": "curated-meta-ari-robotics-acquisition-2026-05-26",
       "title": "Meta buys Assured Robot Intelligence for humanoid AI work",
       "summary": "Meta acquired Assured Robot Intelligence, adding a robotics foundation-model team to its Superintelligence Labs research division.",
       "fullSummary": "Meta acquired Assured Robot Intelligence, a humanoid robotics startup, for an undisclosed amount. TechCrunch reported that ARI's team and co-founders will join Meta's AI unit, the Superintelligence Labs research division. ARI was building foundation models for humanoid robots that could adapt to human behavior in complex environments, with applications such as household chores and other physical labor. The deal matters because the frontier AI race is moving beyond text and code. Meta appears to be buying robotics talent and embodied-AI research capacity, betting that physical-world learning may become important for more general AI systems and future consumer or enterprise robotics products.",
-      "keyFacts": ["Meta", "Assured Robot Intelligence", "ARI", "May 1, 2026", "Superintelligence Labs", "humanoid robotics", "undisclosed terms"],
+      "keyFacts": [
+        "Meta",
+        "Assured Robot Intelligence",
+        "ARI",
+        "May 1, 2026",
+        "Superintelligence Labs",
+        "humanoid robotics",
+        "undisclosed terms"
+      ],
       "url": "https://techcrunch.com/2026/05/01/meta-buys-robotics-startup-to-bolster-its-humanoid-ai-ambitions/",
       "sourceName": "TechCrunch",
-      "relatedSources": ["TechCrunch", "Bloomberg"],
+      "relatedSources": [
+        "TechCrunch",
+        "Bloomberg"
+      ],
       "lane": "deals",
       "publishedAt": "2026-05-01T22:13:00.000Z",
       "importance": 104,
@@ -351,10 +1639,24 @@
       "title": "Pentagon expands AI access on classified networks",
       "summary": "The Defense Department signed deals with Nvidia, Microsoft, AWS, and Reflection AI after earlier agreements with Google, SpaceX, and OpenAI.",
       "fullSummary": "TechCrunch reported that the U.S. Defense Department signed agreements with Nvidia, Microsoft, Amazon Web Services, and Reflection AI to deploy AI technology and models on classified networks for lawful operational use. The deals followed earlier agreements with Google, SpaceX, and OpenAI. This is a major governance story because the military AI debate is no longer abstract: frontier models, cloud infrastructure, and AI chips are being connected to classified environments. The follow-up questions are procurement controls, mission boundaries, human oversight, safety restrictions, and which vendors will accept or resist military use cases as AI becomes embedded in defense workflows.",
-      "keyFacts": ["U.S. Defense Department", "Nvidia", "Microsoft", "AWS", "Reflection AI", "Google", "SpaceX", "OpenAI", "classified networks", "May 1, 2026"],
+      "keyFacts": [
+        "U.S. Defense Department",
+        "Nvidia",
+        "Microsoft",
+        "AWS",
+        "Reflection AI",
+        "Google",
+        "SpaceX",
+        "OpenAI",
+        "classified networks",
+        "May 1, 2026"
+      ],
       "url": "https://techcrunch.com/2026/05/01/pentagon-inks-deals-with-nvidia-microsoft-and-aws-to-deploy-ai-on-classified-networks/",
       "sourceName": "TechCrunch",
-      "relatedSources": ["TechCrunch", "U.S. Defense Department"],
+      "relatedSources": [
+        "TechCrunch",
+        "U.S. Defense Department"
+      ],
       "lane": "news",
       "publishedAt": "2026-05-01T16:02:00.000Z",
       "importance": 102,
@@ -366,10 +1668,19 @@
       "title": "Wired frames AI agents as the new source of software chaos",
       "summary": "Wired's May 26 agent story uses Claude Code and OpenClaw to explain how coding agents moved from useful assistants to systems with broader operational blast radius.",
       "fullSummary": "Wired's May 26 feature on AI agents argues that Claude Code, OpenClaw, and similar systems have changed software work by letting people spin up agents that can act across local machines, tools, and services. The important point is not that coding help is new; it is that agents with autonomy, tool access, and broad permissions introduce new operational failure modes. The same systems that accelerate development can burn budgets, touch sensitive data, create unreliable changes, or amplify mistakes if governance is weak. This story should be read alongside Uber's token-cost concern and ClickUp's internal-agent push: the agent boom is now an operating-risk story, not just a developer-productivity story.",
-      "keyFacts": ["Wired", "May 26, 2026", "Claude Code", "OpenClaw", "AI agents", "local tool access"],
+      "keyFacts": [
+        "Wired",
+        "May 26, 2026",
+        "Claude Code",
+        "OpenClaw",
+        "AI agents",
+        "local tool access"
+      ],
       "url": "https://www.wired.com/story/how-ai-agents-plunged-tech-world-into-chaos/",
       "sourceName": "Wired",
-      "relatedSources": ["Wired"],
+      "relatedSources": [
+        "Wired"
+      ],
       "lane": "signal",
       "publishedAt": "2026-05-26T10:00:00.000Z",
       "importance": 100,
@@ -381,10 +1692,19 @@
       "title": "AI labs are hiring philosophers as safety work becomes institutional",
       "summary": "Wired reports that philosophy is becoming more relevant inside AI labs, where ethical edge cases and model behavior questions are now product concerns.",
       "fullSummary": "Wired's May 26 piece on landing a job in AI by reading Kant points to a quieter labor-market shift inside frontier labs. As model behavior, safety, rights, intent, responsibility, and moral reasoning become product and policy questions, philosophers are no longer only outside critics. They are helping labs think through evaluation, edge cases, alignment questions, and the conceptual language used around intelligence and agency. The caveat is that hiring philosophers can become reputational cover if their work is not tied to real product decisions. The useful signal is whether philosophical and social-science expertise changes release criteria, model policies, red-team work, or user-facing design.",
-      "keyFacts": ["Wired", "May 26, 2026", "AI ethics", "philosophers", "Kant", "frontier labs"],
+      "keyFacts": [
+        "Wired",
+        "May 26, 2026",
+        "AI ethics",
+        "philosophers",
+        "Kant",
+        "frontier labs"
+      ],
       "url": "https://www.wired.com/story/to-land-a-job-in-ai-try-reading-kant/",
       "sourceName": "Wired",
-      "relatedSources": ["Wired"],
+      "relatedSources": [
+        "Wired"
+      ],
       "lane": "news",
       "publishedAt": "2026-05-26T10:00:00.000Z",
       "importance": 98,
@@ -396,10 +1716,21 @@
       "title": "MLR-Bench tests whether AI agents can do open-ended ML research",
       "summary": "MLR-Bench introduces 201 machine-learning research tasks and finds current agents can write coherent papers while often producing invalid experimental results.",
       "fullSummary": "MLR-Bench is one of the more concrete research-agent evaluations because it asks agents to work through open-ended machine-learning research tasks, not just answer benchmark questions. The benchmark includes 201 tasks sourced from NeurIPS, ICLR, and ICML workshops, an automated evaluation framework called MLR-Judge, and an MLR-Agent scaffold covering idea generation, proposal writing, experimentation, and paper writing. The striking result is that current systems can generate coherent ideas and paper-like outputs, but coding agents frequently produce fabricated or invalidated experimental results, with the paper citing an 80% rate in evaluated cases. That is a serious reliability warning for AI-driven science workflows.",
-      "keyFacts": ["MLR-Bench", "201 research tasks", "NeurIPS", "ICLR", "ICML", "MLR-Judge", "80% fabricated or invalidated experimental results", "May 26, 2025 paper"],
+      "keyFacts": [
+        "MLR-Bench",
+        "201 research tasks",
+        "NeurIPS",
+        "ICLR",
+        "ICML",
+        "MLR-Judge",
+        "80% fabricated or invalidated experimental results",
+        "May 26, 2025 paper"
+      ],
       "url": "https://arxiv.org/abs/2505.19955",
       "sourceName": "arXiv",
-      "relatedSources": ["arXiv"],
+      "relatedSources": [
+        "arXiv"
+      ],
       "lane": "papers",
       "publishedAt": "2025-05-26T13:18:37.000Z",
       "importance": 96,
@@ -411,10 +1742,21 @@
       "title": "Foresight Arena proposes an on-chain benchmark for forecasting agents",
       "summary": "Foresight Arena evaluates AI forecasting agents through prediction markets, commit-reveal submissions, and scoring rules designed to isolate forecasting edge.",
       "fullSummary": "Foresight Arena is a research benchmark aimed at a practical weakness in agent evaluation: static datasets can be contaminated, and trading profit mixes prediction skill with timing and risk. The paper proposes a permissionless on-chain benchmark where agents make probabilistic forecasts on binary Polymarket markets using a commit-reveal protocol on Polygon PoS. Performance is measured with Brier Score and a new Alpha Score intended to isolate predictive edge over market consensus. The authors estimate that detecting a true edge of 0.02 at 80% power requires about 350 resolved binary predictions. This is worth tracking because live, incentive-compatible evaluations may be harder for frontier models to game than ordinary benchmark sets.",
-      "keyFacts": ["Foresight Arena", "AI forecasting agents", "Polymarket", "Polygon PoS", "Brier Score", "Alpha Score", "350 resolved binary predictions", "May 1, 2026"],
+      "keyFacts": [
+        "Foresight Arena",
+        "AI forecasting agents",
+        "Polymarket",
+        "Polygon PoS",
+        "Brier Score",
+        "Alpha Score",
+        "350 resolved binary predictions",
+        "May 1, 2026"
+      ],
       "url": "https://arxiv.org/abs/2605.00420",
       "sourceName": "arXiv",
-      "relatedSources": ["arXiv"],
+      "relatedSources": [
+        "arXiv"
+      ],
       "lane": "papers",
       "publishedAt": "2026-05-01T05:33:10.000Z",
       "importance": 94,
@@ -426,10 +1768,19 @@
       "title": "Collider-Bench measures whether agents can reproduce LHC analyses",
       "summary": "Collider-Bench asks LLM agents to reproduce particle-physics analyses from public papers and open scientific software.",
       "fullSummary": "Collider-Bench is another sign that agent evaluation is moving into hard scientific workflows. The benchmark tests whether LLM agents can reproduce experimental analyses from the Large Hadron Collider using public papers and open scientific software. Each task requires the agent to turn a published analysis into an executable simulation-and-selection pipeline and submit predicted collision-event yields for specified signal regions. This matters because scientific-agent claims are easy to overstate when evaluation stops at writing plausible prose. Reproducing physics analyses forces agents to handle instructions, code, domain assumptions, public software, and quantitative outputs. It is a better proxy for whether AI can help science teams without quietly producing invalid results.",
-      "keyFacts": ["Collider-Bench", "Large Hadron Collider", "LHC", "particle physics", "analysis reproduction", "May 13, 2026"],
+      "keyFacts": [
+        "Collider-Bench",
+        "Large Hadron Collider",
+        "LHC",
+        "particle physics",
+        "analysis reproduction",
+        "May 13, 2026"
+      ],
       "url": "https://arxiv.org/abs/2605.13950",
       "sourceName": "arXiv",
-      "relatedSources": ["arXiv"],
+      "relatedSources": [
+        "arXiv"
+      ],
       "lane": "papers",
       "publishedAt": "2026-05-13T18:00:00.000Z",
       "importance": 92,
@@ -437,62 +1788,25 @@
       "summaryEngine": "chat-curated"
     },
     {
-      "id": "curated-anthropic-gates-foundation-200m-2026-05-26",
-      "title": "Anthropic and the Gates Foundation form a $200M partnership",
-      "summary": "Anthropic's May news slate includes a $200M Gates Foundation partnership, extending Claude's nonprofit and public-interest footprint.",
-      "fullSummary": "Anthropic's newsroom lists a May 14 announcement that it formed a $200M partnership with the Gates Foundation. The exact program details need the full announcement for a deeper read, but the strategic signal is clear: frontier AI companies are trying to attach their models to public-interest, health, development, and nonprofit workflows, not only enterprise productivity. The key question is whether partnerships like this deliver measurable outcomes in domains with uneven data quality, institutional complexity, and high stakes for vulnerable populations. The partnership should be tracked for concrete deployments, governance rules, evaluation methods, and whether it creates reusable lessons for AI in philanthropy and global development.",
-      "keyFacts": ["Anthropic", "Gates Foundation", "$200M partnership", "May 14, 2026", "public-interest AI"],
-      "url": "https://www.anthropic.com/news",
-      "sourceName": "Anthropic",
-      "relatedSources": ["Anthropic Newsroom"],
-      "lane": "news",
-      "publishedAt": "2026-05-14T12:00:00.000Z",
-      "importance": 90,
-      "sourceConfidence": "medium",
-      "summaryEngine": "chat-curated"
-    },
-    {
       "id": "curated-google-deepmind-antigravity-20-2026-05-26",
       "title": "Google DeepMind highlights Antigravity 2.0 in its May research slate",
       "summary": "Google DeepMind's May blog feed includes Antigravity 2.0 and Gemini-for-science work, reinforcing Google's research-to-agent pipeline.",
       "fullSummary": "Google DeepMind's May blog feed points to two themes worth tracking: Antigravity 2.0 and Gemini-for-science tools. The public feed does not expose enough detail to evaluate Antigravity 2.0 on its own, but it fits the broader I/O story around managed agents, Gemini 3.5 Flash, and the Interactions API. Google is trying to turn research systems into products and developer surfaces that can coordinate actions, not merely produce chat responses. The important follow-up is concrete access: APIs, benchmarks, demos, limits, pricing, and whether developers outside Google can build reliable workflows on top of these systems.",
-      "keyFacts": ["Google DeepMind", "Antigravity 2.0", "Gemini for Science", "May 2026", "managed agents"],
+      "keyFacts": [
+        "Google DeepMind",
+        "Antigravity 2.0",
+        "Gemini for Science",
+        "May 2026",
+        "managed agents"
+      ],
       "url": "https://deepmind.google/blog/",
       "sourceName": "Google DeepMind",
-      "relatedSources": ["Google DeepMind"],
+      "relatedSources": [
+        "Google DeepMind"
+      ],
       "lane": "papers",
       "publishedAt": "2026-05-20T12:00:00.000Z",
       "importance": 88,
-      "sourceConfidence": "medium",
-      "summaryEngine": "chat-curated"
-    },
-    {
-      "id": "curated-openai-gpt55-images20-realtime2-2026-05-26",
-      "title": "OpenAI's spring product slate spans GPT-5.5, Images 2.0, Codex, and Realtime",
-      "summary": "OpenAI's recent-news page shows a dense release run across GPT-5.5, ChatGPT Images 2.0, Codex, and voice models in the API.",
-      "fullSummary": "OpenAI's recent-news page lists a heavy spring release cadence: GPT-5.5 on April 23, ChatGPT Images 2.0 on April 21, Codex updates on May 14, and new API voice models on May 7. The individual product details vary, but the combined signal is that OpenAI is broadening the product surface across reasoning, coding, image generation, and realtime voice. The competitive pressure is clear: Google is pushing Gemini and Antigravity, Anthropic is expanding Claude into enterprise and agent connectivity, and AWS is making OpenAI-compatible infrastructure easier to run outside OpenAI. OpenAI's advantage depends on whether these products feel unified and useful rather than a pile of separate launches.",
-      "keyFacts": ["GPT-5.5", "ChatGPT Images 2.0", "Codex", "Realtime API voice models", "April-May 2026", "OpenAI"],
-      "url": "https://openai.com/news/company-announcements/",
-      "sourceName": "OpenAI",
-      "relatedSources": ["OpenAI Newsroom"],
-      "lane": "news",
-      "publishedAt": "2026-05-14T12:00:00.000Z",
-      "importance": 86,
-      "sourceConfidence": "high",
-      "summaryEngine": "chat-curated"
-    },
-    {
-      "id": "curated-anthropic-project-glasswing-update-2026-05-26",
-      "title": "Anthropic updates Project Glasswing security collaboration",
-      "summary": "Anthropic's May 22 Project Glasswing update keeps AI security and software-supply-chain hardening in the frontier-lab news cycle.",
-      "fullSummary": "Anthropic's newsroom lists a May 22 initial update for Project Glasswing, the security collaboration it previously announced with AWS, Apple, Broadcom, Cisco, CrowdStrike, Google, JPMorganChase, the Linux Foundation, Microsoft, NVIDIA, and Palo Alto Networks. The broader signal is that frontier AI security is now a coalition problem. As agents write code, call tools, and connect to more systems, labs and infrastructure companies have to harden the software supply chain around AI-assisted development. The update is worth tracking for concrete artifacts: shared standards, evaluation datasets, secure tooling, disclosure practices, or open-source infrastructure that can actually change developer behavior.",
-      "keyFacts": ["Project Glasswing", "Anthropic", "May 22, 2026", "AWS", "Apple", "Cisco", "CrowdStrike", "Google", "Linux Foundation", "Microsoft", "NVIDIA"],
-      "url": "https://www.anthropic.com/news",
-      "sourceName": "Anthropic",
-      "relatedSources": ["Anthropic Newsroom"],
-      "lane": "news",
-      "publishedAt": "2026-05-22T12:00:00.000Z",
-      "importance": 84,
       "sourceConfidence": "medium",
       "summaryEngine": "chat-curated"
     },
@@ -501,10 +1815,24 @@
       "title": "AI governance coverage broadens from model safety to labor, warfare, and culture",
       "summary": "May 26 coverage across Wired, France 24, The Verge, public radio, and policy trackers shows AI governance moving beyond narrow model-risk debates.",
       "fullSummary": "The May 26 AI governance news cycle is unusually broad. Policy trackers are grouping stories about Pope Leo's AI encyclical, AI warfare, philosophers inside AI labs, Uber's AI budget concerns, AI note-taking in therapy, and AI-generated creative-work disputes. The useful signal is that governance is no longer only about frontier model evals or abstract safety statements. It now touches labor markets, military deployment, enterprise budgets, clinical consent, software-agent permissions, and cultural legitimacy. For readers, this is a reason to track AI policy by domain rather than only by lab: the rules and norms that matter in healthcare, defense, education, work, and media will likely diverge.",
-      "keyFacts": ["May 26, 2026", "AI governance", "labor", "military AI", "therapy AI", "AI ethics", "enterprise AI ROI"],
+      "keyFacts": [
+        "May 26, 2026",
+        "AI governance",
+        "labor",
+        "military AI",
+        "therapy AI",
+        "AI ethics",
+        "enterprise AI ROI"
+      ],
       "url": "https://www.aiwatchdog.news/",
       "sourceName": "AI Governance Watch + major outlets",
-      "relatedSources": ["AI Governance Watch", "Wired", "The Verge", "France 24", "WUNC"],
+      "relatedSources": [
+        "AI Governance Watch",
+        "Wired",
+        "The Verge",
+        "France 24",
+        "WUNC"
+      ],
       "lane": "news",
       "publishedAt": "2026-05-26T12:00:00.000Z",
       "importance": 82,
@@ -516,7 +1844,11 @@
       "title": "The IPO market is reopening, but smaller tech exits are still squeezed",
       "summary": "Crunchbase argues that the IPO comeback has a catch: the threshold for going public keeps rising, leaving mid-sized firms with fewer clean exits.",
       "fullSummary": "Crunchbase's IPO analysis says public listings are coming back, but not evenly. The central point is that the bar for going public has become much higher, which leaves many mid-sized private companies and their shareholders waiting for liquidity. For AI and software startups, this is a meaningful financing backdrop: if IPOs only work for the largest, fastest-growing names, smaller companies may need secondary markets, acquisitions, or private continuation rounds to give employees and investors exits. The story helps explain why AI M&A and large private funding rounds remain so active even when public-market sentiment improves.",
-      "keyFacts": ["IPO comeback", "private secondary market", "mid-sized firms"],
+      "keyFacts": [
+        "IPO comeback",
+        "private secondary market",
+        "mid-sized firms"
+      ],
       "url": "https://news.crunchbase.com/public/ipo-comeback-catch-exits-liquidity-declines-bercuson-earlyasset/",
       "sourceName": "Crunchbase News",
       "lane": "deals",
@@ -530,7 +1862,13 @@
       "title": "SportAI acquires Padelytics for racket-sports analytics",
       "summary": "SportAI bought Padelytics to expand AI-driven analytics for racket sports such as padel and tennis.",
       "fullSummary": "SportAI's acquisition of Padelytics is a vertical AI deal: a company focused on AI sports analytics is adding a specialist in racket-sports data. The commercial thesis is straightforward: computer vision and match analytics are becoming product features for coaches, athletes, leagues, and venues rather than experimental demos. The deal matters because sports is one of the cleaner markets for applied AI: the data is visual, performance outcomes are measurable, and buyers can understand the value if insights improve training or fan engagement. Watch whether SportAI turns the acquisition into broader distribution across padel, tennis, and adjacent racket sports.",
-      "keyFacts": ["SportAI", "Padelytics", "acquisition", "racket sports", "sports analytics"],
+      "keyFacts": [
+        "SportAI",
+        "Padelytics",
+        "acquisition",
+        "racket sports",
+        "sports analytics"
+      ],
       "url": "https://news.google.com/rss/search?q=SportAI%20acquires%20Padelytics",
       "sourceName": "Ministry of Sport",
       "lane": "deals",
@@ -544,7 +1882,15 @@
       "title": "Amdocs buys Israeli AI startup Yess",
       "summary": "Amdocs acquired Israeli startup Yess in a small AI-agent deal estimated at $8M-$10M.",
       "fullSummary": "Amdocs is buying Yess, a Tel Aviv startup founded in 2023 by former AWS Israel executives Jonathan Bregman, Ido Perlson, Matan Zutta, and David Feldstein. The companies did not disclose terms, but CTech reported industry estimates of $8M-$10M. Yess has 13 employees and had raised about $7M, including a $6.4M seed round in January 2024. The founding and development team was expected to join Amdocs' Generative AI and Data division, which is building an Agentic Operating System for telecom providers. The deal is small, but strategically useful: Amdocs gets an agentic AI team focused on autonomous enterprise workflows instead of trying to hire and build that capability from scratch.",
-      "keyFacts": ["Amdocs", "Yess", "$8M-$10M estimated deal value", "13 employees", "$7M raised", "founded in 2023", "former AWS Israel founders"],
+      "keyFacts": [
+        "Amdocs",
+        "Yess",
+        "$8M-$10M estimated deal value",
+        "13 employees",
+        "$7M raised",
+        "founded in 2023",
+        "former AWS Israel founders"
+      ],
       "url": "https://www.calcalistech.com/ctechnews/article/b10diozegl",
       "sourceName": "CTech",
       "lane": "deals",
@@ -558,7 +1904,15 @@
       "title": "Mercury raises $200M at a $5.2B valuation",
       "summary": "Mercury raised $200M in a Series D at a $5.2B valuation, up 49% from its prior $3.5B mark.",
       "fullSummary": "Crunchbase reports that digital banking startup Mercury raised $200M in a Series D at a $5.2B valuation. The valuation is 49% above the $3.5B figure from its prior $300M Series C in March 2025. This is not a pure AI lab story, but it matters to the broader AI/startup funding environment because fintech, banking automation, and AI-enabled finance operations remain investor targets. The round also shows that late-stage private markets are still open for companies with strong distribution and financial-services positioning, even as IPO thresholds remain high.",
-      "keyFacts": ["Mercury", "$200M", "$5.2B valuation", "49%", "$3.5B", "$300M Series C", "Series D"],
+      "keyFacts": [
+        "Mercury",
+        "$200M",
+        "$5.2B valuation",
+        "49%",
+        "$3.5B",
+        "$300M Series C",
+        "Series D"
+      ],
       "url": "https://news.crunchbase.com/venture/fintech-funding-digital-banking-startup-mercury-lands-200m/",
       "sourceName": "Crunchbase News + 1",
       "lane": "startups",
@@ -572,7 +1926,13 @@
       "title": "Unframe raises $50M Series B after topping $100M in contracts",
       "summary": "AI startup Unframe raised a $50M Series B after reportedly surpassing $100M in contracts within a year.",
       "fullSummary": "CTech reports that Unframe raised $50M in a Series B after passing $100M in contracts within a year. Those two numbers are the core of the story: the round is meaningful, but the contract figure is what makes it stand out. In a market full of AI pilots, investors are looking for evidence that companies can convert interest into committed enterprise spend. If Unframe's contract base is durable, the company may be one of the stronger examples of AI moving from experimentation to booked demand. Watch customer concentration, deployment success, and whether the contracts convert into recurring revenue.",
-      "keyFacts": ["Unframe", "$50 million", "Series B", "$100 million in contracts", "within a year"],
+      "keyFacts": [
+        "Unframe",
+        "$50 million",
+        "Series B",
+        "$100 million in contracts",
+        "within a year"
+      ],
       "url": "https://news.google.com/rss/search?q=Unframe%20%2450%20million%20Series%20B%20%24100%20million%20contracts",
       "sourceName": "CTech",
       "lane": "startups",
@@ -586,7 +1946,13 @@
       "title": "Exa Labs raises $250M for AI search",
       "summary": "Exa Labs reportedly raised $250M for AI search, with coverage citing a multi-billion-dollar valuation.",
       "fullSummary": "Recent AI funding trackers and StartupHub coverage report that Exa Labs secured $250M for its AI search business, with reports citing valuations around $2.2B to $2.5B. The story matters because search is one of the most contested AI application layers: startups are trying to build developer-facing and agent-facing search infrastructure while Google, OpenAI, Perplexity, and others push AI answer products. Exa's round suggests investors still believe there is room for specialized search infrastructure beneath consumer assistants and enterprise agents. Watch whether Exa becomes a default retrieval layer for AI developers or gets squeezed by platform-native search tools.",
-      "keyFacts": ["Exa Labs", "$250M", "$2.2B valuation", "$2.5B valuation", "AI search"],
+      "keyFacts": [
+        "Exa Labs",
+        "$250M",
+        "$2.2B valuation",
+        "$2.5B valuation",
+        "AI search"
+      ],
       "url": "https://www.startuphub.ai/investment_rounds/exa-labs-undisclosed-2026",
       "sourceName": "StartupHub.ai + funding trackers",
       "lane": "startups",
@@ -600,7 +1966,13 @@
       "title": "Torq acquires Jit for an estimated $70M",
       "summary": "Torq is acquiring Jit in an estimated $70M deal to strengthen its AI security platform.",
       "fullSummary": "CTech reports that Torq is acquiring Jit for an estimated $70M. The strategic angle is security automation: Torq already operates in security workflow automation, and Jit adds capabilities that can strengthen an AI-powered security platform. This is a practical AI deal rather than a frontier-model story. It shows buyers using M&A to assemble security, workflow, and developer-facing capabilities as AI changes both attack surfaces and defensive operations. Watch whether Torq integrates Jit into a broader agentic security workflow or keeps it as a discrete product line.",
-      "keyFacts": ["Torq", "Jit", "$70 million", "AI security", "acquisition"],
+      "keyFacts": [
+        "Torq",
+        "Jit",
+        "$70 million",
+        "AI security",
+        "acquisition"
+      ],
       "url": "https://news.google.com/rss/search?q=Torq%20acquires%20Jit%20%2470%20million",
       "sourceName": "CTech",
       "lane": "deals",
@@ -614,7 +1986,13 @@
       "title": "Mistral AI acquires Emmi AI",
       "summary": "Mistral AI acquired Austrian deep-tech startup Emmi AI, adding another European AI deal to the market.",
       "fullSummary": "Mistral AI's acquisition of Emmi AI is notable because it pairs one of Europe's best-known AI labs with an Austrian deep-tech company. The deal points to a broader European AI pattern: regional champions are not only raising capital, they are also buying technical teams and specialized capabilities. The available feed details were limited, so this should be treated as a medium-confidence acquisition signal rather than a complete strategic read. The key thing to watch is whether Emmi's technology becomes part of Mistral's core model stack, developer platform, or vertical enterprise offerings.",
-      "keyFacts": ["Mistral AI", "Emmi AI", "Austria", "deep-tech acquisition", "European AI"],
+      "keyFacts": [
+        "Mistral AI",
+        "Emmi AI",
+        "Austria",
+        "deep-tech acquisition",
+        "European AI"
+      ],
       "url": "https://news.google.com/rss/search?q=Mistral%20AI%20acquires%20Emmi%20AI",
       "sourceName": "European startup coverage",
       "lane": "deals",
@@ -628,7 +2006,12 @@
       "title": "AWS shows Bedrock AgentCore for business intelligence agents",
       "summary": "AWS is promoting Amazon Bedrock AgentCore as a way to build AI agents for business intelligence workflows.",
       "fullSummary": "AWS's Bedrock AgentCore business-intelligence story is about enterprise agents moving from demos into repeatable internal workflows. BI is a natural target: employees ask questions, agents retrieve data, call tools, generate charts or explanations, and ideally preserve governance around data access. The hard parts are permissions, auditability, hallucination control, and making sure an agent's answer maps to trusted data rather than a plausible narrative. Watch whether AWS customers use AgentCore for production analytics or keep it in controlled internal pilots.",
-      "keyFacts": ["AWS", "Amazon Bedrock AgentCore", "business intelligence", "AI agents"],
+      "keyFacts": [
+        "AWS",
+        "Amazon Bedrock AgentCore",
+        "business intelligence",
+        "AI agents"
+      ],
       "url": "https://news.google.com/rss/search?q=Amazon%20Bedrock%20AgentCore%20business%20intelligence%20AI%20agents",
       "sourceName": "Amazon Web Services",
       "lane": "news",
@@ -642,7 +2025,13 @@
       "title": "Howard University launches an AWS-powered AI network",
       "summary": "Howard University launched the Howard AI Network with AWS to support AI research, infrastructure, and workforce readiness.",
       "fullSummary": "Howard University's AWS-powered Howard AI Network is an education and workforce story. The initiative is framed around AI research, infrastructure, and readiness, which means it is not only about classroom tools. Universities are trying to build the compute access, curriculum, and partnerships needed to prepare students for AI-heavy workplaces. The equity angle also matters: institutions that can give students real AI infrastructure and applied projects may create stronger pathways into technical and operational AI roles. Watch whether the network produces shared infrastructure, research outputs, employer partnerships, and measurable student access.",
-      "keyFacts": ["Howard University", "Howard AI Network", "AWS", "AI research", "workforce readiness"],
+      "keyFacts": [
+        "Howard University",
+        "Howard AI Network",
+        "AWS",
+        "AI research",
+        "workforce readiness"
+      ],
       "url": "https://news.google.com/rss/search?q=Howard%20AI%20Network%20AWS",
       "sourceName": "Howard University + AWS coverage",
       "lane": "papers",
@@ -656,7 +2045,13 @@
       "title": "AWS outlines AI-agent workflows for radiology optimization",
       "summary": "AWS published a healthcare AI workflow story focused on using agents to optimize radiology operations.",
       "fullSummary": "AWS's radiology workflow piece is a practical healthcare AI example. Radiology has complex scheduling, prioritization, reporting, and handoff workflows, which makes it a plausible target for agents that coordinate tasks rather than simply summarize text. The potential upside is faster throughput and better operational visibility. The risk is that healthcare settings require strong safeguards: audit trails, clinician oversight, privacy controls, and careful integration with existing systems. Watch whether these workflows remain reference architectures or become deployed hospital systems.",
-      "keyFacts": ["AWS", "radiology", "AI agents", "workflow optimization", "healthcare"],
+      "keyFacts": [
+        "AWS",
+        "radiology",
+        "AI agents",
+        "workflow optimization",
+        "healthcare"
+      ],
       "url": "https://news.google.com/rss/search?q=AWS%20radiology%20workflow%20optimization%20AI%20agents",
       "sourceName": "Amazon Web Services",
       "lane": "news",
@@ -670,7 +2065,12 @@
       "title": "CEPR examines AI architecture as a financial-stability risk",
       "summary": "CEPR argues that financial stability in the AI era depends not just on models, but on the architecture of algorithmic systems.",
       "fullSummary": "CEPR's financial-stability piece is a reminder that AI risk in finance is often systemic rather than model-by-model. The core issue is algorithmic architecture: how models interact with trading, credit, risk management, compliance, and market infrastructure. Even if individual systems appear accurate, correlated behavior or shared dependencies can create fragility. The story matters because regulators may need to evaluate AI systems at the network and architecture level, not only through model audits. Watch for policy proposals around stress testing, explainability, vendor concentration, and human override in financial AI.",
-      "keyFacts": ["CEPR", "financial stability", "algorithmic architecture", "AI in finance"],
+      "keyFacts": [
+        "CEPR",
+        "financial stability",
+        "algorithmic architecture",
+        "AI in finance"
+      ],
       "url": "https://news.google.com/rss/search?q=Financial%20stability%20age%20artificial%20intelligence%20algorithmic%20architecture%20CEPR",
       "sourceName": "CEPR",
       "lane": "news",
@@ -684,7 +2084,11 @@
       "title": "Farmers are using AI for planning and field decisions",
       "summary": "A regional agriculture report highlights farmers adopting AI tools for operational advice and decision support.",
       "fullSummary": "The farmers-using-AI story is a small but useful adoption signal. Agriculture is a strong market for applied AI because decisions are data-heavy, local, and time-sensitive: weather, input costs, crop health, irrigation, pests, and market timing all matter. The story does not expose detailed case studies in the feed, so the summary should stay modest. Still, it shows AI moving beyond software teams into traditional operational sectors. Watch whether farmers use AI as a planning assistant, a computer-vision tool, a precision-agriculture layer, or simply a faster way to interpret existing data.",
-      "keyFacts": ["agriculture", "farmers", "AI decision support"],
+      "keyFacts": [
+        "agriculture",
+        "farmers",
+        "AI decision support"
+      ],
       "url": "https://news.google.com/rss/search?q=Farmers%20Using%20Artificial%20Intelligence",
       "sourceName": "AG Information Network of the West",
       "lane": "news",
@@ -698,7 +2102,13 @@
       "title": "Medical schools are wrestling with how to teach AI",
       "summary": "A Cureus article examines AI integration in medical curriculum, including changing student perceptions and faculty-development challenges.",
       "fullSummary": "The Cureus medical-curriculum story is about training, not just tools. Medical schools increasingly need to teach students how to use AI safely, understand its limits, and evaluate outputs in clinical contexts. The faculty-development challenge is important: instructors must learn enough about AI to teach it responsibly, while curricula are already crowded. The story matters because healthcare AI adoption depends on whether clinicians understand bias, privacy, hallucination, workflow fit, and patient communication. Watch for medical programs moving from optional AI literacy to required AI competency.",
-      "keyFacts": ["Cureus", "medical curriculum", "student perceptions", "faculty development", "healthcare AI"],
+      "keyFacts": [
+        "Cureus",
+        "medical curriculum",
+        "student perceptions",
+        "faculty development",
+        "healthcare AI"
+      ],
       "url": "https://news.google.com/rss/search?q=Integration%20of%20Artificial%20Intelligence%20Into%20a%20Medical%20Curriculum%20Cureus",
       "sourceName": "Cureus + NPR",
       "lane": "news",
@@ -712,7 +2122,12 @@
       "title": "A professional writer tests a controversial AI writing tool",
       "summary": "Slate covers a professional writer's experience using a controversial AI tool and finding it less frightening than expected.",
       "fullSummary": "Slate's writer-using-AI piece sits in the messy middle of creative AI adoption. It is not a grand claim that AI replaces writers; it is a first-person look at how a professional uses a tool that many peers consider threatening. The useful takeaway is that AI writing tools can feel both helpful and culturally uncomfortable. They may assist with drafts, structure, research, or iteration, but they also raise questions about originality, disclosure, labor value, and taste. Watch whether professional norms settle around transparent augmentation rather than blanket rejection or uncritical adoption.",
-      "keyFacts": ["Slate", "professional writer", "AI writing tool", "creative work"],
+      "keyFacts": [
+        "Slate",
+        "professional writer",
+        "AI writing tool",
+        "creative work"
+      ],
       "url": "https://news.google.com/rss/search?q=professional%20writer%20controversial%20AI%20tool%20Slate",
       "sourceName": "Slate",
       "lane": "news",
@@ -726,7 +2141,12 @@
       "title": "Ohio lawmakers push AI content regulation",
       "summary": "Ohio lawmakers are pursuing new rules for AI-generated content, adding to the patchwork of state-level AI regulation.",
       "fullSummary": "Ohio's AI-content regulation story is part of a broader state response to synthetic media, misinformation, political content, and consumer deception. The feed does not provide the full bill text, but the policy theme is clear: lawmakers want clearer rules around when AI-generated content must be labeled or restricted. The hard part is drafting rules that cover harmful deception without overreaching into ordinary creative or assistive use. Watch whether Ohio's proposal focuses on elections, deepfakes, minors, consumer fraud, or a broader labeling requirement.",
-      "keyFacts": ["Ohio", "AI-generated content", "state regulation", "lawmakers"],
+      "keyFacts": [
+        "Ohio",
+        "AI-generated content",
+        "state regulation",
+        "lawmakers"
+      ],
       "url": "https://news.google.com/rss/search?q=Ohio%20lawmakers%20regulations%20artificial%20intelligence%20content",
       "sourceName": "Hometown Stations",
       "lane": "news",
@@ -740,7 +2160,15 @@
       "title": "Procurement Sciences acquires HigherGov",
       "summary": "Procurement Sciences acquired HigherGov, combining Awarded AI with a government-market intelligence platform serving more than 3,000 contractors.",
       "fullSummary": "Procurement Sciences acquired HigherGov to deepen its AI platform for government contractors. The buyer runs Awarded AI, a FedRAMP-authorized platform for capture, business-development, and proposal teams; HigherGov brings market-intelligence data across federal, state, local, and grant markets. The combined platform says it serves more than 3,000 businesses that sell to government, including close to half of the Industry Top 100, and has contributed to more than $100B in AI-assisted awarded contracts. That gives the deal more substance than a generic vertical-AI acquisition: it combines workflow automation with procurement data and customer distribution. Watch whether customers use the combined product for end-to-end bid work or mainly for intelligence lookup.",
-      "keyFacts": ["Procurement Sciences", "HigherGov", "Awarded AI", "FedRAMP-authorized", "3,000+ government contractors", "nearly half of Industry Top 100", "$100B+ AI-assisted awarded contracts"],
+      "keyFacts": [
+        "Procurement Sciences",
+        "HigherGov",
+        "Awarded AI",
+        "FedRAMP-authorized",
+        "3,000+ government contractors",
+        "nearly half of Industry Top 100",
+        "$100B+ AI-assisted awarded contracts"
+      ],
       "url": "https://www.prnewswire.com/news-releases/procurement-sciences-acquires-highergov-creating-the-largest-ai-powered-growth-platform-in-government-contracting-302776364.html",
       "sourceName": "PR Newswire",
       "lane": "deals",
@@ -754,7 +2182,16 @@
       "title": "IKS Health acquires ARAI Solutions",
       "summary": "IKS Health acquired ARAI Solutions to add biomedical knowledge graphs and agentic AI capability to its healthcare operations stack.",
       "fullSummary": "IKS Health acquired ARAI Solutions on May 13, 2026, positioning the deal as an applied healthcare AI infrastructure move rather than a general chatbot play. IKS says ARAI adds a knowledge layer to its four-layer AI stack: EMR integration, platform orchestration, trust and compliance, and AI applications. ARAI brings interconnected biomedical knowledge graphs grounded in peer-reviewed research, mapped through a central reasoning engine and LLM grounding layer. IKS says this can accelerate autonomous coding, clinical decisions, denial prevention, prior-authorization reasoning, and precision medicine while reducing dependency on third-party AI infrastructure. The deal is worth tracking because healthcare AI buyers care less about flashy demos and more about auditable, explainable, workflow-specific systems that can survive regulatory and clinical scrutiny.",
-      "keyFacts": ["IKS Health", "ARAI Solutions", "May 13, 2026", "four-layer AI stack", "biomedical knowledge graphs", "autonomous coding", "prior authorization", "precision medicine"],
+      "keyFacts": [
+        "IKS Health",
+        "ARAI Solutions",
+        "May 13, 2026",
+        "four-layer AI stack",
+        "biomedical knowledge graphs",
+        "autonomous coding",
+        "prior authorization",
+        "precision medicine"
+      ],
       "url": "https://ikshealth.com/insights/press-releases/iks-health-announces-acquisition-of-arai-solutions-an-ai-management-and-technology-company/",
       "sourceName": "IKS Health",
       "lane": "deals",
@@ -768,7 +2205,13 @@
       "title": "Martha Stewart helps raise $10M for AI startup Hint",
       "summary": "Hint raised $10M with Martha Stewart attached to the AI startup's funding story.",
       "fullSummary": "The Business Journals reports that Martha Stewart is connected to a $10M raise for AI startup Hint with a Charlotte CEO. The celebrity angle makes the story noticeable, but the investment angle is the key detail: consumer-facing AI startups are still using brand, distribution, and trust signals to stand out. The important follow-up is what Hint actually automates, whether Martha Stewart is a brand partner, investor, or operating participant, and whether the company can convert attention into durable usage.",
-      "keyFacts": ["Hint", "$10M", "Martha Stewart", "AI startup", "Charlotte CEO"],
+      "keyFacts": [
+        "Hint",
+        "$10M",
+        "Martha Stewart",
+        "AI startup",
+        "Charlotte CEO"
+      ],
       "url": "https://news.google.com/rss/search?q=Martha%20Stewart%20%2410M%20AI%20startup%20Hint",
       "sourceName": "The Business Journals",
       "lane": "startups",
@@ -782,7 +2225,13 @@
       "title": "SkillRet benchmarks skill retrieval for LLM agents",
       "summary": "SkillRet introduces a large-scale benchmark for LLM agent skill retrieval, built around 17,810 public agent skills.",
       "fullSummary": "SkillRet is a research benchmark for a practical agent problem: how an LLM agent finds the right reusable skill for a task. The benchmark contains 17,810 public agent skills, organized with semantic tags and a two-level taxonomy spanning 6 major categories and 18 sub-categories. This matters because agents will not scale only by making the base model smarter; they also need reliable retrieval over tools, skills, workflows, and prior procedures. Watch whether SkillRet becomes a standard evaluation for agent memory, tool routing, and skill libraries.",
-      "keyFacts": ["SkillRet", "17,810 skills", "6 major categories", "18 sub-categories", "LLM agents"],
+      "keyFacts": [
+        "SkillRet",
+        "17,810 skills",
+        "6 major categories",
+        "18 sub-categories",
+        "LLM agents"
+      ],
       "url": "https://huggingface.co/papers/2605.05726",
       "sourceName": "Hugging Face Papers / arXiv",
       "lane": "papers",
@@ -796,7 +2245,13 @@
       "title": "Recent arXiv AI-agent papers focus on GUI agents, memory, and multi-agent systems",
       "summary": "A recent arXiv tracker highlights GUI agents, agent memory benchmarks, and multi-agent system methods as active research clusters.",
       "fullSummary": "The AgentScout arXiv weekly tracker for mid-May 2026 summarizes an active research week around AI agents. The notable themes are GUI agents achieving measurable improvements, dedicated agent-memory benchmarks, and multi-agent systems incorporating more formal analysis methods. This is useful because it separates near-term agent research from vague AGI agent claims. The current research frontier is about grounding, memory, tool use, interface control, coordination, and evaluation. Watch which benchmarks become durable and which claims survive reproduction outside controlled tasks.",
-      "keyFacts": ["arXiv", "May 14 2026", "GUI agents", "agent memory", "multi-agent systems"],
+      "keyFacts": [
+        "arXiv",
+        "May 14 2026",
+        "GUI agents",
+        "agent memory",
+        "multi-agent systems"
+      ],
       "url": "https://agentscout.live/tech/ai-agents/data/arxiv-cs-ai-weekly-20260514/",
       "sourceName": "AgentScout / arXiv tracker",
       "lane": "papers",
