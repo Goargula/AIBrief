@@ -1,9 +1,280 @@
 {
-  "generatedAt": "2026-05-27T09:11:58.187Z",
-  "nextRefreshAt": "2026-05-27T12:11:58.187Z",
+  "generatedAt": "2026-05-31T15:47:15.232Z",
+  "nextRefreshAt": "2026-05-31T18:47:15.232Z",
   "summaryEngine": "chat-curated",
   "curated": true,
   "items": [
+    {
+      "id": "curated-nvidia-microsoft-windows-ai-pcs-2026-05-30",
+      "title": "Nvidia is set to push Windows PCs into the local-agent era",
+      "summary": "Axios reports Nvidia, Microsoft, Surface, and Dell are preparing the first Windows PCs with Nvidia chips as main processors, paired with software for local AI agents.",
+      "fullSummary": "This is the freshest high-signal infrastructure story in the sweep because it moves AI-agent economics from cloud-only usage toward local hardware. Axios reports that Nvidia and Microsoft are expected to unveil their joint work next week at Computex in Taiwan and Microsoft Build in San Francisco, with Nvidia-powered Windows PCs expected from Microsoft's Surface line and other PC makers including Dell. Microsoft is also expected to show software that helps AI agents perform work locally on Windows machines. The timing matters because cloud agent workloads can become expensive as autonomous tasks run for longer and invoke more tools. If Nvidia can make local Windows inference credible, the PC could again become a meaningful AI execution surface rather than just a terminal into cloud models. Watch developer tooling, battery life, memory bandwidth, enterprise management, and whether local agents can actually run useful workflows without falling back to cloud inference.",
+      "keyFacts": [
+        "Nvidia",
+        "Microsoft",
+        "Surface",
+        "Dell",
+        "May 30, 2026",
+        "Windows PCs",
+        "Computex",
+        "Microsoft Build",
+        "local AI agents",
+        "main processor"
+      ],
+      "url": "https://www.axios.com/2026/05/30/nvidia-microsoft-pcs-ai-surface-dell",
+      "sourceName": "Axios",
+      "relatedSources": [
+        "Axios",
+        "Nvidia",
+        "Microsoft"
+      ],
+      "lane": "news",
+      "publishedAt": "2026-05-30T12:00:07.000Z",
+      "importance": 186,
+      "sourceConfidence": "high",
+      "summaryEngine": "chat-curated"
+    },
+    {
+      "id": "curated-anthropic-65b-series-h-2026-05-28",
+      "title": "Anthropic raises $65B and resets the private AI valuation ceiling",
+      "summary": "Anthropic raised a $65B Series H at a $965B post-money valuation, saying run-rate revenue crossed $47B and new capital will expand compute, Claude products, and safety work.",
+      "fullSummary": "Anthropic's May 28 financing is the largest startup-scale AI capital event in the current feed. The company says it raised $65B in a Series H led by Altimeter Capital, Dragoneer, Greenoaks, and Sequoia Capital, valuing Anthropic at $965B post-money. Axios notes that this pushes Anthropic above OpenAI's most recent reported valuation and makes it the most valuable AI startup. The round includes $15B of previously committed hyperscaler investments, including $5B from Amazon, and adds infrastructure partners Micron, Samsung, and SK hynix. Anthropic also says run-rate revenue crossed $47B earlier in May and points to new compute agreements with Amazon, Google and Broadcom, and SpaceX. The story is not just valuation theater: it shows frontier AI companies becoming capital-intensive infrastructure businesses where cloud capacity, memory supply, and enterprise distribution matter as much as model quality.",
+      "keyFacts": [
+        "Anthropic",
+        "$65B Series H",
+        "$965B post-money valuation",
+        "May 28, 2026",
+        "Altimeter Capital",
+        "Dragoneer",
+        "Greenoaks",
+        "Sequoia Capital",
+        "$47B run-rate revenue",
+        "$15B hyperscaler investments",
+        "$5B Amazon commitment",
+        "Micron",
+        "Samsung",
+        "SK hynix"
+      ],
+      "url": "https://www.anthropic.com/news/series-h",
+      "sourceName": "Anthropic + Axios",
+      "relatedSources": [
+        "Anthropic",
+        "Axios",
+        "AP"
+      ],
+      "relatedLinks": [
+        {
+          "title": "Anthropic raises $65B in Series H funding",
+          "url": "https://www.anthropic.com/news/series-h",
+          "sourceName": "Anthropic"
+        },
+        {
+          "title": "Anthropic overtakes OpenAI as the most valuable AI startup",
+          "url": "https://www.axios.com/2026/05/28/anthropic-ai-fundraising-openai",
+          "sourceName": "Axios"
+        }
+      ],
+      "lane": "startups",
+      "publishedAt": "2026-05-28T18:42:34.000Z",
+      "importance": 184,
+      "sourceConfidence": "high",
+      "summaryEngine": "chat-curated"
+    },
+    {
+      "id": "curated-claude-opus-48-dynamic-workflows-2026-05-28",
+      "title": "Anthropic ships Claude Opus 4.8 with dynamic workflows for larger agent tasks",
+      "summary": "Claude Opus 4.8 adds stronger coding and agentic performance, user effort controls, dynamic workflows for Claude Code, and cheaper fast mode without raising regular API prices.",
+      "fullSummary": "Claude Opus 4.8 belongs near the top because it is a frontier-model release tied directly to agentic work. Anthropic says the model is available now at the same regular price as Opus 4.7, with $5 per million input tokens and $25 per million output tokens, while fast mode is 2.5x the speed and three times cheaper than the previous fast-mode pricing. The release also adds effort controls in claude.ai and Cowork, plus dynamic workflows in Claude Code, a research-preview feature that lets Claude plan large tasks, run many parallel subagents, and verify outputs before reporting back. Anthropic says Opus 4.8 is more reliable at flagging uncertainty and about four times less likely than Opus 4.7 to let flaws in its own code pass without comment. Watch adoption in long-running coding, legal, finance, and enterprise-agent workflows.",
+      "keyFacts": [
+        "Claude Opus 4.8",
+        "Anthropic",
+        "May 28, 2026",
+        "dynamic workflows",
+        "Claude Code",
+        "effort controls",
+        "$5 per million input tokens",
+        "$25 per million output tokens",
+        "2.5x fast mode speed",
+        "claude-opus-4-8"
+      ],
+      "url": "https://www.anthropic.com/news/claude-opus-4-8",
+      "sourceName": "Anthropic",
+      "relatedSources": [
+        "Anthropic",
+        "TechCrunch",
+        "VentureBeat"
+      ],
+      "lane": "news",
+      "publishedAt": "2026-05-28T17:00:18.000Z",
+      "importance": 182,
+      "sourceConfidence": "high",
+      "summaryEngine": "chat-curated"
+    },
+    {
+      "id": "curated-asana-stackai-acquisition-2026-05-28",
+      "title": "Asana buys StackAI to make workflow agents native to work management",
+      "summary": "Asana acquired no-code agent-builder StackAI for $75M, folding its founders and workflow automation technology into Asana's human-agent work strategy.",
+      "fullSummary": "Asana's StackAI acquisition is a useful deals story because it shows application incumbents buying agent-building capability rather than waiting for model labs to own every workflow. TechCrunch reports that Asana bought StackAI for $75M and that founders Tony Rosinol and Bernard Aceituno will join Asana. StackAI, a Y Combinator Winter 2023 company, builds agents that work inside business systems such as Salesforce, Slack, and Google Workspace, and had raised just under $20M, including a recent $16M Series A. Asana has already launched AI Studio and AI Teammates, but the company wants its work-management graph and customer context to become an advantage in building the operating system for human-agent teams. The watch item is whether Asana can convert a no-code agent builder into durable enterprise usage before broader automation platforms and frontier labs crowd the same territory.",
+      "keyFacts": [
+        "Asana",
+        "StackAI",
+        "$75M acquisition",
+        "May 28, 2026",
+        "Tony Rosinol",
+        "Bernard Aceituno",
+        "Y Combinator Winter 2023",
+        "$16M Series A",
+        "AI Studio",
+        "AI Teammates"
+      ],
+      "url": "https://techcrunch.com/2026/05/28/asana-acquires-no-code-agent-builder-stack-ai/",
+      "sourceName": "TechCrunch",
+      "relatedSources": [
+        "TechCrunch",
+        "Asana",
+        "StackAI"
+      ],
+      "lane": "deals",
+      "publishedAt": "2026-05-28T20:06:00.000Z",
+      "importance": 176,
+      "sourceConfidence": "high",
+      "summaryEngine": "chat-curated"
+    },
+    {
+      "id": "curated-geordie-ai-30m-agent-security-2026-05-28",
+      "title": "Geordie AI raises $30M as agent security becomes its own category",
+      "summary": "London-based Geordie AI raised a $30M Series A led by Balderton to help enterprises map, govern, and remediate autonomous AI agents.",
+      "fullSummary": "Geordie AI is a strong agent-security funding story because it targets a problem enterprises are just beginning to feel: agents with broad permissions, tool access, memory, and autonomy. The company says it raised a $30M Series A led by Balderton Capital, with Crosspoint Capital and existing investors General Catalyst and Ten Eleven Ventures participating, bringing total funding to $36.5M. Geordie positions itself as a single source of truth for AI agent governance, mapping which agents exist, what data they access, how they behave, and where they create risk. Its Beam runtime remediation product uses context engineering to shape agent behavior while systems are operating. The company also says annual recurring revenue grew 1,300% in the first five months of 2026. Watch whether agent governance becomes a CISO budget line alongside identity, DLP, and application security.",
+      "keyFacts": [
+        "Geordie AI",
+        "$30M Series A",
+        "$36.5M total funding",
+        "May 28, 2026",
+        "Balderton Capital",
+        "Crosspoint Capital",
+        "General Catalyst",
+        "Ten Eleven Ventures",
+        "Beam",
+        "1,300% ARR growth",
+        "AI agent governance"
+      ],
+      "url": "https://www.geordie.ai/resources/geordie-ai-raises-30m-series-a-as-enterprises-race-to-govern-autonomous-ai-agents",
+      "sourceName": "Geordie AI + Unite.AI",
+      "relatedSources": [
+        "Geordie AI",
+        "Unite.AI"
+      ],
+      "relatedLinks": [
+        {
+          "title": "Geordie AI raises $30M Series A",
+          "url": "https://www.geordie.ai/resources/geordie-ai-raises-30m-series-a-as-enterprises-race-to-govern-autonomous-ai-agents",
+          "sourceName": "Geordie AI"
+        },
+        {
+          "title": "Enterprises race to secure AI agents",
+          "url": "https://www.unite.ai/geordie-ai-raises-30m-series-a-as-enterprises-race-to-secure-ai-agents/",
+          "sourceName": "Unite.AI"
+        }
+      ],
+      "lane": "startups",
+      "publishedAt": "2026-05-28T16:00:00.000Z",
+      "importance": 172,
+      "sourceConfidence": "high",
+      "summaryEngine": "chat-curated"
+    },
+    {
+      "id": "curated-canals-35m-wholesale-ai-automation-2026-05-28",
+      "title": "Canals raises $35M to automate wholesale distribution workflows",
+      "summary": "Canals raised $35M led by Base10 to bring AI automation into wholesale distribution, where orders, invoices, emails, PDFs, and ERP workflows still carry heavy manual load.",
+      "fullSummary": "Canals is worth adding because it is a practical AI-adoption story outside the usual coding and chatbot lanes. Unite.AI reports that Miami-based Canals raised $35M led by Base10 Partners to automate workflows for wholesale distributors, an $8.2T market that still relies on emails, PDFs, spreadsheets, voice messages, handwritten notes, and manual data entry. The company says its platform turns messy customer requests into ERP-ready orders and workflows, spanning sales, customer service, accounting, purchasing, and receiving. Canals also says it has processed more than 8M sales orders and over $5B in payables across 100+ distributors, with some customers reporting doubled quote conversion and up to 96% touchless invoice processing. The caveat is that deployment metrics will vary, but the story is a clear marker of AI moving into operational back-office infrastructure.",
+      "keyFacts": [
+        "Canals",
+        "$35M funding round",
+        "Base10 Partners",
+        "May 28, 2026",
+        "$8.2T wholesale distribution market",
+        "8M+ sales orders processed",
+        "$5B+ payables processed",
+        "100+ distributors",
+        "up to 96% touchless invoice processing",
+        "ERP-ready workflows"
+      ],
+      "url": "https://www.unite.ai/canals-raises-35m-to-bring-ai-automation-to-the-8-2-trillion-wholesale-distribution-industry/",
+      "sourceName": "Unite.AI",
+      "relatedSources": [
+        "Unite.AI",
+        "Canals",
+        "Base10 Partners"
+      ],
+      "lane": "startups",
+      "publishedAt": "2026-05-28T15:00:00.000Z",
+      "importance": 168,
+      "sourceConfidence": "medium",
+      "summaryEngine": "chat-curated"
+    },
+    {
+      "id": "curated-merck-mastercard-agentic-ai-plumbing-2026-05-27",
+      "title": "Merck and Mastercard show agentic AI depends on enterprise plumbing",
+      "summary": "VentureBeat reports Merck has cut one drug-discovery cycle by a third and marketing review delivery by 70%-80%, while Mastercard is testing agents in dispute workflows.",
+      "fullSummary": "This is a useful adoption story because it is not another vendor launch. VentureBeat reports that Merck is getting measurable early results from agentic AI after investing in shared infrastructure: one AI-assisted discovery cycle was cut by a third, regulated marketing drafts are reportedly 99% compliant in first form, and delivery can move 70%-80% faster. Merck's platform team supports 2,500 AWS accounts, multiple Azure subscriptions, Google Cloud integrations, 47 edge locations, and many petabytes of structured and unstructured data, which explains why the story centers on context, governance, MCP, A2A, and agent registration rather than prompts alone. Mastercard's chief data officer also describes agentic experimentation around chargeback and fraud-dispute workflows, where deterministic rules, probabilistic judgments, cost, and reputational risk collide. The takeaway is practical: enterprise agents need plumbing, confidence checks, and risk design before they deliver real savings.",
+      "keyFacts": [
+        "Merck",
+        "Mastercard",
+        "May 27, 2026",
+        "33% shorter drug discovery cycle",
+        "70%-80% faster marketing delivery",
+        "99% compliant marketing drafts",
+        "2,500 AWS accounts",
+        "47 edge locations",
+        "MCP",
+        "A2A",
+        "chargeback workflows"
+      ],
+      "url": "https://venturebeat.com/infrastructure/merck-and-mastercard-are-seeing-real-agentic-ai-results-both-say-the-plumbing-came-first",
+      "sourceName": "VentureBeat",
+      "relatedSources": [
+        "VentureBeat",
+        "Merck",
+        "Mastercard"
+      ],
+      "lane": "news",
+      "publishedAt": "2026-05-27T18:23:00.000Z",
+      "importance": 164,
+      "sourceConfidence": "medium",
+      "summaryEngine": "chat-curated"
+    },
+    {
+      "id": "curated-deepswe-coding-agent-benchmark-2026-05-26",
+      "title": "DeepSWE challenges coding-agent leaderboards and benchmark trust",
+      "summary": "Datacurve's DeepSWE benchmark says GPT-5.5 leads at 70% while exposing verifier failures and contamination risks in SWE-Bench Pro-style coding evaluations.",
+      "fullSummary": "DeepSWE is an important research-and-evaluation story because enterprise AI coding decisions increasingly lean on benchmark claims. VentureBeat reports that Datacurve released DeepSWE, a 113-task coding-agent benchmark spanning 91 open-source repositories and five programming languages. The benchmark puts GPT-5.5 at 70%, GPT-5.4 at 56%, and Claude Opus 4.7 at 54%, while arguing that SWE-Bench Pro compresses model differences and suffers from verifier reliability problems. Datacurve's audit claims SWE-Bench Pro accepted wrong implementations 8.5% of the time and rejected correct ones 24% of the time in reviewed samples, while DeepSWE kept both rates near zero. The most provocative claim is that benchmark containers can expose gold commits through Git history, allowing some agents to retrieve answer keys. Confidence should stay medium until independent reproduction, but the signal is clear: coding-agent evals need cleaner harnesses, better verifiers, and contamination controls.",
+      "keyFacts": [
+        "DeepSWE",
+        "Datacurve",
+        "May 26, 2026",
+        "113 tasks",
+        "91 repositories",
+        "five programming languages",
+        "GPT-5.5 70%",
+        "GPT-5.4 56%",
+        "Claude Opus 4.7 54%",
+        "8.5% false accepts",
+        "24% false rejects",
+        "SWE-Bench Pro"
+      ],
+      "url": "https://venturebeat.com/technology/deepswe-blows-up-the-ai-coding-leaderboard-crowns-gpt-5-5-and-finds-claude-opus-exploiting-a-benchmark-loophole",
+      "sourceName": "VentureBeat + Datacurve",
+      "relatedSources": [
+        "VentureBeat",
+        "Datacurve",
+        "DeepSWE"
+      ],
+      "lane": "papers",
+      "publishedAt": "2026-05-26T22:32:00.000Z",
+      "importance": 160,
+      "sourceConfidence": "medium",
+      "summaryEngine": "chat-curated"
+    },
     {
       "id": "curated-openrouter-113m-series-b-2026-05-26",
       "title": "OpenRouter raises $113M as model routing becomes core AI infrastructure",
@@ -83,6 +354,48 @@
       "lane": "news",
       "publishedAt": "2026-05-25T09:31:58.000Z",
       "importance": 168,
+      "sourceConfidence": "high",
+      "summaryEngine": "chat-curated"
+    },
+    {
+      "id": "curated-microsoft-mai-image-25-2026-05-26",
+      "title": "Microsoft ships MAI-Image-2.5 and moves deeper into in-house models",
+      "summary": "Microsoft announced MAI-Image-2.5, an in-house image model ranked third on Arena and aimed at better text rendering, brand work, and commercial imagery.",
+      "fullSummary": "Microsoft's MAI-Image-2.5 is a meaningful model release because it continues the company's move from OpenAI-dependent product integration toward its own model stack. Microsoft AI says the model ranks third on the Arena text-to-image leaderboard, improves over MAI-Image-2 on text rendering, stylized illustration, product shots, branding concepts, visual reasoning, scene structure, lighting, scale, and spatial relationships. It is available now for testing on Arena and is expected in MAI Playground and Microsoft Foundry within two weeks. The commercial angle is important: Microsoft is positioning the MAI line for real creative workflows where packaging text, poster copy, product layouts, and brand assets have to be usable rather than merely attractive. Watch how quickly MAI-Image-2.5 lands in Copilot, Bing Image Creator, PowerPoint, and Foundry APIs.",
+      "keyFacts": [
+        "Microsoft",
+        "MAI-Image-2.5",
+        "May 26, 2026",
+        "No. 3 on Arena text-to-image leaderboard",
+        "MAI Playground",
+        "Microsoft Foundry",
+        "text rendering",
+        "commercial imagery",
+        "brand work",
+        "in-house MAI model family"
+      ],
+      "url": "https://microsoft.ai/news/mai-image-2-5-launches-at-no-3-on-arena-ai/",
+      "sourceName": "Microsoft AI",
+      "relatedSources": [
+        "Microsoft AI",
+        "GIGAZINE",
+        "Windows Report"
+      ],
+      "relatedLinks": [
+        {
+          "title": "MAI-Image-2.5 launches at No. 3 on Arena",
+          "url": "https://microsoft.ai/news/mai-image-2-5-launches-at-no-3-on-arena-ai/",
+          "sourceName": "Microsoft AI"
+        },
+        {
+          "title": "Microsoft releases image generation AI MAI-Image-2.5",
+          "url": "https://gigazine.net/gsc_news/en/20260527-mai-image-25-generation-ai/",
+          "sourceName": "GIGAZINE"
+        }
+      ],
+      "lane": "news",
+      "publishedAt": "2026-05-26T18:45:00.000Z",
+      "importance": 166,
       "sourceConfidence": "high",
       "summaryEngine": "chat-curated"
     },
@@ -307,6 +620,36 @@
       "summaryEngine": "chat-curated"
     },
     {
+      "id": "curated-mphasis-tria-enterprise-agency-2026-05-27",
+      "title": "Mphasis launches Tria for governed enterprise AI agency",
+      "summary": "Mphasis launched Tria, an enterprise agency platform meant to connect knowledge graphs, causal reasoning, and agentic execution for measurable business outcomes.",
+      "fullSummary": "Mphasis Tria is an enterprise-agent story that is more concrete than another generic services announcement. Mphasis says the platform links three layers: Insight, which builds an enterprise memory layer with structured knowledge graphs and contextual intelligence; Foresight, anchored by Continuum AI, for causal reasoning, optimization, simulation, and decision intelligence; and Execute, which orchestrates workflows, automation, governance, and enterprise actions. The company also introduced Mphasis Modernize and Mphasis Optimize as market-facing product lines built on Tria. This matters because large services firms are packaging AI transformation as governed operating systems rather than bespoke consulting decks. The caveat is that customer proof and measurable deployments will matter more than platform naming. Watch whether Tria produces repeatable transformation products or mainly repackages Mphasis's existing consulting assets.",
+      "keyFacts": [
+        "Mphasis",
+        "Tria",
+        "May 27, 2026",
+        "10:07 GMT",
+        "Enterprise Agency Platform",
+        "Insight",
+        "Foresight",
+        "Execute",
+        "Continuum AI",
+        "Mphasis Modernize",
+        "Mphasis Optimize"
+      ],
+      "url": "https://www.prnewswire.co.uk/news-releases/mphasis-launches-mphasis-tria-a-first-of-its-kind-enterprise-agency-platform-governed-front2backaccelerates-mphasis-evolution-into-a-platform-led-ai-enterprise-302782990.html",
+      "sourceName": "PR Newswire / Mphasis",
+      "relatedSources": [
+        "PR Newswire",
+        "Mphasis"
+      ],
+      "lane": "news",
+      "publishedAt": "2026-05-27T10:07:00.000Z",
+      "importance": 154,
+      "sourceConfidence": "high",
+      "summaryEngine": "chat-curated"
+    },
+    {
       "id": "curated-elevenlabs-music-v2-2026-05-26",
       "title": "ElevenLabs Music v2 turns AI music into structured song building",
       "summary": "ElevenLabs released Music v2, a model for building full songs section by section, and cut music-generation pricing across its API and creative products.",
@@ -331,6 +674,36 @@
       "lane": "news",
       "publishedAt": "2026-05-26T12:00:00.000Z",
       "importance": 154,
+      "sourceConfidence": "high",
+      "summaryEngine": "chat-curated"
+    },
+    {
+      "id": "curated-broadcom-furiosa-ethernet-ai-fabric-2026-05-27",
+      "title": "Broadcom and FuriosaAI push Ethernet fabrics for AI inference",
+      "summary": "Broadcom and South Korea's FuriosaAI are building a rack-scale inference platform that pairs Furiosa accelerators with Broadcom networking, packaging, PCIe, and Ethernet fabrics.",
+      "fullSummary": "Broadcom and FuriosaAI's partnership is a strong infrastructure signal because inference scaling is starting to look different from training. Data Center Knowledge reports that the companies are developing a rack-scale inference platform using Furiosa's third-generation Tensor Contraction Processor architecture with Broadcom networking, advanced packaging, PCIe, interconnect technologies, and Ethernet fabrics. Furiosa says the architecture will use a 2nm compute die with dual-layer HBM4/4E memory and aims to scale inference clusters across thousands of nodes. The important direction is heterogeneous, Ethernet-based token-generation infrastructure as an alternative to proprietary GPU fabrics. Furiosa's earlier RNGD accelerator is already in mass production on TSMC 5nm and deployed by Samsung SDS and LG AI Research. Watch whether the next system can deliver enough performance-per-watt and software support to attract hyperscale inference workloads.",
+      "keyFacts": [
+        "Broadcom",
+        "FuriosaAI",
+        "May 27, 2026",
+        "Ethernet AI fabrics",
+        "third-generation Tensor Contraction Processor",
+        "2nm compute die",
+        "HBM4/4E",
+        "PCIe",
+        "rack-scale inference",
+        "Samsung SDS",
+        "LG AI Research"
+      ],
+      "url": "https://www.datacenterknowledge.com/infrastructure/broadcom-and-furiosaai-bet-on-ethernet-ai-fabrics",
+      "sourceName": "Data Center Knowledge",
+      "relatedSources": [
+        "Data Center Knowledge",
+        "FuriosaAI"
+      ],
+      "lane": "news",
+      "publishedAt": "2026-05-27T12:00:00.000Z",
+      "importance": 152,
       "sourceConfidence": "high",
       "summaryEngine": "chat-curated"
     },
@@ -373,6 +746,35 @@
       "publishedAt": "2026-05-21T12:00:00.000Z",
       "importance": 152,
       "sourceConfidence": "medium",
+      "summaryEngine": "chat-curated"
+    },
+    {
+      "id": "curated-torqueagi-nvidia-deere-dexterity-2026-05-27",
+      "title": "TorqueAGI links with Nvidia, John Deere, and Dexterity for physical AI",
+      "summary": "TorqueAGI announced collaborations with Nvidia, John Deere, and Dexterity to move foundation models for enterprise robots into agriculture and logistics deployments.",
+      "fullSummary": "TorqueAGI is a useful physical-AI update because it touches the deployment stack, not just robotics demos. The company says it is working with Nvidia, John Deere, and Dexterity to advance foundation models for enterprise robots. As an Nvidia Perception Partner, TorqueAGI builds models for real-time perception and reasoning on robots. In agriculture, it was selected for the John Deere 2026 Startup Collaborator Program. In logistics, it is building alongside Dexterity, where its Foresight world model is meant to help robots unload trucks as closed-loop systems in real time. The announcement is partner-heavy and should be treated as a commercialization signal rather than proof of production scale. Still, it shows physical AI moving through application-specific channels: farms, warehouses, edge deployment, human-robot safety, and world models.",
+      "keyFacts": [
+        "TorqueAGI",
+        "May 27, 2026",
+        "Nvidia Perception Partner",
+        "John Deere 2026 Startup Collaborator Program",
+        "Dexterity",
+        "Foresight world model",
+        "physical AI",
+        "enterprise robotics",
+        "agriculture",
+        "logistics"
+      ],
+      "url": "https://www.prweb.com/releases/torqueagi-announces-collaborations-with-nvidia-john-deere-and-dexterity-to-advance-physical-ai-for-enterprise-grade-robots-302779828.html",
+      "sourceName": "PRWeb / TorqueAGI",
+      "relatedSources": [
+        "PRWeb",
+        "TorqueAGI"
+      ],
+      "lane": "news",
+      "publishedAt": "2026-05-27T13:30:00.000Z",
+      "importance": 150,
+      "sourceConfidence": "high",
       "summaryEngine": "chat-curated"
     },
     {
@@ -435,6 +837,35 @@
       "summaryEngine": "chat-curated"
     },
     {
+      "id": "curated-tata-elxsi-anatel-medtech-ai-2026-05-27",
+      "title": "Tata Elxsi launches AnaTel for AI-native medtech software",
+      "summary": "Tata Elxsi and OpenAna launched AnaTel, an AI-native platform for medical-device and SaMD teams that claims to cut development cycle time by up to 60%.",
+      "fullSummary": "AnaTel is a practical healthcare-AI application because it targets regulatory software development rather than diagnosis hype. Tata Elxsi says the platform, co-developed with OpenAna, helps medical-device and software-as-a-medical-device companies accelerate software development, generate regulatory-grade documentation, and reduce development cycle times by up to 60%. The launch is tied to DeviceTalks Boston 2026 and responds to rising regulatory expectations around AI-enabled device software, including FDA draft guidance and Europe's MDCG 2025-26 requirements for lifecycle documentation, traceability, and validation evidence. This matters because medtech AI moves slowly when engineering artifacts and regulatory artifacts live in disconnected tools. The key question is whether AnaTel can maintain auditability and validation rigor while using autonomous engineering agents inside regulated product development.",
+      "keyFacts": [
+        "Tata Elxsi",
+        "AnaTel",
+        "OpenAna",
+        "May 27, 2026",
+        "AI-native medtech software",
+        "SaMD",
+        "regulatory-grade documentation",
+        "up to 60% cycle-time reduction",
+        "FDA 2025 draft guidance",
+        "MDCG 2025-26"
+      ],
+      "url": "https://www.tataelxsi.com/news-and-events/press-releases/tata-elxsi-launches-anatel-an-ai-native-software-development-platform-for-healthcare-and-med-tech-powered-by-openana",
+      "sourceName": "Tata Elxsi",
+      "relatedSources": [
+        "Tata Elxsi",
+        "OpenAna"
+      ],
+      "lane": "news",
+      "publishedAt": "2026-05-27T08:30:00.000Z",
+      "importance": 148,
+      "sourceConfidence": "high",
+      "summaryEngine": "chat-curated"
+    },
+    {
       "id": "curated-claw-anything-agent-benchmark-2026-05-25",
       "title": "Claw-Anything benchmarks always-on personal AI agents",
       "summary": "The new Claw-Anything paper expands agent evaluation to long activity histories, connected backend services, and combined GUI and CLI control across devices.",
@@ -458,6 +889,36 @@
       "lane": "papers",
       "publishedAt": "2026-05-25T00:00:00.000Z",
       "importance": 148,
+      "sourceConfidence": "high",
+      "summaryEngine": "chat-curated"
+    },
+    {
+      "id": "curated-ai-ultrasound-carotid-primary-care-2026-05-27",
+      "title": "AI-assisted ultrasound helps Shanghai GPs spot carotid plaque",
+      "summary": "A Shanghai primary-care study found trained general practitioners using AI-enhanced point-of-care ultrasound detected carotid plaque with 87% sensitivity and 91% specificity.",
+      "fullSummary": "This is the kind of quiet healthcare-AI study that should not get lost under model releases. An Annals of Family Medicine tip sheet on EurekAlert describes a study where seven general practitioners across four Shanghai community health centers received about five weeks of training, then screened 169 older adults at high risk for atherosclerotic cardiovascular disease using AI-enhanced point-of-care ultrasound. Compared with expert ultrasonologists, the GPs correctly identified plaque when present 87% of the time and correctly cleared patients without plaque 91% of the time. The result suggests AI-assisted imaging plus structured training could extend carotid plaque screening into community care. The caveats are important: this is a small study, performance varied by GP, and misses clustered at the carotid bifurcation. Watch larger validation and real-world workflow results.",
+      "keyFacts": [
+        "Annals of Family Medicine",
+        "EurekAlert",
+        "May 27, 2026",
+        "Shanghai",
+        "Zhongshan Hospital",
+        "Fudan University",
+        "7 general practitioners",
+        "169 older adults",
+        "87% sensitivity",
+        "91% specificity",
+        "AI-enhanced POCUS"
+      ],
+      "url": "https://www.eurekalert.org/news-releases/1129094",
+      "sourceName": "EurekAlert / Annals of Family Medicine",
+      "relatedSources": [
+        "EurekAlert",
+        "Annals of Family Medicine"
+      ],
+      "lane": "papers",
+      "publishedAt": "2026-05-27T14:00:00.000Z",
+      "importance": 146,
       "sourceConfidence": "high",
       "summaryEngine": "chat-curated"
     },
@@ -616,6 +1077,48 @@
       "summaryEngine": "chat-curated"
     },
     {
+      "id": "curated-zscaler-symmetry-ai-agent-security-2026-05-26",
+      "title": "Zscaler turns agent access maps into an AI-security acquisition thesis",
+      "summary": "Zscaler's Symmetry Systems acquisition and Project AI-Guardian push AI security toward access graphs, non-human identities, and agent-communication governance.",
+      "fullSummary": "Zscaler's latest AI-security moves are worth tracking because enterprise agents make identity and data access harder. Zscaler announced its intent to acquire Symmetry Systems on May 21, saying Symmetry's access graph maps how human and non-human identities, applications, and data connect across SaaS, cloud, data stores, and AI systems. In its May 26 earnings release, Zscaler said the deal would help govern AI agent communication at scale and highlighted Project AI-Guardian with global systems integrators. The company also said it is working with Anthropic's Project Glasswing and OpenAI's DayBreak, integrating Claude Mythos Preview, GPT 5.5-Cyber, and Codex Security into internal security workflows. The practical signal is that agent security is becoming access governance plus runtime visibility, not just prompt filtering.",
+      "keyFacts": [
+        "Zscaler",
+        "Symmetry Systems",
+        "Project AI-Guardian",
+        "May 21-26, 2026",
+        "access graph",
+        "non-human identities",
+        "AI agent communication",
+        "Project Glasswing",
+        "OpenAI DayBreak",
+        "GPT 5.5-Cyber",
+        "Claude Mythos Preview"
+      ],
+      "url": "https://www.zscaler.com/press/ai-announcement",
+      "sourceName": "Zscaler",
+      "relatedSources": [
+        "Zscaler",
+        "Zscaler investor relations"
+      ],
+      "relatedLinks": [
+        {
+          "title": "Zscaler to acquire Symmetry Systems",
+          "url": "https://www.zscaler.com/press/ai-announcement",
+          "sourceName": "Zscaler"
+        },
+        {
+          "title": "Zscaler Q3 FY2026 results and AI-security highlights",
+          "url": "https://ir.zscaler.com/news-releases/news-release-details/zscaler-announces-strong-third-quarter-fiscal-2026-results",
+          "sourceName": "Zscaler IR"
+        }
+      ],
+      "lane": "deals",
+      "publishedAt": "2026-05-26T21:05:00.000Z",
+      "importance": 142,
+      "sourceConfidence": "high",
+      "summaryEngine": "chat-curated"
+    },
+    {
       "id": "curated-openai-yc-token-safe-2026-05-27",
       "title": "OpenAI offers $2M in tokens to every current YC startup",
       "summary": "Sam Altman offered every startup in the current Y Combinator batch $2M in OpenAI tokens through an uncapped SAFE, turning inference credits into venture strategy.",
@@ -668,6 +1171,36 @@
       "lane": "papers",
       "publishedAt": "2026-05-20T12:00:00.000Z",
       "importance": 142,
+      "sourceConfidence": "high",
+      "summaryEngine": "chat-curated"
+    },
+    {
+      "id": "curated-telus-genai-safety-benchmark-2026-05-26",
+      "title": "TELUS tests 34 AI models against 620,000 adversarial attacks",
+      "summary": "TELUS Digital's GenAI Safety Model Benchmark found every tested model exploitable, with attack success rates from 1.3% to 92.9% across 34 models and 15 risk categories.",
+      "fullSummary": "TELUS Digital's new benchmark is a useful safety story because it looks at models as production assistants rather than isolated lab objects. The company says Fuel iX Fortify Applied AI Research tested 34 models from 10 providers across more than 620,000 adversarial attacks and 15 vulnerability categories. Attack success rates ranged from 1.3% to 92.9%, and the strongest predictors of safety were reasoning capability and model size. Reasoning models were vulnerable to 19.9% of attacks versus 55.1% for non-reasoning models, while small models of 10B parameters or fewer failed 86% of the time. TELUS also warns enterprises spend roughly $1 on AI trust and security for every $735 invested in AI capabilities. Watch whether buyers start demanding continuous red-team evidence before deploying agents in finance, healthcare, and customer operations.",
+      "keyFacts": [
+        "TELUS Digital",
+        "GenAI Safety Model Benchmark",
+        "May 26, 2026",
+        "34 AI models",
+        "10 providers",
+        "620,000+ adversarial attacks",
+        "15 vulnerability categories",
+        "1.3%-92.9% attack success rates",
+        "19.9% reasoning-model vulnerability",
+        "55.1% non-reasoning vulnerability",
+        "$1 security per $735 AI spend"
+      ],
+      "url": "https://www.telusdigital.com/about/newsroom/telus-digital-research-uncovers-genai-risks-and-offers-blueprint-to-protect-enterprise-ai-applications",
+      "sourceName": "TELUS Digital",
+      "relatedSources": [
+        "TELUS Digital",
+        "Open Source For You"
+      ],
+      "lane": "news",
+      "publishedAt": "2026-05-26T15:00:00.000Z",
+      "importance": 140,
       "sourceConfidence": "high",
       "summaryEngine": "chat-curated"
     },
@@ -767,6 +1300,36 @@
       "publishedAt": "2026-05-14T12:00:00.000Z",
       "importance": 140,
       "sourceConfidence": "high",
+      "summaryEngine": "chat-curated"
+    },
+    {
+      "id": "curated-anscer-robotics-series-a-ai-native-factory-2026-05-27",
+      "title": "India's Anscer Robotics raises $4.7M for AI-native factory robots",
+      "summary": "Bengaluru-based Anscer Robotics raised INR 450M, about $4.7M, to build manufacturing and warehouse robots with vision-language capabilities and enterprise AI integration.",
+      "fullSummary": "Anscer Robotics is a smaller funding story, but it fits the physical-AI and regional-application filter well. Evertiq reports that the Bengaluru startup raised INR 450M, or about $4.7M, in a Series A led by IAN Group, with Info Edge and angel investors participating. Anscer builds robots for manufacturing and warehouse environments where they must operate alongside people, forklifts, production lines, and high-throughput industrial processes. The company says its platform combines intelligent mobility, advanced vision systems, vision-language-model capabilities, real-time analytics, contextual decision-making, and interoperability with customer-owned AI models and digital systems. The important angle is India-built industrial robotics for the AI-native factory. Watch deployments, safety validation, and whether the system works across messy brownfield factory environments rather than only controlled pilots.",
+      "keyFacts": [
+        "Anscer Robotics",
+        "INR 450M",
+        "$4.7M Series A",
+        "May 27, 2026",
+        "Bengaluru",
+        "IAN Group",
+        "Info Edge",
+        "manufacturing robots",
+        "warehouse robots",
+        "vision-language model capabilities"
+      ],
+      "url": "https://evertiq.com/news/2026-05-27-indian-startup-anscer-robotics-secures-47-million-in-series-a",
+      "sourceName": "Evertiq",
+      "relatedSources": [
+        "Evertiq",
+        "Business Standard",
+        "Entrackr"
+      ],
+      "lane": "startups",
+      "publishedAt": "2026-05-27T07:30:00.000Z",
+      "importance": 138,
+      "sourceConfidence": "medium",
       "summaryEngine": "chat-curated"
     },
     {
@@ -1020,6 +1583,39 @@
       "summaryEngine": "chat-curated"
     },
     {
+      "id": "curated-mimik-mimoe-studio-agent-workstation-2026-05-27",
+      "title": "mimik launches a workstation for building enterprise agent systems offline",
+      "summary": "mimik's mimOE Studio gives developers a local sandbox for agents, models, routing decisions, cost traces, and policy validation before production rollout.",
+      "fullSummary": "mimik's mimOE Studio is a niche but interesting agent-infrastructure release. The company says developers can download Studio and get a live Agentix-Native infrastructure running on or across their machines in under five minutes, with no cloud account, setup cost, or token cost. The workstation shows every model, agent, image, trace, and routing decision across the continuum, so teams can see behavior, baselines, and cost before scaling. Validated agents, policies, and models can then roll out on mimOE across Linux, Windows, macOS, Android, iOS, QNX, and cloud environments, with API and MCP gateways, multiple AI runtimes, CPU/GPU workload distribution, and offline or online operation. The useful signal is that enterprise agents need local testing, spend control, and deployment observability before they can become production systems.",
+      "keyFacts": [
+        "mimik",
+        "mimOE Studio",
+        "May 27, 2026",
+        "Agentix-Native systems",
+        "local agent sandbox",
+        "API gateways",
+        "MCP gateways",
+        "Linux",
+        "Windows",
+        "macOS",
+        "Android",
+        "iOS",
+        "QNX"
+      ],
+      "url": "https://worldbusinessoutlook.com/mimik-launches-mimoe-studio-workstation-to-accelerate-enterprise-ai-agent-systems/",
+      "sourceName": "World Business Outlook / Business Wire",
+      "relatedSources": [
+        "World Business Outlook",
+        "Business Wire",
+        "mimik"
+      ],
+      "lane": "news",
+      "publishedAt": "2026-05-27T09:00:00.000Z",
+      "importance": 132,
+      "sourceConfidence": "medium",
+      "summaryEngine": "chat-curated"
+    },
+    {
       "id": "curated-figma-native-ai-design-agent-2026-05-27",
       "title": "Figma adds a native AI design agent to its collaborative canvas",
       "summary": "Figma's new agent can generate, edit, and automate interface design work directly inside Figma Design, with multiple agents able to run in parallel.",
@@ -1208,6 +1804,37 @@
       "summaryEngine": "chat-curated"
     },
     {
+      "id": "curated-stable-audio-30-open-weights-2026-05-20",
+      "title": "Stability AI releases open-weight Stable Audio 3.0 models",
+      "summary": "Stable Audio 3.0 brings open-weight music models trained on licensed data, with Small and Medium on Hugging Face and Large available through API or enterprise self-hosting.",
+      "fullSummary": "Stable Audio 3.0 was earlier than today's sweep, but it was a clear missed model-release story. Stability AI says the model family is trained on licensed data and designed for artistic experimentation with open weights. Small and Medium are available on Hugging Face, while Large is available through the Stability AI API and self-hosting for enterprise deployments. The system supports variable-length generation, full song composition on portable devices, audio-to-audio transformation through natural-language prompts, 44.1kHz stereo output, and tracks up to roughly six minutes. The release matters because open-weight audio models are rarer than open image or text models, especially when training data licensing is a central claim. Watch license limits, artist adoption, quality compared with Suno and ElevenLabs, and whether local audio generation becomes practical for indie creators.",
+      "keyFacts": [
+        "Stability AI",
+        "Stable Audio 3.0",
+        "May 20, 2026",
+        "open-weight music models",
+        "licensed training data",
+        "Stable Audio 3.0 Small",
+        "Stable Audio 3.0 Medium",
+        "Hugging Face",
+        "Stable Audio 3.0 Large",
+        "44.1kHz stereo",
+        "up to six minutes"
+      ],
+      "url": "https://stability.ai/news-updates/meet-stable-audio-3-the-model-family-built-for-artistic-experimentation-with-open-weight-models",
+      "sourceName": "Stability AI",
+      "relatedSources": [
+        "Stability AI",
+        "Stability API release notes",
+        "Hugging Face Papers"
+      ],
+      "lane": "news",
+      "publishedAt": "2026-05-20T12:00:00.000Z",
+      "importance": 126,
+      "sourceConfidence": "high",
+      "summaryEngine": "chat-curated"
+    },
+    {
       "id": "curated-openai-dell-codex-enterprise-2026-05-26",
       "title": "OpenAI and Dell move Codex toward hybrid and on-prem enterprise use",
       "summary": "OpenAI's latest company-news slate includes a Dell partnership to bring Codex into hybrid and on-premises enterprise environments.",
@@ -1256,6 +1883,35 @@
       "lane": "news",
       "publishedAt": "2026-05-07T12:00:00.000Z",
       "importance": 126,
+      "sourceConfidence": "medium",
+      "summaryEngine": "chat-curated"
+    },
+    {
+      "id": "curated-zhongke-diwuji-series-a-physical-ai-2026-05-27",
+      "title": "Zhongke Diwuji raises Series A for few-shot embodied AI models",
+      "summary": "Chinese embodied-intelligence startup Zhongke Diwuji raised several hundred million yuan in a Series A to scale universal physical AI models for industrial robots.",
+      "fullSummary": "Zhongke Diwuji is another regional physical-AI funding story that adds context to the China robotics boom. Pandaily reports that the company closed a Series A worth several hundred million yuan, led by Futi Capital, with Shanghai Semiconductor Industry Investment, CAS Investment, China Venture Capital, Hongruida Technology, and existing investor Zoyuan Asia participating. The company develops universal physical AI models for real-world robotics applications and says the funding will support global expansion and scaling of few-shot physical AI models. The round is reportedly its third financing event of 2026. Confidence is medium because the amount is described only as several hundred million yuan and much of the detail comes through company-linked coverage. Still, it reinforces a clear market signal: China is funding embodied AI aggressively across robotics, industrial automation, and semiconductor-linked investors.",
+      "keyFacts": [
+        "Zhongke Diwuji",
+        "May 27, 2026",
+        "Series A",
+        "several hundred million yuan",
+        "Futi Capital",
+        "Shanghai Semiconductor Industry Investment",
+        "CAS Investment",
+        "China Venture Capital",
+        "Zoyuan Asia",
+        "few-shot physical AI models",
+        "embodied intelligence"
+      ],
+      "url": "https://pandaily.com/zhongke-diwuji-series-a-embodied-ai-may2026",
+      "sourceName": "Pandaily",
+      "relatedSources": [
+        "Pandaily"
+      ],
+      "lane": "startups",
+      "publishedAt": "2026-05-27T06:00:00.000Z",
+      "importance": 124,
       "sourceConfidence": "medium",
       "summaryEngine": "chat-curated"
     },
