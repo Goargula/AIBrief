@@ -1,9 +1,613 @@
 {
-  "generatedAt": "2026-05-31T15:47:15.232Z",
-  "nextRefreshAt": "2026-05-31T18:47:15.232Z",
+  "generatedAt": "2026-05-31T17:33:26.742Z",
+  "nextRefreshAt": "2026-05-31T20:33:26.745Z",
   "summaryEngine": "chat-curated",
   "curated": true,
   "items": [
+    {
+      "id": "curated-ai-psychosis-backlash-debate-2026-05-31",
+      "title": "AI backlash gets a sharper name as CEOs debate AI psychosis",
+      "summary": "TechCrunch used Aaron Levie's “AI psychosis” critique to frame a wider backlash around forced AI features, layoffs, and executive distance from real workflows.",
+      "fullSummary": "The AI backlash is moving from scattered complaints into a clearer market signal. TechCrunch's May 31 discussion starts with Box founder Aaron Levie's argument that some tech CEOs are too far from last-mile work to judge whether AI is really creating value. The piece ties that skepticism to three live pressures: Google Search users looking for AI-light alternatives, worker anxiety around AI-driven layoffs, and the gap between executive productivity narratives and operational reality. This is not a claim that AI is failing; it is a reminder that adoption quality now matters as much as adoption volume. The useful signal for builders is segmentation. Some users want deeply embedded agents, some want AI kept out of core workflows, and many want evidence that the system improves the job rather than making work noisier.",
+      "keyFacts": [
+        "TechCrunch",
+        "May 31, 2026",
+        "Aaron Levie",
+        "Box",
+        "AI psychosis",
+        "DuckDuckGo backlash",
+        "Google AI Search",
+        "AI layoffs",
+        "AI productivity debate"
+      ],
+      "url": "https://techcrunch.com/2026/05/31/making-sense-of-the-debate-over-ai-psychosis/",
+      "sourceName": "TechCrunch",
+      "relatedSources": [
+        "TechCrunch",
+        "Box",
+        "DuckDuckGo"
+      ],
+      "lane": "signal",
+      "publishedAt": "2026-05-31T15:30:00.000Z",
+      "importance": 174,
+      "sourceConfidence": "medium",
+      "summaryEngine": "chat-curated"
+    },
+    {
+      "id": "curated-softbank-france-ai-data-centers-75b-2026-05-30",
+      "title": "SoftBank plans up to EUR75B for French AI data centers",
+      "summary": "SoftBank says it will invest up to EUR75B, about $87B, to build as much as 5GW of new data-center capacity in France.",
+      "fullSummary": "SoftBank's France plan is the clearest new sovereign-AI infrastructure story in the feed. The company says it will spend up to EUR75B, or roughly $87B, to expand French data-center capacity by as much as 5GW. The first phase targets Dunkirk, Bosquel, and Bouchain and is meant to deliver 3.1GW of capacity to the Hauts-de-France region by 2031. SoftBank calls it its largest AI infrastructure investment in Europe. This matters because AI policy is increasingly about power, land, water, chips, and national compute access, not only models and apps. France gets another argument that it can host more of the AI value chain inside Europe, while SoftBank extends its OpenAI-linked infrastructure strategy beyond U.S.-centric megaprojects. Watch grid approvals, energy sourcing, customers, and whether the capacity lands on schedule.",
+      "keyFacts": [
+        "SoftBank",
+        "EUR75B",
+        "$87B",
+        "France",
+        "5GW planned capacity",
+        "3.1GW first phase",
+        "Dunkirk",
+        "Bosquel",
+        "Bouchain",
+        "Hauts-de-France",
+        "2031"
+      ],
+      "url": "https://techcrunch.com/2026/05/30/softbank-says-it-will-invest-up-to-e75-billion-to-build-french-data-centers/",
+      "sourceName": "TechCrunch + SoftBank",
+      "relatedSources": [
+        "TechCrunch",
+        "SoftBank"
+      ],
+      "lane": "news",
+      "publishedAt": "2026-05-30T21:45:00.000Z",
+      "importance": 190,
+      "sourceConfidence": "high",
+      "summaryEngine": "chat-curated"
+    },
+    {
+      "id": "curated-github-copilot-token-billing-backlash-2026-05-30",
+      "title": "GitHub Copilot token billing turns coding-agent economics into a user problem",
+      "summary": "GitHub Copilot's June 1 shift from flat subscriptions toward token-based billing is drawing developer backlash over possible cost spikes.",
+      "fullSummary": "GitHub Copilot's pricing change is a practical warning about agent economics. TechCrunch reports that Copilot is moving on June 1 from a low flat-rate model toward token-usage billing, and some developers are posting estimates showing monthly costs jumping from tens of dollars to hundreds or thousands under heavy use. The backlash is partly about transparency and partly about incentives: Microsoft encouraged users to run richer agentic workflows, but those workflows can spawn many premium requests, subagents, and long-running sessions. The story matters because coding agents are no longer only a productivity feature; they are becoming a metered infrastructure product. Enterprises may absorb this through centralized procurement, but independent developers and small teams are already pressure-testing the cost curve. Watch whether competitors use simpler caps, local models, or bundled plans as a wedge.",
+      "keyFacts": [
+        "GitHub Copilot",
+        "Microsoft",
+        "June 1, 2026 billing change",
+        "token-based billing",
+        "$29 to nearly $750 user estimate",
+        "$50 to about $3,000 user estimate",
+        "premium requests",
+        "coding agents"
+      ],
+      "url": "https://techcrunch.com/2026/05/30/what-a-joke-github-copilots-new-token-based-billing-spurs-consternation-among-devs/",
+      "sourceName": "TechCrunch",
+      "relatedSources": [
+        "TechCrunch",
+        "GitHub"
+      ],
+      "lane": "news",
+      "publishedAt": "2026-05-30T16:30:00.000Z",
+      "importance": 178,
+      "sourceConfidence": "medium",
+      "summaryEngine": "chat-curated"
+    },
+    {
+      "id": "curated-meta-ai-pendant-wearables-work-2026-05-30",
+      "title": "Meta is reportedly testing an AI pendant and work-focused wearables",
+      "summary": "A reported Meta memo says the company is developing an AI pendant, expanding AI glasses, and planning a Wearables for Work subscription.",
+      "fullSummary": "Meta's rumored pendant shows that AI hardware remains alive despite the failures of earlier always-listening devices. TechCrunch, citing The Information, reports that Meta is developing an AI-powered pendant to test in the next year, building on its 2025 acquisition of Limitless. Limitless made a shirt- or necklace-worn recorder for conversation capture, which makes privacy and usefulness the two core questions. The same memo reportedly says Meta plans to expand its AI-glasses lineup and launch a business subscription called Wearables for Work. This matters because Meta is trying to make Reality Labs more than a money-losing headset business after a reported $4B first-quarter loss. Watch whether Meta can pair useful memory, transcription, and workplace workflows with consent controls strong enough for real-world use.",
+      "keyFacts": [
+        "Meta",
+        "AI pendant",
+        "Limitless acquisition",
+        "2025 acquisition",
+        "Wearables for Work",
+        "AI glasses",
+        "Reality Labs",
+        "$4B Q1 loss",
+        "reported memo"
+      ],
+      "url": "https://techcrunch.com/2026/05/30/meta-is-reportedly-developing-an-ai-pendant/",
+      "sourceName": "TechCrunch / The Information",
+      "relatedSources": [
+        "TechCrunch",
+        "The Information",
+        "Meta"
+      ],
+      "lane": "news",
+      "publishedAt": "2026-05-30T15:59:00.000Z",
+      "importance": 170,
+      "sourceConfidence": "medium",
+      "summaryEngine": "chat-curated"
+    },
+    {
+      "id": "curated-workday-sana-gemini-agent-permissions-2026-05-29",
+      "title": "Workday and Google frame permissions as the real agent bottleneck",
+      "summary": "Workday is bringing Sana agents into Gemini Enterprise while arguing that agent accuracy in HR and finance depends on system-of-record permissions.",
+      "fullSummary": "VentureBeat's Workday story captures an important enterprise-agent shift: the hard problem is not only model capability, but who an agent is allowed to act for. Workday president Gerrit Kazmaier says customers struggle when raw-data agent builds lose the security model that governs approvals, identity, and process integrity. Workday's Sana agents use Gemini as the reasoning layer, but keep authentication, authorization, and audit inside Workday's system of record. That matters in HR and finance, where “almost right” can mean wrong pay, bad scheduling, or broken close workflows. The partnership with Google makes Sana agents discoverable in Gemini Enterprise, but the strategic point is broader: enterprise agents need ownership, scoped authority, and auditable action trails. Watch whether Workday, Salesforce, ServiceNow, and Microsoft turn their records of authority into agent control planes.",
+      "keyFacts": [
+        "Workday",
+        "Sana",
+        "Google",
+        "Gemini Enterprise",
+        "May 29, 2026",
+        "HR agents",
+        "finance agents",
+        "permissions",
+        "audit trails",
+        "system of record"
+      ],
+      "url": "https://venturebeat.com/orchestration/the-ai-agent-bottleneck-isnt-model-performance-its-permissions",
+      "sourceName": "VentureBeat",
+      "relatedSources": [
+        "VentureBeat",
+        "Workday",
+        "Google"
+      ],
+      "lane": "news",
+      "publishedAt": "2026-05-29T22:27:00.000Z",
+      "importance": 174,
+      "sourceConfidence": "high",
+      "summaryEngine": "chat-curated"
+    },
+    {
+      "id": "curated-coders-refuse-without-ai-metr-productivity-2026-05-29",
+      "title": "Developers may be too dependent on AI to measure coding productivity cleanly",
+      "summary": "TechCrunch reports METR could not rerun a no-AI coding study because developers no longer wanted to work without AI tools, even for limited tasks.",
+      "fullSummary": "The AI-coding productivity debate just hit a measurement problem. TechCrunch reports that METR wanted to repeat earlier research comparing open-source developers working by hand versus with AI, but could not because many developers refused to work without AI even for a limited study. That matters because perceived productivity and measured productivity are diverging. METR's earlier work found developers felt faster but were slowed by steering, waiting, and fixing errors; a newer survey found workers self-reporting much larger gains. The article also ties in rising token spend, Amazon's reported Kirorank shutdown, Uber's AI-budget concerns, and claims from code-review vendors that AI-generated code creates more defects. The useful signal is not anti-AI; it is that software teams need maintenance, review, and cost metrics rather than treating agent usage as proof of productivity.",
+      "keyFacts": [
+        "TechCrunch",
+        "METR",
+        "May 29, 2026",
+        "AI coding productivity",
+        "developers refused no-AI tasks",
+        "Amazon Kirorank",
+        "Uber AI budget",
+        "1.7x more problems claim",
+        "44% bug-fix token claim"
+      ],
+      "url": "https://techcrunch.com/2026/05/29/coders-are-refusing-to-work-without-ai-and-that-could-come-back-to-bite-them/",
+      "sourceName": "TechCrunch + METR",
+      "relatedSources": [
+        "TechCrunch",
+        "METR",
+        "Financial Times",
+        "CodeRabbit"
+      ],
+      "lane": "signal",
+      "publishedAt": "2026-05-29T22:14:00.000Z",
+      "importance": 166,
+      "sourceConfidence": "medium",
+      "summaryEngine": "chat-curated"
+    },
+    {
+      "id": "curated-memo-memory-model-enterprise-rag-2026-05-29",
+      "title": "MeMo proposes memory models as an alternative to noisy enterprise RAG",
+      "summary": "A VentureBeat-covered research framework stores new knowledge in a separate memory model, letting teams upgrade the reasoning LLM without retraining the memory layer.",
+      "fullSummary": "MeMo is one of the more useful research stories for enterprise AI architecture. The framework, covered by VentureBeat and linked to arXiv, separates an EXECUTIVE reasoning model from a smaller MEMORY model trained to encode domain knowledge. The design is meant to avoid the weaknesses of standard retrieval-augmented generation, including noisy retrieval, context-window limits, and expensive prompt stuffing, while also avoiding full retraining of the main LLM. In tests, MeMo paired with Gemini 3 Flash reached 53.58% on NarrativeQA versus 23.21% for HippoRAG2, and switching the executive model from Qwen to Gemini 3 Flash improved performance by 26.73% without retraining the memory. The caveat is cost and provenance: creating memory models can take hundreds of H200 GPU-hours and citations are harder. Still, memory-as-a-model is a serious candidate for slow-changing corporate knowledge.",
+      "keyFacts": [
+        "MeMo",
+        "Memory as a Model",
+        "May 29, 2026",
+        "Gemini 3 Flash",
+        "Qwen2.5",
+        "53.58% NarrativeQA",
+        "23.21% HippoRAG2",
+        "26.73% upgrade gain",
+        "240 H200 GPU-hours reflection generation",
+        "180 H200 GPU-hours training"
+      ],
+      "url": "https://venturebeat.com/orchestration/memo-memory-model-teams-upgrade-llm-without-retraining",
+      "sourceName": "VentureBeat / arXiv",
+      "relatedSources": [
+        "VentureBeat",
+        "arXiv",
+        "MIT CSAIL"
+      ],
+      "lane": "papers",
+      "publishedAt": "2026-05-29T19:28:00.000Z",
+      "importance": 164,
+      "sourceConfidence": "high",
+      "summaryEngine": "chat-curated"
+    },
+    {
+      "id": "curated-groq-650m-inference-cloud-pivot-2026-05-29",
+      "title": "Groq reportedly seeks $650M after Nvidia chip-asset deal",
+      "summary": "Groq is reportedly raising $650M from existing investors as it pivots harder toward an inference neocloud built on its own AI chips and systems.",
+      "fullSummary": "Groq's reported $650M raise is an infrastructure story because inference is becoming the main cost battleground. TechCrunch, citing Axios, says Groq is asking existing investors to back its inference-cloud plan after a December not-quite-acquisition agreement with Nvidia reportedly worth $20B for chip assets, technology licensing, and senior-team moves. Disruptive and Infinitium are said to have agreed to fill the round if other investors do not take their pro-rata shares. The company is now led by interim CEO Adam Winter and CFO Matt Eng. The strategic question is whether Groq can turn its low-latency hardware into a durable managed inference cloud while Nvidia absorbs some of its chip IP. Watch customer traction, model support, and whether inference clouds become differentiated enough to survive hyperscaler pricing pressure.",
+      "keyFacts": [
+        "Groq",
+        "$650M reported raise",
+        "Nvidia",
+        "$20B reported not-acqui-hire",
+        "Disruptive",
+        "Infinitium",
+        "Adam Winter",
+        "Matt Eng",
+        "inference cloud",
+        "May 29, 2026"
+      ],
+      "url": "https://techcrunch.com/2026/05/29/after-nvidias-20b-not-acqui-hire-ai-chip-startup-groq-reportedly-raising-650m/",
+      "sourceName": "TechCrunch + Axios",
+      "relatedSources": [
+        "TechCrunch",
+        "Axios",
+        "Groq"
+      ],
+      "lane": "startups",
+      "publishedAt": "2026-05-29T17:27:00.000Z",
+      "importance": 172,
+      "sourceConfidence": "medium",
+      "summaryEngine": "chat-curated"
+    },
+    {
+      "id": "curated-pinterest-qwen-vision-cost-cut-2026-05-29",
+      "title": "Pinterest cuts AI costs 90% by rebuilding Qwen3-VL around its taste graph",
+      "summary": "Pinterest says customizing Qwen3-VL with proprietary embeddings cut costs 90%, improved accuracy 30%, and avoided per-image runtime encoding at 620M monthly users.",
+      "fullSummary": "Pinterest's Qwen3-VL story is a concrete example of why open models matter at consumer scale. VentureBeat reports that Pinterest CTO Matt Madrigal's team customized Qwen3-VL for Navigator 1 by replacing the vision encoder layer with proprietary multimodal embeddings tied to Pinterest's taste graph. The result was a reported 90% cost reduction and 30% accuracy boost for visual recommendation and shopping use cases. The operational reason is straightforward: at roughly 620M monthly users, encoding each image at runtime would create unacceptable latency and cost. Pinterest precomputes and retrains embeddings around its own user, image, and metadata signals instead. The broader lesson is that companies with unique data can sometimes beat larger closed models by controlling embeddings, retrieval, and domain-specific post-training. Watch this pattern spread to marketplaces, media libraries, and product discovery apps.",
+      "keyFacts": [
+        "Pinterest",
+        "Qwen3-VL",
+        "Navigator 1",
+        "620M monthly users",
+        "90% cost reduction",
+        "30% accuracy boost",
+        "20x latency issue avoided",
+        "taste graph",
+        "Matt Madrigal",
+        "May 29, 2026"
+      ],
+      "url": "https://venturebeat.com/orchestration/pinterest-cut-ai-costs-90-by-gutting-a-frontier-models-vision-layer",
+      "sourceName": "VentureBeat",
+      "relatedSources": [
+        "VentureBeat",
+        "Pinterest",
+        "Qwen"
+      ],
+      "lane": "news",
+      "publishedAt": "2026-05-29T16:24:00.000Z",
+      "importance": 168,
+      "sourceConfidence": "high",
+      "summaryEngine": "chat-curated"
+    },
+    {
+      "id": "curated-kiwibit-ai-bird-feeder-product-signal-2026-05-29",
+      "title": "Kiwibit shows consumer AI hardware can win by staying narrow",
+      "summary": "Kiwibit's AI bird feeder identifies 10,000+ species and tracks backyard visits, a small but useful example of domain-specific computer vision hardware.",
+      "fullSummary": "Kiwibit is not a frontier-lab story, but it is a useful product signal. TechCrunch tested the Kiwibit Bird Feeder Pro 4K AI Camera, a solar-assisted smart feeder with cloud storage, two-way audio, a 130-degree lens, and a proprietary bird-identification algorithm that recognizes more than 10,000 species. The product costs roughly $179.99 to $249.99 depending on model. The reason it belongs in a comprehensive feed is that consumer AI hardware has struggled when it tries to be a general assistant, but narrow computer-vision devices can deliver obvious value: detect an event, identify the object, keep a log, and notify the user. The caveat is that even focused systems still make counting errors. Watch whether the same narrow-AI pattern expands into home care, pets, gardening, security, and hobbyist science.",
+      "keyFacts": [
+        "Kiwibit",
+        "Bird Feeder Pro 4K AI Camera",
+        "May 29, 2026",
+        "10,000+ bird species",
+        "$179.99-$249.99",
+        "130-degree lens",
+        "2.4 GHz Wi-Fi",
+        "solar panel",
+        "two-way audio"
+      ],
+      "url": "https://techcrunch.com/2026/05/29/kiwibits-ai-powered-bird-feeder-is-my-new-backyard-buddy/",
+      "sourceName": "TechCrunch",
+      "relatedSources": [
+        "TechCrunch",
+        "Kiwibit"
+      ],
+      "lane": "news",
+      "publishedAt": "2026-05-29T13:00:00.000Z",
+      "importance": 134,
+      "sourceConfidence": "medium",
+      "summaryEngine": "chat-curated"
+    },
+    {
+      "id": "curated-xcena-135m-memory-ai-chip-2026-05-29",
+      "title": "XCENA raises $135M to attack AI inference from the memory side",
+      "summary": "XCENA raised a $135M Series B at a $570M valuation for MX1, a CXL-connected chip that moves routine data operations closer to DRAM.",
+      "fullSummary": "XCENA adds a valuable memory-centric chip story to the feed. The Korea- and U.S.-based startup raised $135M in a Series B at a $570M valuation, bringing total funding to $185M. Its MX1 chip connects to CPUs through Compute Express Link and handles operations closer to DRAM, reducing expensive data movement between CPUs, GPUs, and memory. CEO Jin Kim argues that AI inference is increasingly a memory-scaling problem rather than only a compute problem, especially around preprocessing, KV-cache management, and data caching. The company claims workloads that used to require 10 servers could potentially run on one, though that needs real customer proof. Watch whether hyperscalers or memory vendors validate the architecture and whether CXL-attached acceleration becomes a standard way to reduce inference cost.",
+      "keyFacts": [
+        "XCENA",
+        "$135M Series B",
+        "$570M valuation",
+        "$185M total funding",
+        "MX1 chip",
+        "CXL",
+        "DRAM",
+        "KV cache",
+        "Jin Kim",
+        "Samsung and SK Hynix veterans"
+      ],
+      "url": "https://techcrunch.com/2026/05/29/xcena-secures-135m-at-570m-valuation-betting-on-memory-as-ais-real-bottleneck/",
+      "sourceName": "TechCrunch",
+      "relatedSources": [
+        "TechCrunch",
+        "XCENA"
+      ],
+      "lane": "startups",
+      "publishedAt": "2026-05-29T12:00:00.000Z",
+      "importance": 176,
+      "sourceConfidence": "high",
+      "summaryEngine": "chat-curated"
+    },
+    {
+      "id": "curated-mistral-vibe-industrial-ai-data-center-2026-05-28",
+      "title": "Mistral launches Vibe and pushes into industrial AI infrastructure",
+      "summary": "Mistral used its Paris summit to launch Vibe, industrial-engineering AI, and a new French inference data-center strategy tied to Airbus, BMW, and ASML.",
+      "fullSummary": "Mistral's AI NOW Summit was broader than a product rename. VentureBeat reports that Mistral launched Vibe, expanded into industrial engineering, and announced a new inference data center south of Paris. CEO Arthur Mensch argued that enterprise AI providers need to own more of the stack, from bare-metal infrastructure to workflow-specific models. The industrial push combines Mistral models with physics simulation capabilities from its Emmi AI acquisition, targeting aerospace, automotive, and semiconductor use cases. Named partners include Airbus across aircraft, helicopter, defense, and space divisions; BMW on Large Industry Model work for crash simulation and multimodal reasoning; and ASML as both shareholder and early adopter. The story matters because Europe's strongest AI lab is positioning around sovereignty, on-prem deployment, physics AI, and industrial workflows rather than consumer chat.",
+      "keyFacts": [
+        "Mistral AI",
+        "Vibe",
+        "AI NOW Summit",
+        "May 28, 2026",
+        "1,000 employees",
+        "EUR1B 2026 revenue target",
+        "Airbus",
+        "BMW",
+        "ASML",
+        "Emmi AI",
+        "French inference data center"
+      ],
+      "url": "https://venturebeat.com/technology/mistral-ai-launches-vibe-expands-into-industrial-ai-and-announces-data-center-push-to-challenge-openai",
+      "sourceName": "VentureBeat",
+      "relatedSources": [
+        "VentureBeat",
+        "Mistral AI",
+        "Airbus",
+        "BMW",
+        "ASML"
+      ],
+      "lane": "news",
+      "publishedAt": "2026-05-28T20:54:00.000Z",
+      "importance": 180,
+      "sourceConfidence": "high",
+      "summaryEngine": "chat-curated"
+    },
+    {
+      "id": "curated-autotts-token-usage-reasoning-2026-05-28",
+      "title": "AutoTTS uses an AI-designed controller to cut reasoning-token use 69.5%",
+      "summary": "Researchers from Meta, Google, and universities introduced AutoTTS, which automatically designs test-time scaling strategies and reduces token use without sacrificing accuracy.",
+      "fullSummary": "AutoTTS belongs in the research lane because it attacks one of the biggest production AI problems: reasoning cost. VentureBeat reports that researchers from Meta, Google, and several universities built a framework that lets an explorer LLM discover controllers for test-time scaling. Instead of hand-designing when a model should branch, deepen, prune, or stop reasoning, AutoTTS searches over strategies using an offline replay environment of pre-collected reasoning trajectories. On Qwen3 models and a distilled DeepSeek-R1 model, the balanced controller cut token consumption by about 69.5% compared with self-consistency using 64 paths while maintaining average accuracy. On GPQA-Diamond, token cost fell from 510K to 151K tokens. The discovery process reportedly cost $39.90 and took 160 minutes. Watch whether these controllers become standard middleware for expensive reasoning workflows.",
+      "keyFacts": [
+        "AutoTTS",
+        "Meta",
+        "Google",
+        "May 28, 2026",
+        "test-time scaling",
+        "69.5% token reduction",
+        "Qwen3",
+        "DeepSeek-R1 distilled 8B",
+        "GPQA-Diamond",
+        "510K to 151K tokens",
+        "$39.90 discovery cost"
+      ],
+      "url": "https://venturebeat.com/orchestration/researchers-automated-llm-reasoning-strategy-design-and-cut-token-usage-by-69-5",
+      "sourceName": "VentureBeat / arXiv",
+      "relatedSources": [
+        "VentureBeat",
+        "arXiv",
+        "Meta",
+        "Google"
+      ],
+      "lane": "papers",
+      "publishedAt": "2026-05-28T21:32:00.000Z",
+      "importance": 162,
+      "sourceConfidence": "high",
+      "summaryEngine": "chat-curated"
+    },
+    {
+      "id": "curated-deepseek-v4-price-cut-token-moat-2026-05-28",
+      "title": "DeepSeek makes its V4 price cut permanent and pressures Western token margins",
+      "summary": "DeepSeek made a 75% V4 Pro price cut permanent, with VentureBeat arguing its cache and open-weight economics challenge closed-model API pricing.",
+      "fullSummary": "DeepSeek's V4 Pro pricing is a major cost-curve story. VentureBeat reports that DeepSeek made its 75% price cut permanent and that V4 Pro is now far cheaper than comparable Western workhorse models, especially for cached context. The article says V4 Pro is 7x cheaper on inputs and 17x cheaper on outputs than some Western frontier alternatives, while cache-read pricing can be dramatically lower when hosted natively in China. It also reports V4 Flash reached No. 1 on OpenRouter over the prior week, with DeepSeek's top three models processing nearly 6T tokens there. The precise market-share implications are uncertain because OpenRouter is only a proxy, but the pricing signal is real: autonomous agents consume huge cached-context volumes, and cheap open weights put pressure on premium API margins.",
+      "keyFacts": [
+        "DeepSeek",
+        "V4 Pro",
+        "V4 Flash",
+        "75% permanent price cut",
+        "7x cheaper inputs claim",
+        "17x cheaper outputs claim",
+        "87x cache-read pricing claim",
+        "OpenRouter No. 1 V4 Flash",
+        "nearly 6T tokens",
+        "MIT license"
+      ],
+      "url": "https://venturebeat.com/infrastructure/how-deepseeks-radical-architecture-is-shattering-silicon-valleys-token-moat",
+      "sourceName": "VentureBeat",
+      "relatedSources": [
+        "VentureBeat",
+        "DeepSeek",
+        "OpenRouter"
+      ],
+      "lane": "news",
+      "publishedAt": "2026-05-28T16:57:00.000Z",
+      "importance": 182,
+      "sourceConfidence": "medium",
+      "summaryEngine": "chat-curated"
+    },
+    {
+      "id": "curated-glean-300m-arr-ai-cost-cutting-2026-05-28",
+      "title": "Glean crosses $300M top line as context graphs become AI cost infrastructure",
+      "summary": "Glean says it reached $300M in annualized top line, tripling from $100M in 15 months as enterprises look for search and context layers that reduce AI token spend.",
+      "fullSummary": "Glean's growth is a strong enterprise AI signal because it sits beneath the chatbot layer. TechCrunch reports that Glean has crossed $300M in annual recurring revenue or annualized run-rate, up from $100M about 15 months earlier. CEO Arvind Jain argues that the company's context graph connects to internal systems so AI tools can answer with fewer operations and fewer tokens than if a model roams raw enterprise data directly. Glean was last valued at $7.2B after a $150M Series F, and customers include Databricks, Reddit, Pinterest, and Samsung. The nuance is that consumption pricing makes part of the top line less like classic subscription ARR. Still, the story shows that enterprise AI search, permissions, and context are becoming budget-control infrastructure as model costs rise.",
+      "keyFacts": [
+        "Glean",
+        "$300M annualized top line",
+        "$100M milestone 15 months earlier",
+        "$7.2B last valuation",
+        "$150M Series F",
+        "Databricks",
+        "Reddit",
+        "Pinterest",
+        "Samsung",
+        "context graph"
+      ],
+      "url": "https://techcrunch.com/2026/05/28/gleans-top-line-crosses-300m-as-ai-budget-cutting-becomes-its-major-selling-point/",
+      "sourceName": "TechCrunch",
+      "relatedSources": [
+        "TechCrunch",
+        "Glean"
+      ],
+      "lane": "startups",
+      "publishedAt": "2026-05-29T00:44:00.000Z",
+      "importance": 172,
+      "sourceConfidence": "high",
+      "summaryEngine": "chat-curated"
+    },
+    {
+      "id": "curated-cognition-1b-devin-25b-valuation-2026-05-27",
+      "title": "Cognition raises $1B as Devin reaches a reported $492M revenue run-rate",
+      "summary": "Cognition raised more than $1B at a $25B pre-money valuation, with Devin usage reportedly reaching a $492M annualized revenue run-rate.",
+      "fullSummary": "Cognition is the missing megadeal from the previous refresh. TechCrunch reports that the maker of Devin raised more than $1B at a $25B pre-money valuation, or $26B post-money. Lux Capital, General Catalyst, and 8VC led the round, with existing investors including Elad Gil, Soma Capital, Omri Casspi, and Founders Fund, plus new investors such as Ribbit Capital, Atreides, and Layer Global. The valuation jump is dramatic: Cognition was valued at $10.2B post-money after a $400M round just eight months earlier. The company says enterprise customers include Mercedes-Benz, NASA, Goldman Sachs, and Santander, and that annualized revenue run-rate reached $492M with enterprise usage of Devin growing 50% month over month for six months. Watch whether independent coding-agent companies can maintain share against Claude Code, Codex, and Google's coding agents.",
+      "keyFacts": [
+        "Cognition",
+        "Devin",
+        "$1B+ raised",
+        "$25B pre-money valuation",
+        "$26B post-money valuation",
+        "$492M annualized revenue run-rate",
+        "50% month-over-month enterprise usage growth",
+        "Lux Capital",
+        "General Catalyst",
+        "8VC",
+        "Mercedes-Benz",
+        "NASA",
+        "Goldman Sachs",
+        "Santander"
+      ],
+      "url": "https://techcrunch.com/2026/05/27/ai-coding-startup-cognition-raises-1b-at-25b-pre-money-valuation/",
+      "sourceName": "TechCrunch",
+      "relatedSources": [
+        "TechCrunch",
+        "Cognition"
+      ],
+      "lane": "startups",
+      "publishedAt": "2026-05-27T16:00:00.000Z",
+      "importance": 188,
+      "sourceConfidence": "high",
+      "summaryEngine": "chat-curated"
+    },
+    {
+      "id": "curated-openai-chatgpt-personal-finance-2026-05-15",
+      "title": "OpenAI moves ChatGPT into personal finance with connected accounts",
+      "summary": "OpenAI launched a preview personal-finance experience for U.S. ChatGPT Pro users, letting them connect financial accounts and ask questions about spending and planning.",
+      "fullSummary": "OpenAI's personal-finance feature is older than the freshest sweep, but it is too important to leave out of a comprehensive product feed. OpenAI says U.S. ChatGPT Pro users can connect financial accounts, see where money is going, and ask questions about spending, recurring charges, goals, and tradeoffs. The company frames the feature as powered by GPT-5.5 reasoning and says synced account data is deleted within 30 days after disconnecting. TechCrunch reported the same launch as a move into bank-account-connected money management. The strategic significance is that ChatGPT is moving from general advice into account-level context, a sensitive domain where accuracy, privacy, retention, and disclaimers matter. Watch whether this remains a read-only assistant, becomes an automation layer, or forces banks and budgeting apps to respond with their own AI interfaces.",
+      "keyFacts": [
+        "OpenAI",
+        "ChatGPT personal finance",
+        "May 15, 2026",
+        "U.S. ChatGPT Pro preview",
+        "connected financial accounts",
+        "GPT-5.5",
+        "30-day deletion after disconnect",
+        "spending analysis",
+        "recurring charges"
+      ],
+      "url": "https://openai.com/index/personal-finance-chatgpt/",
+      "sourceName": "OpenAI + TechCrunch",
+      "relatedSources": [
+        "OpenAI",
+        "TechCrunch"
+      ],
+      "relatedLinks": [
+        {
+          "title": "A new personal finance experience in ChatGPT",
+          "url": "https://openai.com/index/personal-finance-chatgpt/",
+          "sourceName": "OpenAI"
+        },
+        {
+          "title": "OpenAI launches ChatGPT for personal finance",
+          "url": "https://techcrunch.com/2026/05/15/openai-launches-chatgpt-for-personal-finance-will-let-you-connect-bank-accounts/",
+          "sourceName": "TechCrunch"
+        }
+      ],
+      "lane": "news",
+      "publishedAt": "2026-05-15T16:00:00.000Z",
+      "importance": 150,
+      "sourceConfidence": "high",
+      "summaryEngine": "chat-curated"
+    },
+    {
+      "id": "curated-google-ai-edge-eloquent-offline-dictation-2026-04-07",
+      "title": "Google quietly ships offline AI dictation with AI Edge Eloquent",
+      "summary": "Google AI Edge Eloquent is a free iOS dictation app that uses on-device Gemma models to turn messy speech into polished text without cloud processing by default.",
+      "fullSummary": "AI Edge Eloquent is an older missed product story, but it fits the edge-AI and practical-product filter. TechCrunch and 9to5Google reported that Google quietly released an iOS dictation app that processes speech offline and turns raw spoken notes into cleaner text. The app is tied to Google AI Edge and Gemma models, and it competes with paid dictation tools such as Wispr Flow, SuperWhisper, and Willow. The reason it matters is less the app itself than the direction: focused AI utilities are moving on-device, privacy-first, and close to existing writing workflows. Offline dictation also hints at where smart glasses, mobile keyboards, and local assistants are going. Watch whether Eloquent remains experimental or gets folded into Gboard, Android, Pixel, Workspace, or Android XR.",
+      "keyFacts": [
+        "Google AI Edge Eloquent",
+        "April 2026",
+        "iOS app",
+        "offline dictation",
+        "Gemma models",
+        "on-device AI",
+        "free app",
+        "Wispr Flow competitor"
+      ],
+      "url": "https://techcrunch.com/?p=3109710",
+      "sourceName": "TechCrunch + 9to5Google",
+      "relatedSources": [
+        "TechCrunch",
+        "9to5Google",
+        "Google"
+      ],
+      "lane": "news",
+      "publishedAt": "2026-04-07T05:40:00.000Z",
+      "importance": 118,
+      "sourceConfidence": "medium",
+      "summaryEngine": "chat-curated"
+    },
+    {
+      "id": "curated-xoople-130m-earth-system-record-ai-2026-04-06",
+      "title": "Xoople raises $130M to build an Earth system of record for AI agents",
+      "summary": "Spanish geospatial startup Xoople raised a $130M Series B, bringing total funding to $225M for physical-world data infrastructure aimed at AI and agents.",
+      "fullSummary": "Xoople is another older but relevant infrastructure story. The Spanish geospatial company announced a $130M Series B led by Nazca Capital, bringing total funding to $225M, with MCH, CDTI, Buenavista Equity Partners, and Endeavor Catalyst participating. Xoople says it is building a global system of record for physical change on Earth, with satellite data meant to support enterprise access to real-world intelligence for AI and agentic systems. TechCrunch framed the ambition as mapping Earth for AI, while the company says commercialization starts after seven years in development. The strategic signal is that AI infrastructure is not only GPUs and data centers; agents need fresh, reliable physical-world data. Watch defense, insurance, climate, logistics, agriculture, and infrastructure customers.",
+      "keyFacts": [
+        "Xoople",
+        "$130M Series B",
+        "$225M total funding",
+        "Nazca Capital",
+        "MCH",
+        "CDTI",
+        "Buenavista Equity Partners",
+        "Endeavor Catalyst",
+        "Earth system of record",
+        "geospatial AI"
+      ],
+      "url": "https://www.xoople.com/resources/xoople-announces-130m-series-b-to-build-earths-system-of-record-for-the-agentic-era/",
+      "sourceName": "Xoople + TechCrunch",
+      "relatedSources": [
+        "Xoople",
+        "TechCrunch",
+        "Cinco Dias"
+      ],
+      "lane": "startups",
+      "publishedAt": "2026-04-06T13:00:00.000Z",
+      "importance": 122,
+      "sourceConfidence": "high",
+      "summaryEngine": "chat-curated"
+    },
+    {
+      "id": "curated-rocket-ai-consulting-reports-2026-04-06",
+      "title": "Rocket packages AI into low-cost strategy reports and product builds",
+      "summary": "Indian startup Rocket is selling AI-generated McKinsey-style research reports and product-build help at a fraction of traditional consulting costs.",
+      "fullSummary": "Rocket is an older but useful signal about AI services packaging. TechCrunch reports that the Indian startup is positioning its AI as a way to produce strategy and research reports that would normally require expensive consulting work. Its $250 plan can reportedly generate two or three McKinsey-style reports alongside product builds, giving founders and small teams access to structured research, competitive analysis, and execution support at a much lower price point. The claim should be treated carefully because “McKinsey-grade” is a marketing bar, not an audited quality standard. Still, the story belongs in a comprehensive feed because it shows AI moving into the consulting-output layer: decks, reports, market maps, and prototype work. Watch quality, citations, customer retention, and whether incumbents respond with AI-first advisory packages.",
+      "keyFacts": [
+        "Rocket",
+        "India",
+        "April 6, 2026",
+        "$250 plan",
+        "two to three reports",
+        "AI-generated strategy reports",
+        "product builds",
+        "consulting alternative"
+      ],
+      "url": "https://techcrunch.com/2026/04/06/indian-startup-rocket-wants-its-ai-to-do-mckinsey-style-consulting-at-a-fraction-of-the-cost/",
+      "sourceName": "TechCrunch",
+      "relatedSources": [
+        "TechCrunch",
+        "Rocket"
+      ],
+      "lane": "startups",
+      "publishedAt": "2026-04-06T05:30:00.000Z",
+      "importance": 112,
+      "sourceConfidence": "medium",
+      "summaryEngine": "chat-curated"
+    },
     {
       "id": "curated-nvidia-microsoft-windows-ai-pcs-2026-05-30",
       "title": "Nvidia is set to push Windows PCs into the local-agent era",
