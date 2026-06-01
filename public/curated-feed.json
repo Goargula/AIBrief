@@ -1,9 +1,39 @@
 {
-  "generatedAt": "2026-05-31T17:33:26.742Z",
-  "nextRefreshAt": "2026-05-31T20:33:26.745Z",
+  "generatedAt": "2026-06-01T10:12:39.233Z",
+  "nextRefreshAt": "2026-06-01T13:12:39.233Z",
   "summaryEngine": "chat-curated",
   "curated": true,
   "items": [
+    {
+      "id": "curated-nvidia-microsoft-windows-ai-pcs-2026-05-30",
+      "title": "Nvidia and Microsoft officially push Windows PCs into the local-agent era",
+      "summary": "Nvidia turned last week's Windows AI PC preview into a real launch, unveiling RTX Spark and DGX Station for Windows to run local agents and large models closer to the desk.",
+      "fullSummary": "Nvidia's June 1 Computex and GTC Taipei announcements turn a preview story into a concrete local-AI hardware push. Nvidia and Microsoft said RTX Spark will power new Windows PCs built for personal AI agents, with up to 128GB of unified memory and up to 1 petaflop of FP4 AI performance. Nvidia also introduced DGX Station for Windows, a deskside system it says can run frontier models of up to 1 trillion parameters locally, while OpenShell adds a secure runtime layer for agents on top of new Windows containment and security primitives. Reuters framed the move as Nvidia's direct bid to shift more AI work onto laptops and desktops instead of leaving every agent workflow in the cloud. Watch real software support, battery and thermal limits, pricing, and whether enterprises trust local agents with meaningful workflows.",
+      "keyFacts": [
+        "Nvidia",
+        "Microsoft",
+        "June 1, 2026",
+        "RTX Spark",
+        "DGX Station for Windows",
+        "up to 128GB unified memory",
+        "up to 1 petaflop FP4 AI performance",
+        "up to 1 trillion-parameter models locally",
+        "OpenShell secure runtime",
+        "Q4 2026"
+      ],
+      "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-and-Microsoft-Reinvent-Windows-PCs-for-the-Age-of-Personal-AI/default.aspx",
+      "sourceName": "NVIDIA + Reuters",
+      "relatedSources": [
+        "NVIDIA",
+        "Microsoft",
+        "Reuters"
+      ],
+      "lane": "news",
+      "publishedAt": "2026-06-01T10:00:00.000Z",
+      "importance": 196,
+      "sourceConfidence": "high",
+      "summaryEngine": "chat-curated"
+    },
     {
       "id": "curated-ai-psychosis-backlash-debate-2026-05-31",
       "title": "AI backlash gets a sharper name as CEOs debate AI psychosis",
@@ -606,36 +636,6 @@
       "publishedAt": "2026-04-06T05:30:00.000Z",
       "importance": 112,
       "sourceConfidence": "medium",
-      "summaryEngine": "chat-curated"
-    },
-    {
-      "id": "curated-nvidia-microsoft-windows-ai-pcs-2026-05-30",
-      "title": "Nvidia is set to push Windows PCs into the local-agent era",
-      "summary": "Axios reports Nvidia, Microsoft, Surface, and Dell are preparing the first Windows PCs with Nvidia chips as main processors, paired with software for local AI agents.",
-      "fullSummary": "This is the freshest high-signal infrastructure story in the sweep because it moves AI-agent economics from cloud-only usage toward local hardware. Axios reports that Nvidia and Microsoft are expected to unveil their joint work next week at Computex in Taiwan and Microsoft Build in San Francisco, with Nvidia-powered Windows PCs expected from Microsoft's Surface line and other PC makers including Dell. Microsoft is also expected to show software that helps AI agents perform work locally on Windows machines. The timing matters because cloud agent workloads can become expensive as autonomous tasks run for longer and invoke more tools. If Nvidia can make local Windows inference credible, the PC could again become a meaningful AI execution surface rather than just a terminal into cloud models. Watch developer tooling, battery life, memory bandwidth, enterprise management, and whether local agents can actually run useful workflows without falling back to cloud inference.",
-      "keyFacts": [
-        "Nvidia",
-        "Microsoft",
-        "Surface",
-        "Dell",
-        "May 30, 2026",
-        "Windows PCs",
-        "Computex",
-        "Microsoft Build",
-        "local AI agents",
-        "main processor"
-      ],
-      "url": "https://www.axios.com/2026/05/30/nvidia-microsoft-pcs-ai-surface-dell",
-      "sourceName": "Axios",
-      "relatedSources": [
-        "Axios",
-        "Nvidia",
-        "Microsoft"
-      ],
-      "lane": "news",
-      "publishedAt": "2026-05-30T12:00:07.000Z",
-      "importance": 186,
-      "sourceConfidence": "high",
       "summaryEngine": "chat-curated"
     },
     {
