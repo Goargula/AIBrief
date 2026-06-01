@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-01T10:12:39.233Z",
-  "nextRefreshAt": "2026-06-01T13:12:39.233Z",
+  "generatedAt": "2026-06-01T10:19:58.539Z",
+  "nextRefreshAt": "2026-06-01T13:19:58.539Z",
   "summaryEngine": "chat-curated",
   "curated": true,
   "items": [
@@ -32,6 +32,87 @@
       "publishedAt": "2026-06-01T10:00:00.000Z",
       "importance": 196,
       "sourceConfidence": "high",
+      "summaryEngine": "chat-curated"
+    },
+    {
+      "id": "curated-brockovich-data-center-secrecy-2026-05-31",
+      "title": "Data center backlash shifts from power demand to local secrecy",
+      "summary": "Erin Brockovich launched a public data-center map after receiving nearly 4,000 community submissions, with transparency emerging as the top complaint.",
+      "fullSummary": "The data-center debate is widening from power and water economics into local governance. TechCrunch reports that Erin Brockovich launched a public map of U.S. data centers based on community reports, after a call for data-center complaints drew nearly 4,000 submissions in its first month. Brockovich says the most common concern was transparency: projects announced after permits were secured, developers not responding to residents, and local officials signing NDAs before neighbors knew a project was under consideration. This matters because AI infrastructure buildouts increasingly depend on local acceptance as much as chip supply. Even when a data center is economically rational at national scale, local communities may judge it through noise, water, utility bills, tax terms, and disclosure. Watch whether developers start treating community process as core AI infrastructure risk.",
+      "keyFacts": [
+        "Erin Brockovich",
+        "May 31, 2026",
+        "nearly 4,000 submissions",
+        "U.S. data center map",
+        "community transparency",
+        "local NDAs",
+        "AI infrastructure"
+      ],
+      "url": "https://techcrunch.com/2026/05/31/erin-brockovich-takes-aim-at-data-center-secrecy/",
+      "sourceName": "TechCrunch",
+      "relatedSources": [
+        "TechCrunch",
+        "Brockovich Data Center Map"
+      ],
+      "lane": "signal",
+      "publishedAt": "2026-05-31T21:05:00.000Z",
+      "importance": 184,
+      "sourceConfidence": "high",
+      "summaryEngine": "chat-curated"
+    },
+    {
+      "id": "curated-artisan-kc-green-ai-ad-settlement-2026-05-31",
+      "title": "Artisan settles with 'This is fine' artist after AI assistant ad dispute",
+      "summary": "KC Green said he reached a quick settlement with Artisan after the AI startup used a close version of his famous meme character in ads for Ava.",
+      "fullSummary": "The Artisan settlement is a compact but useful creator-rights story. TechCrunch reports that KC Green, creator of the 'This is fine' meme, reached an agreement with AI sales-assistant startup Artisan after criticizing ads that used a recognizable version of his character to market Ava, the company's AI BDR. Artisan took down the ads in New York and San Francisco that used the character, while Green removed his initial post. The dispute matters because AI startups keep using edgy cultural references to sell automation, but creator backlash can move faster than a formal court case. It also sits inside the wider fight over whether AI companies respect creative labor while marketing products that promise to automate it. Watch whether startups tighten approvals around meme, art, likeness, and style references in physical and social campaigns.",
+      "keyFacts": [
+        "KC Green",
+        "Artisan",
+        "Ava AI BDR",
+        "May 31, 2026",
+        "New York ads removed",
+        "San Francisco ads removed",
+        "This is fine meme"
+      ],
+      "url": "https://techcrunch.com/2026/05/31/this-is-fine-artist-kc-green-reaches-agreement-with-ai-startup-artisan/",
+      "sourceName": "TechCrunch",
+      "relatedSources": [
+        "TechCrunch",
+        "Artisan",
+        "KC Green"
+      ],
+      "lane": "signal",
+      "publishedAt": "2026-05-31T18:28:00.000Z",
+      "importance": 156,
+      "sourceConfidence": "high",
+      "summaryEngine": "chat-curated"
+    },
+    {
+      "id": "curated-claude-mythos-patching-window-security-2026-05-31",
+      "title": "Claude Mythos raises the bar for enterprise patching speed",
+      "summary": "VentureBeat argues Claude Mythos collapses the old safety margin for known vulnerabilities, making human-speed patching too slow for AI-era attackers.",
+      "fullSummary": "The Claude Mythos security story belongs in the feed because it turns model capability into an operational deadline. VentureBeat cites earlier University of Illinois work showing GPT-4 could exploit 87% of a curated one-day vulnerability set when given CVE descriptions, versus 7% without them. The article says Anthropic's Claude Mythos Preview then narrowed that comfort zone by autonomously discovering thousands of zero-day vulnerabilities across major operating systems and browsers, and by scoring 83.1% on the CyberGym vulnerability reproduction benchmark. The practical point is not that every company faces instant autonomous exploitation today; it is that patching, authorization tests, and incident response built around human-speed attackers are becoming mismatched. Watch whether security teams move from monthly patch cycles toward continuous validation around APIs, agent permissions, and exploitable exposure.",
+      "keyFacts": [
+        "VentureBeat",
+        "May 31, 2026",
+        "Claude Mythos Preview",
+        "87% GPT-4 one-day exploit result with CVE descriptions",
+        "7% without CVE descriptions",
+        "83.1% CyberGym benchmark",
+        "OpenBSD 1,000 scaffold runs",
+        "less than $20,000 compute cost"
+      ],
+      "url": "https://venturebeat.com/security/claude-mythos-exposed-a-hard-truth-your-enterprise-patching-process-is-way-too-slow",
+      "sourceName": "VentureBeat",
+      "relatedSources": [
+        "VentureBeat",
+        "Anthropic",
+        "University of Illinois"
+      ],
+      "lane": "signal",
+      "publishedAt": "2026-05-31T16:30:00.000Z",
+      "importance": 176,
+      "sourceConfidence": "medium",
       "summaryEngine": "chat-curated"
     },
     {
@@ -146,6 +227,35 @@
       "lane": "news",
       "publishedAt": "2026-05-30T15:59:00.000Z",
       "importance": 170,
+      "sourceConfidence": "medium",
+      "summaryEngine": "chat-curated"
+    },
+    {
+      "id": "curated-gemini-spark-hands-on-agent-gap-2026-05-30",
+      "title": "Gemini Spark hands-on shows consumer agents still have product gaps",
+      "summary": "TechCrunch's early test found Gemini Spark useful for recurring research and planning, but exposed missing Google Keep support, weak brand clarity, and brittle links.",
+      "fullSummary": "Google's Gemini Spark is now past the launch slide and into early hands-on scrutiny. TechCrunch tested the 24/7 agentic assistant across shopping research, day-trip packing, newsletter summaries, weekend planning, and price-drop monitoring. The agent produced useful local suggestions and recurring summaries, but it also surfaced product gaps that matter for consumer agents: no Google Keep integration for a packing list, a broken Google redirect link in one newsletter summary, and some confusion from making Spark feel like a separate brand rather than a native Gemini mode. This story updates the broader I/O narrative with lived product friction. The core question is whether background agents become everyday utility when they handle messy personal workflows, or whether users keep bouncing back to manual apps when integrations and confirmations get in the way.",
+      "keyFacts": [
+        "Google",
+        "Gemini Spark",
+        "May 30, 2026",
+        "24/7 agentic assistant",
+        "Gmail",
+        "Calendar",
+        "Docs",
+        "Sheets",
+        "Slides",
+        "no Google Keep support in test"
+      ],
+      "url": "https://techcrunch.com/2026/05/30/i-put-googles-24-7-ai-assistant-gemini-spark-to-work-and-its-actually-pretty-useful/",
+      "sourceName": "TechCrunch",
+      "relatedSources": [
+        "TechCrunch",
+        "Google"
+      ],
+      "lane": "news",
+      "publishedAt": "2026-05-30T15:30:00.000Z",
+      "importance": 169,
       "sourceConfidence": "medium",
       "summaryEngine": "chat-curated"
     },
@@ -325,6 +435,37 @@
       "publishedAt": "2026-05-29T13:00:00.000Z",
       "importance": 134,
       "sourceConfidence": "medium",
+      "summaryEngine": "chat-curated"
+    },
+    {
+      "id": "curated-reactor-59m-real-time-ai-worlds-2026-05-29",
+      "title": "Reactor raises $59M for real-time AI world infrastructure",
+      "summary": "Reactor emerged from stealth with $59M to build SDK and API infrastructure for real-time generative video, interactive world models, media, robotics, and physical AI.",
+      "fullSummary": "Reactor is a funding story with a real product thesis: generative video is moving from static clips toward interactive worlds that respond in real time. The startup emerged from stealth with $59M led by Lightspeed Venture Partners, with WndrCo, Amplify Partners, Sky9 Capital, FPV Ventures, and others participating. Reactor says its SDK and API let developers build real-time interactive applications without managing the inference, latency, and scaling complexity themselves. The founding team includes former Apple Vision Pro technical leads Alberto Taiuti and Bryce Schmidtchen, and the company says it is already working with media, entertainment, physical AI, and robotics partners. AWS is its preferred cloud provider. Watch whether world models mature fast enough for Reactor to become an infrastructure layer instead of a niche demo platform.",
+      "keyFacts": [
+        "Reactor",
+        "$59M",
+        "May 29, 2026",
+        "Lightspeed Venture Partners",
+        "WndrCo",
+        "Amplify Partners",
+        "Sky9 Capital",
+        "FPV Ventures",
+        "real-time generative video",
+        "AWS preferred cloud provider"
+      ],
+      "url": "https://www.hpcwire.com/aiwire/2026/05/29/reactor-emerges-from-stealth-with-59m-to-build-the-platform-for-real-time-ai-worlds/",
+      "sourceName": "Reactor / AIwire",
+      "relatedSources": [
+        "Reactor",
+        "AIwire",
+        "Lightspeed Venture Partners",
+        "AWS"
+      ],
+      "lane": "startups",
+      "publishedAt": "2026-05-29T13:00:00.000Z",
+      "importance": 151,
+      "sourceConfidence": "high",
       "summaryEngine": "chat-curated"
     },
     {
@@ -1497,6 +1638,34 @@
       "summaryEngine": "chat-curated"
     },
     {
+      "id": "curated-agenthijack-computer-use-agent-robustness-2026-05-25",
+      "title": "AgentHijack tests computer-use agents against ordinary UI disruption",
+      "summary": "AgentHijack introduces nine common environment corruptions, from pop-ups to resolution changes, and finds minor disruptions can sharply degrade computer-use agents.",
+      "fullSummary": "AgentHijack is a useful research addition because it tests agent reliability against normal desktop mess, not only hostile prompts. The arXiv paper focuses on multimodal computer-use agents that operate in real workflows, where pop-ups, resolution changes, competing applications, and other interface disruptions can derail perception and control. The benchmark introduces nine configurable common corruptions and evaluates desktop tasks under those conditions. Its central finding is that even minor corruptions can cause substantial performance degradation, which means polished demo tasks may overstate readiness for real user environments. The authors also propose AgentHijack-Agent, combining an action generator with stronger grounding and an onlooker component for behavior summarization and environment checking. Watch whether computer-use vendors start reporting robustness under interruptions, not only clean-task success rates.",
+      "keyFacts": [
+        "AgentHijack",
+        "arXiv 2605.25707",
+        "May 25, 2026",
+        "computer-use agents",
+        "9 common corruptions",
+        "pop-ups",
+        "resolution changes",
+        "competing applications",
+        "AgentHijack-Agent"
+      ],
+      "url": "https://arxiv.org/abs/2605.25707",
+      "sourceName": "arXiv",
+      "relatedSources": [
+        "arXiv",
+        "Hugging Face Papers"
+      ],
+      "lane": "papers",
+      "publishedAt": "2026-05-25T11:09:22.000Z",
+      "importance": 145,
+      "sourceConfidence": "high",
+      "summaryEngine": "chat-curated"
+    },
+    {
       "id": "curated-ai-ultrasound-carotid-primary-care-2026-05-27",
       "title": "AI-assisted ultrasound helps Shanghai GPs spot carotid plaque",
       "summary": "A Shanghai primary-care study found trained general practitioners using AI-enhanced point-of-care ultrasound detected carotid plaque with 87% sensitivity and 91% specificity.",
@@ -2074,6 +2243,62 @@
       "lane": "news",
       "publishedAt": "2026-05-20T16:00:00.000Z",
       "importance": 136,
+      "sourceConfidence": "high",
+      "summaryEngine": "chat-curated"
+    },
+    {
+      "id": "curated-datagrail-ai-vendor-dpa-gap-2026-05-27",
+      "title": "DataGrail finds AI vendors outpacing privacy contracts",
+      "summary": "DataGrail says 63.6% of vendors that advertise AI capabilities do not disclose a third-party AI subprocessor in their legal documentation.",
+      "fullSummary": "DataGrail's privacy report is a governance story for anyone buying AI-enabled SaaS. VentureBeat reports that DataGrail analyzed 2,400 popular business software providers and found that 63.6% of vendors prominently advertising AI capabilities do not disclose a third-party AI subprocessor in their data processing agreements. The research cross-checked DPAs against product documentation, GitHub environments, API connections, and marketing material, then found gaps where tools appeared to use models or AI pipelines not reflected in the contracts customers rely on for security review. The risk is concrete: a company may approve a recruiting, support, or analytics vendor based on one disclosed model provider while resumes, tickets, or customer records also flow through undisclosed systems. Watch procurement teams demand live subprocessor inventories, not static paperwork.",
+      "keyFacts": [
+        "DataGrail",
+        "Privacy and AI Trends Report 2026",
+        "May 27, 2026",
+        "2,400 vendors analyzed",
+        "63.6% disclosure gap",
+        "third-party AI subprocessors",
+        "data processing agreements",
+        "GitHub environments and API connections reviewed"
+      ],
+      "url": "https://venturebeat.com/security/datagrail-report-finds-your-vendor-may-be-sending-data-to-ai-models-you-never-approved",
+      "sourceName": "VentureBeat + DataGrail",
+      "relatedSources": [
+        "VentureBeat",
+        "DataGrail"
+      ],
+      "lane": "news",
+      "publishedAt": "2026-05-27T16:00:00.000Z",
+      "importance": 149,
+      "sourceConfidence": "medium",
+      "summaryEngine": "chat-curated"
+    },
+    {
+      "id": "curated-youtube-automatic-ai-video-labels-2026-05-27",
+      "title": "YouTube starts automatically labeling realistic AI videos",
+      "summary": "YouTube will use internal signals to label significant photorealistic AI use, making disclosures more visible on long-form videos and Shorts.",
+      "fullSummary": "YouTube's automatic AI labeling move is a platform-governance update with practical creator impact. TechCrunch reports that YouTube will no longer rely only on creators to self-disclose realistic AI use. Starting in May, its internal systems can apply labels when they detect significant photorealistic AI, while labels will become more prominent below long-form videos and as overlays on Shorts. Creators can update labels they believe are wrong, but labels attached to videos made with YouTube's own AI tools such as Veo or Dream Screen, or with C2PA metadata indicating full AI generation, cannot be removed. YouTube says the label alone will not affect recommendation or monetization. The move matters because video provenance is becoming a platform-level UX problem, not just a metadata standard.",
+      "keyFacts": [
+        "YouTube",
+        "May 27, 2026",
+        "automatic AI labels",
+        "photorealistic AI",
+        "YouTube Shorts overlays",
+        "long-form label below player",
+        "Veo",
+        "Dream Screen",
+        "C2PA metadata",
+        "no label-only monetization impact"
+      ],
+      "url": "https://techcrunch.com/2026/05/27/youtube-will-now-automatically-label-ai-videos/",
+      "sourceName": "TechCrunch",
+      "relatedSources": [
+        "TechCrunch",
+        "YouTube"
+      ],
+      "lane": "news",
+      "publishedAt": "2026-05-27T13:00:00.000Z",
+      "importance": 147,
       "sourceConfidence": "high",
       "summaryEngine": "chat-curated"
     },
