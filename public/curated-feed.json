@@ -1,9 +1,280 @@
 {
-  "generatedAt": "2026-06-01T10:19:58.539Z",
-  "nextRefreshAt": "2026-06-01T13:19:58.539Z",
+  "generatedAt": "2026-06-02T10:18:18.000Z",
+  "nextRefreshAt": "2026-06-02T13:18:18.000Z",
   "summaryEngine": "chat-curated",
   "curated": true,
   "items": [
+    {
+      "id": "curated-anthropic-ipo-ai-spending-backlash-2026-06-02",
+      "title": "Anthropic's IPO timing exposes AI's enterprise cost backlash",
+      "summary": "Axios reports that Anthropic is moving toward an IPO just as corporate customers are pushing harder on AI spending, with Sam Altman calling cost concerns a fair criticism of AI.",
+      "fullSummary": "This is the freshest post-refresh signal and it belongs beside, but separate from, Anthropic's IPO filing. Axios reports that Anthropic's confidential IPO move landed as corporate America is entering an AI sticker-shock phase. The report says OpenAI CEO Sam Altman told CNBC that corporate concern over AI costs is the most fair criticism of AI so far, while noting that Anthropic's exposure to enterprise customers could make spending pushback especially relevant as it prepares for public-market scrutiny. Axios also says Anthropic is on track for nearly $50B in annual revenue and recently recorded its first profitable quarter, according to the Wall Street Journal. The point is not that demand has vanished; it is that public investors will ask whether enterprise AI budgets can support near-trillion-dollar valuations, massive compute contracts, and rising customer expectations at the same time.",
+      "keyFacts": [
+        "Axios",
+        "June 2, 2026",
+        "Anthropic IPO filing",
+        "enterprise AI sticker shock",
+        "Sam Altman CNBC comments",
+        "nearly $50B annual revenue track reported by Axios",
+        "first profitable quarter reported by Wall Street Journal via Axios",
+        "AI spending scrutiny"
+      ],
+      "url": "https://www.axios.com/2026/06/02/anthropic-ipo-ai-sticker-shock-spending-usage",
+      "sourceName": "Axios",
+      "relatedSources": [
+        "Axios",
+        "CNBC",
+        "Wall Street Journal"
+      ],
+      "lane": "signal",
+      "publishedAt": "2026-06-02T09:13:04.000Z",
+      "importance": 183,
+      "sourceConfidence": "high",
+      "summaryEngine": "chat-curated"
+    },
+    {
+      "id": "curated-anthropic-confidential-ipo-filing-2026-06-01",
+      "title": "Anthropic files confidentially for an IPO after its $965B valuation",
+      "summary": "Anthropic confidentially submitted a draft S-1 to the SEC, giving the Claude maker the option to go public after its $65B Series H and near-trillion-dollar private valuation.",
+      "fullSummary": "Anthropic's confidential IPO filing is the clearest new frontier-lab capital-market story since the last refresh. The company said on June 1 that it submitted a draft Form S-1 to the SEC for a proposed common-stock IPO, while stressing that share count, pricing, timing, and completion still depend on SEC review, market conditions, and other factors. AP framed the move as Anthropic racing toward Wall Street after reaching a $965B valuation in its latest private round. Axios added the useful caution: Anthropic is approaching the public markets just as enterprise buyers are starting to scrutinize AI spending more aggressively, even as the company is reported to be on track for nearly $50B in annual revenue. The event matters because Anthropic, OpenAI, and SpaceX are turning AI infrastructure economics into public-market tests, not just private funding rounds.",
+      "keyFacts": [
+        "Anthropic",
+        "June 1, 2026",
+        "confidential draft Form S-1",
+        "U.S. SEC",
+        "proposed IPO",
+        "share count not set",
+        "price range not set",
+        "$965B post-money valuation after Series H",
+        "nearly $50B annual revenue track reported by Axios"
+      ],
+      "url": "https://www.anthropic.com/news/confidential-draft-s1-sec",
+      "sourceName": "Anthropic + AP + Axios",
+      "relatedSources": [
+        "Anthropic",
+        "AP",
+        "Axios"
+      ],
+      "relatedLinks": [
+        {
+          "title": "Anthropic confidentially submits draft S-1 to the SEC",
+          "url": "https://www.anthropic.com/news/confidential-draft-s1-sec",
+          "sourceName": "Anthropic"
+        },
+        {
+          "title": "Anthropic races toward a Wall Street debut",
+          "url": "https://apnews.com/article/572bb6cc12053c7aa95f775285cf4b73",
+          "sourceName": "AP"
+        },
+        {
+          "title": "Anthropic faces AI spending backlash before IPO",
+          "url": "https://www.axios.com/2026/06/02/anthropic-ipo-ai-sticker-shock-spending-usage",
+          "sourceName": "Axios"
+        }
+      ],
+      "lane": "startups",
+      "publishedAt": "2026-06-01T16:42:15.000Z",
+      "importance": 208,
+      "sourceConfidence": "high",
+      "summaryEngine": "chat-curated"
+    },
+    {
+      "id": "curated-alphabet-80b-ai-infrastructure-raise-2026-06-01",
+      "title": "Alphabet seeks $80B in equity to fund AI infrastructure",
+      "summary": "Alphabet plans to raise up to $80B for AI compute and global infrastructure, including a $10B Berkshire Hathaway private investment.",
+      "fullSummary": "Alphabet's new financing plan is a major escalation in the AI infrastructure race. Axios and TechCrunch report that the Google parent plans to raise up to $80B in equity to support capital expenditures for AI infrastructure and global compute as demand exceeds available supply. The structure is unusually large even for a hyperscaler: coverage describes $30B in underwritten public offerings, a $40B at-the-market share-sale program expected to begin in Q3 2026, and a $10B Berkshire Hathaway private placement. The story matters because Alphabet historically generated enough cash to fund enormous capital spending internally; turning to equity markets shows how compute, data centers, chips, power, and cloud demand are stretching even the strongest balance sheets. Watch investor tolerance for dilution, whether AI services convert capacity into revenue, and how Microsoft, Amazon, Meta, and OpenAI-linked infrastructure partners respond.",
+      "keyFacts": [
+        "Alphabet",
+        "June 1, 2026",
+        "up to $80B equity raise",
+        "$10B Berkshire Hathaway private placement",
+        "$30B underwritten offerings",
+        "$40B at-the-market program",
+        "Q3 2026 ATM start expected",
+        "AI infrastructure",
+        "global compute",
+        "$180B-$190B 2026 capex outlook reported by TechCrunch"
+      ],
+      "url": "https://www.axios.com/2026/06/01/alphabet-80-billion-ai-buildout",
+      "sourceName": "Axios + TechCrunch",
+      "relatedSources": [
+        "Axios",
+        "TechCrunch",
+        "Alphabet"
+      ],
+      "relatedLinks": [
+        {
+          "title": "Alphabet seeks $80 billion to fund AI buildout",
+          "url": "https://www.axios.com/2026/06/01/alphabet-80-billion-ai-buildout",
+          "sourceName": "Axios"
+        },
+        {
+          "title": "Alphabet plans to raise $80 billion to pay for AI buildout",
+          "url": "https://techcrunch.com/2026/06/01/alphabet-plans-to-raise-80-billion-to-pay-for-ai-buildout/",
+          "sourceName": "TechCrunch"
+        }
+      ],
+      "lane": "news",
+      "publishedAt": "2026-06-01T21:25:41.000Z",
+      "importance": 204,
+      "sourceConfidence": "high",
+      "summaryEngine": "chat-curated"
+    },
+    {
+      "id": "curated-florida-openai-altman-lawsuit-2026-06-01",
+      "title": "Florida sues OpenAI and Sam Altman over alleged ChatGPT harms",
+      "summary": "Florida filed a lawsuit against OpenAI and Sam Altman, alleging the company concealed serious ChatGPT safety risks tied to children and violent incidents.",
+      "fullSummary": "Florida's lawsuit is a fresh policy and safety flashpoint for consumer AI. AP reports that the state filed suit against OpenAI and CEO Sam Altman on June 1, alleging that OpenAI knowingly released and marketed ChatGPT while concealing serious risks, including claims involving children considering suicide and suspects planning crimes. TechCrunch says the case partially revolves around a 2025 Florida State University shooting and ChatGPT's alleged role in the incident. The claims are allegations, not findings, but the case is important because it moves chatbot-harm debates from research papers and congressional hearings into state litigation against both the company and its CEO. Watch how OpenAI responds, whether other states join similar actions, and whether courts treat chatbot design, warnings, age controls, and crisis-response behavior as product-safety issues.",
+      "keyFacts": [
+        "Florida",
+        "OpenAI",
+        "Sam Altman",
+        "June 1, 2026",
+        "state lawsuit",
+        "ChatGPT safety allegations",
+        "children and self-harm claims",
+        "violent-incident allegations",
+        "Florida State University shooting referenced in coverage"
+      ],
+      "url": "https://apnews.com/article/396d70c5a2d9bae7e95a8ee9adaef836",
+      "sourceName": "AP + TechCrunch",
+      "relatedSources": [
+        "AP",
+        "TechCrunch"
+      ],
+      "relatedLinks": [
+        {
+          "title": "Florida sues OpenAI and CEO Sam Altman",
+          "url": "https://apnews.com/article/396d70c5a2d9bae7e95a8ee9adaef836",
+          "sourceName": "AP"
+        },
+        {
+          "title": "Florida sues OpenAI, Sam Altman, in first-of-its-kind lawsuit",
+          "url": "https://techcrunch.com/2026/06/01/florida-sues-openai-sam-altman-in-first-of-its-kind-lawsuit-over-violent-incidents/",
+          "sourceName": "TechCrunch"
+        }
+      ],
+      "lane": "signal",
+      "publishedAt": "2026-06-01T17:43:15.000Z",
+      "importance": 198,
+      "sourceConfidence": "high",
+      "summaryEngine": "chat-curated"
+    },
+    {
+      "id": "curated-nvidia-cosmos-3-physical-ai-open-model-2026-05-31",
+      "title": "Nvidia launches Cosmos 3 as an open physical-AI foundation model",
+      "summary": "Nvidia launched Cosmos 3, an open omnimodel for physical AI that combines vision reasoning, world simulation, multimodal generation, and action prediction.",
+      "fullSummary": "Cosmos 3 is a missed-but-still-important physical-AI item from the latest sweep. Nvidia says the model family is a fully open omnimodel for robotics, autonomous vehicles, industrial vision, and synthetic data generation, with native understanding and generation across text, image, video, ambient sound, and action. The company says Cosmos 3 uses a mixture-of-transformers architecture that separates reasoning and generation, and that it leads among open models on several physical-AI, world-generation, action-policy, and vision-understanding benchmarks. Nvidia also launched a Cosmos Coalition with Agile Robots, Black Forest Labs, Generalist, LTX, Runway, and Skild AI, and says Cosmos 3 Super and Nano are available now while Cosmos 3 Edge is coming later. The strategic point is that Nvidia is packaging open models, synthetic data, cloud training, and robot tooling as one physical-AI platform.",
+      "keyFacts": [
+        "Nvidia",
+        "May 31, 2026",
+        "Cosmos 3",
+        "open physical AI foundation model",
+        "mixture-of-transformers architecture",
+        "text image video sound and action",
+        "Cosmos Coalition",
+        "Agile Robots",
+        "Runway",
+        "Skild AI",
+        "Cosmos 3 Super and Nano available now",
+        "Cosmos 3 Edge coming soon"
+      ],
+      "url": "https://nvidianews.nvidia.com/news/nvidia-launches-cosmos-3-the-open-frontier-foundation-model-for-physical-ai",
+      "sourceName": "NVIDIA",
+      "relatedSources": [
+        "NVIDIA"
+      ],
+      "lane": "news",
+      "publishedAt": "2026-05-31T18:00:00.000Z",
+      "importance": 187,
+      "sourceConfidence": "high",
+      "summaryEngine": "chat-curated"
+    },
+    {
+      "id": "curated-sekai-20m-ai-mini-app-creation-2026-06-01",
+      "title": "Sekai raises $20M for text-prompted mini-app creation",
+      "summary": "Sekai raised a $20M Series A to let users create mini apps from text prompts, with Khosla Ventures and Connect Ventures co-leading.",
+      "fullSummary": "Sekai is a smaller startup story, but it is useful because it shows where consumer and creator tooling is headed after the first wave of chatbots. Axios reports that the company raised a $20M Series A co-led by Khosla Ventures and Connect Ventures, following a $6M seed round in 2025. The product lets users create mini apps through text prompts, putting it in the same broad movement as prompt-to-site, prompt-to-workflow, and agentic app-builder tools. The round also included a16z Speedrun, Mayfield, A*, MVP Ventures, 359 Capital, Parable VC, and 645 Ventures. The question is whether Sekai can turn easy generation into repeat usage: app creation is becoming cheap, but distribution, data connections, payments, moderation, and retention are still hard. Watch whether mini apps become a social format or mainly a prototyping surface.",
+      "keyFacts": [
+        "Sekai",
+        "June 1, 2026",
+        "$20M Series A",
+        "Khosla Ventures",
+        "Connect Ventures",
+        "$6M seed in 2025",
+        "a16z Speedrun",
+        "Mayfield",
+        "text-prompted mini apps"
+      ],
+      "url": "https://www.axios.com/2026/06/01/sekai-mini-app-startup-funding",
+      "sourceName": "Axios",
+      "relatedSources": [
+        "Axios"
+      ],
+      "lane": "startups",
+      "publishedAt": "2026-06-01T12:35:00.000Z",
+      "importance": 160,
+      "sourceConfidence": "high",
+      "summaryEngine": "chat-curated"
+    },
+    {
+      "id": "curated-ehrbench-clinical-decision-llm-benchmark-2026-05-28",
+      "title": "EHRBench scales clinical-decision testing for medical LLMs",
+      "summary": "EHRBench introduces nearly 1M EHR-grounded QA items to evaluate LLMs on diagnosis, treatment, and prognosis tasks.",
+      "fullSummary": "EHRBench is worth adding because healthcare AI needs evaluation grounded in real clinical workflows rather than generic medical exam questions. The arXiv paper introduces an automated benchmark pipeline that turns encounter-level electronic health record trajectories into structured QA items, then filters and enriches them using knowledge-base checks to reduce hallucinated or ambiguous relations. The resulting benchmark contains 960,067 QA items across diagnosis, treatment, and prognosis tasks, and the authors benchmark more than 30 LLMs. This does not validate any model for clinical deployment, but it pushes evaluation closer to the messy evidence clinicians actually face. The main caveats are dataset provenance, privacy handling, cohort representativeness, and whether deterministic QA generation captures enough nuance. Watch whether clinical-AI teams adopt EHR-grounded benchmarks before claiming real decision-support gains.",
+      "keyFacts": [
+        "EHRBench",
+        "arXiv:2605.30637",
+        "May 28, 2026",
+        "960,067 QA items",
+        "electronic health records",
+        "diagnosis",
+        "treatment",
+        "prognosis",
+        "more than 30 LLMs benchmarked",
+        "EHR-LLM-KB pipeline"
+      ],
+      "url": "https://arxiv.org/abs/2605.30637",
+      "sourceName": "arXiv",
+      "relatedSources": [
+        "arXiv"
+      ],
+      "lane": "papers",
+      "publishedAt": "2026-05-28T22:38:26.000Z",
+      "importance": 166,
+      "sourceConfidence": "medium",
+      "summaryEngine": "chat-curated"
+    },
+    {
+      "id": "curated-maven-agent-tool-calling-generalization-2026-05-29",
+      "title": "MAVEN shows tool-calling agents still struggle to generalize",
+      "summary": "MAVEN adds a verification-centered scaffold and benchmark for agentic tool use, lifting a GPT-OSS-120b base model from 48% to 71% on its stress test without additional training.",
+      "fullSummary": "MAVEN is a useful research update because agent reliability increasingly depends on tool orchestration, not just base-model benchmark scores. The arXiv paper presents Modular Agentic Verification and Execution Network, a lightweight symbolic scaffold for decomposition, adaptive tool orchestration, and intermediate verification. The authors evaluate across BFCL v3, TauBench, Tau2Bench, AceBench, and a new MAVEN-Bench stress test for multi-step mathematical and physical reasoning. Their headline result is that MAVEN improves a GPT-OSS-120b base model from 48% to 71% accuracy on direct MAVEN-Bench runs without additional training, while remaining competitive with proprietary frontier baselines at an estimated one-tenth cost. Confidence should stay medium until independent reproduction, but the direction is important: process scaffolds and verification loops may matter as much as raw model choice for real agents.",
+      "keyFacts": [
+        "MAVEN",
+        "arXiv:2605.30738",
+        "May 29, 2026",
+        "Modular Agentic Verification and Execution Network",
+        "MAVEN-Bench",
+        "GPT-OSS-120b",
+        "48% to 71% accuracy",
+        "BFCL v3",
+        "TauBench",
+        "Tau2Bench",
+        "AceBench",
+        "roughly 1/10 estimated cost ratio"
+      ],
+      "url": "https://arxiv.org/abs/2605.30738",
+      "sourceName": "arXiv",
+      "relatedSources": [
+        "arXiv"
+      ],
+      "lane": "papers",
+      "publishedAt": "2026-05-29T02:02:31.000Z",
+      "importance": 163,
+      "sourceConfidence": "medium",
+      "summaryEngine": "chat-curated"
+    },
     {
       "id": "curated-nvidia-microsoft-windows-ai-pcs-2026-05-30",
       "title": "Nvidia and Microsoft officially push Windows PCs into the local-agent era",
