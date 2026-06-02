@@ -2,9 +2,11 @@
 
 Use this file whenever the user asks: "refresh the feed" or "refresh the stories" without wanting an API key.
 
+Default to a thorough refresh. A narrow top-up from two or three obvious sources is not enough unless the user explicitly asks for a small update.
+
 ## Goal
 
-Maintain `public/curated-feed.json` by using this chat model to fetch current AI news, research papers, funding rounds, acquisitions, policy stories, and product announcements, then summarize them manually in high-quality editorial form.
+Maintain `public/curated-feed.json` by using this chat model to fetch current AI news, research papers, funding rounds, acquisitions, policy stories, infrastructure updates, practical applications, and product announcements, then summarize them manually in high-quality editorial form.
 
 Treat the file like a small database, not a disposable export. Keep existing curated stories unless they are exact duplicates or clearly broken. Add new stories near the top, update an existing story when new coverage belongs to the same underlying event, and let older stories move down by file order and lower `importance`.
 
@@ -21,6 +23,8 @@ $payload.items | Select-Object title,sourceName,lane,publishedAt,url,summary,key
 
 2. Load the existing `public/curated-feed.json` before writing. Preserve older items and append/merge new items into the existing list.
 
+Before searching, record the current `generatedAt`, current item count, and newest 8-12 `publishedAt` values. Use the latest `generatedAt` as the baseline for "since last refresh," but also allow high-quality missed stories from the last 48-72 hours when they fill an important lane.
+
 3. Do a recency-first sweep before the relevance sweep:
 
 - Check the latest pages or feeds from at least two broad news sources, such as TechCrunch Latest/AI, VentureBeat AI, Reuters/AP where available, The Verge, MIT Technology Review, Business Wire, PR Newswire, and Google News-style searches.
@@ -28,7 +32,14 @@ $payload.items | Select-Object title,sourceName,lane,publishedAt,url,summary,key
 - Do not add conference calendars, earnings-call reminders, scraped reposts, Reddit-only claims, or generic investor notices just to make the feed look fresh.
 - If no fresher story passes the quality bar, keep the older top story and note why.
 
-4. Use web search for the volatile/high-value items:
+4. Use a thorough multi-lane search, not only basic filters:
+
+- Run both recency queries and category queries. Search `today`, `yesterday`, the exact dates, and source-specific pages. Do not rely only on generic Google News-style results.
+- Inspect at least 6 distinct source lanes before writing: broad AI/news reporting, primary lab/company announcements, funding/deals trackers, chips/compute/infrastructure, research/arXiv/benchmarks, practical applications, and policy/security/safety.
+- For each source lane, prefer primary sources and reputable reporting, but use press releases for funding/product launches when no stronger source exists; mark confidence `medium` when claims are primarily company-provided.
+- Do not stop after finding a few major headlines. Keep searching until the coverage checklist below is answered with concrete included or intentionally excluded stories.
+
+Search these volatile/high-value categories every time:
 
 - AI news and policy
 - AI startup funding
@@ -40,6 +51,15 @@ $payload.items | Select-Object title,sourceName,lane,publishedAt,url,summary,key
 - Practical applications, including healthcare, drug discovery, diagnostics, robotics, agriculture, education, finance, legal, security operations, creative tools, industrial AI, and public-sector deployments
 - Science and biomedical AI sources, including Nature, Science, EurekAlert, News-Medical, university labs, research institutes, and official company/lab announcements
 
+Suggested source lanes to check:
+
+- Broad/current: TechCrunch AI/latest, VentureBeat AI, Reuters, AP, The Verge, MIT Technology Review, Wired, The Information where available, Axios, Fortune Term Sheet, Crunchbase News.
+- Primary labs and platforms: OpenAI, Anthropic, Google/DeepMind, Microsoft/Azure, Meta, Nvidia, AWS, xAI, Mistral, Cohere, Hugging Face, Stability, Runway, ElevenLabs.
+- Regional and open model ecosystems: Alibaba/Qwen, Baidu, Tencent, Huawei, DeepSeek, Moonshot, MiniMax, Zhipu, Sarvam, Sakana, Naver, Kakao, and local-language model labs.
+- Infrastructure: Nvidia/AMD/Intel announcements, cloud-provider news, data-center power/water stories, AI networking/storage, memory suppliers, export controls, sovereign compute, and local permitting/backlash.
+- Funding/deals: TechCrunch funding, Axios Pro Rata, Fortune Term Sheet, Crunchbase News, Business Wire, PR Newswire, GlobeNewswire, company blogs, and reputable local business press.
+- Research/applications: arXiv recent AI/ML/CL/CV/robotics, Papers with Code-style benchmark releases where available, Nature/Science/EurekAlert, university labs, medical institutions, robotics companies, agriculture/industrial/education/legal/security publications.
+
 5. Run a coverage checklist before writing. At minimum, ask whether the refresh includes or intentionally excludes:
 
 - Latest model releases and open-weight releases
@@ -48,6 +68,10 @@ $payload.items | Select-Object title,sourceName,lane,publishedAt,url,summary,key
 - Latest notable AI applications outside software, especially healthcare, drug discovery, robotics, agriculture, and education
 - Latest policy/safety/security stories
 - Latest research papers, benchmarks, and evaluation/tooling releases
+- Latest infrastructure constraints beyond chips, including power, water, data-center siting, networking, memory, and cloud capacity
+- Smaller but interesting stories that are not front-page AI news but are useful to a reader, including regional releases, vertical agents, operational workflow AI, and consumer backlash/signals
+
+If the refresh window is roughly 24 hours and fewer than 15-20 quality candidate stories are found, treat that as a warning sign and run another source-lane pass before finalizing. It is acceptable to add fewer than 15 only when the search was genuinely broad and the rejected candidates were weak, duplicative, non-AI, or low-confidence; say that explicitly.
 
 6. De-duplicate stories before writing the curated JSON. Merge coverage when several sources describe the same underlying story. Do not delete older, still-valid stories just because they are no longer fresh.
 
@@ -65,6 +89,7 @@ $payload.items | Select-Object title,sourceName,lane,publishedAt,url,summary,key
 - Older stories should keep their original `publishedAt` and receive lower `importance` so they naturally move down.
 - Keep stable `id` values for existing stories so the feed behaves like a database.
 - After writing, verify both relevance order and recency order. The app's `Recent` view sorts strictly by `publishedAt`, so check the newest 8-12 stories by timestamp.
+- Also count how many items are newer than the previous `generatedAt`. If the count is surprisingly low for the elapsed time, repeat the thorough multi-lane search before committing.
 
 9. Save the feed to:
 
