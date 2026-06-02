@@ -1,9 +1,441 @@
 {
-  "generatedAt": "2026-06-02T10:18:18.000Z",
-  "nextRefreshAt": "2026-06-02T13:18:18.000Z",
+  "generatedAt": "2026-06-02T10:39:52.956Z",
+  "nextRefreshAt": "2026-06-02T13:39:52.956Z",
   "summaryEngine": "chat-curated",
   "curated": true,
   "items": [
+    {
+      "id": "curated-spacex-xai-water-ai-data-center-risk-2026-06-01",
+      "title": "SpaceX warns investors that AI data centers make water access an IPO risk",
+      "summary": "SpaceX added water access to its IPO risk factors, saying xAI-linked data center expansion depends on water for cooling alongside power, processors, and other resources.",
+      "fullSummary": "This is a useful AI-infrastructure story because it turns water from a local permitting issue into a public-market risk factor. TechCrunch reports that SpaceX, which now includes xAI, amended its IPO filing to warn that large-scale AI data centers may require significant water resources for cooling. The company says data center buildouts are constrained by access to power and water at economically feasible prices, and that water scarcity, drought, competition for local resources, or regulatory restrictions could limit cooling capacity, raise costs, delay expansion, or force more expensive cooling techniques. The story matters because AI infrastructure constraints are usually discussed as chips and electricity, but water is becoming another bottleneck for where models can be trained and served. Watch whether other AI-infrastructure-heavy IPO filings add similar language.",
+      "keyFacts": [
+        "SpaceX",
+        "xAI",
+        "June 1, 2026",
+        "IPO filing amendment",
+        "AI data centers",
+        "water access",
+        "data center cooling",
+        "power and water at economically feasible prices",
+        "drought and regulatory restrictions"
+      ],
+      "url": "https://techcrunch.com/2026/06/01/water-access-is-now-a-risk-factor-in-spacexs-ipo/",
+      "sourceName": "TechCrunch",
+      "relatedSources": [
+        "TechCrunch",
+        "SpaceX IPO filing"
+      ],
+      "lane": "news",
+      "publishedAt": "2026-06-01T18:19:00.000Z",
+      "importance": 171,
+      "sourceConfidence": "high",
+      "summaryEngine": "chat-curated"
+    },
+    {
+      "id": "curated-duckduckgo-no-ai-search-surge-2026-06-01",
+      "title": "DuckDuckGo makes no-AI search a product as backlash to AI search grows",
+      "summary": "DuckDuckGo launched Chrome and Firefox extensions for its AI-free search page after traffic to noai.duckduckgo.com surged following Google's AI-first search revamp.",
+      "fullSummary": "DuckDuckGo's no-AI extension launch is a consumer-product signal that belongs beside the big model and infrastructure stories. TechCrunch reports that DuckDuckGo released Chrome and Firefox extensions that let users set noai.duckduckgo.com as their default search engine, avoiding AI-assisted answers, chat prompts, and most AI images in results. The move follows Google's AI-first search overhaul at I/O. DuckDuckGo says visits to its no-AI page rose nearly 30% week over week, U.S. app installs rose 18.1% week over week, U.S. iOS installs peaked at 69.9% week-over-week growth, and visits to the no-AI page hit a new high on May 28 with traffic averaging roughly 84% above baseline. This matters because AI search is not only a capability race; it is also producing a visible counter-market for users who want traditional results.",
+      "keyFacts": [
+        "DuckDuckGo",
+        "June 1, 2026",
+        "noai.duckduckgo.com",
+        "Chrome extension",
+        "Firefox extension",
+        "nearly 30% week-over-week traffic growth",
+        "18.1% U.S. app install growth",
+        "69.9% peak U.S. iOS install growth",
+        "84% above baseline visits",
+        "Google AI-first search revamp"
+      ],
+      "url": "https://techcrunch.com/2026/06/01/duckduckgo-makes-its-no-ai-search-engine-easier-to-access-as-its-traffic-booms/",
+      "sourceName": "TechCrunch",
+      "relatedSources": [
+        "TechCrunch",
+        "DuckDuckGo"
+      ],
+      "lane": "signal",
+      "publishedAt": "2026-06-01T14:49:00.000Z",
+      "importance": 158,
+      "sourceConfidence": "high",
+      "summaryEngine": "chat-curated"
+    },
+    {
+      "id": "curated-meta-ai-support-instagram-hijack-2026-06-01",
+      "title": "Hackers reportedly used Meta's AI support bot to hijack Instagram accounts",
+      "summary": "TechCrunch reports that attackers tricked Meta's AI-powered support assistant into adding new emails and resetting passwords on Instagram accounts, including high-profile handles.",
+      "fullSummary": "This is one of the most concrete agent-safety stories in the latest sweep because it is not a theoretical prompt-injection demo. TechCrunch reports that Instagram fixed an issue after attackers allegedly used Meta's AI-powered support chatbot to take over accounts. A public video showed a hacker asking the support assistant to add a new email address to a target account, receiving a verification code at the attacker's inbox, and then using the bot's reset-password flow to seize control. Reported victims included security researcher Jane Wong, an inactive Obama-era White House handle, and the U.S. Space Force chief master sergeant's account. Meta said the issue was fixed, but the episode matters because support bots sit near account-recovery workflows where a wrong action has real security impact. Watch whether AI support systems get stricter permission boundaries and human review for identity-sensitive actions.",
+      "keyFacts": [
+        "Meta",
+        "Instagram",
+        "June 1, 2026",
+        "AI-powered support chatbot",
+        "password reset workflow",
+        "Jane Wong account reportedly affected",
+        "Obama-era White House handle reportedly affected",
+        "issue fixed according to Instagram spokesperson Andy Stone"
+      ],
+      "url": "https://techcrunch.com/2026/06/01/hackers-hijacked-instagram-accounts-by-tricking-meta-ai-support-chatbot-into-granting-access/",
+      "sourceName": "TechCrunch",
+      "relatedSources": [
+        "TechCrunch"
+      ],
+      "lane": "signal",
+      "publishedAt": "2026-06-01T18:34:00.000Z",
+      "importance": 186,
+      "sourceConfidence": "high",
+      "summaryEngine": "chat-curated"
+    },
+    {
+      "id": "curated-anthropic-browser-agent-prompt-injection-2026-06-01",
+      "title": "Anthropic's browser-agent disclosures turn prompt injection into a procurement metric",
+      "summary": "VentureBeat says Anthropic disclosed a 31.5% raw browser-agent hijack rate before safeguards, then 0.5% after its browser safeguards engaged.",
+      "fullSummary": "The VentureBeat analysis is worth adding because it turns fuzzy agent-security anxiety into numbers security buyers can ask vendors to explain. The article compares recent prompt-injection disclosures from Anthropic, OpenAI, Google, and Meta, arguing that the disclosures are not on one common scale. The sharpest number is Anthropic's: its browser agent reportedly showed a 31.5% raw attack-success rate before safeguards and 0.5% with the full safeguard stack. VentureBeat also notes that Anthropic published a broad 244-page system card covering tool use, coding, computer use, and browser surfaces, while other labs disclosed narrower or less comparable measurements. The practical takeaway is not that one vendor is safer overall; it is that enterprises need surface-specific attack-success rates for the exact agent environment they plan to deploy.",
+      "keyFacts": [
+        "VentureBeat",
+        "June 1, 2026",
+        "Anthropic",
+        "31.5% raw browser-agent hijack rate",
+        "0.5% safeguarded browser-agent rate",
+        "244-page Anthropic system card",
+        "tool use",
+        "coding",
+        "computer use",
+        "browser agents",
+        "prompt injection"
+      ],
+      "url": "https://venturebeat.com/security/anthropic-browser-agent-hijacked-31-percent-before-safeguards-engaged",
+      "sourceName": "VentureBeat",
+      "relatedSources": [
+        "VentureBeat",
+        "Anthropic system card"
+      ],
+      "lane": "signal",
+      "publishedAt": "2026-06-01T15:50:00.000Z",
+      "importance": 181,
+      "sourceConfidence": "medium",
+      "summaryEngine": "chat-curated"
+    },
+    {
+      "id": "curated-nvidia-jetson-nemoclaw-physical-agents-2026-06-01",
+      "title": "Nvidia moves NemoClaw agents onto Jetson edge devices",
+      "summary": "Nvidia announced JetPack 7.2 and NemoClaw support for Jetson, pushing agentic AI from data centers into robotics, inspection, smart retail, traffic systems, and factory automation.",
+      "fullSummary": "Nvidia's Jetson update is a practical physical-AI story that was easy to miss under the bigger RTX Spark headlines. At Computex, Nvidia announced JetPack 7.2 and NemoClaw support for Jetson, giving developers a production-grade path to run agentic workflows on edge systems rather than only servers or workstations. JetPack 7.2 adds Yocto project support, CUDA 13 on Jetson Orin, Multi-Instance GPU support on Jetson Thor, and a 20% performance bump for the Jetson AGX Orin 32GB module to 241 TOPS. Nvidia says NemoClaw can now deploy to Jetson with a single command, enabling agents for robotics, industrial inspection, smart retail, traffic management, humanoids, and factory operations. This matters because many useful AI agents need perception, latency, and local control at the edge, not just cloud reasoning.",
+      "keyFacts": [
+        "Nvidia",
+        "June 1, 2026",
+        "JetPack 7.2",
+        "NemoClaw on Jetson",
+        "CUDA 13 on Jetson Orin",
+        "Yocto project support",
+        "MIG support on Jetson Thor",
+        "Jetson AGX Orin 32GB increased to 241 TOPS",
+        "robotics",
+        "industrial inspection",
+        "smart retail",
+        "traffic systems"
+      ],
+      "url": "https://blogs.nvidia.com/blog/jetson-agentic-ai-physical-world/",
+      "sourceName": "NVIDIA Blog",
+      "relatedSources": [
+        "NVIDIA"
+      ],
+      "lane": "news",
+      "publishedAt": "2026-06-01T16:00:00.000Z",
+      "importance": 178,
+      "sourceConfidence": "high",
+      "summaryEngine": "chat-curated"
+    },
+    {
+      "id": "curated-nvidia-supply-capacity-ai-boom-2026-06-02",
+      "title": "Nvidia says it can supply robust CPU and GPU growth despite constraints",
+      "summary": "Reuters reports that Jensen Huang said Nvidia has enough supply to support strong CPU and GPU growth, while acknowledging supply constraints remain a concern.",
+      "fullSummary": "This Reuters item is a useful compute-supply signal after Nvidia's Computex announcements. Jensen Huang said on June 2 in Taipei that Nvidia has enough capacity to support robust growth in both CPUs and GPUs as the company rides the AI boom. The caveat matters: Reuters says Nvidia still acknowledged that supply constraints remain a concern. The story belongs in the feed because the AI market's near-term growth depends not only on model demand but on whether chip, packaging, memory, power, and rack supply can keep up. It also helps contextualize Nvidia's push into AI PCs and Vera CPUs: the company is trying to expand the AI compute stack beyond data-center GPUs while convincing customers that supply will not become the main bottleneck.",
+      "keyFacts": [
+        "Reuters",
+        "June 2, 2026",
+        "Nvidia",
+        "Jensen Huang",
+        "Taipei",
+        "CPU growth",
+        "GPU growth",
+        "supply constraints remain a concern",
+        "AI boom"
+      ],
+      "url": "https://wdsm710.com/2026/06/01/nvidia-ceo-says-has-capacity-to-supply-robust-cpu-and-gpu-growth/",
+      "sourceName": "Reuters",
+      "relatedSources": [
+        "Reuters"
+      ],
+      "lane": "news",
+      "publishedAt": "2026-06-02T01:30:00.000Z",
+      "importance": 174,
+      "sourceConfidence": "high",
+      "summaryEngine": "chat-curated"
+    },
+    {
+      "id": "curated-windborne-weathermesh-6-ai-forecasting-2026-06-01",
+      "title": "WindBorne claims WeatherMesh-6 is beating top government weather forecasts",
+      "summary": "WindBorne released WeatherMesh-6, saying its AI weather model forecasts hourly at 3km resolution in key regions and can match a traditional one-day forecast five days out.",
+      "fullSummary": "WindBorne is a strong practical-AI application story outside software assistants. TechCrunch reports that the startup released WeatherMesh-6 on June 1, an AI weather forecasting model that the company says is more accurate than leading traditional and AI forecasts from the European Centre for Medium-Range Weather Forecasts on key variables. WindBorne says the model produces forecasts every hour instead of every six hours and reaches 3km resolution in Europe and the continental U.S. where data quality is highest. Its chief product officer said WeatherMesh-6 can be as accurate five days out as a traditional forecast is one day before, especially on surface temperature. The claims need continued independent validation, but the direction is important: AI models plus better sensor ingestion are starting to challenge one of the highest-value public science systems.",
+      "keyFacts": [
+        "WindBorne Systems",
+        "WeatherMesh-6",
+        "June 1, 2026",
+        "hourly forecasts",
+        "3km resolution in Europe and continental U.S.",
+        "European Centre for Medium-Range Weather Forecasts",
+        "surface temperature",
+        "AI weather forecasting"
+      ],
+      "url": "https://techcrunch.com/2026/06/01/this-ai-weather-startup-is-out-forecasting-government-agencies/",
+      "sourceName": "TechCrunch",
+      "relatedSources": [
+        "TechCrunch",
+        "WindBorne Systems"
+      ],
+      "lane": "news",
+      "publishedAt": "2026-06-01T16:00:00.000Z",
+      "importance": 172,
+      "sourceConfidence": "medium",
+      "summaryEngine": "chat-curated"
+    },
+    {
+      "id": "curated-mach-industries-300m-defense-autonomy-2026-06-01",
+      "title": "Mach Industries hits $1.8B valuation as autonomous defense funding keeps accelerating",
+      "summary": "Mach Industries raised a $300M Series C at a $1.8B valuation, nearly quadrupling its valuation in a year while building five autonomous defense systems.",
+      "fullSummary": "Mach Industries is not a generic defense-tech funding item; it is a signal that autonomy and AI-adjacent systems are still pulling enormous capital into defense. TechCrunch reports that the three-year-old startup raised a $300M Series C at a $1.8B valuation, up from a $470M valuation in June 2025. The round was led by Infinite Capital and Ribbit Capital, with Bedrock Capital, Sequoia, and Khosla also listed. Founder Ethan Thornton said the company originally went out to raise $200M and pushed the round to $300M after being oversubscribed. Mach is developing five autonomous vehicles: Viper, Glide, Stratos, Dart, and Pike, with production expected next year on at least three. The story matters because defense autonomy is becoming a core AI capital lane, even when the products are aircraft, interceptors, and munitions rather than chatbots.",
+      "keyFacts": [
+        "Mach Industries",
+        "June 1, 2026",
+        "$300M Series C",
+        "$1.8B valuation",
+        "$470M valuation in June 2025",
+        "Infinite Capital",
+        "Ribbit Capital",
+        "Viper",
+        "Glide",
+        "Stratos",
+        "Dart",
+        "Pike"
+      ],
+      "url": "https://techcrunch.com/2026/06/01/defense-tech-darling-mach-industries-hits-1-8b-valuation-a-4x-jump-in-a-year/",
+      "sourceName": "TechCrunch",
+      "relatedSources": [
+        "TechCrunch"
+      ],
+      "lane": "startups",
+      "publishedAt": "2026-06-01T21:40:00.000Z",
+      "importance": 167,
+      "sourceConfidence": "high",
+      "summaryEngine": "chat-curated"
+    },
+    {
+      "id": "curated-mecka-ai-60m-robotics-human-motion-data-2026-06-01",
+      "title": "Mecka AI raises $60M to train robots on human motion data",
+      "summary": "Fortune reports that Mecka AI raised $60M across two previously unannounced rounds to collect human motion data from body sensors and iPhones for robotics training.",
+      "fullSummary": "Mecka AI is a clean robotics-data story that fills a practical application lane. Fortune reports that the New York startup raised $60M across a $25M Series A and a $35M follow-on round led by Framework Ventures, with Menlo Ventures, SV Angel, Kindred Ventures, and Ted Xiao participating. The company collects human motion data using custom body sensors and iPhones, then works with robotics labs to integrate and train models. CEO Josh Gao argues that useful robots can be deployed now if they get better embodied data, and Fortune says the company projects a $100M annual run rate based on already signed contracts. Confidence should stay medium because customer names and valuation were not disclosed, but the story is important: robotics AI is shifting from model demos toward data supply chains for manipulation, movement, and deployment.",
+      "keyFacts": [
+        "Mecka AI",
+        "June 1, 2026",
+        "$60M total raised",
+        "$25M Series A",
+        "$35M follow-on",
+        "Framework Ventures",
+        "Menlo Ventures",
+        "SV Angel",
+        "Kindred Ventures",
+        "body sensors",
+        "iPhones",
+        "$100M annual run-rate projection"
+      ],
+      "url": "https://fortune.com/2026/06/01/mecka-ai-series-a-60-million-robotics-data-training/",
+      "sourceName": "Fortune",
+      "relatedSources": [
+        "Fortune"
+      ],
+      "lane": "startups",
+      "publishedAt": "2026-06-01T11:00:00.000Z",
+      "importance": 164,
+      "sourceConfidence": "medium",
+      "summaryEngine": "chat-curated"
+    },
+    {
+      "id": "curated-tripo-ai-200m-3d-world-model-financing-2026-06-01",
+      "title": "Tripo AI raises nearly $200M for 3D foundation and world models",
+      "summary": "Tripo AI announced nearly $200M across Series A+ and A++ rounds and introduced Project Eden for persistent, reusable, multiplayer interactive worlds.",
+      "fullSummary": "Tripo AI is a meaningful model/application funding story because 3D generation and world models are becoming their own infrastructure lane. The company announced on June 1 that it completed Series A+ and A++ financings totaling nearly $200M. It says the capital will expand AI 3D and world-model research teams, accelerate algorithm development, strengthen data and infrastructure systems, and broaden its global ecosystem. Alongside the financing, Tripo introduced Project Eden, a research initiative for persistent, reusable, and multiplayer interactive environments. The caveat is that the source is a company announcement distributed through GlobeNewswire, so product claims should be treated as company claims until independently benchmarked. Even so, the raise is large enough to track: investors are funding 3D world-generation infrastructure, not only text, coding, and image models.",
+      "keyFacts": [
+        "Tripo AI",
+        "June 1, 2026",
+        "nearly $200M",
+        "Series A+",
+        "Series A++",
+        "AI 3D foundation models",
+        "world models",
+        "Project Eden",
+        "persistent interactive worlds",
+        "GlobeNewswire"
+      ],
+      "url": "https://www.streetinsider.com/Globe%2BNewswire/Tripo%2BAI%2BRaises%2BNearly%2B%24200%2BMillion%2Bin%2BSeries%2BA%2B%2Band%2BSeries%2BA%2B%2B%2BFinancing%2Bto%2BAdvance%2BAI%2B3D%2Band%2BWorld%2BModel%2BRoadmap/26581967.html",
+      "sourceName": "GlobeNewswire / StreetInsider",
+      "relatedSources": [
+        "GlobeNewswire",
+        "StreetInsider"
+      ],
+      "lane": "startups",
+      "publishedAt": "2026-06-01T16:47:00.000Z",
+      "importance": 161,
+      "sourceConfidence": "medium",
+      "summaryEngine": "chat-curated"
+    },
+    {
+      "id": "curated-nyb-ai-vecura-2-agentic-molecular-discovery-2026-06-02",
+      "title": "NYB.AI launches Vecura 2.0 for agentic molecular discovery",
+      "summary": "Singapore startup NYB.AI launched Vecura 2.0, an agentic platform for molecular discovery that coordinates models, biological data, scientific tools, and GPU workflows with NVIDIA support.",
+      "fullSummary": "Vecura 2.0 is worth adding because it is a concrete life-science AI workflow story, not just another general assistant launch. NYB.AI says the platform connects AI models, biological data, molecular analysis tools, retrieval systems, and GPU-accelerated computing for molecular discovery and life-science research. The new version adds an agentic layer meant to understand research objectives, retrieve scientific context, select suitable models, coordinate execution, compare outputs, and generate structured next-step recommendations. The company says it is using NVIDIA technologies and NVIDIA Inception support, including access to Hopper GPUs through NVIDIA Innovation Lab. It is also developing a token-based access model for workflows such as compound screening, bioactivity prediction, and molecular docking. Treat the claims as company claims, but the story fits the feed's healthcare and drug-discovery lane.",
+      "keyFacts": [
+        "NYB.AI",
+        "Vecura 2.0",
+        "June 2, 2026",
+        "Singapore",
+        "agentic molecular discovery",
+        "NVIDIA Inception",
+        "NVIDIA Hopper GPUs",
+        "compound screening",
+        "bioactivity prediction",
+        "molecular docking",
+        "InnoVEX 2026"
+      ],
+      "url": "https://en.prnasia.com/releases/apac/nyb-ai-launches-vecura-2-0-bringing-agentic-ai-workflows-to-molecular-discovery-with-nvidia-535457.shtml",
+      "sourceName": "PR Newswire / NYB.AI",
+      "relatedSources": [
+        "PR Newswire",
+        "NYB.AI",
+        "NVIDIA Inception"
+      ],
+      "lane": "news",
+      "publishedAt": "2026-06-02T05:27:00.000Z",
+      "importance": 157,
+      "sourceConfidence": "medium",
+      "summaryEngine": "chat-curated"
+    },
+    {
+      "id": "curated-saris-288m-agentic-banking-series-a-2026-06-01",
+      "title": "Saris raises $28.8M to bring agentic workflows into bank operations",
+      "summary": "Saris raised a $28.8M Series A for AI agents that automate repetitive lending, compliance, and operations work across banks and credit unions.",
+      "fullSummary": "Saris is a useful vertical-agent story because it shows agentic AI moving into regulated back-office work rather than just front-office chat. PYMNTS reports that Saris raised $28.8M in Series A funding on June 1. The company says the money will scale its platform to more banks and credit unions, strengthen integrations with Fiserv, Encompass, and MeridianLink, and expand the team that trains and deploys its agents. The pitch is that financial institutions still spend hours on manual repetitive work in lending, compliance, and operations that does not require human judgment. The important question is governance: banking workflows need auditability, exception handling, model risk controls, and clear handoffs when judgment is required. Watch whether Saris publishes concrete deployment metrics and compliance evidence as it expands.",
+      "keyFacts": [
+        "Saris",
+        "June 1, 2026",
+        "$28.8M Series A",
+        "agentic AI for banking",
+        "banks and credit unions",
+        "Fiserv",
+        "Encompass",
+        "MeridianLink",
+        "lending",
+        "compliance",
+        "operations"
+      ],
+      "url": "https://www.pymnts.com/news/investment-tracker/2026/saris-raises-28-million-to-bring-agentic-ai-to-banking/",
+      "sourceName": "PYMNTS",
+      "relatedSources": [
+        "PYMNTS"
+      ],
+      "lane": "startups",
+      "publishedAt": "2026-06-01T13:00:00.000Z",
+      "importance": 153,
+      "sourceConfidence": "medium",
+      "summaryEngine": "chat-curated"
+    },
+    {
+      "id": "curated-gradient-labs-26m-fintech-ai-agents-2026-06-01",
+      "title": "Gradient Labs doubles Series A to $26M for fintech customer-operation agents",
+      "summary": "Gradient Labs added $26M to its Series A, bringing total funding to $42.6M as banks test AI agents for customer operations.",
+      "fullSummary": "Gradient Labs adds another data point to the agentic-finance lane. Finovate reports that the UK company raised $26M in Series A funding, bringing total funding to $42.6M, to expand a vertical AI platform for autonomous banking tools. The company is focused on customer-operations agents for financial institutions, a market where conversational interfaces are not enough if systems cannot execute tasks safely inside bank workflows. This matters because agent startups are now being funded around narrow regulated workflows rather than horizontal chatbots. The caveat is that funding stories often overstate adoption; the real test will be whether Gradient can handle exceptions, supervision, audit trails, and integration into core banking systems without creating compliance risk.",
+      "keyFacts": [
+        "Gradient Labs",
+        "June 1, 2026",
+        "$26M Series A extension",
+        "$42.6M total funding",
+        "fintech AI agents",
+        "customer operations",
+        "financial institutions",
+        "autonomous banking tools"
+      ],
+      "url": "https://finovate.com/gradient-labs-raises-26-million-to-build-fintechs-ai-agents/",
+      "sourceName": "Finovate",
+      "relatedSources": [
+        "Finovate"
+      ],
+      "lane": "startups",
+      "publishedAt": "2026-06-01T12:00:00.000Z",
+      "importance": 151,
+      "sourceConfidence": "medium",
+      "summaryEngine": "chat-curated"
+    },
+    {
+      "id": "curated-zoominfo-gtm-ai-mcp-context-layer-2026-06-01",
+      "title": "ZoomInfo turns GTM.AI into an MCP context layer for sales agents",
+      "summary": "ZoomInfo made GTM.AI generally available as a headless go-to-market context layer for Claude, ChatGPT, Copilot, Salesforce Agentforce, HubSpot Breeze, and other agent surfaces.",
+      "fullSummary": "ZoomInfo's GTM.AI launch is a strong enterprise-agent infrastructure story despite coming through a press release. The company says GTM.AI is generally available as a headless context layer and Model Context Protocol home for verified B2B intelligence. Through one connection, it exposes company search, contact discovery, real-time enrichment, intent retrieval, and recommendation to surfaces including Claude, ChatGPT, Microsoft Copilot, Salesforce Agentforce, HubSpot Breeze, Outreach AI, Nooks AI, Gong, LeanData, Dust, Glean, Databricks, and Google ADK. The pitch is that go-to-market agents fail if they act on stale CRM or contact data. ZoomInfo claims its GTM Context Graph resolves 100M companies, 500M contacts, billions of buying signals, and IP-to-organization mappings. Watch whether MCP becomes the default way enterprise data vendors wire proprietary context into agents.",
+      "keyFacts": [
+        "ZoomInfo",
+        "GTM.AI",
+        "June 1, 2026",
+        "generally available",
+        "Model Context Protocol",
+        "100M companies",
+        "500M contacts",
+        "billions of buying signals",
+        "Claude",
+        "ChatGPT",
+        "Microsoft Copilot",
+        "Salesforce Agentforce",
+        "HubSpot Breeze"
+      ],
+      "url": "https://venturebeat.com/business/zoominfo-launches-gtmai-the-headless-gtm-context-layer-to-ground-every-ai-agent-in-verified-gtm-data",
+      "sourceName": "Business Wire / VentureBeat",
+      "relatedSources": [
+        "Business Wire",
+        "VentureBeat",
+        "ZoomInfo"
+      ],
+      "lane": "news",
+      "publishedAt": "2026-06-02T01:15:00.000Z",
+      "importance": 150,
+      "sourceConfidence": "medium",
+      "summaryEngine": "chat-curated"
+    },
+    {
+      "id": "curated-fonoa-110m-ai-tax-operating-system-2026-06-01",
+      "title": "Fonoa raises $110M as AI tax automation joins the funding wave",
+      "summary": "Fortune's Term Sheet lists Fonoa, a Dublin AI tax operating system, raising a $110M Series C led by Headline.",
+      "fullSummary": "Fonoa is a smaller entry, but it adds useful breadth because AI is moving into tax infrastructure, not just code, sales, and content. Fortune's June 1 Term Sheet lists Fonoa as a Dublin-based AI tax operating system for global businesses that raised $110M in Series C funding. Headline led the round, with Eurazeo, Forestay Capital, and existing investors participating. Details in the Term Sheet blurb are limited, so confidence should stay medium and the story should not outrank better-sourced company announcements. Still, the amount is large enough to track because tax compliance is a high-friction, cross-border workflow where AI can matter if it improves classification, calculation, filing support, and auditability without creating regulatory exposure.",
+      "keyFacts": [
+        "Fonoa",
+        "June 1, 2026",
+        "$110M Series C",
+        "Dublin",
+        "AI tax operating system",
+        "Headline",
+        "Eurazeo",
+        "Forestay Capital",
+        "Fortune Term Sheet"
+      ],
+      "url": "https://fortune.com/2026/06/01/mecka-ai-series-a-60-million-robotics-data-training/",
+      "sourceName": "Fortune Term Sheet",
+      "relatedSources": [
+        "Fortune"
+      ],
+      "lane": "startups",
+      "publishedAt": "2026-06-01T11:00:00.000Z",
+      "importance": 143,
+      "sourceConfidence": "medium",
+      "summaryEngine": "chat-curated"
+    },
     {
       "id": "curated-anthropic-ipo-ai-spending-backlash-2026-06-02",
       "title": "Anthropic's IPO timing exposes AI's enterprise cost backlash",
