@@ -6,7 +6,7 @@
     <meta name="theme-color" content="#070a0f">
     <title>AI Brief</title>
     <link rel="manifest" href="/manifest.json">
-    <link rel="stylesheet" href="/styles.css?v=11">
+    <link rel="stylesheet" href="/styles.css?v=12">
   </head>
   <body>
     <main class="reader-shell">
@@ -20,6 +20,9 @@
           <button class="sort" type="button" data-sort="recency">Recent</button>
         </nav>
         <div class="top-actions">
+          <button id="filterButton" class="icon-action" type="button" aria-label="Filter stories" title="Filter stories" aria-expanded="false" aria-controls="filterMenu">
+            <span aria-hidden="true">&#9776;</span>
+          </button>
           <button id="refreshButton" class="icon-action" type="button" aria-label="Refresh stories" title="Refresh stories">
             <span aria-hidden="true">&#8635;</span>
           </button>
@@ -28,6 +31,15 @@
           </button>
         </div>
       </header>
+
+      <section id="filterMenu" class="filter-menu" aria-label="Story filters" hidden>
+        <button class="filter active" type="button" data-filter="all">All</button>
+        <button class="filter" type="button" data-filter="funding">Funding & deals</button>
+        <button class="filter" type="button" data-filter="models">Model releases</button>
+        <button class="filter" type="button" data-filter="papers">Papers</button>
+        <button class="filter" type="button" data-filter="pushback">AI pushbacks</button>
+        <button class="filter" type="button" data-filter="general">General</button>
+      </section>
 
       <section id="storyDeck" class="story-deck" aria-label="AI story reader"></section>
     </main>
@@ -106,6 +118,6 @@
       </section>
     </dialog>
 
-    <script src="/app.js?v=11" type="module"></script>
+    <script src="/app.js?v=12" type="module"></script>
   </body>
 </html>

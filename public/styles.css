@@ -147,6 +147,47 @@ a {
   cursor: progress;
 }
 
+.filter-menu {
+  position: fixed;
+  top: calc(max(14px, env(safe-area-inset-top)) + 50px);
+  left: 50%;
+  z-index: 11;
+  display: grid;
+  width: min(452px, calc(100% - 28px));
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 6px;
+  transform: translateX(-50%);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: rgba(7, 10, 15, 0.92);
+  padding: 8px;
+  box-shadow: 0 18px 42px rgba(0, 0, 0, 0.34);
+  backdrop-filter: blur(14px);
+}
+
+.filter-menu[hidden] {
+  display: none;
+}
+
+.filter {
+  min-height: 36px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.04);
+  color: var(--text);
+  padding: 0 10px;
+  font-size: 0.76rem;
+  font-weight: 850;
+  cursor: pointer;
+  text-align: center;
+}
+
+.filter.active {
+  border-color: var(--green);
+  background: var(--green);
+  color: var(--ink);
+}
+
 .story-deck {
   height: 100dvh;
   overflow-y: auto;
@@ -549,5 +590,15 @@ details p {
   .top-actions .icon-action {
     width: 34px;
     height: 34px;
+  }
+
+  .filter-menu {
+    top: calc(max(12px, env(safe-area-inset-top)) + 48px);
+    width: calc(100% - 20px);
+    grid-template-columns: 1fr;
+  }
+
+  .filter {
+    min-height: 34px;
   }
 }

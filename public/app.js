@@ -5,6 +5,7 @@ const RENDER_BATCH = 8;
 const state = {
   items: [],
   sort: "relevance",
+  filter: "all",
   renderedCount: INITIAL_RENDER_COUNT,
   activeIndex: 0,
   saved: new Set(),
@@ -51,6 +52,8 @@ const fallbackItems = [
 
 const storyDeck = document.querySelector("#storyDeck");
 const storyTemplate = document.querySelector("#storyTemplate");
+const filterButton = document.querySelector("#filterButton");
+const filterMenu = document.querySelector("#filterMenu");
 const refreshButton = document.querySelector("#refreshButton");
 const storyPosition = document.querySelector("#storyPosition");
 const commentDialog = document.querySelector("#commentDialog");
@@ -112,12 +115,60 @@ function laneLabel(lane) {
   }[lane] || "News";
 }
 
+function storySearchText(item) {
+  return [
+    item.title,
+    item.summary,
+    item.fullSummary,
+    item.sourceName,
+    item.lane,
+    ...(item.keyFacts || []),
+    ...(item.relatedSources || [])
+  ]
+    .filter(Boolean)
+    .join(" ")
+    .toLowerCase();
+}
+
+function storyFilterType(item) {
+  const text = storySearchText(item);
+
+  if (item.lane === "papers" || /\b(arxiv|paper|research paper|benchmark|dataset|evaluation|study)\b/.test(text)) {
+    return "papers";
+  }
+
+  if (
+    item.lane === "deals" ||
+    /\b(raised|raises|funding|funded|series [a-z]|seed round|venture|valuation|invested|investment|acquir(?:e|es|ed|ing)|acquisition|merger|m&a|ipo|initial public offering|public listing|going public)\b/.test(text)
+  ) {
+    return "funding";
+  }
+
+  if (
+    /\b(model release|released|launch(?:ed|es)?|unveil(?:ed|s)?|debut(?:ed|s)?|introduc(?:ed|es)|preview|open-weight|checkpoint|api)\b/.test(text) &&
+    /\b(model|gpt|claude|gemini|llama|mistral|deepseek|qwen|grok|command|holo|diffusion|embedding|reasoning|audio|video|image)\b/.test(text)
+  ) {
+    return "models";
+  }
+
+  if (/\b(pushback|backlash|lawsuit|sued|sues|ban|blocked|protest|opposition|criticism|criticized|copyright|privacy|safety|security risk|regulator|regulatory|warning|concern|moratorium|strike|layoff|job loss|energy|water|environmental)\b/.test(text)) {
+    return "pushback";
+  }
+
+  return "general";
+}
+
+function filteredItems() {
+  if (state.filter === "all") return [...state.items];
+  return state.items.filter((item) => storyFilterType(item) === state.filter);
+}
+
 function visibleItems() {
   return sortedItems().slice(0, state.renderedCount);
 }
 
 function sortedItems() {
-  const items = [...state.items];
+  const items = filteredItems();
   if (state.sort === "recency") {
     return items.sort((a, b) => new Date(b.publishedAt) - new Date(a.publishedAt));
   }
@@ -156,7 +207,8 @@ function buildStory(item) {
 function setPosition() {
   const total = sortedItems().length || visibleItems().length;
   const current = Math.min(state.activeIndex + 1, total || 1);
-  storyPosition.textContent = `Story ${current} of ${total || 1}`;
+  const prefix = state.filter === "all" ? "Story" : document.querySelector(`.filter[data-filter="${state.filter}"]`)?.dataset.label || "Story";
+  storyPosition.textContent = `${prefix} ${current} of ${total || 1}`;
 }
 
 function render() {
@@ -167,7 +219,7 @@ function render() {
   if (!items.length) {
     const empty = document.createElement("section");
     empty.className = "empty-state";
-    empty.textContent = "Loading AI stories...";
+    empty.textContent = state.items.length ? "No stories match this filter yet." : "Loading AI stories...";
     storyDeck.append(empty);
     setPosition();
     return;
@@ -321,7 +373,11 @@ function closeProfileDialog() {
 
 function jumpToStory(id) {
   const index = sortedItems().findIndex((item) => item.id === id);
-  if (index < 0) return;
+  if (index < 0) {
+    setFilter("all");
+    jumpToStory(id);
+    return;
+  }
   state.renderedCount = Math.max(state.renderedCount, index + 4);
   render();
   const target = storyDeck.querySelector(`[data-id="${CSS.escape(id)}"]`);
@@ -348,14 +404,64 @@ async function loadFeed(force = false) {
     if (!response.ok) throw new Error(`Feed returned ${response.status}`);
     const payload = await response.json();
     state.items = payload.items && payload.items.length ? payload.items : fallbackItems;
+    updateFilterCounts();
   } catch {
     state.items = fallbackItems;
+    updateFilterCounts();
   } finally {
     refreshButton.disabled = false;
     render();
   }
 }
 
+function setFilter(filter) {
+  state.filter = filter;
+  state.activeIndex = 0;
+  state.renderedCount = INITIAL_RENDER_COUNT;
+  document.querySelector(".filter.active")?.classList.remove("active");
+  document.querySelector(`.filter[data-filter="${filter}"]`)?.classList.add("active");
+  render();
+  storyDeck.scrollTo({ top: 0, behavior: "instant" });
+}
+
+function updateFilterCounts() {
+  const counts = state.items.reduce(
+    (totals, item) => {
+      totals.all += 1;
+      totals[storyFilterType(item)] += 1;
+      return totals;
+    },
+    { all: 0, funding: 0, models: 0, papers: 0, pushback: 0, general: 0 }
+  );
+
+  document.querySelectorAll(".filter").forEach((button) => {
+    const label = button.dataset.label || button.textContent.replace(/\s+\d+$/, "");
+    button.dataset.label = label;
+    button.textContent = `${label} ${counts[button.dataset.filter] || 0}`;
+  });
+}
+
+function toggleFilterMenu(forceOpen) {
+  const open = typeof forceOpen === "boolean" ? forceOpen : filterMenu.hidden;
+  filterMenu.hidden = !open;
+  filterButton.setAttribute("aria-expanded", String(open));
+}
+
+filterButton.addEventListener("click", () => toggleFilterMenu());
+document.addEventListener("click", (event) => {
+  if (filterMenu.hidden || filterMenu.contains(event.target) || filterButton.contains(event.target)) return;
+  toggleFilterMenu(false);
+});
+document.addEventListener("keydown", (event) => {
+  if (event.key === "Escape" && !filterMenu.hidden) toggleFilterMenu(false);
+});
+document.querySelectorAll(".filter").forEach((button) => {
+  button.dataset.label = button.textContent;
+  button.addEventListener("click", () => {
+    setFilter(button.dataset.filter);
+    toggleFilterMenu(false);
+  });
+});
 refreshButton.addEventListener("click", () => loadFeed(true));
 profileButton.addEventListener("click", openProfile);
 document.querySelectorAll(".sort").forEach((button) => {
