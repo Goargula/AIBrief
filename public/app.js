@@ -398,6 +398,29 @@ function jumpToStory(id) {
   if (target) target.scrollIntoView({ behavior: "smooth", block: "start" });
 }
 
+function isEditingTarget(target) {
+  const tagName = target?.tagName;
+  return target?.isContentEditable || tagName === "INPUT" || tagName === "TEXTAREA" || tagName === "SELECT";
+}
+
+function goToStoryOffset(offset) {
+  const items = sortedItems();
+  if (!items.length) return;
+
+  const nextIndex = Math.max(0, Math.min(items.length - 1, state.activeIndex + offset));
+  if (nextIndex === state.activeIndex) return;
+
+  state.activeIndex = nextIndex;
+  if (nextIndex >= state.renderedCount) {
+    state.renderedCount = Math.min(items.length, nextIndex + 4);
+    render();
+  }
+
+  const target = storyDeck.querySelector(`[data-index="${nextIndex}"]`);
+  if (target) target.scrollIntoView({ behavior: "smooth", block: "start" });
+  setPosition();
+}
+
 async function shareStory(item, button) {
   const text = `${item.title}\n\n${item.summary}\n\n${item.url}`;
   if (navigator.share) {
@@ -472,6 +495,16 @@ document.addEventListener("click", (event) => {
 });
 document.addEventListener("keydown", (event) => {
   if (event.key === "Escape" && filterMenu && !filterMenu.hidden) toggleFilterMenu(false);
+});
+document.addEventListener("keydown", (event) => {
+  if (isEditingTarget(event.target) || commentDialog.open || profileDialog.open) return;
+  if (event.key === "ArrowDown" || event.key === "ArrowRight") {
+    event.preventDefault();
+    goToStoryOffset(1);
+  } else if (event.key === "ArrowUp" || event.key === "ArrowLeft") {
+    event.preventDefault();
+    goToStoryOffset(-1);
+  }
 });
 document.querySelectorAll(".filter").forEach((button) => {
   button.dataset.label = button.textContent;
