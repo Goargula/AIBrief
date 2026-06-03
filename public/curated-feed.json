@@ -1,9 +1,239 @@
 {
-  "generatedAt": "2026-06-02T10:39:52.956Z",
-  "nextRefreshAt": "2026-06-02T13:39:52.956Z",
+  "generatedAt": "2026-06-03T07:33:19.345Z",
+  "nextRefreshAt": "2026-06-03T10:33:19.345Z",
   "summaryEngine": "chat-curated",
   "curated": true,
   "items": [
+    {
+      "id": "curated-trump-voluntary-frontier-ai-security-eo-2026-06-02",
+      "title": "White House narrows frontier-AI oversight into a voluntary security review",
+      "summary": "President Trump signed an AI and cybersecurity executive order that invites voluntary pre-release national-security reviews of advanced AI systems instead of imposing a licensing regime.",
+      "fullSummary": "The new White House order is the day's most important policy signal because it keeps federal frontier-AI oversight focused on security coordination rather than mandatory approval. AP reports that the order creates a framework for the government to vet national-security risks from the most advanced AI systems for up to 30 days before public release, with participation by AI developers described as voluntary. The White House text also directs national-security agencies to harden key systems, coordinate cyber defense, protect American intellectual property, and build AI-enabled national-security capabilities. Axios reports that stricter language was dropped after concerns that it could hurt U.S. competitiveness. The practical question is whether labs treat the framework as a serious procurement and trust signal even without formal licensing.",
+      "keyFacts": [
+        "June 2, 2026",
+        "President Donald Trump",
+        "voluntary AI developer participation",
+        "up to 30-day government review",
+        "national security risks",
+        "cybersecurity clearinghouse",
+        "Committee on National Security Systems",
+        "White House executive order",
+        "AP",
+        "Axios"
+      ],
+      "url": "https://apnews.com/article/e41af74f7b0865482f07d10fe7a50fe3",
+      "sourceName": "AP + White House + Axios",
+      "relatedSources": [
+        "AP",
+        "White House",
+        "Axios"
+      ],
+      "lane": "signal",
+      "publishedAt": "2026-06-02T17:00:52.000Z",
+      "importance": 198,
+      "sourceConfidence": "high",
+      "summaryEngine": "chat-curated"
+    },
+    {
+      "id": "curated-anthropic-expands-project-glasswing-150-orgs-2026-06-02",
+      "title": "Anthropic expands Project Glasswing after early partners find 10,000 severe flaws",
+      "summary": "Anthropic is widening Project Glasswing to about 150 additional organizations after initial Claude Mythos Preview users found more than 10,000 high- or critical-severity software vulnerabilities.",
+      "fullSummary": "Anthropic's Project Glasswing expansion turns model capability into a concrete security program. The company says the initial group of roughly 50 partners has been using Claude Mythos Preview to scan codebases and has found more than 10,000 high- or critical-severity flaws. Anthropic is now extending access to approximately 150 new organizations that must meet security requirements before using the model. The new group spans more than 15 countries and mostly includes organizations that support critical infrastructure. The announcement matters because it is not a generic model launch: it shows frontier cyber models being distributed through controlled partnerships, with measurable vulnerability-discovery output, while governments are simultaneously asking how to vet advanced AI cyber capabilities.",
+      "keyFacts": [
+        "June 2, 2026",
+        "Project Glasswing",
+        "Claude Mythos Preview",
+        "roughly 50 initial partners",
+        "more than 10,000 high- or critical-severity flaws",
+        "approximately 150 new organizations",
+        "more than 15 countries",
+        "critical infrastructure"
+      ],
+      "url": "https://www.anthropic.com/news/expanding-project-glasswing?subjects=societal-impacts%5D%2C%C2%A0OpenAI",
+      "sourceName": "Anthropic",
+      "relatedSources": [
+        "Anthropic"
+      ],
+      "lane": "news",
+      "publishedAt": "2026-06-02T16:30:00.000Z",
+      "importance": 193,
+      "sourceConfidence": "high",
+      "summaryEngine": "chat-curated"
+    },
+    {
+      "id": "curated-zerodrift-10m-ai-compliance-firewall-2026-06-02",
+      "title": "ZeroDrift raises $10M to sit between enterprise AI models and risky outputs",
+      "summary": "ZeroDrift raised a $10 million seed round for a compliance layer that screens and replaces problematic AI messages before they reach users.",
+      "fullSummary": "ZeroDrift is a small funding story, but it captures a practical enterprise-AI problem: companies are deploying models faster than they can govern the messages those models produce. TechCrunch reports that the New York startup raised $10 million in seed funding from investors including a16z Speedrun, Reign Ventures, Pitchdrive, and U&I Ventures. ZeroDrift's product sits between a model and end users, flagging and replacing messages that could create compliance exposure. The company's own release frames the product as a compliance firewall for AI and points to financial-services recordkeeping penalties as the kind of risk it wants to reduce. The story belongs in the feed because model governance is becoming a product category, not just a policy memo.",
+      "keyFacts": [
+        "June 2, 2026",
+        "$10 million seed round",
+        "ZeroDrift",
+        "AI compliance firewall",
+        "a16z Speedrun",
+        "Reign Ventures",
+        "Pitchdrive",
+        "U&I Ventures",
+        "enterprise AI governance"
+      ],
+      "url": "https://techcrunch.com/2026/06/02/zerodrift-raises-10-million-to-protect-ai-models-from-themselves/",
+      "sourceName": "TechCrunch + GlobeNewswire",
+      "relatedSources": [
+        "TechCrunch",
+        "GlobeNewswire"
+      ],
+      "lane": "startups",
+      "publishedAt": "2026-06-02T12:32:00.000Z",
+      "importance": 184,
+      "sourceConfidence": "high",
+      "summaryEngine": "chat-curated"
+    },
+    {
+      "id": "curated-hcompany-holo31-local-computer-use-agents-2026-06-02",
+      "title": "H Company releases Holo3.1 with local-ready computer-use agent checkpoints",
+      "summary": "H Company published Holo3.1 on Hugging Face, adding quantized FP8, Q4 GGUF, and NVFP4 checkpoints for faster and cheaper computer-use agents.",
+      "fullSummary": "Holo3.1 is a useful smaller-model release because it targets one of the most operational AI categories: agents that can operate software interfaces. H Company says the update builds on its Holo3 computer-use model and emphasizes mobile automation, cross-harness performance, smaller cost-performance tradeoffs, and local deployment. The notable detail is the release of quantized checkpoints optimized for local inference, including FP8, Q4 GGUF, and NVFP4. That makes the story less about a benchmark headline and more about the distribution path for practical agents: if computer-use models can run locally or cheaply, more developers can test them inside controlled workflows instead of only through hosted frontier APIs.",
+      "keyFacts": [
+        "June 2, 2026",
+        "Holo3.1",
+        "H Company",
+        "computer-use agents",
+        "Hugging Face",
+        "FP8",
+        "Q4 GGUF",
+        "NVFP4",
+        "mobile automation",
+        "local inference"
+      ],
+      "url": "https://huggingface.co/blog/Hcompany/holo31",
+      "sourceName": "Hugging Face / H Company",
+      "relatedSources": [
+        "Hugging Face",
+        "H Company"
+      ],
+      "lane": "news",
+      "publishedAt": "2026-06-02T12:00:00.000Z",
+      "importance": 181,
+      "sourceConfidence": "high",
+      "summaryEngine": "chat-curated"
+    },
+    {
+      "id": "curated-intel-computex-rackscale-crescent-island-ai-inference-2026-06-02",
+      "title": "Intel uses Computex to pitch an inference stack from Xeon racks to Crescent Island GPUs",
+      "summary": "Intel announced rackscale AI infrastructure with SambaNova and Foxconn while giving more detail on its Crescent Island AI GPU, including memory-heavy designs aimed at inference.",
+      "fullSummary": "Intel's Computex push is a chip-and-systems story rather than a single product announcement. The company announced rackscale AI infrastructure for inference and agentic workloads using Intel Xeon processors and SambaNova SN-50 RDUs, with Foxconn named in the planned infrastructure effort. It also promoted Xeon 6+ processors and an agentic cloud offering. Separately, Tom's Hardware reports that Intel detailed Crescent Island, a Xe3P inference accelerator card with a 350W power target, a 160GB LPDDR5X reference design, and partner flexibility for up to 480GB of memory. The strategic point is clear: Intel is avoiding a head-on training-GPU fight and trying to compete where memory capacity, CPU orchestration, power per rack, and predictable inference latency matter.",
+      "keyFacts": [
+        "June 2, 2026",
+        "Computex 2026",
+        "Intel",
+        "SambaNova SN-50 RDUs",
+        "Foxconn",
+        "Xeon 6+",
+        "Crescent Island",
+        "Xe3P",
+        "160GB LPDDR5X reference design",
+        "up to 480GB LPDDR5X",
+        "350W power target"
+      ],
+      "url": "https://www.marketscreener.com/news/intel-corporation-unveils-new-ai-innovations-including-rackscale-ai-infrastructure-agentic-cloud-of-ce7f5dd9d088f42d",
+      "sourceName": "Intel / MarketScreener + Tom's Hardware",
+      "relatedSources": [
+        "Intel",
+        "MarketScreener",
+        "Tom's Hardware"
+      ],
+      "lane": "news",
+      "publishedAt": "2026-06-02T11:30:00.000Z",
+      "importance": 189,
+      "sourceConfidence": "medium",
+      "summaryEngine": "chat-curated"
+    },
+    {
+      "id": "curated-clinenv-longitudinal-inpatient-agent-benchmark-2026-06-02",
+      "title": "ClinEnv benchmarks LLM agents as attending physicians over full inpatient stays",
+      "summary": "A new ClinEnv paper proposes a long-horizon EHR benchmark where LLM agents act as attending physicians across simulated real inpatient admissions.",
+      "fullSummary": "ClinEnv is a research story with practical healthcare implications because it moves evaluation beyond one-shot medical questions. The paper, submitted June 2, presents an interactive benchmark for LLMs acting as attending physicians over real inpatient admissions, a setup the authors call Longitudinal Inpatient Simulation. Instead of asking whether a model can answer isolated exam-style prompts, ClinEnv tests whether an agent can reason over evolving electronic health record information across multiple stages of care. The work should be treated as a benchmark, not proof that models are ready to run clinical care. Still, it matters because healthcare AI evaluation is shifting toward workflow realism, where memory, sequencing, tool use, and changing patient context are part of the task.",
+      "keyFacts": [
+        "June 2, 2026",
+        "ClinEnv",
+        "interactive benchmark",
+        "LLM agents",
+        "attending physicians",
+        "real inpatient admissions",
+        "Longitudinal Inpatient Simulation",
+        "electronic health records",
+        "cs.AI",
+        "cs.CL"
+      ],
+      "url": "https://chatpaper.com/paper/289476",
+      "sourceName": "ChatPaper / arXiv",
+      "relatedSources": [
+        "ChatPaper",
+        "arXiv"
+      ],
+      "lane": "papers",
+      "publishedAt": "2026-06-02T09:45:00.000Z",
+      "importance": 176,
+      "sourceConfidence": "medium",
+      "summaryEngine": "chat-curated"
+    },
+    {
+      "id": "curated-nvidia-unitree-sharpa-physical-ai-reference-design-2026-06-01",
+      "title": "Nvidia, Unitree, and Sharpa pitch a physical-AI reference design for humanoids",
+      "summary": "Nvidia is working with Unitree and Sharpa on a humanoid reference design that packages data, robot hardware, and five-fingered hands for real-world deployment.",
+      "fullSummary": "This physical-AI story complements the existing feed's model and chip coverage by showing how Nvidia is trying to shape robotics infrastructure. TechRadar, citing Computex coverage, reports that Nvidia, Unitree, and Sharpa are forming a partnership around a humanoid reference design called H2+ or Isaac GR00T. Unitree contributes the H2 humanoid robot, Sharpa contributes five-fingered robotic hands, and Nvidia's role centers on the AI data and platform needed for robots to reason and act in the physical world. Jensen Huang framed data as the hardest problem for agentic and robotic systems. The story is worth tracking because robotics may become the next demand driver for simulation data, edge inference, and vertically integrated AI stacks.",
+      "keyFacts": [
+        "June 1, 2026",
+        "Computex 2026",
+        "Nvidia",
+        "Unitree",
+        "Sharpa",
+        "H2+",
+        "Isaac GR00T",
+        "Unitree H2 humanoid",
+        "five-fingered robotic hands",
+        "physical AI"
+      ],
+      "url": "https://www.techradar.com/ai-platforms-assistants/robots-that-can-perform-real-work-nvidia-unitree-and-sharpa-are-forming-a-super-group-to-make-the-most-capable-humanoid-robots-yet-with-jensen-huang-promising-a-meaningful-step-towards-frighteningly-capable-robots",
+      "sourceName": "TechRadar",
+      "relatedSources": [
+        "TechRadar",
+        "South China Morning Post"
+      ],
+      "lane": "news",
+      "publishedAt": "2026-06-01T11:58:03.000Z",
+      "importance": 168,
+      "sourceConfidence": "medium",
+      "summaryEngine": "chat-curated"
+    },
+    {
+      "id": "curated-bmw-aeon-humanoid-robots-german-production-2026-05-29",
+      "title": "BMW's AEON humanoid pilot keeps physical AI in the factory spotlight",
+      "summary": "BMW is preparing to use Hexagon's AEON humanoid robots in German production, a practical signal that physical AI pilots are moving from demos toward factory-floor trials.",
+      "fullSummary": "BMW's humanoid-robot pilot is not as fresh as the June 2 policy and model stories, but it fills an important practical-applications lane. Auto Express reports that BMW plans to pilot AEON humanoid robots from Hexagon in Germany this summer, calling the bots part of the future of car production. A BMW press attachment says the company is deploying humanoid robots in production in Germany for the first time, after earlier humanoid trials at Plant Spartanburg. The cautious read is that this is still a pilot, not proof that humanoids beat specialized industrial robots. The reason to track it is that automotive factories are becoming a real test bed for physical AI, imitation learning, and flexible automation in human-designed workspaces.",
+      "keyFacts": [
+        "May 29, 2026",
+        "BMW",
+        "Hexagon Robotics",
+        "AEON humanoid robot",
+        "Germany production pilot",
+        "summer 2026",
+        "Plant Spartanburg prior trials",
+        "physical AI",
+        "automotive manufacturing"
+      ],
+      "url": "https://www.autoexpress.co.uk/bmw/369694/bmw-employs-humanoid-robots-build-evs-and-hybrids",
+      "sourceName": "Auto Express + BMW Group",
+      "relatedSources": [
+        "Auto Express",
+        "BMW Group"
+      ],
+      "lane": "news",
+      "publishedAt": "2026-05-29T12:00:00.000Z",
+      "importance": 158,
+      "sourceConfidence": "medium",
+      "summaryEngine": "chat-curated"
+    },
     {
       "id": "curated-spacex-xai-water-ai-data-center-risk-2026-06-01",
       "title": "SpaceX warns investors that AI data centers make water access an IPO risk",
