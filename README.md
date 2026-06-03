@@ -14,6 +14,17 @@ Then open:
 http://localhost:4173
 ```
 
+## Firebase Hosting
+
+The app can be deployed as a static Firebase Hosting site because `public/app.js`
+falls back to `public/curated-feed.json` when the local Node `/api/feed` route is
+not available. The current Firebase Hosting config deploys the `public/` folder
+to:
+
+```text
+https://ai-brief-arsh-20260604.web.app
+```
+
 ## Refresh behavior
 
 The local server reloads sources every 3 hours by default. Change it with:

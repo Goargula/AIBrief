@@ -437,9 +437,7 @@ async function shareStory(item, button) {
 async function loadFeed(force = false) {
   refreshButton.disabled = true;
   try {
-    const response = await fetch(`/api/feed${force ? "?refresh=1" : ""}`, { cache: "no-store" });
-    if (!response.ok) throw new Error(`Feed returned ${response.status}`);
-    const payload = await response.json();
+    const payload = await fetchFeed(force);
     state.items = payload.items && payload.items.length ? payload.items : fallbackItems;
     updateFilterCounts();
   } catch {
@@ -449,6 +447,18 @@ async function loadFeed(force = false) {
     refreshButton.disabled = false;
     render();
   }
+}
+
+async function fetchFeed(force) {
+  const apiResponse = await fetch(`/api/feed${force ? "?refresh=1" : ""}`, { cache: "no-store" });
+  if (apiResponse.ok && apiResponse.headers.get("content-type")?.includes("application/json")) {
+    return apiResponse.json();
+  }
+
+  const staticResponse = await fetch(`/curated-feed.json?t=${Date.now()}`, { cache: "no-store" });
+  if (staticResponse.ok) return staticResponse.json();
+
+  throw new Error(`Feed returned ${apiResponse.status}; static feed returned ${staticResponse.status}`);
 }
 
 function setFilter(filter) {
