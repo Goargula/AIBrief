@@ -2,9 +2,6 @@ const STORAGE_KEY = "ai-brief-state-v2";
 const INITIAL_RENDER_COUNT = 10;
 const RENDER_BATCH = 8;
 const FILTER_CATEGORIES = new Set(["funding", "models", "papers", "pushback", "general"]);
-const FIREBASE_PROJECT_ID = "test-e667e";
-const FIREBASE_API_KEY = "AIzaSyB1vSepYXq7QFnj0Lp2-54W2d1Rb6x3yoQ";
-const FIRESTORE_FEED_URL = `https://firestore.googleapis.com/v1/projects/${FIREBASE_PROJECT_ID}/databases/(default)/documents/feeds/current?key=${FIREBASE_API_KEY}`;
 const VISUAL_COLORS = {
   papers: "#f0b84a",
   startups: "#3bd671",
@@ -503,9 +500,6 @@ async function loadFeed(force = false) {
 }
 
 async function fetchFeed(force) {
-  const backendPayload = await fetchFirestoreFeed();
-  if (backendPayload) return backendPayload;
-
   const apiResponse = await fetch(`/api/feed${force ? "?refresh=1" : ""}`, { cache: "no-store" });
   if (apiResponse.ok && apiResponse.headers.get("content-type")?.includes("application/json")) {
     return apiResponse.json();
@@ -515,22 +509,6 @@ async function fetchFeed(force) {
   if (staticResponse.ok) return staticResponse.json();
 
   throw new Error(`Feed returned ${apiResponse.status}; static feed returned ${staticResponse.status}`);
-}
-
-async function fetchFirestoreFeed() {
-  try {
-    const response = await fetch(`${FIRESTORE_FEED_URL}&t=${Date.now()}`, { cache: "no-store" });
-    if (!response.ok) return null;
-
-    const document = await response.json();
-    const payload = document.fields?.payload?.stringValue;
-    if (!payload) return null;
-
-    const parsed = JSON.parse(payload);
-    return parsed.items && parsed.items.length ? parsed : null;
-  } catch {
-    return null;
-  }
 }
 
 function setFilter(filter) {

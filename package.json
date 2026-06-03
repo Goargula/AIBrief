@@ -6,7 +6,6 @@
   "type": "module",
   "scripts": {
     "start": "node server.js",
-    "dev": "node server.js",
-    "publish:feed": "node scripts/upload-feed-to-firestore.mjs"
+    "dev": "node server.js"
   }
 }
