@@ -2,6 +2,13 @@ const STORAGE_KEY = "ai-brief-state-v2";
 const INITIAL_RENDER_COUNT = 10;
 const RENDER_BATCH = 8;
 const FILTER_CATEGORIES = new Set(["funding", "models", "papers", "pushback", "general"]);
+const VISUAL_COLORS = {
+  papers: "#f0b84a",
+  startups: "#3bd671",
+  deals: "#ff6b6b",
+  signal: "#65a7ff",
+  news: "#65a7ff"
+};
 
 const state = {
   items: [],
@@ -117,6 +124,49 @@ function laneLabel(lane) {
     deals: "Deal",
     signal: "Signal"
   }[lane] || "News";
+}
+
+function escapeSvgText(value) {
+  return String(value || "")
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;");
+}
+
+function wrapVisualTitle(title) {
+  const words = String(title || "AI Brief").split(/\s+/).filter(Boolean);
+  const lines = [];
+  let line = "";
+
+  words.forEach((word) => {
+    const next = line ? `${line} ${word}` : word;
+    if (next.length > 22 && line) {
+      lines.push(line);
+      line = word;
+      return;
+    }
+    line = next;
+  });
+
+  if (line) lines.push(line);
+  return (lines.length ? lines : ["AI Brief"]).slice(0, 4);
+}
+
+function generatedVisualUrl(lane, title) {
+  const safeLane = String(lane || "news").toLowerCase();
+  const color = VISUAL_COLORS[safeLane] || VISUAL_COLORS.news;
+  const lines = wrapVisualTitle(title);
+  const titleSvg = lines
+    .map((line, index) => `<tspan x="72" dy="${index === 0 ? 0 : 68}">${escapeSvgText(line)}</tspan>`)
+    .join("");
+  const svg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1200"><rect width="900" height="1200" fill="#0d1117"/><rect width="900" height="1200" fill="${color}" opacity="0.18"/><circle cx="760" cy="180" r="260" fill="${color}" opacity="0.28"/><circle cx="110" cy="1040" r="310" fill="${color}" opacity="0.18"/><text x="72" y="144" fill="${color}" font-family="Arial, sans-serif" font-size="36" font-weight="700">${escapeSvgText(safeLane.toUpperCase())}</text><text x="72" y="820" fill="#f5f7fa" font-family="Arial, sans-serif" font-size="58" font-weight="800">${titleSvg}</text></svg>`;
+  return `data:image/svg+xml;charset=UTF-8,${encodeURIComponent(svg)}`;
+}
+
+function storyVisualUrl(item) {
+  if (item.imageUrl && !item.imageUrl.startsWith("/visual.svg")) return item.imageUrl;
+  return generatedVisualUrl(item.lane, item.title);
 }
 
 function storySearchText(item) {
@@ -267,7 +317,7 @@ function createStoryCard(item, index) {
 
   card.dataset.index = String(index);
   card.dataset.id = item.id;
-  image.src = item.imageUrl || `/visual.svg?lane=${encodeURIComponent(item.lane)}&title=${encodeURIComponent(item.title)}`;
+  image.src = storyVisualUrl(item);
   image.alt = "";
   lane.textContent = laneLabel(item.lane);
   lane.classList.add(item.lane);
