@@ -22,11 +22,11 @@ not available. The current Firebase Hosting config deploys the `public/` folder
 to:
 
 ```text
-https://ai-brief-arsh-20260604.web.app
+https://goargulaainews.web.app
 ```
 
 The Firebase project is `test-e667e`, and the Hosting site is
-`ai-brief-arsh-20260604`.
+`goargulaainews`.
 
 ## Refresh behavior
 

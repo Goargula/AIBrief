@@ -125,14 +125,14 @@ $payload.items | Group-Object filterCategory | Sort-Object Count -Descending | S
 Firebase Hosting uploads only changed files, so a normal feed refresh mostly uploads `public/curated-feed.json`, not a full application package. The public URL is:
 
 ```text
-https://ai-brief-arsh-20260604.web.app
+https://goargulaainews.web.app
 ```
 
 13. Verify the public deployment:
 
 ```powershell
-Invoke-WebRequest -UseBasicParsing 'https://ai-brief-arsh-20260604.web.app' -TimeoutSec 20
-Invoke-WebRequest -UseBasicParsing 'https://ai-brief-arsh-20260604.web.app/curated-feed.json' -TimeoutSec 20
+Invoke-WebRequest -UseBasicParsing 'https://goargulaainews.web.app' -TimeoutSec 20
+Invoke-WebRequest -UseBasicParsing 'https://goargulaainews.web.app/curated-feed.json' -TimeoutSec 20
 ```
 
 Then check the live browser if available. Confirm the visible app still shows real stories, not sample fallback data.
