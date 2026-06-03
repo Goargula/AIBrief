@@ -425,6 +425,9 @@ function setFilter(filter) {
 }
 
 function updateFilterCounts() {
+  const filterButtons = document.querySelectorAll(".filter");
+  if (!filterButtons.length) return;
+
   const counts = state.items.reduce(
     (totals, item) => {
       totals.all += 1;
@@ -434,7 +437,7 @@ function updateFilterCounts() {
     { all: 0, funding: 0, models: 0, papers: 0, pushback: 0, general: 0 }
   );
 
-  document.querySelectorAll(".filter").forEach((button) => {
+  filterButtons.forEach((button) => {
     const label = button.dataset.label || button.textContent.replace(/\s+\d+$/, "");
     button.dataset.label = label;
     button.textContent = `${label} ${counts[button.dataset.filter] || 0}`;
@@ -442,18 +445,19 @@ function updateFilterCounts() {
 }
 
 function toggleFilterMenu(forceOpen) {
+  if (!filterButton || !filterMenu) return;
   const open = typeof forceOpen === "boolean" ? forceOpen : filterMenu.hidden;
   filterMenu.hidden = !open;
   filterButton.setAttribute("aria-expanded", String(open));
 }
 
-filterButton.addEventListener("click", () => toggleFilterMenu());
+filterButton?.addEventListener("click", () => toggleFilterMenu());
 document.addEventListener("click", (event) => {
-  if (filterMenu.hidden || filterMenu.contains(event.target) || filterButton.contains(event.target)) return;
+  if (!filterButton || !filterMenu || filterMenu.hidden || filterMenu.contains(event.target) || filterButton.contains(event.target)) return;
   toggleFilterMenu(false);
 });
 document.addEventListener("keydown", (event) => {
-  if (event.key === "Escape" && !filterMenu.hidden) toggleFilterMenu(false);
+  if (event.key === "Escape" && filterMenu && !filterMenu.hidden) toggleFilterMenu(false);
 });
 document.querySelectorAll(".filter").forEach((button) => {
   button.dataset.label = button.textContent;
