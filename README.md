@@ -17,13 +17,34 @@ http://localhost:4173
 ## Firebase Hosting
 
 The app can be deployed as a static Firebase Hosting site because `public/app.js`
-falls back to `public/curated-feed.json` when the local Node `/api/feed` route is
-not available. The current Firebase Hosting config deploys the `public/` folder
+reads the current feed from Firebase first, then falls back to the local Node
+`/api/feed` route and finally `public/curated-feed.json` if Firestore is not
+available. The current Firebase Hosting config deploys the `public/` folder
 to:
 
 ```text
 https://ai-brief-arsh-20260604.web.app
 ```
+
+The Firebase project is `test-e667e`, and the Hosting site is
+`ai-brief-arsh-20260604`.
+
+## Backend feed updates
+
+The intended hosted feed source is Firestore document `feeds/current`, where the
+`payload` field contains the JSON feed. Updating that document changes what the
+hosted app reads without redeploying Firebase Hosting.
+
+After changing `public/curated-feed.json`, publish it to Firestore with:
+
+```powershell
+$env:GOOGLE_ACCESS_TOKEN="<google-oauth-access-token>"
+npm run publish:feed
+```
+
+Firestore must be enabled on the Firebase project before the first upload. The
+rules in `firestore.rules` allow public reads of `feeds/current` and deny public
+writes.
 
 ## Refresh behavior
 
