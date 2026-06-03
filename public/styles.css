@@ -338,6 +338,68 @@ details p {
   color: var(--muted);
 }
 
+.comments-block {
+  display: grid;
+  gap: 8px;
+  margin-top: 12px;
+  border-top: 1px solid var(--line);
+  padding-top: 10px;
+}
+
+.comments-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  color: var(--text);
+  font-size: 0.85rem;
+}
+
+.comments-count {
+  color: var(--muted);
+  font-size: 0.75rem;
+  font-weight: 800;
+}
+
+.comments-list {
+  display: grid;
+  gap: 8px;
+}
+
+.comment-item {
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  border-radius: 8px;
+  background: rgba(7, 10, 15, 0.52);
+  padding: 9px;
+}
+
+.comment-item header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: var(--muted);
+  font-size: 0.74rem;
+  font-weight: 800;
+}
+
+.comment-item strong {
+  color: var(--text);
+}
+
+.comment-item p {
+  margin-top: 6px;
+  color: #e8edf3;
+  font-size: 0.88rem;
+  line-height: 1.42;
+  overflow-wrap: anywhere;
+}
+
+.comments-empty {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.82rem;
+}
+
 .story-actions {
   display: grid;
   grid-template-columns: repeat(4, minmax(0, 1fr));
@@ -400,10 +462,25 @@ details p {
   font-size: 1.1rem;
 }
 
+.comment-sheet label {
+  display: grid;
+  gap: 6px;
+  margin-top: 12px;
+  color: var(--muted);
+  font-size: 0.78rem;
+  font-weight: 800;
+}
+
+.dialog-note {
+  margin: -4px 0 0;
+  color: var(--muted);
+  font-size: 0.84rem;
+  line-height: 1.4;
+}
+
+.comment-sheet input,
 .comment-sheet textarea {
   width: 100%;
-  min-height: 150px;
-  resize: vertical;
   border: 1px solid var(--line);
   border-radius: 8px;
   background: #070a0f;
@@ -413,8 +490,14 @@ details p {
   line-height: 1.45;
 }
 
+.comment-sheet textarea {
+  min-height: 150px;
+  resize: vertical;
+}
+
 .comment-sheet div {
   display: flex;
+  gap: 8px;
   justify-content: flex-end;
   margin-top: 12px;
 }
@@ -425,12 +508,56 @@ details p {
   color: var(--ink);
 }
 
+.comment-sheet #cancelComment {
+  background: transparent;
+  color: var(--text);
+}
+
 .profile-sheet header {
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
   gap: 12px;
   margin-bottom: 14px;
+}
+
+.profile-auth {
+  display: grid;
+  gap: 10px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: rgba(7, 10, 15, 0.48);
+  padding: 12px;
+  margin-bottom: 12px;
+}
+
+.profile-auth p {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.84rem;
+  line-height: 1.42;
+}
+
+.profile-auth div {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.profile-auth button {
+  min-height: 36px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--text);
+  color: var(--ink);
+  padding: 0 12px;
+  font-weight: 850;
+  cursor: pointer;
+}
+
+.profile-auth #signOutButton {
+  background: transparent;
+  color: var(--text);
 }
 
 .profile-sheet header p {
@@ -536,6 +663,27 @@ details p {
 
 .profile-note {
   margin-top: 12px;
+}
+
+.toast {
+  position: fixed;
+  left: 50%;
+  bottom: max(18px, env(safe-area-inset-bottom));
+  z-index: 20;
+  width: min(420px, calc(100% - 28px));
+  transform: translateX(-50%);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: rgba(17, 24, 33, 0.96);
+  color: var(--text);
+  padding: 12px 14px;
+  box-shadow: 0 16px 42px rgba(0, 0, 0, 0.4);
+  font-size: 0.9rem;
+  line-height: 1.35;
+}
+
+.toast[hidden] {
+  display: none;
 }
 
 @media (min-width: 760px) {

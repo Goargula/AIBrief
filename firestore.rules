@@ -1,0 +1,73 @@
+rules_version = '2';
+
+service cloud.firestore {
+  match /databases/{database}/documents {
+    function signedIn() {
+      return request.auth != null;
+    }
+
+    function isString(value, min, max) {
+      return value is string && value.size() >= min && value.size() <= max;
+    }
+
+    function validCommentCreate(storyId) {
+      return signedIn()
+        && request.resource.data.keys().hasOnly([
+          'storyId',
+          'body',
+          'displayName',
+          'authorType',
+          'authorUid',
+          'createdAt',
+          'status'
+        ])
+        && request.resource.data.storyId == storyId
+        && isString(request.resource.data.body, 1, 1000)
+        && isString(request.resource.data.displayName, 1, 40)
+        && request.resource.data.authorType in ['guest', 'google']
+        && request.resource.data.authorUid == request.auth.uid
+        && request.resource.data.status == 'active'
+        && request.resource.data.createdAt == request.time;
+    }
+
+    function validSave(storyId) {
+      return signedIn()
+        && request.resource.data.keys().hasOnly([
+          'storyId',
+          'savedAt',
+          'title',
+          'summary',
+          'sourceName',
+          'url',
+          'publishedAt',
+          'lane',
+          'filterCategory'
+        ])
+        && request.resource.data.storyId == storyId
+        && request.resource.data.savedAt == request.time
+        && isString(request.resource.data.title, 1, 240)
+        && isString(request.resource.data.summary, 0, 500)
+        && isString(request.resource.data.sourceName, 0, 120)
+        && isString(request.resource.data.url, 0, 1000)
+        && isString(request.resource.data.publishedAt, 0, 80)
+        && isString(request.resource.data.lane, 1, 40)
+        && request.resource.data.filterCategory in ['funding', 'models', 'papers', 'pushback', 'general'];
+    }
+
+    match /storyComments/{storyId}/comments/{commentId} {
+      allow read: if resource.data.status == 'active';
+      allow create: if validCommentCreate(storyId);
+      allow update, delete: if false;
+    }
+
+    match /userSaves/{uid}/stories/{storyId} {
+      allow read: if signedIn() && request.auth.uid == uid;
+      allow create, update: if signedIn() && request.auth.uid == uid && validSave(storyId);
+      allow delete: if signedIn() && request.auth.uid == uid;
+    }
+
+    match /{document=**} {
+      allow read, write: if false;
+    }
+  }
+}

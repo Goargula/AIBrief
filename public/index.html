@@ -4,9 +4,10 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#070a0f">
+    <meta name="firebase-app-check-site-key" content="">
     <title>AI Brief</title>
     <link rel="manifest" href="/manifest.json">
-    <link rel="stylesheet" href="/styles.css?v=19">
+    <link rel="stylesheet" href="/styles.css?v=20">
   </head>
   <body>
     <main class="reader-shell">
@@ -62,6 +63,13 @@
             <p class="facts"></p>
             <p class="coverage"></p>
             <p class="watch"></p>
+            <section class="comments-block">
+              <div class="comments-header">
+                <strong>Comments</strong>
+                <span class="comments-count">Loading</span>
+              </div>
+              <div class="comments-list"></div>
+            </section>
           </details>
           <div class="story-actions">
             <button class="save" type="button">Save</button>
@@ -74,11 +82,20 @@
     </template>
 
     <dialog id="commentDialog" class="comment-dialog">
-      <form method="dialog" class="comment-sheet">
-        <h2>Private comment</h2>
-        <textarea id="commentText" rows="6" placeholder="Add your thought on this story..."></textarea>
+      <form id="commentForm" method="dialog" class="comment-sheet">
+        <h2>Public comment</h2>
+        <p class="dialog-note">Comments are visible to everyone. Use a display name or leave it blank for Anonymous.</p>
+        <label>
+          Display name
+          <input id="commentName" maxlength="40" placeholder="Optional">
+        </label>
+        <label>
+          Comment
+          <textarea id="commentText" rows="6" maxlength="1000" placeholder="Add your thought on this story..."></textarea>
+        </label>
         <div>
-          <button id="closeComment" value="cancel" type="submit">Done</button>
+          <button id="cancelComment" value="cancel" type="button">Cancel</button>
+          <button id="submitComment" value="default" type="submit">Post</button>
         </div>
       </form>
     </dialog>
@@ -92,6 +109,13 @@
           </div>
           <button id="closeProfile" type="button" aria-label="Close profile">Close</button>
         </header>
+        <div class="profile-auth">
+          <p id="authStatus">Saves are local on this device.</p>
+          <div>
+            <button id="signInButton" type="button">Sign in with Google</button>
+            <button id="signOutButton" type="button" hidden>Sign out</button>
+          </div>
+        </div>
         <div class="profile-stats">
           <div>
             <span id="savedCount">0</span>
@@ -111,13 +135,20 @@
           <div id="savedList" class="profile-list"></div>
         </div>
         <div class="profile-panel">
-          <h3>Commented stories</h3>
+          <h3>Your commented stories</h3>
           <div id="commentedList" class="profile-list"></div>
         </div>
-        <p class="profile-note">No login needed to read. A profile makes saved stories, comments, and personalisation available across sessions on this device.</p>
+        <p class="profile-note">Unsigned saves stay on this device. Sign in with Google to sync saved stories across devices.</p>
       </section>
     </dialog>
 
-    <script src="/app.js?v=19" type="module"></script>
+    <div id="toast" class="toast" role="status" aria-live="polite" hidden></div>
+
+    <script defer src="/__/firebase/10.12.4/firebase-app-compat.js"></script>
+    <script defer src="/__/firebase/10.12.4/firebase-auth-compat.js"></script>
+    <script defer src="/__/firebase/10.12.4/firebase-firestore-compat.js"></script>
+    <script defer src="/__/firebase/10.12.4/firebase-app-check-compat.js"></script>
+    <script defer src="/__/firebase/init.js"></script>
+    <script src="/app.js?v=20" type="module"></script>
   </body>
 </html>
