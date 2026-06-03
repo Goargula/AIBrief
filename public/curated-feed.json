@@ -33,7 +33,8 @@
       "publishedAt": "2026-06-03T00:30:00.000Z",
       "importance": 184,
       "sourceConfidence": "medium",
-      "summaryEngine": "chat-curated"
+      "summaryEngine": "chat-curated",
+      "filterCategory": "general"
     },
     {
       "id": "curated-in2ition-iris-always-on-ai-meeting-companion-2026-06-02",
@@ -61,7 +62,8 @@
       "publishedAt": "2026-06-02T20:29:00.000Z",
       "importance": 156,
       "sourceConfidence": "medium",
-      "summaryEngine": "chat-curated"
+      "summaryEngine": "chat-curated",
+      "filterCategory": "general"
     },
     {
       "id": "curated-rubrik-claude-mythos-glasswing-cyber-resilience-2026-06-02",
@@ -89,7 +91,8 @@
       "publishedAt": "2026-06-02T18:46:00.000Z",
       "importance": 176,
       "sourceConfidence": "medium",
-      "summaryEngine": "chat-curated"
+      "summaryEngine": "chat-curated",
+      "filterCategory": "models"
     },
     {
       "id": "curated-cisco-agentic-platform-critical-it-infrastructure-2026-06-02",
@@ -116,7 +119,8 @@
       "publishedAt": "2026-06-02T18:00:00.000Z",
       "importance": 186,
       "sourceConfidence": "medium",
-      "summaryEngine": "chat-curated"
+      "summaryEngine": "chat-curated",
+      "filterCategory": "general"
     },
     {
       "id": "curated-mayo-microsoft-frontier-ai-healthcare-model-2026-06-02",
@@ -143,7 +147,8 @@
       "publishedAt": "2026-06-02T17:30:00.000Z",
       "importance": 191,
       "sourceConfidence": "high",
-      "summaryEngine": "chat-curated"
+      "summaryEngine": "chat-curated",
+      "filterCategory": "general"
     },
     {
       "id": "curated-first-foundation-labs-microsoft-discovery-life-sciences-ai-2026-06-02",
@@ -172,7 +177,8 @@
       "publishedAt": "2026-06-02T17:20:00.000Z",
       "importance": 169,
       "sourceConfidence": "medium",
-      "summaryEngine": "chat-curated"
+      "summaryEngine": "chat-curated",
+      "filterCategory": "general"
     },
     {
       "id": "curated-snowflake-anthropic-governed-enterprise-ai-demand-2026-06-01",
@@ -199,7 +205,8 @@
       "publishedAt": "2026-06-02T17:10:00.000Z",
       "importance": 172,
       "sourceConfidence": "medium",
-      "summaryEngine": "chat-curated"
+      "summaryEngine": "chat-curated",
+      "filterCategory": "general"
     },
     {
       "id": "curated-relationalai-snowflake-agentic-decision-intelligence-2026-06-02",
@@ -229,7 +236,8 @@
       "publishedAt": "2026-06-02T15:00:00.000Z",
       "importance": 174,
       "sourceConfidence": "medium",
-      "summaryEngine": "chat-curated"
+      "summaryEngine": "chat-curated",
+      "filterCategory": "general"
     },
     {
       "id": "curated-tuskira-quell-agentic-zero-day-defense-2026-06-02",
@@ -257,7 +265,8 @@
       "publishedAt": "2026-06-02T14:30:00.000Z",
       "importance": 168,
       "sourceConfidence": "medium",
-      "summaryEngine": "chat-curated"
+      "summaryEngine": "chat-curated",
+      "filterCategory": "general"
     },
     {
       "id": "curated-bloomreach-loomi-marketing-agent-ga-2026-06-02",
@@ -285,7 +294,8 @@
       "publishedAt": "2026-06-02T14:00:00.000Z",
       "importance": 154,
       "sourceConfidence": "medium",
-      "summaryEngine": "chat-curated"
+      "summaryEngine": "chat-curated",
+      "filterCategory": "general"
     },
     {
       "id": "curated-outreach-mcp-client-agentic-revenue-marketplace-2026-06-02",
@@ -315,7 +325,8 @@
       "publishedAt": "2026-06-02T13:00:00.000Z",
       "importance": 162,
       "sourceConfidence": "medium",
-      "summaryEngine": "chat-curated"
+      "summaryEngine": "chat-curated",
+      "filterCategory": "general"
     },
     {
       "id": "curated-zip-superagents-mcp-procurement-2026-06-02",
@@ -346,7 +357,8 @@
       "publishedAt": "2026-06-02T12:45:00.000Z",
       "importance": 166,
       "sourceConfidence": "medium",
-      "summaryEngine": "chat-curated"
+      "summaryEngine": "chat-curated",
+      "filterCategory": "general"
     },
     {
       "id": "curated-subtle-medical-33m-ai-imaging-growth-capital-2026-06-02",
@@ -375,7 +387,8 @@
       "publishedAt": "2026-06-02T12:05:00.000Z",
       "importance": 171,
       "sourceConfidence": "medium",
-      "summaryEngine": "chat-curated"
+      "summaryEngine": "chat-curated",
+      "filterCategory": "funding"
     },
     {
       "id": "curated-alife-embryo-predict-fda-cleared-ivf-routine-use-2026-06-02",
@@ -404,7 +417,8 @@
       "publishedAt": "2026-06-02T11:00:00.000Z",
       "importance": 178,
       "sourceConfidence": "medium",
-      "summaryEngine": "chat-curated"
+      "summaryEngine": "chat-curated",
+      "filterCategory": "general"
     },
     {
       "id": "curated-workday-agent-passport-cisco-ai-defense-2026-06-02",
@@ -434,7 +448,8 @@
       "publishedAt": "2026-06-02T11:00:00.000Z",
       "importance": 181,
       "sourceConfidence": "medium",
-      "summaryEngine": "chat-curated"
+      "summaryEngine": "chat-curated",
+      "filterCategory": "general"
     },
     {
       "id": "curated-helix-genosphere-500k-clinico-genomic-ai-tools-2026-06-02",
@@ -462,7 +477,8 @@
       "publishedAt": "2026-06-02T13:00:00.000Z",
       "importance": 175,
       "sourceConfidence": "medium",
-      "summaryEngine": "chat-curated"
+      "summaryEngine": "chat-curated",
+      "filterCategory": "general"
     },
     {
       "id": "curated-novellia-18m-patient-powered-pharma-data-platform-2026-06-02",
@@ -491,7 +507,8 @@
       "publishedAt": "2026-06-02T13:30:00.000Z",
       "importance": 168,
       "sourceConfidence": "medium",
-      "summaryEngine": "chat-curated"
+      "summaryEngine": "chat-curated",
+      "filterCategory": "funding"
     },
     {
       "id": "curated-ada-updoc-agentic-ai-chronic-disease-investment-2026-06-02",
@@ -519,7 +536,8 @@
       "publishedAt": "2026-06-02T15:30:00.000Z",
       "importance": 163,
       "sourceConfidence": "medium",
-      "summaryEngine": "chat-curated"
+      "summaryEngine": "chat-curated",
+      "filterCategory": "funding"
     },
     {
       "id": "curated-trustero-ai-playbooks-multi-agent-grc-2026-06-02",
@@ -547,7 +565,8 @@
       "publishedAt": "2026-06-02T11:00:00.000Z",
       "importance": 151,
       "sourceConfidence": "medium",
-      "summaryEngine": "chat-curated"
+      "summaryEngine": "chat-curated",
+      "filterCategory": "general"
     },
     {
       "id": "curated-marvell-computex-ai-connectivity-bottleneck-2026-06-02",
@@ -577,7 +596,8 @@
       "publishedAt": "2026-06-02T02:30:00.000Z",
       "importance": 177,
       "sourceConfidence": "medium",
-      "summaryEngine": "chat-curated"
+      "summaryEngine": "chat-curated",
+      "filterCategory": "general"
     },
     {
       "id": "curated-supermicro-vera-rubin-coolant-ai-rack-computex-2026-06-02",
@@ -605,7 +625,8 @@
       "publishedAt": "2026-06-02T01:45:00.000Z",
       "importance": 170,
       "sourceConfidence": "high",
-      "summaryEngine": "chat-curated"
+      "summaryEngine": "chat-curated",
+      "filterCategory": "general"
     },
     {
       "id": "curated-hon-hai-foxconn-computex-ai-platform-vera-rubin-robotics-2026-06-01",
@@ -635,7 +656,8 @@
       "publishedAt": "2026-06-01T23:30:00.000Z",
       "importance": 166,
       "sourceConfidence": "medium",
-      "summaryEngine": "chat-curated"
+      "summaryEngine": "chat-curated",
+      "filterCategory": "general"
     },
     {
       "id": "curated-moc-multi-order-communication-multi-agent-systems-2026-06-02",
@@ -662,7 +684,8 @@
       "publishedAt": "2026-06-02T09:30:00.000Z",
       "importance": 149,
       "sourceConfidence": "medium",
-      "summaryEngine": "chat-curated"
+      "summaryEngine": "chat-curated",
+      "filterCategory": "papers"
     },
     {
       "id": "curated-trump-voluntary-frontier-ai-security-eo-2026-06-02",
@@ -692,7 +715,8 @@
       "publishedAt": "2026-06-02T17:00:52.000Z",
       "importance": 198,
       "sourceConfidence": "high",
-      "summaryEngine": "chat-curated"
+      "summaryEngine": "chat-curated",
+      "filterCategory": "general"
     },
     {
       "id": "curated-anthropic-expands-project-glasswing-150-orgs-2026-06-02",
@@ -718,7 +742,8 @@
       "publishedAt": "2026-06-02T16:30:00.000Z",
       "importance": 193,
       "sourceConfidence": "high",
-      "summaryEngine": "chat-curated"
+      "summaryEngine": "chat-curated",
+      "filterCategory": "general"
     },
     {
       "id": "curated-zerodrift-10m-ai-compliance-firewall-2026-06-02",
@@ -746,7 +771,8 @@
       "publishedAt": "2026-06-02T12:32:00.000Z",
       "importance": 184,
       "sourceConfidence": "high",
-      "summaryEngine": "chat-curated"
+      "summaryEngine": "chat-curated",
+      "filterCategory": "funding"
     },
     {
       "id": "curated-hcompany-holo31-local-computer-use-agents-2026-06-02",
@@ -775,7 +801,8 @@
       "publishedAt": "2026-06-02T12:00:00.000Z",
       "importance": 181,
       "sourceConfidence": "high",
-      "summaryEngine": "chat-curated"
+      "summaryEngine": "chat-curated",
+      "filterCategory": "general"
     },
     {
       "id": "curated-intel-computex-rackscale-crescent-island-ai-inference-2026-06-02",
@@ -806,7 +833,8 @@
       "publishedAt": "2026-06-02T11:30:00.000Z",
       "importance": 189,
       "sourceConfidence": "medium",
-      "summaryEngine": "chat-curated"
+      "summaryEngine": "chat-curated",
+      "filterCategory": "general"
     },
     {
       "id": "curated-clinenv-longitudinal-inpatient-agent-benchmark-2026-06-02",
@@ -835,7 +863,8 @@
       "publishedAt": "2026-06-02T09:45:00.000Z",
       "importance": 176,
       "sourceConfidence": "medium",
-      "summaryEngine": "chat-curated"
+      "summaryEngine": "chat-curated",
+      "filterCategory": "papers"
     },
     {
       "id": "curated-nvidia-unitree-sharpa-physical-ai-reference-design-2026-06-01",
@@ -864,7 +893,8 @@
       "publishedAt": "2026-06-01T11:58:03.000Z",
       "importance": 168,
       "sourceConfidence": "medium",
-      "summaryEngine": "chat-curated"
+      "summaryEngine": "chat-curated",
+      "filterCategory": "general"
     },
     {
       "id": "curated-bmw-aeon-humanoid-robots-german-production-2026-05-29",
@@ -892,7 +922,8 @@
       "publishedAt": "2026-05-29T12:00:00.000Z",
       "importance": 158,
       "sourceConfidence": "medium",
-      "summaryEngine": "chat-curated"
+      "summaryEngine": "chat-curated",
+      "filterCategory": "general"
     },
     {
       "id": "curated-spacex-xai-water-ai-data-center-risk-2026-06-01",
@@ -920,7 +951,8 @@
       "publishedAt": "2026-06-01T18:19:00.000Z",
       "importance": 171,
       "sourceConfidence": "high",
-      "summaryEngine": "chat-curated"
+      "summaryEngine": "chat-curated",
+      "filterCategory": "funding"
     },
     {
       "id": "curated-duckduckgo-no-ai-search-surge-2026-06-01",
@@ -949,7 +981,8 @@
       "publishedAt": "2026-06-01T14:49:00.000Z",
       "importance": 158,
       "sourceConfidence": "high",
-      "summaryEngine": "chat-curated"
+      "summaryEngine": "chat-curated",
+      "filterCategory": "pushback"
     },
     {
       "id": "curated-meta-ai-support-instagram-hijack-2026-06-01",
@@ -975,7 +1008,8 @@
       "publishedAt": "2026-06-01T18:34:00.000Z",
       "importance": 186,
       "sourceConfidence": "high",
-      "summaryEngine": "chat-curated"
+      "summaryEngine": "chat-curated",
+      "filterCategory": "general"
     },
     {
       "id": "curated-anthropic-browser-agent-prompt-injection-2026-06-01",
@@ -1005,7 +1039,8 @@
       "publishedAt": "2026-06-01T15:50:00.000Z",
       "importance": 181,
       "sourceConfidence": "medium",
-      "summaryEngine": "chat-curated"
+      "summaryEngine": "chat-curated",
+      "filterCategory": "general"
     },
     {
       "id": "curated-nvidia-jetson-nemoclaw-physical-agents-2026-06-01",
@@ -1035,7 +1070,8 @@
       "publishedAt": "2026-06-01T16:00:00.000Z",
       "importance": 178,
       "sourceConfidence": "high",
-      "summaryEngine": "chat-curated"
+      "summaryEngine": "chat-curated",
+      "filterCategory": "general"
     },
     {
       "id": "curated-nvidia-supply-capacity-ai-boom-2026-06-02",
@@ -1062,7 +1098,8 @@
       "publishedAt": "2026-06-02T01:30:00.000Z",
       "importance": 174,
       "sourceConfidence": "high",
-      "summaryEngine": "chat-curated"
+      "summaryEngine": "chat-curated",
+      "filterCategory": "general"
     },
     {
       "id": "curated-windborne-weathermesh-6-ai-forecasting-2026-06-01",
@@ -1089,7 +1126,8 @@
       "publishedAt": "2026-06-01T16:00:00.000Z",
       "importance": 172,
       "sourceConfidence": "medium",
-      "summaryEngine": "chat-curated"
+      "summaryEngine": "chat-curated",
+      "filterCategory": "general"
     },
     {
       "id": "curated-mach-industries-300m-defense-autonomy-2026-06-01",
@@ -1119,7 +1157,8 @@
       "publishedAt": "2026-06-01T21:40:00.000Z",
       "importance": 167,
       "sourceConfidence": "high",
-      "summaryEngine": "chat-curated"
+      "summaryEngine": "chat-curated",
+      "filterCategory": "funding"
     },
     {
       "id": "curated-mecka-ai-60m-robotics-human-motion-data-2026-06-01",
@@ -1149,7 +1188,8 @@
       "publishedAt": "2026-06-01T11:00:00.000Z",
       "importance": 164,
       "sourceConfidence": "medium",
-      "summaryEngine": "chat-curated"
+      "summaryEngine": "chat-curated",
+      "filterCategory": "funding"
     },
     {
       "id": "curated-tripo-ai-200m-3d-world-model-financing-2026-06-01",
@@ -1178,7 +1218,8 @@
       "publishedAt": "2026-06-01T16:47:00.000Z",
       "importance": 161,
       "sourceConfidence": "medium",
-      "summaryEngine": "chat-curated"
+      "summaryEngine": "chat-curated",
+      "filterCategory": "funding"
     },
     {
       "id": "curated-nyb-ai-vecura-2-agentic-molecular-discovery-2026-06-02",
@@ -1209,7 +1250,8 @@
       "publishedAt": "2026-06-02T05:27:00.000Z",
       "importance": 157,
       "sourceConfidence": "medium",
-      "summaryEngine": "chat-curated"
+      "summaryEngine": "chat-curated",
+      "filterCategory": "general"
     },
     {
       "id": "curated-saris-288m-agentic-banking-series-a-2026-06-01",
@@ -1238,7 +1280,8 @@
       "publishedAt": "2026-06-01T13:00:00.000Z",
       "importance": 153,
       "sourceConfidence": "medium",
-      "summaryEngine": "chat-curated"
+      "summaryEngine": "chat-curated",
+      "filterCategory": "funding"
     },
     {
       "id": "curated-gradient-labs-26m-fintech-ai-agents-2026-06-01",
@@ -1264,7 +1307,8 @@
       "publishedAt": "2026-06-01T12:00:00.000Z",
       "importance": 151,
       "sourceConfidence": "medium",
-      "summaryEngine": "chat-curated"
+      "summaryEngine": "chat-curated",
+      "filterCategory": "funding"
     },
     {
       "id": "curated-zoominfo-gtm-ai-mcp-context-layer-2026-06-01",
@@ -1297,7 +1341,8 @@
       "publishedAt": "2026-06-02T01:15:00.000Z",
       "importance": 150,
       "sourceConfidence": "medium",
-      "summaryEngine": "chat-curated"
+      "summaryEngine": "chat-curated",
+      "filterCategory": "general"
     },
     {
       "id": "curated-fonoa-110m-ai-tax-operating-system-2026-06-01",
@@ -1324,7 +1369,8 @@
       "publishedAt": "2026-06-01T11:00:00.000Z",
       "importance": 143,
       "sourceConfidence": "medium",
-      "summaryEngine": "chat-curated"
+      "summaryEngine": "chat-curated",
+      "filterCategory": "funding"
     },
     {
       "id": "curated-anthropic-ipo-ai-spending-backlash-2026-06-02",
@@ -1352,7 +1398,8 @@
       "publishedAt": "2026-06-02T09:13:04.000Z",
       "importance": 183,
       "sourceConfidence": "high",
-      "summaryEngine": "chat-curated"
+      "summaryEngine": "chat-curated",
+      "filterCategory": "funding"
     },
     {
       "id": "curated-anthropic-confidential-ipo-filing-2026-06-01",
@@ -1398,7 +1445,8 @@
       "publishedAt": "2026-06-01T16:42:15.000Z",
       "importance": 208,
       "sourceConfidence": "high",
-      "summaryEngine": "chat-curated"
+      "summaryEngine": "chat-curated",
+      "filterCategory": "funding"
     },
     {
       "id": "curated-alphabet-80b-ai-infrastructure-raise-2026-06-01",
@@ -1440,7 +1488,8 @@
       "publishedAt": "2026-06-01T21:25:41.000Z",
       "importance": 204,
       "sourceConfidence": "high",
-      "summaryEngine": "chat-curated"
+      "summaryEngine": "chat-curated",
+      "filterCategory": "funding"
     },
     {
       "id": "curated-florida-openai-altman-lawsuit-2026-06-01",
@@ -1480,7 +1529,8 @@
       "publishedAt": "2026-06-01T17:43:15.000Z",
       "importance": 198,
       "sourceConfidence": "high",
-      "summaryEngine": "chat-curated"
+      "summaryEngine": "chat-curated",
+      "filterCategory": "pushback"
     },
     {
       "id": "curated-nvidia-cosmos-3-physical-ai-open-model-2026-05-31",
@@ -1510,7 +1560,8 @@
       "publishedAt": "2026-05-31T18:00:00.000Z",
       "importance": 187,
       "sourceConfidence": "high",
-      "summaryEngine": "chat-curated"
+      "summaryEngine": "chat-curated",
+      "filterCategory": "models"
     },
     {
       "id": "curated-sekai-20m-ai-mini-app-creation-2026-06-01",
@@ -1537,7 +1588,8 @@
       "publishedAt": "2026-06-01T12:35:00.000Z",
       "importance": 160,
       "sourceConfidence": "high",
-      "summaryEngine": "chat-curated"
+      "summaryEngine": "chat-curated",
+      "filterCategory": "funding"
     },
     {
       "id": "curated-ehrbench-clinical-decision-llm-benchmark-2026-05-28",
@@ -1565,7 +1617,8 @@
       "publishedAt": "2026-05-28T22:38:26.000Z",
       "importance": 166,
       "sourceConfidence": "medium",
-      "summaryEngine": "chat-curated"
+      "summaryEngine": "chat-curated",
+      "filterCategory": "papers"
     },
     {
       "id": "curated-maven-agent-tool-calling-generalization-2026-05-29",
@@ -1595,7 +1648,8 @@
       "publishedAt": "2026-05-29T02:02:31.000Z",
       "importance": 163,
       "sourceConfidence": "medium",
-      "summaryEngine": "chat-curated"
+      "summaryEngine": "chat-curated",
+      "filterCategory": "papers"
     },
     {
       "id": "curated-nvidia-microsoft-windows-ai-pcs-2026-05-30",
@@ -1625,7 +1679,8 @@
       "publishedAt": "2026-06-01T10:00:00.000Z",
       "importance": 196,
       "sourceConfidence": "high",
-      "summaryEngine": "chat-curated"
+      "summaryEngine": "chat-curated",
+      "filterCategory": "general"
     },
     {
       "id": "curated-brockovich-data-center-secrecy-2026-05-31",
@@ -1651,7 +1706,8 @@
       "publishedAt": "2026-05-31T21:05:00.000Z",
       "importance": 184,
       "sourceConfidence": "high",
-      "summaryEngine": "chat-curated"
+      "summaryEngine": "chat-curated",
+      "filterCategory": "pushback"
     },
     {
       "id": "curated-artisan-kc-green-ai-ad-settlement-2026-05-31",
@@ -1678,7 +1734,8 @@
       "publishedAt": "2026-05-31T18:28:00.000Z",
       "importance": 156,
       "sourceConfidence": "high",
-      "summaryEngine": "chat-curated"
+      "summaryEngine": "chat-curated",
+      "filterCategory": "pushback"
     },
     {
       "id": "curated-claude-mythos-patching-window-security-2026-05-31",
@@ -1706,7 +1763,8 @@
       "publishedAt": "2026-05-31T16:30:00.000Z",
       "importance": 176,
       "sourceConfidence": "medium",
-      "summaryEngine": "chat-curated"
+      "summaryEngine": "chat-curated",
+      "filterCategory": "funding"
     },
     {
       "id": "curated-ai-psychosis-backlash-debate-2026-05-31",
@@ -1735,7 +1793,8 @@
       "publishedAt": "2026-05-31T15:30:00.000Z",
       "importance": 174,
       "sourceConfidence": "medium",
-      "summaryEngine": "chat-curated"
+      "summaryEngine": "chat-curated",
+      "filterCategory": "pushback"
     },
     {
       "id": "curated-softbank-france-ai-data-centers-75b-2026-05-30",
@@ -1765,7 +1824,8 @@
       "publishedAt": "2026-05-30T21:45:00.000Z",
       "importance": 190,
       "sourceConfidence": "high",
-      "summaryEngine": "chat-curated"
+      "summaryEngine": "chat-curated",
+      "filterCategory": "funding"
     },
     {
       "id": "curated-github-copilot-token-billing-backlash-2026-05-30",
@@ -1792,7 +1852,8 @@
       "publishedAt": "2026-05-30T16:30:00.000Z",
       "importance": 178,
       "sourceConfidence": "medium",
-      "summaryEngine": "chat-curated"
+      "summaryEngine": "chat-curated",
+      "filterCategory": "pushback"
     },
     {
       "id": "curated-meta-ai-pendant-wearables-work-2026-05-30",
@@ -1821,7 +1882,8 @@
       "publishedAt": "2026-05-30T15:59:00.000Z",
       "importance": 170,
       "sourceConfidence": "medium",
-      "summaryEngine": "chat-curated"
+      "summaryEngine": "chat-curated",
+      "filterCategory": "funding"
     },
     {
       "id": "curated-gemini-spark-hands-on-agent-gap-2026-05-30",
@@ -1850,7 +1912,8 @@
       "publishedAt": "2026-05-30T15:30:00.000Z",
       "importance": 169,
       "sourceConfidence": "medium",
-      "summaryEngine": "chat-curated"
+      "summaryEngine": "chat-curated",
+      "filterCategory": "general"
     },
     {
       "id": "curated-workday-sana-gemini-agent-permissions-2026-05-29",
@@ -1880,7 +1943,8 @@
       "publishedAt": "2026-05-29T22:27:00.000Z",
       "importance": 174,
       "sourceConfidence": "high",
-      "summaryEngine": "chat-curated"
+      "summaryEngine": "chat-curated",
+      "filterCategory": "general"
     },
     {
       "id": "curated-coders-refuse-without-ai-metr-productivity-2026-05-29",
@@ -1910,7 +1974,8 @@
       "publishedAt": "2026-05-29T22:14:00.000Z",
       "importance": 166,
       "sourceConfidence": "medium",
-      "summaryEngine": "chat-curated"
+      "summaryEngine": "chat-curated",
+      "filterCategory": "general"
     },
     {
       "id": "curated-memo-memory-model-enterprise-rag-2026-05-29",
@@ -1940,7 +2005,8 @@
       "publishedAt": "2026-05-29T19:28:00.000Z",
       "importance": 164,
       "sourceConfidence": "high",
-      "summaryEngine": "chat-curated"
+      "summaryEngine": "chat-curated",
+      "filterCategory": "papers"
     },
     {
       "id": "curated-groq-650m-inference-cloud-pivot-2026-05-29",
@@ -1970,7 +2036,8 @@
       "publishedAt": "2026-05-29T17:27:00.000Z",
       "importance": 172,
       "sourceConfidence": "medium",
-      "summaryEngine": "chat-curated"
+      "summaryEngine": "chat-curated",
+      "filterCategory": "funding"
     },
     {
       "id": "curated-pinterest-qwen-vision-cost-cut-2026-05-29",
@@ -2000,7 +2067,8 @@
       "publishedAt": "2026-05-29T16:24:00.000Z",
       "importance": 168,
       "sourceConfidence": "high",
-      "summaryEngine": "chat-curated"
+      "summaryEngine": "chat-curated",
+      "filterCategory": "general"
     },
     {
       "id": "curated-kiwibit-ai-bird-feeder-product-signal-2026-05-29",
@@ -2028,7 +2096,8 @@
       "publishedAt": "2026-05-29T13:00:00.000Z",
       "importance": 134,
       "sourceConfidence": "medium",
-      "summaryEngine": "chat-curated"
+      "summaryEngine": "chat-curated",
+      "filterCategory": "general"
     },
     {
       "id": "curated-reactor-59m-real-time-ai-worlds-2026-05-29",
@@ -2059,7 +2128,8 @@
       "publishedAt": "2026-05-29T13:00:00.000Z",
       "importance": 151,
       "sourceConfidence": "high",
-      "summaryEngine": "chat-curated"
+      "summaryEngine": "chat-curated",
+      "filterCategory": "funding"
     },
     {
       "id": "curated-xcena-135m-memory-ai-chip-2026-05-29",
@@ -2088,7 +2158,8 @@
       "publishedAt": "2026-05-29T12:00:00.000Z",
       "importance": 176,
       "sourceConfidence": "high",
-      "summaryEngine": "chat-curated"
+      "summaryEngine": "chat-curated",
+      "filterCategory": "funding"
     },
     {
       "id": "curated-mistral-vibe-industrial-ai-data-center-2026-05-28",
@@ -2121,7 +2192,8 @@
       "publishedAt": "2026-05-28T20:54:00.000Z",
       "importance": 180,
       "sourceConfidence": "high",
-      "summaryEngine": "chat-curated"
+      "summaryEngine": "chat-curated",
+      "filterCategory": "funding"
     },
     {
       "id": "curated-autotts-token-usage-reasoning-2026-05-28",
@@ -2153,7 +2225,8 @@
       "publishedAt": "2026-05-28T21:32:00.000Z",
       "importance": 162,
       "sourceConfidence": "high",
-      "summaryEngine": "chat-curated"
+      "summaryEngine": "chat-curated",
+      "filterCategory": "papers"
     },
     {
       "id": "curated-deepseek-v4-price-cut-token-moat-2026-05-28",
@@ -2183,7 +2256,8 @@
       "publishedAt": "2026-05-28T16:57:00.000Z",
       "importance": 182,
       "sourceConfidence": "medium",
-      "summaryEngine": "chat-curated"
+      "summaryEngine": "chat-curated",
+      "filterCategory": "models"
     },
     {
       "id": "curated-glean-300m-arr-ai-cost-cutting-2026-05-28",
@@ -2212,7 +2286,8 @@
       "publishedAt": "2026-05-29T00:44:00.000Z",
       "importance": 172,
       "sourceConfidence": "high",
-      "summaryEngine": "chat-curated"
+      "summaryEngine": "chat-curated",
+      "filterCategory": "funding"
     },
     {
       "id": "curated-cognition-1b-devin-25b-valuation-2026-05-27",
@@ -2245,7 +2320,8 @@
       "publishedAt": "2026-05-27T16:00:00.000Z",
       "importance": 188,
       "sourceConfidence": "high",
-      "summaryEngine": "chat-curated"
+      "summaryEngine": "chat-curated",
+      "filterCategory": "funding"
     },
     {
       "id": "curated-openai-chatgpt-personal-finance-2026-05-15",
@@ -2285,7 +2361,8 @@
       "publishedAt": "2026-05-15T16:00:00.000Z",
       "importance": 150,
       "sourceConfidence": "high",
-      "summaryEngine": "chat-curated"
+      "summaryEngine": "chat-curated",
+      "filterCategory": "general"
     },
     {
       "id": "curated-google-ai-edge-eloquent-offline-dictation-2026-04-07",
@@ -2313,7 +2390,8 @@
       "publishedAt": "2026-04-07T05:40:00.000Z",
       "importance": 118,
       "sourceConfidence": "medium",
-      "summaryEngine": "chat-curated"
+      "summaryEngine": "chat-curated",
+      "filterCategory": "general"
     },
     {
       "id": "curated-xoople-130m-earth-system-record-ai-2026-04-06",
@@ -2343,7 +2421,8 @@
       "publishedAt": "2026-04-06T13:00:00.000Z",
       "importance": 122,
       "sourceConfidence": "high",
-      "summaryEngine": "chat-curated"
+      "summaryEngine": "chat-curated",
+      "filterCategory": "funding"
     },
     {
       "id": "curated-rocket-ai-consulting-reports-2026-04-06",
@@ -2370,7 +2449,8 @@
       "publishedAt": "2026-04-06T05:30:00.000Z",
       "importance": 112,
       "sourceConfidence": "medium",
-      "summaryEngine": "chat-curated"
+      "summaryEngine": "chat-curated",
+      "filterCategory": "general"
     },
     {
       "id": "curated-anthropic-65b-series-h-2026-05-28",
@@ -2416,7 +2496,8 @@
       "publishedAt": "2026-05-28T18:42:34.000Z",
       "importance": 184,
       "sourceConfidence": "high",
-      "summaryEngine": "chat-curated"
+      "summaryEngine": "chat-curated",
+      "filterCategory": "funding"
     },
     {
       "id": "curated-claude-opus-48-dynamic-workflows-2026-05-28",
@@ -2446,7 +2527,8 @@
       "publishedAt": "2026-05-28T17:00:18.000Z",
       "importance": 182,
       "sourceConfidence": "high",
-      "summaryEngine": "chat-curated"
+      "summaryEngine": "chat-curated",
+      "filterCategory": "models"
     },
     {
       "id": "curated-asana-stackai-acquisition-2026-05-28",
@@ -2476,7 +2558,8 @@
       "publishedAt": "2026-05-28T20:06:00.000Z",
       "importance": 176,
       "sourceConfidence": "high",
-      "summaryEngine": "chat-curated"
+      "summaryEngine": "chat-curated",
+      "filterCategory": "funding"
     },
     {
       "id": "curated-geordie-ai-30m-agent-security-2026-05-28",
@@ -2518,7 +2601,8 @@
       "publishedAt": "2026-05-28T16:00:00.000Z",
       "importance": 172,
       "sourceConfidence": "high",
-      "summaryEngine": "chat-curated"
+      "summaryEngine": "chat-curated",
+      "filterCategory": "funding"
     },
     {
       "id": "curated-canals-35m-wholesale-ai-automation-2026-05-28",
@@ -2548,7 +2632,8 @@
       "publishedAt": "2026-05-28T15:00:00.000Z",
       "importance": 168,
       "sourceConfidence": "medium",
-      "summaryEngine": "chat-curated"
+      "summaryEngine": "chat-curated",
+      "filterCategory": "funding"
     },
     {
       "id": "curated-merck-mastercard-agentic-ai-plumbing-2026-05-27",
@@ -2579,7 +2664,8 @@
       "publishedAt": "2026-05-27T18:23:00.000Z",
       "importance": 164,
       "sourceConfidence": "medium",
-      "summaryEngine": "chat-curated"
+      "summaryEngine": "chat-curated",
+      "filterCategory": "general"
     },
     {
       "id": "curated-deepswe-coding-agent-benchmark-2026-05-26",
@@ -2611,7 +2697,8 @@
       "publishedAt": "2026-05-26T22:32:00.000Z",
       "importance": 160,
       "sourceConfidence": "medium",
-      "summaryEngine": "chat-curated"
+      "summaryEngine": "chat-curated",
+      "filterCategory": "papers"
     },
     {
       "id": "curated-openrouter-113m-series-b-2026-05-26",
@@ -2652,7 +2739,8 @@
       "publishedAt": "2026-05-26T18:33:00.000Z",
       "importance": 170,
       "sourceConfidence": "high",
-      "summaryEngine": "chat-curated"
+      "summaryEngine": "chat-curated",
+      "filterCategory": "funding"
     },
     {
       "id": "curated-pope-leo-ai-encyclical-2026-05-26",
@@ -2693,7 +2781,8 @@
       "publishedAt": "2026-05-25T09:31:58.000Z",
       "importance": 168,
       "sourceConfidence": "high",
-      "summaryEngine": "chat-curated"
+      "summaryEngine": "chat-curated",
+      "filterCategory": "pushback"
     },
     {
       "id": "curated-microsoft-mai-image-25-2026-05-26",
@@ -2735,7 +2824,8 @@
       "publishedAt": "2026-05-26T18:45:00.000Z",
       "importance": 166,
       "sourceConfidence": "high",
-      "summaryEngine": "chat-curated"
+      "summaryEngine": "chat-curated",
+      "filterCategory": "models"
     },
     {
       "id": "curated-cohere-command-a-plus-2026-05-20",
@@ -2776,7 +2866,8 @@
       "publishedAt": "2026-05-20T15:30:00.000Z",
       "importance": 166,
       "sourceConfidence": "high",
-      "summaryEngine": "chat-curated"
+      "summaryEngine": "chat-curated",
+      "filterCategory": "models"
     },
     {
       "id": "curated-qwen-37-max-agent-model-2026-05-26",
@@ -2816,7 +2907,8 @@
       "publishedAt": "2026-05-26T08:03:00.000Z",
       "importance": 164,
       "sourceConfidence": "medium",
-      "summaryEngine": "chat-curated"
+      "summaryEngine": "chat-curated",
+      "filterCategory": "models"
     },
     {
       "id": "curated-duckduckgo-ai-search-backlash-2026-05-26",
@@ -2844,7 +2936,8 @@
       "publishedAt": "2026-05-26T22:32:00.000Z",
       "importance": 162,
       "sourceConfidence": "high",
-      "summaryEngine": "chat-curated"
+      "summaryEngine": "chat-curated",
+      "filterCategory": "pushback"
     },
     {
       "id": "curated-huawei-tau-scaling-logicfolding-2026-05-25",
@@ -2886,7 +2979,8 @@
       "publishedAt": "2026-05-25T13:10:31.000Z",
       "importance": 160,
       "sourceConfidence": "high",
-      "summaryEngine": "chat-curated"
+      "summaryEngine": "chat-curated",
+      "filterCategory": "general"
     },
     {
       "id": "curated-ernie-51-baidu-2026-05-09",
@@ -2913,7 +3007,8 @@
       "publishedAt": "2026-05-09T00:00:00.000Z",
       "importance": 158,
       "sourceConfidence": "high",
-      "summaryEngine": "chat-curated"
+      "summaryEngine": "chat-curated",
+      "filterCategory": "models"
     },
     {
       "id": "curated-swri-ai-ebola-bundibugyo-drug-candidates-2026-05-26",
@@ -2955,7 +3050,8 @@
       "publishedAt": "2026-05-26T12:00:00.000Z",
       "importance": 156,
       "sourceConfidence": "high",
-      "summaryEngine": "chat-curated"
+      "summaryEngine": "chat-curated",
+      "filterCategory": "general"
     },
     {
       "id": "curated-mphasis-tria-enterprise-agency-2026-05-27",
@@ -2985,7 +3081,8 @@
       "publishedAt": "2026-05-27T10:07:00.000Z",
       "importance": 154,
       "sourceConfidence": "high",
-      "summaryEngine": "chat-curated"
+      "summaryEngine": "chat-curated",
+      "filterCategory": "general"
     },
     {
       "id": "curated-elevenlabs-music-v2-2026-05-26",
@@ -3013,7 +3110,8 @@
       "publishedAt": "2026-05-26T12:00:00.000Z",
       "importance": 154,
       "sourceConfidence": "high",
-      "summaryEngine": "chat-curated"
+      "summaryEngine": "chat-curated",
+      "filterCategory": "general"
     },
     {
       "id": "curated-broadcom-furiosa-ethernet-ai-fabric-2026-05-27",
@@ -3043,7 +3141,8 @@
       "publishedAt": "2026-05-27T12:00:00.000Z",
       "importance": 152,
       "sourceConfidence": "high",
-      "summaryEngine": "chat-curated"
+      "summaryEngine": "chat-curated",
+      "filterCategory": "general"
     },
     {
       "id": "curated-tencent-mavis-os-agent-2026-05-21",
@@ -3084,7 +3183,8 @@
       "publishedAt": "2026-05-21T12:00:00.000Z",
       "importance": 152,
       "sourceConfidence": "medium",
-      "summaryEngine": "chat-curated"
+      "summaryEngine": "chat-curated",
+      "filterCategory": "general"
     },
     {
       "id": "curated-torqueagi-nvidia-deere-dexterity-2026-05-27",
@@ -3113,7 +3213,8 @@
       "publishedAt": "2026-05-27T13:30:00.000Z",
       "importance": 150,
       "sourceConfidence": "high",
-      "summaryEngine": "chat-curated"
+      "summaryEngine": "chat-curated",
+      "filterCategory": "general"
     },
     {
       "id": "curated-quanscient-10m-series-a-2026-05-26",
@@ -3142,7 +3243,8 @@
       "publishedAt": "2026-05-26T12:00:00.000Z",
       "importance": 150,
       "sourceConfidence": "high",
-      "summaryEngine": "chat-curated"
+      "summaryEngine": "chat-curated",
+      "filterCategory": "funding"
     },
     {
       "id": "curated-mistral-medium-35-2026-04-29",
@@ -3172,7 +3274,8 @@
       "publishedAt": "2026-04-29T12:00:00.000Z",
       "importance": 150,
       "sourceConfidence": "high",
-      "summaryEngine": "chat-curated"
+      "summaryEngine": "chat-curated",
+      "filterCategory": "models"
     },
     {
       "id": "curated-tata-elxsi-anatel-medtech-ai-2026-05-27",
@@ -3201,7 +3304,8 @@
       "publishedAt": "2026-05-27T08:30:00.000Z",
       "importance": 148,
       "sourceConfidence": "high",
-      "summaryEngine": "chat-curated"
+      "summaryEngine": "chat-curated",
+      "filterCategory": "general"
     },
     {
       "id": "curated-claw-anything-agent-benchmark-2026-05-25",
@@ -3228,7 +3332,8 @@
       "publishedAt": "2026-05-25T00:00:00.000Z",
       "importance": 148,
       "sourceConfidence": "high",
-      "summaryEngine": "chat-curated"
+      "summaryEngine": "chat-curated",
+      "filterCategory": "funding"
     },
     {
       "id": "curated-agenthijack-computer-use-agent-robustness-2026-05-25",
@@ -3256,7 +3361,8 @@
       "publishedAt": "2026-05-25T11:09:22.000Z",
       "importance": 145,
       "sourceConfidence": "high",
-      "summaryEngine": "chat-curated"
+      "summaryEngine": "chat-curated",
+      "filterCategory": "papers"
     },
     {
       "id": "curated-ai-ultrasound-carotid-primary-care-2026-05-27",
@@ -3286,7 +3392,8 @@
       "publishedAt": "2026-05-27T14:00:00.000Z",
       "importance": 146,
       "sourceConfidence": "high",
-      "summaryEngine": "chat-curated"
+      "summaryEngine": "chat-curated",
+      "filterCategory": "papers"
     },
     {
       "id": "curated-hark-700m-series-a-2026-05-21",
@@ -3316,7 +3423,8 @@
       "publishedAt": "2026-05-21T14:00:00.000Z",
       "importance": 146,
       "sourceConfidence": "high",
-      "summaryEngine": "chat-curated"
+      "summaryEngine": "chat-curated",
+      "filterCategory": "funding"
     },
     {
       "id": "curated-kore-artemis-agent-platform-2026-05-21",
@@ -3345,7 +3453,8 @@
       "publishedAt": "2026-05-21T13:00:00.000Z",
       "importance": 146,
       "sourceConfidence": "high",
-      "summaryEngine": "chat-curated"
+      "summaryEngine": "chat-curated",
+      "filterCategory": "general"
     },
     {
       "id": "curated-nvidia-vera-agentic-cpu-200b-2026-05-27",
@@ -3371,7 +3480,8 @@
       "publishedAt": "2026-05-20T21:28:00.000Z",
       "importance": 144,
       "sourceConfidence": "high",
-      "summaryEngine": "chat-curated"
+      "summaryEngine": "chat-curated",
+      "filterCategory": "general"
     },
     {
       "id": "curated-anthropic-spacex-compute-15b-year-2026-05-20",
@@ -3399,7 +3509,8 @@
       "publishedAt": "2026-05-20T16:00:00.000Z",
       "importance": 144,
       "sourceConfidence": "high",
-      "summaryEngine": "chat-curated"
+      "summaryEngine": "chat-curated",
+      "filterCategory": "funding"
     },
     {
       "id": "curated-google-pics-workspace-2026-05-19",
@@ -3440,7 +3551,8 @@
       "publishedAt": "2026-05-19T12:00:00.000Z",
       "importance": 144,
       "sourceConfidence": "high",
-      "summaryEngine": "chat-curated"
+      "summaryEngine": "chat-curated",
+      "filterCategory": "general"
     },
     {
       "id": "curated-zscaler-symmetry-ai-agent-security-2026-05-26",
@@ -3482,7 +3594,8 @@
       "publishedAt": "2026-05-26T21:05:00.000Z",
       "importance": 142,
       "sourceConfidence": "high",
-      "summaryEngine": "chat-curated"
+      "summaryEngine": "chat-curated",
+      "filterCategory": "funding"
     },
     {
       "id": "curated-openai-yc-token-safe-2026-05-27",
@@ -3508,7 +3621,8 @@
       "publishedAt": "2026-05-20T18:23:00.000Z",
       "importance": 142,
       "sourceConfidence": "high",
-      "summaryEngine": "chat-curated"
+      "summaryEngine": "chat-curated",
+      "filterCategory": "funding"
     },
     {
       "id": "curated-openai-geometry-proof-2026-05-20",
@@ -3538,7 +3652,8 @@
       "publishedAt": "2026-05-20T12:00:00.000Z",
       "importance": 142,
       "sourceConfidence": "high",
-      "summaryEngine": "chat-curated"
+      "summaryEngine": "chat-curated",
+      "filterCategory": "papers"
     },
     {
       "id": "curated-telus-genai-safety-benchmark-2026-05-26",
@@ -3568,7 +3683,8 @@
       "publishedAt": "2026-05-26T15:00:00.000Z",
       "importance": 140,
       "sourceConfidence": "high",
-      "summaryEngine": "chat-curated"
+      "summaryEngine": "chat-curated",
+      "filterCategory": "funding"
     },
     {
       "id": "curated-intuit-layoffs-ai-refocus-2026-05-27",
@@ -3596,7 +3712,8 @@
       "publishedAt": "2026-05-20T12:14:00.000Z",
       "importance": 140,
       "sourceConfidence": "high",
-      "summaryEngine": "chat-curated"
+      "summaryEngine": "chat-curated",
+      "filterCategory": "general"
     },
     {
       "id": "curated-google-gemini-spark-omni-io-2026-05-19",
@@ -3637,7 +3754,8 @@
       "publishedAt": "2026-05-19T17:45:00.000Z",
       "importance": 140,
       "sourceConfidence": "high",
-      "summaryEngine": "chat-curated"
+      "summaryEngine": "chat-curated",
+      "filterCategory": "general"
     },
     {
       "id": "curated-doola-mcp-chatgpt-llc-2026-05-14",
@@ -3666,7 +3784,8 @@
       "publishedAt": "2026-05-14T12:00:00.000Z",
       "importance": 140,
       "sourceConfidence": "high",
-      "summaryEngine": "chat-curated"
+      "summaryEngine": "chat-curated",
+      "filterCategory": "general"
     },
     {
       "id": "curated-anscer-robotics-series-a-ai-native-factory-2026-05-27",
@@ -3696,7 +3815,8 @@
       "publishedAt": "2026-05-27T07:30:00.000Z",
       "importance": 138,
       "sourceConfidence": "medium",
-      "summaryEngine": "chat-curated"
+      "summaryEngine": "chat-curated",
+      "filterCategory": "funding"
     },
     {
       "id": "curated-spacex-ipo-xai-ai-capex-2026-05-27",
@@ -3724,7 +3844,8 @@
       "publishedAt": "2026-05-20T20:03:00.000Z",
       "importance": 138,
       "sourceConfidence": "high",
-      "summaryEngine": "chat-curated"
+      "summaryEngine": "chat-curated",
+      "filterCategory": "funding"
     },
     {
       "id": "curated-hellbender-edge-ai-camera-2026-05-19",
@@ -3753,7 +3874,8 @@
       "publishedAt": "2026-05-19T12:00:00.000Z",
       "importance": 138,
       "sourceConfidence": "high",
-      "summaryEngine": "chat-curated"
+      "summaryEngine": "chat-curated",
+      "filterCategory": "funding"
     },
     {
       "id": "curated-google-co-scientist-nature-2026-05-19",
@@ -3782,7 +3904,8 @@
       "publishedAt": "2026-05-19T12:00:00.000Z",
       "importance": 138,
       "sourceConfidence": "high",
-      "summaryEngine": "chat-curated"
+      "summaryEngine": "chat-curated",
+      "filterCategory": "papers"
     },
     {
       "id": "curated-human-archive-india-robot-data-2026-05-26",
@@ -3811,7 +3934,8 @@
       "publishedAt": "2026-05-26T16:00:00.000Z",
       "importance": 136,
       "sourceConfidence": "high",
-      "summaryEngine": "chat-curated"
+      "summaryEngine": "chat-curated",
+      "filterCategory": "funding"
     },
     {
       "id": "curated-nvidia-816b-quarter-2026-05-20",
@@ -3837,7 +3961,8 @@
       "publishedAt": "2026-05-20T16:00:00.000Z",
       "importance": 136,
       "sourceConfidence": "high",
-      "summaryEngine": "chat-curated"
+      "summaryEngine": "chat-curated",
+      "filterCategory": "general"
     },
     {
       "id": "curated-datagrail-ai-vendor-dpa-gap-2026-05-27",
@@ -3864,7 +3989,8 @@
       "publishedAt": "2026-05-27T16:00:00.000Z",
       "importance": 149,
       "sourceConfidence": "medium",
-      "summaryEngine": "chat-curated"
+      "summaryEngine": "chat-curated",
+      "filterCategory": "pushback"
     },
     {
       "id": "curated-youtube-automatic-ai-video-labels-2026-05-27",
@@ -3893,7 +4019,8 @@
       "publishedAt": "2026-05-27T13:00:00.000Z",
       "importance": 147,
       "sourceConfidence": "high",
-      "summaryEngine": "chat-curated"
+      "summaryEngine": "chat-curated",
+      "filterCategory": "general"
     },
     {
       "id": "curated-openai-synthid-c2pa-provenance-2026-05-27",
@@ -3920,7 +4047,8 @@
       "publishedAt": "2026-05-19T12:00:00.000Z",
       "importance": 136,
       "sourceConfidence": "high",
-      "summaryEngine": "chat-curated"
+      "summaryEngine": "chat-curated",
+      "filterCategory": "general"
     },
     {
       "id": "curated-genesis-gene-265-robotics-2026-05-06",
@@ -3948,7 +4076,8 @@
       "publishedAt": "2026-05-06T13:00:00.000Z",
       "importance": 136,
       "sourceConfidence": "high",
-      "summaryEngine": "chat-curated"
+      "summaryEngine": "chat-curated",
+      "filterCategory": "models"
     },
     {
       "id": "curated-google-search-disregard-ai-overview-2026-05-27",
@@ -3972,7 +4101,8 @@
       "publishedAt": "2026-05-22T13:16:00.000Z",
       "importance": 134,
       "sourceConfidence": "high",
-      "summaryEngine": "chat-curated"
+      "summaryEngine": "chat-curated",
+      "filterCategory": "general"
     },
     {
       "id": "curated-ocean-28m-agentic-email-security-2026-05-21",
@@ -4002,7 +4132,8 @@
       "publishedAt": "2026-05-21T11:45:00.000Z",
       "importance": 134,
       "sourceConfidence": "high",
-      "summaryEngine": "chat-curated"
+      "summaryEngine": "chat-curated",
+      "filterCategory": "funding"
     },
     {
       "id": "curated-mimik-mimoe-studio-agent-workstation-2026-05-27",
@@ -4035,7 +4166,8 @@
       "publishedAt": "2026-05-27T09:00:00.000Z",
       "importance": 132,
       "sourceConfidence": "medium",
-      "summaryEngine": "chat-curated"
+      "summaryEngine": "chat-curated",
+      "filterCategory": "general"
     },
     {
       "id": "curated-figma-native-ai-design-agent-2026-05-27",
@@ -4061,7 +4193,8 @@
       "publishedAt": "2026-05-21T05:56:00.000Z",
       "importance": 132,
       "sourceConfidence": "medium",
-      "summaryEngine": "chat-curated"
+      "summaryEngine": "chat-curated",
+      "filterCategory": "general"
     },
     {
       "id": "curated-jabas-ai-ag-robot-navigation-2026-05-13",
@@ -4089,7 +4222,8 @@
       "publishedAt": "2026-05-13T12:00:00.000Z",
       "importance": 132,
       "sourceConfidence": "medium",
-      "summaryEngine": "chat-curated"
+      "summaryEngine": "chat-curated",
+      "filterCategory": "funding"
     },
     {
       "id": "curated-nanoclaw-12m-secure-agent-sandbox-2026-05-27",
@@ -4119,7 +4253,8 @@
       "publishedAt": "2026-05-20T11:00:00.000Z",
       "importance": 130,
       "sourceConfidence": "high",
-      "summaryEngine": "chat-curated"
+      "summaryEngine": "chat-curated",
+      "filterCategory": "funding"
     },
     {
       "id": "curated-verily-me-health-app-2026-05-15",
@@ -4146,7 +4281,8 @@
       "publishedAt": "2026-05-15T12:00:00.000Z",
       "importance": 130,
       "sourceConfidence": "medium",
-      "summaryEngine": "chat-curated"
+      "summaryEngine": "chat-curated",
+      "filterCategory": "general"
     },
     {
       "id": "curated-farther-150m-series-d-2026-05-21",
@@ -4172,7 +4308,8 @@
       "publishedAt": "2026-05-21T12:00:00.000Z",
       "importance": 128,
       "sourceConfidence": "high",
-      "summaryEngine": "chat-curated"
+      "summaryEngine": "chat-curated",
+      "filterCategory": "funding"
     },
     {
       "id": "curated-google-io-gemini-35-antigravity-2026-05-26",
@@ -4196,7 +4333,8 @@
       "publishedAt": "2026-05-20T12:00:00.000Z",
       "importance": 128,
       "sourceConfidence": "high",
-      "summaryEngine": "chat-curated"
+      "summaryEngine": "chat-curated",
+      "filterCategory": "general"
     },
     {
       "id": "curated-modal-355m-series-c-2026-05-22",
@@ -4223,7 +4361,8 @@
       "publishedAt": "2026-05-22T13:21:58.000Z",
       "importance": 126,
       "sourceConfidence": "medium",
-      "summaryEngine": "chat-curated"
+      "summaryEngine": "chat-curated",
+      "filterCategory": "funding"
     },
     {
       "id": "curated-stable-audio-30-open-weights-2026-05-20",
@@ -4254,7 +4393,8 @@
       "publishedAt": "2026-05-20T12:00:00.000Z",
       "importance": 126,
       "sourceConfidence": "high",
-      "summaryEngine": "chat-curated"
+      "summaryEngine": "chat-curated",
+      "filterCategory": "models"
     },
     {
       "id": "curated-openai-dell-codex-enterprise-2026-05-26",
@@ -4278,7 +4418,8 @@
       "publishedAt": "2026-05-18T12:00:00.000Z",
       "importance": 126,
       "sourceConfidence": "high",
-      "summaryEngine": "chat-curated"
+      "summaryEngine": "chat-curated",
+      "filterCategory": "general"
     },
     {
       "id": "curated-inviah-ai-home-visit-beta-2026-05-07",
@@ -4306,7 +4447,8 @@
       "publishedAt": "2026-05-07T12:00:00.000Z",
       "importance": 126,
       "sourceConfidence": "medium",
-      "summaryEngine": "chat-curated"
+      "summaryEngine": "chat-curated",
+      "filterCategory": "general"
     },
     {
       "id": "curated-zhongke-diwuji-series-a-physical-ai-2026-05-27",
@@ -4335,7 +4477,8 @@
       "publishedAt": "2026-05-27T06:00:00.000Z",
       "importance": 124,
       "sourceConfidence": "medium",
-      "summaryEngine": "chat-curated"
+      "summaryEngine": "chat-curated",
+      "filterCategory": "funding"
     },
     {
       "id": "curated-umg-tiktok-ai-music-renewal-2026-05-26",
@@ -4364,7 +4507,8 @@
       "publishedAt": "2026-05-26T14:55:00.000Z",
       "importance": 124,
       "sourceConfidence": "high",
-      "summaryEngine": "chat-curated"
+      "summaryEngine": "chat-curated",
+      "filterCategory": "pushback"
     },
     {
       "id": "curated-aws-sagemaker-openai-compatible-api-2026-05-26",
@@ -4391,7 +4535,8 @@
       "publishedAt": "2026-05-21T12:00:00.000Z",
       "importance": 124,
       "sourceConfidence": "high",
-      "summaryEngine": "chat-curated"
+      "summaryEngine": "chat-curated",
+      "filterCategory": "general"
     },
     {
       "id": "curated-meta-muse-spark-rollout-2026-05-12",
@@ -4421,7 +4566,8 @@
       "publishedAt": "2026-05-12T14:00:00.000Z",
       "importance": 124,
       "sourceConfidence": "high",
-      "summaryEngine": "chat-curated"
+      "summaryEngine": "chat-curated",
+      "filterCategory": "general"
     },
     {
       "id": "curated-clickup-layoffs-ai-agents-2026-05-26",
@@ -4446,7 +4592,8 @@
       "publishedAt": "2026-05-25T16:00:00.000Z",
       "importance": 122,
       "sourceConfidence": "high",
-      "summaryEngine": "chat-curated"
+      "summaryEngine": "chat-curated",
+      "filterCategory": "funding"
     },
     {
       "id": "curated-qwen-scope-interpretability-2026-05-12",
@@ -4474,7 +4621,8 @@
       "publishedAt": "2026-05-12T10:01:06.000Z",
       "importance": 122,
       "sourceConfidence": "high",
-      "summaryEngine": "chat-curated"
+      "summaryEngine": "chat-curated",
+      "filterCategory": "papers"
     },
     {
       "id": "curated-uber-ai-token-budget-roi-2026-05-26",
@@ -4500,7 +4648,8 @@
       "publishedAt": "2026-05-26T08:00:00.000Z",
       "importance": 120,
       "sourceConfidence": "medium",
-      "summaryEngine": "chat-curated"
+      "summaryEngine": "chat-curated",
+      "filterCategory": "funding"
     },
     {
       "id": "curated-mit-ai-jobs-entry-level-2026-05-26",
@@ -4525,7 +4674,8 @@
       "publishedAt": "2026-05-26T09:00:00.000Z",
       "importance": 118,
       "sourceConfidence": "medium",
-      "summaryEngine": "chat-curated"
+      "summaryEngine": "chat-curated",
+      "filterCategory": "general"
     },
     {
       "id": "curated-caisi-frontier-model-testing-2026-05-05",
@@ -4555,7 +4705,8 @@
       "publishedAt": "2026-05-05T14:11:12.000Z",
       "importance": 118,
       "sourceConfidence": "medium",
-      "summaryEngine": "chat-curated"
+      "summaryEngine": "chat-curated",
+      "filterCategory": "general"
     },
     {
       "id": "curated-therapists-ai-note-taking-2026-05-26",
@@ -4581,7 +4732,8 @@
       "publishedAt": "2026-05-26T09:00:00.000Z",
       "importance": 116,
       "sourceConfidence": "high",
-      "summaryEngine": "chat-curated"
+      "summaryEngine": "chat-curated",
+      "filterCategory": "pushback"
     },
     {
       "id": "curated-anthropic-stainless-acquisition-2026-05-26",
@@ -4608,7 +4760,8 @@
       "publishedAt": "2026-05-18T12:00:00.000Z",
       "importance": 114,
       "sourceConfidence": "high",
-      "summaryEngine": "chat-curated"
+      "summaryEngine": "chat-curated",
+      "filterCategory": "funding"
     },
     {
       "id": "curated-anthropic-kpmg-claude-276k-2026-05-26",
@@ -4632,7 +4785,8 @@
       "publishedAt": "2026-05-19T12:00:00.000Z",
       "importance": 112,
       "sourceConfidence": "high",
-      "summaryEngine": "chat-curated"
+      "summaryEngine": "chat-curated",
+      "filterCategory": "general"
     },
     {
       "id": "curated-ai-startup-funding-q1-2026-record-2026-05-26",
@@ -4660,7 +4814,8 @@
       "publishedAt": "2026-04-01T20:25:00.000Z",
       "importance": 110,
       "sourceConfidence": "high",
-      "summaryEngine": "chat-curated"
+      "summaryEngine": "chat-curated",
+      "filterCategory": "funding"
     },
     {
       "id": "curated-seed-rounds-bigger-series-a-harder-2026-05-26",
@@ -4684,7 +4839,8 @@
       "publishedAt": "2026-05-26T11:00:14.000Z",
       "importance": 108,
       "sourceConfidence": "high",
-      "summaryEngine": "chat-curated"
+      "summaryEngine": "chat-curated",
+      "filterCategory": "funding"
     },
     {
       "id": "curated-meta-ari-robotics-acquisition-2026-05-26",
@@ -4710,7 +4866,8 @@
       "publishedAt": "2026-05-01T22:13:00.000Z",
       "importance": 104,
       "sourceConfidence": "high",
-      "summaryEngine": "chat-curated"
+      "summaryEngine": "chat-curated",
+      "filterCategory": "funding"
     },
     {
       "id": "curated-pentagon-ai-classified-network-deals-2026-05-26",
@@ -4739,7 +4896,8 @@
       "publishedAt": "2026-05-01T16:02:00.000Z",
       "importance": 102,
       "sourceConfidence": "high",
-      "summaryEngine": "chat-curated"
+      "summaryEngine": "chat-curated",
+      "filterCategory": "general"
     },
     {
       "id": "curated-wired-ai-agents-openclaw-2026-05-26",
@@ -4763,7 +4921,8 @@
       "publishedAt": "2026-05-26T10:00:00.000Z",
       "importance": 100,
       "sourceConfidence": "medium",
-      "summaryEngine": "chat-curated"
+      "summaryEngine": "chat-curated",
+      "filterCategory": "general"
     },
     {
       "id": "curated-wired-ai-philosophers-kant-2026-05-26",
@@ -4787,7 +4946,8 @@
       "publishedAt": "2026-05-26T10:00:00.000Z",
       "importance": 98,
       "sourceConfidence": "medium",
-      "summaryEngine": "chat-curated"
+      "summaryEngine": "chat-curated",
+      "filterCategory": "general"
     },
     {
       "id": "curated-mlr-bench-ai-research-agents-2026-05-26",
@@ -4813,7 +4973,8 @@
       "publishedAt": "2025-05-26T13:18:37.000Z",
       "importance": 96,
       "sourceConfidence": "high",
-      "summaryEngine": "chat-curated"
+      "summaryEngine": "chat-curated",
+      "filterCategory": "papers"
     },
     {
       "id": "curated-foresight-arena-ai-forecasting-agents-2026-05-26",
@@ -4839,7 +5000,8 @@
       "publishedAt": "2026-05-01T05:33:10.000Z",
       "importance": 94,
       "sourceConfidence": "high",
-      "summaryEngine": "chat-curated"
+      "summaryEngine": "chat-curated",
+      "filterCategory": "papers"
     },
     {
       "id": "curated-collider-bench-science-agents-2026-05-26",
@@ -4863,7 +5025,8 @@
       "publishedAt": "2026-05-13T18:00:00.000Z",
       "importance": 92,
       "sourceConfidence": "high",
-      "summaryEngine": "chat-curated"
+      "summaryEngine": "chat-curated",
+      "filterCategory": "papers"
     },
     {
       "id": "curated-google-deepmind-antigravity-20-2026-05-26",
@@ -4886,7 +5049,8 @@
       "publishedAt": "2026-05-20T12:00:00.000Z",
       "importance": 88,
       "sourceConfidence": "medium",
-      "summaryEngine": "chat-curated"
+      "summaryEngine": "chat-curated",
+      "filterCategory": "papers"
     },
     {
       "id": "curated-ai-governance-watch-may26-2026",
@@ -4915,7 +5079,8 @@
       "publishedAt": "2026-05-26T12:00:00.000Z",
       "importance": 82,
       "sourceConfidence": "medium",
-      "summaryEngine": "chat-curated"
+      "summaryEngine": "chat-curated",
+      "filterCategory": "general"
     },
     {
       "id": "curated-ipo-comeback-catch",
@@ -4933,7 +5098,8 @@
       "publishedAt": "2026-05-26T11:00:39.000Z",
       "importance": 80,
       "sourceConfidence": "high",
-      "summaryEngine": "chat-curated"
+      "summaryEngine": "chat-curated",
+      "filterCategory": "funding"
     },
     {
       "id": "curated-sportai-padelytics-acquisition",
@@ -4953,7 +5119,8 @@
       "publishedAt": "2026-05-26T01:40:34.000Z",
       "importance": 78,
       "sourceConfidence": "medium",
-      "summaryEngine": "chat-curated"
+      "summaryEngine": "chat-curated",
+      "filterCategory": "funding"
     },
     {
       "id": "curated-amdocs-yess-acquisition",
@@ -4975,7 +5142,8 @@
       "publishedAt": "2026-05-25T08:00:00.000Z",
       "importance": 76,
       "sourceConfidence": "high",
-      "summaryEngine": "chat-curated"
+      "summaryEngine": "chat-curated",
+      "filterCategory": "funding"
     },
     {
       "id": "curated-mercury-200m-5-2b",
@@ -4997,7 +5165,8 @@
       "publishedAt": "2026-05-20T19:15:47.000Z",
       "importance": 74,
       "sourceConfidence": "high",
-      "summaryEngine": "chat-curated"
+      "summaryEngine": "chat-curated",
+      "filterCategory": "funding"
     },
     {
       "id": "curated-unframe-50m-100m-contracts",
@@ -5017,7 +5186,8 @@
       "publishedAt": "2026-05-19T12:00:00.000Z",
       "importance": 72,
       "sourceConfidence": "medium",
-      "summaryEngine": "chat-curated"
+      "summaryEngine": "chat-curated",
+      "filterCategory": "funding"
     },
     {
       "id": "curated-exa-labs-250m",
@@ -5037,7 +5207,8 @@
       "publishedAt": "2026-05-20T00:00:00.000Z",
       "importance": 70,
       "sourceConfidence": "medium",
-      "summaryEngine": "chat-curated"
+      "summaryEngine": "chat-curated",
+      "filterCategory": "funding"
     },
     {
       "id": "curated-torq-jit-70m",
@@ -5057,7 +5228,8 @@
       "publishedAt": "2026-05-19T17:12:00.000Z",
       "importance": 68,
       "sourceConfidence": "medium",
-      "summaryEngine": "chat-curated"
+      "summaryEngine": "chat-curated",
+      "filterCategory": "funding"
     },
     {
       "id": "curated-mistral-emmi",
@@ -5077,7 +5249,8 @@
       "publishedAt": "2026-05-20T12:00:00.000Z",
       "importance": 66,
       "sourceConfidence": "medium",
-      "summaryEngine": "chat-curated"
+      "summaryEngine": "chat-curated",
+      "filterCategory": "funding"
     },
     {
       "id": "curated-aws-bedrock-agentcore-bi",
@@ -5096,7 +5269,8 @@
       "publishedAt": "2026-05-21T16:04:17.000Z",
       "importance": 64,
       "sourceConfidence": "medium",
-      "summaryEngine": "chat-curated"
+      "summaryEngine": "chat-curated",
+      "filterCategory": "general"
     },
     {
       "id": "curated-howard-ai-network-aws",
@@ -5116,7 +5290,8 @@
       "publishedAt": "2026-05-21T17:39:05.000Z",
       "importance": 62,
       "sourceConfidence": "medium",
-      "summaryEngine": "chat-curated"
+      "summaryEngine": "chat-curated",
+      "filterCategory": "papers"
     },
     {
       "id": "curated-ai-radiology-agents-aws",
@@ -5136,7 +5311,8 @@
       "publishedAt": "2026-05-21T19:11:09.000Z",
       "importance": 60,
       "sourceConfidence": "medium",
-      "summaryEngine": "chat-curated"
+      "summaryEngine": "chat-curated",
+      "filterCategory": "general"
     },
     {
       "id": "curated-financial-stability-ai-architecture",
@@ -5155,7 +5331,8 @@
       "publishedAt": "2026-05-24T23:10:03.000Z",
       "importance": 58,
       "sourceConfidence": "medium",
-      "summaryEngine": "chat-curated"
+      "summaryEngine": "chat-curated",
+      "filterCategory": "general"
     },
     {
       "id": "curated-farmers-using-ai",
@@ -5173,7 +5350,8 @@
       "publishedAt": "2026-05-26T07:02:46.000Z",
       "importance": 56,
       "sourceConfidence": "medium",
-      "summaryEngine": "chat-curated"
+      "summaryEngine": "chat-curated",
+      "filterCategory": "general"
     },
     {
       "id": "curated-ai-medical-curriculum",
@@ -5193,7 +5371,8 @@
       "publishedAt": "2026-05-25T17:33:18.000Z",
       "importance": 54,
       "sourceConfidence": "medium",
-      "summaryEngine": "chat-curated"
+      "summaryEngine": "chat-curated",
+      "filterCategory": "general"
     },
     {
       "id": "curated-ai-writing-slate",
@@ -5212,7 +5391,8 @@
       "publishedAt": "2026-05-24T09:45:00.000Z",
       "importance": 52,
       "sourceConfidence": "medium",
-      "summaryEngine": "chat-curated"
+      "summaryEngine": "chat-curated",
+      "filterCategory": "general"
     },
     {
       "id": "curated-ai-content-regulation-ohio",
@@ -5231,7 +5411,8 @@
       "publishedAt": "2026-05-23T20:10:40.000Z",
       "importance": 50,
       "sourceConfidence": "medium",
-      "summaryEngine": "chat-curated"
+      "summaryEngine": "chat-curated",
+      "filterCategory": "pushback"
     },
     {
       "id": "curated-procurement-sciences-highergov",
@@ -5253,7 +5434,8 @@
       "publishedAt": "2026-05-20T14:00:00.000Z",
       "importance": 48,
       "sourceConfidence": "high",
-      "summaryEngine": "chat-curated"
+      "summaryEngine": "chat-curated",
+      "filterCategory": "funding"
     },
     {
       "id": "curated-iks-arai-acquisition",
@@ -5276,7 +5458,8 @@
       "publishedAt": "2026-05-13T07:00:00.000Z",
       "importance": 46,
       "sourceConfidence": "high",
-      "summaryEngine": "chat-curated"
+      "summaryEngine": "chat-curated",
+      "filterCategory": "funding"
     },
     {
       "id": "curated-martha-stewart-hint-10m",
@@ -5296,7 +5479,8 @@
       "publishedAt": "2026-05-19T11:43:00.000Z",
       "importance": 44,
       "sourceConfidence": "medium",
-      "summaryEngine": "chat-curated"
+      "summaryEngine": "chat-curated",
+      "filterCategory": "funding"
     },
     {
       "id": "curated-agent-research-skillret",
@@ -5316,7 +5500,8 @@
       "publishedAt": "2026-05-07T00:00:00.000Z",
       "importance": 42,
       "sourceConfidence": "high",
-      "summaryEngine": "chat-curated"
+      "summaryEngine": "chat-curated",
+      "filterCategory": "papers"
     },
     {
       "id": "curated-agentscout-arxiv-week",
@@ -5336,7 +5521,8 @@
       "publishedAt": "2026-05-14T00:00:00.000Z",
       "importance": 40,
       "sourceConfidence": "medium",
-      "summaryEngine": "chat-curated"
+      "summaryEngine": "chat-curated",
+      "filterCategory": "papers"
     }
   ],
   "errors": []

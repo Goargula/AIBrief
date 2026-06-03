@@ -1,6 +1,7 @@
 const STORAGE_KEY = "ai-brief-state-v2";
 const INITIAL_RENDER_COUNT = 10;
 const RENDER_BATCH = 8;
+const FILTER_CATEGORIES = new Set(["funding", "models", "papers", "pushback", "general"]);
 
 const state = {
   items: [],
@@ -23,6 +24,7 @@ const fallbackItems = [
     imageUrl: "/visual.svg?lane=news&title=Frontier%20model%20release",
     sourceName: "Sample Brief",
     lane: "news",
+    filterCategory: "models",
     publishedAt: new Date().toISOString(),
     importance: 112
   },
@@ -34,6 +36,7 @@ const fallbackItems = [
     imageUrl: "/visual.svg?lane=papers&title=Long-context%20retrieval",
     sourceName: "Sample Paper",
     lane: "papers",
+    filterCategory: "papers",
     publishedAt: new Date(Date.now() - 2 * 36e5).toISOString(),
     importance: 86
   },
@@ -45,6 +48,7 @@ const fallbackItems = [
     imageUrl: "/visual.svg?lane=startups&title=AI%20infrastructure%20funding",
     sourceName: "Sample Startup",
     lane: "startups",
+    filterCategory: "funding",
     publishedAt: new Date(Date.now() - 4 * 36e5).toISOString(),
     importance: 79
   }
@@ -122,8 +126,8 @@ function storySearchText(item) {
     item.fullSummary,
     item.sourceName,
     item.lane,
-    ...(item.keyFacts || []),
-    ...(item.relatedSources || [])
+    ...(Array.isArray(item.keyFacts) ? item.keyFacts : []),
+    ...(Array.isArray(item.relatedSources) ? item.relatedSources : [])
   ]
     .filter(Boolean)
     .join(" ")
@@ -131,28 +135,38 @@ function storySearchText(item) {
 }
 
 function storyFilterType(item) {
-  const text = storySearchText(item);
+  if (FILTER_CATEGORIES.has(item.filterCategory)) return item.filterCategory;
 
-  if (item.lane === "papers" || /\b(arxiv|paper|research paper|benchmark|dataset|evaluation|study)\b/.test(text)) {
-    return "papers";
-  }
+  const text = storySearchText(item);
+  const headlineText = [
+    item.title,
+    ...(Array.isArray(item.keyFacts) ? item.keyFacts : [])
+  ]
+    .filter(Boolean)
+    .join(" ")
+    .toLowerCase();
+  const titleText = String(item.title || "").toLowerCase();
 
   if (
-    item.lane === "deals" ||
-    /\b(raised|raises|funding|funded|series [a-z]|seed round|venture|valuation|invested|investment|acquir(?:e|es|ed|ing)|acquisition|merger|m&a|ipo|initial public offering|public listing|going public)\b/.test(text)
+    /\b(raised|raises|funding|funded|series [a-z]|seed round|venture|valuation|invested|investment|acquire|acquires|acquired|acquisition|merger|m&a|ipo|initial public offering|public listing|going public)\b/.test(text)
   ) {
     return "funding";
   }
 
+  if (/\b(pushback|backlash|lawsuit|sued|sues|ban|blocked|protest|opposition|criticism|criticized|copyright|privacy|security risk|moratorium|strike|layoff|job loss|environmental|unauthorized|regulation|regulator)\b/.test(headlineText) || /\b(pushback|backlash|lawsuit|sued|sues|protest|opposition|moratorium|strike|unauthorized)\b/.test(text)) {
+    return "pushback";
+  }
+
   if (
-    /\b(model release|released|launch(?:ed|es)?|unveil(?:ed|s)?|debut(?:ed|s)?|introduc(?:ed|es)|preview|open-weight|checkpoint|api)\b/.test(text) &&
-    /\b(model|gpt|claude|gemini|llama|mistral|deepseek|qwen|grok|command|holo|diffusion|embedding|reasoning|audio|video|image)\b/.test(text)
+    !/\bmodel context protocol\b/.test(text) &&
+    (/\b(model release|released|launch(?:ed|es)?|ship(?:ped|s)?|unveil(?:ed|s)?|debut(?:ed|s)?|introduc(?:ed|es)|preview|open-weight|checkpoint|access)\b/.test(titleText) || /\b(open-weight|checkpoint|model release)\b/.test(text)) &&
+    /\b(model|gpt|claude|gemini|llama|mistral|deepseek|qwen|grok|holo|mai-|weathermesh|diffusion|embedding|reasoning|audio|video|image)\b/.test(headlineText)
   ) {
     return "models";
   }
 
-  if (/\b(pushback|backlash|lawsuit|sued|sues|ban|blocked|protest|opposition|criticism|criticized|copyright|privacy|safety|security risk|regulator|regulatory|warning|concern|moratorium|strike|layoff|job loss|energy|water|environmental)\b/.test(text)) {
-    return "pushback";
+  if (item.lane === "papers" || /\b(arxiv|chatpaper|preprint|research paper|paper|benchmark|dataset|evaluation method|eval|leaderboard)\b/.test(text)) {
+    return "papers";
   }
 
   return "general";

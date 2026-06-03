@@ -33,6 +33,7 @@ Use `REFRESH_FEED_WITH_CHAT.md` whenever the feed needs to be refreshed this way
 1. Fetch current AI news, papers, funding rounds, acquisitions, policy stories, and product launches.
 2. Merge duplicate coverage into one story.
 3. Write each story with a short summary, a longer `fullSummary`, exact `keyFacts`, source links, and `summaryEngine: "chat-curated"`.
+   Include `filterCategory` for each story as one of `funding`, `models`, `papers`, `pushback`, or `general`; the filter UI uses this field first.
 4. Save the result to `public/curated-feed.json`.
 5. Restart the local server and check `/api/feed`.
 

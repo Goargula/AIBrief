@@ -19,6 +19,7 @@ const OPENAI_SUMMARY_WEB_SEARCH = process.env.OPENAI_SUMMARY_WEB_SEARCH !== "0";
 const OPENAI_SUMMARY_MAX_ITEMS = Number(process.env.OPENAI_SUMMARY_MAX_ITEMS || 250);
 const OPENAI_SUMMARY_CONCURRENCY = Math.max(1, Number(process.env.OPENAI_SUMMARY_CONCURRENCY || 4));
 const OPENAI_SUMMARY_TIMEOUT_MS = Number(process.env.OPENAI_SUMMARY_TIMEOUT_MS || 45000);
+const FILTER_CATEGORIES = new Set(["funding", "models", "papers", "pushback", "general"]);
 
 const sources = [
   {
@@ -131,6 +132,61 @@ function loadEnvFile(filePath) {
   }
 }
 
+function storySearchText(item = {}) {
+  return [
+    item.title,
+    item.summary,
+    item.fullSummary,
+    item.sourceName,
+    item.lane,
+    ...(Array.isArray(item.keyFacts) ? item.keyFacts : []),
+    ...(Array.isArray(item.relatedSources) ? item.relatedSources : [])
+  ]
+    .filter(Boolean)
+    .join(" ")
+    .toLowerCase();
+}
+
+function inferFilterCategory(item = {}) {
+  const text = storySearchText(item);
+  const headlineText = [
+    item.title,
+    ...(Array.isArray(item.keyFacts) ? item.keyFacts : [])
+  ]
+    .filter(Boolean)
+    .join(" ")
+    .toLowerCase();
+  const titleText = String(item.title || "").toLowerCase();
+
+  if (
+    /\b(raised|raises|funding|funded|series [a-z]|seed round|venture|valuation|invested|investment|acquire|acquires|acquired|acquisition|merger|m&a|ipo|initial public offering|public listing|going public)\b/.test(text)
+  ) {
+    return "funding";
+  }
+
+  if (/\b(pushback|backlash|lawsuit|sued|sues|ban|blocked|protest|opposition|criticism|criticized|copyright|privacy|security risk|moratorium|strike|layoff|job loss|environmental|unauthorized|regulation|regulator)\b/.test(headlineText) || /\b(pushback|backlash|lawsuit|sued|sues|protest|opposition|moratorium|strike|unauthorized)\b/.test(text)) {
+    return "pushback";
+  }
+
+  if (
+    !/\bmodel context protocol\b/.test(text) &&
+    (/\b(model release|released|launch(?:ed|es)?|ship(?:ped|s)?|unveil(?:ed|s)?|debut(?:ed|s)?|introduc(?:ed|es)|preview|open-weight|checkpoint|access)\b/.test(titleText) || /\b(open-weight|checkpoint|model release)\b/.test(text)) &&
+    /\b(model|gpt|claude|gemini|llama|mistral|deepseek|qwen|grok|holo|mai-|weathermesh|diffusion|embedding|reasoning|audio|video|image)\b/.test(headlineText)
+  ) {
+    return "models";
+  }
+
+  if (item.lane === "papers" || /\b(arxiv|chatpaper|preprint|research paper|paper|benchmark|dataset|evaluation method|eval|leaderboard)\b/.test(text)) {
+    return "papers";
+  }
+
+  return "general";
+}
+
+function normalizeFilterCategory(value, item) {
+  return FILTER_CATEGORIES.has(value) ? value : inferFilterCategory(item);
+}
+
 async function loadCuratedFeed() {
   try {
     const payload = JSON.parse(await readFile(curatedFeedPath, "utf8"));
@@ -148,6 +204,7 @@ async function loadCuratedFeed() {
         url: item.url || "#",
         sourceName: item.sourceName || "Curated Feed",
         lane: item.lane || "news",
+        filterCategory: normalizeFilterCategory(item.filterCategory, item),
         publishedAt: item.publishedAt || payload.generatedAt || new Date().toISOString(),
         importance: Number(item.importance || 100 - index),
         relatedSources: item.relatedSources || undefined,
@@ -1138,16 +1195,20 @@ async function refreshFeeds() {
     .map((item) => ({ ...item, importance: scoreItem(item) }))
     .sort((a, b) => b.importance - a.importance || new Date(b.publishedAt) - new Date(a.publishedAt)));
   const summarized = await summarizeItemsWithModel(mergedItems, errors);
+  const items = summarized.items.map((item) => ({
+    ...item,
+    filterCategory: normalizeFilterCategory(item.filterCategory, item)
+  }));
 
   cache = {
     generatedAt: new Date().toISOString(),
     nextRefreshAt: new Date(Date.now() + REFRESH_MS).toISOString(),
-    items: summarized.items,
+    items,
     errors,
     summaryEngine: summarized.summaryEngine
   };
 
-  console.log(`Loaded ${summarized.items.length} AI updates with ${errors.length} source errors. Summaries: ${summarized.summaryEngine}.`);
+  console.log(`Loaded ${items.length} AI updates with ${errors.length} source errors. Summaries: ${summarized.summaryEngine}.`);
 }
 
 async function ensureFresh(force = false) {

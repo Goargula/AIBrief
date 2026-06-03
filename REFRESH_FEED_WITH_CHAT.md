@@ -18,7 +18,7 @@ The app serves `public/curated-feed.json` first when the file exists. No OpenAI 
 
 ```powershell
 $payload = Invoke-RestMethod -Uri 'http://localhost:4173/api/feed?refresh=1' -TimeoutSec 100
-$payload.items | Select-Object title,sourceName,lane,publishedAt,url,summary,keyFacts,relatedSources | ConvertTo-Json -Depth 8
+$payload.items | Select-Object title,sourceName,lane,filterCategory,publishedAt,url,summary,keyFacts,relatedSources | ConvertTo-Json -Depth 8
 ```
 
 2. Load the existing `public/curated-feed.json` before writing. Preserve older items and append/merge new items into the existing list.
@@ -80,6 +80,12 @@ If the refresh window is roughly 24 hours and fewer than 15-20 quality candidate
 - `summary`: one or two punchy sentences with the core fact.
 - `fullSummary`: a fuller 100-180 word explanation with the key numbers, named companies/people, context, why it matters, and what to watch.
 - `keyFacts`: exact numbers, dates, funding amounts, valuations, acquisition prices, model names, institutions, or round names.
+- `filterCategory`: exactly one of `funding`, `models`, `papers`, `pushback`, or `general`. Choose the best reader-facing filter match for the whole story, not every keyword it happens to mention:
+  - `funding`: startup funding, strategic investments, acquisitions, mergers, IPOs, public listings, and liquidity/financing market stories.
+  - `models`: new or materially updated AI model releases, previews, checkpoints, open-weight releases, benchmarked model updates, and model/API launches.
+  - `papers`: research papers, arXiv/preprint items, benchmarks, datasets, evaluation methods, and academic/research-lab findings.
+  - `pushback`: AI backlash, lawsuits, bans, labor disputes, copyright/privacy complaints, regulation, public opposition, safety/security warnings, environmental concerns, and other resistance or risk stories.
+  - `general`: everything else, including ordinary product launches, infrastructure, partnerships, deployments, applications, and broad AI news that is not a better fit above.
 - `sourceConfidence`: `high`, `medium`, or `low`.
 - `summaryEngine`: `chat-curated`.
 
@@ -102,7 +108,8 @@ public/curated-feed.json
 ```powershell
 Invoke-RestMethod -Uri 'http://localhost:4173/api/feed' | Select-Object summaryEngine,curated,generatedAt
 $payload = Invoke-RestMethod -Uri 'http://localhost:4173/api/feed'
-$payload.items | Sort-Object {[datetime]$_.publishedAt} -Descending | Select-Object -First 8 title,publishedAt,sourceName,lane
+$payload.items | Sort-Object {[datetime]$_.publishedAt} -Descending | Select-Object -First 8 title,publishedAt,sourceName,lane,filterCategory
+$payload.items | Group-Object filterCategory | Sort-Object Count -Descending | Select-Object Count,Name
 ```
 
 11. Open the app and check the first card plus `Read more` when browser automation is available. If browser automation is blocked, say that and rely on JSON plus HTTP endpoint verification.
