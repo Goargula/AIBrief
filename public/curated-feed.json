@@ -1,9 +1,669 @@
 {
-  "generatedAt": "2026-06-03T07:33:19.345Z",
-  "nextRefreshAt": "2026-06-03T10:33:19.345Z",
+  "generatedAt": "2026-06-03T07:51:47.908Z",
+  "nextRefreshAt": "2026-06-03T10:51:47.908Z",
   "summaryEngine": "chat-curated",
   "curated": true,
   "items": [
+    {
+      "id": "curated-netris-nvidia-dsx-air-apac-ai-factory-networking-2026-06-02",
+      "title": "Netris expands Nvidia DSX Air networking for APAC AI factories",
+      "summary": "Netris said its network automation and multi-tenancy platform is expanding on Nvidia DSX Air across APAC neoclouds, sovereign AI providers, and AI factories.",
+      "fullSummary": "This is the kind of infrastructure story that should not have been missed in a thorough sweep. Netris announced at GTC Taipei/Computex that its NAAM platform, short for Network Automation, Abstraction, and Multi-Tenancy, is expanding on Nvidia DSX Air across APAC AI infrastructure operators. The company says APAC customers include Firmus, which operates a renewable-powered sovereign AI factory in Australia, and Visionbay.ai, described as an Nvidia Cloud Partner and Taiwan's largest GPU cluster and AI supercomputing center. The relevance is that AI buildouts increasingly hinge on networking operations, tenant isolation, and automation, not only GPU supply. This is a medium-confidence inclusion because the source is a company announcement, but it fills the neocloud and sovereign-compute lane.",
+      "keyFacts": [
+        "June 2, 2026",
+        "Netris",
+        "Nvidia DSX Air",
+        "NAAM",
+        "APAC AI infrastructure",
+        "sovereign AI providers",
+        "AI factories",
+        "Firmus",
+        "Visionbay.ai",
+        "GTC Taipei",
+        "Computex 2026"
+      ],
+      "url": "https://www.streetinsider.com/Business%2BWire/Netris%2BExpands%2BNVIDIA%2BDSX%2BAir%2Band%2BNetwork%2BAutomation%2BIntegration%2BAcross%2BAPAC%2BAI%2BInfrastructure/26593994.html",
+      "sourceName": "Business Wire / StreetInsider",
+      "relatedSources": [
+        "Business Wire",
+        "StreetInsider",
+        "Nvidia DSX Air"
+      ],
+      "lane": "news",
+      "publishedAt": "2026-06-03T00:30:00.000Z",
+      "importance": 184,
+      "sourceConfidence": "medium",
+      "summaryEngine": "chat-curated"
+    },
+    {
+      "id": "curated-in2ition-iris-always-on-ai-meeting-companion-2026-06-02",
+      "title": "In2ition launches Iris as a live AI participant for meetings and demos",
+      "summary": "In2ition AI launched Iris, an always-on conversational companion that joins live meetings, guides demos, runs webinars, and supports recruiting and training workflows.",
+      "fullSummary": "Iris is a smaller product story, but it belongs in a comprehensive refresh because it shows where conversational AI is moving beyond transcription. In2ition AI says Iris participates in live conversations across Zoom, Google Meet, and Microsoft Teams instead of only summarizing calls after the fact. The company frames the system as an always-on AI companion for sales, recruiting, training, coaching, and customer engagement, with autonomous webinar and interactive demo use cases. This is not a frontier-lab story, and it is sourced primarily from the company's announcement, so confidence is medium. The reason it matters is that live, agentic meeting participation is becoming a distinct workflow category with different safety, consent, and reliability issues than ordinary note-taking bots.",
+      "keyFacts": [
+        "June 2, 2026",
+        "In2ition AI",
+        "Iris",
+        "Always-On AI Companion",
+        "Zoom",
+        "Google Meet",
+        "Microsoft Teams",
+        "autonomous webinars",
+        "live conversation participation"
+      ],
+      "url": "https://www.prnewswire.com/news-releases/in2ition-ai-launches-iris-the-always-on-ai-companion-that-participates-in-conversations-instead-of-analyzing-them-after-they-end-302789131.html",
+      "sourceName": "PR Newswire / In2ition AI",
+      "relatedSources": [
+        "PR Newswire",
+        "In2ition AI"
+      ],
+      "lane": "news",
+      "publishedAt": "2026-06-02T20:29:00.000Z",
+      "importance": 156,
+      "sourceConfidence": "medium",
+      "summaryEngine": "chat-curated"
+    },
+    {
+      "id": "curated-rubrik-claude-mythos-glasswing-cyber-resilience-2026-06-02",
+      "title": "Rubrik gets Claude Mythos access for defensive vulnerability work",
+      "summary": "Rubrik joined Anthropic's Project Glasswing and will test Claude Mythos Research Preview to identify, vet, and patch vulnerabilities in its enterprise platform.",
+      "fullSummary": "Rubrik's inclusion in Project Glasswing adds a concrete enterprise-security example to the broader Anthropic story already in the feed. Rubrik says it has been granted access to Claude Mythos Research Preview to test the frontier cyber model defensively across its platform and product suites. The announcement matters because Glasswing is not just a policy argument about model release; it is turning into a partner-by-partner deployment pattern for critical software maintainers and security vendors. The important caveat is that Rubrik is announcing its own access and expected use, so independent results are not yet available. Still, the story helps readers see which kinds of vendors are being trusted with controlled Mythos access.",
+      "keyFacts": [
+        "June 2, 2026",
+        "Rubrik",
+        "Anthropic",
+        "Project Glasswing",
+        "Claude Mythos Research Preview",
+        "defensive vulnerability discovery",
+        "cyber resilience",
+        "enterprise platform testing"
+      ],
+      "url": "https://www.rubrik.com/company/newsroom/press-releases/26/rubrik-anthropic-project-glasswing",
+      "sourceName": "Rubrik",
+      "relatedSources": [
+        "Rubrik",
+        "Anthropic Project Glasswing",
+        "Business Wire"
+      ],
+      "lane": "news",
+      "publishedAt": "2026-06-02T18:46:00.000Z",
+      "importance": 176,
+      "sourceConfidence": "medium",
+      "summaryEngine": "chat-curated"
+    },
+    {
+      "id": "curated-cisco-agentic-platform-critical-it-infrastructure-2026-06-02",
+      "title": "Cisco pitches an agentic platform for operating and defending critical IT",
+      "summary": "Cisco announced agentic security and infrastructure tools at Cisco Live, including AI Defense, Zero Trust for agents, Agentic SOC features, and quantum-safe secure boot for new devices.",
+      "fullSummary": "Cisco's announcement is a major enterprise-infrastructure signal: large incumbents are packaging AI agents as both operators and defenders of production IT. At Cisco Live, the company said organizations must act and defend at machine speed in an agentic AI world. Its update spans AI Defense, Zero Trust for agents, Agentic SOC, and Cisco IQ peer benchmarking for risks such as end-of-support exposure and vulnerability rates. Cisco also says newly introduced campus, branch, data center router, switch, and firewall series will launch with quantum-safe secure boot. The story is medium-confidence because most details come from Cisco's own newsroom, but it fills the critical-infrastructure and agent-security lane that the first pass undercovered.",
+      "keyFacts": [
+        "June 2, 2026",
+        "Cisco Live US",
+        "Cisco",
+        "AI Defense",
+        "Zero Trust for agents",
+        "Agentic SOC",
+        "Cisco IQ",
+        "quantum-safe secure boot",
+        "critical IT infrastructure"
+      ],
+      "url": "https://newsroom.cisco.com/c/r/newsroom/en/us/a/y2026/m06/cisco-unveils-agentic-platform-for-operating-and-defending-critical-it-infrastructure.html",
+      "sourceName": "Cisco",
+      "relatedSources": [
+        "Cisco"
+      ],
+      "lane": "news",
+      "publishedAt": "2026-06-02T18:00:00.000Z",
+      "importance": 186,
+      "sourceConfidence": "medium",
+      "summaryEngine": "chat-curated"
+    },
+    {
+      "id": "curated-mayo-microsoft-frontier-ai-healthcare-model-2026-06-02",
+      "title": "Mayo Clinic and Microsoft start work on a frontier healthcare AI model",
+      "summary": "Mayo Clinic and Microsoft announced a collaboration to build a frontier AI model for healthcare using Mayo expertise, de-identified clinical data, and Microsoft's AI and cloud stack.",
+      "fullSummary": "This should have been in the first pass because it is exactly the kind of applied AI story the runbook calls out. Microsoft says the collaboration will combine Mayo Clinic's healthcare expertise, de-identified clinical health data, and longitudinal insights with Microsoft's AI, cloud, engineering, and superintelligence capabilities. The announcement is still early and does not claim a deployed clinical product, so the right framing is research and model development rather than patient-care impact. It matters because healthcare foundation models need longitudinal, clinically grounded data and strong institutional governance. Mayo is one of the few medical institutions with enough scale and credibility for this kind of partnership to become a reference point for the sector.",
+      "keyFacts": [
+        "June 2, 2026",
+        "Mayo Clinic",
+        "Microsoft",
+        "frontier AI model for healthcare",
+        "de-identified clinical health data",
+        "longitudinal clinical insights",
+        "Microsoft cloud",
+        "healthcare AI"
+      ],
+      "url": "https://news.microsoft.com/source/2026/06/02/mayo-clinic-and-microsoft-collaborate-to-develop-a-frontier-ai-model-for-healthcare/",
+      "sourceName": "Microsoft Source",
+      "relatedSources": [
+        "Microsoft",
+        "Mayo Clinic"
+      ],
+      "lane": "deals",
+      "publishedAt": "2026-06-02T17:30:00.000Z",
+      "importance": 191,
+      "sourceConfidence": "high",
+      "summaryEngine": "chat-curated"
+    },
+    {
+      "id": "curated-first-foundation-labs-microsoft-discovery-life-sciences-ai-2026-06-02",
+      "title": "First Foundation Labs brings clinical reasoning AI to Microsoft Discovery",
+      "summary": "First Foundation Labs, spun out of Luma Group, announced a Microsoft collaboration to deploy its life-sciences reasoning platform through Microsoft Discovery on Azure.",
+      "fullSummary": "First Foundation Labs is a practical life-sciences AI story adjacent to the Mayo-Microsoft announcement. The company says it is building an AI-powered reasoning platform for clinical, translational, and cross-domain life-sciences decisions, and will work with Microsoft to accelerate development and enterprise deployment through Microsoft Discovery on Azure. The story is medium-confidence because it is a company announcement, but it points to a real pattern: major clouds are trying to become operating environments for scientific agents and research workflows, not just generic compute providers. What to watch is whether these platforms produce validated research acceleration or mostly serve as enterprise packaging for existing AI workflows.",
+      "keyFacts": [
+        "June 2, 2026",
+        "First Foundation Labs",
+        "Luma Group",
+        "Microsoft Discovery",
+        "Azure",
+        "life sciences AI",
+        "clinical reasoning",
+        "translational reasoning",
+        "enterprise deployment"
+      ],
+      "url": "https://www.prnewswire.com/news-releases/first-foundation-labs-founded-by-luma-group-collaborates-with-microsoft-to-bring-ai-powered-clinical-and-translational-reasoning-to-microsoft-discovery-302789175.html",
+      "sourceName": "PR Newswire / First Foundation Labs",
+      "relatedSources": [
+        "PR Newswire",
+        "First Foundation Labs",
+        "Microsoft Discovery"
+      ],
+      "lane": "deals",
+      "publishedAt": "2026-06-02T17:20:00.000Z",
+      "importance": 169,
+      "sourceConfidence": "medium",
+      "summaryEngine": "chat-curated"
+    },
+    {
+      "id": "curated-snowflake-anthropic-governed-enterprise-ai-demand-2026-06-01",
+      "title": "Snowflake and Anthropic deepen governed AI push at Summit 26",
+      "summary": "Snowflake and Anthropic used Snowflake Summit 26 to highlight rising demand for governed AI, expanding their partnership around enterprise Claude adoption inside data workflows.",
+      "fullSummary": "Snowflake and Anthropic are not a brand-new relationship, but the June 1 Summit update belongs in a thorough 48-hour sweep because it shows enterprise AI moving through governed data platforms. Snowflake says the companies are seeing significant momentum in their strategic partnership, driven by demand for governed AI. The announcement sits beside Snowflake's broader push to make AI usable inside enterprise data workflows without moving sensitive data around. It is a medium-confidence inclusion because partnership-momentum releases are usually promotional, but the broader trend is important: model labs need distribution through trusted data platforms, and data platforms need frontier models to keep enterprise customers from building AI layers elsewhere.",
+      "keyFacts": [
+        "June 1, 2026",
+        "Snowflake Summit 26",
+        "Snowflake",
+        "Anthropic",
+        "governed AI",
+        "enterprise Claude adoption",
+        "AI Data Cloud",
+        "strategic partnership momentum"
+      ],
+      "url": "https://www.snowflake.com/en/news/press-releases/snowflake-and-anthropic-accelerate-enterprise-ai-adoption-driven-by-rising-demand-for-governed-ai/",
+      "sourceName": "Snowflake",
+      "relatedSources": [
+        "Snowflake",
+        "Anthropic"
+      ],
+      "lane": "deals",
+      "publishedAt": "2026-06-02T17:10:00.000Z",
+      "importance": 172,
+      "sourceConfidence": "medium",
+      "summaryEngine": "chat-curated"
+    },
+    {
+      "id": "curated-relationalai-snowflake-agentic-decision-intelligence-2026-06-02",
+      "title": "RelationalAI adds reasoners and post-training for Snowflake decision agents",
+      "summary": "RelationalAI announced new Rel capabilities for Snowflake, including governed enterprise context, predictive and prescriptive reasoners, conversational decision intelligence, and push-button post-training.",
+      "fullSummary": "RelationalAI's Snowflake Summit announcement is a good example of a missed enterprise-agent story. The company says its Rel system now gives Snowflake customers a governed model of how the business works, prescriptive reasoners for constrained optimization, predictive reasoners using graph neural networks, conversational decision intelligence inside Snowflake CoWork, and private-preview post-training for specializing open-source LLMs on enterprise data. The claims are company-provided, so confidence is medium. Still, this is meaningful because it is not another chatbot wrapper: it is aimed at decision agents for pricing, supply chain, network operations, resource allocation, demand, churn, and asset failure. Those are exactly the operational AI applications a comprehensive feed should track.",
+      "keyFacts": [
+        "June 2, 2026",
+        "RelationalAI",
+        "Snowflake Summit 26",
+        "Rel",
+        "Snowflake AI Data Cloud",
+        "prescriptive reasoner",
+        "predictive reasoner",
+        "Snowflake CoWork",
+        "push-button post-training",
+        "Open Semantic Interchange"
+      ],
+      "url": "https://www.globenewswire.com/news-release/2026/06/02/3305546/0/en/relationalai-closes-the-ai-value-gap-with-new-agentic-decision-intelligence-capabilities-for-the-snowflake-ai-data-cloud.html",
+      "sourceName": "GlobeNewswire / RelationalAI",
+      "relatedSources": [
+        "GlobeNewswire",
+        "RelationalAI",
+        "Snowflake"
+      ],
+      "lane": "news",
+      "publishedAt": "2026-06-02T15:00:00.000Z",
+      "importance": 174,
+      "sourceConfidence": "medium",
+      "summaryEngine": "chat-curated"
+    },
+    {
+      "id": "curated-tuskira-quell-agentic-zero-day-defense-2026-06-02",
+      "title": "Tuskira launches Quell to test reachable zero-day exposure before patches land",
+      "summary": "Tuskira launched Quell, an AI-agent capability that checks whether emerging zero-days are reachable, whether existing controls block them, and what compensating control would close the path.",
+      "fullSummary": "Quell is a security-operations story that fits the same June 2 pattern as Project Glasswing, Cisco, Workday, and ZeroDrift: agentic AI is being packaged as a control plane for risk. Tuskira says Quell validates whether existing security controls would stop an emerging exploit, identifies defenses being bypassed, and orchestrates compensating control changes before a patch is available. The company launched the capability at the Gartner Security & Risk Management Summit 2026. This is medium-confidence because details come from a Business Wire-distributed company announcement, but the topic is important: the window between disclosure and patching is exactly where AI-assisted attackers and defenders are racing.",
+      "keyFacts": [
+        "June 2, 2026",
+        "Tuskira",
+        "Quell",
+        "Agentic SecOps",
+        "zero-day defense",
+        "reachable vulnerabilities",
+        "compensating controls",
+        "Gartner Security & Risk Management Summit 2026"
+      ],
+      "url": "https://cioinfluence.com/machine-learning/tuskira-launches-ai-agent-quell-to-close-reachable-zero-day-vulnerabilities-prevent-exploitation/",
+      "sourceName": "Business Wire / CIO Influence",
+      "relatedSources": [
+        "Business Wire",
+        "CIO Influence",
+        "Tuskira"
+      ],
+      "lane": "news",
+      "publishedAt": "2026-06-02T14:30:00.000Z",
+      "importance": 168,
+      "sourceConfidence": "medium",
+      "summaryEngine": "chat-curated"
+    },
+    {
+      "id": "curated-bloomreach-loomi-marketing-agent-ga-2026-06-02",
+      "title": "Bloomreach takes its Loomi marketing agent to general availability",
+      "summary": "Bloomreach made its Loomi marketing agent generally available, pitching prompt-to-campaign workflow generation for retention-focused personalization.",
+      "fullSummary": "Bloomreach's Loomi update is one of the enterprise workflow stories missed by the narrow pass. The company says its marketing agent can convert a single prompt into a built campaign workflow using the Loomi agentic personalization platform, which combines customer data, AI models, and campaign orchestration. The emphasis is retention: Bloomreach argues that acquiring customers and keeping them are different problems, and that agents need to understand individual customers rather than only segments. The story is medium-confidence because it is a company launch, but it fills a useful non-software lane: marketing and ecommerce teams are turning agents into workflow builders, not merely copy generators.",
+      "keyFacts": [
+        "June 2, 2026",
+        "Bloomreach",
+        "Loomi marketing agent",
+        "general availability",
+        "agentic personalization",
+        "prompt-to-campaign workflow",
+        "customer retention",
+        "marketing AI"
+      ],
+      "url": "https://martech-pulse.com/news/bloomreach-brings-ai-agent-to-general-availability-to-solve-one-of-marketings-most-expensive-problems-keeping-customers/",
+      "sourceName": "Business Wire / Martech Pulse",
+      "relatedSources": [
+        "Business Wire",
+        "Bloomreach",
+        "Martech Pulse"
+      ],
+      "lane": "news",
+      "publishedAt": "2026-06-02T14:00:00.000Z",
+      "importance": 154,
+      "sourceConfidence": "medium",
+      "summaryEngine": "chat-curated"
+    },
+    {
+      "id": "curated-outreach-mcp-client-agentic-revenue-marketplace-2026-06-02",
+      "title": "Outreach launches MCP client and marketplace for revenue agents",
+      "summary": "Outreach announced an MCP Client and Agentic Ecosystem marketplace, extending its earlier MCP Server so sales agents can act across more of the revenue stack.",
+      "fullSummary": "Outreach is a useful follow-on to the existing ZoomInfo story because it shows the sales-agent stack becoming bidirectional and ecosystem-based. The company says it now offers both an MCP Server and an MCP Client, plus an Agentic Ecosystem marketplace. Its pitch is that revenue agents need to pull live enrichment signals, content, usage data, pipeline context, and workflow automations from across the sales stack, not just operate inside one CRM or engagement platform. This is a medium-confidence company announcement, but it matters because Model Context Protocol is becoming the connective layer for commercial workflow agents across Claude, ChatGPT, Microsoft Copilot, Agentforce, and Codex-style tools.",
+      "keyFacts": [
+        "June 2, 2026",
+        "Outreach",
+        "MCP Client",
+        "MCP Server",
+        "Agentic Ecosystem marketplace",
+        "revenue agents",
+        "sales workflow automation",
+        "Claude",
+        "ChatGPT",
+        "Codex"
+      ],
+      "url": "https://www.streetinsider.com/Business%2BWire/Outreach%2BBecomes%2Bthe%2BFirst%2BAgentic%2BAI%2BPlatform%2Bfor%2BRevenue%2BTeams%2Bwith%2BFull%2BMCP%2BSuite/26588548.html",
+      "sourceName": "Business Wire / StreetInsider",
+      "relatedSources": [
+        "Business Wire",
+        "Outreach",
+        "StreetInsider"
+      ],
+      "lane": "news",
+      "publishedAt": "2026-06-02T13:00:00.000Z",
+      "importance": 162,
+      "sourceConfidence": "medium",
+      "summaryEngine": "chat-curated"
+    },
+    {
+      "id": "curated-zip-superagents-mcp-procurement-2026-06-02",
+      "title": "Zip launches procurement Superagents and an MCP connector",
+      "summary": "Zip introduced five procurement Superagents plus Zip MCP, letting procurement intelligence connect into AI assistants such as Claude and ChatGPT.",
+      "fullSummary": "Zip's launch is another missed vertical-agent story. The company says its new Superagents can review contracts, unblock approvals, code invoices, research vendors, and handle procurement work under audit and governance controls. It also launched Zip MCP, a procurement-native implementation of Model Context Protocol for connecting Zip's data and workflows to model-agnostic assistants such as Claude and ChatGPT. The company says customers have saved more than $10 billion through its AI suite, a claim that should be treated as company-provided. The reason to include it is broader: procurement is becoming one of the clearest enterprise functions where agents are being tied to approvals, documents, spend controls, and compliance.",
+      "keyFacts": [
+        "June 2, 2026",
+        "Zip",
+        "Zip Superagents",
+        "Zip MCP",
+        "Procurement Superagent",
+        "Contract Superagent",
+        "AP Superagent",
+        "Config Superagent",
+        "Intake Superagent",
+        "Model Context Protocol",
+        "more than $10 billion in claimed customer savings"
+      ],
+      "url": "https://techintelpro.com/news/ai/agentic-ai/zip-launches-ai-superagents-and-mcp-for-procurement",
+      "sourceName": "Business Wire / TechIntelPro",
+      "relatedSources": [
+        "Business Wire",
+        "Zip",
+        "TechIntelPro"
+      ],
+      "lane": "news",
+      "publishedAt": "2026-06-02T12:45:00.000Z",
+      "importance": 166,
+      "sourceConfidence": "medium",
+      "summaryEngine": "chat-curated"
+    },
+    {
+      "id": "curated-subtle-medical-33m-ai-imaging-growth-capital-2026-06-02",
+      "title": "Subtle Medical raises $33M to scale AI imaging across MRI, PET, and CT",
+      "summary": "Subtle Medical secured $33 million in growth capital led by Morgan Stanley Expansion Capital and appointed Ohad Arazi as CEO.",
+      "fullSummary": "Subtle Medical is a healthcare AI funding story that should have been included in a broader daily sweep. The company provides AI-powered medical imaging software and says the new $33 million growth-capital round was anchored by a Series C financing led by Morgan Stanley Expansion Capital. Shinhan Venture Investment and existing backers including Fusion Fund, EnvisionX, BRV, and Samsung Ventures also participated, bringing total capital raised to $86 million. Subtle Medical says it will use the money to accelerate product development, expand global adoption, and scale a vendor-neutral AI imaging platform across MRI, PET, and CT workflows. This is a company announcement, but the round is specific and relevant to real clinical AI deployment.",
+      "keyFacts": [
+        "June 2, 2026",
+        "$33 million growth capital",
+        "Subtle Medical",
+        "Morgan Stanley Expansion Capital",
+        "Ohad Arazi CEO",
+        "$86 million total capital raised",
+        "MRI",
+        "PET",
+        "CT",
+        "AI-powered medical imaging software"
+      ],
+      "url": "https://www.prnewswire.com/news-releases/subtle-medical-secures-33-million-in-growth-capital-led-by-morgan-stanley-expansion-capital-and-appoints-industry-veteran-ohad-arazi-as-ceo-302788005.html",
+      "sourceName": "PR Newswire / Subtle Medical",
+      "relatedSources": [
+        "PR Newswire",
+        "Subtle Medical"
+      ],
+      "lane": "startups",
+      "publishedAt": "2026-06-02T12:05:00.000Z",
+      "importance": 171,
+      "sourceConfidence": "medium",
+      "summaryEngine": "chat-curated"
+    },
+    {
+      "id": "curated-alife-embryo-predict-fda-cleared-ivf-routine-use-2026-06-02",
+      "title": "Alife's FDA-cleared embryo AI moves into routine IVF use at RSC Bay Area",
+      "summary": "RSC Bay Area became the first U.S. clinic to deploy Alife Health's FDA-cleared Embryo Predict tool in routine clinical IVF care.",
+      "fullSummary": "Alife Health's Embryo Predict deployment is a concrete healthcare-adoption story, not just another model announcement. Alife and RSC Bay Area say the clinic is the first in the United States to bring Embryo Predict into routine clinical use, shortly after the tool received FDA clearance. The system supports embryo assessment in IVF, and the deployment follows a multi-year partnership between US Fertility and Alife. This needs cautious framing: the announcement does not mean AI guarantees better fertility outcomes, and the source is company-provided. But it is still important because FDA-cleared AI moving from trial context into routine reproductive-medicine workflow is exactly the kind of practical medical AI transition the feed should cover.",
+      "keyFacts": [
+        "June 2, 2026",
+        "Alife Health",
+        "RSC Bay Area",
+        "US Fertility",
+        "Embryo Predict",
+        "FDA-cleared AI",
+        "IVF",
+        "routine clinical use",
+        "embryo assessment"
+      ],
+      "url": "https://www.prnewswire.com/news-releases/rsc-bay-area-is-first-in-the-nation-to-deploy-fda-cleared-ai-for-embryo-assessment-by-alife-health-pioneering-a-new-standard-in-ivf-care-302787801.html",
+      "sourceName": "PR Newswire / Alife Health",
+      "relatedSources": [
+        "PR Newswire",
+        "Alife Health",
+        "RSC Bay Area"
+      ],
+      "lane": "news",
+      "publishedAt": "2026-06-02T11:00:00.000Z",
+      "importance": 178,
+      "sourceConfidence": "medium",
+      "summaryEngine": "chat-curated"
+    },
+    {
+      "id": "curated-workday-agent-passport-cisco-ai-defense-2026-06-02",
+      "title": "Workday and Cisco turn agent identity into an enterprise control point",
+      "summary": "Workday launched Agent Passport to test, verify, and monitor Workday-built and third-party AI agents, with Cisco AI Defense as launch partner.",
+      "fullSummary": "Workday's Agent Passport is a direct answer to the enterprise question: who verifies an AI agent before it touches HR, finance, or IT workflows? Workday says the system tests and verifies every AI agent before production and continuously monitors it afterward. Cisco is the launch partner, bringing Cisco AI Defense to test agents against security standards and protect them at runtime from prompt injection, data leakage, jailbreaks, and unsafe actions. This is a company announcement, but it is highly relevant because it links agent identity, governance, and runtime security inside systems of record. It also follows the earlier Workday-Google permissions story already in the feed, showing that agent governance is becoming a product line.",
+      "keyFacts": [
+        "June 2, 2026",
+        "Workday Agent Passport",
+        "Cisco AI Defense",
+        "Workday DevCon",
+        "third-party AI agents",
+        "prompt injection",
+        "data leakage",
+        "jailbreaks",
+        "runtime monitoring",
+        "HR, finance, and IT"
+      ],
+      "url": "https://www.prnewswire.com/news-releases/workday-launches-agent-passport-to-test-verify-and-continuously-monitor-every-ai-agent-in-the-enterprise-302787979.html",
+      "sourceName": "PR Newswire / Workday",
+      "relatedSources": [
+        "PR Newswire",
+        "Workday",
+        "Cisco"
+      ],
+      "lane": "news",
+      "publishedAt": "2026-06-02T11:00:00.000Z",
+      "importance": 181,
+      "sourceConfidence": "medium",
+      "summaryEngine": "chat-curated"
+    },
+    {
+      "id": "curated-helix-genosphere-500k-clinico-genomic-ai-tools-2026-06-02",
+      "title": "Helix passes 500,000 clinico-genomic records and adds AI discovery tools",
+      "summary": "Helix said GenoSphere surpassed 500,000 linked clinico-genomic records and launched AI cohort-building and analysis tools for researchers.",
+      "fullSummary": "Helix's update belongs in the biomedical data lane. The company says GenoSphere now includes more than 500,000 linked clinico-genomic records, with each record combining Exome+ sequencing with an average of 13 years of longitudinal EHR history and eight years of claims data from 16 health-system members of the Helix Research Network. Helix is also launching AI-powered cohort-building and analysis tools for discovery research. The announcement is company-provided, but the numbers are specific and useful. The broader point is that healthcare AI progress increasingly depends on linked, longitudinal datasets and tools that help researchers form cohorts, not only on larger general-purpose models.",
+      "keyFacts": [
+        "June 2, 2026",
+        "Helix",
+        "GenoSphere",
+        "more than 500,000 clinico-genomic records",
+        "16 health system members",
+        "average 13 years EHR history",
+        "average 8 years claims history",
+        "AI cohort-building tools",
+        "Exome+ sequencing"
+      ],
+      "url": "https://www.prnewswire.com/news-releases/helix-builds-north-americas-largest-available-linked-clinico-genomic-dataset-launches-ai-tools-to-accelerate-discovery-302788170.html",
+      "sourceName": "PR Newswire / Helix",
+      "relatedSources": [
+        "PR Newswire",
+        "Helix"
+      ],
+      "lane": "news",
+      "publishedAt": "2026-06-02T13:00:00.000Z",
+      "importance": 175,
+      "sourceConfidence": "medium",
+      "summaryEngine": "chat-curated"
+    },
+    {
+      "id": "curated-novellia-18m-patient-powered-pharma-data-platform-2026-06-02",
+      "title": "Novellia raises $18M for patient-powered real-world data in pharma research",
+      "summary": "Novellia raised an $18 million Series A led by Spark Capital to scale AI-powered tools that let patients organize health histories and share data with researchers.",
+      "fullSummary": "Novellia is another missed healthcare funding story. The company says it raised an $18 million Series A led by Spark Capital, with Khosla Ventures, Acrew Capital, Bling Capital, and TMV participating, bringing total funding to $28 million. Novellia's model is to build real-world data from information patients choose to contribute to medical research, while giving patients a free tool to access and organize their full health history across providers. The company frames the target as pharma's expensive patient-data problem. This is medium-confidence because it is a press release, but it is relevant because AI in drug development increasingly depends on consented, longitudinal patient datasets rather than only literature or molecular data.",
+      "keyFacts": [
+        "June 2, 2026",
+        "$18 million Series A",
+        "Novellia",
+        "Spark Capital",
+        "Khosla Ventures",
+        "Acrew Capital",
+        "Bling Capital",
+        "TMV",
+        "$28 million total funding",
+        "patient-powered real-world data"
+      ],
+      "url": "https://www.prnewswire.com/news-releases/novellia-secures-18m-series-a-to-scale-patient-powered-data-platform-solving-pharmas-50b-problem-302788565.html",
+      "sourceName": "PR Newswire / Novellia",
+      "relatedSources": [
+        "PR Newswire",
+        "Novellia"
+      ],
+      "lane": "startups",
+      "publishedAt": "2026-06-02T13:30:00.000Z",
+      "importance": 168,
+      "sourceConfidence": "medium",
+      "summaryEngine": "chat-curated"
+    },
+    {
+      "id": "curated-ada-updoc-agentic-ai-chronic-disease-investment-2026-06-02",
+      "title": "American Diabetes Association backs UpDoc's agentic chronic-care AI",
+      "summary": "The ADA Innovation Fund made a strategic investment in UpDoc, an enterprise clinical AI company building physician-grade agentic interventions for chronic disease management.",
+      "fullSummary": "The ADA-UpDoc investment is a smaller but useful healthcare AI signal. The American Diabetes Association says its Innovation Fund invested in UpDoc, which is developing physician-grade agentic AI for chronic disease management and prevention. The announcement frames the investment as validation of UpDoc's evidence-based approach and as support for AI-powered interventions for people living with diabetes and related conditions. The size was not disclosed in the snippet I found, so this should be treated as a strategic-investment signal rather than a major funding-round story. It belongs in the feed because chronic disease is one of the highest-impact, highest-risk areas for clinical AI agents.",
+      "keyFacts": [
+        "June 2, 2026",
+        "American Diabetes Association Innovation Fund",
+        "UpDoc",
+        "strategic investment",
+        "clinical artificial intelligence",
+        "physician-grade agentic AI",
+        "chronic disease management",
+        "diabetes"
+      ],
+      "url": "https://www.prnewswire.com/news-releases/the-american-diabetes-associations-innovation-fund-invests-in-updoc-to-accelerate-the-future-of-ai-driven-chronic-disease-management-and-prevention-302788939.html",
+      "sourceName": "PR Newswire / American Diabetes Association",
+      "relatedSources": [
+        "PR Newswire",
+        "American Diabetes Association",
+        "UpDoc"
+      ],
+      "lane": "deals",
+      "publishedAt": "2026-06-02T15:30:00.000Z",
+      "importance": 163,
+      "sourceConfidence": "medium",
+      "summaryEngine": "chat-curated"
+    },
+    {
+      "id": "curated-trustero-ai-playbooks-multi-agent-grc-2026-06-02",
+      "title": "Trustero adds multi-agent playbooks for continuous GRC monitoring",
+      "summary": "Trustero announced AI-powered Playbooks and a MetricStream integration for continuous control monitoring and intelligent evidence management.",
+      "fullSummary": "Trustero's update fills the governance, risk, and compliance lane that was underrepresented in the initial pass. The company says its AI-powered Playbooks use a multi-agent framework to help GRC teams move from periodic assessments and manual evidence collection toward continuous control monitoring and intelligent evidence management. The release also includes an integration with MetricStream. This is not a major market-moving story, and the source is company-provided, so confidence is medium. It is still worth adding because compliance automation is where many enterprises will first trust AI agents: the tasks are repetitive and document-heavy, but mistakes can create audit or regulatory exposure.",
+      "keyFacts": [
+        "June 2, 2026",
+        "Trustero AI",
+        "AI-powered Playbooks",
+        "multi-agent framework",
+        "MetricStream integration",
+        "Continuous Control Monitoring",
+        "Intelligent Evidence Management",
+        "GRC automation"
+      ],
+      "url": "https://www.prnewswire.com/news-releases/trustero-announces-ai-powered-playbooks-a-multi-agent-framework-that-uplevels-grc-practitioners-302788048.html",
+      "sourceName": "PR Newswire / Trustero",
+      "relatedSources": [
+        "PR Newswire",
+        "Trustero",
+        "MetricStream"
+      ],
+      "lane": "news",
+      "publishedAt": "2026-06-02T11:00:00.000Z",
+      "importance": 151,
+      "sourceConfidence": "medium",
+      "summaryEngine": "chat-curated"
+    },
+    {
+      "id": "curated-marvell-computex-ai-connectivity-bottleneck-2026-06-02",
+      "title": "Marvell frames connectivity as the next AI scaling bottleneck at Computex",
+      "summary": "Marvell used its Computex keynote to argue that AI scaling now depends on moving data across accelerators, racks, campuses, and regions at lower latency and power.",
+      "fullSummary": "Marvell's Computex keynote was announced earlier, but the June 2 event made it relevant to this refresh window. The company's thesis is that as AI workloads extend beyond one rack or even one data center, infrastructure must scale as a unified compute resource. Marvell argues that the next phase of AI depends on higher-bandwidth, lower-latency, lower-power data movement across accelerators, servers, racks, campuses, and geographically distributed data centers. This belongs beside the Intel and Nvidia infrastructure stories because the bottleneck is shifting from raw accelerator count to networking, optics, switching, and interconnects. It is medium-confidence because the direct source is a company keynote announcement, but the technical theme is important.",
+      "keyFacts": [
+        "June 2, 2026",
+        "Computex 2026",
+        "Marvell",
+        "Matt Murphy",
+        "AI scaling",
+        "connectivity bottleneck",
+        "optical technologies",
+        "high bandwidth",
+        "low latency",
+        "distributed data centers"
+      ],
+      "url": "https://www.businesswire.com/news/home/20260526151392/en/Marvell-Keynote-at-COMPUTEX-2026-The-Future-of-AI-Scaling-Depends-on-Connectivity",
+      "sourceName": "Business Wire / Marvell",
+      "relatedSources": [
+        "Business Wire",
+        "Marvell",
+        "Computex"
+      ],
+      "lane": "news",
+      "publishedAt": "2026-06-02T02:30:00.000Z",
+      "importance": 177,
+      "sourceConfidence": "medium",
+      "summaryEngine": "chat-curated"
+    },
+    {
+      "id": "curated-supermicro-vera-rubin-coolant-ai-rack-computex-2026-06-02",
+      "title": "Supermicro shows Vera Rubin racks with higher-impedance coolant for AI systems",
+      "summary": "Supermicro showed next-generation AI systems at Computex, including Vera Rubin NVL72 racks and a new coolant it says has 1,000 times higher electrical impedance than standard mixtures.",
+      "fullSummary": "Supermicro's Computex hardware story fills an infrastructure-constraints lane: cooling and reliability. Tom's Hardware reports that Supermicro showed upcoming machines based on Nvidia Vera Rubin, AMD's 6th-generation EPYC Venice processors, and Instinct MI450 accelerators. The notable detail is Supermicro's new coolant, which the company says has 1,000 times higher electrical impedance than standard cooling mixtures. That matters because next-generation AI racks are denser, hotter, and more electrically complex. The story is not about a new model, but it is part of whether AI factories can physically scale without power, cooling, and maintenance failures becoming the limiting factor.",
+      "keyFacts": [
+        "June 2, 2026",
+        "Supermicro",
+        "Computex 2026",
+        "Nvidia Vera Rubin NVL72",
+        "AMD EPYC Venice",
+        "AMD Instinct MI450",
+        "liquid cooling",
+        "1,000 times higher electrical impedance coolant",
+        "AI racks"
+      ],
+      "url": "https://www.tomshardware.com/desktops/servers/supermicro-shows-off-vera-rubin-nvl72-rack-with-all-new-type-of-coolant-company-claims-coolant-offers-1-000-times-higher-electrical-impedance-over-standard-cooling",
+      "sourceName": "Tom's Hardware",
+      "relatedSources": [
+        "Tom's Hardware",
+        "Supermicro"
+      ],
+      "lane": "news",
+      "publishedAt": "2026-06-02T01:45:00.000Z",
+      "importance": 170,
+      "sourceConfidence": "high",
+      "summaryEngine": "chat-curated"
+    },
+    {
+      "id": "curated-hon-hai-foxconn-computex-ai-platform-vera-rubin-robotics-2026-06-01",
+      "title": "Foxconn shows AI platform ambitions across Vera Rubin, robotics, healthcare, and space",
+      "summary": "Hon Hai/Foxconn used Computex to show manufacturing and integration capabilities for Nvidia Vera Rubin systems plus AI-driven robotics, healthcare, and space applications.",
+      "fullSummary": "Foxconn's Computex showcase is a broad but important supply-chain story. The company says it is demonstrating its capabilities as a technology manufacturing platform service provider, with products supporting Nvidia's Vera Rubin supercomputing platforms, data-center buildout, robotics, healthcare, and space. At its booth, Foxconn is showcasing manufacturing and system-integration capabilities for the Nvidia Vera Rubin NVL72, along with AI server and high-speed interconnect technologies. This is medium-confidence because it is a company announcement, but it matters because AI progress depends heavily on manufacturing scale, rack integration, and supply-chain execution. Foxconn is positioning itself as a full-stack AI infrastructure and industrial-transformation partner, not only a contract manufacturer.",
+      "keyFacts": [
+        "June 2026",
+        "Computex 2026",
+        "Hon Hai Technology Group",
+        "Foxconn",
+        "Nvidia Vera Rubin NVL72",
+        "AI servers",
+        "high-speed interconnect",
+        "robotics",
+        "healthcare",
+        "space"
+      ],
+      "url": "https://www.honhai.com/en-us/press-center/press-releases/latest-news/2044",
+      "sourceName": "Hon Hai Technology Group",
+      "relatedSources": [
+        "Hon Hai Technology Group",
+        "Foxconn",
+        "Computex"
+      ],
+      "lane": "news",
+      "publishedAt": "2026-06-01T23:30:00.000Z",
+      "importance": 166,
+      "sourceConfidence": "medium",
+      "summaryEngine": "chat-curated"
+    },
+    {
+      "id": "curated-moc-multi-order-communication-multi-agent-systems-2026-06-02",
+      "title": "MOC paper targets message quality inside multi-agent AI systems",
+      "summary": "A June 2 paper, MOC, argues that multi-agent AI work has focused too much on coordination topology and too little on how agents transmit and optimize messages.",
+      "fullSummary": "MOC is a small research story, but it adds the kind of benchmark and agent-systems coverage a thorough feed should include. The paper, listed under cs.AI on June 2, focuses on Multi-Order Communication in LLM-based Multi-Agent Systems. Its core argument is that most multi-agent research optimizes who talks to whom, while underexploring what messages should contain and how messages should be optimized for downstream agent coordination. This is early research, so confidence is medium and it should not be treated as a deployed system. It matters because multi-agent AI products are now being announced across enterprise software, and their reliability will depend on communication protocols as much as model intelligence.",
+      "keyFacts": [
+        "June 2, 2026",
+        "MOC",
+        "Multi-Order Communication",
+        "LLM-based Multi-Agent Systems",
+        "cs.AI",
+        "multi-agent communication",
+        "message optimization",
+        "agent coordination"
+      ],
+      "url": "https://chatpaper.com/paper/289491",
+      "sourceName": "ChatPaper / arXiv",
+      "relatedSources": [
+        "ChatPaper",
+        "arXiv"
+      ],
+      "lane": "papers",
+      "publishedAt": "2026-06-02T09:30:00.000Z",
+      "importance": 149,
+      "sourceConfidence": "medium",
+      "summaryEngine": "chat-curated"
+    },
     {
       "id": "curated-trump-voluntary-frontier-ai-security-eo-2026-06-02",
       "title": "White House narrows frontier-AI oversight into a voluntary security review",
