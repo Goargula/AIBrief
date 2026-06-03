@@ -82,6 +82,10 @@ You can also put these values in a local `.env` file. If no key is set, the app 
 - Use `Save`, `Comment`, `Share`, or `Original` from each story.
 - `Profile` works without login and shows saved, commented, and opened story counts on the current device.
 
+## Local reading state
+
+Saved stories, private comments, and opened-story counts are stored only in the browser's `localStorage` under `ai-brief-state-v2`. They are device/browser-local today, not stored in Firebase or GitHub, and they do not sync across devices.
+
 ## V2 notes
 
 - Add account sync so saved stories and comments travel across devices.

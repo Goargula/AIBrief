@@ -12,6 +12,8 @@ Treat the file like a small database, not a disposable export. Keep existing cur
 
 The app serves `public/curated-feed.json` first when the file exists. No OpenAI API key is required.
 
+The public Firebase-hosted app serves this same static file after deployment. Do not add Firebase Web API keys, Firestore client URLs, or other frontend secrets to `public/app.js` for feed refreshes. The current production-safe flow is to update `public/curated-feed.json`, deploy Firebase Hosting, and verify the live URL.
+
 ## Workflow
 
 1. Fetch the current raw feed from the running app:
@@ -113,6 +115,37 @@ $payload.items | Group-Object filterCategory | Sort-Object Count -Descending | S
 ```
 
 11. Open the app and check the first card plus `Read more` when browser automation is available. If browser automation is blocked, say that and rely on JSON plus HTTP endpoint verification.
+
+12. Publish the refreshed feed when the user expects the public app to update:
+
+```powershell
+& 'C:\Users\arshd\Documents\Codex\2026-05-07\is-there-a-plugin-for-firebase\bin\firebase.cmd' deploy --only hosting --project test-e667e
+```
+
+Firebase Hosting uploads only changed files, so a normal feed refresh mostly uploads `public/curated-feed.json`, not a full application package. The public URL is:
+
+```text
+https://ai-brief-arsh-20260604.web.app
+```
+
+13. Verify the public deployment:
+
+```powershell
+Invoke-WebRequest -UseBasicParsing 'https://ai-brief-arsh-20260604.web.app' -TimeoutSec 20
+Invoke-WebRequest -UseBasicParsing 'https://ai-brief-arsh-20260604.web.app/curated-feed.json' -TimeoutSec 20
+```
+
+Then check the live browser if available. Confirm the visible app still shows real stories, not sample fallback data.
+
+14. Before committing or pushing, scan for accidental frontend secrets:
+
+```powershell
+rg -n "AIza|FIREBASE_API_KEY|FIRESTORE_FEED_URL|GOOGLE_ACCESS_TOKEN|feeds/current|firestore" -S .
+```
+
+This command should return no exposed frontend Firebase key or abandoned Firestore feed path. If it finds one, remove it before deploy/push and rotate any key that was already pushed.
+
+15. Commit and push only the intended refresh/deployment files. Leave unrelated generated or attachment folders untouched.
 
 ## Quality Bar
 
