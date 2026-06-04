@@ -5,6 +5,7 @@ const FILTER_CATEGORIES = new Set(["funding", "models", "papers", "pushback", "g
 const SAVE_SYNC_NOTICE_KEY = "ai-brief-save-sync-notice-v1";
 const SIGN_IN_BUTTON_TEXT = "Sign in with Google";
 const SIGN_IN_PENDING_TEXT = "Signing in...";
+const REDIRECT_FALLBACK_TIMEOUT_MS = 6000;
 const VISUAL_COLORS = {
   papers: "#f0b84a",
   startups: "#3bd671",
@@ -230,14 +231,6 @@ function waitForFirebaseInit() {
   });
 }
 
-function prefersRedirectSignIn() {
-  const mobileUserAgent = /Android|iPhone|iPad|iPod|IEMobile|Opera Mini/i.test(navigator.userAgent);
-  const coarsePointer = window.matchMedia?.("(pointer: coarse)")?.matches;
-  const narrowViewport = window.matchMedia?.("(max-width: 760px)")?.matches;
-  const standalone = window.matchMedia?.("(display-mode: standalone)")?.matches || navigator.standalone;
-  return Boolean(mobileUserAgent || coarsePointer || narrowViewport || standalone);
-}
-
 function authErrorMessage(error) {
   if (error?.code === "auth/cancelled-popup-request") {
     return "Google sign-in is already open. Close the previous sign-in window and try again.";
@@ -278,16 +271,25 @@ async function signInWithPopupOrCredential(provider) {
       await state.auth.signInWithCredential(credential);
       return;
     }
-    await state.auth.signInWithRedirect(provider);
+    await signInWithRedirectFallback(provider);
   }
 }
 
-async function signInWithRedirect(provider) {
+async function startRedirectSignIn(provider) {
   if (state.user?.isAnonymous) {
     await state.user.linkWithRedirect(provider);
     return;
   }
   await state.auth.signInWithRedirect(provider);
+}
+
+async function signInWithRedirectFallback(provider) {
+  await Promise.race([
+    startRedirectSignIn(provider),
+    new Promise((_, reject) => {
+      setTimeout(() => reject(new Error("Google sign-in did not open. Please try again.")), REDIRECT_FALLBACK_TIMEOUT_MS);
+    })
+  ]);
 }
 
 async function signInWithGoogle() {
@@ -309,16 +311,12 @@ async function signInWithGoogle() {
   const provider = new window.firebase.auth.GoogleAuthProvider();
   provider.setCustomParameters({ prompt: "select_account" });
   try {
-    if (prefersRedirectSignIn()) {
-      await signInWithRedirect(provider);
-    } else {
-      await signInWithPopupOrCredential(provider);
-    }
+    await signInWithPopupOrCredential(provider);
     showToast("Signed in. Saved stories will sync across devices.");
   } catch (error) {
-    if (!prefersRedirectSignIn() && ["auth/cancelled-popup-request", "auth/popup-blocked"].includes(error?.code)) {
+    if (["auth/cancelled-popup-request", "auth/popup-blocked"].includes(error?.code)) {
       try {
-        await signInWithRedirect(provider);
+        await signInWithRedirectFallback(provider);
         return;
       } catch (redirectError) {
         showToast(authErrorMessage(redirectError));
