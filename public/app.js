@@ -6,6 +6,7 @@ const COMMENT_LIMIT = 20;
 const COMMENT_MAX_LENGTH = 1000;
 const DISPLAY_NAME_MAX_LENGTH = 40;
 const SAVE_SYNC_NOTICE_KEY = "ai-brief-save-sync-notice-v1";
+const COMMENT_BACKEND_UNAVAILABLE_MESSAGE = "Public comments need the hosted Firebase app. Saves still work locally on this device.";
 const VISUAL_COLORS = {
   papers: "#f0b84a",
   startups: "#3bd671",
@@ -84,6 +85,7 @@ const commentDialog = document.querySelector("#commentDialog");
 const commentForm = document.querySelector("#commentForm");
 const commentName = document.querySelector("#commentName");
 const commentText = document.querySelector("#commentText");
+const commentStatus = document.querySelector("#commentStatus");
 const cancelComment = document.querySelector("#cancelComment");
 const profileButton = document.querySelector("#profileButton");
 const profileDialog = document.querySelector("#profileDialog");
@@ -100,6 +102,7 @@ const toast = document.querySelector("#toast");
 
 let observer;
 let toastTimer;
+let firebaseInitPromise;
 
 function loadLocalState() {
   try {
@@ -138,6 +141,12 @@ function showToast(message) {
   }, 3600);
 }
 
+function setCommentStatus(message = "") {
+  if (!commentStatus) return;
+  commentStatus.textContent = message;
+  commentStatus.hidden = !message;
+}
+
 function firebaseServerTimestamp() {
   return window.firebase?.firestore?.FieldValue?.serverTimestamp?.() || new Date();
 }
@@ -173,10 +182,12 @@ function storyCommentsRef(storyId) {
 }
 
 async function initializeFirebase() {
+  if (state.firebaseReady && state.auth && state.db) return;
   try {
     await waitForFirebaseInit();
     if (!window.firebase?.apps?.length || !window.firebase.auth || !window.firebase.firestore) {
-      state.firebaseError = "Firebase is unavailable in this environment.";
+      state.firebaseError = COMMENT_BACKEND_UNAVAILABLE_MESSAGE;
+      state.authReady = true;
       updateAuthUi();
       return;
     }
@@ -202,6 +213,7 @@ async function initializeFirebase() {
   } catch (error) {
     state.firebaseError = error.message || "Firebase could not start.";
     state.firebaseReady = false;
+    state.authReady = true;
     updateAuthUi();
   }
 }
@@ -210,7 +222,7 @@ function waitForFirebaseInit() {
   return new Promise((resolve) => {
     const started = Date.now();
     const check = () => {
-      if (window.firebase?.apps?.length || Date.now() - started > 2500) {
+      if (window.firebase?.apps?.length || Date.now() - started > 8000) {
         resolve();
         return;
       }
@@ -220,9 +232,28 @@ function waitForFirebaseInit() {
   });
 }
 
+async function ensureFirebaseReady() {
+  if (state.firebaseReady && state.auth && state.db) return true;
+  if (firebaseInitPromise) await firebaseInitPromise;
+  if (state.firebaseReady && state.auth && state.db) return true;
+  firebaseInitPromise = initializeFirebase();
+  await firebaseInitPromise;
+  return Boolean(state.firebaseReady && state.auth && state.db);
+}
+
+function commentFailureMessage(error) {
+  if (error?.code === "auth/operation-not-allowed" || error?.code === "auth/admin-restricted-operation") {
+    return "Anonymous comments are not enabled for this Firebase project yet.";
+  }
+  if (error?.code === "permission-denied") {
+    return "Firebase rejected this comment. Check Firestore rules, Anonymous Auth, and App Check for this site.";
+  }
+  return error?.message || "Could not post comment.";
+}
+
 async function signInWithGoogle() {
-  if (!state.auth || !window.firebase?.auth) {
-    showToast("Sign-in is available on the hosted Firebase app.");
+  if (!(await ensureFirebaseReady()) || !window.firebase?.auth) {
+    showToast(state.firebaseError || "Sign-in is available on the hosted Firebase app.");
     return;
   }
 
@@ -251,7 +282,7 @@ async function signOut() {
 }
 
 async function ensureCommentIdentity() {
-  if (!state.auth) throw new Error("Public comments are available on the hosted Firebase app.");
+  if (!(await ensureFirebaseReady())) throw new Error(state.firebaseError || COMMENT_BACKEND_UNAVAILABLE_MESSAGE);
   if (state.auth.currentUser) return state.auth.currentUser;
   const credential = await state.auth.signInAnonymously();
   return credential.user;
@@ -630,8 +661,13 @@ async function toggleSave(item, button) {
   }
 }
 
-function openComment(id) {
+async function openComment(id) {
   state.selectedId = id;
+  setCommentStatus("");
+  if (!(await ensureFirebaseReady())) {
+    showToast(state.firebaseError || COMMENT_BACKEND_UNAVAILABLE_MESSAGE);
+    return;
+  }
   commentName.value = localStorage.getItem("ai-brief-comment-name") || "";
   commentText.value = "";
   if (typeof commentDialog.showModal === "function") commentDialog.showModal();
@@ -643,6 +679,7 @@ function closeCommentDialog(reset = true) {
   if (reset) {
     commentText.value = "";
   }
+  setCommentStatus("");
   commentDialog.close();
 }
 
@@ -661,6 +698,7 @@ async function submitComment(event) {
   }
 
   try {
+    setCommentStatus("");
     submitCommentButtonState(true);
     const user = await ensureCommentIdentity();
     const authorType = user.isAnonymous ? "guest" : "google";
@@ -685,7 +723,7 @@ async function submitComment(event) {
       await loadStoryComments(storyId, card.querySelector(".comments-list"), card.querySelector(".comments-count"));
     }
   } catch (error) {
-    showToast(error.message || "Could not post comment.");
+    setCommentStatus(commentFailureMessage(error));
   } finally {
     submitCommentButtonState(false);
   }
@@ -925,5 +963,5 @@ if ("serviceWorker" in navigator) {
 
 loadLocalState();
 loadFeed();
-initializeFirebase();
+firebaseInitPromise = initializeFirebase();
 setInterval(() => loadFeed(), 15 * 60 * 1000);

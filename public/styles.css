@@ -478,6 +478,21 @@ details p {
   line-height: 1.4;
 }
 
+.dialog-error {
+  margin: 0;
+  border: 1px solid rgba(255, 107, 107, 0.42);
+  border-radius: 8px;
+  background: rgba(255, 107, 107, 0.1);
+  color: #ffd6d6;
+  padding: 10px 12px;
+  font-size: 0.84rem;
+  line-height: 1.4;
+}
+
+.dialog-error[hidden] {
+  display: none;
+}
+
 .comment-sheet input,
 .comment-sheet textarea {
   width: 100%;
