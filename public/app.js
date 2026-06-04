@@ -324,39 +324,16 @@ function escapeSvgText(value) {
     .replace(/"/g, "&quot;");
 }
 
-function wrapVisualTitle(title) {
-  const words = String(title || "AI Brief").split(/\s+/).filter(Boolean);
-  const lines = [];
-  let line = "";
-
-  words.forEach((word) => {
-    const next = line ? `${line} ${word}` : word;
-    if (next.length > 22 && line) {
-      lines.push(line);
-      line = word;
-      return;
-    }
-    line = next;
-  });
-
-  if (line) lines.push(line);
-  return (lines.length ? lines : ["AI Brief"]).slice(0, 4);
-}
-
-function generatedVisualUrl(lane, title) {
+function generatedVisualUrl(lane) {
   const safeLane = String(lane || "news").toLowerCase();
   const color = VISUAL_COLORS[safeLane] || VISUAL_COLORS.news;
-  const lines = wrapVisualTitle(title);
-  const titleSvg = lines
-    .map((line, index) => `<tspan x="72" dy="${index === 0 ? 0 : 68}">${escapeSvgText(line)}</tspan>`)
-    .join("");
-  const svg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1200"><rect width="900" height="1200" fill="#0d1117"/><rect width="900" height="1200" fill="${color}" opacity="0.18"/><circle cx="760" cy="180" r="260" fill="${color}" opacity="0.28"/><circle cx="110" cy="1040" r="310" fill="${color}" opacity="0.18"/><text x="72" y="144" fill="${color}" font-family="Arial, sans-serif" font-size="36" font-weight="700">${escapeSvgText(safeLane.toUpperCase())}</text><text x="72" y="820" fill="#f5f7fa" font-family="Arial, sans-serif" font-size="58" font-weight="800">${titleSvg}</text></svg>`;
+  const svg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1200"><defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0d1117"/><stop offset="1" stop-color="${color}" stop-opacity="0.38"/></linearGradient></defs><rect width="900" height="1200" fill="url(#g)"/><circle cx="760" cy="180" r="260" fill="${color}" opacity="0.24"/><circle cx="110" cy="1040" r="310" fill="${color}" opacity="0.16"/><path d="M-40 790 C210 690 330 780 510 660 S810 450 980 540" fill="none" stroke="${color}" stroke-width="96" opacity="0.08"/><path d="M-70 925 C180 820 360 905 540 755 S790 620 980 690" fill="none" stroke="#f5f7fa" stroke-width="42" opacity="0.05"/><text x="72" y="144" fill="${color}" font-family="Arial, sans-serif" font-size="36" font-weight="700">${escapeSvgText(safeLane.toUpperCase())}</text></svg>`;
   return `data:image/svg+xml;charset=UTF-8,${encodeURIComponent(svg)}`;
 }
 
 function storyVisualUrl(item) {
   if (item.imageUrl && !item.imageUrl.startsWith("/visual.svg")) return item.imageUrl;
-  return generatedVisualUrl(item.lane, item.title);
+  return generatedVisualUrl(item.lane);
 }
 
 function storySearchText(item) {
