@@ -89,6 +89,7 @@ const toast = document.querySelector("#toast");
 let observer;
 let toastTimer;
 let firebaseInitPromise;
+let initialSharedStoryHandled = false;
 
 function loadLocalState() {
   try {
@@ -148,6 +149,18 @@ function storySnapshot(item) {
 
 function storyById(id) {
   return state.items.find((item) => item.id === id);
+}
+
+function sharedStoryIdFromUrl() {
+  return new URLSearchParams(window.location.search).get("story");
+}
+
+function sharedStoryUrl(item) {
+  const url = new URL(window.location.href);
+  url.search = "";
+  url.hash = "";
+  url.searchParams.set("story", item.id);
+  return url.toString();
 }
 
 function userSaveRef(storyId) {
@@ -623,6 +636,18 @@ function jumpToStory(id) {
   if (target) target.scrollIntoView({ behavior: "smooth", block: "start" });
 }
 
+function openInitialSharedStory() {
+  if (initialSharedStoryHandled) return;
+  const storyId = sharedStoryIdFromUrl();
+  if (!storyId) {
+    initialSharedStoryHandled = true;
+    return;
+  }
+  if (!state.items.some((item) => item.id === storyId)) return;
+  initialSharedStoryHandled = true;
+  jumpToStory(storyId);
+}
+
 function isEditingTarget(target) {
   const tagName = target?.tagName;
   return target?.isContentEditable || tagName === "INPUT" || tagName === "TEXTAREA" || tagName === "SELECT";
@@ -647,16 +672,16 @@ function goToStoryOffset(offset) {
 }
 
 async function shareStory(item, button) {
-  const text = `${item.title}\n\n${item.summary}\n\n${item.url}`;
-  if (navigator.share) {
-    await navigator.share({ title: item.title, text, url: item.url });
+  const url = sharedStoryUrl(item);
+  if (navigator.clipboard?.writeText) {
+    await navigator.clipboard.writeText(url);
+    button.textContent = "Copied";
+    setTimeout(() => {
+      button.textContent = "Share";
+    }, 1200);
     return;
   }
-  await navigator.clipboard.writeText(text);
-  button.textContent = "Copied";
-  setTimeout(() => {
-    button.textContent = "Share";
-  }, 1200);
+  if (navigator.share) await navigator.share({ title: item.title, text: item.summary, url });
 }
 
 async function loadFeed(force = false) {
@@ -671,6 +696,7 @@ async function loadFeed(force = false) {
   } finally {
     refreshButton.disabled = false;
     render();
+    openInitialSharedStory();
   }
 }
 
