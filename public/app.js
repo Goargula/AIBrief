@@ -5,7 +5,7 @@ const FILTER_CATEGORIES = new Set(["funding", "models", "papers", "pushback", "g
 const SAVE_SYNC_NOTICE_KEY = "ai-brief-save-sync-notice-v1";
 const SIGN_IN_BUTTON_TEXT = "Sign in with Google";
 const SIGN_IN_PENDING_TEXT = "Signing in...";
-const REDIRECT_FALLBACK_TIMEOUT_MS = 6000;
+const REDIRECT_START_TIMEOUT_MS = 5000;
 const VISUAL_COLORS = {
   papers: "#f0b84a",
   startups: "#3bd671",
@@ -171,13 +171,6 @@ function userSaveRef(storyId) {
   return state.db.collection("userSaves").doc(state.user.uid).collection("stories").doc(storyId);
 }
 
-function useCurrentHostingAuthDomain() {
-  const app = window.firebase?.apps?.[0];
-  const host = window.location.hostname;
-  if (!app || !host.endsWith(".web.app")) return;
-  app.options.authDomain = host;
-}
-
 async function initializeFirebase() {
   if (state.firebaseReady && state.auth && state.db) return;
   try {
@@ -189,8 +182,6 @@ async function initializeFirebase() {
       return;
     }
 
-    useCurrentHostingAuthDomain();
-
     const appCheckKey = document.querySelector('meta[name="firebase-app-check-site-key"]')?.content?.trim();
     if (appCheckKey && window.firebase.appCheck) {
       window.firebase.appCheck().activate(appCheckKey, true);
@@ -199,6 +190,9 @@ async function initializeFirebase() {
     state.auth = window.firebase.auth();
     state.db = window.firebase.firestore();
     state.firebaseReady = true;
+    state.auth.getRedirectResult().catch((error) => {
+      showToast(authErrorMessage(error));
+    });
     state.auth.onAuthStateChanged(async (user) => {
       state.user = user;
       state.authReady = true;
@@ -221,7 +215,10 @@ function waitForFirebaseInit() {
   return new Promise((resolve) => {
     const started = Date.now();
     const check = () => {
-      if (window.firebase?.apps?.length || Date.now() - started > 8000) {
+      if (
+        (window.firebase?.apps?.length && window.firebase.auth && window.firebase.firestore) ||
+        Date.now() - started > 8000
+      ) {
         resolve();
         return;
       }
@@ -256,75 +253,40 @@ async function ensureFirebaseReady() {
   return Boolean(state.firebaseReady && state.auth && state.db);
 }
 
-async function signInWithPopupOrCredential(provider) {
-  if (!state.user?.isAnonymous) {
-    await state.auth.signInWithPopup(provider);
-    return;
-  }
-
-  try {
-    await state.user.linkWithPopup(provider);
-  } catch (error) {
-    if (error.code !== "auth/credential-already-in-use") throw error;
-    const credential = window.firebase.auth.GoogleAuthProvider.credentialFromError?.(error);
-    if (credential) {
-      await state.auth.signInWithCredential(credential);
-      return;
-    }
-    await signInWithRedirectFallback(provider);
-  }
-}
-
-async function startRedirectSignIn(provider) {
-  if (state.user?.isAnonymous) {
-    await state.user.linkWithRedirect(provider);
-    return;
-  }
-  await state.auth.signInWithRedirect(provider);
-}
-
-async function signInWithRedirectFallback(provider) {
-  await Promise.race([
-    startRedirectSignIn(provider),
-    new Promise((_, reject) => {
-      setTimeout(() => reject(new Error("Google sign-in did not open. Please try again.")), REDIRECT_FALLBACK_TIMEOUT_MS);
-    })
-  ]);
-}
-
 async function signInWithGoogle() {
   if (state.authInFlight) {
     showToast("Google sign-in is already in progress.");
     return;
   }
 
-  state.authInFlight = true;
-  updateAuthUi();
-
-  if (!(await ensureFirebaseReady()) || !window.firebase?.auth) {
-    showToast(state.firebaseError || "Sign-in is available on the hosted Firebase app.");
-    state.authInFlight = false;
+  if (!(state.firebaseReady && state.auth && state.db && window.firebase?.auth)) {
+    if (!firebaseInitPromise) firebaseInitPromise = initializeFirebase();
+    showToast(state.firebaseError || "Google sign-in is still starting. Try again in a moment.");
     updateAuthUi();
     return;
   }
 
+  state.authInFlight = true;
+  updateAuthUi();
+
   const provider = new window.firebase.auth.GoogleAuthProvider();
   provider.setCustomParameters({ prompt: "select_account" });
-  try {
-    await signInWithPopupOrCredential(provider);
-    showToast("Signed in. Saved stories will sync across devices.");
-  } catch (error) {
-    if (["auth/cancelled-popup-request", "auth/popup-blocked"].includes(error?.code)) {
-      try {
-        await signInWithRedirectFallback(provider);
-        return;
-      } catch (redirectError) {
-        showToast(authErrorMessage(redirectError));
-      }
-    } else {
-      showToast(authErrorMessage(error));
+  const recoveryTimer = setTimeout(() => {
+    if (!document.hidden && state.authInFlight) {
+      state.authInFlight = false;
+      updateAuthUi();
+      showToast("Google sign-in did not open. Please try again.");
     }
-  } finally {
+  }, REDIRECT_START_TIMEOUT_MS);
+
+  try {
+    const redirectPromise = state.user?.isAnonymous
+      ? state.user.linkWithRedirect(provider)
+      : state.auth.signInWithRedirect(provider);
+    await redirectPromise;
+  } catch (error) {
+    clearTimeout(recoveryTimer);
+    showToast(authErrorMessage(error));
     state.authInFlight = false;
     updateAuthUi();
   }

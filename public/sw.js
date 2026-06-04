@@ -1,5 +1,5 @@
-const CACHE_NAME = "ai-brief-v28";
-const ASSETS = ["/", "/index.html", "/styles.css?v=28", "/app.js?v=28", "/manifest.json", "/icon.svg", "/logo.svg"];
+const CACHE_NAME = "ai-brief-v32";
+const ASSETS = ["/", "/index.html", "/styles.css?v=32", "/app.js?v=32", "/manifest.json", "/icon.svg", "/logo.svg"];
 
 self.addEventListener("install", (event) => {
   event.waitUntil(caches.open(CACHE_NAME).then((cache) => cache.addAll(ASSETS)));
@@ -17,7 +17,7 @@ self.addEventListener("activate", (event) => {
 
 self.addEventListener("fetch", (event) => {
   const url = new URL(event.request.url);
-  if (url.pathname.startsWith("/api/")) return;
+  if (url.origin !== self.location.origin || url.pathname.startsWith("/api/") || url.pathname.startsWith("/__/")) return;
 
   event.respondWith(
     fetch(event.request)
