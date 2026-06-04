@@ -181,6 +181,13 @@ function storyCommentsRef(storyId) {
   return state.db.collection("storyComments").doc(storyId).collection("comments");
 }
 
+function useCurrentHostingAuthDomain() {
+  const app = window.firebase?.apps?.[0];
+  const host = window.location.hostname;
+  if (!app || !host.endsWith(".web.app")) return;
+  app.options.authDomain = host;
+}
+
 async function initializeFirebase() {
   if (state.firebaseReady && state.auth && state.db) return;
   try {
@@ -191,6 +198,8 @@ async function initializeFirebase() {
       updateAuthUi();
       return;
     }
+
+    useCurrentHostingAuthDomain();
 
     const appCheckKey = document.querySelector('meta[name="firebase-app-check-site-key"]')?.content?.trim();
     if (appCheckKey && window.firebase.appCheck) {
