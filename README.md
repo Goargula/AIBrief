@@ -88,6 +88,15 @@ Saved stories still work locally through browser `localStorage` under `ai-brief-
 
 The frontend uses Firebase Hosting reserved SDK/init URLs and does not commit Firebase Web API keys into `public/app.js`. To activate backend save sync on the hosted app, enable Firestore, Google Auth, and App Check for project `test-e667e`. After creating the App Check reCAPTCHA key, place its public site key in the `firebase-app-check-site-key` meta tag in `public/index.html`.
 
+## Analytics
+
+The hosted app writes anonymous aggregate counters to Firestore when Firebase is available:
+
+- `analytics/pageHits` and `analytics/pageHits/days/{YYYY-MM-DD}` count page loads.
+- `analytics/storyReads`, `analytics/storyReads/stories/{storyId}`, and daily subcollections count focused story cards.
+
+Story reads are counted once per story per page session. Firestore rules allow public counter increments only; public reads are blocked, so review these counts in the Firebase Console.
+
 ## V2 notes
 
 - Keep account sync focused on saved stories.

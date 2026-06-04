@@ -7,6 +7,9 @@ const FIREBASE_SDK_VERSION = "10.12.4";
 const SIGN_IN_BUTTON_TEXT = "Sign in with Google";
 const SIGN_IN_PENDING_TEXT = "Signing in...";
 const REDIRECT_START_TIMEOUT_MS = 5000;
+const ANALYTICS_COLLECTION = "analytics";
+const PAGE_HITS_DOC = "pageHits";
+const STORY_READS_DOC = "storyReads";
 const VISUAL_COLORS = {
   papers: "#f0b84a",
   startups: "#3bd671",
@@ -96,6 +99,8 @@ let toastTimer;
 let firebaseInitPromise;
 let firebaseSdkPromise;
 let initialSharedStoryHandled = false;
+let pageHitTracked = false;
+const sessionTrackedReads = new Set();
 
 function loadLocalState() {
   try {
@@ -328,6 +333,91 @@ async function ensureFirebaseReady() {
   firebaseInitPromise = initializeFirebase();
   await firebaseInitPromise;
   return Boolean(state.firebaseReady && state.auth && state.db);
+}
+
+function analyticsDayId(date = new Date()) {
+  return date.toISOString().slice(0, 10);
+}
+
+function safeAnalyticsId(value) {
+  return String(value || "unknown")
+    .replace(/[/.#[\]\s]+/g, "-")
+    .replace(/^-+|-+$/g, "")
+    .slice(0, 180) || "unknown";
+}
+
+function incrementValue() {
+  return window.firebase?.firestore?.FieldValue?.increment?.(1);
+}
+
+function analyticsPayload(extra = {}) {
+  const increment = incrementValue();
+  if (!increment) return null;
+  return {
+    ...extra,
+    count: increment,
+    updatedAt: firebaseServerTimestamp()
+  };
+}
+
+async function commitAnalytics(updates) {
+  if (!updates.length || !(await ensureFirebaseReady())) return;
+  const batch = state.db.batch();
+  updates.forEach(({ ref, data }) => batch.set(ref, data, { merge: true }));
+  await batch.commit();
+}
+
+async function trackPageHit() {
+  if (pageHitTracked) return;
+  pageHitTracked = true;
+  if (!(await ensureFirebaseReady())) return;
+
+  const day = analyticsDayId();
+  const totalPayload = analyticsPayload();
+  const dailyPayload = analyticsPayload();
+  if (!totalPayload || !dailyPayload) return;
+
+  try {
+    await commitAnalytics([
+      { ref: state.db.collection(ANALYTICS_COLLECTION).doc(PAGE_HITS_DOC), data: totalPayload },
+      { ref: state.db.collection(ANALYTICS_COLLECTION).doc(PAGE_HITS_DOC).collection("days").doc(day), data: dailyPayload }
+    ]);
+  } catch {
+    // Analytics must never interrupt reading.
+  }
+}
+
+async function trackStoryRead(item) {
+  if (!item?.id || sessionTrackedReads.has(item.id)) return;
+  sessionTrackedReads.add(item.id);
+  if (!(await ensureFirebaseReady())) return;
+
+  const day = analyticsDayId();
+  const storyDocId = safeAnalyticsId(item.id);
+  const storyMeta = {
+    storyId: String(item.id).slice(0, 200),
+    title: String(item.title || "").slice(0, 240),
+    sourceName: String(item.sourceName || "").slice(0, 120),
+    url: String(item.url || "").slice(0, 1000),
+    publishedAt: String(item.publishedAt || "").slice(0, 80)
+  };
+  const totalPayload = analyticsPayload();
+  const dailyPayload = analyticsPayload();
+  const storyPayload = analyticsPayload(storyMeta);
+  const dailyStoryPayload = analyticsPayload(storyMeta);
+  if (!totalPayload || !dailyPayload || !storyPayload || !dailyStoryPayload) return;
+
+  try {
+    const storyReads = state.db.collection(ANALYTICS_COLLECTION).doc(STORY_READS_DOC);
+    await commitAnalytics([
+      { ref: storyReads, data: totalPayload },
+      { ref: storyReads.collection("days").doc(day), data: dailyPayload },
+      { ref: storyReads.collection("stories").doc(storyDocId), data: storyPayload },
+      { ref: storyReads.collection("days").doc(day).collection("stories").doc(storyDocId), data: dailyStoryPayload }
+    ]);
+  } catch {
+    // Analytics must never interrupt reading.
+  }
 }
 
 async function signInWithGoogle() {
@@ -643,7 +733,9 @@ function setupObserver() {
       if (!visible) return;
 
       state.activeIndex = Number(visible.target.dataset.index || 0);
-      state.opened.add(visible.target.dataset.id);
+      const storyId = visible.target.dataset.id;
+      state.opened.add(storyId);
+      trackStoryRead(storyById(storyId));
       persistLocalState();
       setPosition();
 
@@ -920,6 +1012,7 @@ if ("serviceWorker" in navigator) {
 }
 
 loadLocalState();
-loadFeed();
 firebaseInitPromise = initializeFirebase();
+trackPageHit();
+loadFeed();
 setInterval(() => loadFeed(), 15 * 60 * 1000);

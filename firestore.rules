@@ -34,10 +34,88 @@ service cloud.firestore {
         && request.resource.data.filterCategory in ['funding', 'models', 'papers', 'pushback', 'general'];
     }
 
+    function validAnalyticsDay(dayId) {
+      return dayId.matches('^\\d{4}-\\d{2}-\\d{2}$');
+    }
+
+    function validCounterCreate() {
+      return request.resource.data.keys().hasOnly(['count', 'updatedAt'])
+        && request.resource.data.count == 1
+        && request.resource.data.updatedAt == request.time;
+    }
+
+    function validCounterUpdate() {
+      return request.resource.data.diff(resource.data).changedKeys().hasOnly(['count', 'updatedAt'])
+        && request.resource.data.count == resource.data.count + 1
+        && request.resource.data.updatedAt == request.time;
+    }
+
+    function validStoryCounterCreate() {
+      return request.resource.data.keys().hasOnly([
+          'count',
+          'updatedAt',
+          'storyId',
+          'title',
+          'sourceName',
+          'url',
+          'publishedAt'
+        ])
+        && request.resource.data.count == 1
+        && request.resource.data.updatedAt == request.time
+        && isString(request.resource.data.storyId, 1, 200)
+        && isString(request.resource.data.title, 1, 240)
+        && isString(request.resource.data.sourceName, 0, 120)
+        && isString(request.resource.data.url, 0, 1000)
+        && isString(request.resource.data.publishedAt, 0, 80);
+    }
+
+    function validStoryCounterUpdate() {
+      return request.resource.data.diff(resource.data).changedKeys().hasOnly([
+          'count',
+          'updatedAt',
+          'storyId',
+          'title',
+          'sourceName',
+          'url',
+          'publishedAt'
+        ])
+        && request.resource.data.count == resource.data.count + 1
+        && request.resource.data.updatedAt == request.time
+        && isString(request.resource.data.storyId, 1, 200)
+        && isString(request.resource.data.title, 1, 240)
+        && isString(request.resource.data.sourceName, 0, 120)
+        && isString(request.resource.data.url, 0, 1000)
+        && isString(request.resource.data.publishedAt, 0, 80);
+    }
+
     match /userSaves/{uid}/stories/{storyId} {
       allow read: if signedIn() && request.auth.uid == uid;
       allow create, update: if signedIn() && request.auth.uid == uid && validSave(storyId);
       allow delete: if signedIn() && request.auth.uid == uid;
+    }
+
+    match /analytics/{counterId} {
+      allow read, delete: if false;
+      allow create: if counterId in ['pageHits', 'storyReads'] && validCounterCreate();
+      allow update: if counterId in ['pageHits', 'storyReads'] && validCounterUpdate();
+
+      match /days/{dayId} {
+        allow read, delete: if false;
+        allow create: if counterId in ['pageHits', 'storyReads'] && validAnalyticsDay(dayId) && validCounterCreate();
+        allow update: if counterId in ['pageHits', 'storyReads'] && validAnalyticsDay(dayId) && validCounterUpdate();
+
+        match /stories/{storyId} {
+          allow read, delete: if false;
+          allow create: if counterId == 'storyReads' && validAnalyticsDay(dayId) && validStoryCounterCreate();
+          allow update: if counterId == 'storyReads' && validAnalyticsDay(dayId) && validStoryCounterUpdate();
+        }
+      }
+
+      match /stories/{storyId} {
+        allow read, delete: if false;
+        allow create: if counterId == 'storyReads' && validStoryCounterCreate();
+        allow update: if counterId == 'storyReads' && validStoryCounterUpdate();
+      }
     }
 
     match /{document=**} {
