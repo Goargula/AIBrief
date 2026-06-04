@@ -1,9 +1,582 @@
 {
-  "generatedAt": "2026-06-03T07:51:47.908Z",
-  "nextRefreshAt": "2026-06-03T10:51:47.908Z",
+  "generatedAt": "2026-06-04T08:05:58.357Z",
+  "nextRefreshAt": "2026-06-04T11:05:58.357Z",
   "summaryEngine": "chat-curated",
   "curated": true,
   "items": [
+    {
+      "id": "curated-mwm-google-cloud-ai-mobile-squad-gemini-enterprise-2026-06-04",
+      "title": "MWM and Google Cloud launch app-building mobile agents",
+      "summary": "MWM and Google Cloud introduced AI Mobile Squad, a Gemini Enterprise-powered trio of designer, product, and developer agents that turns prompts into native mobile apps.",
+      "fullSummary": "MWM, the Paris-based mobile app publisher with more than 1B downloads, is turning its app-building workflow into a coordinated agent system with Google Cloud. The new AI Mobile Squad uses Gemini Enterprise and splits the work across three specialized agents: a designer, a product manager, and a developer. MWM says the team can turn a prompt into a production-ready native iOS and Android app in under three minutes. That claim needs real-world testing, but the story is useful because it shows agent stacks moving from generic copilots into narrow production lines where roles, sequence, and platform constraints are built in. Watch whether app-store quality, security review, and maintainability keep pace with the speed pitch.",
+      "keyFacts": [
+        "June 4, 2026",
+        "MWM",
+        "Google Cloud",
+        "Gemini Enterprise",
+        "AI Mobile Squad",
+        "Designer agent",
+        "Product Manager agent",
+        "Developer agent",
+        "More than 1B MWM downloads",
+        "Prompt-to-native-app claim under three minutes"
+      ],
+      "url": "https://www.prnewswire.com/news-releases/mwm-ai-partners-with-google-cloud-to-launch-new-mobile-agents-for-app-creators-and-entrepreneurs-302790646.html",
+      "sourceName": "PR Newswire / Google Cloud",
+      "relatedSources": [
+        "PR Newswire",
+        "Google Cloud",
+        "MWM"
+      ],
+      "lane": "news",
+      "publishedAt": "2026-06-04T07:00:00.000Z",
+      "importance": 220,
+      "sourceConfidence": "medium",
+      "summaryEngine": "chat-curated",
+      "filterCategory": "general"
+    },
+    {
+      "id": "curated-compal-vernus-reAIX-quantum-ai-biotech-platform-2026-06-04",
+      "title": "Compal shows a quantum-AI biotech platform at Computex",
+      "summary": "Compal used Computex to spotlight Vernus AI's ReAIX platform, which combines AI, quantum computing, and physical simulation for biopharma process and drug-manufacturing work.",
+      "fullSummary": "Compal's Computex update is not just another server announcement; it pushes the company deeper into biomedical AI. The company says affiliate Vernus AI is using a platform called ReAIX to combine AI, quantum computing, and physical simulation for biopharma workflows. The platform uses Nvidia NeMo Agent Toolkit and PhysicsNeMo to analyze process parameters, support simulation, and move work from lab scale toward manufacturing scale. Compal says Vernus has already completed projects with pharmaceutical partners including Orient EuroPharma. This is a medium-confidence company announcement, but it belongs in the feed because it connects three active lanes: AI servers, digital twins, and drug manufacturing. The next proof point is whether customers report measurable R&D cycle or production-cost improvements outside vendor claims.",
+      "keyFacts": [
+        "June 4, 2026",
+        "Compal Electronics",
+        "Vernus AI",
+        "ReAIX",
+        "Computex 2026",
+        "Nvidia NeMo Agent Toolkit",
+        "Nvidia PhysicsNeMo",
+        "Orient EuroPharma",
+        "AI, quantum computing, and physical simulation"
+      ],
+      "url": "https://www.prnewswire.com/news-releases/computex-2026compal-integrates-quantum-technology-and-ai--partnering-with-top-universities-and-pharmaceutical-firms-to-build-a-biotech-ai-platform-302791116.html",
+      "sourceName": "PR Newswire / Compal",
+      "relatedSources": [
+        "PR Newswire",
+        "Compal",
+        "Vernus AI",
+        "Nvidia"
+      ],
+      "lane": "news",
+      "publishedAt": "2026-06-04T06:00:00.000Z",
+      "importance": 219,
+      "sourceConfidence": "medium",
+      "summaryEngine": "chat-curated",
+      "filterCategory": "general"
+    },
+    {
+      "id": "curated-liteon-sutd-neuroran-ai-ran-computex-2026-06-04",
+      "title": "LITEON and SUTD push AI-RAN toward real-time edge inference",
+      "summary": "LITEON, SUTD, and NeuroRAN demonstrated an AI-RAN setup that partitions models across 5G infrastructure for privacy-preserving, energy-aware edge AI.",
+      "fullSummary": "LITEON's Computex collaboration with Singapore University of Technology and Design and NeuroRAN adds a telecom angle to the AI infrastructure wave. The companies showcased an AI-RAN system that integrates AI into 5G radio access networks, including a DGX Spark-compatible O-RAN small cell. The technical hook is dynamic model partitioning: some model work can run near the radio edge, while more demanding tasks can move to stronger compute. The partners point to real-time video object detection with Swin Transformer-style models as a target application. This is still a demonstration rather than broad deployment, so confidence is medium, but it matters because AI-RAN is one path carriers are exploring to make edge inference private, low-latency, and less energy hungry.",
+      "keyFacts": [
+        "June 4, 2026",
+        "LITEON",
+        "Singapore University of Technology and Design",
+        "NeuroRAN",
+        "Computex 2026",
+        "AI-RAN",
+        "O-RAN small cell",
+        "Nvidia DGX Spark-compatible",
+        "Dynamic AI model partitioning"
+      ],
+      "url": "https://en.prnasia.com/releases/apac/liteon-partners-with-sutd-and-its-spinoff-neuroran-to-drive-ai-ran-innovation-advancing-real-time-edge-ai-commercialization-over-5g-535890.shtml",
+      "sourceName": "PR Newswire APAC / LITEON",
+      "relatedSources": [
+        "PR Newswire APAC",
+        "LITEON",
+        "SUTD",
+        "NeuroRAN",
+        "Nvidia"
+      ],
+      "lane": "news",
+      "publishedAt": "2026-06-04T04:29:00.000Z",
+      "importance": 218,
+      "sourceConfidence": "medium",
+      "summaryEngine": "chat-curated",
+      "filterCategory": "general"
+    },
+    {
+      "id": "curated-cooler-master-spingence-physical-ai-manufacturing-2026-06-04",
+      "title": "Cooler Master and Spingence wire physical AI into manufacturing",
+      "summary": "Cooler Master and Spingence said they deployed Nvidia's three-computer physical-AI architecture across four production bases using visual inspection, simulation, and digital twins.",
+      "fullSummary": "Cooler Master and Taiwanese AI architecture developer Spingence are presenting a manufacturing case study for physical AI. The companies say Spingence combined AI visual inspection agents, thermal physics simulation, digital twins, and enterprise knowledge systems to build a closed-loop manufacturing setup across production bases in Taiwan, China, Vietnam, and the United States. The announcement leans on Nvidia's three-computer architecture language from GTC Taipei, which frames training, simulation, and runtime systems as a connected stack. This is vendor-reported, so confidence is medium, but it is a useful practical-adoption story: physical AI is not only humanoid robots, it is also defect detection, factory simulation, and operations knowledge moving into production workflows.",
+      "keyFacts": [
+        "June 4, 2026",
+        "Cooler Master",
+        "Spingence",
+        "Nvidia GTC Taipei 2026",
+        "AI visual inspection",
+        "Thermal physics simulation",
+        "Digital twins",
+        "Taiwan, China, Vietnam, and United States production bases"
+      ],
+      "url": "https://www.prnewswire.com/apac/news-releases/cooler-master-and-spingence-launch-global-ai-manufacturing-initiative-implementing-nvidia-three-computer-architecture-to-create-a-multinational-digital-brain-302790529.html",
+      "sourceName": "PR Newswire APAC / Spingence",
+      "relatedSources": [
+        "PR Newswire APAC",
+        "Cooler Master",
+        "Spingence",
+        "Nvidia"
+      ],
+      "lane": "news",
+      "publishedAt": "2026-06-04T01:00:00.000Z",
+      "importance": 217,
+      "sourceConfidence": "medium",
+      "summaryEngine": "chat-curated",
+      "filterCategory": "general"
+    },
+    {
+      "id": "curated-compal-datasection-sgx30-ai-cloud-apac-2026-06-04",
+      "title": "Compal and Datasection scale APAC AI cloud infrastructure",
+      "summary": "Compal said Japan's Datasection is using its SGX30-2 AI server platform to expand cloud infrastructure for generative AI, video generation, coding assistants, and agent workloads.",
+      "fullSummary": "A second Compal story belongs in infrastructure rather than biotech. The company says Japan-based Datasection is using Compal's SGX30-2 AI server platform to expand AI cloud capacity across the Asia-Pacific region. The announcement names large-scale inference, coding assistants, video generation services, AI agents, and HPC-style workloads as the demand drivers. This fills a useful lane because AI factory coverage often centers on Nvidia and U.S. hyperscalers, while regional infrastructure providers are also building capacity for production-era AI services. The source is a company release, so confidence is medium. The main thing to watch is whether these APAC AI clouds disclose usable capacity, utilization, customer mix, and power or cooling economics rather than only platform branding.",
+      "keyFacts": [
+        "June 4, 2026",
+        "Compal Electronics",
+        "Datasection Inc.",
+        "SGX30-2 AI server platform",
+        "Asia-Pacific AI cloud",
+        "Large-scale inference",
+        "Video generation",
+        "Coding assistants",
+        "Agentic AI workloads"
+      ],
+      "url": "https://www.prnewswire.com/apac/news-releases/compal-and-datasection-advance-ai-infrastructure-for-the-production-era-302790290.html",
+      "sourceName": "PR Newswire APAC / Compal",
+      "relatedSources": [
+        "PR Newswire APAC",
+        "Compal",
+        "Datasection"
+      ],
+      "lane": "news",
+      "publishedAt": "2026-06-04T00:00:00.000Z",
+      "importance": 216,
+      "sourceConfidence": "medium",
+      "summaryEngine": "chat-curated",
+      "filterCategory": "general"
+    },
+    {
+      "id": "curated-yy-group-humanoid-robotics-training-lab-singapore-2026-06-03",
+      "title": "YY Group opens a Singapore humanoid-robot training lab",
+      "summary": "YY Group launched a humanoid robotics training lab in Singapore and said it is piloting robots in commercial retail and hospitality facilities.",
+      "fullSummary": "YY Group is adding a service-workforce angle to the physical-AI lane. The company says it has opened a Humanoid Robotics Training Lab in Singapore, powered by Nvidia accelerated computing, and paired it with pilot deployments in two commercial retail and hospitality facilities. YY frames the work as a human-robot co-working model for hospitality, retail, and facility-management environments. This is early and company-sourced, so it should be read as a pilot rather than proof of large-scale labor replacement. Still, it is a useful signal because embodied AI needs training data from messy, service-heavy environments, not only factories and labs. Watch whether the pilots disclose task completion, safety incidents, labor productivity, and customer acceptance.",
+      "keyFacts": [
+        "June 3, 2026",
+        "YY Group",
+        "Singapore",
+        "Humanoid Robotics Training Lab",
+        "Nvidia accelerated computing",
+        "Retail pilot",
+        "Hospitality pilot",
+        "Human-robot co-working framework"
+      ],
+      "url": "https://www.prnewswire.com/news-releases/yy-group-nasdaq-yygh-advances-ai-training-data-strategy-with-launch-of-training-lab-and-pilot-robotics-deployments-in-singapore-302789658.html",
+      "sourceName": "PR Newswire / YY Group",
+      "relatedSources": [
+        "PR Newswire",
+        "YY Group",
+        "Nvidia"
+      ],
+      "lane": "news",
+      "publishedAt": "2026-06-03T20:10:00.000Z",
+      "importance": 215,
+      "sourceConfidence": "medium",
+      "summaryEngine": "chat-curated",
+      "filterCategory": "general"
+    },
+    {
+      "id": "curated-openai-altman-model-approval-washington-2026-06-03",
+      "title": "Sam Altman pushes back on government pre-approval for AI models",
+      "summary": "Reuters reported that OpenAI CEO Sam Altman planned to tell U.S. lawmakers that AI developers should not need government approval before releasing new models.",
+      "fullSummary": "The U.S. AI policy debate is moving from voluntary evaluations to the harder question of whether frontier models should need official clearance before release. Reuters reported that OpenAI CEO Sam Altman planned to argue in Washington that developers should not be required to obtain U.S. government approval before putting new models into public use. The point matters because the same week included renewed voluntary-review arrangements with CAISI and fresh state-level pressure over chatbot harms. This story is a governance marker: labs may accept testing partnerships and security reviews while resisting licensing-style pre-release approvals. Watch whether lawmakers split the difference with mandatory reporting, third-party evaluations, or stronger post-release liability rather than a formal permission regime.",
+      "keyFacts": [
+        "June 3, 2026",
+        "OpenAI",
+        "Sam Altman",
+        "U.S. lawmakers",
+        "Model release approvals",
+        "Reuters",
+        "CAISI context"
+      ],
+      "url": "https://www.investing.com/news/economy-news/openais-altman-to-urge-us-lawmakers-not-to-require-ai-model-approvals-4724935",
+      "sourceName": "Reuters / Investing.com",
+      "relatedSources": [
+        "Reuters",
+        "Investing.com",
+        "OpenAI"
+      ],
+      "lane": "signal",
+      "publishedAt": "2026-06-03T17:07:00.000Z",
+      "importance": 214,
+      "sourceConfidence": "high",
+      "summaryEngine": "chat-curated",
+      "filterCategory": "pushback"
+    },
+    {
+      "id": "curated-lyric-health-scala-ai-care-navigation-2026-06-03",
+      "title": "Lyric Health and Scala.AI partner on AI care navigation",
+      "summary": "Lyric Health partnered with Scala.AI to build AI-powered healthcare engagement and member-navigation experiences for its virtual-first care platform.",
+      "fullSummary": "Lyric Health's partnership with Scala.AI is a smaller healthcare deployment story, but it fits the practical-applications lane. Lyric describes itself as a virtual-first healthcare intelligence and care-delivery platform, and says the partnership will enhance AI-driven engagement and next-generation member navigation. The useful signal is not a new medical foundation model; it is AI being embedded into the less glamorous but operationally important layer of healthcare: routing members, answering care-navigation questions, and reducing friction between patients and services. The announcement is company-sourced and does not yet provide outcome metrics, so confidence is medium. Watch whether Lyric reports improvements in appointment completion, time-to-care, call-center deflection, or clinical escalation quality.",
+      "keyFacts": [
+        "June 3, 2026",
+        "Lyric Health",
+        "Scala.AI",
+        "Healthcare engagement",
+        "Care navigation",
+        "Virtual-first care platform",
+        "Member navigation experiences"
+      ],
+      "url": "https://www.prnewswire.com/news-releases/lyric-health-announces-strategic-partnership-with-scalaai-to-advance-ai-powered-healthcare-engagement-and-care-navigation-302790624.html",
+      "sourceName": "PR Newswire / Lyric Health",
+      "relatedSources": [
+        "PR Newswire",
+        "Lyric Health",
+        "Scala.AI"
+      ],
+      "lane": "news",
+      "publishedAt": "2026-06-03T15:30:00.000Z",
+      "importance": 213,
+      "sourceConfidence": "medium",
+      "summaryEngine": "chat-curated",
+      "filterCategory": "general"
+    },
+    {
+      "id": "curated-terra-ai-20m-critical-minerals-series-a-2026-06-03",
+      "title": "Terra AI raises $20M for mineral and reservoir exploration",
+      "summary": "Terra AI raised a $20M Series A led by Khosla Ventures, with BHP Ventures joining strategically, to apply AI to subsurface uncertainty in minerals and energy.",
+      "fullSummary": "Terra AI's $20M Series A is a good example of AI funding outside chatbots and coding agents. The Palo Alto company says its platform helps reduce subsurface uncertainty for critical mineral and energy development. Khosla Ventures led the round, and BHP Ventures joined as a strategic investor, giving the story an industrial-resources angle. The company is targeting mineral and reservoir exploration, where better modeling can change drilling, extraction, and project-risk decisions. This is a company funding announcement, so confidence is medium, but it belongs in the feed because the AI buildout also depends on minerals, energy, and geology. Watch whether Terra can show field validation, not only simulation or exploration-cycle claims.",
+      "keyFacts": [
+        "June 3, 2026",
+        "Terra AI",
+        "$20M Series A",
+        "Khosla Ventures",
+        "BHP Ventures",
+        "Critical minerals",
+        "Reservoir exploration",
+        "Subsurface uncertainty"
+      ],
+      "url": "https://www.prnewswire.com/news-releases/terra-ai-raises-20m-to-accelerate-mineral-and-reservoir-exploration-to-meet-global-critical-mineral-and-energy-demands-302789507.html",
+      "sourceName": "PR Newswire / Terra AI",
+      "relatedSources": [
+        "PR Newswire",
+        "Terra AI",
+        "Khosla Ventures",
+        "BHP Ventures"
+      ],
+      "lane": "startups",
+      "publishedAt": "2026-06-03T15:00:00.000Z",
+      "importance": 212,
+      "sourceConfidence": "medium",
+      "summaryEngine": "chat-curated",
+      "filterCategory": "funding"
+    },
+    {
+      "id": "curated-ai-data-centers-power-water-un-google-2026-06-03",
+      "title": "AI data-center water and power pressure gets harder to ignore",
+      "summary": "AP and Reuters pointed to rising AI data-center energy and water pressure, while Google released water-use guidelines amid local backlash.",
+      "fullSummary": "The AI infrastructure story is becoming as much about water, land, and power as chips. AP reported that the energy, water use, and pollution tied to AI and data centers now rival many countries, and Reuters coverage of U.N. researchers warned that data-center power and water consumption could double by 2030 as AI demand grows. Axios separately reported that Google released water guidelines while communities push back on data centers over water use, power prices, air pollution, and noise. The stories should be read together: hyperscalers are trying to standardize sustainability claims just as public scrutiny is rising. The practical question is whether new AI capacity can be permitted, cooled, and powered without triggering local opposition that slows deployment.",
+      "keyFacts": [
+        "June 3, 2026",
+        "AP",
+        "Reuters",
+        "Axios",
+        "Google data-center water guidelines",
+        "U.N. researchers",
+        "Power and water consumption could double by 2030",
+        "Google 2024 freshwater consumption cited at 7.2B gallons"
+      ],
+      "url": "https://apnews.com/article/a792f184a9f2833b5388dbae8b41ca95",
+      "sourceName": "AP + Reuters + Axios",
+      "relatedSources": [
+        "AP",
+        "Reuters",
+        "Axios",
+        "Google"
+      ],
+      "relatedLinks": [
+        {
+          "title": "Google pushes water standards amid data center backlash",
+          "url": "https://www.axios.com/2026/06/03/google-pushes-water-standards-data-center-backlash"
+        },
+        {
+          "title": "AI to double data center power and water consumption by 2030, UN researchers say",
+          "url": "https://www.ksl.com/article/51506282/ai-to-double-data-center-power-and-water-consumption-by-2030-un-researchers-say"
+        }
+      ],
+      "lane": "signal",
+      "publishedAt": "2026-06-03T14:00:11.000Z",
+      "importance": 211,
+      "sourceConfidence": "high",
+      "summaryEngine": "chat-curated",
+      "filterCategory": "pushback"
+    },
+    {
+      "id": "curated-suno-400m-5-4b-ai-music-funding-2026-06-03",
+      "title": "Suno raises more than $400M at a $5.4B valuation",
+      "summary": "Reuters reported that AI music startup Suno raised more than $400M at a $5.4B valuation as it works on new creation tools for its platform.",
+      "fullSummary": "Suno's new financing keeps generative music in the center of the AI funding and copyright fight. Reuters reported that the AI music startup raised more than $400M at a $5.4B valuation and plans to use the capital to enhance its platform with new tools. The round is notable because music generation has remained one of the highest-friction creative AI categories: demand from users is obvious, but label litigation and training-data questions remain intense. A valuation above $5B shows investors still expect synthetic audio to become a major creator platform, not only a novelty feature. Watch whether the new money goes into licensing deals, better controllability, creator monetization, or legal defense.",
+      "keyFacts": [
+        "June 3, 2026",
+        "Suno",
+        "More than $400M funding",
+        "$5.4B valuation",
+        "Reuters",
+        "AI music generation",
+        "New platform tools"
+      ],
+      "url": "https://www.streetinsider.com/Reuters/AI%2Bmusic%2Bstartup%2BSuno%2Braises%2Bfunding%2Bat%2B%245.4%2Bbillion%2Bvaluation/26595397.html",
+      "sourceName": "Reuters / StreetInsider",
+      "relatedSources": [
+        "Reuters",
+        "StreetInsider",
+        "Suno"
+      ],
+      "lane": "startups",
+      "publishedAt": "2026-06-03T11:28:00.000Z",
+      "importance": 210,
+      "sourceConfidence": "high",
+      "summaryEngine": "chat-curated",
+      "filterCategory": "funding"
+    },
+    {
+      "id": "curated-marvell-nvidia-jensen-huang-ai-networking-surge-2026-06-03",
+      "title": "Marvell becomes the market's AI networking proxy after Nvidia praise",
+      "summary": "Marvell shares jumped after Nvidia CEO Jensen Huang called it the next trillion-dollar company, putting AI networking and connectivity back in the investor spotlight.",
+      "fullSummary": "This is a market-signal story, not a product launch, but it says something important about where AI infrastructure attention is moving. Axios reported that Marvell Technology's stock soared after Nvidia CEO Jensen Huang called the company the next trillion-dollar company during Computex week. The reaction reflects a broader investor thesis: as AI factories scale, networking, optical connectivity, custom silicon, and data movement become as strategic as GPUs. The story should not be read as a guaranteed valuation path; CEO-stage praise can overheat a stock quickly. But it is relevant because capital is rotating toward the companies that solve AI data-center bottlenecks between chips, racks, and clusters.",
+      "keyFacts": [
+        "June 3, 2026",
+        "Marvell Technology",
+        "Nvidia",
+        "Jensen Huang",
+        "Computex 2026",
+        "Stock reportedly rose nearly 33% in a day",
+        "AI networking",
+        "Connectivity bottlenecks"
+      ],
+      "url": "https://www.axios.com/2026/06/03/marvell-jensen-huang-nvidia-ai",
+      "sourceName": "Axios",
+      "relatedSources": [
+        "Axios",
+        "Nvidia",
+        "Marvell"
+      ],
+      "lane": "signal",
+      "publishedAt": "2026-06-03T11:00:07.000Z",
+      "importance": 209,
+      "sourceConfidence": "high",
+      "summaryEngine": "chat-curated",
+      "filterCategory": "general"
+    },
+    {
+      "id": "curated-wolters-kluwer-openai-expert-ai-regulated-professionals-2026-06-03",
+      "title": "Wolters Kluwer and OpenAI expand Expert AI work",
+      "summary": "Wolters Kluwer expanded its OpenAI collaboration to bring domain-grounded generative and agentic AI into healthcare, tax, accounting, legal, and compliance products.",
+      "fullSummary": "Wolters Kluwer's expanded collaboration with OpenAI is a strong enterprise deployment story because it targets regulated professional work rather than generic office chat. The company says OpenAI's latest platform capabilities will support its Expert AI product suite across healthcare, tax and accounting, legal, compliance, and regulatory workflows. Wolters Kluwer also gave adoption details: more than half of U.S. Enterprise Edition customers, representing about 2,000 hospitals, had signed up for the Expert AI version of UpToDate Enterprise by April 30, with a goal of roughly 70% adoption by mid-year. In tax and accounting, it says CCH Axcess agentic workflows have reduced manual tasks by 20% to 30%. The numbers are company-reported, but the deployment lane is important.",
+      "keyFacts": [
+        "June 3, 2026",
+        "Wolters Kluwer",
+        "OpenAI",
+        "Expert AI",
+        "UpToDate Expert AI",
+        "About 2,000 hospitals represented by signed-up U.S. Enterprise Edition customers",
+        "70% adoption target by mid-year",
+        "CCH Axcess",
+        "20% to 30% manual-task reduction claim"
+      ],
+      "url": "https://www.globenewswire.com/news-release/2026/06/03/3305782/0/en/wolters-kluwer-and-openai-expand-enterprise-ai-collaboration-to-advance-trusted-expert-ai-for-regulated-professionals.html",
+      "sourceName": "GlobeNewswire / Wolters Kluwer",
+      "relatedSources": [
+        "GlobeNewswire",
+        "Wolters Kluwer",
+        "OpenAI"
+      ],
+      "lane": "news",
+      "publishedAt": "2026-06-03T06:00:00.000Z",
+      "importance": 193,
+      "sourceConfidence": "medium",
+      "summaryEngine": "chat-curated",
+      "filterCategory": "general"
+    },
+    {
+      "id": "curated-nature-nec-dual-swin-transformer-neonatal-ai-2026-06-03",
+      "title": "Nature paper tests multimodal AI for a dangerous neonatal disease",
+      "summary": "A Pediatric Research study reported an interpretable dual Swin Transformer that combines abdominal X-rays and lab data to support NEC diagnosis and surgical prediction.",
+      "fullSummary": "A new Pediatric Research paper adds a concrete biomedical-AI item to the feed. The researchers studied necrotizing enterocolitis, a dangerous neonatal intestinal disease where diagnosis and surgery decisions are difficult. Their retrospective study included 484 neonates, split evenly between NEC and non-NEC cases, and built an interpretable dual Swin Transformer that fuses abdominal X-rays with laboratory parameters. The model was refined with an external data-domain adaptation strategy using 50 cases and evaluated on internal and external test sets. This is not a deployed clinical product, but it is a useful example of where medical AI is going: multimodal systems that combine imaging, structured clinical data, interpretability, and validation beyond one hospital data slice.",
+      "keyFacts": [
+        "Published June 3, 2026",
+        "Pediatric Research",
+        "Necrotizing enterocolitis",
+        "484 neonates",
+        "242 NEC cases",
+        "242 non-NEC cases",
+        "Dual Swin Transformer",
+        "Abdominal X-rays",
+        "Laboratory parameters",
+        "External domain adaptation n=50"
+      ],
+      "url": "https://www.nature.com/articles/s41390-026-05145-7",
+      "sourceName": "Nature / Pediatric Research",
+      "relatedSources": [
+        "Nature",
+        "Pediatric Research"
+      ],
+      "lane": "papers",
+      "publishedAt": "2026-06-03T00:00:00.000Z",
+      "importance": 192,
+      "sourceConfidence": "high",
+      "summaryEngine": "chat-curated",
+      "filterCategory": "papers"
+    },
+    {
+      "id": "curated-microsoft-mai-code-1-flash-copilot-build-2026-06-02",
+      "title": "Microsoft rolls out MAI-Code-1-Flash for Copilot",
+      "summary": "Microsoft introduced MAI-Code-1-Flash, an in-house coding model designed for fast everyday developer assistance and gradual routing through GitHub Copilot.",
+      "fullSummary": "Microsoft's Build-era model news deserved a dedicated item because it marks a deeper shift away from relying only on partner frontier models. Microsoft AI introduced MAI-Code-1-Flash, a coding model built for fast, efficient help in common developer workflows. The company says Copilot may route tasks to it through the Auto picker, and users may also see it directly in the model picker as rollout expands. Microsoft is emphasizing cost, speed, and tight integration rather than simply claiming top frontier performance. The strategic angle is clear: if Microsoft can serve many coding-assistant tasks from in-house models, it gets more control over latency, margins, data posture, and product routing across GitHub and VS Code.",
+      "keyFacts": [
+        "June 2, 2026",
+        "Microsoft AI",
+        "MAI-Code-1-Flash",
+        "GitHub Copilot",
+        "VS Code",
+        "Auto model picker",
+        "In-house coding model",
+        "Fast developer workflows"
+      ],
+      "url": "https://microsoft.ai/news/introducingmai-code-1-flash/",
+      "sourceName": "Microsoft AI",
+      "relatedSources": [
+        "Microsoft AI",
+        "GitHub Copilot"
+      ],
+      "lane": "news",
+      "publishedAt": "2026-06-02T18:47:00.000Z",
+      "importance": 191,
+      "sourceConfidence": "high",
+      "summaryEngine": "chat-curated",
+      "filterCategory": "models"
+    },
+    {
+      "id": "curated-signaloid-c0-asic-physical-ai-robotics-2026-06-02",
+      "title": "Signaloid previews a C0-ASIC for physical AI and robotics",
+      "summary": "Signaloid announced tapeout and preliminary specifications for its C0-ASIC, a hardware step aimed at AI, robotics, aerospace, and industrial automation workloads.",
+      "fullSummary": "Signaloid's C0-ASIC preview is a niche but worthwhile chip story because it focuses on physical AI rather than another cloud GPU cluster. The company, which works on hardware and binary-translation acceleration, announced tapeout and preliminary specifications for a chip targeted at AI, robotics, aerospace, quantitative finance, and industrial automation. It plans to show the technology at Bosch Connected World in Berlin. This is medium-confidence because the announcement is pre-commercial and company-sourced, but it fills an undercovered lane: physical AI needs compute for uncertain, sensor-rich, real-world systems, and not every workload maps cleanly to hyperscale GPU economics. Watch availability, developer tooling, and whether robotics customers can validate performance claims.",
+      "keyFacts": [
+        "June 2, 2026",
+        "Signaloid",
+        "C0-ASIC",
+        "Tapeout",
+        "Physical AI",
+        "Robotics",
+        "Aerospace",
+        "Bosch Connected World",
+        "Industrial automation"
+      ],
+      "url": "https://www.imec-int.com/en/press/signaloid-announces-preview-new-asic-targeted-physical-ai-and-robotics-applications",
+      "sourceName": "imec / Signaloid",
+      "relatedSources": [
+        "imec",
+        "Signaloid",
+        "Bosch Connected World"
+      ],
+      "lane": "news",
+      "publishedAt": "2026-06-02T10:00:00.000Z",
+      "importance": 190,
+      "sourceConfidence": "medium",
+      "summaryEngine": "chat-curated",
+      "filterCategory": "general"
+    },
+    {
+      "id": "curated-dnotitia-dna-3-enterprise-qwen-model-family-2026-06-02",
+      "title": "Dnotitia releases DNA 3.0 enterprise models on Hugging Face",
+      "summary": "Korea's Dnotitia released DNA 3.0, a Qwen-based enterprise model family ranging from 0.8B to 122B-A10B and tuned for institutional workflows.",
+      "fullSummary": "Dnotitia's DNA 3.0 release fills the regional and open-model lane that is easy to miss in a broad news sweep. The Korea-based company says DNA 3.0 is built on Qwen 3.5 and 3.6, then post-trained for institutional and enterprise use. The lineup ranges from 0.8B models to a 122B-A10B mixture-of-experts model, with 35B-A3B and 122B-A10B variants using MoE routing to reduce inference load. Dnotitia says the models are integrated into Seahorse Cloud for enterprise Q&A, semantic search, and agent workflows over organization-specific data. This is company-reported and built on another lab's base models, so confidence is medium, but it is still useful as a sign of localization and enterprise-tuning around open-weight ecosystems.",
+      "keyFacts": [
+        "June 2, 2026 UTC",
+        "Dnotitia",
+        "DNA 3.0",
+        "Hugging Face",
+        "Built on Qwen 3.5/3.6",
+        "0.8B to 122B-A10B lineup",
+        "35B-A3B",
+        "122B-A10B",
+        "Seahorse Cloud",
+        "Korean enterprise AI"
+      ],
+      "url": "https://www.prnewswire.com/news-releases/dnotitia-releases-dna-3-0--an-enterprise-ready-ai-language-model-family-302787871.html",
+      "sourceName": "PR Newswire / Dnotitia",
+      "relatedSources": [
+        "PR Newswire",
+        "Dnotitia",
+        "Hugging Face",
+        "Qwen"
+      ],
+      "lane": "news",
+      "publishedAt": "2026-06-02T03:38:00.000Z",
+      "importance": 189,
+      "sourceConfidence": "medium",
+      "summaryEngine": "chat-curated",
+      "filterCategory": "models"
+    },
+    {
+      "id": "curated-jetbrains-mellum2-12b-moe-coding-model-2026-06-01",
+      "title": "JetBrains releases Mellum2, a 12B MoE coding model",
+      "summary": "JetBrains published Mellum2 on Hugging Face, positioning the 12B mixture-of-experts model for code-completion and developer-tool workflows.",
+      "fullSummary": "JetBrains' Mellum2 is another missed open-model item, and it is directly relevant to developer tools. The company published the model on Hugging Face as a 12B mixture-of-experts release, extending its Mellum line for code-focused workflows. The important detail is distribution: JetBrains is not only embedding AI into IDEs, it is also releasing model artifacts that developers can inspect and use through the broader open model ecosystem. This is a technical release rather than a market-moving headline, but it helps readers track how coding models are fragmenting into specialized, tool-integrated systems. Watch license terms, local serving cost, benchmark behavior inside real IDE tasks, and whether JetBrains routes more of its AI assistant stack through its own models.",
+      "keyFacts": [
+        "June 1, 2026",
+        "JetBrains",
+        "Mellum2",
+        "12B mixture-of-experts model",
+        "Hugging Face",
+        "Code workflows",
+        "Developer tools"
+      ],
+      "url": "https://huggingface.co/blog/jetbrains/mellum2-launch",
+      "sourceName": "Hugging Face / JetBrains",
+      "relatedSources": [
+        "Hugging Face",
+        "JetBrains"
+      ],
+      "lane": "news",
+      "publishedAt": "2026-06-01T12:00:00.000Z",
+      "importance": 188,
+      "sourceConfidence": "high",
+      "summaryEngine": "chat-curated",
+      "filterCategory": "models"
+    },
+    {
+      "id": "curated-western-digital-ai-storage-computex-data-system-2026-06-01",
+      "title": "Western Digital argues AI infrastructure is becoming a data system",
+      "summary": "WD used its Computex presence to argue that persistent data growth, tiered storage, and infrastructure economics are becoming core AI scaling constraints.",
+      "fullSummary": "Western Digital's Computex message is not flashy, but it fills a real infrastructure gap. The company argues that AI workloads should be viewed as data systems, not only compute systems, because training, inference, agents, and physical AI all create persistent data that grows over time. WD highlighted storage throughput, capacity, reliability, and tiered architecture as constraints that determine whether AI deployments stay economical. This is a vendor-positioning story, so confidence is medium, but the idea is important: GPU clusters get the attention, while storage architecture, data movement, and retention costs increasingly shape the real price of AI at scale. Watch whether AI builders start reporting storage and data-management spending with the same seriousness as accelerator spending.",
+      "keyFacts": [
+        "Computex 2026",
+        "Western Digital",
+        "AI infrastructure",
+        "Persistent data growth",
+        "Tiered storage",
+        "Training",
+        "Inference",
+        "Agentic AI",
+        "Physical AI"
+      ],
+      "url": "https://www.businesswire.com/news/home/20260601510484/en/WD-at-Computex-2026-AI-Doesnt-Just-Run-on-Compute---It-Runs-on-Data",
+      "sourceName": "Business Wire / Western Digital",
+      "relatedSources": [
+        "Business Wire",
+        "Western Digital",
+        "Computex"
+      ],
+      "lane": "news",
+      "publishedAt": "2026-06-01T13:00:00.000Z",
+      "importance": 186,
+      "sourceConfidence": "medium",
+      "summaryEngine": "chat-curated",
+      "filterCategory": "general"
+    },
     {
       "id": "curated-netris-nvidia-dsx-air-apac-ai-factory-networking-2026-06-02",
       "title": "Netris expands Nvidia DSX Air networking for APAC AI factories",
@@ -1450,29 +2023,36 @@
     },
     {
       "id": "curated-alphabet-80b-ai-infrastructure-raise-2026-06-01",
-      "title": "Alphabet seeks $80B in equity to fund AI infrastructure",
-      "summary": "Alphabet plans to raise up to $80B for AI compute and global infrastructure, including a $10B Berkshire Hathaway private investment.",
-      "fullSummary": "Alphabet's new financing plan is a major escalation in the AI infrastructure race. Axios and TechCrunch report that the Google parent plans to raise up to $80B in equity to support capital expenditures for AI infrastructure and global compute as demand exceeds available supply. The structure is unusually large even for a hyperscaler: coverage describes $30B in underwritten public offerings, a $40B at-the-market share-sale program expected to begin in Q3 2026, and a $10B Berkshire Hathaway private placement. The story matters because Alphabet historically generated enough cash to fund enormous capital spending internally; turning to equity markets shows how compute, data centers, chips, power, and cloud demand are stretching even the strongest balance sheets. Watch investor tolerance for dilution, whether AI services convert capacity into revenue, and how Microsoft, Amazon, Meta, and OpenAI-linked infrastructure partners respond.",
+      "title": "Alphabet's $80B AI buildout raise swells toward $85B",
+      "summary": "Alphabet's June investor presentation says its proposed $80B AI infrastructure raise was oversubscribed, lifting the expected total to about $85B.",
+      "fullSummary": "Alphabet's AI infrastructure financing story has been updated with the company's own June investor presentation. The earlier Axios and TechCrunch coverage said Alphabet planned to raise up to $80B for AI compute and global infrastructure, including a $10B Berkshire Hathaway private placement, $30B in underwritten offerings, and a $40B at-the-market program. Google now says the underwritten offering was oversubscribed, with roughly $35B priced and allocated for an expected total of about $85B. Sundar Pichai framed AI as the central platform shift and emphasized Google's full-stack approach, cloud position, product reach, and long-term bets. The update matters because AI capacity is pushing even Alphabet to discuss capital structure, compute buildout, and investor demand explicitly.",
       "keyFacts": [
         "Alphabet",
-        "June 1, 2026",
-        "up to $80B equity raise",
+        "Google",
+        "June 1-3, 2026",
+        "Proposed $80B equity raise",
+        "Expected total about $85B after oversubscription",
         "$10B Berkshire Hathaway private placement",
-        "$30B underwritten offerings",
-        "$40B at-the-market program",
-        "Q3 2026 ATM start expected",
-        "AI infrastructure",
-        "global compute",
-        "$180B-$190B 2026 capex outlook reported by TechCrunch"
+        "$35B priced and allocated",
+        "$40B at-the-market program expected in Q3 2026",
+        "AI infrastructure and global compute",
+        "Sundar Pichai investor presentation"
       ],
-      "url": "https://www.axios.com/2026/06/01/alphabet-80-billion-ai-buildout",
-      "sourceName": "Axios + TechCrunch",
+      "url": "https://blog.google/alphabet/investor-presentation-june-2026/",
+      "sourceName": "Alphabet + Axios + TechCrunch",
       "relatedSources": [
+        "Alphabet",
+        "Google",
         "Axios",
         "TechCrunch",
-        "Alphabet"
+        "Berkshire Hathaway"
       ],
       "relatedLinks": [
+        {
+          "title": "Alphabet investor presentation: June 2026",
+          "url": "https://blog.google/alphabet/investor-presentation-june-2026/",
+          "sourceName": "Alphabet"
+        },
         {
           "title": "Alphabet seeks $80 billion to fund AI buildout",
           "url": "https://www.axios.com/2026/06/01/alphabet-80-billion-ai-buildout",
@@ -1484,9 +2064,9 @@
           "sourceName": "TechCrunch"
         }
       ],
-      "lane": "news",
-      "publishedAt": "2026-06-01T21:25:41.000Z",
-      "importance": 204,
+      "lane": "deals",
+      "publishedAt": "2026-06-03T08:00:00.000Z",
+      "importance": 207,
       "sourceConfidence": "high",
       "summaryEngine": "chat-curated",
       "filterCategory": "funding"
