@@ -3,6 +3,8 @@ const INITIAL_RENDER_COUNT = 10;
 const RENDER_BATCH = 8;
 const FILTER_CATEGORIES = new Set(["funding", "models", "papers", "pushback", "general"]);
 const SAVE_SYNC_NOTICE_KEY = "ai-brief-save-sync-notice-v1";
+const SIGN_IN_BUTTON_TEXT = "Sign in with Google";
+const SIGN_IN_PENDING_TEXT = "Signing in...";
 const VISUAL_COLORS = {
   papers: "#f0b84a",
   startups: "#3bd671",
@@ -24,6 +26,7 @@ const state = {
   firebaseReady: false,
   firebaseError: "",
   authReady: false,
+  authInFlight: false,
   user: null,
   auth: null,
   db: null,
@@ -227,6 +230,30 @@ function waitForFirebaseInit() {
   });
 }
 
+function prefersRedirectSignIn() {
+  const mobileUserAgent = /Android|iPhone|iPad|iPod|IEMobile|Opera Mini/i.test(navigator.userAgent);
+  const coarsePointer = window.matchMedia?.("(pointer: coarse)")?.matches;
+  const narrowViewport = window.matchMedia?.("(max-width: 760px)")?.matches;
+  const standalone = window.matchMedia?.("(display-mode: standalone)")?.matches || navigator.standalone;
+  return Boolean(mobileUserAgent || coarsePointer || narrowViewport || standalone);
+}
+
+function authErrorMessage(error) {
+  if (error?.code === "auth/cancelled-popup-request") {
+    return "Google sign-in is already open. Close the previous sign-in window and try again.";
+  }
+  if (error?.code === "auth/popup-closed-by-user") {
+    return "Google sign-in was closed before it finished.";
+  }
+  if (error?.code === "auth/popup-blocked") {
+    return "The browser blocked the Google sign-in popup. Try again or allow popups for this site.";
+  }
+  if (error?.code === "auth/unauthorized-domain") {
+    return "This Firebase domain is not authorized for Google sign-in.";
+  }
+  return error?.message || "Google sign-in failed.";
+}
+
 async function ensureFirebaseReady() {
   if (state.firebaseReady && state.auth && state.db) return true;
   if (firebaseInitPromise) await firebaseInitPromise;
@@ -236,27 +263,72 @@ async function ensureFirebaseReady() {
   return Boolean(state.firebaseReady && state.auth && state.db);
 }
 
+async function signInWithPopupOrCredential(provider) {
+  if (!state.user?.isAnonymous) {
+    await state.auth.signInWithPopup(provider);
+    return;
+  }
+
+  try {
+    await state.user.linkWithPopup(provider);
+  } catch (error) {
+    if (error.code !== "auth/credential-already-in-use") throw error;
+    const credential = window.firebase.auth.GoogleAuthProvider.credentialFromError?.(error);
+    if (credential) {
+      await state.auth.signInWithCredential(credential);
+      return;
+    }
+    await state.auth.signInWithRedirect(provider);
+  }
+}
+
+async function signInWithRedirect(provider) {
+  if (state.user?.isAnonymous) {
+    await state.user.linkWithRedirect(provider);
+    return;
+  }
+  await state.auth.signInWithRedirect(provider);
+}
+
 async function signInWithGoogle() {
+  if (state.authInFlight) {
+    showToast("Google sign-in is already in progress.");
+    return;
+  }
+
+  state.authInFlight = true;
+  updateAuthUi();
+
   if (!(await ensureFirebaseReady()) || !window.firebase?.auth) {
     showToast(state.firebaseError || "Sign-in is available on the hosted Firebase app.");
+    state.authInFlight = false;
+    updateAuthUi();
     return;
   }
 
   const provider = new window.firebase.auth.GoogleAuthProvider();
+  provider.setCustomParameters({ prompt: "select_account" });
   try {
-    if (state.user?.isAnonymous) {
-      try {
-        await state.user.linkWithPopup(provider);
-      } catch (error) {
-        if (error.code !== "auth/credential-already-in-use") throw error;
-        await state.auth.signInWithPopup(provider);
-      }
+    if (prefersRedirectSignIn()) {
+      await signInWithRedirect(provider);
     } else {
-      await state.auth.signInWithPopup(provider);
+      await signInWithPopupOrCredential(provider);
     }
     showToast("Signed in. Saved stories will sync across devices.");
   } catch (error) {
-    showToast(error.message || "Google sign-in failed.");
+    if (!prefersRedirectSignIn() && ["auth/cancelled-popup-request", "auth/popup-blocked"].includes(error?.code)) {
+      try {
+        await signInWithRedirect(provider);
+        return;
+      } catch (redirectError) {
+        showToast(authErrorMessage(redirectError));
+      }
+    } else {
+      showToast(authErrorMessage(error));
+    }
+  } finally {
+    state.authInFlight = false;
+    updateAuthUi();
   }
 }
 
@@ -290,6 +362,9 @@ async function migrateLocalSaves() {
 function updateAuthUi() {
   if (!authStatus || !signInButton || !signOutButton) return;
 
+  signInButton.textContent = SIGN_IN_BUTTON_TEXT;
+  signInButton.disabled = false;
+
   if (hasSyncedUser()) {
     authStatus.textContent = `Signed in as ${state.user.displayName || state.user.email || "Google user"}. Saved stories sync across devices.`;
     signInButton.hidden = true;
@@ -299,6 +374,12 @@ function updateAuthUi() {
 
   signInButton.hidden = false;
   signOutButton.hidden = true;
+  if (state.authInFlight) {
+    signInButton.disabled = true;
+    signInButton.textContent = SIGN_IN_PENDING_TEXT;
+    authStatus.textContent = "Opening Google sign-in...";
+    return;
+  }
   authStatus.textContent = state.firebaseReady
     ? "Saves are local until you sign in with Google."
     : "Saves are local on this device. Sync needs Firebase setup.";
