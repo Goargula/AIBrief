@@ -1,5 +1,5 @@
-const CACHE_NAME = "ai-brief-v33";
-const ASSETS = ["/", "/index.html", "/styles.css?v=33", "/app.js?v=33", "/manifest.json", "/icon.svg", "/logo.svg"];
+const CACHE_NAME = "ai-brief-v34";
+const ASSETS = ["/", "/index.html", "/styles.css?v=34", "/app.js?v=34", "/manifest.json", "/icon.svg", "/logo.svg"];
 
 self.addEventListener("install", (event) => {
   event.waitUntil(caches.open(CACHE_NAME).then((cache) => cache.addAll(ASSETS)));

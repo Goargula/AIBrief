@@ -173,6 +173,11 @@ function userSaveRef(storyId) {
   return state.db.collection("userSaves").doc(state.user.uid).collection("stories").doc(storyId);
 }
 
+function currentHostingAuthDomain() {
+  const host = window.location.hostname;
+  return host.endsWith(".web.app") || host.endsWith(".firebaseapp.com") ? host : "";
+}
+
 function installFirebaseBrowserGlobals() {
   window.global = window.global || window;
   window.process = window.process || { env: {} };
@@ -230,12 +235,21 @@ async function loadFirebaseSdk() {
     await loadFirebaseScript("firebase-app-compat.js", () => Boolean(window.firebase?.initializeApp));
     await loadFirebaseScript("firebase-auth-compat.js", () => Boolean(window.firebase?.auth));
     await loadFirebaseScript("firebase-firestore-compat.js", () => Boolean(window.firebase?.firestore));
-    if (!window.firebase?.apps?.length) {
-      await loadScript("/__/firebase/init.js");
-    }
+    await initializeFirebaseApp();
   })();
 
   return firebaseSdkPromise;
+}
+
+async function initializeFirebaseApp() {
+  if (window.firebase?.apps?.length) return;
+
+  const response = await fetch("/__/firebase/init.json", { cache: "no-store" });
+  if (!response.ok) throw new Error("Firebase config could not load.");
+
+  const config = await response.json();
+  const authDomain = currentHostingAuthDomain();
+  window.firebase.initializeApp(authDomain ? { ...config, authDomain } : config);
 }
 
 async function initializeFirebase() {
