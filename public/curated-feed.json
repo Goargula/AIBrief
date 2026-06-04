@@ -1,9 +1,645 @@
 {
-  "generatedAt": "2026-06-04T08:05:58.357Z",
-  "nextRefreshAt": "2026-06-04T11:05:58.357Z",
+  "generatedAt": "2026-06-04T21:48:17.628Z",
+  "nextRefreshAt": "2026-06-05T00:48:17.628Z",
   "summaryEngine": "chat-curated",
   "curated": true,
   "items": [
+    {
+      "id": "curated-meta-ai-data-centers-rapid-deployment-tents-ohio-2026-06-04",
+      "title": "Meta speeds AI data centers with tent-style deployments",
+      "summary": "TechCrunch reported that Meta is using rapid-deployment tent structures in Ohio to house AI infrastructure faster, with modular gas turbines nearby for power.",
+      "fullSummary": "Meta's AI infrastructure buildout is getting more improvised and more urgent. TechCrunch reported that the company has built six rapid-deployment structures outside New Albany, Ohio, including five 125,000-square-foot tents started between April and June 2026, according to local permits reviewed by Cleanview founder Michael Thomas. The setup echoes emergency manufacturing and power tactics: temporary-looking structures, huge AI-chip deployments, and roughly 200 megawatts of modular gas turbines nearby. Meta has said it may spend up to $145B on data centers and capital expenditures, so this is not a side experiment. The story matters because AI capacity is no longer only a chip problem; construction speed, local permitting, grid access, and backup generation are becoming competitive weapons.",
+      "keyFacts": [
+        "June 4, 2026",
+        "Meta",
+        "New Albany, Ohio",
+        "Six rapid-deployment structures",
+        "Five 125,000-square-foot tents",
+        "200 MW of modular gas turbines nearby",
+        "Meta capex guidance up to $145B"
+      ],
+      "url": "https://techcrunch.com/2026/06/04/meta-steals-a-tactic-from-tesla-and-builds-data-centers-in-tents/",
+      "sourceName": "TechCrunch",
+      "relatedSources": [
+        "TechCrunch",
+        "Cleanview",
+        "The Information"
+      ],
+      "lane": "news",
+      "publishedAt": "2026-06-04T19:33:00.000Z",
+      "importance": 260,
+      "sourceConfidence": "high",
+      "summaryEngine": "chat-curated",
+      "filterCategory": "general"
+    },
+    {
+      "id": "curated-poke-apple-messages-business-ai-agent-2026-06-04",
+      "title": "Apple approves Poke as an AI agent inside Messages for Business",
+      "summary": "Poke became the first AI agent approved for Apple's Messages for Business platform, giving the text-based assistant a path into iMessage-style business chats.",
+      "fullSummary": "Poke is a useful consumer-agent signal ahead of Apple's WWDC cycle. TechCrunch reported that the Palo Alto startup, built by The Interaction Company of California, is the first AI agent Apple has approved for Messages for Business. Poke already works over SMS, Telegram, and some WhatsApp markets, and says it has relayed about 100M messages. Apple approval required live-support fallback, clear AI-agent identification, testimony from messaging providers, and UI changes such as Apple-style buttons and link previews. The immediate story is modest: this is not a general App Store opening for agents. The broader signal is stronger: Apple may prefer controlled messaging surfaces where AI agents are clearly labeled, billed per user, and constrained by business-support rules.",
+      "keyFacts": [
+        "June 4, 2026",
+        "Poke",
+        "Apple Messages for Business",
+        "The Interaction Company of California",
+        "100M messages relayed",
+        "SMS, Telegram, WhatsApp, and Apple Messages support"
+      ],
+      "url": "https://techcrunch.com/2026/06/04/apple-approves-poke-as-the-first-ai-agent-on-its-messages-for-business-platform/",
+      "sourceName": "TechCrunch",
+      "relatedSources": [
+        "TechCrunch",
+        "Poke",
+        "Apple"
+      ],
+      "lane": "news",
+      "publishedAt": "2026-06-04T19:20:00.000Z",
+      "importance": 259,
+      "sourceConfidence": "high",
+      "summaryEngine": "chat-curated",
+      "filterCategory": "general"
+    },
+    {
+      "id": "curated-cognizant-servicenow-neuro-ai-trust-governance-2026-06-04",
+      "title": "Cognizant and ServiceNow wire AI governance into enterprise workflows",
+      "summary": "Cognizant integrated Neuro AI Trust with ServiceNow to give enterprises continuous AI assurance, control-tower visibility, and agent-based governance across AI assets.",
+      "fullSummary": "Cognizant's ServiceNow integration is an enterprise-governance story, not a model launch. The companies say Cognizant Neuro AI Trust will connect with ServiceNow so organizations can discover, monitor, manage, and enforce controls across models, agents, identities, permissions, and AI assets. The pitch is that AI governance needs to move from periodic compliance reviews into continuous assurance inside the systems where enterprise work already runs. Cognizant says its platform includes libraries of standards, regulatory frameworks, and guardrails, while ServiceNow frames the joint system as an AI Control Tower for accountability. This is company-reported, so confidence is medium, but the pattern is important: regulated companies are looking for runtime control over agents, not just policy documents.",
+      "keyFacts": [
+        "June 4, 2026",
+        "Cognizant",
+        "ServiceNow",
+        "Cognizant Neuro AI Trust",
+        "AI Control Tower",
+        "Continuous AI assurance",
+        "Model, agent, identity, and permission governance"
+      ],
+      "url": "https://www.prnewswire.com/news-releases/cognizant-announces-servicenow-partnership-to-accelerate-scalable-operationalized-ai-governance-at-enterprise-scale-302791967.html",
+      "sourceName": "PR Newswire / Cognizant",
+      "relatedSources": [
+        "PR Newswire",
+        "Cognizant",
+        "ServiceNow"
+      ],
+      "lane": "news",
+      "publishedAt": "2026-06-04T19:00:00.000Z",
+      "importance": 258,
+      "sourceConfidence": "medium",
+      "summaryEngine": "chat-curated",
+      "filterCategory": "general"
+    },
+    {
+      "id": "curated-opengradient-privacy-first-generative-ai-chat-2026-06-04",
+      "title": "OpenGradient launches privacy-first chat for sensitive AI questions",
+      "summary": "OpenGradient launched an AI assistant that routes prompts to frontier text, image, and video models through local encryption, Oblivious HTTP, and secure enclaves.",
+      "fullSummary": "OpenGradient is entering a crowded assistant market with a privacy-first wedge. The company says OpenGradient Chat is designed for sensitive questions, routing users to frontier text, image, and video models through an anonymizing layer that includes local encryption, Oblivious HTTP, and secure enclaves. The product pitch is a direct answer to a growing concern: people are asking AI systems about symptoms, legal issues, taxes, and personal decisions while tying those prompts to accounts and logs. OpenGradient is backed by a16z crypto, SV Angel, the NVIDIA Inception Program, and angels including Transformer co-creator Illia Polosukhin. The story is company-sourced, so the technical privacy guarantees need outside scrutiny, but it fits the rising privacy and trust lane for consumer AI.",
+      "keyFacts": [
+        "June 4, 2026",
+        "OpenGradient Chat",
+        "Local encryption",
+        "Oblivious HTTP",
+        "Secure enclaves",
+        "a16z crypto",
+        "SV Angel",
+        "NVIDIA Inception Program",
+        "Illia Polosukhin"
+      ],
+      "url": "https://www.prnewswire.com/news-releases/opengradient-launches-privacy-first-generative-ai-platform-302791908.html",
+      "sourceName": "PR Newswire / OpenGradient",
+      "relatedSources": [
+        "PR Newswire",
+        "OpenGradient",
+        "NVIDIA Inception Program"
+      ],
+      "lane": "news",
+      "publishedAt": "2026-06-04T17:37:00.000Z",
+      "importance": 257,
+      "sourceConfidence": "medium",
+      "summaryEngine": "chat-curated",
+      "filterCategory": "pushback"
+    },
+    {
+      "id": "curated-canada-ai-for-all-national-strategy-2026-06-04",
+      "title": "Canada launches AI for All strategy with jobs and adoption targets",
+      "summary": "Canada unveiled a national AI strategy targeting 250,000 AI-related jobs, C$200B in added economic growth, and a jump in business adoption from about 12% to 60% by 2034.",
+      "fullSummary": "Canada's new AI for All strategy is a sovereignty and adoption play. Prime Minister Mark Carney's government says the plan targets C$200B in additional economic growth, 250,000 new AI-related jobs over five years, and an increase in AI adoption from just over 12% to 60% by 2034. Reuters coverage also pointed to a C$500M technology fund for homegrown AI firms, while Canadian reporting highlighted data-center plans, AI safety funding, and restrictions around controversial surveillance pricing. The strategy matters because middle-power AI policy is shifting from principles to industrial capacity: compute, skills, local firms, procurement, and safety institutions. Watch whether the funding is enough to change adoption outside Canada's existing AI research hubs.",
+      "keyFacts": [
+        "June 4, 2026",
+        "Canada AI for All Strategy",
+        "Prime Minister Mark Carney",
+        "250,000 AI-related jobs target",
+        "C$200B economic growth target",
+        "AI adoption target from 12% to 60% by 2034",
+        "C$500M technology fund reported by Reuters"
+      ],
+      "url": "https://www.pm.gc.ca/en/news/news-releases/2026/06/04/prime-minister-carney-launches-ai-all-canadas-new-national-artificial",
+      "sourceName": "Prime Minister of Canada + Reuters",
+      "relatedSources": [
+        "Prime Minister of Canada",
+        "Reuters",
+        "Global News"
+      ],
+      "relatedLinks": [
+        {
+          "title": "Reuters report on Canada's AI strategy",
+          "url": "https://wtvbam.com/2026/06/04/canada-says-ai-strategy-will-help-create-250000-jobs-boost-gdp-by-3/"
+        },
+        {
+          "title": "Global News on Canada's AI strategy",
+          "url": "https://globalnews.ca/news/11889388/canada-ai-strategy-release/"
+        }
+      ],
+      "lane": "signal",
+      "publishedAt": "2026-06-04T15:24:00.000Z",
+      "importance": 256,
+      "sourceConfidence": "high",
+      "summaryEngine": "chat-curated",
+      "filterCategory": "pushback"
+    },
+    {
+      "id": "curated-hello-robot-stretch-real-home-assistance-2026-06-04",
+      "title": "Hello Robot argues home robotics needs real houses before grand claims",
+      "summary": "TechCrunch profiled Hello Robot's Stretch 4, a $30,000 assistive robot focused on safe real-home use, human control, and practical data from people with mobility challenges.",
+      "fullSummary": "Hello Robot is a useful counterweight to humanoid hype. TechCrunch profiled the Martinez, California startup and its fourth-generation Stretch home-assistance robot, which costs about $30,000 and is designed around safe operation in real homes rather than dramatic humanoid demos. The company was founded by former Google robotics director Aaron Edsinger and Georgia Tech professor Charlie Kemp. Stretch uses a wheeled base, telescoping arm, sensors, and human-in-the-loop control, with customers including researchers, enterprise testers, and people developing in-home aides for people with disabilities. One user, Keith Platt, used Stretch to regain independence on everyday tasks. The key point is data: embodied AI needs operating hours in messy homes, and Hello Robot is trying to gather them without skipping safety and usability.",
+      "keyFacts": [
+        "June 4, 2026",
+        "Hello Robot",
+        "Stretch 4",
+        "$30,000 robot",
+        "Founded in 2017",
+        "Aaron Edsinger",
+        "Charlie Kemp",
+        "200 to 300 planned units from Martinez, California"
+      ],
+      "url": "https://techcrunch.com/2026/06/04/is-silicon-valley-ready-to-put-robots-in-peoples-homes-hello-robot-is/",
+      "sourceName": "TechCrunch",
+      "relatedSources": [
+        "TechCrunch",
+        "Hello Robot",
+        "Georgia Tech"
+      ],
+      "lane": "news",
+      "publishedAt": "2026-06-04T15:05:00.000Z",
+      "importance": 255,
+      "sourceConfidence": "high",
+      "summaryEngine": "chat-curated",
+      "filterCategory": "general"
+    },
+    {
+      "id": "curated-mindtickle-agentic-revenue-enablement-report-2026-06-04",
+      "title": "Mindtickle says sales AI is moving from tools to connected systems",
+      "summary": "Mindtickle's 2026 agentic revenue-enablement report analyzed 400+ companies, 1.5M users, and 1M call recordings, finding large jumps in AI-authored sales training content.",
+      "fullSummary": "Mindtickle's report gives a data-heavy view of AI inside sales teams. The company says its 2026 State of Agentic Revenue Enablement Report draws on platform activity from 400+ companies, 1.5M users, and more than 1M call recordings across 19 industries and 207 countries. Among the headline findings: AI-authored content rose 430% year over year, AI now writes 40% of role-play scenarios and 21% of assignments on the platform, and AI reviewed 465,000 role-play submissions in 2025. The most useful takeaway is that sales teams are trying to connect enablement, coaching, content, and buyer rooms into one system. This is vendor platform data rather than independent research, so confidence is medium, but the operational signal is strong.",
+      "keyFacts": [
+        "June 4, 2026",
+        "Mindtickle",
+        "2026 State of Agentic Revenue Enablement Report",
+        "400+ companies",
+        "1.5M users",
+        "1M+ call recordings",
+        "AI-authored content up 430% year over year",
+        "465,000 AI-reviewed role-play submissions in 2025"
+      ],
+      "url": "https://www.prnewswire.com/news-releases/ai-is-rewriting-the-playbook-mindtickles-2026-state-of-agentic-revenue-enablement-report-302791723.html",
+      "sourceName": "PR Newswire / Mindtickle",
+      "relatedSources": [
+        "PR Newswire",
+        "Mindtickle"
+      ],
+      "lane": "news",
+      "publishedAt": "2026-06-04T14:40:00.000Z",
+      "importance": 254,
+      "sourceConfidence": "medium",
+      "summaryEngine": "chat-curated",
+      "filterCategory": "general"
+    },
+    {
+      "id": "curated-micron-metai-omniverse-fab-twins-2026-06-04",
+      "title": "Micron and MetAI build Omniverse fab twins for semiconductor automation",
+      "summary": "MetAI said it worked with Micron on simulation-ready semiconductor fab twins using NVIDIA Omniverse libraries and MetGen building-generation tools.",
+      "fullSummary": "Micron and MetAI's Computex-era announcement is a practical physical-AI story for chip manufacturing. MetAI says it has developed simulation-ready fab twins with Micron on NVIDIA Omniverse libraries, using its MetGen platform to convert fragmented fab engineering inputs into structured digital environments. The target is not a flashy chatbot; it is simulation and future autonomous-system development for cleanrooms, production areas, and semiconductor facilities where downtime and layout errors are expensive. This is company-reported, so confidence is medium, but it is worth tracking because digital twins are becoming a bridge between AI infrastructure demand and the factories needed to supply it. Watch whether the work moves from environment generation into measurable automation, throughput, or maintenance gains.",
+      "keyFacts": [
+        "June 4, 2026",
+        "Micron",
+        "MetAI Technology",
+        "NVIDIA Omniverse",
+        "MetGen Building Generator",
+        "Simulation-ready fab twins",
+        "Semiconductor manufacturing"
+      ],
+      "url": "https://www.prnewswire.com/news-releases/micron-and-metai-advance-fab-twin-development-on-nvidia-omniverse-to-enable-physical-ai-302790229.html",
+      "sourceName": "PR Newswire / MetAI",
+      "relatedSources": [
+        "PR Newswire",
+        "MetAI",
+        "Micron",
+        "NVIDIA"
+      ],
+      "lane": "news",
+      "publishedAt": "2026-06-04T14:00:00.000Z",
+      "importance": 253,
+      "sourceConfidence": "medium",
+      "summaryEngine": "chat-curated",
+      "filterCategory": "general"
+    },
+    {
+      "id": "curated-fusionairre-schneider-downs-agentic-assurance-2026-06-04",
+      "title": "FusionAIrre and Schneider Downs bring agents to assurance questionnaires",
+      "summary": "FusionAIrre partnered with Schneider Downs to pair its Ape-X Assurance agentic platform with cybersecurity, compliance, and advisory services.",
+      "fullSummary": "FusionAIrre's Schneider Downs partnership is a small but concrete workflow-agent story. The companies say FusionAIrre's Ape-X Assurance platform helps organizations respond to customer, regulatory, due-diligence, compliance, and RFP assessments, while Schneider Downs adds cybersecurity, compliance, risk-management, governance, and advisory expertise. This is the kind of enterprise process where agentic AI has a plausible near-term wedge: repetitive but high-stakes questionnaires that require evidence, consistency, and defensible answers. The source is a company announcement, so confidence is medium, and the real test will be error rates, audit trails, and whether customers trust generated responses in regulated environments. It belongs in the feed because it shows AI agents moving into external-party assurance rather than only sales or support.",
+      "keyFacts": [
+        "June 4, 2026",
+        "FusionAIrre",
+        "Schneider Downs",
+        "Ape-X Assurance",
+        "External-party assurance",
+        "Compliance, due diligence, and RFP assessments"
+      ],
+      "url": "https://www.prnewswire.com/news-releases/fusionairre-and-schneider-downs-partner-to-modernize-external-party-assurance-through-proprietary-agentic-ai-302790081.html",
+      "sourceName": "PR Newswire / FusionAIrre",
+      "relatedSources": [
+        "PR Newswire",
+        "FusionAIrre",
+        "Schneider Downs"
+      ],
+      "lane": "news",
+      "publishedAt": "2026-06-04T12:08:00.000Z",
+      "importance": 252,
+      "sourceConfidence": "medium",
+      "summaryEngine": "chat-curated",
+      "filterCategory": "general"
+    },
+    {
+      "id": "curated-sp-global-credit-memo-builder-agentic-ai-2026-06-04",
+      "title": "S&P Global launches agentic credit memo builder",
+      "summary": "S&P Global launched Credit Memo Builder, an agentic workflow tool that pulls from RatingsDirect, RiskGauge, Capital IQ Pro, macro research, financials, news, and transcripts.",
+      "fullSummary": "S&P Global's Credit Memo Builder is a useful example of AI moving into heavily documented financial workflows. The company says the tool aggregates S&P Global data and research to shorten credit memo drafting for loan committees, underwriters, and credit analysts. It combines RatingsDirect, RiskGauge, S&P Capital IQ Pro, macro research, financials, news, and transcripts, then produces analyst-ready material with human oversight, citations, and transparency into data sources. S&P Global is careful to say the product is not a substitute for independent credit analysis or credit ratings. That caveat is the point: regulated AI products are being positioned as workflow acceleration with auditability, not fully autonomous decisioning. Watch adoption among banks that need speed but cannot compromise controls.",
+      "keyFacts": [
+        "June 4, 2026",
+        "S&P Global",
+        "Credit Memo Builder",
+        "CreditCompanion",
+        "RatingsDirect",
+        "RiskGauge",
+        "S&P Capital IQ Pro",
+        "Human analyst-in-the-loop oversight"
+      ],
+      "url": "https://www.prnewswire.com/news-releases/sp-global-launches-agentic-ai-powered-credit-memo-builder-to-streamline-credit-analysis-302790833.html",
+      "sourceName": "PR Newswire / S&P Global",
+      "relatedSources": [
+        "PR Newswire",
+        "S&P Global",
+        "Kensho"
+      ],
+      "lane": "news",
+      "publishedAt": "2026-06-04T12:00:00.000Z",
+      "importance": 251,
+      "sourceConfidence": "medium",
+      "summaryEngine": "chat-curated",
+      "filterCategory": "general"
+    },
+    {
+      "id": "curated-gp-agentic-global-employment-platform-2026-06-04",
+      "title": "G-P puts agentic AI into global employment workflows",
+      "summary": "G-P unveiled agentic AI capabilities for global employment, using country-level labor-law intelligence and 100,000+ verified sources across 180+ countries.",
+      "fullSummary": "G-P's announcement is another sign that agentic AI is being sold against tedious, compliance-heavy enterprise work. The company says its global employment platform now embeds labor-law intelligence directly into HR workflows across hiring, contractor management, employer-of-record services, and local-entity operations. G-P cites 14 years of global HR and compliance data across 180+ countries, plus 100,000+ verified sources, as the foundation for the system's guardrails. The product also connects to its G-P Gia agent and human in-country HR and legal specialists. This is company-sourced, but it captures the current enterprise AI pitch: agents should not just answer HR questions; they should execute work with country-specific constraints, risk warnings, and specialist fallback.",
+      "keyFacts": [
+        "June 4, 2026",
+        "G-P",
+        "Globalization Partners",
+        "G-P Gia",
+        "180+ countries",
+        "100,000+ G-P Verified sources",
+        "14 years of HR and compliance data"
+      ],
+      "url": "https://www.prnewswire.com/news-releases/g-p-unveils-worlds-first-agentic-ai-global-employment-platform-302790846.html",
+      "sourceName": "PR Newswire / G-P",
+      "relatedSources": [
+        "PR Newswire",
+        "G-P"
+      ],
+      "lane": "news",
+      "publishedAt": "2026-06-04T12:00:00.000Z",
+      "importance": 250,
+      "sourceConfidence": "medium",
+      "summaryEngine": "chat-curated",
+      "filterCategory": "general"
+    },
+    {
+      "id": "curated-measure-protocol-predict-agentic-consumer-behavior-2026-06-04",
+      "title": "Measure Protocol launches agentic intelligence over permissioned behavior data",
+      "summary": "Measure Protocol launched Predict, an insights platform built on 2.3T behavioral signals, 534M product and brand events, and 200M+ new monthly data points.",
+      "fullSummary": "Measure Protocol's Predict launch sits at the intersection of AI agents, consumer analytics, and privacy pressure. The company says the platform gives brand, insights, and media teams access to permissioned zero-party consumer behavior across the U.K. and U.S., covering five-plus years of data. The claimed scale is large: 2.3T behavioral signals, 534M product and brand events across 28 categories, 200M+ new monthly data points, and behavior mapped across 29 primary platforms plus 7,900+ retail, travel, payment, and shipping properties. Measure also says 83% of searches within five minutes of a ChatGPT conversation are verification rather than discovery. This is vendor data, so confidence is medium, but it is a useful signal that AI search behavior is reshaping market research.",
+      "keyFacts": [
+        "June 4, 2026",
+        "Measure Protocol",
+        "Measure Predict",
+        "2.3T behavioral signals",
+        "534M product and brand events",
+        "200M+ new data points per month",
+        "29 primary platforms",
+        "7,900+ retail, travel, payment, and shipping properties",
+        "MCP and CLI connections"
+      ],
+      "url": "https://www.prnewswire.com/news-releases/measure-protocol-launches-predict-agentic-cross-platform-intelligence-built-on-real-consumer-behavior-302790859.html",
+      "sourceName": "PR Newswire / Measure Protocol",
+      "relatedSources": [
+        "PR Newswire",
+        "Measure Protocol"
+      ],
+      "lane": "news",
+      "publishedAt": "2026-06-04T12:00:00.000Z",
+      "importance": 249,
+      "sourceConfidence": "medium",
+      "summaryEngine": "chat-curated",
+      "filterCategory": "general"
+    },
+    {
+      "id": "curated-datassential-ai-chat-menu-consumer-research-2026-06-04",
+      "title": "Datassential folds menu intelligence into AI chat",
+      "summary": "Datassential added menu intelligence to its generative AI chat, letting food and beverage teams query menu, consumer, and research data through one interface.",
+      "fullSummary": "Datassential's AI Chat update is a vertical data-products story. The company says food and beverage teams can now query menu intelligence, consumer preferences, and published industry research through a conversational interface inside Datassential One. Users can ask broad product, menu, and trend questions in chat, then move into the Menu Trends application for richer tables, visuals, and detailed outputs. This is not frontier AI, but it is exactly how many companies will experience AI at work: a specialized interface sitting on top of proprietary datasets that general assistants do not have. The announcement is company-sourced, so confidence is medium, but it belongs in the feed as a practical example of industry-specific AI search and analytics.",
+      "keyFacts": [
+        "June 4, 2026",
+        "Datassential",
+        "Datassential One",
+        "Generative AI Chat",
+        "Menu Trends",
+        "Food and beverage intelligence"
+      ],
+      "url": "https://www.prnewswire.com/news-releases/datassential-unifies-menu-consumer-and-research-intelligence-through-ai-chat-302791013.html",
+      "sourceName": "PR Newswire / Datassential",
+      "relatedSources": [
+        "PR Newswire",
+        "Datassential"
+      ],
+      "lane": "news",
+      "publishedAt": "2026-06-04T10:55:00.000Z",
+      "importance": 248,
+      "sourceConfidence": "medium",
+      "summaryEngine": "chat-curated",
+      "filterCategory": "general"
+    },
+    {
+      "id": "curated-washington-post-ai-doctors-medicine-policy-push-2026-06-04",
+      "title": "Washington Post tracks the policy push behind AI doctors",
+      "summary": "The Washington Post reported that U.S. officials and tech companies are laying groundwork for medical AI chatbots, while physicians warn about diagnosis, safety, and oversight gaps.",
+      "fullSummary": "The Washington Post's AI-doctors report belongs in the pushback lane because it ties medical AI momentum to regulatory and clinical risk. The piece says U.S. officials have created a regulatory fast track for digital health technology, including AI chatbots and wearables, and that Medicaid reimbursement for AI-powered wellness apps is becoming possible. It also describes tech companies such as Google DeepMind, OpenAI, Certuma, and Doctronic investing in systems that can read medical records and advise users. The concern from physicians is straightforward: diagnostic chatbots may help patients navigate records, but they can also miss context, overstate confidence, or shift medical responsibility into poorly governed software. Watch whether regulators draw a line between wellness assistants, triage tools, diagnosis, and prescription authority.",
+      "keyFacts": [
+        "June 4, 2026",
+        "Washington Post",
+        "AI doctors",
+        "FDA digital health fast track",
+        "Medicaid reimbursement context",
+        "Google DeepMind",
+        "OpenAI",
+        "Certuma",
+        "Doctronic"
+      ],
+      "url": "https://www.washingtonpost.com/technology/2026/06/04/inside-trump-backed-push-bring-ai-doctors-into-american-medicine/",
+      "sourceName": "The Washington Post",
+      "relatedSources": [
+        "The Washington Post",
+        "FDA",
+        "Google DeepMind",
+        "OpenAI"
+      ],
+      "lane": "signal",
+      "publishedAt": "2026-06-04T09:00:00.000Z",
+      "importance": 247,
+      "sourceConfidence": "high",
+      "summaryEngine": "chat-curated",
+      "filterCategory": "pushback"
+    },
+    {
+      "id": "curated-infrastructure-ai-gaos-agentic-security-physical-systems-2026-06-04",
+      "title": "Infrastructure AI frames agent security for physical systems",
+      "summary": "Infrastructure AI launched an Agentic Security framework for its Galaxy Agentic Operating System, aimed at governing AI agents that coordinate buildings, equipment, and energy loads.",
+      "fullSummary": "Infrastructure AI's announcement is company-sourced, but it is notable because agent security is moving into the physical world. The company says its Galaxy Agentic Operating System now includes an Agentic Security framework that governs autonomous agents making real-time decisions around physical equipment, energy loads, and building safety. The system uses live reputation scores, anomaly detection, runtime governance, and a dual-blockchain model that separates physical asset state from agent operational behavior. The market language is heavy, so confidence is medium. Still, the underlying problem is real: once agents start controlling facilities, factories, data centers, or energy systems, conventional cybersecurity and logging are not enough. The control plane has to understand physical consequences.",
+      "keyFacts": [
+        "June 4, 2026",
+        "Infrastructure AI",
+        "Galaxy Agentic Operating System",
+        "GAOS",
+        "Agentic Security framework",
+        "Dual-blockchain security backbone",
+        "Physical asset state and agent behavior separation"
+      ],
+      "url": "https://www.prnewswire.com/news-releases/infrastructure-ai-unveils-revolutionary-agentic-security-strategy-302791066.html",
+      "sourceName": "PR Newswire / Infrastructure AI",
+      "relatedSources": [
+        "PR Newswire",
+        "Infrastructure AI"
+      ],
+      "lane": "news",
+      "publishedAt": "2026-06-04T08:00:00.000Z",
+      "importance": 246,
+      "sourceConfidence": "medium",
+      "summaryEngine": "chat-curated",
+      "filterCategory": "general"
+    },
+    {
+      "id": "curated-air-liquide-sk-hynix-ai-storage-chip-materials-korea-2026-06-04",
+      "title": "Air Liquide backs SK hynix AI storage-chip materials supply",
+      "summary": "FDD's overnight brief cited Wall Street Journal reporting that Air Liquide will invest nearly 200M euros in South Korea to supply materials for SK hynix AI storage chips.",
+      "fullSummary": "The AI chip buildout also depends on industrial gases and materials, not just GPU roadmaps. FDD's June 4 overnight brief, citing Wall Street Journal reporting, said Air Liquide will invest nearly 200M euros, or about $232.6M, in a South Korean facility to supply materials for SK hynix production of artificial-intelligence storage chips. The story is small compared with trillion-dollar chip-market headlines, but it fills an important infrastructure lane: memory, packaging, materials, power, and chemical supply chains all have to expand for AI compute to keep scaling. Confidence is medium because the feed-visible source is a brief that points to the WSJ. The key thing to watch is whether HBM and advanced memory bottlenecks pull more suppliers into dedicated AI-capacity expansions.",
+      "keyFacts": [
+        "June 4, 2026",
+        "Air Liquide",
+        "SK hynix",
+        "South Korea",
+        "Nearly 200M euros",
+        "About $232.6M",
+        "AI storage-chip materials"
+      ],
+      "url": "https://www.fdd.org/overnight-brief/june-4-2026/",
+      "sourceName": "FDD Overnight Brief / Wall Street Journal",
+      "relatedSources": [
+        "FDD",
+        "Wall Street Journal",
+        "Air Liquide",
+        "SK hynix"
+      ],
+      "lane": "news",
+      "publishedAt": "2026-06-04T06:30:00.000Z",
+      "importance": 245,
+      "sourceConfidence": "medium",
+      "summaryEngine": "chat-curated",
+      "filterCategory": "general"
+    },
+    {
+      "id": "curated-hasbro-sixth-wall-elevenlabs-ai-characters-2026-06-04",
+      "title": "Hasbro launches an AI studio for licensed character voices",
+      "summary": "Mediagazer surfaced Wall Street Journal coverage that Hasbro launched Sixth Wall, an AI studio working with ElevenLabs and voice actors on AI-native versions of its characters.",
+      "fullSummary": "Hasbro's Sixth Wall story adds a media-rights angle to generative AI. Mediagazer surfaced Wall Street Journal coverage saying Hasbro launched a new AI studio that will work with ElevenLabs and voice actors to create and license AI-native versions of the company's characters and franchises. The story is useful because it sits between two heated markets: entertainment companies want interactive character experiences, while actors and rights holders want contracts, compensation, and control over synthetic voices. Confidence is medium because the accessible source is an aggregator pointing to WSJ and entertainment coverage, but the strategic signal is clear. Watch whether studios use AI characters as marketing companions, games, educational products, or subscription experiences, and whether union terms keep pace.",
+      "keyFacts": [
+        "June 4, 2026",
+        "Hasbro",
+        "Sixth Wall",
+        "ElevenLabs",
+        "Voice actors",
+        "AI-native character licensing",
+        "Wall Street Journal coverage"
+      ],
+      "url": "https://www.mediagazer.com/",
+      "sourceName": "Mediagazer / Wall Street Journal",
+      "relatedSources": [
+        "Mediagazer",
+        "Wall Street Journal",
+        "Hasbro",
+        "ElevenLabs"
+      ],
+      "lane": "news",
+      "publishedAt": "2026-06-04T06:05:00.000Z",
+      "importance": 244,
+      "sourceConfidence": "medium",
+      "summaryEngine": "chat-curated",
+      "filterCategory": "general"
+    },
+    {
+      "id": "curated-reuters-ai-building-boom-treasury-yields-2026-06-04",
+      "title": "Reuters links the AI buildout to pressure in Treasury markets",
+      "summary": "Reuters reported that AI infrastructure borrowing is rippling through long-term Treasury yields, with Morgan Stanley estimating Meta, Oracle, and peers raised $250B in debt this year.",
+      "fullSummary": "Reuters' Treasury-market analysis turns the AI data-center boom into a macro-finance story. The report says the AI investment surge is contributing to pressure on long-term U.S. yields, alongside inflation concerns and changing expectations for Federal Reserve policy. Morgan Stanley estimates that Meta, Oracle, and other technology companies have raised $250B in global debt markets this year. The reason this belongs in an AI feed is that infrastructure spending at this scale behaves like a private stimulus program: it affects corporate issuance, construction demand, power equipment, credit spreads, and investor appetite for duration. The practical question is whether AI demand can keep absorbing the cost of capital required to build new compute, power, cooling, and networking capacity.",
+      "keyFacts": [
+        "June 4, 2026",
+        "Reuters",
+        "$250B in global tech debt issuance estimated by Morgan Stanley",
+        "Meta",
+        "Oracle",
+        "Long-term Treasury yields",
+        "AI infrastructure spending"
+      ],
+      "url": "https://wealthinsights.metrobank.com.ph/news/analysis-ai-building-boom-ripples-through-inflation-hit-treasury-market",
+      "sourceName": "Reuters / Metrobank Wealth Insights",
+      "relatedSources": [
+        "Reuters",
+        "Morgan Stanley",
+        "Meta",
+        "Oracle"
+      ],
+      "lane": "signal",
+      "publishedAt": "2026-06-04T05:30:00.000Z",
+      "importance": 243,
+      "sourceConfidence": "high",
+      "summaryEngine": "chat-curated",
+      "filterCategory": "general"
+    },
+    {
+      "id": "curated-agentscout-arxiv-week-june-4-self-evolving-agents-2026-06-04",
+      "title": "Agent research week centers on self-evolving agents and governance",
+      "summary": "AgentScout's June 4 arXiv weekly tracker highlighted self-evolving agents, multi-agent governance, GAIATrace, and Vidur-Agent as active research themes.",
+      "fullSummary": "AgentScout's June 4 arXiv tracker gives the feed a current research lane. The weekly roundup frames the latest cs.AI agent papers around self-evolving agents, multi-agent governance, system characterization, and simulation. One highlighted item pairs GAIATrace with Vidur-Agent for characterizing multi-model agentic AI systems, while the broader theme is that agent research is shifting from single-step tool use toward systems: traces, environments, governance, long-running behavior, and evaluation. This is a curated tracker rather than a peer-reviewed synthesis, so confidence is medium, but it is useful for readers trying to separate real agent research from enterprise product marketing. Watch which of these benchmarks become durable enough for model developers to optimize against.",
+      "keyFacts": [
+        "June 4, 2026",
+        "AgentScout arXiv cs.AI weekly",
+        "Self-evolving agents",
+        "Multi-agent governance",
+        "GAIATrace",
+        "Vidur-Agent",
+        "arXiv 2606.01725"
+      ],
+      "url": "https://agentscout.live/tech/ai-agents/data/arxiv-cs-ai-weekly-20260604/",
+      "sourceName": "AgentScout / arXiv tracker",
+      "relatedSources": [
+        "AgentScout",
+        "arXiv"
+      ],
+      "lane": "papers",
+      "publishedAt": "2026-06-04T00:00:00.000Z",
+      "importance": 242,
+      "sourceConfidence": "medium",
+      "summaryEngine": "chat-curated",
+      "filterCategory": "papers"
+    },
+    {
+      "id": "curated-coralogix-200m-ai-agent-observability-2026-06-03",
+      "title": "Coralogix raises $200M for the AI-agent observability layer",
+      "summary": "Coralogix raised $200M to expand monitoring, troubleshooting, security, and AI-focused products as companies look for ways to observe increasingly autonomous software systems.",
+      "fullSummary": "Coralogix's raise is a strong funding-lane addition because it is about the plumbing around AI agents, not another model wrapper. TechCrunch reported that the Boston-headquartered startup, founded in Israel, raised $200M, bringing total funding to $550M. Coralogix already serves more than 5,000 customers, including IBM, Tradeweb, and JFrog, by collecting and analyzing logs, metrics, traces, and other operational signals. The company says it did not raise out of runway pressure; it plans to accelerate AI-focused products, security offerings, and global expansion. The bet is that autonomous systems will create new failure modes and observability needs. Watch whether agent monitoring becomes a standalone market or is absorbed by existing observability and security platforms.",
+      "keyFacts": [
+        "June 3, 2026",
+        "Coralogix",
+        "$200M funding round",
+        "$550M total funding to date",
+        "5,000+ customers",
+        "IBM",
+        "Tradeweb",
+        "JFrog",
+        "AI-agent monitoring and observability"
+      ],
+      "url": "https://techcrunch.com/2026/06/03/coralogix-raises-200m-in-race-to-build-the-monitoring-layer-for-ai-agents/",
+      "sourceName": "TechCrunch",
+      "relatedSources": [
+        "TechCrunch",
+        "Coralogix"
+      ],
+      "lane": "startups",
+      "publishedAt": "2026-06-03T13:02:00.000Z",
+      "importance": 241,
+      "sourceConfidence": "high",
+      "summaryEngine": "chat-curated",
+      "filterCategory": "funding"
+    },
+    {
+      "id": "curated-town-55m-a16z-forerunner-ai-assistant-2026-06-03",
+      "title": "Town raises $55M for a work assistant that learns user habits",
+      "summary": "Town raised a $55M Series A led by a16z and Forerunner to build a personalized AI assistant that learns how people work across their existing tools.",
+      "fullSummary": "Town's $55M Series A is a useful personal-assistant funding story because it emphasizes context across existing work tools. The company says Andreessen Horowitz led the round with Forerunner Ventures, with continued support from First Round Capital, Alt Capital, and Conviction. Town describes itself as an AI assistant that learns how people work, rather than a generic chatbot dropped into one app. That puts it in a crowded but important race: assistants need durable memory, permissions, integrations, and user trust before they can handle high-friction work. The announcement is company-sourced, so confidence is medium, but the investor mix and round size make it worth tracking. Watch whether Town can show retention and workflow depth rather than only a polished assistant demo.",
+      "keyFacts": [
+        "June 3, 2026",
+        "Town",
+        "$55M Series A",
+        "Andreessen Horowitz",
+        "Forerunner Ventures",
+        "First Round Capital",
+        "Alt Capital",
+        "Conviction",
+        "Personalized AI assistant"
+      ],
+      "url": "https://www.globenewswire.com/news-release/2026/06/03/3306172/0/en/town-raises-55m-series-a-from-a16z-and-forerunner-to-build-the-ai-assistant-that-learns-how-you-work.html",
+      "sourceName": "GlobeNewswire / Town",
+      "relatedSources": [
+        "GlobeNewswire",
+        "Town",
+        "Andreessen Horowitz",
+        "Forerunner Ventures"
+      ],
+      "lane": "startups",
+      "publishedAt": "2026-06-03T12:00:00.000Z",
+      "importance": 240,
+      "sourceConfidence": "medium",
+      "summaryEngine": "chat-curated",
+      "filterCategory": "funding"
+    },
+    {
+      "id": "curated-ideogram-4-open-weight-image-model-hugging-face-2026-06-03",
+      "title": "Ideogram 4 open weights sharpen the image-model race",
+      "summary": "TheQuery reported that Ideogram published Ideogram 4.0 technical details and released weights on Hugging Face, ranking first among open-weight image models in its cited arena.",
+      "fullSummary": "Ideogram 4.0 adds a model-release item to the refresh window. TheQuery reported that Ideogram published technical details for Ideogram 4.0 on June 3 and released weights on Hugging Face alongside code on GitHub and a prompting guide. The reported benchmark signal is that Ideogram 4 ranked second overall on a Bradley-Terry preference arena across design tasks, behind GPT Image 2 medium, while ranking first among open-weight models. This is a secondary-source model story, so confidence is medium until primary technical materials and independent tests are inspected. Still, it belongs in the feed because open-weight image generation is closing capability gaps quickly, and design-quality models with usable weights can change creative-tool economics for startups and local workflows.",
+      "keyFacts": [
+        "June 3, 2026",
+        "Ideogram 4.0",
+        "Open-weight release",
+        "Hugging Face",
+        "GitHub code",
+        "Prompting guide",
+        "Reported first among open-weight image models in cited preference arena"
+      ],
+      "url": "https://www.thequery.in/articles/ideogram-4-open-weight-image-generation-gap-hugging-face",
+      "sourceName": "TheQuery",
+      "relatedSources": [
+        "TheQuery",
+        "Ideogram",
+        "Hugging Face",
+        "GitHub"
+      ],
+      "lane": "models",
+      "publishedAt": "2026-06-03T12:00:00.000Z",
+      "importance": 239,
+      "sourceConfidence": "medium",
+      "summaryEngine": "chat-curated",
+      "filterCategory": "models"
+    },
     {
       "id": "curated-mwm-google-cloud-ai-mobile-squad-gemini-enterprise-2026-06-04",
       "title": "MWM and Google Cloud launch app-building mobile agents",
