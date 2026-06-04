@@ -10,26 +10,6 @@ service cloud.firestore {
       return value is string && value.size() >= min && value.size() <= max;
     }
 
-    function validCommentCreate(storyId) {
-      return signedIn()
-        && request.resource.data.keys().hasOnly([
-          'storyId',
-          'body',
-          'displayName',
-          'authorType',
-          'authorUid',
-          'createdAt',
-          'status'
-        ])
-        && request.resource.data.storyId == storyId
-        && isString(request.resource.data.body, 1, 1000)
-        && isString(request.resource.data.displayName, 1, 40)
-        && request.resource.data.authorType in ['guest', 'google']
-        && request.resource.data.authorUid == request.auth.uid
-        && request.resource.data.status == 'active'
-        && request.resource.data.createdAt == request.time;
-    }
-
     function validSave(storyId) {
       return signedIn()
         && request.resource.data.keys().hasOnly([
@@ -52,12 +32,6 @@ service cloud.firestore {
         && isString(request.resource.data.publishedAt, 0, 80)
         && isString(request.resource.data.lane, 1, 40)
         && request.resource.data.filterCategory in ['funding', 'models', 'papers', 'pushback', 'general'];
-    }
-
-    match /storyComments/{storyId}/comments/{commentId} {
-      allow read: if resource.data.status == 'active';
-      allow create: if validCommentCreate(storyId);
-      allow update, delete: if false;
     }
 
     match /userSaves/{uid}/stories/{storyId} {

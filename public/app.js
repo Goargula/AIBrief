@@ -2,11 +2,7 @@ const STORAGE_KEY = "ai-brief-state-v2";
 const INITIAL_RENDER_COUNT = 10;
 const RENDER_BATCH = 8;
 const FILTER_CATEGORIES = new Set(["funding", "models", "papers", "pushback", "general"]);
-const COMMENT_LIMIT = 20;
-const COMMENT_MAX_LENGTH = 1000;
-const DISPLAY_NAME_MAX_LENGTH = 40;
 const SAVE_SYNC_NOTICE_KEY = "ai-brief-save-sync-notice-v1";
-const COMMENT_BACKEND_UNAVAILABLE_MESSAGE = "Public comments need the hosted Firebase app. Saves still work locally on this device.";
 const VISUAL_COLORS = {
   papers: "#f0b84a",
   startups: "#3bd671",
@@ -25,8 +21,6 @@ const state = {
   savedSnapshots: new Map(),
   opened: new Set(),
   notes: {},
-  localCommented: new Set(),
-  comments: new Map(),
   firebaseReady: false,
   firebaseError: "",
   authReady: false,
@@ -81,12 +75,6 @@ const filterButton = document.querySelector("#filterButton");
 const filterMenu = document.querySelector("#filterMenu");
 const refreshButton = document.querySelector("#refreshButton");
 const storyPosition = document.querySelector("#storyPosition");
-const commentDialog = document.querySelector("#commentDialog");
-const commentForm = document.querySelector("#commentForm");
-const commentName = document.querySelector("#commentName");
-const commentText = document.querySelector("#commentText");
-const commentStatus = document.querySelector("#commentStatus");
-const cancelComment = document.querySelector("#cancelComment");
 const profileButton = document.querySelector("#profileButton");
 const profileDialog = document.querySelector("#profileDialog");
 const closeProfile = document.querySelector("#closeProfile");
@@ -94,10 +82,8 @@ const signInButton = document.querySelector("#signInButton");
 const signOutButton = document.querySelector("#signOutButton");
 const authStatus = document.querySelector("#authStatus");
 const savedCount = document.querySelector("#savedCount");
-const commentedCount = document.querySelector("#commentedCount");
 const openedCount = document.querySelector("#openedCount");
 const savedList = document.querySelector("#savedList");
-const commentedList = document.querySelector("#commentedList");
 const toast = document.querySelector("#toast");
 
 let observer;
@@ -110,12 +96,10 @@ function loadLocalState() {
     state.saved = new Set(saved.saved || []);
     state.opened = new Set(saved.opened || []);
     state.notes = saved.notes || {};
-    state.localCommented = new Set(saved.localCommented || Object.keys(saved.notes || {}).filter((id) => saved.notes[id]));
   } catch {
     state.saved = new Set();
     state.opened = new Set();
     state.notes = {};
-    state.localCommented = new Set();
   }
 }
 
@@ -125,8 +109,7 @@ function persistLocalState() {
     JSON.stringify({
       saved: [...state.saved],
       opened: [...state.opened],
-      notes: state.notes,
-      localCommented: [...state.localCommented]
+      notes: state.notes
     })
   );
 }
@@ -139,12 +122,6 @@ function showToast(message) {
   toastTimer = setTimeout(() => {
     toast.hidden = true;
   }, 3600);
-}
-
-function setCommentStatus(message = "") {
-  if (!commentStatus) return;
-  commentStatus.textContent = message;
-  commentStatus.hidden = !message;
 }
 
 function firebaseServerTimestamp() {
@@ -177,10 +154,6 @@ function userSaveRef(storyId) {
   return state.db.collection("userSaves").doc(state.user.uid).collection("stories").doc(storyId);
 }
 
-function storyCommentsRef(storyId) {
-  return state.db.collection("storyComments").doc(storyId).collection("comments");
-}
-
 function useCurrentHostingAuthDomain() {
   const app = window.firebase?.apps?.[0];
   const host = window.location.hostname;
@@ -193,7 +166,7 @@ async function initializeFirebase() {
   try {
     await waitForFirebaseInit();
     if (!window.firebase?.apps?.length || !window.firebase.auth || !window.firebase.firestore) {
-      state.firebaseError = COMMENT_BACKEND_UNAVAILABLE_MESSAGE;
+      state.firebaseError = "Firebase sync is unavailable in this environment.";
       state.authReady = true;
       updateAuthUi();
       return;
@@ -250,16 +223,6 @@ async function ensureFirebaseReady() {
   return Boolean(state.firebaseReady && state.auth && state.db);
 }
 
-function commentFailureMessage(error) {
-  if (error?.code === "auth/operation-not-allowed" || error?.code === "auth/admin-restricted-operation") {
-    return "Anonymous comments are not enabled for this Firebase project yet.";
-  }
-  if (error?.code === "permission-denied") {
-    return "Firebase rejected this comment. Check Firestore rules, Anonymous Auth, and App Check for this site.";
-  }
-  return error?.message || "Could not post comment.";
-}
-
 async function signInWithGoogle() {
   if (!(await ensureFirebaseReady()) || !window.firebase?.auth) {
     showToast(state.firebaseError || "Sign-in is available on the hosted Firebase app.");
@@ -288,13 +251,6 @@ async function signOut() {
   if (!state.auth) return;
   await state.auth.signOut();
   showToast("Signed out. New saves will stay local on this device.");
-}
-
-async function ensureCommentIdentity() {
-  if (!(await ensureFirebaseReady())) throw new Error(state.firebaseError || COMMENT_BACKEND_UNAVAILABLE_MESSAGE);
-  if (state.auth.currentUser) return state.auth.currentUser;
-  const credential = await state.auth.signInAnonymously();
-  return credential.user;
 }
 
 async function loadSyncedSaves() {
@@ -332,7 +288,7 @@ function updateAuthUi() {
   signOutButton.hidden = true;
   authStatus.textContent = state.firebaseReady
     ? "Saves are local until you sign in with Google."
-    : "Saves are local on this device. Sync and public comments need Firebase setup.";
+    : "Saves are local on this device. Sync needs Firebase setup.";
 }
 
 function formatRelative(dateLike) {
@@ -475,59 +431,6 @@ function buildStory(item) {
   };
 }
 
-function renderComments(list, count, comments) {
-  list.replaceChildren();
-  count.textContent = `${comments.length} visible`;
-
-  if (!comments.length) {
-    const empty = document.createElement("p");
-    empty.className = "comments-empty";
-    empty.textContent = state.firebaseReady ? "No comments yet." : "Comments are unavailable here.";
-    list.append(empty);
-    return;
-  }
-
-  const fragment = document.createDocumentFragment();
-  comments.forEach((comment) => {
-    const node = document.createElement("article");
-    node.className = "comment-item";
-    const created = comment.createdAt?.toDate ? formatRelative(comment.createdAt.toDate()) : "";
-    node.innerHTML = `<header><strong></strong><span></span></header><p></p>`;
-    node.querySelector("strong").textContent = comment.displayName || "Anonymous";
-    node.querySelector("span").textContent = `${comment.authorType === "google" ? "Google" : "Guest"}${created ? ` · ${created}` : ""}`;
-    node.querySelector("p").textContent = comment.body || "";
-    fragment.append(node);
-  });
-  list.append(fragment);
-}
-
-async function loadStoryComments(storyId, list, count) {
-  if (!list || !count) return;
-  if (!state.firebaseReady || !state.db) {
-    renderComments(list, count, []);
-    return;
-  }
-
-  list.textContent = "";
-  count.textContent = "Loading";
-  try {
-    const snapshot = await storyCommentsRef(storyId)
-      .where("status", "==", "active")
-      .orderBy("createdAt", "desc")
-      .limit(COMMENT_LIMIT)
-      .get();
-    const comments = snapshot.docs.map((doc) => ({ id: doc.id, ...doc.data() }));
-    state.comments.set(storyId, comments);
-    renderComments(list, count, comments);
-  } catch {
-    count.textContent = "Unavailable";
-    const empty = document.createElement("p");
-    empty.className = "comments-empty";
-    empty.textContent = "Comments could not load.";
-    list.replaceChildren(empty);
-  }
-}
-
 function setPosition() {
   const total = sortedItems().length || visibleItems().length;
   const current = Math.min(state.activeIndex + 1, total || 1);
@@ -567,14 +470,10 @@ function createStoryCard(item, index) {
   const title = fragment.querySelector("h1");
   const hook = fragment.querySelector(".hook");
   const change = fragment.querySelector(".change");
-  const details = fragment.querySelector("details");
   const facts = fragment.querySelector(".facts");
   const coverage = fragment.querySelector(".coverage");
   const watch = fragment.querySelector(".watch");
-  const commentsList = fragment.querySelector(".comments-list");
-  const commentsCount = fragment.querySelector(".comments-count");
   const save = fragment.querySelector(".save");
-  const comment = fragment.querySelector(".comment");
   const share = fragment.querySelector(".share");
   const original = fragment.querySelector(".original");
 
@@ -596,15 +495,9 @@ function createStoryCard(item, index) {
   watch.textContent = story.watch;
   original.href = item.url;
   save.textContent = state.saved.has(item.id) ? "Saved" : "Save";
-  comment.textContent = state.localCommented.has(item.id) ? "Commented" : "Comment";
-
-  details.addEventListener("toggle", () => {
-    if (details.open) loadStoryComments(item.id, commentsList, commentsCount);
-  });
 
   save.addEventListener("click", () => toggleSave(item, save));
 
-  comment.addEventListener("click", () => openComment(item.id));
   share.addEventListener("click", () => shareStory(item, share));
 
   return fragment;
@@ -670,81 +563,6 @@ async function toggleSave(item, button) {
   }
 }
 
-async function openComment(id) {
-  state.selectedId = id;
-  setCommentStatus("");
-  if (!(await ensureFirebaseReady())) {
-    showToast(state.firebaseError || COMMENT_BACKEND_UNAVAILABLE_MESSAGE);
-    return;
-  }
-  commentName.value = localStorage.getItem("ai-brief-comment-name") || "";
-  commentText.value = "";
-  if (typeof commentDialog.showModal === "function") commentDialog.showModal();
-  else commentDialog.setAttribute("open", "");
-  commentText.focus();
-}
-
-function closeCommentDialog(reset = true) {
-  if (reset) {
-    commentText.value = "";
-  }
-  setCommentStatus("");
-  commentDialog.close();
-}
-
-async function submitComment(event) {
-  event.preventDefault();
-  const storyId = state.selectedId;
-  const body = commentText.value.trim();
-  const name = commentName.value.trim().slice(0, DISPLAY_NAME_MAX_LENGTH) || "Anonymous";
-  if (!storyId || !body) {
-    showToast("Add a comment before posting.");
-    return;
-  }
-  if (body.length > COMMENT_MAX_LENGTH) {
-    showToast("Comments must be 1,000 characters or fewer.");
-    return;
-  }
-
-  try {
-    setCommentStatus("");
-    submitCommentButtonState(true);
-    const user = await ensureCommentIdentity();
-    const authorType = user.isAnonymous ? "guest" : "google";
-    const displayName = authorType === "google" ? user.displayName || name : name;
-    await storyCommentsRef(storyId).add({
-      storyId,
-      body,
-      displayName,
-      authorType,
-      authorUid: user.uid,
-      status: "active",
-      createdAt: firebaseServerTimestamp()
-    });
-    localStorage.setItem("ai-brief-comment-name", name === "Anonymous" ? "" : name);
-    state.localCommented.add(storyId);
-    persistLocalState();
-    closeCommentDialog();
-    showToast("Comment posted.");
-    const card = storyDeck.querySelector(`[data-id="${CSS.escape(storyId)}"]`);
-    card?.querySelector(".comment") && (card.querySelector(".comment").textContent = "Commented");
-    if (card?.querySelector("details")?.open) {
-      await loadStoryComments(storyId, card.querySelector(".comments-list"), card.querySelector(".comments-count"));
-    }
-  } catch (error) {
-    setCommentStatus(commentFailureMessage(error));
-  } finally {
-    submitCommentButtonState(false);
-  }
-}
-
-function submitCommentButtonState(disabled) {
-  const button = document.querySelector("#submitComment");
-  if (!button) return;
-  button.disabled = disabled;
-  button.textContent = disabled ? "Posting" : "Post";
-}
-
 function renderProfileList(container, ids) {
   container.replaceChildren();
   const items = ids
@@ -781,12 +599,9 @@ function renderProfileList(container, ids) {
 }
 
 function openProfile() {
-  const commentedIds = [...state.localCommented];
   savedCount.textContent = state.saved.size;
-  commentedCount.textContent = commentedIds.length;
   openedCount.textContent = state.opened.size;
   renderProfileList(savedList, [...state.saved]);
-  renderProfileList(commentedList, commentedIds);
   if (typeof profileDialog.showModal === "function") profileDialog.showModal();
   else profileDialog.setAttribute("open", "");
 }
@@ -917,7 +732,7 @@ document.addEventListener("keydown", (event) => {
   if (event.key === "Escape" && filterMenu && !filterMenu.hidden) toggleFilterMenu(false);
 });
 document.addEventListener("keydown", (event) => {
-  if (isEditingTarget(event.target) || commentDialog.open || profileDialog.open) return;
+  if (isEditingTarget(event.target) || profileDialog.open) return;
   if (event.key === "ArrowDown" || event.key === "ArrowRight") {
     event.preventDefault();
     goToStoryOffset(1);
@@ -956,16 +771,6 @@ profileDialog.addEventListener("cancel", (event) => {
 profileDialog.addEventListener("click", (event) => {
   if (event.target === profileDialog) closeProfileDialog();
 });
-cancelComment.addEventListener("click", () => closeCommentDialog());
-commentForm.addEventListener("submit", submitComment);
-commentDialog.addEventListener("cancel", (event) => {
-  event.preventDefault();
-  closeCommentDialog();
-});
-commentDialog.addEventListener("click", (event) => {
-  if (event.target === commentDialog) closeCommentDialog();
-});
-
 if ("serviceWorker" in navigator) {
   navigator.serviceWorker.register("/sw.js").catch(() => {});
 }

@@ -79,20 +79,18 @@ You can also put these values in a local `.env` file. If no key is set, the app 
 - Each story fills the screen with a visual, headline, short brief, and expandable context.
 - Swipe up to move to the next story.
 - Sort by `Relevant` or `Recent`.
-- Use `Save`, `Comment`, `Share`, or `Original` from each story.
-- `Profile` works without login and shows saved, commented, and opened story counts on the current device.
+- Use `Save`, `Share`, or `Original` from each story.
+- `Profile` works without login and shows saved and opened story counts on the current device.
 
-## Saves and public comments
+## Saves
 
 Saved stories still work locally through browser `localStorage` under `ai-brief-state-v2`. When Firebase Authentication and Firestore are enabled, signing in with Google migrates those local saves into `userSaves/{uid}/stories/{storyId}` so they can sync across devices.
 
-Public comments use Firestore at `storyComments/{storyId}/comments/{commentId}`. Guests can post through Firebase Anonymous Auth with an optional display name, while signed-in Google users post with their Google identity. Hidden comments can be moderated from Firebase Console by changing `status` from `active` to `hidden`.
-
-The frontend uses Firebase Hosting reserved SDK/init URLs and does not commit Firebase Web API keys into `public/app.js`. To activate backend saves/comments on the hosted app, enable Firestore, Google Auth, Anonymous Auth, and App Check for project `test-e667e`. After creating the App Check reCAPTCHA key, place its public site key in the `firebase-app-check-site-key` meta tag in `public/index.html`.
+The frontend uses Firebase Hosting reserved SDK/init URLs and does not commit Firebase Web API keys into `public/app.js`. To activate backend save sync on the hosted app, enable Firestore, Google Auth, and App Check for project `test-e667e`. After creating the App Check reCAPTCHA key, place its public site key in the `firebase-app-check-site-key` meta tag in `public/index.html`.
 
 ## V2 notes
 
-- Add account sync so saved stories and comments travel across devices.
+- Keep account sync focused on saved stories.
 - Add duplicate suppression per user. The current backend dedupes exact URLs/titles globally, but V2 should track a user's seen story fingerprints so the same underlying news does not reappear from multiple sources or refresh cycles.
 
 ## APK status

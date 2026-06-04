@@ -338,77 +338,14 @@ details p {
   color: var(--muted);
 }
 
-.comments-block {
-  display: grid;
-  gap: 8px;
-  margin-top: 12px;
-  border-top: 1px solid var(--line);
-  padding-top: 10px;
-}
-
-.comments-header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 10px;
-  color: var(--text);
-  font-size: 0.85rem;
-}
-
-.comments-count {
-  color: var(--muted);
-  font-size: 0.75rem;
-  font-weight: 800;
-}
-
-.comments-list {
-  display: grid;
-  gap: 8px;
-}
-
-.comment-item {
-  border: 1px solid rgba(255, 255, 255, 0.14);
-  border-radius: 8px;
-  background: rgba(7, 10, 15, 0.52);
-  padding: 9px;
-}
-
-.comment-item header {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  color: var(--muted);
-  font-size: 0.74rem;
-  font-weight: 800;
-}
-
-.comment-item strong {
-  color: var(--text);
-}
-
-.comment-item p {
-  margin-top: 6px;
-  color: #e8edf3;
-  font-size: 0.88rem;
-  line-height: 1.42;
-  overflow-wrap: anywhere;
-}
-
-.comments-empty {
-  margin: 0;
-  color: var(--muted);
-  font-size: 0.82rem;
-}
-
 .story-actions {
   display: grid;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 8px;
 }
 
 .story-actions button,
-.story-actions a,
-.comment-sheet button {
+.story-actions a {
   display: grid;
   place-items: center;
   min-height: 42px;
@@ -436,7 +373,6 @@ details p {
   text-align: center;
 }
 
-.comment-dialog,
 .profile-dialog {
   width: min(520px, calc(100% - 28px));
   border: 1px solid var(--line);
@@ -446,86 +382,17 @@ details p {
   padding: 0;
 }
 
-.comment-dialog::backdrop,
 .profile-dialog::backdrop {
   background: rgba(0, 0, 0, 0.72);
 }
 
-.comment-sheet,
 .profile-sheet {
   padding: 16px;
 }
 
-.comment-sheet h2,
 .profile-sheet h2 {
   margin: 0 0 12px;
   font-size: 1.1rem;
-}
-
-.comment-sheet label {
-  display: grid;
-  gap: 6px;
-  margin-top: 12px;
-  color: var(--muted);
-  font-size: 0.78rem;
-  font-weight: 800;
-}
-
-.dialog-note {
-  margin: -4px 0 0;
-  color: var(--muted);
-  font-size: 0.84rem;
-  line-height: 1.4;
-}
-
-.dialog-error {
-  margin: 0;
-  border: 1px solid rgba(255, 107, 107, 0.42);
-  border-radius: 8px;
-  background: rgba(255, 107, 107, 0.1);
-  color: #ffd6d6;
-  padding: 10px 12px;
-  font-size: 0.84rem;
-  line-height: 1.4;
-}
-
-.dialog-error[hidden] {
-  display: none;
-}
-
-.comment-sheet input,
-.comment-sheet textarea {
-  width: 100%;
-  border: 1px solid var(--line);
-  border-radius: 8px;
-  background: #070a0f;
-  color: var(--text);
-  padding: 12px;
-  font: inherit;
-  line-height: 1.45;
-}
-
-.comment-sheet textarea {
-  min-height: 150px;
-  resize: vertical;
-}
-
-.comment-sheet div {
-  display: flex;
-  gap: 8px;
-  justify-content: flex-end;
-  margin-top: 12px;
-}
-
-.comment-sheet button {
-  min-width: 92px;
-  background: var(--text);
-  color: var(--ink);
-}
-
-.comment-sheet #cancelComment {
-  background: transparent;
-  color: var(--text);
 }
 
 .profile-sheet header {

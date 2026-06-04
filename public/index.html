@@ -7,7 +7,7 @@
     <meta name="firebase-app-check-site-key" content="6LdinQstAAAAABP8qxFG4nUyIdHBRs9e2HmvBKPH">
     <title>AI Brief</title>
     <link rel="manifest" href="/manifest.json">
-    <link rel="stylesheet" href="/styles.css?v=23">
+    <link rel="stylesheet" href="/styles.css?v=24">
   </head>
   <body>
     <main class="reader-shell">
@@ -63,43 +63,15 @@
             <p class="facts"></p>
             <p class="coverage"></p>
             <p class="watch"></p>
-            <section class="comments-block">
-              <div class="comments-header">
-                <strong>Comments</strong>
-                <span class="comments-count">Loading</span>
-              </div>
-              <div class="comments-list"></div>
-            </section>
           </details>
           <div class="story-actions">
             <button class="save" type="button">Save</button>
-            <button class="comment" type="button">Comment</button>
             <button class="share" type="button">Share</button>
             <a class="original" target="_blank" rel="noopener noreferrer">Original</a>
           </div>
         </div>
       </article>
     </template>
-
-    <dialog id="commentDialog" class="comment-dialog">
-      <form id="commentForm" method="dialog" class="comment-sheet">
-        <h2>Public comment</h2>
-        <p class="dialog-note">Comments are visible to everyone. Use a display name or leave it blank for Anonymous.</p>
-        <label>
-          Display name
-          <input id="commentName" maxlength="40" placeholder="Optional">
-        </label>
-        <label>
-          Comment
-          <textarea id="commentText" rows="6" maxlength="1000" placeholder="Add your thought on this story..."></textarea>
-        </label>
-        <p id="commentStatus" class="dialog-error" role="alert" hidden></p>
-        <div>
-          <button id="cancelComment" value="cancel" type="button">Cancel</button>
-          <button id="submitComment" value="default" type="submit">Post</button>
-        </div>
-      </form>
-    </dialog>
 
     <dialog id="profileDialog" class="profile-dialog">
       <section class="profile-sheet">
@@ -123,10 +95,6 @@
             <strong>Saved</strong>
           </div>
           <div>
-            <span id="commentedCount">0</span>
-            <strong>Commented</strong>
-          </div>
-          <div>
             <span id="openedCount">0</span>
             <strong>Opened</strong>
           </div>
@@ -134,10 +102,6 @@
         <div class="profile-panel">
           <h3>Saved stories</h3>
           <div id="savedList" class="profile-list"></div>
-        </div>
-        <div class="profile-panel">
-          <h3>Your commented stories</h3>
-          <div id="commentedList" class="profile-list"></div>
         </div>
         <p class="profile-note">Unsigned saves stay on this device. Sign in with Google to sync saved stories across devices.</p>
       </section>
@@ -150,6 +114,6 @@
     <script defer src="/__/firebase/10.12.4/firebase-firestore-compat.js"></script>
     <script defer src="/__/firebase/10.12.4/firebase-app-check-compat.js"></script>
     <script defer src="/__/firebase/init.js"></script>
-    <script src="/app.js?v=23" type="module"></script>
+    <script src="/app.js?v=24" type="module"></script>
   </body>
 </html>
