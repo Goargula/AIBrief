@@ -3,6 +3,7 @@ const INITIAL_RENDER_COUNT = 10;
 const RENDER_BATCH = 8;
 const FILTER_CATEGORIES = new Set(["funding", "models", "papers", "pushback", "general"]);
 const SAVE_SYNC_NOTICE_KEY = "ai-brief-save-sync-notice-v1";
+const FIREBASE_SDK_VERSION = "10.12.4";
 const SIGN_IN_BUTTON_TEXT = "Sign in with Google";
 const SIGN_IN_PENDING_TEXT = "Signing in...";
 const REDIRECT_START_TIMEOUT_MS = 5000;
@@ -93,6 +94,7 @@ const toast = document.querySelector("#toast");
 let observer;
 let toastTimer;
 let firebaseInitPromise;
+let firebaseSdkPromise;
 let initialSharedStoryHandled = false;
 
 function loadLocalState() {
@@ -171,20 +173,81 @@ function userSaveRef(storyId) {
   return state.db.collection("userSaves").doc(state.user.uid).collection("stories").doc(storyId);
 }
 
+function installFirebaseBrowserGlobals() {
+  window.global = window.global || window;
+  window.process = window.process || { env: {} };
+  window.process.env = window.process.env || {};
+}
+
+function loadScript(src) {
+  return new Promise((resolve, reject) => {
+    const existing = document.querySelector(`script[data-firebase-loader="${src}"]`);
+    if (existing?.dataset.loaded === "true") {
+      resolve();
+      return;
+    }
+
+    const script = existing || document.createElement("script");
+    script.src = src;
+    script.async = false;
+    script.dataset.firebaseLoader = src;
+    script.onload = () => {
+      script.dataset.loaded = "true";
+      resolve();
+    };
+    script.onerror = () => {
+      script.remove();
+      reject(new Error(`Could not load ${src}`));
+    };
+    if (!existing) document.head.appendChild(script);
+  });
+}
+
+async function loadFirebaseScript(fileName, isReady) {
+  if (isReady()) return;
+  const candidates = [
+    `/__/firebase/${FIREBASE_SDK_VERSION}/${fileName}`,
+    `https://www.gstatic.com/firebasejs/${FIREBASE_SDK_VERSION}/${fileName}`
+  ];
+
+  let lastError;
+  for (const src of candidates) {
+    try {
+      await loadScript(src);
+      if (isReady()) return;
+    } catch (error) {
+      lastError = error;
+    }
+  }
+  throw lastError || new Error(`Firebase SDK did not expose ${fileName}.`);
+}
+
+async function loadFirebaseSdk() {
+  if (firebaseSdkPromise) return firebaseSdkPromise;
+
+  firebaseSdkPromise = (async () => {
+    installFirebaseBrowserGlobals();
+    await loadFirebaseScript("firebase-app-compat.js", () => Boolean(window.firebase?.initializeApp));
+    await loadFirebaseScript("firebase-auth-compat.js", () => Boolean(window.firebase?.auth));
+    await loadFirebaseScript("firebase-firestore-compat.js", () => Boolean(window.firebase?.firestore));
+    if (!window.firebase?.apps?.length) {
+      await loadScript("/__/firebase/init.js");
+    }
+  })();
+
+  return firebaseSdkPromise;
+}
+
 async function initializeFirebase() {
   if (state.firebaseReady && state.auth && state.db) return;
   try {
+    await loadFirebaseSdk();
     await waitForFirebaseInit();
     if (!window.firebase?.apps?.length || !window.firebase.auth || !window.firebase.firestore) {
       state.firebaseError = "Firebase sync is unavailable in this environment.";
       state.authReady = true;
       updateAuthUi();
       return;
-    }
-
-    const appCheckKey = document.querySelector('meta[name="firebase-app-check-site-key"]')?.content?.trim();
-    if (appCheckKey && window.firebase.appCheck) {
-      window.firebase.appCheck().activate(appCheckKey, true);
     }
 
     state.auth = window.firebase.auth();
