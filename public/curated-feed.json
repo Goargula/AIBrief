@@ -1,9 +1,436 @@
 {
-  "generatedAt": "2026-06-04T21:48:17.628Z",
-  "nextRefreshAt": "2026-06-05T00:48:17.628Z",
+  "generatedAt": "2026-06-05T10:31:16.473Z",
+  "nextRefreshAt": "2026-06-05T13:31:16.473Z",
   "summaryEngine": "chat-curated",
   "curated": true,
   "items": [
+    {
+      "id": "curated-nvidia-korea-robotics-physical-ai-pitch-2026-06-05",
+      "title": "Nvidia pushes Korea beyond memory chips toward physical AI",
+      "summary": "Jensen Huang used a Seoul visit to frame robotics and physical AI as Korea's next major Nvidia growth lane, not just another HBM supply discussion.",
+      "fullSummary": "Nvidia's Korea pitch moved beyond the memory chips that already make Samsung and SK hynix central to its AI accelerator supply chain. The Next Web reported that Jensen Huang arrived in Seoul for a four-day visit and told reporters that robotics could become Korea's next major sector, pointing to the country's manufacturing depth and automation appetite. His agenda included high-bandwidth memory, AI data centers, autonomous driving, robotics, physical AI, and meetings with Krafton leaders on humanoid robotics and AI-powered gaming. No major deal was announced, so this is still a statement of intent rather than a signed order book. But it shows how Nvidia is trying to turn the AI boom from data-center training demand into a broader industrial-compute platform that touches factories, warehouses, vehicles, and robots.",
+      "keyFacts": [
+        "June 5, 2026",
+        "Nvidia",
+        "Jensen Huang",
+        "South Korea",
+        "Robotics",
+        "Physical AI",
+        "High-bandwidth memory",
+        "Krafton meetings"
+      ],
+      "url": "https://thenextweb.com/news/nvidia-huang-robotics-south-korea",
+      "sourceName": "The Next Web",
+      "relatedSources": [
+        "The Next Web"
+      ],
+      "lane": "chips",
+      "publishedAt": "2026-06-05T08:49:00.000Z",
+      "importance": 290,
+      "sourceConfidence": "medium",
+      "summaryEngine": "chat-curated",
+      "filterCategory": "general"
+    },
+    {
+      "id": "curated-openai-chatgpt-dreaming-memory-update-2026-06-04",
+      "title": "OpenAI rolls out a more scalable ChatGPT memory system",
+      "summary": "OpenAI says ChatGPT's new Dreaming-based memory architecture is designed to keep long-running user context fresher, more correct, and cheaper to serve.",
+      "fullSummary": "OpenAI is making memory a larger part of the ChatGPT product rather than a small saved-notes feature. In a June 4 research and product post, the company said it is rolling out a more capable Dreaming-based memory system for Plus and Pro users in the U.S., with wider availability planned for additional countries and free users over the coming weeks. The update is meant to synthesize useful context from many conversations, make that context reviewable through a memory-summary page, and handle time-sensitive facts that otherwise go stale. OpenAI says recent improvements cut the compute required to serve Dreaming to Free users by roughly 5x. The important product signal is that personalization is becoming infrastructure: the model is not only answering a prompt, it is maintaining a user context layer that must be fresh, editable, auditable, and economical at hundreds-of-millions-user scale.",
+      "keyFacts": [
+        "June 4, 2026",
+        "OpenAI",
+        "ChatGPT memory",
+        "Dreaming V3",
+        "Plus and Pro users in the U.S.",
+        "Free rollout planned",
+        "About 5x compute reduction claimed"
+      ],
+      "url": "https://openai.com/index/chatgpt-memory-dreaming/",
+      "sourceName": "OpenAI",
+      "relatedSources": [
+        "OpenAI"
+      ],
+      "lane": "products",
+      "publishedAt": "2026-06-04T12:00:00.000Z",
+      "importance": 284,
+      "sourceConfidence": "high",
+      "summaryEngine": "chat-curated",
+      "filterCategory": "general"
+    },
+    {
+      "id": "curated-openai-gpt-rosalind-life-sciences-update-2026-06-03",
+      "title": "OpenAI upgrades GPT-Rosalind for life-sciences workflows",
+      "summary": "OpenAI updated GPT-Rosalind with stronger biology, medicinal chemistry, genomics, wet-lab troubleshooting, and Codex-based scientific workflow tools.",
+      "fullSummary": "OpenAI's latest GPT-Rosalind update is aimed at making frontier models useful inside real scientific workflows, not just at answering biology questions. The company says the model combines GPT-5.5 agentic coding and tool use with stronger performance in medicinal chemistry, genomics, quantitative biology, evidence handling, and lab troubleshooting. OpenAI introduced LifeSciBench for expert-judged life-sciences tasks, MedChemBench for molecular work, GeneBench for long-horizon genomics analysis, and LabWorkBench for wet-lab protocol reasoning. Claimed gains include GPT-Rosalind scoring 27.5% versus GPT-5.5 at 25.1% on MedChemBench while using 7.2% fewer tokens, and 63.2% versus 55.8% on LabWorkBench. Access remains gated through a trusted-access research-preview structure, with Novo Nordisk named as a partner. This belongs in the feed because scientific AI is moving from benchmarks toward controlled enterprise research environments with provenance and safety constraints.",
+      "keyFacts": [
+        "June 3, 2026",
+        "GPT-Rosalind",
+        "LifeSciBench",
+        "MedChemBench 27.5% vs GPT-5.5 25.1%",
+        "GeneBench 21.6% vs 20.4%",
+        "LabWorkBench 63.2% vs 55.8%",
+        "Novo Nordisk",
+        "Trusted-access research preview"
+      ],
+      "url": "https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/",
+      "sourceName": "OpenAI",
+      "relatedSources": [
+        "OpenAI"
+      ],
+      "lane": "research",
+      "publishedAt": "2026-06-03T12:00:00.000Z",
+      "importance": 283,
+      "sourceConfidence": "high",
+      "summaryEngine": "chat-curated",
+      "filterCategory": "models"
+    },
+    {
+      "id": "curated-openai-frontier-ai-governance-blueprint-2026-06-03",
+      "title": "OpenAI proposes a federal framework for frontier AI safety",
+      "summary": "OpenAI published a governance blueprint that calls for a national frontier-AI framework, a stronger CAISI, and a broader resilience plan.",
+      "fullSummary": "OpenAI is trying to shape the next phase of U.S. AI regulation before state laws and federal policy diverge too far. In a June 3 Global Affairs post, the company released a blueprint for democratic governance of frontier AI. Its three-part strategy calls for a national framework that builds on emerging state-law consensus, a stronger CAISI as the federal center for frontier model safety, and a broader government resilience plan for national-security and public-safety risks. OpenAI specifically points to California SB 53, New York's RAISE Act, Illinois SB 315, and the White House executive order on advanced AI innovation and security as pieces of a developing policy base. The substance matters because major AI labs are no longer only reacting to regulation; they are publishing preferred institutional designs while the rules are still fluid.",
+      "keyFacts": [
+        "June 3, 2026",
+        "OpenAI",
+        "Frontier AI governance",
+        "CAISI",
+        "California SB 53",
+        "New York RAISE Act",
+        "Illinois SB 315",
+        "White House AI executive order"
+      ],
+      "url": "https://openai.com/index/frontier-safety-blueprint/",
+      "sourceName": "OpenAI",
+      "relatedSources": [
+        "OpenAI"
+      ],
+      "lane": "policy",
+      "publishedAt": "2026-06-03T12:00:00.000Z",
+      "importance": 282,
+      "sourceConfidence": "high",
+      "summaryEngine": "chat-curated",
+      "filterCategory": "pushback"
+    },
+    {
+      "id": "curated-anthropic-ai-enabled-cyber-threats-mitre-attack-2026-06-03",
+      "title": "Anthropic maps AI-enabled cyber abuse across 832 banned accounts",
+      "summary": "Anthropic says attackers are using AI deeper in cyber operations, with later-stage activity making old risk signals less reliable.",
+      "fullSummary": "Anthropic published a detailed look at how malicious actors used AI across 832 banned accounts between March 2025 and March 2026. The company mapped the cases to MITRE ATT&CK and concluded that AI-enabled attackers are moving beyond preparation into later, more complex phases of cyber operations. Anthropic says 560 of the 832 accounts, or 67.3%, used AI for malware-writing tasks, while 54 accounts, or 6.5%, used AI to assist lateral movement inside compromised environments. It also says the share of actors classified as medium risk or higher rose from 33% in the first six-month period to 56% in the second. The key warning is that traditional risk scoring, such as counting techniques or judging the interface used, may no longer capture how dangerous agentic orchestration can become.",
+      "keyFacts": [
+        "June 3, 2026",
+        "Anthropic",
+        "832 banned accounts",
+        "March 2025 to March 2026",
+        "560 accounts used AI for malware writing",
+        "54 accounts used AI for lateral movement",
+        "Medium-or-higher risk rose from 33% to 56%",
+        "MITRE ATT&CK"
+      ],
+      "url": "https://www.anthropic.com/news/AI-enabled-cyber-threats-mitre-attack",
+      "sourceName": "Anthropic",
+      "relatedSources": [
+        "Anthropic",
+        "MITRE ATT&CK",
+        "Verizon DBIR"
+      ],
+      "lane": "security",
+      "publishedAt": "2026-06-03T12:00:00.000Z",
+      "importance": 281,
+      "sourceConfidence": "high",
+      "summaryEngine": "chat-curated",
+      "filterCategory": "pushback"
+    },
+    {
+      "id": "curated-anthropic-claude-partner-network-services-hub-2026-06-03",
+      "title": "Anthropic turns Claude deployment partners into a ranked ecosystem",
+      "summary": "Anthropic launched a Services Track and Partner Hub so enterprises can see which firms have certified Claude staff and production deployments.",
+      "fullSummary": "Anthropic is making services firms a more explicit part of its enterprise distribution strategy. The company said more than 40,000 firms have applied to join the Claude Partner Network and more than 10,000 consultants have earned Claude certifications since the program launched in March. Its new Services Track ranks partners as Select, Preferred, or Global Premier based on active certified practitioners, joint customers deployed in production, and public customer stories. The Partner Hub is both a dashboard for partners and a public directory for customers evaluating who can help them deploy Claude. Anthropic also cited adoption by large consultancies, including Accenture training 30,000 professionals, Cognizant rolling Claude out to roughly 350,000 associates, Deloitte making it available to 470,000 people, and KPMG integrating it across a workforce of more than 276,000. The story is less about a model release and more about the industrialization of AI implementation.",
+      "keyFacts": [
+        "June 3, 2026",
+        "Claude Partner Network",
+        "40,000+ firms applied",
+        "10,000+ Claude certifications",
+        "Select, Preferred, Global Premier tiers",
+        "Accenture 30,000 professionals",
+        "Cognizant roughly 350,000 associates",
+        "Deloitte 470,000 people",
+        "KPMG 276,000+ workforce"
+      ],
+      "url": "https://www.anthropic.com/news/services-track-partner-hub",
+      "sourceName": "Anthropic",
+      "relatedSources": [
+        "Anthropic"
+      ],
+      "lane": "enterprise",
+      "publishedAt": "2026-06-03T12:00:00.000Z",
+      "importance": 280,
+      "sourceConfidence": "high",
+      "summaryEngine": "chat-curated",
+      "filterCategory": "general"
+    },
+    {
+      "id": "curated-minimax-m3-open-weight-model-vb-2026-06-01",
+      "title": "MiniMax-M3 raises the pressure on costly frontier APIs",
+      "summary": "VentureBeat reported that MiniMax-M3 combines a 1M-token context window, native multimodality, agentic coding claims, and aggressive API pricing.",
+      "fullSummary": "MiniMax-M3 is another sign that the open-weight and low-cost model race is not slowing down. VentureBeat reported that the Chinese AI startup released M3 with a 1-million-token context window, native multimodality, and pricing of $0.30 per million input tokens and $1.20 per million output tokens during an initial discount window. The company says M3 uses MiniMax Sparse Attention to reduce long-context compute, with per-token compute at maximum context falling to 1/20th of the previous generation, plus 9x faster prefilling and 15x faster decoding. Vendor-run benchmarks put M3 at 59.0% on SWE-Bench Pro, 66.0% on Terminal-Bench 2.1, 74.2% on MCP Atlas, and 83.5 on BrowseComp. Treat the claims carefully until open weights and independent evaluations arrive, but the pricing and context-window targets are exactly the pressure enterprise buyers are putting on closed frontier APIs.",
+      "keyFacts": [
+        "June 1, 2026",
+        "MiniMax-M3",
+        "1M-token context window",
+        "Native multimodality",
+        "$0.30 per 1M input tokens during discount",
+        "$1.20 per 1M output tokens during discount",
+        "59.0% SWE-Bench Pro claimed",
+        "Open weights promised within 10 days"
+      ],
+      "url": "https://venturebeat.com/technology/minimax-m3-debuts-eclipsing-gpt-5-5-and-gemini-3-1-pro-on-key-benchmark-performance-for-just-5-10-of-the-cost",
+      "sourceName": "VentureBeat",
+      "relatedSources": [
+        "VentureBeat",
+        "MiniMax"
+      ],
+      "lane": "models",
+      "publishedAt": "2026-06-01T16:10:00.000Z",
+      "importance": 279,
+      "sourceConfidence": "medium",
+      "summaryEngine": "chat-curated",
+      "filterCategory": "models"
+    },
+    {
+      "id": "curated-alphasense-superanalyst-350m-funding-2026-06-03",
+      "title": "AlphaSense raises $350M and launches an always-on analyst agent",
+      "summary": "AlphaSense closed a $350M round at a $7.5B valuation and introduced SuperAnalyst for source-linked financial and strategic workflows.",
+      "fullSummary": "AlphaSense paired a major financing event with a clearer agent product story. The company announced a $350 million round valuing it at $7.5 billion, nearly double its prior $4 billion valuation, and said annual recurring revenue passed $600 million in Q1 2026. The round was led by Vitruvian Partners, Accenture Ventures, and J.P. Morgan Asset Management, with Accenture becoming AlphaSense's first strategic channel partner. On the same day, AlphaSense introduced SuperAnalyst, an always-on AI agent for investment professionals, corporate strategists, and operating executives. The product is designed to run multi-step research, monitor filings and earnings, schedule and synthesize expert calls, update dashboards, and produce source-linked work products inside AlphaSense's trusted content environment. The useful signal is that vertical AI companies are increasingly selling workflow execution, not just search or summarization.",
+      "keyFacts": [
+        "June 3, 2026",
+        "$350M funding round",
+        "$7.5B valuation",
+        "$600M+ ARR in Q1 2026",
+        "Vitruvian Partners",
+        "Accenture Ventures",
+        "J.P. Morgan Asset Management",
+        "SuperAnalyst",
+        "500M+ business documents"
+      ],
+      "url": "https://www.globenewswire.com/news-release/2026/06/03/3305968/0/en/alphasense-raises-350m-at-7-5b-valuation-and-surpasses-600m-in-annual-recurring-revenue.html",
+      "sourceName": "GlobeNewswire / AlphaSense",
+      "relatedSources": [
+        "AlphaSense",
+        "GlobeNewswire"
+      ],
+      "lane": "funding",
+      "publishedAt": "2026-06-03T12:00:00.000Z",
+      "importance": 278,
+      "sourceConfidence": "medium",
+      "summaryEngine": "chat-curated",
+      "filterCategory": "funding"
+    },
+    {
+      "id": "curated-openai-codex-role-plugins-sites-annotations-2026-06-02",
+      "title": "OpenAI expands Codex from coding agent to workplace creation surface",
+      "summary": "OpenAI says Codex now has role-specific plugins, shareable Sites, and annotations as non-developers become a faster-growing slice of usage.",
+      "fullSummary": "OpenAI is positioning Codex as a broader work platform, not only a software-development agent. In a June 2 product post, the company said more than 5 million people use Codex weekly, and that non-developers now make up about 20% of users while growing more than 3x as fast as developers. The new release adds role-specific plugins for data analytics, creative production, sales, product design, public equity investing, and investment banking. OpenAI says those plugins collectively include 62 popular apps and 110 skills. It also introduced Sites, a preview feature for Business and Enterprise teams that lets Codex generate shareable interactive websites and apps, and extended annotations so users can mark precise parts of documents, spreadsheets, slides, and sites for refinement. The shift is important because agent products are converging with office suites, BI tools, design workflows, and lightweight internal app builders.",
+      "keyFacts": [
+        "June 2, 2026",
+        "OpenAI Codex",
+        "5M+ weekly users",
+        "Non-developers about 20% of users",
+        "Non-developer growth more than 3x developer growth",
+        "Six role-specific plugins",
+        "62 apps",
+        "110 skills",
+        "Sites preview",
+        "Annotations"
+      ],
+      "url": "https://openai.com/index/codex-for-every-role-tool-workflow/",
+      "sourceName": "OpenAI",
+      "relatedSources": [
+        "OpenAI"
+      ],
+      "lane": "products",
+      "publishedAt": "2026-06-02T12:00:00.000Z",
+      "importance": 277,
+      "sourceConfidence": "high",
+      "summaryEngine": "chat-curated",
+      "filterCategory": "general"
+    },
+    {
+      "id": "curated-openai-frontier-models-codex-aws-bedrock-2026-06-01",
+      "title": "OpenAI puts frontier models and Codex into AWS buying paths",
+      "summary": "OpenAI models and Codex are now available on AWS, giving enterprises a way to adopt them through existing Bedrock, GovCloud, security, and procurement workflows.",
+      "fullSummary": "OpenAI and AWS are turning enterprise procurement into a distribution channel for frontier models. OpenAI said its frontier models and Codex are generally available on AWS, including through Amazon Bedrock and Codex on Amazon Bedrock, in both Commercial and GovCloud regions. The pitch is straightforward: customers can use OpenAI capabilities while keeping familiar AWS controls for security, governance, billing, compliance, and deployment. OpenAI named Amgen and Autodesk as customers evaluating the path for scientific and design workflows. The company also said future AWS availability will include Daybreak, its software-security and cyberdefense direction covering secure code review, threat modeling, patch validation, dependency-risk analysis, and remediation guidance. This is a notable platform story because the leading labs are increasingly competing on where models can be governed and bought, not only on model scores.",
+      "keyFacts": [
+        "June 1, 2026",
+        "OpenAI",
+        "AWS",
+        "Amazon Bedrock",
+        "Codex on Amazon Bedrock",
+        "Commercial and GovCloud regions",
+        "Amgen",
+        "Autodesk",
+        "Daybreak cyber capabilities planned"
+      ],
+      "url": "https://openai.com/index/openai-frontier-models-and-codex-are-now-available-on-aws/",
+      "sourceName": "OpenAI",
+      "relatedSources": [
+        "OpenAI",
+        "AWS"
+      ],
+      "lane": "cloud",
+      "publishedAt": "2026-06-01T12:00:00.000Z",
+      "importance": 276,
+      "sourceConfidence": "high",
+      "summaryEngine": "chat-curated",
+      "filterCategory": "general"
+    },
+    {
+      "id": "curated-ramp-750m-44b-ai-finance-infrastructure-2026-06-04",
+      "title": "Ramp raises $750M as finance software sells an AI operating-system story",
+      "summary": "Ramp's Series F valued the spend-management company at $44B and highlighted AI cost controls, procurement agents, accounting agents, and internal code generation.",
+      "fullSummary": "Ramp's latest financing shows how aggressively investors are rewarding vertical software companies that can tell a credible AI workflow story. The company announced a $750 million Series F led by ICONIQ, GIC, and Ontario Teachers' Pension Plan, valuing Ramp at $44 billion. Ramp says it now has more than $1 billion in annualized revenue, 70,000+ customers, $200 billion in annualized purchase volume, positive free cash flow, and more than $3 billion in total equity financing. The AI angle is not cosmetic: Ramp is pitching AI token spend management, procurement agents, accounting agents, and Ramp Stack for accounting firms. It also says its internal software factory, Inspect, writes more than two-thirds of Ramp's code, while Glass gives employees a configured AI workspace and helped the company reach 99.5% AI adoption. The round is a strong signal that financial-operations AI is becoming a mainstream enterprise category.",
+      "keyFacts": [
+        "June 4, 2026",
+        "$750M Series F",
+        "$44B valuation",
+        "ICONIQ",
+        "GIC",
+        "Ontario Teachers' Pension Plan",
+        "$1B+ annualized revenue",
+        "70,000+ customers",
+        "$200B annualized purchase volume",
+        "99.5% internal AI adoption claimed"
+      ],
+      "url": "https://techcrunch.com/2026/06/04/ramp-raises-750m-at-44b-valuation-as-investors-hunger-for-fintechs-with-an-ai-story/",
+      "sourceName": "TechCrunch / PR Newswire",
+      "relatedSources": [
+        "TechCrunch",
+        "PR Newswire",
+        "Ramp"
+      ],
+      "lane": "funding",
+      "publishedAt": "2026-06-04T15:08:00.000Z",
+      "importance": 275,
+      "sourceConfidence": "high",
+      "summaryEngine": "chat-curated",
+      "filterCategory": "funding"
+    },
+    {
+      "id": "curated-helion-465m-microsoft-ai-power-demand-2026-06-04",
+      "title": "Helion raises $465M as AI power demand keeps pulling capital into energy",
+      "summary": "The Sam Altman-backed fusion startup raised a Series G at a $15.5B valuation while racing toward a Microsoft power-plant commitment.",
+      "fullSummary": "Helion's latest round belongs in an AI feed because power supply is now part of AI infrastructure strategy. TechCrunch reported that the Sam Altman-backed fusion company raised $465 million in a Series G led by Thrive Capital, valuing the startup at $15.5 billion. Helion has now raised about $1.5 billion in total and is racing to complete Orion, its first power plant. The key customer signal is Microsoft: Helion has an aggressive target to deliver fusion power to the grid as early as 2028 if it can satisfy the terms of its Microsoft deal. Fusion remains technically and commercially uncertain, so this is not proof that AI data centers will soon run on fusion. But it is a useful capital-markets signal that the AI power bottleneck is pushing investors and hyperscalers toward long-horizon energy bets.",
+      "keyFacts": [
+        "June 4, 2026",
+        "Helion",
+        "$465M Series G",
+        "$15.5B valuation",
+        "Thrive Capital",
+        "$1.5B total raised",
+        "Orion power plant",
+        "Microsoft power deal",
+        "Sam Altman-backed"
+      ],
+      "url": "https://techcrunch.com/2026/06/04/helion-the-sam-altman-backed-fusion-startup-raises-465m-to-build-a-power-plant-for-microsoft/",
+      "sourceName": "TechCrunch",
+      "relatedSources": [
+        "TechCrunch",
+        "Helion",
+        "Microsoft"
+      ],
+      "lane": "infrastructure",
+      "publishedAt": "2026-06-04T18:54:00.000Z",
+      "importance": 274,
+      "sourceConfidence": "high",
+      "summaryEngine": "chat-curated",
+      "filterCategory": "funding"
+    },
+    {
+      "id": "curated-meta-facebook-ai-creator-assistant-2026-06-04",
+      "title": "Meta adds a conversational AI assistant for Facebook creators",
+      "summary": "Meta is putting an AI assistant inside Facebook creator workflows to explain performance, answer follow-up questions, and suggest content ideas.",
+      "fullSummary": "Meta is turning creator analytics into a conversational AI workflow. TechCrunch reported that Facebook creators in the U.S., Canada, and India are getting a new AI creator assistant that offers personalized recommendations based on content style, performance, community, and goals. Instead of forcing creators to parse dashboards, the assistant can answer questions such as when to post or what people are saying in comments, then handle follow-ups about audience changes or content strategy. It can also brainstorm content ideas by drawing on trends, audio, and cultural moments. This is not a frontier-model story, but it is a practical adoption story: social platforms are using AI to make creator operations more automated, more prescriptive, and more tightly tied to the platform's own engagement incentives.",
+      "keyFacts": [
+        "June 4, 2026",
+        "Meta",
+        "Facebook creator assistant",
+        "U.S.",
+        "Canada",
+        "India",
+        "Creator analytics",
+        "Trend-based content suggestions"
+      ],
+      "url": "https://techcrunch.com/2026/06/04/meta-rolls-out-a-new-ai-creator-assistant-on-facebook/",
+      "sourceName": "TechCrunch",
+      "relatedSources": [
+        "TechCrunch",
+        "Meta"
+      ],
+      "lane": "products",
+      "publishedAt": "2026-06-04T16:32:00.000Z",
+      "importance": 273,
+      "sourceConfidence": "high",
+      "summaryEngine": "chat-curated",
+      "filterCategory": "general"
+    },
+    {
+      "id": "curated-lovable-google-cloud-fivefold-ai-usage-2026-06-03",
+      "title": "Lovable signs Google Cloud expansion as vibe-coding demand strains capacity",
+      "summary": "TechCrunch reported that Lovable's new Google Cloud agreement is expected to increase its footprint, including AI usage, by roughly 5x.",
+      "fullSummary": "Lovable's Google Cloud deal is a useful datapoint for how fast AI coding products are converting user growth into cloud demand. TechCrunch reported that the Swedish startup signed a multiyear Google Cloud agreement that a person familiar with the deal said involves a fivefold increase in Lovable's footprint, including AI usage. The arrangement gives Lovable broader access to models such as Anthropic's Claude and Google's Gemini and places its new agent in Google Cloud's Enterprise Agent Marketplace. The dollar value was not disclosed, so the scale should not be overstated. Still, the story fits a larger pattern: app-building and coding-agent startups are becoming major customers for model access, inference capacity, and enterprise marketplaces, while cloud providers are competing to lock them into ecosystems before usage patterns stabilize.",
+      "keyFacts": [
+        "June 3, 2026",
+        "Lovable",
+        "Google Cloud",
+        "Multiyear agreement",
+        "Roughly 5x footprint increase reported",
+        "Claude",
+        "Gemini",
+        "Enterprise Agent Marketplace"
+      ],
+      "url": "https://techcrunch.com/2026/06/03/lovable-signs-multi-year-deal-with-google-cloud-to-up-usage-5x-source-says/",
+      "sourceName": "TechCrunch",
+      "relatedSources": [
+        "TechCrunch",
+        "Google Cloud",
+        "Lovable"
+      ],
+      "lane": "cloud",
+      "publishedAt": "2026-06-03T22:56:00.000Z",
+      "importance": 272,
+      "sourceConfidence": "medium",
+      "summaryEngine": "chat-curated",
+      "filterCategory": "general"
+    },
+    {
+      "id": "curated-irb-barcelona-ai-designed-cell-selective-molecules-2026-06-02",
+      "title": "IRB Barcelona uses generative AI to design cell-selective molecules",
+      "summary": "Researchers reported AI-designed chemical entities that target desired cell effects without starting from a predefined protein target.",
+      "fullSummary": "A new IRB Barcelona study points to a more phenotypic style of AI drug discovery. EurekAlert reported that Patrick Aloy's Structural Bioinformatics and Network Biology lab developed a computational framework that designs molecules based on the biological effect researchers want in specific cell types, rather than starting with a known protein target. The team tested more than 11,000 chemical compounds across eight cell models, including six pancreatic-cancer lines and two controls, then used the data to train predictive models and guide a generative AI system. Several AI-designed molecules experimentally matched the intended selective activity, and the work was published in Communications Chemistry. This is early-stage compound discovery, not a validated therapy. Its significance is methodological: AI is being used to propose structurally novel molecules around desired cellular behavior when the target biology is poorly characterized.",
+      "keyFacts": [
+        "June 2, 2026",
+        "IRB Barcelona",
+        "Communications Chemistry",
+        "Patrick Aloy",
+        "11,000+ chemical compounds",
+        "Eight cell models",
+        "Six pancreatic-cancer lines",
+        "Phenotypic discovery",
+        "DOI 10.1038/s42004-026-02071-x"
+      ],
+      "url": "https://www.eurekalert.org/news-releases/1130545",
+      "sourceName": "EurekAlert / IRB Barcelona",
+      "relatedSources": [
+        "EurekAlert",
+        "IRB Barcelona",
+        "Communications Chemistry"
+      ],
+      "lane": "research",
+      "publishedAt": "2026-06-02T08:00:00.000Z",
+      "importance": 271,
+      "sourceConfidence": "high",
+      "summaryEngine": "chat-curated",
+      "filterCategory": "papers"
+    },
     {
       "id": "curated-meta-ai-data-centers-rapid-deployment-tents-ohio-2026-06-04",
       "title": "Meta speeds AI data centers with tent-style deployments",
