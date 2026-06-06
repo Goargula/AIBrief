@@ -1,9 +1,401 @@
 {
-  "generatedAt": "2026-06-05T10:31:16.473Z",
-  "nextRefreshAt": "2026-06-05T13:31:16.473Z",
+  "generatedAt": "2026-06-06T14:31:18.467Z",
+  "nextRefreshAt": "2026-06-06T17:31:18.467Z",
   "summaryEngine": "chat-curated",
   "curated": true,
   "items": [
+    {
+      "id": "curated-ai-investment-inflation-spillovers-2026-06-06",
+      "title": "AI buildout starts showing up in prices far beyond chatbots",
+      "summary": "The AI infrastructure boom is raising costs for electricity, land, computer equipment, and specialized labor, creating inflation spillovers before the promised productivity gains arrive.",
+      "fullSummary": "The Washington Post reports that the hundreds of billions of dollars flowing into AI data centers are beginning to affect prices paid by people and businesses that may not use AI directly. Technology companies are competing for computer hardware, land, construction crews, specialized workers, and large blocks of electricity, creating tighter supply and higher costs in several markets. Federal Reserve officials and Wall Street analysts increasingly see this spending wave as a contributor to U.S. inflation, while consumer-electronics analysts warn that pressure on components could worsen. The story adds an important economic constraint to the AI race: the industry may eventually lower costs through productivity, but its near-term physical buildout can make energy, equipment, and development more expensive first.",
+      "keyFacts": [
+        "June 6, 2026",
+        "AI data centers",
+        "Electricity",
+        "Computer equipment",
+        "Land and construction",
+        "Inflation spillovers"
+      ],
+      "url": "https://www.washingtonpost.com/technology/2026/06/06/inflation-is-being-driven-up-by-huge-investment-artificial-intelligence/",
+      "sourceName": "The Washington Post",
+      "relatedSources": [
+        "The Washington Post"
+      ],
+      "lane": "infrastructure",
+      "publishedAt": "2026-06-06T10:30:00.000Z",
+      "importance": 320,
+      "sourceConfidence": "high",
+      "filterCategory": "pushback",
+      "summaryEngine": "chat-curated"
+    },
+    {
+      "id": "curated-china-humanoid-robots-demand-gap-2026-06-06",
+      "title": "China can mass-produce humanoid robots, but buyers remain scarce",
+      "summary": "China's humanoid industry has reached impressive manufacturing scale, yet limited real-world use cases are turning customer demand into the harder problem.",
+      "fullSummary": "AP reports that China has built a formidable humanoid-robot supply chain without yet proving a comparably large commercial market. The country had more than 140 humanoid manufacturers and over 330 models in 2025, according to its industry ministry. Omdia estimates more than 13,000 humanoids shipped globally that year; Chinese leaders AGIBOT and Unitree each shipped over 5,000, while U.S. rivals shipped far fewer. But investors and operators say useful deployments remain constrained because many robots still struggle to deliver reliable economic value outside carefully designed demonstrations. The gap matters because physical AI is becoming a major investment theme: manufacturing scale can reduce costs quickly, but sustainable demand will depend on robots reliably performing valuable factory, logistics, service, and household work.",
+      "keyFacts": [
+        "June 6, 2026",
+        "More than 140 Chinese humanoid manufacturers",
+        "More than 330 models in 2025",
+        "More than 13,000 global shipments",
+        "AGIBOT",
+        "Unitree"
+      ],
+      "url": "https://apnews.com/article/7d542b5ee92caa9d79efa28de89afbbe",
+      "sourceName": "Associated Press",
+      "relatedSources": [
+        "Associated Press",
+        "The Washington Post"
+      ],
+      "lane": "news",
+      "publishedAt": "2026-06-06T02:07:46.000Z",
+      "importance": 318,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated"
+    },
+    {
+      "id": "curated-trump-government-ai-company-stakes-2026-06-06",
+      "title": "Trump floats public stakes in leading AI companies",
+      "summary": "President Trump said he plans to discuss government ownership stakes with major AI companies, framing public participation as a way to share the industry's upside.",
+      "fullSummary": "President Donald Trump said he intends to meet leading AI companies to discuss whether the U.S. government or the American public should receive an ownership stake in the industry's growth. The idea remains exploratory rather than a formal policy proposal, but it would represent a striking shift in how Washington approaches the private companies building frontier models. Trump argued that public participation could give citizens a direct benefit from AI's financial success and reduce opposition to the technology. The discussion arrives as AI firms seek enormous amounts of capital and the government expands its role in model testing, national-security deployment, and infrastructure. What matters next is whether the White House develops a concrete structure, and whether companies or lawmakers support any form of public equity participation.",
+      "keyFacts": [
+        "June 6, 2026",
+        "President Donald Trump",
+        "Possible government ownership stakes",
+        "Planned White House discussions",
+        "No formal proposal yet"
+      ],
+      "url": "https://www.nst.com.my/amp/world/world/2026/06/1456470/trump-meet-ai-firms-government-stake",
+      "sourceName": "AFP / New Straits Times",
+      "relatedSources": [
+        "AFP",
+        "The Washington Post",
+        "New Straits Times"
+      ],
+      "lane": "policy",
+      "publishedAt": "2026-06-06T00:20:00.000Z",
+      "importance": 316,
+      "sourceConfidence": "high",
+      "filterCategory": "pushback",
+      "summaryEngine": "chat-curated"
+    },
+    {
+      "id": "curated-anthropic-coordinated-ai-pause-proposal-2026-06-05",
+      "title": "Anthropic asks frontier labs to prepare for a coordinated pause",
+      "summary": "Anthropic is proposing a verifiable mechanism for top AI labs to pause development together if capability gains create an unacceptable loss-of-control risk.",
+      "fullSummary": "Anthropic has called for the world's leading AI developers to create a coordinated and verifiable way to pause advanced-model development if risks grow too quickly. The company says autonomous task capability has been doubling roughly every four months and warns that future systems could help improve their own successors faster than institutions can respond. The proposal is not an immediate unilateral halt, and rivals including OpenAI, Google, Meta, xAI, and Mistral have not committed to it. Critics may view the move as safety positioning from a company racing toward an IPO, but the proposal still raises a concrete governance question: whether competing labs can agree in advance on evidence thresholds, verification methods, and enforcement strong enough to stop a race during a genuine emergency.",
+      "keyFacts": [
+        "June 5, 2026",
+        "Anthropic",
+        "Coordinated and verifiable pause proposal",
+        "Autonomous task capability doubling roughly every four months",
+        "No rival commitments announced"
+      ],
+      "url": "https://apnews.com/article/938c99158e5953601cf3322f1cec12af",
+      "sourceName": "Associated Press",
+      "relatedSources": [
+        "Associated Press",
+        "Reuters",
+        "The Guardian"
+      ],
+      "lane": "signal",
+      "publishedAt": "2026-06-05T15:24:57.000Z",
+      "importance": 314,
+      "sourceConfidence": "high",
+      "filterCategory": "pushback",
+      "summaryEngine": "chat-curated"
+    },
+    {
+      "id": "curated-supabase-series-f-ai-coding-growth-2026-06-05",
+      "title": "Supabase raises $500M as AI coding drives database growth",
+      "summary": "Supabase reached a roughly $10.5B post-money valuation after AI coding tools helped push database launches up more than 600% in a year.",
+      "fullSummary": "Supabase raised a $500 million Series F at a $10 billion pre-money valuation, or roughly $10.5 billion after the investment. The open-source database company says launches on its platform grew more than 600% over the past year, with over 60% created by some form of AI tool. Its user base has nearly doubled in eight months to almost 10 million developers, and CEO Paul Copplestone specifically credited Claude Code and Codex with expanding the number of people able to build software. The round is a useful measure of where value is accumulating around generative coding: model companies attract attention, but infrastructure that absorbs the resulting explosion of new applications can grow rapidly too. The key question is whether AI-generated projects mature into durable production workloads.",
+      "keyFacts": [
+        "$500M Series F",
+        "$10B pre-money valuation",
+        "About $10.5B post-money valuation",
+        "Database launches up more than 600%",
+        "More than 60% launched using AI tools",
+        "Nearly 10M developers"
+      ],
+      "url": "https://techcrunch.com/2026/06/05/supabase-doubles-valuation-to-10b-in-8-months/",
+      "sourceName": "TechCrunch",
+      "relatedSources": [
+        "TechCrunch",
+        "Supabase"
+      ],
+      "lane": "funding",
+      "publishedAt": "2026-06-05T16:32:00.000Z",
+      "importance": 312,
+      "sourceConfidence": "high",
+      "filterCategory": "funding",
+      "summaryEngine": "chat-curated"
+    },
+    {
+      "id": "curated-us-ai-national-security-memorandum-2026-06-05",
+      "title": "White House orders faster AI adoption across national security agencies",
+      "summary": "A new presidential memorandum directs military and intelligence agencies to onboard advanced commercial and open-source AI while building stronger assurance and accountability controls.",
+      "fullSummary": "President Trump signed a National Security Presidential Memorandum establishing a new framework for AI use across the U.S. military and intelligence community. The directive emphasizes four themes: adoption, adaptation, assurance, and accountability. It calls for rapid onboarding of advanced models from multiple vendors, high-security computing facilities for future systems, and an AI National Security Strategic Reserve of outside experts. It also directs covered agencies to create governance policies and asks the Defense Department to update autonomous-weapons guidance. The memorandum is notable because it pairs an acceleration mandate with requirements that deployed systems be robust, steerable, controllable, and accountable through the constitutional chain of command. Implementation details, procurement rules, and the treatment of sensitive model capabilities will determine how meaningful those safeguards are.",
+      "keyFacts": [
+        "June 5, 2026",
+        "National Security Presidential Memorandum",
+        "Military and intelligence agencies",
+        "Multiple AI vendors",
+        "AI National Security Strategic Reserve",
+        "Updated autonomous-weapons guidance"
+      ],
+      "url": "https://www.whitehouse.gov/fact-sheets/2026/06/fact-sheet-president-donald-j-trump-signs-historic-directive-on-ai-in-the-national-security-enterprise/",
+      "sourceName": "The White House",
+      "relatedSources": [
+        "The White House",
+        "Associated Press"
+      ],
+      "lane": "policy",
+      "publishedAt": "2026-06-05T20:00:00.000Z",
+      "importance": 310,
+      "sourceConfidence": "high",
+      "filterCategory": "pushback",
+      "summaryEngine": "chat-curated"
+    },
+    {
+      "id": "curated-us-ai-doctors-cardiovascular-research-awards-2026-06-05",
+      "title": "U.S. health officials prepare a path toward more autonomous AI doctors",
+      "summary": "The administration plans more than $50M in cardiovascular conversational-AI research as officials explore rules for systems that could take on direct patient-care tasks.",
+      "fullSummary": "The Washington Post reports that U.S. officials are laying groundwork for AI systems to assume more direct roles in patient care. One planned program would offer more than $50 million in research awards for conversational AI capable of supporting cardiovascular care, including handling calls from people reporting possible heart-attack symptoms. The effort is supported by Anthropic, AWS, startups, and universities, while Utah is already piloting AI-assisted prescription refills. Supporters see a response to physician shortages and chronic-disease burdens. Physicians and researchers warn that current chatbots can misread messy patient descriptions, please users rather than challenge them, and make unsafe recommendations. The core policy question is how to generate evidence, licensing rules, supervision requirements, and accountability before moving from clinical assistance toward autonomous decisions.",
+      "keyFacts": [
+        "June 5, 2026",
+        "More than $50M planned research awards",
+        "Conversational cardiovascular care",
+        "Anthropic and AWS support",
+        "Utah prescription-refill pilot",
+        "Physician oversight concerns"
+      ],
+      "url": "https://www.washingtonpost.com/wp-intelligence/health-brief/2026/06/05/health-brief-trump-backed-push-put-ai-exam-room/",
+      "sourceName": "The Washington Post",
+      "relatedSources": [
+        "The Washington Post"
+      ],
+      "lane": "news",
+      "publishedAt": "2026-06-05T20:48:00.000Z",
+      "importance": 308,
+      "sourceConfidence": "high",
+      "filterCategory": "pushback",
+      "summaryEngine": "chat-curated"
+    },
+    {
+      "id": "curated-japan-us-genesis-mission-ai-science-2026-06-05",
+      "title": "Japan and U.S. commit $1B to AI-driven scientific research",
+      "summary": "Japan became the first international partner in the U.S. Genesis Mission through a five-year plan targeting AI-accelerated quantum, fusion, and biotechnology research.",
+      "fullSummary": "Japan and the United States announced a five-year, $1 billion collaboration to accelerate scientific research with AI. Each government plans to contribute $500 million, making Japan the first international partner in the U.S. Genesis Mission. The program is intended to reduce research timelines and deepen joint work in areas including quantum technology, nuclear fusion, and biotechnology. Major AI and computing companies, including OpenAI, Anthropic, and Nvidia, are members of the broader project. The agreement is significant because it treats AI not only as a commercial software race but as infrastructure for national science strategy. Its impact will depend on which datasets, laboratories, compute resources, and research challenges are shared, and whether the partnership produces measurable scientific advances rather than a collection of loosely connected projects.",
+      "keyFacts": [
+        "Five-year plan",
+        "$1B total",
+        "$500M from each government",
+        "Japan is first Genesis Mission partner",
+        "Quantum technology",
+        "Nuclear fusion",
+        "Biotechnology"
+      ],
+      "url": "https://www.japantimes.co.jp/news/2026/06/05/japan/japan-us-ai-cooperation/",
+      "sourceName": "The Japan Times / Jiji",
+      "relatedSources": [
+        "The Japan Times",
+        "Jiji"
+      ],
+      "lane": "research",
+      "publishedAt": "2026-06-05T06:00:00.000Z",
+      "importance": 306,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated"
+    },
+    {
+      "id": "curated-flourish-neuroscience-ai-funding-2026-06-05",
+      "title": "Flourish raises $500M for neuroscience-inspired efficient AI",
+      "summary": "The young AI lab raised a large venture round to pursue energy-efficient systems informed by neuroscience and connectomics research.",
+      "fullSummary": "Flourish, an AI company founded in 2025 by Thomas Reardon and Rob Williams, raised $500 million in venture funding led by Lux Capital and GV, with participation from Catalio Capital Management and Jeff Bezos. The company is developing energy-efficient AI systems inspired by neuroscience and connectomics, the study of how neural connections are organized. Public technical details remain limited, so the round is best read as a major investor bet rather than proof of a new architecture's performance. Still, its size highlights growing appetite for approaches that could reduce the power and compute demands of conventional scaling. What to watch is whether Flourish releases credible benchmarks, research, or products showing that biologically inspired designs can compete on useful tasks while consuming materially less energy.",
+      "keyFacts": [
+        "$500M venture funding",
+        "Founded in 2025",
+        "Thomas Reardon",
+        "Rob Williams",
+        "Lux Capital",
+        "GV",
+        "Jeff Bezos",
+        "Neuroscience and connectomics"
+      ],
+      "url": "https://www.alleywatch.com/2026/06/the-alleywatch-startup-daily-funding-report-6-5-2026/",
+      "sourceName": "AlleyWatch",
+      "relatedSources": [
+        "AlleyWatch"
+      ],
+      "lane": "funding",
+      "publishedAt": "2026-06-05T12:00:00.000Z",
+      "importance": 304,
+      "sourceConfidence": "medium",
+      "filterCategory": "funding",
+      "summaryEngine": "chat-curated"
+    },
+    {
+      "id": "curated-cognizant-sovereign-physical-ai-platform-2026-06-05",
+      "title": "Cognizant packages physical AI as governed enterprise infrastructure",
+      "summary": "Cognizant launched a sovereign platform connecting sensors, robots, digital twins, and agents across eight safety-sensitive industries.",
+      "fullSummary": "Cognizant launched a sovereign Physical AI Platform-as-a-Service designed to connect industrial sensors, cameras, robots, IoT systems, digital twins, and agentic AI under enterprise control. Built on the company's Intelligence Spine, the platform targets eight verticals including manufacturing, logistics, energy, healthcare, transportation, and aerospace and defense. Cognizant argues that physical AI needs a governed institutional layer because failures in operational environments can create safety, compliance, and financial consequences rather than merely poor software experiences. The announcement is company-provided and does not include customer outcome data, so its claims need validation. It nevertheless reflects an important adoption shift: enterprises are looking for ways to manage autonomous physical systems as durable, auditable infrastructure instead of isolated robotics pilots.",
+      "keyFacts": [
+        "June 5, 2026",
+        "Cognizant",
+        "Sovereign Physical AI Platform-as-a-Service",
+        "Intelligence Spine",
+        "Eight verticals",
+        "Sensors, robots, IoT, and digital twins"
+      ],
+      "url": "https://news.cognizant.com/2026-06-05-Cognizant-Launches-Sovereign-Physical-AI-Platform-as-a-Service",
+      "sourceName": "Cognizant",
+      "relatedSources": [
+        "Cognizant",
+        "PR Newswire"
+      ],
+      "lane": "enterprise",
+      "publishedAt": "2026-06-05T13:00:00.000Z",
+      "importance": 302,
+      "sourceConfidence": "medium",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated"
+    },
+    {
+      "id": "curated-wellspan-philips-ai-healthcare-alliance-2026-06-05",
+      "title": "WellSpan and Philips sign seven-year healthcare AI alliance",
+      "summary": "The health system and Philips will deploy imaging and monitoring technology across 12 hospitals while co-developing new AI-enabled clinical tools.",
+      "fullSummary": "WellSpan Health and Philips signed a seven-year strategic alliance covering advanced imaging, patient monitoring, enterprise informatics, and co-development of new AI and health technologies. Philips will become WellSpan's preferred vendor across 12 hospitals plus diagnostic imaging centers and ambulatory surgery centers in Pennsylvania and Maryland. The partnership includes a coordinated approach to equipment lifecycle management, services, training, and upgrades. It is Philips' first research and innovation collaboration with a U.S. community health system, making it a useful example of how clinical AI moves from product announcements into long-term operational relationships. The most important evidence will come later: whether jointly developed tools improve diagnostic quality, clinician workflows, patient outcomes, or costs across a diverse real-world network.",
+      "keyFacts": [
+        "Seven-year alliance",
+        "12 hospitals",
+        "Central Pennsylvania and Northern Maryland",
+        "Philips preferred vendor",
+        "Imaging and patient monitoring",
+        "AI co-development"
+      ],
+      "url": "https://www.fiercehealthcare.com/health-tech/wellspan-health-strikes-strategic-partnership-philips-deploy-co-develop-new-healthcare",
+      "sourceName": "Fierce Healthcare",
+      "relatedSources": [
+        "Fierce Healthcare",
+        "Philips",
+        "WellSpan Health"
+      ],
+      "lane": "news",
+      "publishedAt": "2026-06-05T11:30:00.000Z",
+      "importance": 300,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated"
+    },
+    {
+      "id": "curated-apoha-protein-material-design-funding-2026-06-05",
+      "title": "Apoha raises $36M for AI-designed proteins and materials",
+      "summary": "Apoha secured $36M to scale an AI platform aimed at designing proteins, food ingredients, and new materials, extending the AI-for-science funding wave.",
+      "fullSummary": "Apoha raised $36 million to scale an AI platform for designing proteins, food ingredients, and new materials. The company sits in a growing category of startups trying to turn generative and predictive models into useful scientific-design systems rather than general-purpose chat products. Public information remains relatively thin and the technology is early, so the financing should not be mistaken for evidence that its designs have reached commercial validation. The round is still notable because it connects AI investment to sectors with physical production constraints and long testing cycles. What to watch is whether Apoha can show experimentally validated molecules or materials, establish strong laboratory and manufacturing partnerships, and shorten development timelines enough to create a defensible advantage.",
+      "keyFacts": [
+        "$36M funding",
+        "Protein design",
+        "Food ingredients",
+        "New materials",
+        "AI for scientific discovery",
+        "Early-stage technology"
+      ],
+      "url": "https://www.proteinproductiontechnology.com/post/apoha-raises-us-36-million-to-scale-ai-platform-for-designing-proteins-food-ingredients-and-new-materials",
+      "sourceName": "PPTI News",
+      "relatedSources": [
+        "PPTI News",
+        "Fortune"
+      ],
+      "lane": "funding",
+      "publishedAt": "2026-06-05T10:00:00.000Z",
+      "importance": 298,
+      "sourceConfidence": "medium",
+      "filterCategory": "funding",
+      "summaryEngine": "chat-curated"
+    },
+    {
+      "id": "curated-nvidia-nemotron-3-ultra-open-agent-model-2026-06-04",
+      "title": "Nvidia releases Nemotron 3 Ultra for long-running open agents",
+      "summary": "The 550B-parameter mixture-of-experts model ships with open checkpoints, a million-token context window, and efficiency claims aimed at production agent workloads.",
+      "fullSummary": "Nvidia released Nemotron 3 Ultra, the largest model in its Nemotron 3 family, for long-running reasoning and agentic workloads. The 550-billion-parameter mixture-of-experts model activates about 55 billion parameters per token and supports a one-million-token context window. Nvidia published multiple checkpoints, training data, recipes, and reasoning-budget controls under an open license, including an NVFP4-quantized version intended to improve inference economics. The company reports substantially higher throughput than several large open competitors in long-output tests, but those vendor benchmarks still need independent validation across real workloads. The release matters because Nvidia is using open models to pull developers toward its broader inference stack while addressing a practical agent problem: maintaining capable reasoning without making every long-running task prohibitively expensive.",
+      "keyFacts": [
+        "June 4, 2026",
+        "550B total parameters",
+        "About 55B active parameters",
+        "1M-token context window",
+        "NVFP4 checkpoint",
+        "Open checkpoints, data, and recipes"
+      ],
+      "url": "https://research.nvidia.com/labs/nemotron/Nemotron-3-Ultra/",
+      "sourceName": "Nvidia Research",
+      "relatedSources": [
+        "Nvidia Research",
+        "Nvidia technical report"
+      ],
+      "lane": "models",
+      "publishedAt": "2026-06-04T16:00:00.000Z",
+      "importance": 296,
+      "sourceConfidence": "medium",
+      "filterCategory": "models",
+      "summaryEngine": "chat-curated"
+    },
+    {
+      "id": "curated-ai-agents-adaptive-computer-worms-2026-06-02",
+      "title": "Researchers demonstrate an AI worm that adapts as it spreads",
+      "summary": "A controlled lab study showed publicly available models can power malware that reasons across different hosts instead of relying on one fixed exploit.",
+      "fullSummary": "Researchers from the University of Toronto, Vector Institute, and University of Cambridge demonstrated a proof-of-concept computer worm powered by publicly accessible AI models. Unlike traditional worms that repeatedly use one exploit, the system reasons about each target, selects or creates an attack approach, and then propagates. In a simulated corporate network, reporting says it compromised a large majority of targets within a week without human involvement. The work was conducted in a secure lab, disclosed to authorities, and published as a preprint rather than a peer-reviewed result. It nevertheless exposes a difficult security shift: patching one vulnerability or relying on centralized model-provider safeguards may not stop adaptive malware built with freely available models. Defenders will need stronger isolation, monitoring, segmentation, and behavior-based detection.",
+      "keyFacts": [
+        "June 2, 2026",
+        "University of Toronto",
+        "Vector Institute",
+        "University of Cambridge",
+        "Publicly accessible AI models",
+        "Adaptive self-propagation",
+        "Controlled lab study"
+      ],
+      "url": "https://www.utoronto.ca/news/u-t-researchers-demonstrate-ai-worm-could-target-any-online-device",
+      "sourceName": "University of Toronto",
+      "relatedSources": [
+        "University of Toronto",
+        "arXiv",
+        "Scientific American"
+      ],
+      "lane": "papers",
+      "publishedAt": "2026-06-02T15:54:39.000Z",
+      "importance": 294,
+      "sourceConfidence": "high",
+      "filterCategory": "papers",
+      "summaryEngine": "chat-curated"
+    },
+    {
+      "id": "curated-mirai-predict-high-impact-research-2026-06-03",
+      "title": "MIRAI tries to predict which research will matter years later",
+      "summary": "A new system trained on the arXiv citation graph predicts future academic impact and generates research directions, turning scientific forecasting into an AI benchmark.",
+      "fullSummary": "Researchers introduced MIRAI, a system designed to predict and generate high-impact academic research. Trained on the arXiv academic graph, it forecasts five-year citation counts and PageRank-style influence for papers, reporting Spearman correlations of 0.6192 for citation prediction and 0.4686 for PageRank prediction on 2021 papers. The project also explores generating research ideas likely to become influential. Predicting citations is not the same as judging scientific truth or social value, and such systems could reinforce existing popularity biases if used carelessly. Still, MIRAI is an interesting attempt to measure whether AI can reason about the future trajectory of science rather than only summarize existing literature. The useful next test is whether its forecasts generalize across fields and identify overlooked work.",
+      "keyFacts": [
+        "June 3, 2026",
+        "arXiv academic graph",
+        "Five-year impact prediction",
+        "0.6192 Spearman correlation for citations",
+        "0.4686 for PageRank",
+        "Research-idea generation"
+      ],
+      "url": "https://arxiv.org/abs/2606.05443",
+      "sourceName": "arXiv",
+      "relatedSources": [
+        "arXiv"
+      ],
+      "lane": "papers",
+      "publishedAt": "2026-06-03T21:06:01.000Z",
+      "importance": 290,
+      "sourceConfidence": "high",
+      "filterCategory": "papers",
+      "summaryEngine": "chat-curated"
+    },
     {
       "id": "curated-nvidia-korea-robotics-physical-ai-pitch-2026-06-05",
       "title": "Nvidia pushes Korea beyond memory chips toward physical AI",
@@ -2996,10 +3388,12 @@
         "Forestay Capital",
         "Fortune Term Sheet"
       ],
-      "url": "https://fortune.com/2026/06/01/mecka-ai-series-a-60-million-robotics-data-training/",
+      "url": "https://www.fonoa.com/resources/blog/fonoa-raises-funding-and-acquires-indirect-tax-edge",
       "sourceName": "Fortune Term Sheet",
       "relatedSources": [
-        "Fortune"
+        "Fonoa",
+        "Business Wire",
+        "Axios"
       ],
       "lane": "startups",
       "publishedAt": "2026-06-01T11:00:00.000Z",
