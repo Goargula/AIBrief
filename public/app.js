@@ -10,12 +10,12 @@ const REDIRECT_START_TIMEOUT_MS = 5000;
 const ANALYTICS_COLLECTION = "analytics";
 const PAGE_HITS_DOC = "pageHits";
 const STORY_READS_DOC = "storyReads";
-const VISUAL_COLORS = {
+const CATEGORY_COLORS = {
+  funding: "#3bd671",
+  models: "#b28cff",
   papers: "#f0b84a",
-  startups: "#3bd671",
-  deals: "#ff6b6b",
-  signal: "#65a7ff",
-  news: "#65a7ff"
+  pushback: "#ff6b6b",
+  general: "#65a7ff"
 };
 
 const state = {
@@ -523,14 +523,14 @@ function formatRelative(dateLike) {
   return date.toLocaleDateString([], { month: "short", day: "numeric" });
 }
 
-function laneLabel(lane) {
+function categoryLabel(category) {
   return {
-    news: "News",
-    papers: "Paper",
-    startups: "Startup",
-    deals: "Deal",
-    signal: "Signal"
-  }[lane] || "News";
+    funding: "Funding",
+    models: "Models",
+    papers: "Papers",
+    pushback: "Pushback",
+    general: "General"
+  }[category] || "General";
 }
 
 function escapeSvgText(value) {
@@ -541,16 +541,16 @@ function escapeSvgText(value) {
     .replace(/"/g, "&quot;");
 }
 
-function generatedVisualUrl(lane) {
-  const safeLane = String(lane || "news").toLowerCase();
-  const color = VISUAL_COLORS[safeLane] || VISUAL_COLORS.news;
-  const svg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1200"><defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0d1117"/><stop offset="1" stop-color="${color}" stop-opacity="0.38"/></linearGradient></defs><rect width="900" height="1200" fill="url(#g)"/><circle cx="760" cy="180" r="260" fill="${color}" opacity="0.24"/><circle cx="110" cy="1040" r="310" fill="${color}" opacity="0.16"/><path d="M-40 790 C210 690 330 780 510 660 S810 450 980 540" fill="none" stroke="${color}" stroke-width="96" opacity="0.08"/><path d="M-70 925 C180 820 360 905 540 755 S790 620 980 690" fill="none" stroke="#f5f7fa" stroke-width="42" opacity="0.05"/><text x="72" y="144" fill="${color}" font-family="Arial, sans-serif" font-size="36" font-weight="700">${escapeSvgText(safeLane.toUpperCase())}</text></svg>`;
+function generatedVisualUrl(category) {
+  const safeCategory = FILTER_CATEGORIES.has(category) ? category : "general";
+  const color = CATEGORY_COLORS[safeCategory];
+  const svg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1200"><defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0d1117"/><stop offset="1" stop-color="${color}" stop-opacity="0.38"/></linearGradient></defs><rect width="900" height="1200" fill="url(#g)"/><circle cx="760" cy="180" r="260" fill="${color}" opacity="0.24"/><circle cx="110" cy="1040" r="310" fill="${color}" opacity="0.16"/><path d="M-40 790 C210 690 330 780 510 660 S810 450 980 540" fill="none" stroke="${color}" stroke-width="96" opacity="0.08"/><path d="M-70 925 C180 820 360 905 540 755 S790 620 980 690" fill="none" stroke="#f5f7fa" stroke-width="42" opacity="0.05"/><text x="72" y="144" fill="${color}" font-family="Arial, sans-serif" font-size="36" font-weight="700">${escapeSvgText(safeCategory.toUpperCase())}</text></svg>`;
   return `data:image/svg+xml;charset=UTF-8,${encodeURIComponent(svg)}`;
 }
 
 function storyVisualUrl(item) {
   if (item.imageUrl && !item.imageUrl.startsWith("/visual.svg")) return item.imageUrl;
-  return generatedVisualUrl(item.lane);
+  return generatedVisualUrl(storyFilterType(item));
 }
 
 function storySearchText(item) {
@@ -702,8 +702,9 @@ function createStoryCard(item, index) {
   card.dataset.id = item.id;
   image.src = storyVisualUrl(item);
   image.alt = "";
-  lane.textContent = laneLabel(item.lane);
-  lane.classList.add(item.lane);
+  const category = storyFilterType(item);
+  lane.textContent = categoryLabel(category);
+  lane.classList.add(category);
   source.textContent = item.sourceName;
   time.textContent = formatRelative(item.publishedAt);
   title.textContent = item.title;
@@ -806,7 +807,7 @@ function renderProfileList(container, ids) {
     const button = document.createElement("button");
     button.type = "button";
     button.className = "profile-story";
-    button.innerHTML = `<span>${laneLabel(item.lane)}</span><strong></strong>`;
+    button.innerHTML = `<span>${categoryLabel(storyFilterType(item))}</span><strong></strong>`;
     button.querySelector("strong").textContent = item.title;
     button.addEventListener("click", () => {
       closeProfileDialog();

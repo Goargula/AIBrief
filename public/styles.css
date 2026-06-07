@@ -271,17 +271,22 @@ a {
   text-transform: uppercase;
 }
 
+.lane.models {
+  background: rgba(178, 140, 255, 0.18);
+  color: #b28cff;
+}
+
 .lane.papers {
   background: rgba(240, 184, 74, 0.18);
   color: var(--amber);
 }
 
-.lane.startups {
+.lane.funding {
   background: rgba(59, 214, 113, 0.18);
   color: var(--green);
 }
 
-.lane.deals {
+.lane.pushback {
   background: rgba(255, 107, 107, 0.18);
   color: var(--red);
 }

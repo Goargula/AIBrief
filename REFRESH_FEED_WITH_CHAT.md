@@ -2,7 +2,7 @@
 
 Use this file whenever the user asks: "refresh the feed" or "refresh the stories" without wanting an API key.
 
-Default to a thorough refresh. A narrow top-up from two or three obvious sources is not enough unless the user explicitly asks for a small update.
+Default to a thorough refresh. The objective is to capture all important developments across the AI world, not to reach a target number of stories. A narrow top-up from two or three obvious sources is not enough unless the user explicitly asks for a small update.
 
 ## Goal
 
@@ -27,53 +27,129 @@ $payload.items | Select-Object title,sourceName,lane,filterCategory,publishedAt,
 
 Before searching, record the current `generatedAt`, current item count, and newest 8-12 `publishedAt` values. Use the latest `generatedAt` as the baseline for "since last refresh," but also allow high-quality missed stories from the last 48-72 hours when they fill an important lane.
 
-3. Do a recency-first sweep before the relevance sweep:
+3. Do a recency-first orientation pass before the category audits:
 
 - Check the latest pages or feeds from at least two broad news sources, such as TechCrunch Latest/AI, VentureBeat AI, Reuters/AP where available, The Verge, MIT Technology Review, Business Wire, PR Newswire, and Google News-style searches.
 - Search for both `today` and `yesterday` using the current date. If the newest curated story is older than 12 hours, explicitly look for a fresher factual story before finalizing.
 - Do not add conference calendars, earnings-call reminders, scraped reposts, Reddit-only claims, or generic investor notices just to make the feed look fresh.
 - If no fresher story passes the quality bar, keep the older top story and note why.
+- Use this pass only to establish the day's major themes and breaking events. Do not let broad-news results substitute for the mandatory category audits below.
 
-4. Use a thorough multi-lane search, not only basic filters:
+4. Run mandatory category audits one by one.
 
-- Run both recency queries and category queries. Search `today`, `yesterday`, the exact dates, and source-specific pages. Do not rely only on generic Google News-style results.
-- Inspect at least 6 distinct source lanes before writing: broad AI/news reporting, primary lab/company announcements, funding/deals trackers, chips/compute/infrastructure, research/arXiv/benchmarks, practical applications, and policy/security/safety.
-- For each source lane, prefer primary sources and reputable reporting, but use press releases for funding/product launches when no stronger source exists; mark confidence `medium` when claims are primarily company-provided.
-- Do not stop after finding a few major headlines. Keep searching until the coverage checklist below is answered with concrete included or intentionally excluded stories.
+Complete every audit below independently. Do not stop because another category already produced many stories. Do not use the total candidate count or total added count as a completion criterion. An audit is complete only after checking its primary sources, specialist sources, and targeted searches, then recording important inclusions and explicit exclusions.
 
-Search these volatile/high-value categories every time:
+For every audit:
 
-- AI news and policy
-- AI startup funding
-- AI acquisitions and partnerships
-- AI research papers and benchmark releases
-- Product/model launches from OpenAI, Google/DeepMind, Anthropic, Microsoft, Nvidia, Meta, AWS
-- Smaller and regional model releases, including Cohere, Mistral, Qwen/Alibaba, Baidu, DeepSeek, Tencent, Huawei, Moonshot, MiniMax, Zhipu, Sarvam, Sakana, Naver, Kakao, Stability, Runway, ElevenLabs, and open-weight releases on Hugging Face
-- AI chips, compute, and infrastructure, including Nvidia, AMD, Intel, Huawei Ascend, Cerebras, Groq, SambaNova, Tenstorrent, CoreWeave, cloud providers, AI storage/networking, export controls, and sovereign-compute moves
-- Practical applications, including healthcare, drug discovery, diagnostics, robotics, agriculture, education, finance, legal, security operations, creative tools, industrial AI, and public-sector deployments
-- Science and biomedical AI sources, including Nature, Science, EurekAlert, News-Medical, university labs, research institutes, and official company/lab announcements
+1. Search `today`, `yesterday`, exact dates, and a 48-72 hour catch-up window.
+2. Check primary sources first, then specialist/reputable reporting, then broad news/search results.
+3. Compare candidates with the existing feed before deciding they are new.
+4. Include every material development that would matter to a technically informed AI reader.
+5. Exclude weak, duplicative, unverifiable, routine, or marginal items even if a category otherwise has no additions.
+6. Record a short audit result: sources checked, stories included, notable candidates excluded, and why.
 
-Suggested source lanes to check:
+### Audit A: Model releases and model capabilities
 
-- Broad/current: TechCrunch AI/latest, VentureBeat AI, Reuters, AP, The Verge, MIT Technology Review, Wired, The Information where available, Axios, Fortune Term Sheet, Crunchbase News.
-- Primary labs and platforms: OpenAI, Anthropic, Google/DeepMind, Microsoft/Azure, Meta, Nvidia, AWS, xAI, Mistral, Cohere, Hugging Face, Stability, Runway, ElevenLabs.
-- Regional and open model ecosystems: Alibaba/Qwen, Baidu, Tencent, Huawei, DeepSeek, Moonshot, MiniMax, Zhipu, Sarvam, Sakana, Naver, Kakao, and local-language model labs.
-- Infrastructure: Nvidia/AMD/Intel announcements, cloud-provider news, data-center power/water stories, AI networking/storage, memory suppliers, export controls, sovereign compute, and local permitting/backlash.
-- Funding/deals: TechCrunch funding, Axios Pro Rata, Fortune Term Sheet, Crunchbase News, Business Wire, PR Newswire, GlobeNewswire, company blogs, and reputable local business press.
-- Research/applications: arXiv recent AI/ML/CL/CV/robotics, Papers with Code-style benchmark releases where available, Nature/Science/EurekAlert, university labs, medical institutions, robotics companies, agriculture/industrial/education/legal/security publications.
+Check separately:
 
-5. Run a coverage checklist before writing. At minimum, ask whether the refresh includes or intentionally excludes:
+- Frontier and major proprietary models from OpenAI, Anthropic, Google/DeepMind, Microsoft, Meta, xAI, Nvidia, AWS, and Apple.
+- Open-weight and regional models from Hugging Face, Mistral, Cohere, Qwen/Alibaba, Baidu, Tencent, Huawei, DeepSeek, Moonshot, MiniMax, Zhipu, Sarvam, Sakana, Naver, Kakao, Stability, Runway, ElevenLabs, and other credible labs.
+- Material model updates: new checkpoints, reasoning modes, context-window changes, multimodal capability, coding models, image/video/audio models, computer-use models, embeddings, rerankers, and inference-efficient variants.
+- Independent benchmark evidence and technical reports that materially change the understanding of a model release.
 
-- Latest model releases and open-weight releases
-- Latest funding rounds and acquisitions
-- Latest AI-chip/compute/geopolitical infrastructure stories
-- Latest notable AI applications outside software, especially healthcare, drug discovery, robotics, agriculture, and education
-- Latest policy/safety/security stories
-- Latest research papers, benchmarks, and evaluation/tooling releases
-- Latest infrastructure constraints beyond chips, including power, water, data-center siting, networking, memory, and cloud capacity
-- Smaller but interesting stories that are not front-page AI news but are useful to a reader, including regional releases, vertical agents, operational workflow AI, and consumer backlash/signals
+Do not classify ordinary product features, integrations, agents, or partnerships as `models` unless a new or materially updated model/API capability is the core story.
 
-If the refresh window is roughly 24 hours and fewer than 15-20 quality candidate stories are found, treat that as a warning sign and run another source-lane pass before finalizing. It is acceptable to add fewer than 15 only when the search was genuinely broad and the rejected candidates were weak, duplicative, non-AI, or low-confidence; say that explicitly.
+### Audit B: Papers, research, benchmarks, datasets, and evaluations
+
+Check separately:
+
+- Recent arXiv lists for `cs.AI`, `cs.LG`, `cs.CL`, `cs.CV`, `cs.RO`, and relevant interdisciplinary categories.
+- Nature, Science, Nature Machine Intelligence, major conference/proceedings sources, university labs, research institutes, and credible research trackers.
+- New benchmarks, datasets, evaluation methods, interpretability work, alignment/safety research, agent research, robotics research, and AI-for-science findings.
+- Technical reports from AI labs when the report itself contains substantive methods, measurements, datasets, or empirical findings.
+
+Use `papers` for a substantive technical or empirical artifact even when its findings concern safety, cyber abuse, misuse, or risk. Use `pushback` when the core event is a warning, policy demand, opposition, lawsuit, ban, or public reaction without a substantial research artifact. When both apply, classify by what the reader is primarily being asked to understand.
+
+### Audit C: Funding, acquisitions, investments, and company formation
+
+Check separately:
+
+- Venture rounds across seed through late stage.
+- Strategic investments, acquisitions, mergers, IPOs, debt raises, public listings, and material financing events.
+- Newly formed or newly revealed AI companies with important founders, technology, or capital.
+- Funding/deals sources such as TechCrunch, Crunchbase News, Axios Pro Rata, Fortune Term Sheet, company announcements, Business Wire, PR Newswire, GlobeNewswire, and reputable local business press.
+
+Use `funding` for all these reader-facing stories regardless of whether the internal source lane is startups, deals, infrastructure, or another domain.
+
+### Audit D: Policy, safety, security, legal, labor, and public pushback
+
+Check separately:
+
+- Laws, regulations, executive actions, standards, export controls, antitrust, procurement rules, and national-security actions.
+- Copyright, privacy, liability, lawsuits, bans, labor disputes, layoffs, protests, public opposition, and consumer backlash.
+- AI misuse, cyber threats, safety warnings, environmental opposition, and credible loss-of-control concerns.
+- Policy and safety work from governments, standards bodies, courts, labs, civil-society groups, and reputable reporting.
+
+Distinguish substantive research artifacts, which can belong in `papers`, from the policy response or warning event, which belongs in `pushback`.
+
+### Audit E: Chips, compute, cloud, networking, memory, energy, and infrastructure
+
+Check separately:
+
+- Nvidia, AMD, Intel, Huawei Ascend, Cerebras, Groq, SambaNova, Tenstorrent, CoreWeave, hyperscalers, and sovereign-compute programs.
+- Accelerators, inference hardware, networking, storage, HBM/memory, data-center construction, cloud capacity, and edge AI.
+- Power, water, grid access, cooling, siting, permitting, supply-chain constraints, and geopolitical/export-control effects.
+
+These stories normally use `general` unless the core event is financing (`funding`), a research artifact (`papers`), or resistance/regulation (`pushback`).
+
+### Audit F: Products, agents, developer tooling, and enterprise adoption
+
+Check separately:
+
+- Consumer and enterprise AI products, agent platforms, coding tools, developer infrastructure, workflow automation, and important integrations.
+- Material deployments and partnerships with evidence of scale, operational change, or strategic significance.
+- Agent protocols, governance, observability, security tooling, and production infrastructure.
+
+Reject routine feature announcements and generic partnerships that do not materially change capability, adoption, or market structure.
+
+### Audit G: Physical AI, robotics, autonomous systems, and industrial AI
+
+Check separately:
+
+- Humanoids, factory robots, autonomous vehicles, drones, warehouse/logistics systems, and embodied-agent research.
+- Industrial digital twins, physical-world agents, manufacturing deployments, agriculture, and construction/mining applications.
+- Important hardware-software reference platforms and real-world deployment evidence.
+
+### Audit H: Healthcare, biology, drug discovery, and AI for science
+
+Check separately:
+
+- Clinical AI, diagnostics, medical imaging, healthcare operations, biomedical models, protein/molecule/material design, and drug discovery.
+- Scientific discovery in physics, chemistry, climate, earth science, and other fields.
+- Nature, Science, medical journals, university labs, research institutes, health systems, and official company/lab announcements.
+
+Do not imply clinical efficacy from a preprint, laboratory result, company claim, or early pilot.
+
+### Audit I: Regional ecosystems and smaller important developments
+
+Run a final geographic and ecosystem gap check:
+
+- China, India, Japan, South Korea, Southeast Asia, Europe, the Middle East, Africa, and Latin America.
+- Smaller labs, open-source communities, local-language models, vertical agents, and technically meaningful developments that broad U.S. news sources may miss.
+
+### Audit J: Broad-news reconciliation
+
+Return to broad/current sources after the specialist audits. Reconcile major breaking stories against the category findings and catch important events that do not fit neatly elsewhere.
+
+5. Produce a coverage ledger before writing.
+
+Create a compact working ledger with one row for every audit above:
+
+| Audit | Sources checked | Included stories | Important exclusions and reason | Status |
+| --- | --- | --- | --- | --- |
+| Models | ... | ... | ... | complete/incomplete |
+
+Do not write the final feed while any audit is incomplete. A category may legitimately produce zero additions, but only after its audit is complete and the ledger explains why. The final number of additions may be small or large; completeness and importance matter, not count.
 
 6. De-duplicate stories before writing the curated JSON. Merge coverage when several sources describe the same underlying story. Do not delete older, still-valid stories just because they are no longer fresh.
 
@@ -97,7 +173,7 @@ If the refresh window is roughly 24 hours and fewer than 15-20 quality candidate
 - Older stories should keep their original `publishedAt` and receive lower `importance` so they naturally move down.
 - Keep stable `id` values for existing stories so the feed behaves like a database.
 - After writing, verify both relevance order and recency order. The app's `Recent` view sorts strictly by `publishedAt`, so check the newest 8-12 stories by timestamp.
-- Also count how many items are newer than the previous `generatedAt`. If the count is surprisingly low for the elapsed time, repeat the thorough multi-lane search before committing.
+- Also count how many items are newer than the previous `generatedAt`. If the count is surprisingly low for the elapsed time, reopen the completed audit ledger and re-check the categories most likely to have been missed before committing.
 
 9. Save the feed to:
 
@@ -114,7 +190,9 @@ $payload.items | Sort-Object {[datetime]$_.publishedAt} -Descending | Select-Obj
 $payload.items | Group-Object filterCategory | Sort-Object Count -Descending | Select-Object Count,Name
 ```
 
-11. Open the app and check the first card plus `Read more` when browser automation is available. If browser automation is blocked, say that and rely on JSON plus HTTP endpoint verification.
+Also review the completed coverage ledger. Category counts are diagnostic, not quotas: an unexpectedly empty or sparse category requires re-checking that audit, but it does not justify adding weak stories merely to balance the numbers.
+
+11. Open the app and check the first card plus `Read more` when browser automation is available. Check representative `funding`, `models`, `papers`, `pushback`, and `general` cards and confirm that the visible tag text and color match `filterCategory`, not the internal `lane`. If browser automation is blocked, say that and rely on JSON plus HTTP endpoint verification.
 
 12. Publish the refreshed feed when the user expects the public app to update:
 
@@ -151,8 +229,11 @@ This command should return no exposed frontend Firebase key or abandoned Firesto
 
 - Do not write generic summaries.
 - Preserve all important numbers.
+- Do not optimize for a fixed number of additions. Optimize for complete category audits and inclusion of every material development found.
+- Do not let abundant broad news, funding, press releases, policy stories, or company announcements crowd out the dedicated models and papers audits.
+- A category with zero additions is acceptable only when its audit is complete and the coverage ledger records the checked sources and exclusion reasoning.
 - If source details are thin, say only what is known and mark confidence `medium` or `low`.
 - Prefer fewer, well-written, merged stories over hundreds of weak headlines.
-- Keep the feed balanced across news, funding, deals, papers, products, policy, and practical adoption.
+- Keep the feed comprehensive across the mandatory audits; do not mistake visual balance or category quotas for completeness.
 - Prefer primary sources and reputable reporting. For biomedical or public-health claims, use official research institutions, journals, WHO/CDC/public-health sources, or reputable science outlets; avoid implying a treatment works until validated in lab, animal, or clinical testing.
 - For semiconductor/geopolitical AI stories, distinguish company claims, analyst estimates, and confirmed production or revenue. Do not present roadmap claims as achieved performance.
