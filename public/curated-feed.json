@@ -1,9 +1,321 @@
 {
-  "generatedAt": "2026-06-06T14:31:18.467Z",
-  "nextRefreshAt": "2026-06-06T17:31:18.467Z",
+  "generatedAt": "2026-06-07T12:44:18.806Z",
+  "nextRefreshAt": "2026-06-07T15:44:18.806Z",
   "summaryEngine": "chat-curated",
   "curated": true,
   "items": [
+    {
+      "id": "curated-huawei-deepseek-v4-pro-ascend-post-training-2026-06-06",
+      "title": "Huawei cluster post-trains DeepSeek V4-Pro without Nvidia hardware",
+      "summary": "A Shenzhen research team says it completed full-parameter post-training of DeepSeek's 1.6T-parameter V4-Pro model on a cluster of at least 1,000 Huawei Ascend 910C accelerators.",
+      "fullSummary": "A Huawei-linked Shenzhen research group says it completed full-parameter post-training of DeepSeek V4-Pro, a 1.6-trillion-parameter model, using a cluster of at least 1,000 domestic Ascend 910C accelerators. Full-parameter post-training updates every model weight after pre-training, making this a more demanding demonstration than inference or a lightweight adapter tune. Tom's Hardware, citing the Shenzhen municipal government and South China Morning Post, says the work involved Huawei, the Shenzhen Loop Area Institute, Harbin Institute of Technology's Shenzhen campus, and the Shenzhen Research Institute of Big Data. The result does not prove that Chinese chips can yet match Nvidia for frontier pre-training, and it remains a reported team claim rather than an independently reproduced benchmark. It does show that export controls are accelerating a credible domestic training stack for large-model refinement.",
+      "keyFacts": [
+        "June 6, 2026",
+        "DeepSeek V4-Pro",
+        "1.6 trillion parameters",
+        "At least 1,000 Ascend 910C chips",
+        "Full-parameter post-training"
+      ],
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/huawei-led-team-claims-it-post-trained-deepseeks-1-6-trillion-parameter-models-on-ascend-910c-chips",
+      "sourceName": "Tom's Hardware",
+      "relatedSources": [
+        "Shenzhen municipal government",
+        "South China Morning Post",
+        "Tom's Hardware"
+      ],
+      "lane": "chips",
+      "publishedAt": "2026-06-06T12:00:00.000Z",
+      "importance": 332,
+      "sourceConfidence": "medium",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated"
+    },
+    {
+      "id": "curated-owkin-sanofi-k-pro-biopharma-agents-2026-06-05",
+      "title": "Sanofi licenses Owkin's AI scientist for a five-year biopharma-agent program",
+      "summary": "Owkin and Sanofi expanded their partnership into a multi-year program to co-develop drug-research agents, backed by a five-year license for Owkin's K Pro AI scientist.",
+      "fullSummary": "Owkin and Sanofi are moving their existing AI partnership from targeted analytics toward agentic drug research. Under a newly announced multi-year collaboration, Owkin will lead development of biopharma agents purpose-built for Sanofi, while Sanofi receives a five-year license for K Pro, Owkin's AI scientist. The agents are intended to autonomously perform complex research and development tasks using Owkin's multimodal patient-data network and biology models. The companies have worked together since 2021 through a EUR90 million strategic partnership focused on oncology target identification, patient subgrouping, and later drug positioning for immunology. This remains a company-announced development program, not evidence that autonomous agents have improved a medicine or clinical outcome. Its significance is the duration and scope: a major drugmaker is committing to agentic AI as research infrastructure rather than a short pilot.",
+      "keyFacts": [
+        "June 5, 2026",
+        "Five-year K Pro license",
+        "Multi-year collaboration",
+        "Sanofi",
+        "Owkin",
+        "Existing EUR90M partnership"
+      ],
+      "url": "https://www.owkin.com/newsfeed/owkin-to-build-ai-agents-as-part-of-a-multi-year-k-pro-collaboration-with-sanofi",
+      "sourceName": "Owkin",
+      "relatedSources": [
+        "Owkin",
+        "Sanofi"
+      ],
+      "lane": "research",
+      "publishedAt": "2026-06-05T14:07:00.000Z",
+      "importance": 331,
+      "sourceConfidence": "medium",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated"
+    },
+    {
+      "id": "curated-us-military-ai-human-control-bills-2026-06-05",
+      "title": "Senators push new human-control rules for military AI",
+      "summary": "Two Senate efforts would require stronger human oversight, manual overrides, accountability, and readiness safeguards as the Pentagon deploys AI in weapons and military operations.",
+      "fullSummary": "U.S. senators introduced or previewed multiple bills aimed at keeping human judgment in military AI systems. Axios reports that Sens. Chris Coons and Jack Reed plan to introduce the Responsible Artificial Intelligence in Defense Act, which would require human oversight and manual override capabilities for AI-enabled autonomous weapon systems, prohibit AI from making nuclear-launch decisions, and restrict domestic mass surveillance. Separately, Sen. Mark Kelly introduced the Ultimate Human Responsibility in Defense Systems Act and the Warfighter AI Readiness and Preparedness Act, focused on preserving human accountability and skills as AI enters warfare. These are proposals, not enacted rules, and their details may change during the legislative process. Together they show Congress trying to turn broad principles about humans-in-the-loop into procurement, testing, and operational requirements for the Pentagon.",
+      "keyFacts": [
+        "June 5, 2026",
+        "Responsible Artificial Intelligence in Defense Act",
+        "Ultimate Human Responsibility in Defense Systems Act",
+        "WARP Act",
+        "Human oversight",
+        "Manual override"
+      ],
+      "url": "https://www.axios.com/2026/06/05/democrats-bill-responsible-defense-ai",
+      "sourceName": "Axios",
+      "relatedSources": [
+        "Axios",
+        "Office of Senator Mark Kelly"
+      ],
+      "lane": "policy",
+      "publishedAt": "2026-06-05T09:00:05.000Z",
+      "importance": 330,
+      "sourceConfidence": "high",
+      "filterCategory": "pushback",
+      "summaryEngine": "chat-curated"
+    },
+    {
+      "id": "curated-aws-bedrock-multi-api-console-2026-06-05",
+      "title": "AWS gives Bedrock one console for GPT, Claude, and open models",
+      "summary": "Amazon Bedrock's new console lets teams compare models and move between OpenAI-compatible, Anthropic-compatible, and open-weight workflows on its next-generation inference engine.",
+      "fullSummary": "AWS launched a redesigned Amazon Bedrock console intended to reduce friction when enterprises evaluate and deploy models from different providers. The refreshed workflow is optimized for the bedrock-mantle endpoint and supports the OpenAI Responses API, OpenAI Chat Completions API, and Anthropic Messages API alongside open-weight models. Teams can compare model capabilities, modalities, context windows, and service quotas in one catalog view, then organize experiments and evaluations into projects with generated code examples. The launch is strategically important because cloud platforms increasingly compete on portability and governance rather than exclusive access to one model family. By making familiar OpenAI and Anthropic interfaces first-class inside Bedrock, AWS is trying to become the neutral operational layer where companies switch models without rebuilding their surrounding tooling.",
+      "keyFacts": [
+        "June 5, 2026",
+        "Amazon Bedrock",
+        "bedrock-mantle endpoint",
+        "OpenAI Responses API",
+        "Anthropic Messages API",
+        "Side-by-side model comparison"
+      ],
+      "url": "https://aws.amazon.com/blogs/aws/try-the-new-console-experience-in-amazon-bedrock-optimized-for-anthropic-and-openai-compatible-apis/",
+      "sourceName": "AWS",
+      "relatedSources": [
+        "AWS"
+      ],
+      "lane": "cloud",
+      "publishedAt": "2026-06-05T08:00:00.000Z",
+      "importance": 329,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated"
+    },
+    {
+      "id": "curated-great-american-ai-act-draft-2026-06-04",
+      "title": "Bipartisan House draft lays out a broad federal AI rulebook",
+      "summary": "The 269-page Great American AI Act discussion draft proposes a federal governance framework spanning standards, whistleblowers, fraud, research, literacy, and some state-law preemption.",
+      "fullSummary": "Reps. Jay Obernolte and Lori Trahan released a bipartisan discussion draft of the Great American AI Act, a 269-page attempt to assemble a durable federal AI governance framework. Axios reports that the proposal would override some state laws, protect AI whistleblowers, increase penalties for AI-enabled fraud, and support AI literacy, education, and research. FedScoop says it would authorize $100 million per fiscal year for the Center for AI Standards and Innovation, codify the National Artificial Intelligence Research Resource, and add oversight for government AI adoption. The draft is a starting point for public and expert feedback rather than a formally introduced or enacted bill. Its importance is structural: Congress is testing whether a single package can combine innovation funding, standards institutions, accountability, and federal preemption without losing bipartisan support.",
+      "keyFacts": [
+        "June 4, 2026",
+        "269-page discussion draft",
+        "Great American AI Act",
+        "$100M per year proposed for CAISI",
+        "AI whistleblower protection",
+        "Some state-law preemption"
+      ],
+      "url": "https://www.axios.com/2026/06/04/house-draft-bill-regulate-ai",
+      "sourceName": "Axios",
+      "relatedSources": [
+        "Axios",
+        "FedScoop",
+        "U.S. House discussion draft"
+      ],
+      "lane": "policy",
+      "publishedAt": "2026-06-04T17:29:48.000Z",
+      "importance": 328,
+      "sourceConfidence": "high",
+      "filterCategory": "pushback",
+      "summaryEngine": "chat-curated"
+    },
+    {
+      "id": "curated-nvidia-kumo-ai-acquisition-2026-06-03",
+      "title": "Nvidia buys predictive-model startup Kumo AI for at least $400M",
+      "summary": "Nvidia reportedly acquired Kumo AI for more than $400 million, adding proprietary models that answer predictive questions over structured enterprise data.",
+      "fullSummary": "Nvidia has acquired Kumo AI, a startup focused on predictive models for structured enterprise data, for at least $400 million, according to The Information and follow-up reporting. Kumo's technology is designed to answer questions over customer, payment, and other business datasets that are often poorly served by general-purpose language models. The deal could strengthen Nvidia AI Foundry and its effort to offer enterprises customized models optimized for Nvidia infrastructure. It also broadens Nvidia's model strategy beyond open-weight generative systems into proprietary predictive software. Nvidia has not publicly disclosed the transaction price, so the $400 million figure should be treated as reported rather than confirmed. The acquisition matters because it shows the chip leader buying specialized model capability to capture more of the enterprise AI stack.",
+      "keyFacts": [
+        "June 3, 2026",
+        "At least $400M reported price",
+        "Kumo AI",
+        "Predictive AI for structured data",
+        "Nvidia AI Foundry"
+      ],
+      "url": "https://www.theinformation.com/articles/nvidia-buys-enterprise-model-maker-kumo-ai-least-400-million",
+      "sourceName": "The Information",
+      "relatedSources": [
+        "The Information",
+        "Fortune",
+        "PYMNTS"
+      ],
+      "lane": "deals",
+      "publishedAt": "2026-06-03T21:47:00.000Z",
+      "importance": 327,
+      "sourceConfidence": "medium",
+      "filterCategory": "funding",
+      "summaryEngine": "chat-curated"
+    },
+    {
+      "id": "curated-nvidia-nemotron-3-5-content-safety-2026-06-04",
+      "title": "Nvidia releases an open multimodal safety model with custom policies",
+      "summary": "Nemotron 3.5 Content Safety combines text-and-image moderation, custom policy enforcement, multilingual coverage, optional reasoning traces, and a released training dataset in a 4B model.",
+      "fullSummary": "Nvidia released Nemotron 3.5 Content Safety, a compact 4-billion-parameter moderation model built on Gemma 3 that evaluates a prompt, optional image, and optional assistant response together. The model supports explicit training coverage for 12 languages, broad zero-shot multilingual transfer, natural-language custom safety policies, and an optional THINK mode that produces an auditable reasoning trace before its verdict. Nvidia also released a multimodal, multilingual safety dataset, an uncommon step in a field where licensing and sensitive-content constraints often keep training artifacts closed. Nvidia reports roughly 85% average accuracy across its evaluated multilingual and multimodal benchmark set and says the default mode retains low latency. Those are vendor-reported results, but the release is technically meaningful because it packages policy customization, multimodal moderation, and inspectable data into an open commercial-use model.",
+      "keyFacts": [
+        "June 4, 2026",
+        "4B parameters",
+        "Gemma 3 base",
+        "12 explicitly trained languages",
+        "Approximately 140-language zero-shot reach",
+        "Open safety dataset"
+      ],
+      "url": "https://huggingface.co/blog/nvidia/nemotron-3-5-content-safety",
+      "sourceName": "Nvidia / Hugging Face",
+      "relatedSources": [
+        "Nvidia",
+        "Hugging Face"
+      ],
+      "lane": "models",
+      "publishedAt": "2026-06-04T12:00:00.000Z",
+      "importance": 326,
+      "sourceConfidence": "high",
+      "filterCategory": "models",
+      "summaryEngine": "chat-curated"
+    },
+    {
+      "id": "curated-servicenow-eva-bench-data-2-0-2026-06-04",
+      "title": "ServiceNow expands EVA-Bench for real enterprise voice-agent workflows",
+      "summary": "EVA-Bench Data 2.0 grows to 213 scenarios across airline service, enterprise IT, and healthcare HR, testing agents against 121 tools and 35-plus workflows.",
+      "fullSummary": "ServiceNow AI released EVA-Bench Data 2.0, expanding its open evaluation set for enterprise voice agents from one domain to three. The benchmark now covers airline customer service, enterprise IT service management, and healthcare HR service delivery, with 213 scenarios across 121 tools and more than 35 workflows. ServiceNow says every scenario was checked for solvability against OpenAI GPT-5.4, Google Gemini 3.1 Pro, and Anthropic Claude Opus 4.6. The release is useful because voice-agent failures are highly domain-specific: accurately handling a booking confirmation code does not prove an agent can navigate an HR policy or an IT incident. The dataset does not by itself establish which model is best, but it gives teams a larger open test bed for evaluating whether agents can complete realistic multi-tool work rather than merely hold a fluent conversation.",
+      "keyFacts": [
+        "June 4, 2026",
+        "213 scenarios",
+        "121 tools",
+        "3 enterprise domains",
+        "35+ workflows",
+        "Open-source datasets"
+      ],
+      "url": "https://huggingface.co/blog/ServiceNow-AI/eva-bench-data",
+      "sourceName": "ServiceNow AI / Hugging Face",
+      "relatedSources": [
+        "ServiceNow AI",
+        "Hugging Face"
+      ],
+      "lane": "papers",
+      "publishedAt": "2026-06-04T11:00:00.000Z",
+      "importance": 325,
+      "sourceConfidence": "high",
+      "filterCategory": "papers",
+      "summaryEngine": "chat-curated"
+    },
+    {
+      "id": "curated-jess-asato-xai-grok-deepfake-lawsuit-2026-06-04",
+      "title": "UK lawmaker tests whether xAI can be liable for Grok deepfakes",
+      "summary": "Labour MP Jess Asato is suing xAI after Grok was used to create fake sexualized images of her, seeking a precedent that AI companies can be held responsible for system design.",
+      "fullSummary": "British Labour lawmaker Jess Asato filed a High Court claim against xAI after someone used Grok to create fake bikini images of her without consent. AP reports that the suit cites misuse of private information and the U.K. Data Protection Act, seeks damages, and aims to establish that companies can be liable for how their AI systems are designed. Asato says the images were generated after she criticized the spread of deepfake pornography. The case follows earlier lawsuits and regulatory scrutiny over Grok-generated sexualized imagery, but it raises a distinct legal question in the U.K.: whether an AI provider bears responsibility when a user prompts its system to transform a real person's image. The claim has not been adjudicated, and xAI's liability remains contested.",
+      "keyFacts": [
+        "June 4, 2026",
+        "Jess Asato",
+        "xAI",
+        "Grok",
+        "U.K. High Court",
+        "Data Protection Act claim"
+      ],
+      "url": "https://apnews.com/article/03502abf24a30b4cd54f33035d44de70",
+      "sourceName": "Associated Press",
+      "relatedSources": [
+        "Associated Press",
+        "The Guardian"
+      ],
+      "lane": "policy",
+      "publishedAt": "2026-06-04T09:35:46.000Z",
+      "importance": 324,
+      "sourceConfidence": "high",
+      "filterCategory": "pushback",
+      "summaryEngine": "chat-curated"
+    },
+    {
+      "id": "curated-truefan-ai-series-a-2026-06-04",
+      "title": "India's TrueFan AI raises $10M to scale enterprise video generation",
+      "summary": "Gurugram-based TrueFan AI raised a $10 million Series A after growing from 5 million to more than 20 million enterprise-generated videos annually.",
+      "fullSummary": "TrueFan AI, a Gurugram-based enterprise video-generation platform, raised a $10 million Series A led by Baring Private Equity Partners India and Z3Partners. Moneycontrol reports that the company scaled from 5 million to more than 20 million videos generated annually within a year and is targeting 50 million this year. TrueFan focuses on personalized and localized branded videos rather than consumer entertainment, serving enterprise customers across sectors such as finance, commerce, and healthcare. The round is modest beside the giant frontier-lab financings dominating the market, but it is a useful regional signal: Indian AI companies are building applied generation businesses around multilingual distribution and high-volume enterprise workflows. The company says the capital will support international expansion and real-time AI video agents.",
+      "keyFacts": [
+        "June 4, 2026",
+        "$10M Series A",
+        "Baring PE India",
+        "Z3Partners",
+        "20M+ videos annually",
+        "50M annual target"
+      ],
+      "url": "https://www.moneycontrol.com/news/business/funding/enterprise-ai-video-platform-truefan-ai-raises-10-million-funding-led-by-baring-pe-india-z3partners-13940658.html",
+      "sourceName": "Moneycontrol",
+      "relatedSources": [
+        "Moneycontrol",
+        "TrueFan AI"
+      ],
+      "lane": "funding",
+      "publishedAt": "2026-06-04T02:04:00.000Z",
+      "importance": 323,
+      "sourceConfidence": "high",
+      "filterCategory": "funding",
+      "summaryEngine": "chat-curated"
+    },
+    {
+      "id": "curated-superarc-intelligence-benchmark-nature-2026-06-03",
+      "title": "SuperARC benchmark says frontier models remain far from its AGI target",
+      "summary": "A Nature Communications paper introduces an open-ended intelligence test based on compressed modeling and recursive prediction, finding frontier models clustered well below its proposed AGI and ASI targets.",
+      "fullSummary": "Researchers published SuperARC in Nature Communications as an open-ended benchmark grounded in algorithmic probability, compressed modeling, recursive prediction, and problem complexity. The authors designed it to resist saturation and contamination as conventional benchmarks become easier for frontier models to optimize against. Their evaluation finds leading systems relatively close to one another but far from the benchmark's proposed artificial general intelligence and artificial superintelligence targets. The paper explicitly cautions that a model could excel at SuperARC while lacking social intelligence, embodied reasoning, common sense, or goal-directed behavior, so the test should not be read as a complete measure of intelligence. Its value is methodological: it offers a new way to probe abstraction and prediction while being unusually clear about what benchmark performance cannot prove.",
+      "keyFacts": [
+        "Published June 3, 2026",
+        "Nature Communications",
+        "Open-ended benchmark",
+        "Compressed modeling",
+        "Recursive prediction",
+        "Frontier models remain far from proposed AGI/ASI targets"
+      ],
+      "url": "https://www.nature.com/articles/s41467-026-73289-5",
+      "sourceName": "Nature Communications",
+      "relatedSources": [
+        "Nature Communications",
+        "SuperARC authors"
+      ],
+      "lane": "papers",
+      "publishedAt": "2026-06-03T00:00:00.000Z",
+      "importance": 322,
+      "sourceConfidence": "high",
+      "filterCategory": "papers",
+      "summaryEngine": "chat-curated"
+    },
+    {
+      "id": "curated-clawhub-agent-skill-security-dataset-2026-06-01",
+      "title": "OpenClaw releases a security dataset for agent skills",
+      "summary": "ClawHub Security Signals packages multi-scanner results across a large public agent-skill catalog, giving researchers a dataset for studying risky skills and disagreements between security tools.",
+      "fullSummary": "OpenClaw released ClawHub Security Signals, a dataset and accompanying paper built from multiple security scanners applied to a snapshot of the public ClawHub agent-skill catalog. The project is designed to help researchers study how VirusTotal, static analysis, and semantic-risk tools disagree when evaluating skills that can extend an agent's capabilities. The authors stress that its labels are silver-standard automated signals rather than verified judgments: a suspicious result means a skill deserves review, not that it is malicious. The release also redacts secrets and excludes private artifacts, while warning that automated sanitization is imperfect. This is a useful security artifact because agent skills combine instructions, code, permissions, and external services in ways that traditional package scanning does not fully capture.",
+      "keyFacts": [
+        "June 1, 2026 snapshot",
+        "Multi-scanner dataset",
+        "Agent-skill security",
+        "Silver-standard labels",
+        "VirusTotal and static-analysis signals",
+        "Open dataset"
+      ],
+      "url": "https://huggingface.co/blog/OpenClaw/clawhub-security-signals",
+      "sourceName": "OpenClaw / Hugging Face",
+      "relatedSources": [
+        "OpenClaw",
+        "Hugging Face"
+      ],
+      "lane": "papers",
+      "publishedAt": "2026-06-01T12:00:00.000Z",
+      "importance": 321,
+      "sourceConfidence": "high",
+      "filterCategory": "papers",
+      "summaryEngine": "chat-curated"
+    },
     {
       "id": "curated-ai-investment-inflation-spillovers-2026-06-06",
       "title": "AI buildout starts showing up in prices far beyond chatbots",
