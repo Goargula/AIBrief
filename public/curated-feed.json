@@ -78,7 +78,7 @@
       "publishedAt": "2026-06-06T00:20:00.000Z",
       "importance": 316,
       "sourceConfidence": "high",
-      "filterCategory": "pushback",
+      "filterCategory": "general",
       "summaryEngine": "chat-curated"
     },
     {
@@ -156,7 +156,7 @@
       "publishedAt": "2026-06-05T20:00:00.000Z",
       "importance": 310,
       "sourceConfidence": "high",
-      "filterCategory": "pushback",
+      "filterCategory": "general",
       "summaryEngine": "chat-curated"
     },
     {
@@ -181,7 +181,7 @@
       "publishedAt": "2026-06-05T20:48:00.000Z",
       "importance": 308,
       "sourceConfidence": "high",
-      "filterCategory": "pushback",
+      "filterCategory": "general",
       "summaryEngine": "chat-curated"
     },
     {
@@ -501,7 +501,7 @@
       "importance": 282,
       "sourceConfidence": "high",
       "summaryEngine": "chat-curated",
-      "filterCategory": "pushback"
+      "filterCategory": "general"
     },
     {
       "id": "curated-anthropic-ai-enabled-cyber-threats-mitre-attack-2026-06-03",
@@ -530,7 +530,7 @@
       "importance": 281,
       "sourceConfidence": "high",
       "summaryEngine": "chat-curated",
-      "filterCategory": "pushback"
+      "filterCategory": "papers"
     },
     {
       "id": "curated-anthropic-claude-partner-network-services-hub-2026-06-03",
@@ -934,7 +934,7 @@
       "importance": 257,
       "sourceConfidence": "medium",
       "summaryEngine": "chat-curated",
-      "filterCategory": "pushback"
+      "filterCategory": "general"
     },
     {
       "id": "curated-canada-ai-for-all-national-strategy-2026-06-04",
@@ -972,7 +972,7 @@
       "importance": 256,
       "sourceConfidence": "high",
       "summaryEngine": "chat-curated",
-      "filterCategory": "pushback"
+      "filterCategory": "general"
     },
     {
       "id": "curated-hello-robot-stretch-real-home-assistance-2026-06-04",
@@ -1227,7 +1227,7 @@
       "importance": 247,
       "sourceConfidence": "high",
       "summaryEngine": "chat-curated",
-      "filterCategory": "pushback"
+      "filterCategory": "general"
     },
     {
       "id": "curated-infrastructure-ai-gaos-agentic-security-physical-systems-2026-06-04",
@@ -6545,7 +6545,7 @@
       "importance": 124,
       "sourceConfidence": "high",
       "summaryEngine": "chat-curated",
-      "filterCategory": "pushback"
+      "filterCategory": "general"
     },
     {
       "id": "curated-aws-sagemaker-openai-compatible-api-2026-05-26",

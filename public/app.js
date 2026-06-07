@@ -1,7 +1,8 @@
+import { FILTER_CATEGORIES, storyFilterType } from "./category.js";
+
 const STORAGE_KEY = "ai-brief-state-v2";
 const INITIAL_RENDER_COUNT = 10;
 const RENDER_BATCH = 8;
-const FILTER_CATEGORIES = new Set(["funding", "models", "papers", "pushback", "general"]);
 const SAVE_SYNC_NOTICE_KEY = "ai-brief-save-sync-notice-v1";
 const FIREBASE_SDK_VERSION = "10.12.4";
 const SIGN_IN_BUTTON_TEXT = "Sign in with Google";
@@ -551,59 +552,6 @@ function generatedVisualUrl(category) {
 function storyVisualUrl(item) {
   if (item.imageUrl && !item.imageUrl.startsWith("/visual.svg")) return item.imageUrl;
   return generatedVisualUrl(storyFilterType(item));
-}
-
-function storySearchText(item) {
-  return [
-    item.title,
-    item.summary,
-    item.fullSummary,
-    item.sourceName,
-    item.lane,
-    ...(Array.isArray(item.keyFacts) ? item.keyFacts : []),
-    ...(Array.isArray(item.relatedSources) ? item.relatedSources : [])
-  ]
-    .filter(Boolean)
-    .join(" ")
-    .toLowerCase();
-}
-
-function storyFilterType(item) {
-  if (FILTER_CATEGORIES.has(item.filterCategory)) return item.filterCategory;
-
-  const text = storySearchText(item);
-  const headlineText = [
-    item.title,
-    ...(Array.isArray(item.keyFacts) ? item.keyFacts : [])
-  ]
-    .filter(Boolean)
-    .join(" ")
-    .toLowerCase();
-  const titleText = String(item.title || "").toLowerCase();
-
-  if (
-    /\b(raised|raises|funding|funded|series [a-z]|seed round|venture|valuation|invested|investment|acquire|acquires|acquired|acquisition|merger|m&a|ipo|initial public offering|public listing|going public)\b/.test(text)
-  ) {
-    return "funding";
-  }
-
-  if (/\b(pushback|backlash|lawsuit|sued|sues|ban|blocked|protest|opposition|criticism|criticized|copyright|privacy|security risk|moratorium|strike|layoff|job loss|environmental|unauthorized|regulation|regulator)\b/.test(headlineText) || /\b(pushback|backlash|lawsuit|sued|sues|protest|opposition|moratorium|strike|unauthorized)\b/.test(text)) {
-    return "pushback";
-  }
-
-  if (
-    !/\bmodel context protocol\b/.test(text) &&
-    (/\b(model release|released|launch(?:ed|es)?|ship(?:ped|s)?|unveil(?:ed|s)?|debut(?:ed|s)?|introduc(?:ed|es)|preview|open-weight|checkpoint|access)\b/.test(titleText) || /\b(open-weight|checkpoint|model release)\b/.test(text)) &&
-    /\b(model|gpt|claude|gemini|llama|mistral|deepseek|qwen|grok|holo|mai-|weathermesh|diffusion|embedding|reasoning|audio|video|image)\b/.test(headlineText)
-  ) {
-    return "models";
-  }
-
-  if (item.lane === "papers" || /\b(arxiv|chatpaper|preprint|research paper|paper|benchmark|dataset|evaluation method|eval|leaderboard)\b/.test(text)) {
-    return "papers";
-  }
-
-  return "general";
 }
 
 function filteredItems() {

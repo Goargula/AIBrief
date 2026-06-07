@@ -92,6 +92,8 @@ Check separately:
 
 Distinguish substantive research artifacts, which can belong in `papers`, from the policy response or warning event, which belongs in `pushback`.
 
+Do not classify a story as `pushback` merely because a government, lawmaker, regulator, military, or national-security agency is involved. Supportive or expansionary policy belongs in `general`, including government AI adoption, investment, procurement, infrastructure support, national strategies, research programs, and exploratory ownership proposals. Use `pushback` only when the core event restricts, opposes, challenges, warns about, or responds to harms from AI.
+
 ### Audit E: Chips, compute, cloud, networking, memory, energy, and infrastructure
 
 Check separately:
@@ -162,8 +164,8 @@ Do not write the final feed while any audit is incomplete. A category may legiti
   - `funding`: startup funding, strategic investments, acquisitions, mergers, IPOs, public listings, and liquidity/financing market stories.
   - `models`: new or materially updated AI model releases, previews, checkpoints, open-weight releases, benchmarked model updates, and model/API launches.
   - `papers`: research papers, arXiv/preprint items, benchmarks, datasets, evaluation methods, and academic/research-lab findings.
-  - `pushback`: AI backlash, lawsuits, bans, labor disputes, copyright/privacy complaints, regulation, public opposition, safety/security warnings, environmental concerns, and other resistance or risk stories.
-  - `general`: everything else, including ordinary product launches, infrastructure, partnerships, deployments, applications, and broad AI news that is not a better fit above.
+  - `pushback`: resistance or risk-focused events such as AI backlash, lawsuits, bans, restrictive regulation, labor disputes, copyright/privacy complaints, public opposition, safety/security warnings, environmental harms, and other actions whose core purpose is limiting, challenging, or warning about AI.
+  - `general`: everything else, including ordinary product launches, infrastructure, partnerships, deployments, applications, broad AI news, supportive policy, government AI adoption, national AI strategies, public investment proposals, research programs, and procurement actions that are not a better fit above.
 - `sourceConfidence`: `high`, `medium`, or `low`.
 - `summaryEngine`: `chat-curated`.
 

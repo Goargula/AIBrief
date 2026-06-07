@@ -3,6 +3,7 @@ import { readFile } from "node:fs/promises";
 import { readFileSync } from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
+import { normalizeFilterCategory } from "./public/category.js";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const publicDir = path.join(__dirname, "public");
@@ -19,8 +20,6 @@ const OPENAI_SUMMARY_WEB_SEARCH = process.env.OPENAI_SUMMARY_WEB_SEARCH !== "0";
 const OPENAI_SUMMARY_MAX_ITEMS = Number(process.env.OPENAI_SUMMARY_MAX_ITEMS || 250);
 const OPENAI_SUMMARY_CONCURRENCY = Math.max(1, Number(process.env.OPENAI_SUMMARY_CONCURRENCY || 4));
 const OPENAI_SUMMARY_TIMEOUT_MS = Number(process.env.OPENAI_SUMMARY_TIMEOUT_MS || 45000);
-const FILTER_CATEGORIES = new Set(["funding", "models", "papers", "pushback", "general"]);
-
 const sources = [
   {
     id: "google-news-ai",
@@ -130,61 +129,6 @@ function loadEnvFile(filePath) {
   } catch {
     // A .env file is optional for local use.
   }
-}
-
-function storySearchText(item = {}) {
-  return [
-    item.title,
-    item.summary,
-    item.fullSummary,
-    item.sourceName,
-    item.lane,
-    ...(Array.isArray(item.keyFacts) ? item.keyFacts : []),
-    ...(Array.isArray(item.relatedSources) ? item.relatedSources : [])
-  ]
-    .filter(Boolean)
-    .join(" ")
-    .toLowerCase();
-}
-
-function inferFilterCategory(item = {}) {
-  const text = storySearchText(item);
-  const headlineText = [
-    item.title,
-    ...(Array.isArray(item.keyFacts) ? item.keyFacts : [])
-  ]
-    .filter(Boolean)
-    .join(" ")
-    .toLowerCase();
-  const titleText = String(item.title || "").toLowerCase();
-
-  if (
-    /\b(raised|raises|funding|funded|series [a-z]|seed round|venture|valuation|invested|investment|acquire|acquires|acquired|acquisition|merger|m&a|ipo|initial public offering|public listing|going public)\b/.test(text)
-  ) {
-    return "funding";
-  }
-
-  if (/\b(pushback|backlash|lawsuit|sued|sues|ban|blocked|protest|opposition|criticism|criticized|copyright|privacy|security risk|moratorium|strike|layoff|job loss|environmental|unauthorized|regulation|regulator)\b/.test(headlineText) || /\b(pushback|backlash|lawsuit|sued|sues|protest|opposition|moratorium|strike|unauthorized)\b/.test(text)) {
-    return "pushback";
-  }
-
-  if (
-    !/\bmodel context protocol\b/.test(text) &&
-    (/\b(model release|released|launch(?:ed|es)?|ship(?:ped|s)?|unveil(?:ed|s)?|debut(?:ed|s)?|introduc(?:ed|es)|preview|open-weight|checkpoint|access)\b/.test(titleText) || /\b(open-weight|checkpoint|model release)\b/.test(text)) &&
-    /\b(model|gpt|claude|gemini|llama|mistral|deepseek|qwen|grok|holo|mai-|weathermesh|diffusion|embedding|reasoning|audio|video|image)\b/.test(headlineText)
-  ) {
-    return "models";
-  }
-
-  if (item.lane === "papers" || /\b(arxiv|chatpaper|preprint|research paper|paper|benchmark|dataset|evaluation method|eval|leaderboard)\b/.test(text)) {
-    return "papers";
-  }
-
-  return "general";
-}
-
-function normalizeFilterCategory(value, item) {
-  return FILTER_CATEGORIES.has(value) ? value : inferFilterCategory(item);
 }
 
 async function loadCuratedFeed() {
