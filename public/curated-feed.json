@@ -1,9 +1,344 @@
 {
-  "generatedAt": "2026-06-07T12:44:18.806Z",
-  "nextRefreshAt": "2026-06-07T15:44:18.806Z",
+  "generatedAt": "2026-06-08T07:07:01.943Z",
+  "nextRefreshAt": "2026-06-08T10:07:01.943Z",
   "summaryEngine": "chat-curated",
   "curated": true,
   "items": [
+    {
+      "id": "curated-github-copilot-tokenpocalypse-ai-cost-reset-2026-06-07",
+      "title": "Copilot token billing turns AI cost control into a boardroom problem",
+      "summary": "GitHub Copilot pricing changes, Uber spending caps, and Anthropic IPO questions are converging into a sharper debate over whether subsidized AI usage can survive enterprise-scale adoption.",
+      "fullSummary": "The AI industry is getting a visible reminder that flat-rate assistants were often priced like consumer subscriptions while running like cloud infrastructure. TechCrunch highlighted Microsoft's GitHub Copilot pricing changes, which shift more advanced usage toward token-linked AI credits, alongside examples such as Uber capping employee AI-tool spending after burning through its 2026 budget unusually fast. The immediate story is not one company raising prices; it is the broader reset from growth-at-any-cost AI adoption to metered, governed, and ROI-justified usage. That matters because the same cost pressure will show up in IPO filings, procurement renewals, agent rollouts, and model-routing decisions. Enterprises now have to decide which tasks deserve frontier-model spend, which can move to cheaper models, and where uncontrolled agent loops create financial risk.",
+      "keyFacts": [
+        "June 7, 2026",
+        "GitHub Copilot pricing changes",
+        "GitHub AI Credits",
+        "Uber AI spending caps",
+        "Anthropic IPO cost-risk discussion",
+        "Token-linked usage economics"
+      ],
+      "url": "https://techcrunch.com/2026/06/07/is-this-the-dawn-of-the-tokenpocalypse/",
+      "sourceName": "TechCrunch",
+      "relatedSources": [
+        "TechCrunch",
+        "GitHub Docs",
+        "Uber reporting"
+      ],
+      "lane": "signal",
+      "publishedAt": "2026-06-07T20:26:00.000Z",
+      "importance": 345,
+      "sourceConfidence": "high",
+      "filterCategory": "pushback",
+      "summaryEngine": "chat-curated"
+    },
+    {
+      "id": "curated-notion-anthropic-temporary-model-disruption-2026-06-07",
+      "title": "Notion restores Anthropic access after a Claude model disruption",
+      "summary": "Notion briefly disabled Anthropic models in Notion AI after elevated failures on Opus 4.7 and 4.8, then restored access after the issue was described as temporary infrastructure trouble.",
+      "fullSummary": "Notion temporarily disabled Anthropic model access in Notion AI after reporting degraded performance and a higher failure rate for users selecting Claude Opus 4.7 and 4.8. The outage became a small but useful signal for enterprise AI buyers because it was quickly interpreted by users as a possible model-quality story before both Notion and Anthropic framed it as a short-lived service disruption. Notion product lead Max Schoening said access was restored, while Anthropic said an infrastructure issue caused elevated errors across multiple Claude models for a limited period. The incident is not evidence of a durable model regression. It is a reminder that SaaS products built on external frontier models inherit provider reliability, failover, and messaging problems that customers will increasingly scrutinize as agents move into daily work.",
+      "keyFacts": [
+        "June 7, 2026",
+        "Notion AI",
+        "Anthropic Claude Opus 4.7",
+        "Claude Opus 4.8",
+        "Temporary service disruption",
+        "Access restored"
+      ],
+      "url": "https://techcrunch.com/2026/06/07/notion-restores-access-to-anthropic-after-service-disruption/",
+      "sourceName": "TechCrunch",
+      "relatedSources": [
+        "TechCrunch",
+        "Notion",
+        "Anthropic"
+      ],
+      "lane": "products",
+      "publishedAt": "2026-06-07T17:56:00.000Z",
+      "importance": 344,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated"
+    },
+    {
+      "id": "curated-openai-chatgpt-super-app-rebuild-2026-06-07",
+      "title": "OpenAI keeps steering ChatGPT toward a work super app",
+      "summary": "OpenAI is reportedly preparing a revamped ChatGPT that combines personal-agent ambitions, coding tools, and business monetization instead of relying on scattered standalone products.",
+      "fullSummary": "OpenAI is still working toward a broader ChatGPT experience that functions less like a single chatbot and more like a personal and workplace operating layer. TechCrunch, citing Financial Times reporting, says the coming revamp would emphasize coding tools, AI agents, and routes from free usage into products businesses might pay for, including Codex. The report fits with earlier signs that OpenAI has been moving away from a bundle of separate product experiments toward a more unified ChatGPT surface. This is strategically important because Anthropic has been winning enterprise attention with Claude and Claude Code, while OpenAI has to prove that ChatGPT can convert enormous consumer reach into durable business revenue. The product is not launched yet, so the feed should treat it as a reported roadmap rather than a shipped capability.",
+      "keyFacts": [
+        "June 7, 2026",
+        "Reported ChatGPT revamp",
+        "Personal agent direction",
+        "Codex monetization path",
+        "Financial Times report",
+        "OpenAI business-customer push"
+      ],
+      "url": "https://techcrunch.com/2026/06/07/openai-is-still-working-on-that-super-app/",
+      "sourceName": "TechCrunch",
+      "relatedSources": [
+        "TechCrunch",
+        "Financial Times",
+        "Wall Street Journal"
+      ],
+      "lane": "products",
+      "publishedAt": "2026-06-07T16:23:00.000Z",
+      "importance": 343,
+      "sourceConfidence": "medium",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated"
+    },
+    {
+      "id": "curated-openai-lockdown-mode-prompt-injection-defense-2026-06-06",
+      "title": "OpenAI adds Lockdown Mode for prompt-injection data-exfiltration risk",
+      "summary": "OpenAI is rolling out Lockdown Mode, an advanced security setting that limits web, agent, research, image, connector, and file-download behaviors to reduce prompt-injection data leaks.",
+      "fullSummary": "OpenAI is rolling out Lockdown Mode as an optional security setting for people and organizations handling sensitive data. The feature limits outbound network-touching capabilities that can turn prompt injection into data exfiltration: live browsing is restricted to cached content, deep research and agent mode are disabled, web image retrieval is blocked, Canvas networking is constrained, and file downloads are limited. OpenAI says the mode does not make prompt injection impossible because malicious instructions can still appear in cached pages or uploaded files, but it reduces the final step where sensitive data leaves the product. The update matters because agentic products increasingly combine model reasoning with tools, connectors, and live web access. Rather than claiming solved security, OpenAI is exposing a stricter operating posture for high-risk workflows.",
+      "keyFacts": [
+        "June 6, 2026",
+        "Lockdown Mode",
+        "Prompt injection",
+        "Data exfiltration risk",
+        "Agent mode disabled",
+        "Deep research disabled",
+        "Self-serve ChatGPT Business rollout"
+      ],
+      "url": "https://help.openai.com/en/articles/20001061-lockdown-mode",
+      "sourceName": "OpenAI Help Center",
+      "relatedSources": [
+        "OpenAI Help Center",
+        "TechCrunch"
+      ],
+      "lane": "security",
+      "publishedAt": "2026-06-06T20:32:00.000Z",
+      "importance": 342,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated"
+    },
+    {
+      "id": "curated-white-house-ai-advisor-sriram-krishnan-exit-2026-06-06",
+      "title": "Sriram Krishnan exits the White House AI advisor role",
+      "summary": "Sriram Krishnan said he will leave his senior AI policy role at the end of June after helping shape an administration agenda focused on AI action plans, data centers, and lighter oversight.",
+      "fullSummary": "Sriram Krishnan, the former Microsoft, Twitter, Facebook, Snap, and Andreessen Horowitz executive who became a senior White House AI policy advisor, said he will leave the Trump administration at the end of June. The personnel move is not as large as a new law or executive order, but it matters because Krishnan had become one of the tech-industry figures associated with the administration's AI agenda. TechCrunch notes that he highlighted the AI Action Plan and the administration's emphasis on data-center construction over regulation and safety. His exit lands after several AI executive orders and after industry pushback helped narrow a frontier-model oversight order. The policy direction itself remains intact; the story is about continuity risk and who now carries the administration's AI-industry bridge role.",
+      "keyFacts": [
+        "June 6, 2026",
+        "Sriram Krishnan",
+        "End-of-June departure",
+        "White House AI advisor",
+        "AI Action Plan",
+        "Data-center-focused policy"
+      ],
+      "url": "https://techcrunch.com/2026/06/06/sriram-krishnan-is-leaving-his-role-as-white-house-ai-advisor/",
+      "sourceName": "TechCrunch",
+      "relatedSources": [
+        "TechCrunch",
+        "Sriram Krishnan",
+        "White House"
+      ],
+      "lane": "policy",
+      "publishedAt": "2026-06-06T17:42:00.000Z",
+      "importance": 341,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated"
+    },
+    {
+      "id": "curated-google-spacex-compute-contract-920m-month-2026-06-05",
+      "title": "Google signs a $920M-per-month SpaceX compute deal",
+      "summary": "A SpaceX filing says Google will pay $920M per month from October 2026 through June 2029 for access to about 110,000 Nvidia GPUs plus CPUs, memory, and related components.",
+      "fullSummary": "Google has lined up a major compute-supply agreement with SpaceX, according to a SpaceX regulatory filing reported by TechCrunch. The deal calls for Google to pay $920 million per month from October 2026 through June 2029 for access to approximately 110,000 Nvidia GPUs, CPUs, memory, and related components. It follows a larger Anthropic-SpaceX compute arrangement tied to Colossus capacity, but Google is a different kind of buyer: it already owns one of the world's largest AI-compute estates. That makes the agreement a strong signal that even the best-capitalized AI labs and hyperscalers are buying external capacity to manage model demand, redundancy, and strategic timing. It also turns SpaceX and xAI infrastructure into a market-wide compute supplier rather than only an internal Musk-company resource.",
+      "keyFacts": [
+        "June 5, 2026",
+        "Google",
+        "SpaceX",
+        "$920M per month",
+        "October 2026 through June 2029",
+        "About 110,000 Nvidia GPUs",
+        "CPUs and memory included"
+      ],
+      "url": "https://techcrunch.com/2026/06/05/google-will-pay-spacex-920m-per-month-for-compute/",
+      "sourceName": "TechCrunch",
+      "relatedSources": [
+        "TechCrunch",
+        "SpaceX SEC filing",
+        "Epoch AI"
+      ],
+      "lane": "infrastructure",
+      "publishedAt": "2026-06-05T18:57:00.000Z",
+      "importance": 340,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated"
+    },
+    {
+      "id": "curated-airtrunk-india-30b-ai-data-centers-5gw-2026-06-05",
+      "title": "AirTrunk puts $30B behind 5GW of AI data centers in India",
+      "summary": "Blackstone-backed AirTrunk plans to invest $30B by 2030 to develop 5GW of data-center capacity in India, reinforcing the country's push to become an AI infrastructure hub.",
+      "fullSummary": "AirTrunk announced one of the largest AI-infrastructure commitments aimed at India: $30 billion of investment by 2030 to develop 5 gigawatts of data-center capacity. The Blackstone-backed Australian operator entered India earlier in 2026 through its Lumina CloudInfra acquisition, and India's government publicly welcomed the proposed investment as part of a broader digital-infrastructure push. TechCrunch notes that India's data-center capacity is projected by Bernstein to rise from roughly 1.5GW today to as much as 8GW by 2030. The story matters beyond real estate because AI training, inference, and cloud workloads are increasingly constrained by where power, tax treatment, fiber, and land can be assembled quickly. For India, the bet is also geopolitical: turning local demand and policy incentives into regional AI-compute capacity.",
+      "keyFacts": [
+        "June 5, 2026",
+        "AirTrunk",
+        "$30B investment plan",
+        "5GW data-center capacity",
+        "India by 2030",
+        "Blackstone-backed",
+        "Lumina CloudInfra acquisition"
+      ],
+      "url": "https://techcrunch.com/2026/06/05/airtrunk-commits-30b-to-build-5gw-of-ai-data-centers-in-india/",
+      "sourceName": "TechCrunch",
+      "relatedSources": [
+        "TechCrunch",
+        "AirTrunk",
+        "Press Information Bureau India",
+        "Economic Times"
+      ],
+      "lane": "infrastructure",
+      "publishedAt": "2026-06-05T13:03:00.000Z",
+      "importance": 339,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated"
+    },
+    {
+      "id": "curated-incyte-genesis-ai-drug-discovery-collaboration-2026-06-03",
+      "title": "Incyte and Genesis expand AI drug discovery collaboration past $1B",
+      "summary": "Incyte and Genesis Molecular AI expanded their small-molecule partnership into a deal that could exceed $1B, with Genesis applying foundation models and agentic design tools to oncology and inflammation programs.",
+      "fullSummary": "Incyte and Genesis Molecular AI have expanded a drug-discovery collaboration that now could be worth more than $1 billion to Genesis if milestones are met. GEN reports that the companies moved beyond their earlier agreement for at least two small-molecule programs and added more targets in oncology and inflammation. Genesis brings foundation models for molecular AI and agentic design workflows, while Incyte brings disease biology, medicinal chemistry, and development infrastructure. The story is important because pharma AI is shifting from pilot studies and platform claims into larger, target-specific partnerships with milestone economics. It should still be read carefully: this is a collaboration expansion, not proof that an AI-designed drug has succeeded clinically. The useful signal is that large biopharma is putting real option value behind AI systems for target selection and molecule design.",
+      "keyFacts": [
+        "June 3, 2026",
+        "Incyte",
+        "Genesis Molecular AI",
+        "Potential value above $1B",
+        "Oncology targets",
+        "Inflammation targets",
+        "Small-molecule drug discovery"
+      ],
+      "url": "https://www.genengnews.com/topics/artificial-intelligence/small-molecules-to-big-partnership-incyte-genesis-expand-ai-collaboration-to-1b/",
+      "sourceName": "GEN",
+      "relatedSources": [
+        "GEN",
+        "Incyte",
+        "Genesis Molecular AI"
+      ],
+      "lane": "research",
+      "publishedAt": "2026-06-03T12:00:00.000Z",
+      "importance": 338,
+      "sourceConfidence": "medium",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated"
+    },
+    {
+      "id": "curated-microsoft-scout-mai-thinking-1-build-2026-06-02",
+      "title": "Microsoft pairs Scout agents with its first in-house reasoning model",
+      "summary": "At Build, Microsoft introduced Scout, an OpenClaw-inspired personal agent for Microsoft 365, and MAI-Thinking-1, a 35B-active-parameter reasoning model trained on commercially licensed data.",
+      "fullSummary": "Microsoft used Build to show a more independent AI stack: Scout, an always-on assistant built around OpenClaw-style agent behavior, and MAI-Thinking-1, the company's first internally developed reasoning model. Axios reports that MAI-Thinking-1 has 35 billion active parameters and is meant to compete on cost and controlled training rather than frontier-scale supremacy; Microsoft said it was not distilled from other models and was trained on commercially licensed data. TechCrunch reports that Scout will work across Microsoft 365, the desktop, and the browser with persistent user-specific skills, audit trails, and policy conformance checks. Together, the launches matter because Microsoft is no longer only distributing OpenAI capabilities through Copilot. It is assembling its own models, agents, devices, and governance layer around enterprise workflows.",
+      "keyFacts": [
+        "June 2, 2026",
+        "Microsoft Build",
+        "Scout agent",
+        "OpenClaw framework",
+        "MAI-Thinking-1",
+        "35B active parameters",
+        "Commercially licensed training data"
+      ],
+      "url": "https://www.axios.com/2026/06/02/microsoft-debuts-scout-agent-homegrown-reasoning-model",
+      "sourceName": "Axios",
+      "relatedSources": [
+        "Axios",
+        "TechCrunch",
+        "Microsoft Build"
+      ],
+      "lane": "models",
+      "publishedAt": "2026-06-02T18:27:24.000Z",
+      "importance": 337,
+      "sourceConfidence": "high",
+      "filterCategory": "models",
+      "summaryEngine": "chat-curated"
+    },
+    {
+      "id": "curated-drivenets-410m-ai-ethernet-fabric-2026-06-01",
+      "title": "DriveNets raises $410M for multi-vendor AI networking",
+      "summary": "DriveNets closed a $410M Series D to scale Ethernet-based AI fabric for heterogeneous clusters, with Bessemer, Atreides, AMD, and Red Dot backing the networking push.",
+      "fullSummary": "DriveNets raised $410 million in Series D financing to expand its Ethernet-based AI fabric business, bringing total capital raised to $1 billion. The company says it has more than $1 billion in secured business and will use the capital to build inventory for large-scale AI infrastructure customers. Its pitch is that GPU clusters are increasingly limited not only by accelerator supply but by network bottlenecks, reliability, and multi-vendor orchestration. The round was led by Bessemer Venture Partners and Atreides Management, with AMD and Red Dot Capital joining existing backers. This is a funding story, but it also shows a broader infrastructure shift: as labs and enterprises mix Nvidia, AMD, and other accelerators, the network layer becomes a direct lever on token economics and GPU utilization.",
+      "keyFacts": [
+        "June 1, 2026",
+        "DriveNets",
+        "$410M Series D",
+        "$1B total capital raised",
+        "Bessemer Venture Partners",
+        "Atreides Management",
+        "AMD",
+        "Ethernet AI fabric"
+      ],
+      "url": "https://www.prnewswire.com/news-releases/drivenets-secures-410m-series-d-to-meet-surging-demand-for-ethernet-fabric-in-large-scale-ai-deployments-302787577.html",
+      "sourceName": "PR Newswire",
+      "relatedSources": [
+        "DriveNets",
+        "PR Newswire",
+        "AMD",
+        "Broadcom"
+      ],
+      "lane": "funding",
+      "publishedAt": "2026-06-01T12:00:00.000Z",
+      "importance": 336,
+      "sourceConfidence": "medium",
+      "filterCategory": "funding",
+      "summaryEngine": "chat-curated"
+    },
+    {
+      "id": "curated-nature-machine-intelligence-climate-modes-ml-2026-06-01",
+      "title": "Nature Machine Intelligence paper links climate modes with machine learning",
+      "summary": "A Nature Machine Intelligence study models global ocean-atmosphere climate modes as a coupled network, aiming to improve predictability for patterns tied to monsoons, droughts, and ENSO.",
+      "fullSummary": "A new Nature Machine Intelligence paper applies machine learning to a hard earth-system problem: how recurrent ocean-atmosphere climate modes interact as a global coupled system. The authors model links among patterns such as El Nino-Southern Oscillation and Indian and Atlantic Ocean modes, arguing that learning the networked dynamics can unlock emergent predictability. This belongs in the AI feed because it is a concrete AI-for-science result rather than a generic climate-tech announcement. The research does not mean extreme-weather forecasting is solved, and readers should treat it as a scientific modeling advance that needs comparison with operational systems. The important signal is methodological: climate AI is moving from single-region or single-index prediction toward representations of coupled physical systems where machine learning can expose interactions that traditional pipelines may miss.",
+      "keyFacts": [
+        "June 1, 2026",
+        "Nature Machine Intelligence",
+        "Climate modes",
+        "Ocean-atmosphere dynamics",
+        "ENSO",
+        "Machine learning for earth-system science"
+      ],
+      "url": "https://www.nature.com/articles/s42256-026-01245-5",
+      "sourceName": "Nature Machine Intelligence",
+      "relatedSources": [
+        "Nature Machine Intelligence"
+      ],
+      "lane": "papers",
+      "publishedAt": "2026-06-01T00:00:00.000Z",
+      "importance": 335,
+      "sourceConfidence": "high",
+      "filterCategory": "papers",
+      "summaryEngine": "chat-curated"
+    },
+    {
+      "id": "curated-mistral-vibe-industrial-ai-data-center-push-2026-05-28",
+      "title": "Mistral turns Le Chat into Vibe and pushes deeper into industrial AI",
+      "summary": "Mistral rebranded Le Chat as Vibe, laid out an industrial engineering stack, and tied its European enterprise strategy to owned inference capacity, physics AI, and on-prem deployment options.",
+      "fullSummary": "Mistral's inaugural AI NOW Summit showed how the French lab is trying to differentiate from U.S. frontier-model companies: full-stack enterprise AI, sovereign infrastructure, and industrial engineering workflows. VentureBeat reports that Mistral rebranded Le Chat into Vibe, a unified agent platform for work and code; launched Mistral for Industrial Engineering, combining language models with physics-simulation capabilities acquired through Emmi AI; and detailed new French and Swedish compute capacity. The company said it employs 1,000 people and is targeting EUR1 billion in 2026 revenue, while partners include Airbus, BMW, ASML, CMA CGM, and Amazon. This is older than the main June 7-8 recency window, but it fills an important regional ecosystem gap: Europe's leading AI lab is not only shipping models, it is building a vertical enterprise and infrastructure strategy.",
+      "keyFacts": [
+        "May 28, 2026",
+        "Mistral AI",
+        "Vibe rebrand",
+        "Mistral for Industrial Engineering",
+        "Physics AI",
+        "Airbus",
+        "BMW",
+        "ASML",
+        "EUR1B 2026 revenue target"
+      ],
+      "url": "https://venturebeat.com/technology/mistral-ai-launches-vibe-expands-into-industrial-ai-and-announces-data-center-push-to-challenge-openai",
+      "sourceName": "VentureBeat",
+      "relatedSources": [
+        "VentureBeat",
+        "Mistral AI",
+        "Airbus",
+        "BMW",
+        "ASML"
+      ],
+      "lane": "enterprise",
+      "publishedAt": "2026-05-28T20:54:00.000Z",
+      "importance": 334,
+      "sourceConfidence": "medium",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated"
+    },
     {
       "id": "curated-huawei-deepseek-v4-pro-ascend-post-training-2026-06-06",
       "title": "Huawei cluster post-trains DeepSeek V4-Pro without Nvidia hardware",
