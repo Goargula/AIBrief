@@ -42,6 +42,7 @@ Complete every audit below independently. Do not stop because another category a
 For every audit:
 
 1. Search `today`, `yesterday`, exact dates, and a 48-72 hour catch-up window.
+   - Also run a 30-day catch-up for major workforce restructurings, landmark deployments, and empirical reports that may have been missed in earlier refreshes. Recency is not a reason to omit a still-material event that is absent from the feed.
 2. Check primary sources first, then specialist/reputable reporting, then broad news/search results.
 3. Compare candidates with the existing feed before deciding they are new.
 4. Include every material development that would matter to a technically informed AI reader.
@@ -87,6 +88,7 @@ Check separately:
 
 - Laws, regulations, executive actions, standards, export controls, antitrust, procurement rules, and national-security actions.
 - Copyright, privacy, liability, lawsuits, bans, labor disputes, layoffs, protests, public opposition, and consumer backlash.
+- Major AI-linked workforce restructurings, including layoffs, hiring cancellations, team reassignments, and role redesign. Search concrete terms such as `AI layoffs`, `AI job cuts`, `AI restructuring`, `AI workforce`, and named large employers rather than relying only on broad AI-news results.
 - AI misuse, cyber threats, safety warnings, environmental opposition, and credible loss-of-control concerns.
 - Policy and safety work from governments, standards bodies, courts, labs, civil-society groups, and reputable reporting.
 
@@ -110,9 +112,13 @@ Check separately:
 
 - Consumer and enterprise AI products, agent platforms, coding tools, developer infrastructure, workflow automation, and important integrations.
 - Material deployments and partnerships with evidence of scale, operational change, or strategic significance.
+- Measurable operational outcomes from AI adoption, including fraud detected or prevented, losses avoided, productivity or cost changes, customer volumes, national or company-wide deployments, and documented workflow transformation.
+- Newly released adoption surveys, workforce reports, and C-suite studies with a clear methodology and material findings. Distinguish self-reported survey evidence from measured operational results, but include strong reports when they materially clarify the adoption gap.
 - Agent protocols, governance, observability, security tooling, and production infrastructure.
 
 Reject routine feature announcements and generic partnerships that do not materially change capability, adoption, or market structure.
+
+Before completing this audit, run targeted searches for `AI adoption report`, `AI deployment results`, `AI fraud`, `AI productivity report`, `AI workforce report`, and `AI business outcomes`, plus the latest AI/business pages from Reuters, AP, The Guardian business/technology, Financial Times where accessible, PR Newswire, Business Wire, and major consulting/research institutions.
 
 ### Audit G: Physical AI, robotics, autonomous systems, and industrial AI
 
@@ -143,6 +149,12 @@ Run a final geographic and ecosystem gap check:
 
 Return to broad/current sources after the specialist audits. Reconcile major breaking stories against the category findings and catch important events that do not fit neatly elsewhere.
 
+As part of reconciliation, explicitly inspect:
+
+- Major business and general-news AI pages for operational-impact stories that technology-only sources may underweight.
+- Newly published survey/report announcements from PR Newswire, Business Wire, universities, research institutes, consultancies, and workforce organizations.
+- A 30-day query for major AI-linked layoffs, restructurings, fraud/loss figures, and scaled deployments absent from the existing feed.
+
 5. Produce a coverage ledger before writing.
 
 Create a compact working ledger with one row for every audit above:
@@ -152,6 +164,8 @@ Create a compact working ledger with one row for every audit above:
 | Models | ... | ... | ... | complete/incomplete |
 
 Do not write the final feed while any audit is incomplete. A category may legitimately produce zero additions, but only after its audit is complete and the ledger explains why. The final number of additions may be small or large; completeness and importance matter, not count.
+
+The ledger must name the targeted enterprise-outcomes, workforce, and report/survey searches used in Audits D, F, and J. Do not mark those audits complete based only on product-news or broad-news browsing.
 
 6. De-duplicate stories before writing the curated JSON. Merge coverage when several sources describe the same underlying story. Do not delete older, still-valid stories just because they are no longer fresh.
 

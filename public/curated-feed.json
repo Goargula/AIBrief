@@ -1,9 +1,91 @@
 {
-  "generatedAt": "2026-06-09T04:15:58.648Z",
-  "nextRefreshAt": "2026-06-09T07:15:58.648Z",
+  "generatedAt": "2026-06-09T04:33:48.897Z",
+  "nextRefreshAt": "2026-06-09T07:33:48.897Z",
   "summaryEngine": "chat-curated",
   "curated": true,
   "items": [
+    {
+      "id": "curated-aviva-233m-ai-enabled-insurance-fraud-2026-06-08",
+      "title": "Aviva detects a record £233M of bogus claims as fraudsters adopt AI",
+      "summary": "Aviva identified 18,400 suspect insurance claims worth £233M last year, warning that fraudsters are using AI to fake accident scenes, alter damage evidence, and manufacture documents.",
+      "fullSummary": "Aviva detected a record £233 million of suspicious insurance claims across 18,400 cases last year as AI tools made sophisticated fraud easier to produce. The insurer said some claimants and organized groups used generative AI to fabricate accident scenes, manipulate images of vehicle damage, exaggerate repair costs, and create false supporting documents. This is a high-signal adoption story because it measures a real operational consequence of accessible generative tools rather than describing a hypothetical risk or routine product launch. The £233 million figure represents fraud detected, not necessarily losses that AI systems alone prevented, and AI was one contributor to a broader fraud problem. The important next question is whether insurers can improve detection without increasing false positives or unfairly rejecting legitimate claims.",
+      "keyFacts": [
+        "June 8, 2026",
+        "£233M suspicious claims",
+        "18,400 suspect claims",
+        "Aviva",
+        "AI-generated accident scenes and documents",
+        "Record detected fraud"
+      ],
+      "url": "https://www.theguardian.com/business/avivabusiness",
+      "sourceName": "The Guardian",
+      "relatedSources": [
+        "The Guardian",
+        "Aviva",
+        "Law360"
+      ],
+      "lane": "security",
+      "publishedAt": "2026-06-08T05:00:00.000Z",
+      "importance": 359,
+      "sourceConfidence": "high",
+      "filterCategory": "pushback",
+      "summaryEngine": "chat-curated"
+    },
+    {
+      "id": "curated-university-phoenix-csuite-ai-impact-report-2026-06-08",
+      "title": "C-suite survey finds AI adoption is outrunning workflow transformation",
+      "summary": "A University of Phoenix survey found 63% of North American C-suite leaders have deployed at least one AI use case, but fewer than one-third are using AI to transform workflows.",
+      "fullSummary": "The University of Phoenix released its 2026 C-Suite AI Impact Report, based on a survey of 150 North American executives conducted with future-of-work strategist Jeanne Meister. The report found that 63% of respondents had deployed at least one AI use case, while fewer than one-third said AI was transforming work processes and workflows. That gap is useful evidence for understanding the current adoption cycle: acquiring tools and launching isolated use cases is moving faster than redesigning organizations around them. Leaders identified AI literacy, trust, clear role-level expectations, and measurable business value as continuing barriers. The findings are self-reported and the sample is relatively small, so they should not be treated as a universal measure of enterprise performance, but they add a concrete signal to the debate over whether widespread AI spending is producing structural change.",
+      "keyFacts": [
+        "June 8, 2026",
+        "150 North American C-suite leaders",
+        "63% deployed at least one AI use case",
+        "Fewer than one-third transforming workflows",
+        "University of Phoenix",
+        "Jeanne Meister"
+      ],
+      "url": "https://www.streetinsider.com/PRNewswire/University%2Bof%2BPhoenix%2BReleases%2B2026%2BC-Suite%2BAI%2BImpact%2BReport%2Bon%2BScaling%2BAI%2Bfor%2BBusiness%2BValue/26618490.html",
+      "sourceName": "University of Phoenix / PR Newswire",
+      "relatedSources": [
+        "University of Phoenix",
+        "PR Newswire",
+        "Jeanne Meister"
+      ],
+      "lane": "signal",
+      "publishedAt": "2026-06-08T21:31:00.000Z",
+      "importance": 358,
+      "sourceConfidence": "medium",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated"
+    },
+    {
+      "id": "curated-meta-8000-job-cuts-ai-efficiency-push-2026-05-20",
+      "title": "Meta cuts 8,000 jobs and redirects thousands more toward AI",
+      "summary": "Meta eliminated about 8,000 roles, canceled plans to fill 6,000 openings, and reassigned roughly 7,000 employees toward AI-focused work as infrastructure spending climbs.",
+      "fullSummary": "Meta carried out layoffs affecting about 8,000 employees, roughly 10% of its workforce, while canceling plans to hire for 6,000 open roles and moving approximately 7,000 existing employees toward AI-focused teams. The restructuring is one of the clearest examples of AI reshaping both capital allocation and workforce design at a major technology company. Meta had just under 80,000 employees before the cuts; it did not fire 80,000 people. The company is simultaneously committing well over $100 billion to AI-related capital expenditure and hiring highly paid AI specialists. It remains difficult to separate genuine automation-driven efficiency from cost cutting and resource reallocation, but the scale makes this a material labor and strategy story that should have been captured in the feed's earlier catch-up coverage.",
+      "keyFacts": [
+        "May 20, 2026",
+        "About 8,000 jobs cut",
+        "Roughly 10% of workforce",
+        "6,000 openings canceled",
+        "About 7,000 employees reassigned toward AI",
+        "Just under 80,000 employees before cuts"
+      ],
+      "url": "https://apnews.com/article/224eee4489cbc227244558ff02f5919a",
+      "sourceName": "Associated Press",
+      "relatedSources": [
+        "Associated Press",
+        "Axios",
+        "Los Angeles Times",
+        "Meta"
+      ],
+      "lane": "labor",
+      "publishedAt": "2026-05-20T14:03:00.000Z",
+      "importance": 357,
+      "sourceConfidence": "high",
+      "filterCategory": "pushback",
+      "summaryEngine": "chat-curated"
+    },
     {
       "id": "curated-openai-confidential-ipo-filing-2026-06-08",
       "title": "OpenAI takes its first formal step toward an IPO",
