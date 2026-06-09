@@ -30,6 +30,7 @@ Before searching, record the current `generatedAt`, current item count, and newe
 3. Do a recency-first orientation pass before the category audits:
 
 - Check the latest pages or feeds from at least two broad news sources, such as TechCrunch Latest/AI, VentureBeat AI, Reuters/AP where available, The Verge, MIT Technology Review, Business Wire, PR Newswire, and Google News-style searches.
+- Complete the mandatory named-site reconciliation below. Search queries alone are not enough because they routinely under-surface operational deployments, workforce changes, research reports, and stories with non-obvious AI headlines.
 - Search for both `today` and `yesterday` using the current date. If the newest curated story is older than 12 hours, explicitly look for a fresher factual story before finalizing.
 - Do not add conference calendars, earnings-call reminders, scraped reposts, Reddit-only claims, or generic investor notices just to make the feed look fresh.
 - If no fresher story passes the quality bar, keep the older top story and note why.
@@ -151,9 +152,16 @@ Return to broad/current sources after the specialist audits. Reconcile major bre
 
 As part of reconciliation, explicitly inspect:
 
+- The latest or AI category pages from every source group below, using direct page inspection or a site-restricted fallback query where the page is inaccessible:
+  - AI specialists: VentureBeat AI, AI News (`artificialintelligence-news.com`), Unite.AI, and The Register AI/ML.
+  - Technology publications: TechCrunch AI/latest, The Verge AI, MIT Technology Review AI, and Wired AI where accessible.
+  - Broad/business reporting: Reuters, Associated Press, Axios AI/technology, Fortune, The Guardian technology/business, and Financial Times where accessible.
+  - Announcement wires: Business Wire, PR Newswire, and GlobeNewswire.
+  - Primary-source newsrooms: OpenAI, Anthropic, Google/DeepMind, Microsoft, Meta, Nvidia, Apple, AWS, major government AI offices, and major research labs when their activity is relevant to the pass.
 - Major business and general-news AI pages for operational-impact stories that technology-only sources may underweight.
 - Newly published survey/report announcements from PR Newswire, Business Wire, universities, research institutes, consultancies, and workforce organizations.
 - A 30-day query for major AI-linked layoffs, restructurings, fraud/loss figures, and scaled deployments absent from the existing feed.
+- Record each named source group as checked, unavailable, or yielding no material additions. Do not mark reconciliation complete until all five groups have been covered.
 
 5. Produce a coverage ledger before writing.
 
@@ -166,6 +174,8 @@ Create a compact working ledger with one row for every audit above:
 Do not write the final feed while any audit is incomplete. A category may legitimately produce zero additions, but only after its audit is complete and the ledger explains why. The final number of additions may be small or large; completeness and importance matter, not count.
 
 The ledger must name the targeted enterprise-outcomes, workforce, and report/survey searches used in Audits D, F, and J. Do not mark those audits complete based only on product-news or broad-news browsing.
+
+The ledger must also include a named-site reconciliation row listing the directly inspected sites, site-restricted fallbacks, material inclusions, and notable exclusions. A refresh is incomplete if this row only says "broad news checked" without naming the sources.
 
 6. De-duplicate stories before writing the curated JSON. Merge coverage when several sources describe the same underlying story. Do not delete older, still-valid stories just because they are no longer fresh.
 

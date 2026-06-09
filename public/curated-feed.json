@@ -1,9 +1,284 @@
 {
-  "generatedAt": "2026-06-09T04:33:48.897Z",
-  "nextRefreshAt": "2026-06-09T07:33:48.897Z",
+  "generatedAt": "2026-06-09T04:47:10.167Z",
+  "nextRefreshAt": "2026-06-09T07:47:10.167Z",
   "summaryEngine": "chat-curated",
   "curated": true,
   "items": [
+    {
+      "id": "curated-apple-private-cloud-compute-google-nvidia-developers-2026-06-08",
+      "title": "Apple takes Private Cloud Compute beyond its own data centers",
+      "summary": "Apple is extending Private Cloud Compute to Google Cloud with Nvidia GPUs and offering eligible small App Store developers no-cost access to its cloud foundation models.",
+      "fullSummary": "Apple is expanding Private Cloud Compute beyond Apple-owned data centers for the first time, using Google Cloud infrastructure, Nvidia GPUs, Intel CPUs with TDX, and Google's Titan security chip for demanding Apple Intelligence workloads. Apple says it will preserve PCC's stateless processing, no-privileged-access guarantees, hardware attestation, public binary inspection, and security-research access as the third-party deployment ramps through the summer preview. Separately, developers in the App Store Small Business Program with fewer than two million first-time downloads can use Apple Foundation Models on PCC without cloud API charges. Together, the changes turn Apple's privacy architecture into both a hyperscaler partnership and a developer platform. The key test is whether Apple can maintain its unusually strong verifiability claims while scaling confidential inference outside infrastructure it owns.",
+      "keyFacts": [
+        "June 8, 2026",
+        "Google Cloud",
+        "Nvidia GPUs",
+        "Intel TDX",
+        "Google Titan",
+        "No cloud API cost for eligible small developers",
+        "Fewer than 2M first-time downloads"
+      ],
+      "url": "https://security.apple.com/blog/expanding-pcc/",
+      "sourceName": "Apple Security Research + Apple Developer",
+      "relatedSources": [
+        "Apple Security Research",
+        "Apple Developer",
+        "Google Cloud",
+        "Nvidia"
+      ],
+      "lane": "infrastructure",
+      "publishedAt": "2026-06-08T17:00:00.000Z",
+      "importance": 368,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated"
+    },
+    {
+      "id": "curated-white-house-hill-state-ai-law-preemption-push-2026-06-08",
+      "title": "White House and Congress revive effort to block state AI laws",
+      "summary": "The White House is negotiating with lawmakers on federal preemption of some state AI laws, reopening a politically difficult fight after earlier attempts drew state and advocacy-group opposition.",
+      "fullSummary": "Axios reports that the White House and lawmakers have restarted negotiations over overriding some state artificial-intelligence laws. The talks, led in part by Senator Marsha Blackburn, link possible federal preemption to other technology-policy priorities including the Kids Online Safety Act. The new maneuver matters because it suggests the bipartisan Great American AI Act discussion draft may not be the vehicle that ultimately shapes federal policy, even though that draft also proposes overriding some state rules. States have moved faster than Congress on AI regulation, so a federal preemption deal could materially change which protections survive. Axios says the path remains difficult as the August recess approaches in an election year, and earlier attempts generated substantial opposition from state lawmakers and advocacy groups.",
+      "keyFacts": [
+        "June 8, 2026",
+        "Federal preemption",
+        "State AI laws",
+        "Sen. Marsha Blackburn",
+        "Kids Online Safety Act",
+        "Axios scoop"
+      ],
+      "url": "https://www.axios.com/2026/06/08/white-house-hill-relaunch-effort-block-state-ai-laws",
+      "sourceName": "Axios",
+      "relatedSources": [
+        "Axios",
+        "White House",
+        "U.S. Congress"
+      ],
+      "lane": "policy",
+      "publishedAt": "2026-06-08T22:26:06.000Z",
+      "importance": 367,
+      "sourceConfidence": "high",
+      "filterCategory": "pushback",
+      "summaryEngine": "chat-curated"
+    },
+    {
+      "id": "curated-anthropic-claude-80-percent-merged-code-2026-06-04",
+      "title": "Claude now writes more than 80% of Anthropic's merged code",
+      "summary": "Anthropic says Claude authored more than 80% of code merged into its production codebase in May, while the typical engineer merged eight times more code per day than in 2024.",
+      "fullSummary": "Anthropic published unusually concrete internal evidence of how deeply coding agents have changed its engineering workflow. As of May 2026, Claude authored more than 80% of the code merged into Anthropic's production codebase, up from low single digits before Claude Code launched in February 2025. The company says its typical engineer now merges eight times as much code per day as in 2024, although it cautions that lines of code overstate true productivity. Claude's success rate on Anthropic's most open-ended engineering tasks reached 76% in May, and an automated Claude reviewer now checks proposed changes before merge. This is a high-signal adoption milestone because it measures production usage inside a frontier lab, while also showing the new bottleneck: human judgment, review capacity, and deciding which problems are worth solving.",
+      "keyFacts": [
+        "June 4, 2026",
+        "More than 80% of merged production code",
+        "8x code merged per engineer per day versus 2024",
+        "76% success on open-ended tasks",
+        "Anthropic Institute"
+      ],
+      "url": "https://www.anthropic.com/institute/recursive-self-improvement",
+      "sourceName": "Anthropic Institute",
+      "relatedSources": [
+        "Anthropic Institute",
+        "Claude Code",
+        "METR"
+      ],
+      "lane": "enterprise",
+      "publishedAt": "2026-06-04T12:00:00.000Z",
+      "importance": 366,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated"
+    },
+    {
+      "id": "curated-scammer4u-ai-agent-pii-leakage-benchmark-2026-06-06",
+      "title": "Web agents leak sensitive data even after recognizing scams",
+      "summary": "The SCAMMER4U benchmark found agents that explicitly identified a site as suspicious still submitted critical personal data in 35.9% of sessions.",
+      "fullSummary": "Researchers from KIIT Bhubaneswar, BITS Pilani, and Lam Research introduced SCAMMER4U, a benchmark testing autonomous web agents across 91 simulated attacker-controlled sites and ten benign controls. The study evaluated GPT-5 mini, Claude Haiku 4.5, Gemini 3 Flash, and Llama 4 Scout using profiles containing passwords, bank details, Social Security numbers, API keys, and two-factor codes. Its most important result is a detection-action gap: agents that explicitly recognized a site as suspicious still transmitted critical personal information in 35.9% of sessions, compared with 66.1% when they did not voice suspicion. Baseline leakage ranged from 54.5% to 93.1% by model. The authors argue that agent security needs independent output-level controls because recognizing danger inside the reasoning loop does not reliably stop an agent from completing the task.",
+      "keyFacts": [
+        "June 6, 2026",
+        "SCAMMER4U",
+        "91 attack environments",
+        "10 benign controls",
+        "35.9% leakage after scam recognition",
+        "Four model families"
+      ],
+      "url": "https://www.unite.ai/study-35-of-ai-agents-handed-pii-to-websites-that-they-knew-were-scams/",
+      "sourceName": "Unite.AI + SCAMMER4U researchers",
+      "relatedSources": [
+        "Unite.AI",
+        "KIIT Bhubaneswar",
+        "BITS Pilani",
+        "Lam Research"
+      ],
+      "lane": "research",
+      "publishedAt": "2026-06-06T12:00:00.000Z",
+      "importance": 365,
+      "sourceConfidence": "medium",
+      "filterCategory": "papers",
+      "summaryEngine": "chat-curated"
+    },
+    {
+      "id": "curated-uber-av-labs-500-data-vehicles-2026-06-03",
+      "title": "Uber will deploy 500 sensor vehicles to build robotaxi training data",
+      "summary": "Uber plans to put 500 sensor-packed Hyundai Ioniq 5 vehicles on roads this year, targeting two million miles of high-fidelity data per month for more than 30 autonomous-vehicle partners.",
+      "fullSummary": "Uber's AV Labs division plans to deploy 500 specially equipped Hyundai Ioniq 5 vehicles globally this year to collect high-fidelity driving data for autonomous-vehicle partners including Avride, Waymo, and WeRide. The cars use 14 cameras, eight solid-state lidar sensors, nine radars, and Nvidia's Dual Drive Thor computer, with Roush Performance handling retrofits. Uber says the fleet should collect about two million miles of data per month, with 50 vehicles expected on the road by summer. The company has already gathered outward-facing camera data from thousands of partner-operated vehicles in dozens of cities. This is a material physical-AI story because Uber is positioning its global mobility network as shared training-data infrastructure for more than 30 AV partners rather than rebuilding a single proprietary robotaxi stack.",
+      "keyFacts": [
+        "June 3, 2026",
+        "500 Hyundai Ioniq 5 vehicles",
+        "2M data miles per month",
+        "14 cameras",
+        "8 lidar sensors",
+        "9 radars",
+        "30-plus AV partners"
+      ],
+      "url": "https://techcrunch.com/2026/06/03/uber-to-put-500-data-collection-vehicles-on-the-road-this-year/",
+      "sourceName": "TechCrunch",
+      "relatedSources": [
+        "TechCrunch",
+        "Uber AV Labs",
+        "Nvidia",
+        "Roush Performance"
+      ],
+      "lane": "robotics",
+      "publishedAt": "2026-06-03T20:08:00.000Z",
+      "importance": 364,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated"
+    },
+    {
+      "id": "curated-new-zealand-public-service-ai-9000-job-cuts-2026-05-20",
+      "title": "New Zealand links public-service AI push to 9,000 job cuts",
+      "summary": "New Zealand plans to reduce its public service by about 9,000 roles, or 14%, while making AI deployment a basic expectation across public entities.",
+      "fullSummary": "New Zealand's government announced a public-service overhaul that combines department consolidation, tighter budgets, wider digital adoption, and an expectation that public entities deploy AI. Finance Minister Nicola Willis said the plan would make it possible to reduce the workforce by about 9,000 people, roughly 14% of current public-service headcount, while saving NZ$2.4 billion over four years. She cited an emergency-room AI scribe trial as an example of tools that can shift staff time toward higher-value work. This is a high-signal workforce story because it is an unusually explicit government attempt to pair AI adoption with large-scale headcount reduction. The outcome remains uncertain: the plan bundles AI with broader restructuring, and claimed savings do not by themselves establish that automated systems can preserve service quality.",
+      "keyFacts": [
+        "May 20, 2026",
+        "About 9,000 roles",
+        "Roughly 14% of public-service headcount",
+        "NZ$2.4B projected four-year savings",
+        "AI deployment as a basic expectation"
+      ],
+      "url": "https://www.theregister.com/public-sector/2026/05/20/ai-sackings-reach-new-zealand-which-will-use-it-to-eject-14-percent-of-government-staff/5243076",
+      "sourceName": "The Register",
+      "relatedSources": [
+        "The Register",
+        "New Zealand Government",
+        "Finance Minister Nicola Willis"
+      ],
+      "lane": "labor",
+      "publishedAt": "2026-05-20T02:17:00.000Z",
+      "importance": 363,
+      "sourceConfidence": "high",
+      "filterCategory": "pushback",
+      "summaryEngine": "chat-curated"
+    },
+    {
+      "id": "curated-google-gemini-cli-antigravity-closed-source-transition-2026-05-20",
+      "title": "Google pushes most Gemini CLI users toward closed-source Antigravity",
+      "summary": "Most free and consumer Gemini CLI users lose service on June 18 as Google moves them to Antigravity CLI, a replacement that lacks full feature parity and is not open source.",
+      "fullSummary": "Google is moving most Gemini CLI and Gemini Code Assist individual users to Antigravity CLI on June 18, while enterprise-license and paid API-key users can continue accessing Gemini CLI. The replacement is intended to unify Google's command-line agent work and improve multi-agent support, but Google says it will not initially have one-to-one feature parity. Unlike the Apache-licensed Gemini CLI repository, Antigravity's public repository currently exposes documentation rather than the product's source. Developers have objected to the forced migration, usage limits, and the shift from an open tool to a closed replacement. The story matters because it shows how quickly strategic AI developer tools can move from subsidized open distribution toward controlled, paid platforms, creating lock-in and continuity risk for workflows built around them.",
+      "keyFacts": [
+        "May 20, 2026",
+        "June 18 transition",
+        "Gemini CLI",
+        "Antigravity CLI",
+        "No initial 1:1 feature parity",
+        "Enterprise and paid API access preserved"
+      ],
+      "url": "https://www.theregister.com/ai-ml/2026/05/20/bye-bye-gemini-cli-google-nudges-devs-toward-antigravity/5243605",
+      "sourceName": "The Register",
+      "relatedSources": [
+        "The Register",
+        "Google",
+        "Gemini CLI",
+        "Antigravity CLI"
+      ],
+      "lane": "developer-tools",
+      "publishedAt": "2026-05-20T17:44:00.000Z",
+      "importance": 362,
+      "sourceConfidence": "high",
+      "filterCategory": "pushback",
+      "summaryEngine": "chat-curated"
+    },
+    {
+      "id": "curated-pizza-hut-dragontail-ai-100m-lawsuit-2026-05-19",
+      "title": "Pizza Hut franchisee seeks $100M over mandated kitchen AI",
+      "summary": "A 111-location Pizza Hut franchisee alleges that mandated Dragontail AI disrupted kitchen and delivery operations, damaged customer satisfaction, and caused more than $100M in losses.",
+      "fullSummary": "Chaac Pizza Northeast, which operates about 111 Pizza Hut locations, sued over the chain's mandated use of Dragontail restaurant-management AI and is seeking more than $100 million. The franchisee alleges that the system reduced operational control, exposed order timing and tip information to DoorDash drivers, encouraged order stacking, slowed deliveries, and damaged customer satisfaction and enterprise value. Pizza Hut parent Yum Brands acquired Dragontail in 2021. The claims remain allegations that will have to be tested in court, and the franchisee's delivery-only operating model may make its experience unusual. Even so, this is a high-signal deployment-failure story because it ties a mandated AI system to specific operational mechanisms and claimed business losses, rather than relying on generic dissatisfaction or hypothetical risk.",
+      "keyFacts": [
+        "May 19, 2026",
+        "More than $100M claimed losses",
+        "About 111 Pizza Hut locations",
+        "Chaac Pizza Northeast",
+        "Dragontail AI",
+        "Business Court of Texas"
+      ],
+      "url": "https://www.theregister.com/ai-ml/2026/05/19/frustrated-franchisee-sues-pizza-hut-over-crappy-kitchen-ai/5242899",
+      "sourceName": "The Register",
+      "relatedSources": [
+        "The Register",
+        "Chaac Pizza Northeast",
+        "Pizza Hut",
+        "Yum Brands",
+        "Dragontail"
+      ],
+      "lane": "legal",
+      "publishedAt": "2026-05-19T22:09:00.000Z",
+      "importance": 361,
+      "sourceConfidence": "medium",
+      "filterCategory": "pushback",
+      "summaryEngine": "chat-curated"
+    },
+    {
+      "id": "curated-google-ai-assisted-zero-day-criminal-campaign-2026-05-11",
+      "title": "Google identifies first real-world AI-assisted zero-day campaign",
+      "summary": "Google Threat Intelligence says criminals used an AI model to discover and weaponize a two-factor-authentication bypass for a planned mass-exploitation campaign that was stopped before launch.",
+      "fullSummary": "Google Threat Intelligence Group says it identified what it believes is the first real-world case of criminals using AI to both discover and weaponize a zero-day vulnerability for a planned mass-exploitation campaign. The flaw was a two-factor-authentication bypass in a widely used open-source web administration platform. Google worked with the unnamed vendor to patch it before the operation gained traction. The exploit contained telltale model-generated traits, including educational-style docstrings, a hallucinated CVSS score, and unusually polished textbook structure. Google says neither Gemini nor Anthropic's Mythos was involved. The case matters because it moves AI-assisted vulnerability discovery from forecasts and controlled demonstrations into an attributed criminal operation, while also showing that current AI-generated exploits can still contain mistakes that defenders can exploit.",
+      "keyFacts": [
+        "May 11, 2026",
+        "Google Threat Intelligence Group",
+        "AI-assisted zero-day discovery and weaponization",
+        "2FA bypass",
+        "Planned mass exploitation",
+        "Patched before launch"
+      ],
+      "url": "https://www.theregister.com/ai-and-ml/2026/05/11/google-says-criminals-used-ai-built-zero-day-in-planned-mass-hack-spree/5237982",
+      "sourceName": "The Register + Google Threat Intelligence",
+      "relatedSources": [
+        "The Register",
+        "Google Threat Intelligence Group"
+      ],
+      "lane": "security",
+      "publishedAt": "2026-05-11T14:38:00.000Z",
+      "importance": 360,
+      "sourceConfidence": "high",
+      "filterCategory": "pushback",
+      "summaryEngine": "chat-curated"
+    },
+    {
+      "id": "curated-cloudflare-1100-ai-workforce-restructure-2026-05-08",
+      "title": "Cloudflare cuts 1,100 roles while reorganizing around AI",
+      "summary": "Cloudflare is eliminating more than 1,100 jobs, about 20% of staff, after reporting a 600% increase in internal AI usage and strong revenue growth.",
+      "fullSummary": "Cloudflare announced a global workforce reduction of more than 1,100 employees, roughly 20% of staff, while explicitly describing the reorganization as preparation for an agentic-AI operating model. The company said internal AI usage increased more than 600% in three months and employees across engineering, HR, finance, and marketing now run thousands of agent sessions each day. CEO Matthew Prince said productivity gains among employees directly creating code or working with customers meant many support roles would not be the roles the company needs in the future. The cuts came alongside 34% year-over-year quarterly revenue growth and guidance for continued growth. Cloudflare says it expects to keep hiring and may have more employees in 2027, making this a clear example of AI-linked role redesign rather than a simple contraction.",
+      "keyFacts": [
+        "May 8, 2026",
+        "More than 1,100 jobs",
+        "About 20% of staff",
+        "AI usage up more than 600% in three months",
+        "34% year-over-year revenue growth",
+        "Up to $150M restructuring cost"
+      ],
+      "url": "https://www.theregister.com/off-prem/2026/05/08/cloudflare-to-fire-1100-staff-whose-jobs-just-arent-ai-enough/5235536",
+      "sourceName": "The Register + Cloudflare",
+      "relatedSources": [
+        "The Register",
+        "Cloudflare",
+        "Cloudflare earnings call"
+      ],
+      "lane": "labor",
+      "publishedAt": "2026-05-08T05:50:00.000Z",
+      "importance": 359,
+      "sourceConfidence": "high",
+      "filterCategory": "pushback",
+      "summaryEngine": "chat-curated"
+    },
     {
       "id": "curated-aviva-233m-ai-enabled-insurance-fraud-2026-06-08",
       "title": "Aviva detects a record £233M of bogus claims as fraudsters adopt AI",
@@ -7907,30 +8182,33 @@
     },
     {
       "id": "curated-pentagon-ai-classified-network-deals-2026-05-26",
-      "title": "Pentagon expands AI access on classified networks",
-      "summary": "The Defense Department signed deals with Nvidia, Microsoft, AWS, and Reflection AI after earlier agreements with Google, SpaceX, and OpenAI.",
-      "fullSummary": "TechCrunch reported that the U.S. Defense Department signed agreements with Nvidia, Microsoft, Amazon Web Services, and Reflection AI to deploy AI technology and models on classified networks for lawful operational use. The deals followed earlier agreements with Google, SpaceX, and OpenAI. This is a major governance story because the military AI debate is no longer abstract: frontier models, cloud infrastructure, and AI chips are being connected to classified environments. The follow-up questions are procurement controls, mission boundaries, human oversight, safety restrictions, and which vendors will accept or resist military use cases as AI becomes embedded in defense workflows.",
+      "title": "Pentagon AI platform reaches 1.3M users and hundreds of thousands of agents",
+      "summary": "GenAI.mil has reached more than 1.3 million users, tens of millions of prompts, and hundreds of thousands of deployed agents as the Pentagon expands frontier-model access on classified networks.",
+      "fullSummary": "The Pentagon says its GenAI.mil platform has reached more than 1.3 million personnel in five months, generated tens of millions of prompts, and supported the deployment of hundreds of thousands of agents. The department is also expanding agreements with SpaceX, OpenAI, Google, Nvidia, Reflection, Microsoft, Amazon Web Services, and Oracle to make frontier models available on IL6 and IL7 classified environments. Officials claim some tasks have been reduced from months to days, while promising an architecture intended to avoid vendor lock-in. The figures make GenAI.mil one of the largest documented enterprise generative-AI deployments, although the department has not published independent productivity or quality measurements. The scale and classified-network expansion make this materially more important than the original partnership announcement alone.",
       "keyFacts": [
-        "U.S. Defense Department",
+        "More than 1.3M users",
+        "Tens of millions of prompts",
+        "Hundreds of thousands of deployed agents",
+        "Five months",
+        "IL6 and IL7 classified environments",
+        "Nine named technology partners"
+      ],
+      "url": "https://www.war.gov/News/releases/release/Article/4475177/classified-networks-ai-agreements/",
+      "sourceName": "U.S. Department of War",
+      "relatedSources": [
+        "U.S. Department of War",
+        "OpenAI",
+        "Google",
         "Nvidia",
         "Microsoft",
         "AWS",
-        "Reflection AI",
-        "Google",
+        "Oracle",
         "SpaceX",
-        "OpenAI",
-        "classified networks",
-        "May 1, 2026"
-      ],
-      "url": "https://techcrunch.com/2026/05/01/pentagon-inks-deals-with-nvidia-microsoft-and-aws-to-deploy-ai-on-classified-networks/",
-      "sourceName": "TechCrunch",
-      "relatedSources": [
-        "TechCrunch",
-        "U.S. Defense Department"
+        "Reflection AI"
       ],
       "lane": "news",
-      "publishedAt": "2026-05-01T16:02:00.000Z",
-      "importance": 102,
+      "publishedAt": "2026-05-26T16:02:00.000Z",
+      "importance": 365,
       "sourceConfidence": "high",
       "summaryEngine": "chat-curated",
       "filterCategory": "general"
