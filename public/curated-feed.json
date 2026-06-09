@@ -1,9 +1,279 @@
 {
-  "generatedAt": "2026-06-08T07:07:01.943Z",
-  "nextRefreshAt": "2026-06-08T10:07:01.943Z",
+  "generatedAt": "2026-06-09T04:15:58.648Z",
+  "nextRefreshAt": "2026-06-09T07:15:58.648Z",
   "summaryEngine": "chat-curated",
   "curated": true,
   "items": [
+    {
+      "id": "curated-openai-confidential-ipo-filing-2026-06-08",
+      "title": "OpenAI takes its first formal step toward an IPO",
+      "summary": "OpenAI confidentially filed draft IPO paperwork with the SEC, giving the ChatGPT maker the option to enter public markets as Anthropic and SpaceX pursue their own listings.",
+      "fullSummary": "OpenAI has confidentially submitted draft registration paperwork to the U.S. Securities and Exchange Commission, formally opening a path to an initial public offering without committing to a date. The company said it may remain private for a while because some strategic moves are easier outside public markets, but the filing gives it flexibility to move sooner. The timing is consequential: Anthropic disclosed its own confidential filing one week earlier, while SpaceX is also moving toward a listing. An OpenAI IPO would expose the economics of frontier AI to public-market scrutiny, including compute commitments, revenue concentration, safety liabilities, and the cost of turning massive ChatGPT usage into durable profits. The filing is an option, not a promise that shares will list immediately.",
+      "keyFacts": [
+        "June 8, 2026",
+        "Confidential draft IPO filing",
+        "U.S. SEC",
+        "No listing date decided",
+        "Anthropic filed one week earlier"
+      ],
+      "url": "https://apnews.com/article/c7583994426b1b097120786d6a0b8308",
+      "sourceName": "Associated Press",
+      "relatedSources": [
+        "Associated Press",
+        "Axios",
+        "OpenAI"
+      ],
+      "lane": "deals",
+      "publishedAt": "2026-06-08T21:52:25.000Z",
+      "importance": 356,
+      "sourceConfidence": "high",
+      "filterCategory": "funding",
+      "summaryEngine": "chat-curated"
+    },
+    {
+      "id": "curated-apple-siri-ai-wwdc-platform-shift-2026-06-08",
+      "title": "Apple finally turns Siri into a context-aware AI platform",
+      "summary": "Apple used WWDC to unveil a more personal Siri with on-screen awareness and app actions, while opening App Intents so developers can connect their software to Apple Intelligence.",
+      "fullSummary": "Apple's WWDC keynote put the long-delayed AI overhaul of Siri at the center of its next software cycle. The upgraded assistant is designed to use personal context, understand what is on screen, and take actions across apps rather than merely answer isolated voice queries. Apple also highlighted App Intents as the developer bridge into Siri AI, allowing third-party apps to expose content and actions through natural-language requests. The launch matters because Apple is trying to turn its installed base into an operating-system-level AI distribution advantage after falling behind cloud-first rivals. Privacy remains a central part of the pitch, but the practical test will be whether developers adopt the new interfaces and whether the assistant reliably completes multi-app tasks when the software ships.",
+      "keyFacts": [
+        "June 8, 2026",
+        "WWDC26",
+        "Siri AI",
+        "Personal context",
+        "On-screen awareness",
+        "App Intents integration"
+      ],
+      "url": "https://www.axios.com/2026/06/08/apple-intelligence-ai-siri-golden-gate",
+      "sourceName": "Axios",
+      "relatedSources": [
+        "Axios",
+        "Apple Developer",
+        "Associated Press"
+      ],
+      "lane": "products",
+      "publishedAt": "2026-06-08T17:15:14.000Z",
+      "importance": 355,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated"
+    },
+    {
+      "id": "curated-microsoft-ai-dev-open-source-supply-chain-breach-2026-06-08",
+      "title": "Microsoft open-source breach targets AI developers' credentials",
+      "summary": "Microsoft disabled dozens of GitHub repositories after attackers injected password-stealing malware into tools used with Claude Code, Gemini CLI, VS Code, and Azure development workflows.",
+      "fullSummary": "Microsoft temporarily removed or disabled dozens of its open-source GitHub projects while investigating malicious code that could steal passwords and other credentials from developers. Security researchers said many affected repositories were connected to Azure or commonly opened through AI coding environments including Claude Code, Gemini's command-line interface, and VS Code. Microsoft said it notified a small number of customers who may have pulled compromised content and restored some repositories after review. The incident is a high-signal warning for agentic software development: coding assistants can make it easier to discover, install, and execute dependencies, expanding the blast radius of a poisoned repository. It also follows an earlier compromise of Microsoft's Durable Task project, raising questions about supply-chain controls and remediation.",
+      "keyFacts": [
+        "June 8, 2026",
+        "At least 70 repositories disabled",
+        "Credential-stealing malware",
+        "Claude Code",
+        "Gemini CLI",
+        "VS Code",
+        "Azure tools"
+      ],
+      "url": "https://techcrunch.com/2026/06/08/microsofts-open-source-tools-were-hacked-to-steal-passwords-of-ai-developers/",
+      "sourceName": "TechCrunch",
+      "relatedSources": [
+        "TechCrunch",
+        "Microsoft",
+        "Cloudsmith",
+        "OpenSourceMalware",
+        "404 Media"
+      ],
+      "lane": "security",
+      "publishedAt": "2026-06-08T20:03:00.000Z",
+      "importance": 354,
+      "sourceConfidence": "high",
+      "filterCategory": "pushback",
+      "summaryEngine": "chat-curated"
+    },
+    {
+      "id": "curated-uk-1-1b-ai-hardware-plan-2026-06-08",
+      "title": "Britain puts £1.1B behind sovereign AI hardware",
+      "summary": "The UK unveiled a £1.1B AI Hardware Plan spanning a national supercomputer, next-generation chip purchases, startup procurement commitments, and a new hardware investment fund.",
+      "fullSummary": "The UK government announced a £1.1 billion package intended to strengthen domestic AI-chip design and compute capacity. The plan includes £750 million for a new national AI supercomputer, with £400 million allocated to next-generation AI chips and £150 million reserved as an advance purchase commitment for novel hardware from startups and British firms. It also includes a new fund led by Playground Global and backed by up to £150 million from the British Business Bank. The policy is designed to create an early customer and financing pathway for local hardware companies rather than relying entirely on imported accelerators. Execution will matter more than the headline: procurement choices, delivery timelines, and whether startups can convert government demand into globally competitive products will determine its impact.",
+      "keyFacts": [
+        "June 8, 2026",
+        "£1.1B AI Hardware Plan",
+        "£750M national AI supercomputer",
+        "£400M chip purchases",
+        "£150M startup advance commitment",
+        "Up to £150M hardware fund"
+      ],
+      "url": "https://www.gov.uk/government/news/a-decisive-shift-to-power-british-ai-new-11-billion-plan-to-back-chip-firms-boost-computing-power-and-skills-for-the-ai-revolution",
+      "sourceName": "UK Government",
+      "relatedSources": [
+        "UK Government",
+        "Department for Science, Innovation and Technology",
+        "British Business Bank"
+      ],
+      "lane": "infrastructure",
+      "publishedAt": "2026-06-08T09:00:00.000Z",
+      "importance": 353,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated"
+    },
+    {
+      "id": "curated-nebius-1-7b-uk-ai-compute-expansion-2026-06-08",
+      "title": "Nebius commits £1.7B to a four-site UK AI compute buildout",
+      "summary": "Nebius will add three Nvidia-powered UK deployments, taking its four-site footprint to 65MW by 2027 as demand grows for domestic enterprise and agentic-AI capacity.",
+      "fullSummary": "AI cloud provider Nebius said it will invest approximately £1.7 billion in UK capacity, adding three Nvidia-powered infrastructure deployments to the Blackwell Ultra site it launched in November 2025. The four locations are expected to reach a combined 65 megawatts when fully ramped in 2027. Nebius is positioning the buildout around enterprise and agentic-AI workloads that benefit from domestic capacity and data-sovereignty options, with UK customers already spanning financial services, healthcare, and life sciences. The announcement complements the government's new hardware plan but is a separate private-sector infrastructure commitment. The important watchpoints are construction execution, utilization, access to the latest Nvidia systems, and whether local demand grows fast enough to support the aggressive capital program.",
+      "keyFacts": [
+        "June 8, 2026",
+        "Approximately £1.7B investment",
+        "Three new deployments",
+        "Four UK sites total",
+        "65MW by 2027",
+        "Nvidia AI infrastructure"
+      ],
+      "url": "https://nebius.com/newsroom/nebius-expands-in-uk-with-more-nvidia-powered-infrastructure-more-customers-and-more-cloud-capabilities-for-agentic-and-enterprise-ai",
+      "sourceName": "Nebius",
+      "relatedSources": [
+        "Nebius",
+        "UK Government"
+      ],
+      "lane": "infrastructure",
+      "publishedAt": "2026-06-08T08:30:00.000Z",
+      "importance": 352,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated"
+    },
+    {
+      "id": "curated-physicsx-300m-series-c-industrial-ai-2026-06-08",
+      "title": "PhysicsX raises $300M to push AI deeper into industrial engineering",
+      "summary": "PhysicsX closed an oversubscribed $300M Series C at an approximately $2.4B valuation to expand AI-native simulation across aerospace, chips, energy, automotive, and data centers.",
+      "fullSummary": "London-based PhysicsX raised a $300 million Series C led by Temasek at an approximately $2.4 billion valuation, more than doubling its valuation in less than a year. The company develops AI-native engineering tools and Large Physics Models intended to accelerate or replace parts of conventional simulation workflows, allowing engineers to explore more designs across aerospace, defense, semiconductors, automotive, energy, materials, and data centers. New investors include M&G Investments and Intrepid Growth Partners, while Applied Materials, Atomico, General Catalyst, Nvidia, Siemens, and others returned. The round is a strong funding signal for industrial AI beyond chatbots: investors are backing models tied directly to expensive hardware design and manufacturing cycles. The key question is how broadly PhysicsX can prove accuracy and production value across different physical domains.",
+      "keyFacts": [
+        "June 8, 2026",
+        "$300M Series C",
+        "Approximately $2.4B valuation",
+        "Temasek led",
+        "Large Physics Models",
+        "Nvidia and Siemens participated"
+      ],
+      "url": "https://www.physicsx.ai/newsroom/physicsx-announces-300m-series-c-to-accelerate-physics-ai-for-industrial-engineering",
+      "sourceName": "PhysicsX",
+      "relatedSources": [
+        "PhysicsX",
+        "Temasek",
+        "Nvidia",
+        "Siemens"
+      ],
+      "lane": "deals",
+      "publishedAt": "2026-06-08T08:00:00.000Z",
+      "importance": 351,
+      "sourceConfidence": "high",
+      "filterCategory": "funding",
+      "summaryEngine": "chat-curated"
+    },
+    {
+      "id": "curated-pointfive-60m-series-b-ai-cloud-costs-2026-06-08",
+      "title": "PointFive raises $60M as AI compute waste becomes its own software market",
+      "summary": "PointFive's Accel-led Series B backs an AI Efficiency OS that finds cloud and model-infrastructure waste and turns remediation into engineering workflows.",
+      "fullSummary": "PointFive raised a $60 million Series B led by Accel, bringing total funding to $96 million as companies look for better control over rapidly rising cloud and AI infrastructure bills. Its platform analyzes configuration, telemetry, code, and commercial commitments to identify waste, then routes fixes into tools such as GitHub, Jira, and Slack. The financing is notable because cost governance is becoming a distinct layer of the AI stack: enterprises are discovering that model choice, idle accelerators, inefficient inference, and uncontrolled agent activity can turn AI adoption into a difficult-to-predict operating expense. PointFive will use the round to expand product development and go-to-market efforts. Its challenge is proving that automated recommendations translate into durable savings without disrupting production systems.",
+      "keyFacts": [
+        "June 8, 2026",
+        "$60M Series B",
+        "Accel led",
+        "$96M total funding",
+        "AI and cloud efficiency",
+        "Automated remediation workflows"
+      ],
+      "url": "https://www.calcalistech.com/ctechnews/article/sjpjbnnwzl",
+      "sourceName": "CTech",
+      "relatedSources": [
+        "CTech",
+        "PointFive",
+        "Accel"
+      ],
+      "lane": "deals",
+      "publishedAt": "2026-06-08T07:30:00.000Z",
+      "importance": 350,
+      "sourceConfidence": "high",
+      "filterCategory": "funding",
+      "summaryEngine": "chat-curated"
+    },
+    {
+      "id": "curated-nvidia-hyundai-expanded-physical-ai-partnership-2026-06-08",
+      "title": "Nvidia and Hyundai widen their physical-AI alliance",
+      "summary": "Jensen Huang said Nvidia and Hyundai will expand work across mobility, manufacturing, and robotics as Hyundai prepares Boston Dynamics humanoids for factory deployment.",
+      "fullSummary": "Nvidia CEO Jensen Huang used a visit to South Korea to signal a broader partnership with Hyundai across mobility, manufacturing, and robotics. Hyundai owns Boston Dynamics and plans to mass-produce humanoid robots in Georgia, making the relationship a strategically important bridge between Nvidia's physical-AI stack and a global automaker with real factories in which to deploy it. The announcement did not introduce a new robot model or a quantified purchase commitment, so it should be read as a direction-setting expansion rather than a finished deployment milestone. Even so, it matters because physical AI needs more than impressive demos: training systems, simulation, factory integration, service operations, and large deployment environments must work together before humanoids can become a meaningful industrial category.",
+      "keyFacts": [
+        "June 8, 2026",
+        "Nvidia",
+        "Hyundai",
+        "Boston Dynamics",
+        "Mobility, manufacturing, and robotics",
+        "Georgia humanoid production plan"
+      ],
+      "url": "https://www.axios.com/2026/06/08/nvidia-jensen-huang-hyundai-robots",
+      "sourceName": "Axios",
+      "relatedSources": [
+        "Axios",
+        "Nvidia",
+        "Hyundai",
+        "Boston Dynamics"
+      ],
+      "lane": "robotics",
+      "publishedAt": "2026-06-08T21:37:30.000Z",
+      "importance": 349,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated"
+    },
+    {
+      "id": "curated-bhutan-national-ai-ecg-diagnostics-rollout-2026-06-08",
+      "title": "Bhutan rolls out AI-assisted ECG diagnostics nationwide",
+      "summary": "Bhutan's Ministry of Health partnered with Cardiolife to deploy AI-powered ECG diagnostics across the country, a rare national-scale clinical AI implementation.",
+      "fullSummary": "Bhutan's Ministry of Health is partnering with Cardiolife to roll out AI-assisted electrocardiogram diagnostics nationwide. The deployment is intended to expand access to earlier cardiac screening and diagnosis across a country of just over 700,000 people, where specialist availability and geography can make rapid interpretation difficult. The story stands out from routine healthcare-AI pilots because the announced scope is national rather than limited to a single hospital or research study. It is still important to avoid overstating clinical impact: the announcement describes deployment and access, not independently measured improvements in outcomes. What to watch is how the system is validated in local care settings, how clinicians review AI findings, and whether the program publishes evidence on diagnostic accuracy, referral times, and patient outcomes.",
+      "keyFacts": [
+        "June 8, 2026",
+        "Bhutan Ministry of Health",
+        "Cardiolife",
+        "Nationwide rollout",
+        "AI-powered ECG diagnostics",
+        "Population just over 700,000"
+      ],
+      "url": "https://www.businesswire.com/newsroom/industry/technology/artificial-intelligence",
+      "sourceName": "Business Wire",
+      "relatedSources": [
+        "Business Wire",
+        "Cardiolife",
+        "Bhutan Ministry of Health"
+      ],
+      "lane": "healthcare",
+      "publishedAt": "2026-06-08T11:00:00.000Z",
+      "importance": 348,
+      "sourceConfidence": "medium",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated"
+    },
+    {
+      "id": "curated-openai-built-to-benefit-everyone-plan-2026-06-08",
+      "title": "OpenAI says AI could perform much of its research by March 2028",
+      "summary": "OpenAI's new benefit plan says it expects AI systems working with people may conduct a significant fraction of its research by March 2028, sharpening the debate over governance and distribution.",
+      "fullSummary": "OpenAI published a new plan describing how it intends to pursue its mission as AI capabilities advance, including the striking internal belief that by March 2028 a significant fraction of its research may be performed by AI systems working alongside its researchers. The document frames the company's priorities around broad benefit, safety, economic opportunity, and institutional preparation rather than announcing a product or model release. Its importance comes from the timeline and the source: one of the leading frontier labs is publicly planning for AI to become a major contributor to its own research process within less than two years. The plan is aspirational and self-authored, so it should not be treated as evidence that automated research at that level has already been achieved. It does, however, set a concrete benchmark against which OpenAI's governance and progress can be judged.",
+      "keyFacts": [
+        "June 8, 2026",
+        "OpenAI benefit plan",
+        "March 2028 internal belief",
+        "AI-assisted research",
+        "Mission and governance commitments"
+      ],
+      "url": "https://openai.com/index/built-to-benefit-everyone-our-plan/",
+      "sourceName": "OpenAI",
+      "relatedSources": [
+        "OpenAI"
+      ],
+      "lane": "signal",
+      "publishedAt": "2026-06-08T10:00:00.000Z",
+      "importance": 347,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated"
+    },
     {
       "id": "curated-github-copilot-tokenpocalypse-ai-cost-reset-2026-06-07",
       "title": "Copilot token billing turns AI cost control into a boardroom problem",
