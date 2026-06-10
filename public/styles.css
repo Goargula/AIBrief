@@ -142,6 +142,17 @@ a {
   font-size: 1.05rem;
 }
 
+.top-actions .icon-action svg {
+  width: 18px;
+  height: 18px;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  vertical-align: middle;
+}
+
 .top-actions button:disabled {
   color: var(--muted);
   cursor: progress;

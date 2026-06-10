@@ -8,7 +8,7 @@
     <link rel="icon" href="/favicon.svg" type="image/svg+xml">
     <link rel="shortcut icon" href="/favicon.svg" type="image/svg+xml">
     <link rel="manifest" href="/manifest.json">
-    <link rel="stylesheet" href="/styles.css?v=36">
+    <link rel="stylesheet" href="/styles.css?v=37">
   </head>
   <body>
     <main class="reader-shell">
@@ -25,11 +25,10 @@
           <button id="filterButton" class="icon-action" type="button" aria-label="Filter stories" title="Filter stories" aria-expanded="false" aria-controls="filterMenu">
             <span aria-hidden="true">&#9776;</span>
           </button>
-          <button id="refreshButton" class="icon-action" type="button" aria-label="Refresh stories" title="Refresh stories">
-            <span aria-hidden="true">&#8635;</span>
-          </button>
           <button id="profileButton" class="icon-action" type="button" aria-label="Open profile" title="Profile">
-            <span aria-hidden="true">&#9678;</span>
+            <svg aria-hidden="true" viewBox="0 0 24 24">
+              <path d="M12 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8Zm7 8a7 7 0 0 0-14 0"/>
+            </svg>
           </button>
         </div>
       </header>
@@ -111,6 +110,6 @@
 
     <div id="toast" class="toast" role="status" aria-live="polite" hidden></div>
 
-    <script src="/app.js?v=38" type="module"></script>
+    <script src="/app.js?v=39" type="module"></script>
   </body>
 </html>

@@ -82,7 +82,6 @@ const storyDeck = document.querySelector("#storyDeck");
 const storyTemplate = document.querySelector("#storyTemplate");
 const filterButton = document.querySelector("#filterButton");
 const filterMenu = document.querySelector("#filterMenu");
-const refreshButton = document.querySelector("#refreshButton");
 const storyPosition = document.querySelector("#storyPosition");
 const profileButton = document.querySelector("#profileButton");
 const profileDialog = document.querySelector("#profileDialog");
@@ -843,24 +842,22 @@ async function shareStory(item, button) {
   if (navigator.share) await navigator.share({ title: item.title, text: item.summary, url });
 }
 
-async function loadFeed(force = false) {
-  refreshButton.disabled = true;
+async function loadFeed() {
   try {
-    const payload = await fetchFeed(force);
+    const payload = await fetchFeed();
     state.items = payload.items && payload.items.length ? payload.items : fallbackItems;
     updateFilterCounts();
   } catch {
     state.items = fallbackItems;
     updateFilterCounts();
   } finally {
-    refreshButton.disabled = false;
     render();
     openInitialSharedStory();
   }
 }
 
-async function fetchFeed(force) {
-  const apiResponse = await fetch(`/api/feed${force ? "?refresh=1" : ""}`, { cache: "no-store" });
+async function fetchFeed() {
+  const apiResponse = await fetch("/api/feed", { cache: "no-store" });
   if (apiResponse.ok && apiResponse.headers.get("content-type")?.includes("application/json")) {
     return apiResponse.json();
   }
@@ -933,7 +930,6 @@ document.querySelectorAll(".filter").forEach((button) => {
     toggleFilterMenu(false);
   });
 });
-refreshButton.addEventListener("click", () => loadFeed(true));
 profileButton.addEventListener("click", openProfile);
 signInButton?.addEventListener("click", signInWithGoogle);
 signOutButton?.addEventListener("click", signOut);
