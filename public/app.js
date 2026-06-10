@@ -11,6 +11,8 @@ const REDIRECT_START_TIMEOUT_MS = 5000;
 const ANALYTICS_COLLECTION = "analytics";
 const PAGE_HITS_DOC = "pageHits";
 const STORY_READS_DOC = "storyReads";
+const SECONDARY_PREVIEW_HOST = "ai-brief-arsh-20260604.web.app";
+const SECONDARY_PREVIEW_STORY_COUNT = 20;
 const CATEGORY_COLORS = {
   funding: "#3bd671",
   models: "#b28cff",
@@ -170,8 +172,22 @@ function sharedStoryUrl(item) {
   const url = new URL(window.location.href);
   url.search = "";
   url.hash = "";
+  if (window.location.hostname === SECONDARY_PREVIEW_HOST && secondaryPreviewStoryIds().has(item.id)) {
+    url.pathname = `/stories/${encodeURIComponent(item.id)}/`;
+    return url.toString();
+  }
+  url.pathname = "/";
   url.searchParams.set("story", item.id);
   return url.toString();
+}
+
+function secondaryPreviewStoryIds() {
+  return new Set(
+    [...state.items]
+      .sort((a, b) => new Date(b.publishedAt || 0) - new Date(a.publishedAt || 0))
+      .slice(0, SECONDARY_PREVIEW_STORY_COUNT)
+      .map((item) => item.id)
+  );
 }
 
 function userSaveRef(storyId) {

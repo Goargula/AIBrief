@@ -28,6 +28,21 @@ https://goargulaainews.web.app
 The Firebase project is `test-e667e`, and the Hosting site is
 `goargulaainews`.
 
+### Secondary SEO story-page preview
+
+The secondary Hosting site is an isolated, noindex preview of static story URLs.
+Build it into the ignored `.preview-secondary/` directory and deploy it with its
+dedicated configuration:
+
+```powershell
+npm run build:secondary-preview
+firebase deploy --only hosting --config firebase.secondary-preview.json --project test-e667e
+```
+
+This deploy targets only `https://ai-brief-arsh-20260604.web.app`. It generates
+static pages for the latest 20 stories at `/stories/{story-id}/` and does not
+change the primary `goargulaainews` Hosting site.
+
 ## Refresh behavior
 
 The local server reloads sources every 3 hours by default. Change it with:

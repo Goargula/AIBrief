@@ -6,6 +6,7 @@
   "type": "module",
   "scripts": {
     "start": "node server.js",
-    "dev": "node server.js"
+    "dev": "node server.js",
+    "build:secondary-preview": "node scripts/build-secondary-preview.js"
   }
 }
