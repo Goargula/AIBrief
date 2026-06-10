@@ -3,7 +3,7 @@
     "rules": "firestore.rules"
   },
   "hosting": {
-    "site": "goargulaAINews",
+    "site": "goargulaainews",
     "public": "public",
     "ignore": [
       "firebase.json",
