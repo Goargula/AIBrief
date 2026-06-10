@@ -4,6 +4,20 @@ Use this file whenever the user asks: "refresh the feed" or "refresh the stories
 
 Default to a thorough refresh. The objective is to capture all important developments across the AI world, not to reach a target number of stories. A narrow top-up from two or three obvious sources is not enough unless the user explicitly asks for a small update.
 
+## Non-Negotiable Completion Gate
+
+Every feed refresh, including a routine or apparently small refresh, must complete the named-site reconciliation in Audit J. This is not optional, is not limited to requests containing words such as "thorough," and cannot be replaced by broad web searches, category searches, or finding many stories elsewhere.
+
+The refresh is incomplete until:
+
+1. Every individually named publication and newsroom in Audit J has its own source-ledger row.
+2. Every row records the exact page inspected or site-restricted fallback query, the newest relevant headline/date observed, material inclusions, and important exclusions.
+3. Every row is marked `checked`, `fallback checked`, or `unavailable after fallback`. A source group cannot be marked complete as a substitute for its individual sites.
+4. Every material candidate found during reconciliation has been compared against the existing feed and either included, merged with an existing story, or explicitly excluded with a reason.
+5. A final scan confirms there are no unchecked source-ledger rows.
+
+Do not edit `public/curated-feed.json`, deploy, commit, push, or tell the user the refresh is complete before this gate is satisfied. If interrupted before all rows are closed, describe the refresh as incomplete or provisional.
+
 ## Goal
 
 Maintain `public/curated-feed.json` by using this chat model to fetch current AI news, research papers, funding rounds, acquisitions, policy stories, infrastructure updates, practical applications, and product announcements, then summarize them manually in high-quality editorial form.
@@ -150,7 +164,9 @@ Run a final geographic and ecosystem gap check:
 
 Return to broad/current sources after the specialist audits. Reconcile major breaking stories against the category findings and catch important events that do not fit neatly elsewhere.
 
-As part of reconciliation, explicitly inspect:
+This audit is mandatory on every refresh, even if the category audits already found many stories or the user did not explicitly request a thorough pass.
+
+As part of reconciliation, explicitly inspect every individually named source below:
 
 - The latest or AI category pages from every source group below, using direct page inspection or a site-restricted fallback query where the page is inaccessible:
   - AI specialists: VentureBeat AI, AI News (`artificialintelligence-news.com`), Unite.AI, and The Register AI/ML.
@@ -161,7 +177,12 @@ As part of reconciliation, explicitly inspect:
 - Major business and general-news AI pages for operational-impact stories that technology-only sources may underweight.
 - Newly published survey/report announcements from PR Newswire, Business Wire, universities, research institutes, consultancies, and workforce organizations.
 - A 30-day query for major AI-linked layoffs, restructurings, fraud/loss figures, and scaled deployments absent from the existing feed.
-- Record each named source group as checked, unavailable, or yielding no material additions. Do not mark reconciliation complete until all five groups have been covered.
+- Record each named source individually. Do not record only the five source groups, and do not infer that checking one publication covers another publication in the same group.
+- Prefer the source's latest page, AI section, newsroom, RSS feed, or direct recent-story listing. If it is inaccessible or does not expose current items, run a site-restricted fallback query for `today`, `yesterday`, and the exact current date.
+- For each source, record the exact page or fallback query used plus the newest relevant headline and publication date observed. This evidence is required even when the source yields no additions.
+- If a source page and its fallback query both fail, mark that individual source `unavailable after fallback` and record the failure. Do not silently omit it.
+- Before closing Audit J, compare every material candidate found against the current feed and record `included`, `merged/duplicate`, or `excluded` with a concrete reason.
+- Do not mark reconciliation complete until every individual source-ledger row is closed.
 
 5. Produce a coverage ledger before writing.
 
@@ -175,7 +196,18 @@ Do not write the final feed while any audit is incomplete. A category may legiti
 
 The ledger must name the targeted enterprise-outcomes, workforce, and report/survey searches used in Audits D, F, and J. Do not mark those audits complete based only on product-news or broad-news browsing.
 
-The ledger must also include a named-site reconciliation row listing the directly inspected sites, site-restricted fallbacks, material inclusions, and notable exclusions. A refresh is incomplete if this row only says "broad news checked" without naming the sources.
+The ledger must also include a separate named-site source ledger with one row per individually named source from Audit J. A single combined row, a row per source group, or a note such as "broad news checked" is insufficient.
+
+Use this structure:
+
+| Named source | Page or fallback query inspected | Newest relevant headline/date observed | Decision and reason | Status |
+| --- | --- | --- | --- | --- |
+| VentureBeat AI | `https://venturebeat.com/ai/` | `Headline`, YYYY-MM-DD | included / merged / excluded because ... | checked |
+| AI News | `site:artificialintelligence-news.com ...` | `Headline`, YYYY-MM-DD | no material addition because ... | fallback checked |
+
+Create rows for all named AI specialists, technology publications, broad/business publications, announcement wires, and primary-source newsrooms. Add rows for relevant government offices and research labs inspected during the pass.
+
+Run a final source-ledger scan before writing the feed. If any named source has no row, lacks inspection evidence, or has no closed status, Audit J and the entire refresh remain incomplete.
 
 6. De-duplicate stories before writing the curated JSON. Merge coverage when several sources describe the same underlying story. Do not delete older, still-valid stories just because they are no longer fresh.
 
@@ -251,9 +283,19 @@ This command should return no exposed frontend Firebase key or abandoned Firesto
 
 15. Commit and push only the intended refresh/deployment files. Leave unrelated generated or attachment folders untouched.
 
+16. In the final refresh report, state:
+
+- That the individual named-site reconciliation was completed.
+- The number of named-source rows closed.
+- Any sources marked `unavailable after fallback`.
+- The material stories added because of the named-site pass, or explicitly state that it yielded no material additions.
+
+If these facts cannot be reported from the source ledger, do not describe the refresh as complete.
+
 ## Quality Bar
 
 - Do not write generic summaries.
+- Never call a refresh complete unless the individual named-site source ledger is fully closed. Story count, category coverage, broad search results, and source-group-level notes do not satisfy this requirement.
 - Preserve all important numbers.
 - Do not optimize for a fixed number of additions. Optimize for complete category audits and inclusion of every material development found.
 - Do not let abundant broad news, funding, press releases, policy stories, or company announcements crowd out the dedicated models and papers audits.
