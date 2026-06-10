@@ -1,9 +1,162 @@
 {
-  "generatedAt": "2026-06-10T06:53:55.734Z",
-  "nextRefreshAt": "2026-06-10T09:53:55.736Z",
+  "generatedAt": "2026-06-10T07:08:28.694Z",
+  "nextRefreshAt": "2026-06-10T10:08:28.694Z",
   "summaryEngine": "chat-curated",
   "curated": true,
   "items": [
+    {
+      "id": "curated-seattle-year-long-ai-datacenter-ban-2026-06-10",
+      "title": "Seattle enacts a year-long ban on new AI data centers",
+      "summary": "Seattle approved a one-year moratorium on new data centers, giving the city time to assess their electricity, water, labor, and community impacts.",
+      "fullSummary": "Seattle has enacted a one-year moratorium on new data-center construction after residents and technology workers raised concerns about the scale of proposed AI infrastructure. Five planned facilities could have required electricity equal to roughly one-third of the city's average daily demand, according to reporting on the council debate. The pause gives officials time to study energy and water use, noise, labor standards, utility costs, and community benefits before writing permanent rules. The decision is an important local test of whether cities can slow AI infrastructure development even as national policy pushes for faster construction. It also shows that data-center opposition is moving from protests into binding land-use policy.",
+      "keyFacts": [
+        "June 10, 2026",
+        "Seattle",
+        "One-year moratorium",
+        "Five proposed data centers"
+      ],
+      "url": "https://www.theverge.com/ai-artificial-intelligence/945809/amazon-employees-seattle-data-center-moratorium",
+      "sourceName": "The Verge",
+      "relatedSources": [
+        "Seattle City Council",
+        "The Verge",
+        "Amazon Employees for Climate Justice"
+      ],
+      "lane": "policy",
+      "publishedAt": "2026-06-10T05:15:00.000Z",
+      "importance": 387,
+      "sourceConfidence": "high",
+      "filterCategory": "pushback",
+      "summaryEngine": "chat-curated"
+    },
+    {
+      "id": "curated-standard-bots-200m-robotic-labor-2026-06-09",
+      "title": "Standard Bots raises $200M to scale AI-powered robotic labor",
+      "summary": "Standard Bots raised $200 million to expand AI-driven industrial robots, a large financing round for the push to make physical automation easier to deploy.",
+      "fullSummary": "Standard Bots has raised $200 million to expand its AI-powered industrial robotics business. The company is trying to make robotic labor easier to install and operate by combining hardware with software that can learn and adapt to production tasks. The financing is a significant bet that advances in AI can broaden industrial automation beyond highly engineered, repetitive deployments. For manufacturers, the practical question is whether these systems can reduce integration time and reliably handle more variable work without creating new safety or maintenance burdens. The size of the round also signals that investors continue to fund physical AI and robotics at a scale once reserved mainly for foundation-model companies.",
+      "keyFacts": [
+        "June 9, 2026",
+        "$200 million",
+        "Standard Bots",
+        "Industrial robotics"
+      ],
+      "url": "https://www.unite.ai/standard-bots-raises-200m-to-deploy-ai-powered-robotic-labor/",
+      "sourceName": "Unite.AI",
+      "relatedSources": [
+        "Standard Bots",
+        "Unite.AI"
+      ],
+      "lane": "startups",
+      "publishedAt": "2026-06-09T18:00:00.000Z",
+      "importance": 382,
+      "sourceConfidence": "medium",
+      "filterCategory": "funding",
+      "summaryEngine": "chat-curated"
+    },
+    {
+      "id": "curated-meta-removes-smart-glasses-face-recognition-code-2026-06-08",
+      "title": "Meta removes face-recognition code from its smart-glasses app",
+      "summary": "Meta removed the unreleased NameTag face-recognition system from its AI glasses companion app after reporting exposed code already installed on millions of phones.",
+      "fullSummary": "Meta removed nearly all traces of an unreleased face-recognition system called NameTag from the Meta AI companion app after WIRED reported that the code had already shipped to more than 50 million phones. The disabled feature was designed to create faceprints from images captured by smart glasses, compare them with a local database, and store unrecognized faces for later use. Meta said the feature did not exist and has not explained whether the removal was planned or whether it still intends to launch face recognition. The episode matters because software can create privacy and safety risks before a feature is publicly activated, especially when wearable cameras and biometric identification are combined.",
+      "keyFacts": [
+        "June 8, 2026",
+        "Meta NameTag",
+        "More than 50 million phones",
+        "Face recognition"
+      ],
+      "url": "https://www.wired.com/story/meta-removes-face-recognition-code-meta-ai-app-smart-glasses",
+      "sourceName": "WIRED",
+      "relatedSources": [
+        "Meta",
+        "WIRED",
+        "ACLU of Massachusetts"
+      ],
+      "lane": "policy",
+      "publishedAt": "2026-06-08T17:31:11.000Z",
+      "importance": 381,
+      "sourceConfidence": "high",
+      "filterCategory": "pushback",
+      "summaryEngine": "chat-curated"
+    },
+    {
+      "id": "curated-china-wind-powered-underwater-ai-datacenter-2026-06-09",
+      "title": "China starts operating a wind-powered underwater AI data center",
+      "summary": "A 24-megawatt data center off Shanghai has begun operating underwater using offshore wind and seawater cooling to reduce power and freshwater demands.",
+      "fullSummary": "The Shanghai Lingang undersea data-center demonstration project has started operating more than 10 kilometers off the coast of Shanghai. The 24-megawatt facility, built by HiCloud Technology and China Communications Construction, sits 10 meters underwater and is powered by a nearby offshore wind farm. Chinese government figures say it uses more than one-fifth less power than a comparable land-based facility, while seawater cooling reduces demand for freshwater. The project represents a commercial-scale attempt to address the energy and water constraints created by AI infrastructure. Environmental effects such as local seawater heating still require monitoring, but the deployment could influence how other regions evaluate unconventional data-center designs.",
+      "keyFacts": [
+        "June 9, 2026",
+        "24 megawatts",
+        "Shanghai",
+        "1.6 billion yuan investment",
+        "More than 20% lower power use"
+      ],
+      "url": "https://www.theguardian.com/world/2026/jun/09/worlds-first-wind-powered-underwater-datacentre-starts-operating-in-china",
+      "sourceName": "The Guardian",
+      "relatedSources": [
+        "HiCloud Technology",
+        "China Communications Construction",
+        "The Guardian"
+      ],
+      "lane": "infrastructure",
+      "publishedAt": "2026-06-09T05:00:00.000Z",
+      "importance": 379,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated"
+    },
+    {
+      "id": "curated-nhs-doctors-ai-error-liability-warning-2026-06-09",
+      "title": "UK doctors warn they could become the liability sink for AI errors",
+      "summary": "The Medical Protection Society says clinicians and the NHS can currently be sued for patient harm caused by AI mistakes and wants product-liability law updated.",
+      "fullSummary": "The Medical Protection Society has warned that doctors and the NHS could be held liable when AI systems make errors in diagnosis or treatment recommendations. Its report argues that clinicians risk becoming a liability sink even when a harmful decision originates in technology supplied by another company. The group wants AI systems reclassified as products under UK consumer-protection law so responsibility can extend more clearly to developers and manufacturers. NHS Resolution is drafting guidance, and the Department of Health and Social Care says it will review the recommendations. The dispute highlights a central obstacle to scaled clinical AI adoption: organizations need clear accountability when automated recommendations contribute to patient harm.",
+      "keyFacts": [
+        "June 9, 2026",
+        "Medical Protection Society",
+        "NHS",
+        "AI liability",
+        "Consumer Protection Act 1987"
+      ],
+      "url": "https://www.theguardian.com/society/2026/jun/09/doctors-nhs-could-be-sued-mistakes-ai-tools-medical-protection-society-report",
+      "sourceName": "The Guardian",
+      "relatedSources": [
+        "Medical Protection Society",
+        "NHS Resolution",
+        "UK Department of Health and Social Care"
+      ],
+      "lane": "policy",
+      "publishedAt": "2026-06-09T08:00:00.000Z",
+      "importance": 378,
+      "sourceConfidence": "high",
+      "filterCategory": "pushback",
+      "summaryEngine": "chat-curated"
+    },
+    {
+      "id": "curated-ai-labs-dna-screening-bioweapons-letter-2026-06-04",
+      "title": "AI labs back mandatory DNA screening to limit bioweapon risks",
+      "summary": "OpenAI, Anthropic, and other AI and biotechnology leaders called for mandatory DNA-synthesis screening as models lower barriers to biological design.",
+      "fullSummary": "AI and biotechnology leaders, including OpenAI and Anthropic, have backed a call for mandatory screening of synthetic DNA orders to reduce the risk that advanced models help users develop biological weapons. The proposal focuses on a practical control point: DNA-synthesis providers can check requested sequences and customer identities before producing potentially dangerous material. Supporters argue that voluntary screening leaves gaps as AI systems become more capable of assisting with biological research and design. The initiative does not eliminate misuse risk, but it marks a concrete safeguard supported by competing AI labs and life-sciences organizations. Its effect will depend on whether governments turn the recommendation into enforceable, internationally compatible requirements.",
+      "keyFacts": [
+        "June 4, 2026",
+        "OpenAI",
+        "Anthropic",
+        "DNA synthesis screening",
+        "Biological-risk safeguards"
+      ],
+      "url": "https://www.wired.com/story/openai-anthropic-letter-ai-developed-biological-weapons",
+      "sourceName": "WIRED + The Register",
+      "relatedSources": [
+        "OpenAI",
+        "Anthropic",
+        "WIRED",
+        "The Register"
+      ],
+      "lane": "safety",
+      "publishedAt": "2026-06-04T15:00:00.000Z",
+      "importance": 374,
+      "sourceConfidence": "high",
+      "filterCategory": "pushback",
+      "summaryEngine": "chat-curated"
+    },
     {
       "id": "curated-new-york-synthetic-performer-ad-label-law-2026-06-10",
       "title": "New York makes advertisers label AI-generated performers",
