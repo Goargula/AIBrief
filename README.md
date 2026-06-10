@@ -18,8 +18,9 @@ http://localhost:4173
 
 The app can be deployed as a static Firebase Hosting site because `public/app.js`
 falls back to `public/curated-feed.json` when the local Node `/api/feed` route is
-not available. The current Firebase Hosting config deploys the `public/` folder
-to:
+not available. Before deployment, build `.production-site/` with the reader plus
+indexable story, topic, archive, trust, and sitemap pages. The current Firebase
+Hosting config deploys that generated directory to:
 
 ```text
 https://goargulaainews.web.app
@@ -27,6 +28,16 @@ https://goargulaainews.web.app
 
 The Firebase project is `test-e667e`, and the Hosting site is
 `goargulaainews`.
+
+### SEO publishing builds
+
+Build the production site:
+
+```powershell
+npm run build:seo-site
+```
+
+Run this build immediately before every primary Firebase Hosting deploy.
 
 ### Secondary SEO story-page preview
 
@@ -40,7 +51,7 @@ firebase deploy --only hosting --config firebase.secondary-preview.json --projec
 ```
 
 This deploy targets only `https://ai-brief-arsh-20260604.web.app`. It generates
-static pages for the latest 20 stories at `/stories/{story-id}/` and does not
+noindex pages for the latest 20 stories at `/stories/{story-id}/` and does not
 change the primary `goargulaainews` Hosting site.
 
 ## Refresh behavior

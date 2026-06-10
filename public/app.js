@@ -12,6 +12,7 @@ const ANALYTICS_COLLECTION = "analytics";
 const PAGE_HITS_DOC = "pageHits";
 const STORY_READS_DOC = "storyReads";
 const SECONDARY_PREVIEW_HOST = "ai-brief-arsh-20260604.web.app";
+const PRIMARY_HOST = "goargulaainews.web.app";
 const SECONDARY_PREVIEW_STORY_COUNT = 20;
 const CATEGORY_COLORS = {
   funding: "#3bd671",
@@ -175,7 +176,7 @@ function sharedStoryUrl(item) {
   const url = new URL(window.location.href);
   url.search = "";
   url.hash = "";
-  if (window.location.hostname === SECONDARY_PREVIEW_HOST && secondaryPreviewStoryIds().has(item.id)) {
+  if (window.location.hostname === PRIMARY_HOST || (window.location.hostname === SECONDARY_PREVIEW_HOST && secondaryPreviewStoryIds().has(item.id))) {
     url.pathname = `/stories/${encodeURIComponent(item.id)}/`;
     return url.toString();
   }

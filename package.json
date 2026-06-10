@@ -7,6 +7,7 @@
   "scripts": {
     "start": "node server.js",
     "dev": "node server.js",
-    "build:secondary-preview": "node scripts/build-secondary-preview.js"
+    "build:secondary-preview": "node scripts/build-seo-site.js --preview",
+    "build:seo-site": "node scripts/build-seo-site.js"
   }
 }

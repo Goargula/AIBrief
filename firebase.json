@@ -4,7 +4,7 @@
   },
   "hosting": {
     "site": "goargulaainews",
-    "public": "public",
+    "public": ".production-site",
     "ignore": [
       "firebase.json",
       "**/.*",
@@ -19,12 +19,15 @@
             "value": "no-cache"
           }
         ]
-      }
-    ],
-    "rewrites": [
+      },
       {
-        "source": "**",
-        "destination": "/index.html"
+        "source": "/stories/**",
+        "headers": [
+          {
+            "key": "Cache-Control",
+            "value": "no-cache"
+          }
+        ]
       }
     ]
   }

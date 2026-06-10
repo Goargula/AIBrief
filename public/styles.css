@@ -559,6 +559,18 @@ details p {
   line-height: 1.45;
 }
 
+.profile-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 12px;
+}
+
+.profile-links a {
+  color: var(--muted);
+  font-size: 0.78rem;
+  font-weight: 750;
+}
+
 .profile-note {
   margin-top: 12px;
 }

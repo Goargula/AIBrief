@@ -26,7 +26,7 @@ Treat the file like a small database, not a disposable export. Keep existing cur
 
 The app serves `public/curated-feed.json` first when the file exists. No OpenAI API key is required.
 
-The public Firebase-hosted app serves this same static file after deployment. Do not add Firebase Web API keys, Firestore client URLs, or other frontend secrets to `public/app.js` for feed refreshes. The current production-safe flow is to update `public/curated-feed.json`, deploy Firebase Hosting, and verify the live URL.
+The public Firebase-hosted app serves this same static file after deployment. Do not add Firebase Web API keys, Firestore client URLs, or other frontend secrets to `public/app.js` for feed refreshes. The current production-safe flow is to update `public/curated-feed.json`, build the SEO site, deploy Firebase Hosting, and verify the live reader plus generated story pages and sitemaps.
 
 ## Workflow
 
@@ -224,6 +224,10 @@ Run a final source-ledger scan before writing the feed. If any named source has 
   - `general`: everything else, including ordinary product launches, infrastructure, partnerships, deployments, applications, broad AI news, supportive policy, government AI adoption, national AI strategies, public investment proposals, research programs, and procurement actions that are not a better fit above.
 - `sourceConfidence`: `high`, `medium`, or `low`.
 - `summaryEngine`: `chat-curated`.
+- `curatedAt`: the ISO timestamp when AI Brief first added the story. Preserve this value on later refreshes.
+- `updatedAt`: the ISO timestamp when AI Brief materially changes the summary, facts, sourcing, or interpretation. Omit it when the story has not been materially updated.
+
+Never use the original source's `publishedAt` value as `curatedAt`. `publishedAt` describes the underlying source/event; `curatedAt` and `updatedAt` describe AI Brief's own publication history and power accurate Article metadata and Google News sitemap entries.
 
 8. Rank by recency and importance:
 
@@ -239,7 +243,26 @@ Run a final source-ledger scan before writing the feed. If any named source has 
 public/curated-feed.json
 ```
 
-10. Restart the local server if needed. Verify:
+10. Build the production SEO site. This generates an indexable page for every qualifying curated story, topic/archive discovery pages, trust pages, `robots.txt`, `sitemap.xml`, and the rolling two-day `news-sitemap.xml`:
+
+```powershell
+npm run build:seo-site
+```
+
+The generated `.production-site/` directory is ignored by Git. Never edit generated files directly. Fix the source feed, app, or `scripts/build-seo-site.js`, then rebuild.
+
+Verify the SEO build before deployment:
+
+```powershell
+$manifest = Get-Content '.production-site/seo-build-manifest.json' -Raw | ConvertFrom-Json
+$manifest.stories.Count
+Get-ChildItem '.production-site/stories' -Recurse -Filter index.html | Measure-Object
+Get-Content '.production-site/robots.txt'
+```
+
+Confirm the manifest count matches the expected publishable feed count, every generated story has a unique title/canonical URL, and production story pages do not contain `noindex`.
+
+11. Restart the local server if needed. Verify:
 
 ```powershell
 Invoke-RestMethod -Uri 'http://localhost:4173/api/feed' | Select-Object summaryEngine,curated,generatedAt
@@ -250,30 +273,40 @@ $payload.items | Group-Object filterCategory | Sort-Object Count -Descending | S
 
 Also review the completed coverage ledger. Category counts are diagnostic, not quotas: an unexpectedly empty or sparse category requires re-checking that audit, but it does not justify adding weak stories merely to balance the numbers.
 
-11. Open the app and check the first card plus `Read more` when browser automation is available. Check representative `funding`, `models`, `papers`, `pushback`, and `general` cards and confirm that the visible tag text and color match `filterCategory`, not the internal `lane`. If browser automation is blocked, say that and rely on JSON plus HTTP endpoint verification.
+12. Open the app and check the first card plus `Read more` when browser automation is available. Check representative `funding`, `models`, `papers`, `pushback`, and `general` cards and confirm that the visible tag text and color match `filterCategory`, not the internal `lane`. Also open at least one generated `/stories/{id}/` page and confirm it renders the same reader card, focuses the requested story, stays on the story URL, and permits normal swiping. If browser automation is blocked, say that and rely on generated HTML plus HTTP endpoint verification.
 
-12. Publish the refreshed feed when the user expects the public app to update:
+13. Publish the refreshed feed when the user expects the public app to update:
 
 ```powershell
 & 'C:\Users\arshd\Documents\Codex\2026-05-07\is-there-a-plugin-for-firebase\bin\firebase.cmd' deploy --only hosting --project test-e667e
 ```
 
-Firebase Hosting uploads only changed files, so a normal feed refresh mostly uploads `public/curated-feed.json`, not a full application package. The public URL is:
+Always run the SEO build immediately before deployment so the deployed feed and generated story pages stay synchronized. Firebase Hosting uploads only changed files. The public URL is:
 
 ```text
 https://goargulaainews.web.app
 ```
 
-13. Verify the public deployment:
+14. Verify the public deployment:
 
 ```powershell
 Invoke-WebRequest -UseBasicParsing 'https://goargulaainews.web.app' -TimeoutSec 20
 Invoke-WebRequest -UseBasicParsing 'https://goargulaainews.web.app/curated-feed.json' -TimeoutSec 20
+Invoke-WebRequest -UseBasicParsing 'https://goargulaainews.web.app/robots.txt' -TimeoutSec 20
+Invoke-WebRequest -UseBasicParsing 'https://goargulaainews.web.app/sitemap.xml' -TimeoutSec 20
+Invoke-WebRequest -UseBasicParsing 'https://goargulaainews.web.app/news-sitemap.xml' -TimeoutSec 20
 ```
 
-Then check the live browser if available. Confirm the visible app still shows real stories, not sample fallback data.
+Then check the live browser if available. Confirm the visible app still shows real stories, not sample fallback data. Open representative live story URLs and verify their title, canonical URL, visible pre-rendered story text, structured data, and absence of `noindex`.
 
-14. Before committing or pushing, scan for accidental frontend secrets:
+15. Verify the secondary site after the production deployment. It should remain a `noindex` preview unless intentionally promoted. Rebuild and deploy it only when its preview behavior also needs updating:
+
+```powershell
+npm run build:secondary-preview
+& 'C:\Users\arshd\Documents\Codex\2026-05-07\is-there-a-plugin-for-firebase\bin\firebase.cmd' deploy --only hosting --config firebase.secondary-preview.json --project test-e667e
+```
+
+16. Before committing or pushing, scan for accidental frontend secrets:
 
 ```powershell
 rg -n "AIza|FIREBASE_API_KEY|FIRESTORE_FEED_URL|GOOGLE_ACCESS_TOKEN|feeds/current|firestore" -S .
@@ -281,9 +314,9 @@ rg -n "AIza|FIREBASE_API_KEY|FIRESTORE_FEED_URL|GOOGLE_ACCESS_TOKEN|feeds/curren
 
 This command should return no exposed frontend Firebase key or abandoned Firestore feed path. If it finds one, remove it before deploy/push and rotate any key that was already pushed.
 
-15. Commit and push only the intended refresh/deployment files. Leave unrelated generated or attachment folders untouched.
+17. Commit and push only the intended refresh/deployment files. Leave `.production-site/`, `.preview-secondary/`, unrelated generated files, and attachment folders untouched.
 
-16. In the final refresh report, state:
+18. In the final refresh report, state:
 
 - That the individual named-site reconciliation was completed.
 - The number of named-source rows closed.
