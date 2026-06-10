@@ -1,9 +1,439 @@
 {
-  "generatedAt": "2026-06-09T04:47:10.167Z",
-  "nextRefreshAt": "2026-06-09T07:47:10.167Z",
+  "generatedAt": "2026-06-10T06:53:55.734Z",
+  "nextRefreshAt": "2026-06-10T09:53:55.736Z",
   "summaryEngine": "chat-curated",
   "curated": true,
   "items": [
+    {
+      "id": "curated-new-york-synthetic-performer-ad-label-law-2026-06-10",
+      "title": "New York makes advertisers label AI-generated performers",
+      "summary": "A New York law now requires ads using realistic AI-generated people to disclose that they feature a synthetic performer, turning deepfake transparency into a concrete advertising rule.",
+      "fullSummary": "New York has put a practical disclosure rule around one of generative AI's fastest-growing commercial uses: realistic synthetic people in advertising. Advertisements distributed in the state must now clearly identify an AI-generated person as a \"synthetic performer\" when the depiction could reasonably be mistaken for a real human. The law is aimed at giving consumers notice without banning the technology outright, and it adds another state-level AI requirement while Washington debates whether federal rules should override state laws. For brands, agencies, and ad-tech platforms, the operational challenge is no longer only whether generated media is lawful, but whether labels remain visible across edits, formats, and distribution channels. Enforcement and the definition of a sufficiently realistic synthetic person will determine how broadly the rule changes campaigns.",
+      "keyFacts": [
+        "June 10, 2026",
+        "New York",
+        "Synthetic performer disclosure",
+        "Advertising"
+      ],
+      "url": "https://apnews.com/article/new-york-ai-law-hochul-synthetic-performers-e433625bfb61c8abeab0d619869192ed",
+      "sourceName": "Associated Press",
+      "relatedSources": [
+        "New York State",
+        "Associated Press"
+      ],
+      "lane": "policy",
+      "publishedAt": "2026-06-10T06:00:00.000Z",
+      "importance": 390,
+      "sourceConfidence": "high",
+      "filterCategory": "pushback",
+      "summaryEngine": "chat-curated"
+    },
+    {
+      "id": "curated-eu-meta-whatsapp-rival-ai-chatbots-order-2026-06-10",
+      "title": "EU orders Meta to reopen WhatsApp to rival AI chatbots",
+      "summary": "European regulators ordered Meta to restore WhatsApp access for competing AI assistants, escalating the fight over whether dominant messaging platforms can reserve distribution for their own models.",
+      "fullSummary": "The European Union has ordered Meta to restore WhatsApp access for rival AI chatbot providers, challenging the company's ability to favor its own assistant inside one of the world's largest messaging networks. The intervention treats chatbot distribution as a competition issue: if users increasingly reach AI through messaging apps, excluding rivals can become as consequential as blocking a search engine or app store competitor. Meta now faces pressure to provide workable access while still enforcing privacy, security, and spam controls across third-party bots. The order matters beyond WhatsApp because major consumer platforms are becoming the default gateways to AI services. What regulators accept as fair technical access here could shape how assistants are distributed across messaging, operating systems, and social networks.",
+      "keyFacts": [
+        "June 10, 2026",
+        "European Union",
+        "Meta",
+        "WhatsApp",
+        "Rival AI chatbots"
+      ],
+      "url": "https://apnews.com/article/meta-whatsapp-european-union-8b4b48acb23acf5686f141a276bb868d",
+      "sourceName": "Associated Press",
+      "relatedSources": [
+        "European Union",
+        "Meta",
+        "WhatsApp"
+      ],
+      "lane": "policy",
+      "publishedAt": "2026-06-10T05:45:00.000Z",
+      "importance": 389,
+      "sourceConfidence": "high",
+      "filterCategory": "pushback",
+      "summaryEngine": "chat-curated"
+    },
+    {
+      "id": "curated-mit-ultrasound-wristband-robot-training-2026-06-10",
+      "title": "MIT turns hidden hand motion into robot-training data",
+      "summary": "MIT researchers built an ultrasound wristband that reads muscles, tendons, and ligaments beneath the skin, giving robots a new source of detailed human-motion demonstrations.",
+      "fullSummary": "MIT researchers have developed a wireless ultrasound wristband that captures movement beneath the skin and converts it into training signals for robots. High-frequency sound waves track muscles, tendons, and ligaments as a person moves, while AI translates the measurements into detailed gestures. In laboratory tests, the system recognized all 26 American Sign Language letters in under 120 milliseconds. The deeper opportunity is data collection: instead of relying only on cameras, motion-capture suits, or direct robot teleoperation, researchers could gather large datasets of dexterous human actions from a compact wearable. That could help robots learn fine manipulation tasks in homes, factories, or surgery. The work is promising research rather than a production-ready control system, and its value will depend on accuracy across different bodies, tasks, and real-world conditions.",
+      "keyFacts": [
+        "June 10, 2026",
+        "MIT",
+        "Ultrasound wristband",
+        "26 ASL letters",
+        "Under 120 milliseconds"
+      ],
+      "url": "https://apnews.com/article/artificial-intelligence-mit-robots-ed7ea78eb377f82f8c9082604ba67a98",
+      "sourceName": "Associated Press + MIT",
+      "relatedSources": [
+        "MIT",
+        "Associated Press"
+      ],
+      "lane": "research",
+      "publishedAt": "2026-06-10T05:30:00.000Z",
+      "importance": 388,
+      "sourceConfidence": "high",
+      "filterCategory": "papers",
+      "summaryEngine": "chat-curated"
+    },
+    {
+      "id": "curated-beacon-software-225m-ai-rollup-series-c-2026-06-10",
+      "title": "Beacon raises $225M to turn small software firms into an AI portfolio",
+      "summary": "Beacon Software raised a $225 million Series C for an AI-enabled roll-up that has already acquired more than 30 niche software companies and reports over 50% EBITDA growth across the portfolio.",
+      "fullSummary": "Beacon Software has raised $225 million in a Series C led by General Catalyst and HarbourVest, with participation from Lightspeed and other investors. Rather than building one AI application, Beacon buys niche vertical-software businesses and connects them to a shared AI operating system intended to automate work and improve margins. The company says it has completed more than 30 acquisitions, recently averaging about one per week, and has produced more than 50% EBITDA growth across its portfolio. Total funding has reached $550 million, and Beacon's valuation has risen from the $1 billion level reported around its previous round, though the new figure was not disclosed. The round is a major test of the AI roll-up thesis: whether shared automation can reliably improve many durable but overlooked software businesses.",
+      "keyFacts": [
+        "$225M Series C",
+        "$550M total funding",
+        "More than 30 acquisitions",
+        "Over 50% EBITDA growth",
+        "General Catalyst",
+        "HarbourVest"
+      ],
+      "url": "https://www.wsj.com/pro/venture-capital/startup-beacon-software-raises-225-million-to-expand-venture-roll-up-strategy-d456c1bf",
+      "sourceName": "Wall Street Journal",
+      "relatedSources": [
+        "Beacon Software",
+        "General Catalyst",
+        "HarbourVest",
+        "Lightspeed"
+      ],
+      "lane": "funding",
+      "publishedAt": "2026-06-10T05:15:00.000Z",
+      "importance": 387,
+      "sourceConfidence": "high",
+      "filterCategory": "funding",
+      "summaryEngine": "chat-curated"
+    },
+    {
+      "id": "curated-broadcom-apollo-blackstone-35b-ai-xpv-platform-2026-06-10",
+      "title": "Broadcom and private capital launch a $35B AI infrastructure platform",
+      "summary": "Broadcom, Apollo, and Blackstone launched a $35 billion platform intended to finance more than 20 gigawatts of AI compute by 2028, starting with capacity for Anthropic.",
+      "fullSummary": "Broadcom, Apollo Global Management, and Blackstone's credit and insurance arm have launched the AI XPV Platform with an initial $35 billion financing commitment. The partners aim to deliver more than 20 gigawatts of compute capacity by 2028 using Broadcom chips and networking, with the first tranche supporting more than one gigawatt for Anthropic. The structure shows how AI infrastructure is becoming a capital-markets product as much as a technology project: chip roadmaps, power contracts, data-center construction, and long-duration private credit are being assembled into one financing platform. It also creates a prominent alternative to Nvidia-centered deployments. The targets are extremely large and forward-looking, so the key questions are how quickly projects secure power and permits, and whether customer demand supports the planned buildout.",
+      "keyFacts": [
+        "$35B initial platform",
+        "More than 20GW targeted by 2028",
+        "More than 1GW initial Anthropic capacity",
+        "Broadcom",
+        "Apollo",
+        "Blackstone"
+      ],
+      "url": "https://www.wsj.com/tech/ai/broadcom-apollo-blackstone-launch-35-billion-ai-infrastructure-platform-8fc8f65e",
+      "sourceName": "Wall Street Journal",
+      "relatedSources": [
+        "Broadcom",
+        "Apollo Global Management",
+        "Blackstone",
+        "Anthropic"
+      ],
+      "lane": "infrastructure",
+      "publishedAt": "2026-06-10T05:00:00.000Z",
+      "importance": 386,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated"
+    },
+    {
+      "id": "curated-salesforce-agentforce-mulesoft-marketing-cloud-layoffs-2026-06-10",
+      "title": "Salesforce cuts jobs around Agentforce, MuleSoft, and Marketing Cloud",
+      "summary": "Salesforce began another round of cuts touching teams around Agentforce, MuleSoft, and Marketing Cloud, highlighting the tension between AI revenue claims and the workforce changes needed to support them.",
+      "fullSummary": "Salesforce has started another round of layoffs affecting roles connected to Agentforce, MuleSoft, and Marketing Cloud, although reporting says the core Agentforce team was not cut. A California WARN notice lists 86 affected roles across sales, administration, and technology and product functions, with additional cuts reported in Washington state and internationally. The reductions arrive as Salesforce says Agentforce has passed $1 billion in annualized revenue, while customers and investors continue to scrutinize adoption and the broader threat AI-native software poses to traditional enterprise applications. The cuts should not be read as proof that AI directly replaced every affected role, but they are a concrete example of a major software company reallocating resources while positioning agents as its growth engine.",
+      "keyFacts": [
+        "June 10, 2026",
+        "86 California roles in WARN notice",
+        "Agentforce",
+        "MuleSoft",
+        "Marketing Cloud",
+        "Agentforce above $1B annualized revenue"
+      ],
+      "url": "https://www.businessinsider.com/salesforce-cuts-jobs-agentforce-2026-6",
+      "sourceName": "Business Insider",
+      "relatedSources": [
+        "Salesforce",
+        "California WARN"
+      ],
+      "lane": "workforce",
+      "publishedAt": "2026-06-10T06:30:00.000Z",
+      "importance": 385,
+      "sourceConfidence": "medium",
+      "filterCategory": "pushback",
+      "summaryEngine": "chat-curated"
+    },
+    {
+      "id": "curated-google-ai-plus-us-price-cut-2026-06-09",
+      "title": "Google cuts its budget AI plan to $4.99 and doubles storage",
+      "summary": "Google cut the U.S. price of AI Plus from $7.99 to $4.99 per month while doubling storage to 400GB, bringing emerging-market-style AI price competition into the American market.",
+      "fullSummary": "Google has cut the monthly U.S. price of Google AI Plus from $7.99 to $4.99 and doubled included storage from 200GB to 400GB. The plan bundles access to tools including Omni Flash video generation, Flow, and NotebookLM, targeting individual users and students below the company's Pro and Ultra tiers. The move matters because model capability is increasingly being sold through bundles rather than as a standalone premium product. Google's distribution, cloud infrastructure, and storage business let it compress pricing in ways that pure-play AI providers may find difficult to match. Similar sub-$5 plans first appeared in markets such as India; the U.S. price cut indicates that competition for mass-market subscribers is moving from features to cost, packaging, and ecosystem lock-in.",
+      "keyFacts": [
+        "$4.99 per month",
+        "Previous price $7.99",
+        "400GB storage",
+        "Previous storage 200GB",
+        "Google AI Plus"
+      ],
+      "url": "https://techcrunch.com/2026/06/09/google-just-fired-a-warning-shot-in-the-ai-subscription-price-wars/",
+      "sourceName": "TechCrunch",
+      "relatedSources": [
+        "Google",
+        "Google AI Plus"
+      ],
+      "lane": "products",
+      "publishedAt": "2026-06-10T00:26:00.000Z",
+      "importance": 384,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated"
+    },
+    {
+      "id": "curated-supermicro-7b-financing-39b-ai-server-orders-2026-06-09",
+      "title": "Supermicro seeks $7B after claiming $39B in new AI server orders",
+      "summary": "Supermicro proposed $7 billion of equity and equity-linked financing to buy components for roughly $39 billion of recent advanced AI server orders from more than 20 customers.",
+      "fullSummary": "Supermicro has proposed $7 billion in equity and equity-linked financing to fund component purchases for a surge of advanced AI server orders. The plan combines about $1.25 billion of common stock, $3.75 billion of depositary shares tied to mandatory convertible preferred stock, and an at-the-market program of up to $2 billion. The company says it received roughly $39 billion of AI server orders from more than 20 customers in recent weeks and plans to fulfill them in future quarters. That order figure is a company claim and the orders remain subject to cancellation, delays, and fulfillment conditions. Even with that caveat, the financing shows the working-capital burden created by AI infrastructure demand: server makers must secure expensive components well before customer deployments are completed.",
+      "keyFacts": [
+        "$7B proposed financing",
+        "$39B claimed recent AI server orders",
+        "More than 20 customers",
+        "$5B underwritten offerings",
+        "Up to $2B ATM program"
+      ],
+      "url": "https://www.businesswire.com/news/home/20260609797060/en/Supermicro-Announces-Proposed-%247.0-Billion-of-Equity-and-Equity-linked-Financing-Transactions-To-Fund-AI-Orders",
+      "sourceName": "Supermicro / Business Wire",
+      "relatedSources": [
+        "Supermicro",
+        "J.P. Morgan",
+        "Goldman Sachs",
+        "Citigroup"
+      ],
+      "lane": "infrastructure",
+      "publishedAt": "2026-06-09T21:13:00.000Z",
+      "importance": 383,
+      "sourceConfidence": "medium",
+      "filterCategory": "funding",
+      "summaryEngine": "chat-curated"
+    },
+    {
+      "id": "curated-minerva-20m-agentic-marketing-platform-2026-06-09",
+      "title": "Minerva launches with $20M and measurable agentic-marketing claims",
+      "summary": "Minerva launched publicly with $20 million, three dozen customers, and company-reported results including 3.4x paid-media ROAS and 2.5x direct-mail lead rates.",
+      "fullSummary": "Minerva has launched publicly with $20 million from The General Partnership, 8VC, Lingotto Innovation, Topology Ventures, NBA Investments, and others. Its platform connects fragmented first-party customer data, enriches it with an identity graph containing more than 1,000 attributes, and uses agents to handle data engineering, predictive modeling, campaign analysis, and optimization. Minerva says it can onboard brands within 24 hours, has signed three dozen customers including the NBA, and has improved paid-media return on ad spend by 3.4x and direct-mail marketing-qualified-lead rates by 2.5x in early deployments. Those outcomes are company-reported rather than independently audited, but they make the announcement more substantial than a routine product launch. The company is also collaborating with OpenAI on workflows using GPT-5.5.",
+      "keyFacts": [
+        "$20M funding",
+        "Three dozen customers",
+        "More than 1,000 identity attributes",
+        "3.4x paid-media ROAS claim",
+        "2.5x direct-mail MQL claim",
+        "GPT-5.5 collaboration"
+      ],
+      "url": "https://www.businesswire.com/news/home/20260609135497/en/Minerva-Launches-AI-Platform-for-Consumer-Marketing-with-%2420M-from-The-General-Partnership-8VC-Lingotto-Innovation-Topology-Ventures-and-NBA-Investments-Alongside-OpenAI-Collaboration",
+      "sourceName": "Minerva / Business Wire",
+      "relatedSources": [
+        "Minerva",
+        "OpenAI",
+        "The General Partnership",
+        "8VC",
+        "NBA"
+      ],
+      "lane": "funding",
+      "publishedAt": "2026-06-09T20:15:00.000Z",
+      "importance": 382,
+      "sourceConfidence": "medium",
+      "filterCategory": "funding",
+      "summaryEngine": "chat-curated"
+    },
+    {
+      "id": "curated-anthropic-claude-fable-5-public-release-2026-06-09",
+      "title": "Anthropic releases Fable 5, its first public Mythos-class model",
+      "summary": "Anthropic made a safeguarded Mythos-class model publicly available for the first time, routing high-risk cyber, biology, chemistry, and distillation requests back to Opus 4.8.",
+      "fullSummary": "Anthropic has released Claude Fable 5, the first version of its closely watched Mythos-class technology available to the general public. The company positions Fable 5 as a major step up for software engineering, knowledge work, vision, and long-running tasks, while placing hard restrictions around cybersecurity, biology, chemistry, and model distillation. High-risk requests are blocked or routed to the less capable Claude Opus 4.8. Fable 5 is available through the Claude API and consumption-based Enterprise plans, with temporary access on Pro, Max, Team, and seat-based Enterprise subscriptions through June 22 before usage credits are required. Anthropic is separately deploying Mythos 5 to approved organizations. The release tests whether capability-selective guardrails can make frontier systems broadly useful without exposing their most dangerous skills.",
+      "keyFacts": [
+        "June 9, 2026",
+        "Claude Fable 5",
+        "First public Mythos-class model",
+        "Claude Mythos 5 trusted access",
+        "Subscription access through June 22"
+      ],
+      "url": "https://techcrunch.com/2026/06/09/anthropics-claude-fable-5-is-a-version-of-mythos-the-public-can-access-today/",
+      "sourceName": "TechCrunch + Anthropic",
+      "relatedSources": [
+        "Anthropic",
+        "Claude Fable 5",
+        "Claude Mythos 5"
+      ],
+      "lane": "models",
+      "publishedAt": "2026-06-09T17:00:00.000Z",
+      "importance": 391,
+      "sourceConfidence": "high",
+      "filterCategory": "models",
+      "summaryEngine": "chat-curated"
+    },
+    {
+      "id": "curated-checkmarx-ai-code-security-survey-2026-06-09",
+      "title": "AI-heavy teams ship vulnerable code at 3.4 times the rate",
+      "summary": "A Checkmarx survey of 2,350 developers and security leaders found 70% see significantly more vulnerabilities in AI-generated code, while organizations with the heaviest AI use ship vulnerable code at 3.4 times the rate.",
+      "fullSummary": "A Checkmarx report based on 2,350 developers, CISOs, and application-security managers offers a stark picture of AI-assisted software development. Seventy percent of respondents said AI-generated code contains significantly more vulnerabilities, 30% acknowledged knowingly shipping vulnerable code, and 93% reported at least one breach caused by vulnerable applications. Respondents estimated that AI now produces about 49% of production code, slightly below last year's self-reported 54%. The most consequential finding is the relationship between adoption and risk: organizations where AI generates 81% to 100% of code reported shipping vulnerable code at 3.4 times the rate of organizations in the 1% to 20% band. The survey is self-reported, but it captures a real governance gap as coding speed outpaces review and remediation processes.",
+      "keyFacts": [
+        "2,350 respondents",
+        "70% report significantly more vulnerabilities",
+        "30% knowingly ship vulnerable code",
+        "93% report breaches",
+        "3.4x vulnerable-code shipping rate at highest AI adoption"
+      ],
+      "url": "https://www.theregister.com/devops/2026/06/09/devs-know-ai-code-is-riddled-with-holes-but-ship-it-anyway/5252824",
+      "sourceName": "The Register + Checkmarx",
+      "relatedSources": [
+        "Checkmarx",
+        "The Register"
+      ],
+      "lane": "security",
+      "publishedAt": "2026-06-09T14:36:00.000Z",
+      "importance": 381,
+      "sourceConfidence": "medium",
+      "filterCategory": "papers",
+      "summaryEngine": "chat-curated"
+    },
+    {
+      "id": "curated-sandstone-30m-inhouse-legal-ai-2026-06-09",
+      "title": "Sandstone raises $30M for AI built around in-house legal work",
+      "summary": "Sandstone raised $30 million to automate work for corporate legal teams, another sign that vertical AI is moving from general drafting tools toward operating workflows inside specific departments.",
+      "fullSummary": "Sandstone has raised $30 million to expand an AI platform designed for in-house legal teams. The company is targeting the work that sits between legal advice and business operations, where corporate counsel must review contracts, answer recurring questions, manage approvals, and coordinate with teams across a company. That focus distinguishes the product from general-purpose legal chatbots and consumer-facing document tools. The financing adds to a crowded but commercially important legal-AI market in which buyers care as much about permissions, audit trails, and integration with existing systems as they do about model quality. Sandstone's test will be whether it can become a system of action for legal departments rather than another drafting assistant, and whether its automation produces measurable reductions in outside counsel spending or turnaround time.",
+      "keyFacts": [
+        "$30M funding",
+        "June 9, 2026",
+        "In-house legal teams",
+        "Vertical AI"
+      ],
+      "url": "https://techcrunch.com/2026/06/09/sandstone-raises-30m-to-bring-ai-to-in-house-legal-teams/",
+      "sourceName": "TechCrunch",
+      "relatedSources": [
+        "Sandstone"
+      ],
+      "lane": "funding",
+      "publishedAt": "2026-06-09T08:00:00.000Z",
+      "importance": 380,
+      "sourceConfidence": "high",
+      "filterCategory": "funding",
+      "summaryEngine": "chat-curated"
+    },
+    {
+      "id": "curated-lovable-500m-arr-million-projects-week-2026-06-09",
+      "title": "Lovable says vibe coding has reached $500M in annualized revenue",
+      "summary": "Lovable says it has reached $500 million in annualized revenue and is generating one million new projects each week, turning vibe coding into a scaled software business.",
+      "fullSummary": "Lovable says its AI app-building platform has reached $500 million in annualized revenue and is now creating one million new projects per week. The milestone follows the company's recent Google Cloud expansion, which was intended to handle demand that had begun to strain capacity. Unlike a funding announcement, this is a business-performance claim that illustrates how quickly prompt-driven software creation is moving from experimentation into paid usage. The figures are company-reported and annualized rather than audited full-year revenue, so they should be read as a current run rate. Still, the scale makes Lovable an important test case for whether vibe-coding platforms can retain customers, support production applications, and build durable economics once users move beyond rapidly generated prototypes.",
+      "keyFacts": [
+        "$500M annualized revenue claim",
+        "1M new projects per week",
+        "June 9, 2026",
+        "Vibe coding"
+      ],
+      "url": "https://techcrunch.com/2026/06/09/lovable-says-it-has-hit-500m-in-annualized-revenue-with-1-million-new-projects-a-week/",
+      "sourceName": "TechCrunch",
+      "relatedSources": [
+        "Lovable",
+        "Google Cloud"
+      ],
+      "lane": "adoption",
+      "publishedAt": "2026-06-09T07:00:00.000Z",
+      "importance": 379,
+      "sourceConfidence": "medium",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated"
+    },
+    {
+      "id": "curated-space-data-center-startup-5m-seed-2026-06-09",
+      "title": "A $5M seed round puts AI data centers into the space race",
+      "summary": "An e-scooter founder raised $5 million for a startup pursuing data centers in space, a small but notable bet on escaping terrestrial power, cooling, and permitting constraints.",
+      "fullSummary": "A startup founded by an entrepreneur previously known for e-scooters has raised $5 million to pursue space-based data centers. The early-stage idea is to move some compute infrastructure off Earth, where abundant solar energy and the vacuum of space could eventually change power and cooling economics. The concept also carries severe engineering constraints: launch costs, radiation, communications latency, maintenance, and hardware replacement all make orbital compute far harder than a conventional data center. The round is modest relative to the billions flowing into terrestrial AI infrastructure, but it is strategically interesting because it shows investors funding unconventional responses to power shortages, grid delays, and local opposition. Near-term progress should be judged by technical demonstrations and launch economics, not by the long-run vision alone.",
+      "keyFacts": [
+        "$5M seed funding",
+        "June 9, 2026",
+        "Space-based data centers",
+        "Early-stage infrastructure"
+      ],
+      "url": "https://techcrunch.com/2026/06/09/how-an-e-scooter-founder-raised-5-million-to-build-space-data-centers/",
+      "sourceName": "TechCrunch",
+      "relatedSources": [
+        "TechCrunch"
+      ],
+      "lane": "infrastructure",
+      "publishedAt": "2026-06-09T06:00:00.000Z",
+      "importance": 378,
+      "sourceConfidence": "medium",
+      "filterCategory": "funding",
+      "summaryEngine": "chat-curated"
+    },
+    {
+      "id": "curated-nhs-england-500k-copilot-licenses-2026-06-08",
+      "title": "NHS England expands Copilot to half a million staff",
+      "summary": "NHS England is rolling Microsoft Copilot out to roughly 500,000 workers after a trial reported average paperwork savings of 43 minutes per person per day.",
+      "fullSummary": "NHS England is expanding Microsoft Copilot access to roughly half a million staff, moving one of the world's largest public health systems from a limited trial toward broad administrative deployment. The decision follows a trial that reported average savings of 43 minutes per worker per day on tasks such as drafting, summarizing, and paperwork. That figure is a trial result rather than proof of system-wide savings, and the rollout will have to address training, data governance, clinical boundaries, and whether saved time turns into better patient care. Even with those caveats, the scale makes this a significant enterprise-adoption story. It provides a concrete test of whether general productivity assistants can create measurable value inside a complex, regulated organization rather than remaining optional tools for small groups.",
+      "keyFacts": [
+        "About 500,000 staff",
+        "43 minutes saved per day in trial",
+        "NHS England",
+        "Microsoft Copilot"
+      ],
+      "url": "https://www.theregister.com/ai-and-ml/2026/06/08/nhs-prescribes-half-a-million-copilot-licenses-for-its-paperwork-headache/5252214",
+      "sourceName": "The Register",
+      "relatedSources": [
+        "NHS England",
+        "Microsoft"
+      ],
+      "lane": "adoption",
+      "publishedAt": "2026-06-08T12:00:00.000Z",
+      "importance": 377,
+      "sourceConfidence": "medium",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated"
+    },
+    {
+      "id": "curated-challenger-ai-cited-40-percent-may-job-cuts-2026-06-05",
+      "title": "AI becomes the most-cited reason for U.S. layoffs",
+      "summary": "Challenger, Gray & Christmas says employers blamed AI for 40% of the 97,006 U.S. job cuts announced in May, while cautioning that the data does not prove a full-scale jobpocalypse.",
+      "fullSummary": "A Challenger, Gray & Christmas report says artificial intelligence was the most commonly cited reason for U.S. layoffs in May 2026, accounting for 40% of 97,006 announced job cuts. Employers have attributed 87,714 cuts to AI so far this year, already above the 54,836 recorded across all of 2025. The numbers measure what companies say in layoff announcements, not a verified causal audit, and firms may use AI to describe broader efficiency programs or business weakness. Challenger itself cautions that the data does not yet show a catastrophic jobpocalypse. Even with that limitation, the report is an important workforce signal: AI has become a standard corporate explanation for restructuring, and the gap between deployment claims and independently measured labor effects deserves closer scrutiny.",
+      "keyFacts": [
+        "40% of May job cuts cited AI",
+        "97,006 May job cuts",
+        "87,714 AI-attributed cuts in 2026",
+        "54,836 AI-attributed cuts in all of 2025"
+      ],
+      "url": "https://www.businessinsider.com/challenger-ai-layoffs-economy-jobs-2026-6",
+      "sourceName": "Business Insider + Challenger, Gray & Christmas",
+      "relatedSources": [
+        "Challenger, Gray & Christmas"
+      ],
+      "lane": "workforce",
+      "publishedAt": "2026-06-05T12:00:00.000Z",
+      "importance": 376,
+      "sourceConfidence": "medium",
+      "filterCategory": "pushback",
+      "summaryEngine": "chat-curated"
+    },
+    {
+      "id": "curated-forrester-agentic-ai-pilot-production-gap-2026-06-05",
+      "title": "Forrester finds enterprise agents still trapped in pilot mode",
+      "summary": "Forrester says 75% of enterprise leaders are adopting agentic AI, but only a small minority have reached meaningful production as governance, coordination, and ROI remain unresolved.",
+      "fullSummary": "Forrester says three-quarters of enterprise leaders report adopting agentic AI, yet only a small minority have moved beyond pilots into meaningful production deployments. The analyst argues that the main obstacles are no longer short task demonstrations, but governance, platform strategy, coordination across systems, and proof of return on investment. More than half of enterprises still experience \"agentic sprawl\" even after adopting governance frameworks, suggesting that written policies are not enough without automated controls over permissions and behavior. The report is a useful counterweight to product-launch volume: long-running agents may be technically possible, but organizations still struggle to connect autonomy to measurable operational change. The next phase of enterprise competition will depend on reliability and management infrastructure as much as model capability.",
+      "keyFacts": [
+        "75% report adopting agentic AI",
+        "Only a small minority beyond pilots",
+        "More than half experience agentic sprawl",
+        "Forrester"
+      ],
+      "url": "https://www.theregister.com/ai-and-ml/2026/06/05/agentic-ai-hype-races-ahead-as-enterprises-remain-stuck-in-pilot-mode/5251711",
+      "sourceName": "The Register + Forrester",
+      "relatedSources": [
+        "Forrester",
+        "The Register"
+      ],
+      "lane": "adoption",
+      "publishedAt": "2026-06-05T15:29:00.000Z",
+      "importance": 375,
+      "sourceConfidence": "medium",
+      "filterCategory": "papers",
+      "summaryEngine": "chat-curated"
+    },
     {
       "id": "curated-apple-private-cloud-compute-google-nvidia-developers-2026-06-08",
       "title": "Apple takes Private Cloud Compute beyond its own data centers",
