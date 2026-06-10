@@ -165,7 +165,10 @@ function storyById(id) {
 }
 
 function sharedStoryIdFromUrl() {
-  return new URLSearchParams(window.location.search).get("story");
+  const queryStoryId = new URLSearchParams(window.location.search).get("story");
+  if (queryStoryId) return queryStoryId;
+  const storyPathMatch = window.location.pathname.match(/^\/stories\/([^/]+)\/?$/);
+  return storyPathMatch ? decodeURIComponent(storyPathMatch[1]) : null;
 }
 
 function sharedStoryUrl(item) {
