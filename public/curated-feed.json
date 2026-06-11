@@ -1,24 +1,25 @@
 {
-  "generatedAt": "2026-06-11T08:05:00.000Z",
-  "nextRefreshAt": "2026-06-11T11:05:00.000Z",
+  "generatedAt": "2026-06-11T10:00:00.000Z",
+  "nextRefreshAt": "2026-06-11T13:00:00.000Z",
   "summaryEngine": "chat-curated",
   "curated": true,
   "items": [
     {
       "id": "curated-amazon-17-5b-bond-ai-infrastructure-2026-06-10",
-      "title": "Amazon raises $17.5B to finance its AI infrastructure push",
-      "summary": "Amazon sold $17.5 billion of bonds as the company continues a capital-intensive expansion of data centers and other infrastructure for AI.",
-      "fullSummary": "Amazon raised $17.5 billion in a bond sale to help finance its expanding AI and infrastructure program. The borrowing is a concrete measure of how much capital the AI buildout is absorbing even at the world's largest technology companies. Debt financing spreads the cost over time, but it also raises the pressure for cloud and AI investments to produce durable revenue. The deal belongs alongside the industry's large data-center leases, chip orders, and power commitments: AI competition is increasingly a balance-sheet contest, not only a model-performance contest.",
+      "title": "Amazon lines up a $17.5B loan facility as AI spending grows",
+      "summary": "Amazon arranged a $17.5 billion delayed-draw term loan facility as it plans roughly $200 billion of capital spending in 2026, much of it for AI infrastructure.",
+      "fullSummary": "Amazon arranged a $17.5 billion delayed-draw term loan facility as it continues a capital-intensive AI infrastructure expansion. Unlike a bond sale, the facility lets Amazon borrow up to the full amount by September 30, 2026, with a three-year maturity after borrowing. Amazon says proceeds are for general corporate purposes, while its planned 2026 capital spending is roughly $200 billion and is expected to focus heavily on AWS data centers, servers, networking, power, and custom chips. The financing is another concrete sign that AI competition is becoming a balance-sheet contest as hyperscalers use external capital alongside operating cash flow to fund the buildout.",
       "keyFacts": [
         "June 10, 2026",
-        "$17.5B bond sale",
-        "Finances AI and infrastructure expansion"
+        "$17.5B delayed-draw term loan facility",
+        "Borrowing window closes September 30, 2026",
+        "Amazon plans roughly $200B of 2026 capital spending"
       ],
-      "url": "https://techcrunch.com/2026/06/10/amazon-raises-17-5b-in-bond-sale-to-finance-ai-and-infrastructure-push/",
-      "sourceName": "TechCrunch",
+      "url": "https://www.marketwatch.com/story/amazon-lines-up-another-17-5-billion-for-ai-as-its-debt-pile-grows-further-5f16be9c",
+      "sourceName": "MarketWatch",
       "relatedSources": [
         "Amazon",
-        "TechCrunch"
+        "MarketWatch"
       ],
       "lane": "infrastructure",
       "publishedAt": "2026-06-10T19:00:00.000Z",
@@ -26,71 +27,21 @@
       "sourceConfidence": "high",
       "filterCategory": "funding",
       "summaryEngine": "chat-curated",
-      "curatedAt": "2026-06-11T08:05:00.000Z"
-    },
-    {
-      "id": "curated-ramp-ai-spend-per-employee-2026-06-10",
-      "title": "Company AI spending reaches $7,500 per employee, Ramp finds",
-      "summary": "Ramp says companies are spending about $7,500 per employee on AI tools, a 70% increase from a year earlier, showing adoption is becoming a sizable operating expense.",
-      "fullSummary": "A Ramp analysis found that company spending on AI tools has risen to roughly $7,500 per employee, up 70% from a year ago. The figure shows that enterprise AI adoption is moving beyond small experiments and becoming a meaningful software-budget line item. It does not by itself show whether the spending creates equivalent productivity or revenue gains, making the finding especially relevant beside reports of workers saving time without companies seeing better outcomes. The next enterprise challenge is measuring which tools and workflows justify the rapidly rising cost.",
-      "keyFacts": [
-        "June 10, 2026",
-        "$7,500 AI spend per employee",
-        "70% year-over-year increase",
-        "Ramp analysis"
-      ],
-      "url": "https://techcrunch.com/2026/06/10/companies-are-spending-7500-per-employee-on-ai-tools-a-70-jump-from-a-year-ago/",
-      "sourceName": "TechCrunch + Ramp",
-      "relatedSources": [
-        "Ramp",
-        "TechCrunch"
-      ],
-      "lane": "enterprise",
-      "publishedAt": "2026-06-10T18:30:00.000Z",
-      "importance": 394,
-      "sourceConfidence": "medium",
-      "filterCategory": "general",
-      "summaryEngine": "chat-curated",
-      "curatedAt": "2026-06-11T08:05:00.000Z"
-    },
-    {
-      "id": "curated-anthropic-api-memory-tools-agents-2026-06-10",
-      "title": "Anthropic adds memory tools to its API for more efficient agents",
-      "summary": "Anthropic added API tools that let agents preserve and retrieve useful context, reducing repeated work in long-running tasks and multi-session workflows.",
-      "fullSummary": "Anthropic has added memory tools to its API to help agents carry useful context across longer tasks and repeated sessions. Persistent, selective memory is an important building block for agents that must work over time rather than answer a single prompt, because it can reduce repeated context loading and improve continuity. It also creates governance questions around what is stored, when it is retrieved, and how users can inspect or delete it. The release is a practical capability upgrade for developers building production agents rather than a benchmark-only model announcement.",
-      "keyFacts": [
-        "June 10, 2026",
-        "Anthropic API",
-        "Memory tools for agents",
-        "Targets longer and repeated workflows"
-      ],
-      "url": "https://techcrunch.com/2026/06/10/anthropics-api-gets-memory-tools-to-make-agents-more-efficient/",
-      "sourceName": "TechCrunch + Anthropic",
-      "relatedSources": [
-        "Anthropic",
-        "Claude API",
-        "TechCrunch"
-      ],
-      "lane": "models",
-      "publishedAt": "2026-06-10T18:00:00.000Z",
-      "importance": 393,
-      "sourceConfidence": "high",
-      "filterCategory": "models",
-      "summaryEngine": "chat-curated",
-      "curatedAt": "2026-06-11T08:05:00.000Z"
+      "curatedAt": "2026-06-11T08:05:00.000Z",
+      "updatedAt": "2026-06-11T10:00:00.000Z"
     },
     {
       "id": "curated-microsoft-restricts-claude-fable-5-2026-06-10",
-      "title": "Microsoft restricts Claude Fable 5 inside its products",
-      "summary": "Microsoft is limiting Anthropic's most capable model across its products, turning frontier-model safeguards into an immediate enterprise-access issue.",
-      "fullSummary": "Microsoft is restricting access to Anthropic's Claude Fable 5 across its products. The move is notable because enterprise platforms increasingly offer models from several providers, but the platform operator may still decide that a frontier model's capability or risk profile requires tighter controls. The restriction gives companies a concrete reminder that access to the newest models can vary by product, tenant, and governance policy even when a model is publicly released. It also adds an important distribution-layer dimension to the debate over Anthropic's extensive Fable 5 safeguards.",
+      "title": "Microsoft restricts Claude Fable 5 internally over data retention",
+      "summary": "Microsoft is limiting employee use of Anthropic's Claude Fable 5 while legal teams assess its data-retention requirements, although customers can access it through GitHub Copilot and Foundry.",
+      "fullSummary": "Microsoft is restricting employee use of Anthropic's Claude Fable 5 while its legal teams assess the model's data-retention requirements. The model remains available to customers through GitHub Copilot and Microsoft Foundry, but it is absent from the internal model picker used by Microsoft employees. Other Claude models remain available internally because they operate under Zero Data Retention rules. Fable 5 retains prompts and outputs for 30 days to support safety classifiers, and flagged data may be kept longer. The decision shows how a model provider's safety and retention policies can create immediate compliance limits even for a major distribution partner.",
       "keyFacts": [
         "June 10, 2026",
-        "Microsoft products",
-        "Claude Fable 5 access restricted",
-        "Enterprise model-governance decision"
+        "Microsoft employee access restricted",
+        "Customers retain access through GitHub Copilot and Foundry",
+        "Data-retention requirements under legal review"
       ],
-      "url": "https://www.theverge.com/ai-artificial-intelligence/945190/microsoft-restricts-anthropic-claude-fable-5",
+      "url": "https://www.theverge.com/report/947575/microsoft-claude-fable-5-restricted-internally",
       "sourceName": "The Verge",
       "relatedSources": [
         "Microsoft",
@@ -103,20 +54,21 @@
       "sourceConfidence": "high",
       "filterCategory": "pushback",
       "summaryEngine": "chat-curated",
-      "curatedAt": "2026-06-11T08:05:00.000Z"
+      "curatedAt": "2026-06-11T08:05:00.000Z",
+      "updatedAt": "2026-06-11T10:00:00.000Z"
     },
     {
       "id": "curated-google-saves-lens-photos-ai-training-2026-06-10",
-      "title": "Google will save Lens photos and may use them to train AI",
-      "summary": "Google says Lens photos will be saved and may be used to improve AI, creating a new privacy consideration for people who use visual search on sensitive images.",
-      "fullSummary": "Google is changing how it handles images submitted through Lens: photos will be saved and may be used to improve its AI systems. Visual-search images can contain faces, documents, locations, screens, and other sensitive details, so the change expands the practical privacy stakes of model training beyond text prompts. Users and organizations will need to understand the relevant account controls and retention behavior before using Lens on confidential material. The development is a clear example of how product-default changes can expand AI training data without a new model launch.",
+      "title": "Google will save Lens photos and other Search media for AI training",
+      "summary": "Google will save media used with Lens, Search Live, voice search, and Translate under a new setting and may use it to improve services including AI models.",
+      "fullSummary": "Google is changing how it stores media used with Search services. A new Search Services History setting will cover images, files, audio, and video submitted through tools including Google Lens, Search Live, voice search, and Translate. Google says the data may be used to provide, develop, and improve its services, including AI models. Users can turn off Search Services History and disable the separate Save Media option; accounts that already blocked search-history saving through Web & App Activity will keep the new setting off during the transition. The change expands the privacy stakes of AI training because visual and audio searches can contain faces, documents, locations, conversations, and other sensitive details.",
       "keyFacts": [
         "June 10, 2026",
-        "Google Lens photos will be saved",
-        "Images may be used to improve AI",
-        "Raises privacy and retention questions"
+        "Covers Lens, Search Live, voice search, and Translate media",
+        "Media may be used to improve AI models",
+        "Users can disable Search Services History and Save Media"
       ],
-      "url": "https://www.theverge.com/ai-artificial-intelligence/945366/google-lens-photos-ai-training",
+      "url": "https://www.theverge.com/tech/947836/google-search-privacy-settings-images-audio",
       "sourceName": "The Verge",
       "relatedSources": [
         "Google",
@@ -129,33 +81,8 @@
       "sourceConfidence": "high",
       "filterCategory": "pushback",
       "summaryEngine": "chat-curated",
-      "curatedAt": "2026-06-11T08:05:00.000Z"
-    },
-    {
-      "id": "curated-german-court-google-ai-overviews-liability-2026-06-10",
-      "title": "German court says Google can be liable for AI Overview errors",
-      "summary": "A German ruling found Google can be held liable when AI Overviews provide false information, raising the legal cost of answer-engine mistakes.",
-      "fullSummary": "A German court has ruled that Google can be held liable for false information produced in AI Overviews. The decision matters because generated search answers are presented more directly than ordinary ranked links, increasing the argument that the platform is responsible for their content. The ruling may be appealed and applies within a specific legal context, but it gives publishers, businesses, and individuals a meaningful path to challenge damaging AI-generated claims. It also raises the operational burden on answer engines to correct errors quickly and document their safeguards.",
-      "keyFacts": [
-        "June 10, 2026",
-        "German court ruling",
-        "Google may be liable for AI Overview errors",
-        "Generated search-answer accountability"
-      ],
-      "url": "https://www.theverge.com/ai-artificial-intelligence/944499/google-ai-overviews-liable-false-info-germany",
-      "sourceName": "The Verge",
-      "relatedSources": [
-        "Google",
-        "AI Overviews",
-        "The Verge"
-      ],
-      "lane": "policy",
-      "publishedAt": "2026-06-10T16:30:00.000Z",
-      "importance": 390,
-      "sourceConfidence": "high",
-      "filterCategory": "pushback",
-      "summaryEngine": "chat-curated",
-      "curatedAt": "2026-06-11T08:05:00.000Z"
+      "curatedAt": "2026-06-11T08:05:00.000Z",
+      "updatedAt": "2026-06-11T09:30:00.000Z"
     },
     {
       "id": "curated-meta-reliance-india-ai-data-center-2026-06-10",
@@ -182,184 +109,6 @@
       "importance": 389,
       "sourceConfidence": "high",
       "filterCategory": "general",
-      "summaryEngine": "chat-curated",
-      "curatedAt": "2026-06-11T08:05:00.000Z"
-    },
-    {
-      "id": "curated-opendoor-pay-humans-correct-ai-2026-06-10",
-      "title": "Opendoor proposes paying people who correct AI models",
-      "summary": "Opendoor says AI companies should compensate people whose feedback and corrections improve their models, reframing routine user input as valuable labor.",
-      "fullSummary": "Opendoor has argued that AI companies should pay people whose corrections and feedback improve model behavior. The proposal targets a growing but poorly defined form of labor: users routinely identify errors, refine outputs, and supply expertise that can make AI systems more useful. Direct compensation would require companies to determine which feedback is valuable, prevent manipulation, and explain how contributions affect models. Even without an immediate payment mechanism, the proposal advances the debate over who benefits economically when human judgment improves commercial AI.",
-      "keyFacts": [
-        "June 10, 2026",
-        "Opendoor proposal",
-        "Compensation for useful AI corrections",
-        "Raises data-labor and attribution questions"
-      ],
-      "url": "https://techcrunch.com/2026/06/10/opendoor-says-ai-companies-should-pay-humans-who-correct-models/",
-      "sourceName": "TechCrunch",
-      "relatedSources": [
-        "Opendoor",
-        "TechCrunch"
-      ],
-      "lane": "labor",
-      "publishedAt": "2026-06-10T15:30:00.000Z",
-      "importance": 388,
-      "sourceConfidence": "medium",
-      "filterCategory": "pushback",
-      "summaryEngine": "chat-curated",
-      "curatedAt": "2026-06-11T08:05:00.000Z"
-    },
-    {
-      "id": "curated-former-xai-engineer-lawsuit-ai-improvement-2026-06-10",
-      "title": "Former xAI engineer sues after alleged dispute over improving its AI",
-      "summary": "A former xAI engineer says the company fired him after he tried to improve its AI, adding a legal dispute to scrutiny of frontier-lab working conditions and governance.",
-      "fullSummary": "A former xAI engineer has sued the company, alleging that he was fired after trying to improve its AI systems. The claims remain allegations that xAI can contest in court, so they should not be treated as established fact. The case is nevertheless material because it connects internal technical work, employee protections, and governance at a prominent frontier lab. Litigation may reveal more detail about how concerns and proposed improvements are handled inside fast-moving AI organizations.",
-      "keyFacts": [
-        "June 10, 2026",
-        "Former xAI engineer",
-        "Wrongful-termination allegations",
-        "Claims remain disputed"
-      ],
-      "url": "https://techcrunch.com/2026/06/10/former-xai-engineer-sues-company-saying-he-was-fired-for-trying-to-improve-its-ai/",
-      "sourceName": "TechCrunch",
-      "relatedSources": [
-        "xAI",
-        "TechCrunch"
-      ],
-      "lane": "labor",
-      "publishedAt": "2026-06-10T15:00:00.000Z",
-      "importance": 387,
-      "sourceConfidence": "medium",
-      "filterCategory": "pushback",
-      "summaryEngine": "chat-curated",
-      "curatedAt": "2026-06-11T08:05:00.000Z"
-    },
-    {
-      "id": "curated-warner-music-sues-suno-licensing-deal-2026-06-10",
-      "title": "Warner Music sues Suno over a first-of-its-kind AI licensing deal",
-      "summary": "Warner Music sued AI music startup Suno, alleging it broke a licensing agreement, turning an industry experiment in negotiated AI rights into a direct legal dispute.",
-      "fullSummary": "Warner Music has sued AI music startup Suno, alleging that the company broke a licensing agreement described as the first of its kind. The allegations will be tested in court, but the dispute is important because licensing deals have been promoted as a practical alternative to prolonged copyright litigation between creative industries and AI companies. A breakdown may affect how rights holders structure future agreements, including audit rights, permitted uses, payment terms, and enforcement. The case shows that reaching an AI license is only the beginning; compliance and trust are equally consequential.",
-      "keyFacts": [
-        "June 10, 2026",
-        "Warner Music lawsuit against Suno",
-        "Dispute over AI licensing agreement",
-        "Claims remain subject to litigation"
-      ],
-      "url": "https://techcrunch.com/2026/06/10/warner-music-sues-ai-startup-suno-for-breaking-a-first-of-its-kind-licensing-deal/",
-      "sourceName": "TechCrunch",
-      "relatedSources": [
-        "Warner Music Group",
-        "Suno",
-        "TechCrunch"
-      ],
-      "lane": "legal",
-      "publishedAt": "2026-06-10T14:30:00.000Z",
-      "importance": 386,
-      "sourceConfidence": "high",
-      "filterCategory": "pushback",
-      "summaryEngine": "chat-curated",
-      "curatedAt": "2026-06-11T08:05:00.000Z"
-    },
-    {
-      "id": "curated-niteshift-28m-autonomous-ai-workstation-2026-06-10",
-      "title": "Niteshift raises $28M for an autonomous AI workstation",
-      "summary": "Niteshift raised $28 million to build a workstation where software is increasingly operated by autonomous agents rather than through conventional app-by-app workflows.",
-      "fullSummary": "Niteshift has raised $28 million to develop an autonomous AI workstation designed around agents operating software and completing tasks. The product direction reflects a broader shift from chat interfaces toward systems that can act across applications with less direct supervision. The hard problems are reliability, permissions, observability, and recovery when an agent takes the wrong action. The funding shows investors are willing to back a new computing interface built around agents, even before the operational model is fully proven.",
-      "keyFacts": [
-        "June 10, 2026",
-        "$28M raised",
-        "Autonomous AI workstation",
-        "Agent-operated software workflows"
-      ],
-      "url": "https://techcrunch.com/2026/06/10/niteshift-raises-28m-as-autonomous-ai-workstation-races-toward-software-defined-by-agents/",
-      "sourceName": "TechCrunch",
-      "relatedSources": [
-        "Niteshift",
-        "TechCrunch"
-      ],
-      "lane": "funding",
-      "publishedAt": "2026-06-10T14:00:00.000Z",
-      "importance": 385,
-      "sourceConfidence": "medium",
-      "filterCategory": "funding",
-      "summaryEngine": "chat-curated",
-      "curatedAt": "2026-06-11T08:05:00.000Z"
-    },
-    {
-      "id": "curated-warner-music-acquires-sureel-ai-licensing-2026-06-10",
-      "title": "Warner Music acquires AI music licensing startup Sureel",
-      "summary": "Warner Music acquired Sureel to strengthen artist-first AI licensing tools as labels build technical infrastructure for negotiating and enforcing model-use rights.",
-      "fullSummary": "Warner Music has acquired Sureel, an AI music startup focused on licensing tools. The acquisition gives a major label more in-house technical capacity to identify, manage, and monetize how music is used by AI systems. It arrives as rights holders pursue both negotiated agreements and litigation, showing that the industry is building infrastructure rather than relying on a single legal strategy. The deal's financial terms were not disclosed.",
-      "keyFacts": [
-        "June 10, 2026",
-        "Warner Music acquired Sureel",
-        "AI music licensing tools",
-        "Financial terms not disclosed"
-      ],
-      "url": "https://techcrunch.com/2026/06/10/warner-music-acquires-ai-music-startup-sureel/",
-      "sourceName": "TechCrunch",
-      "relatedSources": [
-        "Warner Music Group",
-        "Sureel",
-        "TechCrunch"
-      ],
-      "lane": "funding",
-      "publishedAt": "2026-06-10T13:30:00.000Z",
-      "importance": 384,
-      "sourceConfidence": "high",
-      "filterCategory": "funding",
-      "summaryEngine": "chat-curated",
-      "curatedAt": "2026-06-11T08:05:00.000Z"
-    },
-    {
-      "id": "curated-jedify-10m-ai-coworker-agents-2026-06-10",
-      "title": "Jedify raises $10M for AI agents designed to act like coworkers",
-      "summary": "Jedify raised $10 million to build agents positioned as persistent coworkers rather than chatbots, another bet on AI completing ongoing business workflows.",
-      "fullSummary": "Jedify has raised $10 million to build AI agents intended to behave more like persistent coworkers than one-off chatbots. The positioning emphasizes ongoing context, task ownership, and work across business systems. Those capabilities can make agents more useful, but they also increase the need for permission controls, monitoring, and clear accountability. The round is another signal that startup funding is moving toward agentic workflow products, even as enterprises continue to test whether they deliver dependable outcomes.",
-      "keyFacts": [
-        "June 10, 2026",
-        "$10M raised",
-        "Persistent coworker-style agents",
-        "Targets business workflows"
-      ],
-      "url": "https://techcrunch.com/2026/06/10/jedify-raises-10m-to-build-ai-agents-that-act-like-coworkers-not-chatbots/",
-      "sourceName": "TechCrunch",
-      "relatedSources": [
-        "Jedify",
-        "TechCrunch"
-      ],
-      "lane": "funding",
-      "publishedAt": "2026-06-10T13:00:00.000Z",
-      "importance": 383,
-      "sourceConfidence": "medium",
-      "filterCategory": "funding",
-      "summaryEngine": "chat-curated",
-      "curatedAt": "2026-06-11T08:05:00.000Z"
-    },
-    {
-      "id": "curated-decart-oasis-3-4k-realtime-world-model-2026-06-10",
-      "title": "Decart unveils a real-time 4K world model controlled with text",
-      "summary": "Decart's Oasis 3 generates an interactive, Minecraft-like world in real time at 4K resolution and lets users change it with text commands.",
-      "fullSummary": "Decart has unveiled Oasis 3, a world model that generates an interactive Minecraft-like environment in real time at 4K resolution and responds to text instructions. Real-time, controllable world generation is technically distinct from producing a fixed video because the model must maintain enough consistency for continued interaction. The demonstration points toward applications in games, simulation, and training environments, while also leaving open questions about long-horizon coherence and production cost. It is a material model-capability development rather than a conventional game release.",
-      "keyFacts": [
-        "June 10, 2026",
-        "Oasis 3",
-        "Real-time 4K generation",
-        "Interactive world controlled with text"
-      ],
-      "url": "https://techcrunch.com/2026/06/10/decarts-oasis-3-ai-world-model-is-a-4k-real-time-minecraft-you-can-control-with-text/",
-      "sourceName": "TechCrunch",
-      "relatedSources": [
-        "Decart",
-        "Oasis 3",
-        "TechCrunch"
-      ],
-      "lane": "models",
-      "publishedAt": "2026-06-10T12:30:00.000Z",
-      "importance": 382,
-      "sourceConfidence": "medium",
-      "filterCategory": "models",
       "summaryEngine": "chat-curated",
       "curatedAt": "2026-06-11T08:05:00.000Z"
     },
@@ -419,37 +168,6 @@
       "filterCategory": "pushback",
       "summaryEngine": "chat-curated",
       "curatedAt": "2026-06-11T05:50:00.000Z"
-    },
-    {
-      "id": "curated-meta-8000-job-cuts-ai-efficiency-push-2026-05-20",
-      "title": "Meta cuts 8,000 jobs and redirects thousands more toward AI",
-      "summary": "Meta eliminated about 8,000 roles, canceled 6,000 openings, and redirected roughly 7,000 employees toward AI; new filings show managers and software engineers bore much of the cuts.",
-      "fullSummary": "Meta carried out layoffs affecting about 8,000 employees, roughly 10% of its workforce, while canceling plans to hire for 6,000 open roles and moving approximately 7,000 existing employees toward AI-focused teams. New public-filing analysis adds detail on who was affected: among 4,665 identified roles in California and Washington, more than 1,400 were managers, nearly half of them software-engineering managers; close to 1,000 individual software engineers, 419 data scientists, and 301 product managers were also cut. The figures do not prove that AI directly replaced each job, and Meta has emphasized capital-allocation and efficiency pressures. They do show that the restructuring reached deeply into the technical and management layers expected to build the company's AI transition.",
-      "keyFacts": [
-        "May 20, 2026 layoffs; role analysis reported June 11, 2026",
-        "About 8,000 jobs cut",
-        "6,000 openings canceled",
-        "About 7,000 employees reassigned toward AI",
-        "More than 1,400 managers among 4,665 identified roles",
-        "Nearly 1,000 individual software engineers affected",
-        "419 data scientists and 301 product managers affected"
-      ],
-      "url": "https://apnews.com/article/224eee4489cbc227244558ff02f5919a",
-      "sourceName": "Associated Press",
-      "relatedSources": [
-        "Associated Press",
-        "Business Insider",
-        "Axios",
-        "Meta",
-        "Public workforce filings"
-      ],
-      "lane": "labor",
-      "publishedAt": "2026-05-20T14:03:00.000Z",
-      "importance": 389,
-      "sourceConfidence": "high",
-      "filterCategory": "pushback",
-      "summaryEngine": "chat-curated",
-      "updatedAt": "2026-06-11T05:50:00.000Z"
     },
     {
       "id": "curated-spacex-gigasat-orbital-ai-compute-factory-2026-06-09",
@@ -725,7 +443,7 @@
         "DNA synthesis screening",
         "Biological-risk safeguards"
       ],
-      "url": "https://www.wired.com/story/openai-anthropic-letter-ai-developed-biological-weapons",
+      "url": "https://www.wired.com/story/openai-anthropic-letter-ai-biological-weapons/",
       "sourceName": "WIRED + The Register",
       "relatedSources": [
         "OpenAI",
@@ -738,7 +456,8 @@
       "importance": 374,
       "sourceConfidence": "high",
       "filterCategory": "pushback",
-      "summaryEngine": "chat-curated"
+      "summaryEngine": "chat-curated",
+      "updatedAt": "2026-06-11T09:45:00.000Z"
     },
     {
       "id": "curated-new-york-synthetic-performer-ad-label-law-2026-06-10",
@@ -7219,18 +6938,19 @@
         "brand work",
         "in-house MAI model family"
       ],
-      "url": "https://microsoft.ai/news/mai-image-2-5-launches-at-no-3-on-arena-ai/",
-      "sourceName": "Microsoft AI",
+      "url": "https://www.theverge.com/tech/941664/microsoft-ai-model-reasoning-mai-thinking-1-build-2026",
+      "sourceName": "The Verge",
       "relatedSources": [
         "Microsoft AI",
+        "The Verge",
         "GIGAZINE",
         "Windows Report"
       ],
       "relatedLinks": [
         {
-          "title": "MAI-Image-2.5 launches at No. 3 on Arena",
-          "url": "https://microsoft.ai/news/mai-image-2-5-launches-at-no-3-on-arena-ai/",
-          "sourceName": "Microsoft AI"
+          "title": "Microsoft's first advanced reasoning AI is here",
+          "url": "https://www.theverge.com/tech/941664/microsoft-ai-model-reasoning-mai-thinking-1-build-2026",
+          "sourceName": "The Verge"
         },
         {
           "title": "Microsoft releases image generation AI MAI-Image-2.5",
@@ -7243,7 +6963,8 @@
       "importance": 166,
       "sourceConfidence": "high",
       "summaryEngine": "chat-curated",
-      "filterCategory": "models"
+      "filterCategory": "models",
+      "updatedAt": "2026-06-11T09:45:00.000Z"
     },
     {
       "id": "curated-cohere-command-a-plus-2026-05-20",

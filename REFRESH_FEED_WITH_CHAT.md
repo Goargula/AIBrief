@@ -216,6 +216,7 @@ Run a final source-ledger scan before writing the feed. If any named source has 
 
 7. For each curated story, write:
 
+- `url`: the exact article URL copied from the inspected publisher page, feed item, or search result. Never construct, infer, autocomplete, or guess a publisher URL from its headline, date, slug pattern, or story ID. Open the exact URL before writing and confirm that the resulting page describes the same story.
 - `summary`: one or two punchy sentences with the core fact.
 - `fullSummary`: a fuller 100-180 word explanation with the key numbers, named companies/people, context, why it matters, and what to watch.
 - `keyFacts`: exact numbers, dates, funding amounts, valuations, acquisition prices, model names, institutions, or round names.
@@ -245,6 +246,14 @@ Never use the original source's `publishedAt` value as `curatedAt`. `publishedAt
 ```text
 public/curated-feed.json
 ```
+
+Before publishing, run the source-link checker against every new or materially updated story, using the previous feed's `generatedAt` timestamp:
+
+```powershell
+npm run check:source-links -- --since=<previous-generatedAt>
+```
+
+Any confirmed `404`, `410`, malformed URL, redirect to an unrelated story, or page whose headline/content does not match the curated story blocks publication. `403`, `401`, and network errors require manual browser/search verification; they are not proof that a URL is valid. Record the exact verified URL, not a plausible replacement. Also spot-check the final page title/content because a working URL can still point to the wrong article.
 
 10. Build the production SEO site. This generates an indexable page for every qualifying curated story, topic/archive discovery pages, trust pages, `robots.txt`, `sitemap.xml`, and the rolling two-day `news-sitemap.xml`:
 
