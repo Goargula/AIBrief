@@ -1,9 +1,233 @@
 {
-  "generatedAt": "2026-06-10T07:08:28.694Z",
-  "nextRefreshAt": "2026-06-10T10:08:28.694Z",
+  "generatedAt": "2026-06-11T05:50:00.000Z",
+  "nextRefreshAt": "2026-06-11T08:50:00.000Z",
   "summaryEngine": "chat-curated",
   "curated": true,
   "items": [
+    {
+      "id": "curated-ft-ai-productivity-paradox-glean-survey-2026-06-10",
+      "title": "AI saves workers 11 hours a week, but companies rarely feel it",
+      "summary": "A 6,000-worker survey found AI users report saving 11 hours weekly, yet only 13% see better company performance because supervision, tool switching, and weak workflows absorb much of the gain.",
+      "fullSummary": "A Work AI Institute survey of 6,000 digital workers highlights why individual AI time savings are not automatically turning into company performance. Workers reported saving 11 hours a week, but only 13% said AI improved company performance. They also reported spending 6.4 hours weekly on \"botsitting\": supplying context, checking outputs, rerunning prompts, and cleaning up mistakes. Nearly eight in ten juggle multiple AI tools each week, while 60% repeat the same queries across tools. The findings are self-reported and come from a workplace-AI organization linked to Glean, so they should not be treated as a controlled productivity measurement. Still, the gap is operationally important: companies may need better data, redesigned workflows, and clearer outcome metrics before AI-generated time savings become business results.",
+      "keyFacts": [
+        "June 10, 2026",
+        "6,000 digital workers surveyed",
+        "11 hours of reported weekly time savings",
+        "Only 13% reported improved company performance",
+        "6.4 hours a week spent supervising and correcting AI",
+        "Nearly 8 in 10 workers juggle multiple AI tools"
+      ],
+      "url": "https://www.ft.com/content/b4b60d00-2e8c-4db0-b3ed-9988dc0eeb5c",
+      "sourceName": "Financial Times",
+      "relatedSources": [
+        "Financial Times",
+        "Work AI Institute",
+        "Glean"
+      ],
+      "lane": "enterprise",
+      "publishedAt": "2026-06-10T16:15:07.000Z",
+      "importance": 394,
+      "sourceConfidence": "medium",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-11T05:50:00.000Z"
+    },
+    {
+      "id": "curated-shopee-ai-reorganization-job-cuts-2026-06-10",
+      "title": "Shopee cuts teams as Southeast Asia's e-commerce leader pivots toward AI",
+      "summary": "Shopee is cutting app-development, product, and commercialization roles, with some teams eliminated and others reduced 10% to 15% as Sea reorganizes around AI.",
+      "fullSummary": "Shopee, Southeast Asia's largest e-commerce platform, has begun cutting jobs as parent company Sea reorganizes around artificial intelligence. The reductions affect app development, product, and commercialization teams across Singapore and other markets. Some teams were eliminated entirely, while others were reduced by roughly 10% to 15%, according to people familiar with the changes. Shopee contributes more than two-thirds of Sea's revenue, making this more than a small experimental-team adjustment. Sea has also expanded its Google partnership to build an agentic shopping prototype. The company did not provide a total job-cut figure and described staffing decisions as regular operational reviews. The story is a concrete regional example of AI strategy changing workforce design before companies have publicly demonstrated the resulting productivity gains.",
+      "keyFacts": [
+        "June 10, 2026",
+        "Shopee and Sea",
+        "App development, product, and commercialization affected",
+        "Some teams cut entirely",
+        "Other teams reduced about 10% to 15%",
+        "Shopee generates more than two-thirds of Sea revenue"
+      ],
+      "url": "https://www.wsj.com/tech/seas-e-commerce-arm-shopee-cuts-jobs-as-reorganization-continues-3b947c11",
+      "sourceName": "Wall Street Journal",
+      "relatedSources": [
+        "Wall Street Journal",
+        "Shopee",
+        "Sea",
+        "Google"
+      ],
+      "lane": "labor",
+      "publishedAt": "2026-06-10T10:55:00.000Z",
+      "importance": 392,
+      "sourceConfidence": "high",
+      "filterCategory": "pushback",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-11T05:50:00.000Z"
+    },
+    {
+      "id": "curated-meta-8000-job-cuts-ai-efficiency-push-2026-05-20",
+      "title": "Meta cuts 8,000 jobs and redirects thousands more toward AI",
+      "summary": "Meta eliminated about 8,000 roles, canceled 6,000 openings, and redirected roughly 7,000 employees toward AI; new filings show managers and software engineers bore much of the cuts.",
+      "fullSummary": "Meta carried out layoffs affecting about 8,000 employees, roughly 10% of its workforce, while canceling plans to hire for 6,000 open roles and moving approximately 7,000 existing employees toward AI-focused teams. New public-filing analysis adds detail on who was affected: among 4,665 identified roles in California and Washington, more than 1,400 were managers, nearly half of them software-engineering managers; close to 1,000 individual software engineers, 419 data scientists, and 301 product managers were also cut. The figures do not prove that AI directly replaced each job, and Meta has emphasized capital-allocation and efficiency pressures. They do show that the restructuring reached deeply into the technical and management layers expected to build the company's AI transition.",
+      "keyFacts": [
+        "May 20, 2026 layoffs; role analysis reported June 11, 2026",
+        "About 8,000 jobs cut",
+        "6,000 openings canceled",
+        "About 7,000 employees reassigned toward AI",
+        "More than 1,400 managers among 4,665 identified roles",
+        "Nearly 1,000 individual software engineers affected",
+        "419 data scientists and 301 product managers affected"
+      ],
+      "url": "https://apnews.com/article/224eee4489cbc227244558ff02f5919a",
+      "sourceName": "Associated Press",
+      "relatedSources": [
+        "Associated Press",
+        "Business Insider",
+        "Axios",
+        "Meta",
+        "Public workforce filings"
+      ],
+      "lane": "labor",
+      "publishedAt": "2026-05-20T14:03:00.000Z",
+      "importance": 389,
+      "sourceConfidence": "high",
+      "filterCategory": "pushback",
+      "summaryEngine": "chat-curated",
+      "updatedAt": "2026-06-11T05:50:00.000Z"
+    },
+    {
+      "id": "curated-spacex-gigasat-orbital-ai-compute-factory-2026-06-09",
+      "title": "SpaceX plans an 11-million-square-foot factory for orbital AI compute",
+      "summary": "SpaceX says its planned Gigasat factory will build AI satellites at a scale intended to reach 1GW of orbital compute per year by late 2027.",
+      "fullSummary": "SpaceX has outlined an 11-million-square-foot Gigasat factory in Bastrop, Texas, for producing satellites intended to operate as orbital AI data centers. The company is targeting one gigawatt of space-based AI compute capacity per year by late 2027 and says it wants to manufacture more than 6,000 AI satellites annually. The proposed AI1 satellites would carry roughly 150 kilowatts of compute and use large solar arrays and radiators. These are extraordinarily aggressive company targets, not demonstrated production capacity, and the economics, launch cadence, heat rejection, networking, and reliability challenges remain unresolved. Still, the scale of the proposed factory makes orbital compute a serious infrastructure strategy rather than only a seed-stage concept, and it connects SpaceX's launch business directly to the AI compute race.",
+      "keyFacts": [
+        "June 9, 2026",
+        "11-million-square-foot Gigasat factory",
+        "Bastrop, Texas",
+        "Target: 1GW of orbital AI compute per year by late 2027",
+        "Target: more than 6,000 AI satellites annually",
+        "Company roadmap, not achieved capacity"
+      ],
+      "url": "https://www.tomshardware.com/tech-industry/big-tech/spacex-unveils-11-million-square-foot-gigasat-factory-a-new-manufacturing-facility-for-space-based-data-centers-aims-for-1-gw-year-of-space-ai-compute-by-late-2027-from-its-satellites",
+      "sourceName": "Tom's Hardware / SpaceX",
+      "relatedSources": [
+        "Tom's Hardware",
+        "SpaceX"
+      ],
+      "lane": "infrastructure",
+      "publishedAt": "2026-06-09T14:38:59.000Z",
+      "importance": 377,
+      "sourceConfidence": "medium",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-11T05:50:00.000Z"
+    },
+    {
+      "id": "curated-actprobe-robot-policy-failure-detection-2026-06-07",
+      "title": "ActProbe spots robot-policy failures before they become visible",
+      "summary": "ActProbe uses only a robot policy's emitted action chunks to warn of impending failures, reporting better early detection and 2.9 times fewer interactions during reinforcement-learning fine-tuning.",
+      "fullSummary": "ActProbe proposes a lightweight way to detect failures in generative robot policies before they become visually obvious. Instead of requiring access to a model's internals or repeatedly resampling actions, it analyzes two signals from emitted action chunks: consistency between consecutive chunks and the magnitude of the current chunk. Across multiple policies and benchmarks, the authors report a 12.7% average improvement in the accuracy-timeliness tradeoff, a 9.0% early-detection ROC-AUC lead on unseen tasks, and successful transfer to real-robot pick tasks. They also report that using the detector during reinforcement-learning fine-tuning required 2.9 times fewer environment interactions. The results are preprint evidence rather than independent deployment validation, but early warning systems could be important for making learned robot policies safer and less expensive to improve.",
+      "keyFacts": [
+        "arXiv:2606.08508",
+        "June 7, 2026",
+        "Pure action-space failure detector",
+        "12.7% average hypervolume gain",
+        "9.0% early-detection ROC-AUC lead on unseen tasks",
+        "2.9x fewer fine-tuning environment interactions"
+      ],
+      "url": "https://arxiv.org/abs/2606.08508",
+      "sourceName": "arXiv",
+      "relatedSources": [
+        "arXiv"
+      ],
+      "lane": "papers",
+      "publishedAt": "2026-06-07T08:18:11.000Z",
+      "importance": 345,
+      "sourceConfidence": "medium",
+      "filterCategory": "papers",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-11T05:50:00.000Z"
+    },
+    {
+      "id": "curated-self-evolving-scientific-agent-fluid-control-2026-06-07",
+      "title": "A self-evolving scientific agent discovers an interpretable fluid controller",
+      "summary": "A preprint shows an LLM-driven agent iteratively writing and testing control code until it produced an interpretable policy that generalized to unseen fluid-dynamics targets.",
+      "fullSummary": "Researchers report a self-evolving scientific-agent workflow that generates, tests, diagnoses, and revises control code inside a physics simulation. The demonstration uses a nonlinear fluid-structure problem: steering an underactuated two-joint robotic fish using only joint angular accelerations. Starting from a biased propulsive policy, the agent developed a readable controller combining traveling-wave propulsion, target guidance, yaw-rate feedback, tail curvature, and adaptive cadence. The final policy reportedly generalized to unseen static targets and curved pursuit trajectories without retraining or target-specific branches. This is a simulation preprint, not proof that autonomous agents can reliably discover controllers for real machines. Its significance is methodological: it combines code-generating agents with auditable physical reasoning rather than treating the resulting controller as an opaque neural policy.",
+      "keyFacts": [
+        "arXiv:2606.08405",
+        "June 7, 2026",
+        "Self-evolving scientific agent",
+        "Fluid-structure control simulation",
+        "Interpretable generated controller",
+        "Generalized without retraining"
+      ],
+      "url": "https://arxiv.org/abs/2606.08405",
+      "sourceName": "arXiv",
+      "relatedSources": [
+        "arXiv"
+      ],
+      "lane": "papers",
+      "publishedAt": "2026-06-07T01:59:11.000Z",
+      "importance": 340,
+      "sourceConfidence": "medium",
+      "filterCategory": "papers",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-11T05:50:00.000Z"
+    },
+    {
+      "id": "curated-us-datacenter-permits-electricity-demand-2026-06-07",
+      "title": "Permitted U.S. data centers could consume up to 358.8TWh a year",
+      "summary": "A permit-based investigation estimates planned U.S. data centers could use 224.3 to 358.8 terawatt-hours annually, exposing the scale of AI infrastructure's grid impact.",
+      "fullSummary": "A Business Insider investigation using air permits for backup generators estimates that U.S. data centers permitted through 2025 could consume between 224.3 and 358.8 terawatt-hours of electricity annually if they all come online. The midpoint would exceed the 2024 electricity use of every state except Texas. The analysis identified 176 new data-center permits across 34 states in 2025, the highest annual count in its dataset, and found that hyperscale facilities drive most of the projected demand. The estimate depends on generator permits and modeled utilization, and companies including Amazon and QTS challenged the methodology. Even with those caveats, the analysis gives a concrete range for the grid pressure behind AI expansion and helps explain why local permitting, utility costs, and dedicated power generation are becoming central AI-policy issues.",
+      "keyFacts": [
+        "June 7, 2026",
+        "224.3TWh to 358.8TWh estimated annual electricity use",
+        "176 new data-center permits in 2025",
+        "34 states",
+        "Up 50% over the previous year across the estimate range",
+        "Permit-based estimate with methodology caveats"
+      ],
+      "url": "https://www.businessinsider.com/us-ai-data-center-power-electricity-use-consumption-2026-6",
+      "sourceName": "Business Insider",
+      "relatedSources": [
+        "Business Insider",
+        "Amazon",
+        "Meta",
+        "Microsoft",
+        "Alphabet"
+      ],
+      "lane": "infrastructure",
+      "publishedAt": "2026-06-07T09:00:01.000Z",
+      "importance": 355,
+      "sourceConfidence": "medium",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-11T05:50:00.000Z"
+    },
+    {
+      "id": "curated-pace-self-evolving-agent-acceptance-tests-2026-06-06",
+      "title": "PACE tries to stop self-improving agents from p-hacking themselves",
+      "summary": "PACE replaces greedy self-modification with sequential statistical tests, sharply reducing false and harmful agent updates while cutting evaluation cost.",
+      "fullSummary": "PACE addresses a quiet failure mode in self-evolving agents: repeatedly accepting prompt, skill, or workflow changes whenever a small test score rises can amount to adaptive p-hacking. The proposed Paired Anytime-valid Commit Evaluation gate compares each candidate change with the incumbent on identical examples and commits only when sequential evidence becomes strong enough. In experiments with Qwen2.5 agents on GSM8K, SVAMP, and ARC-Challenge, greedy acceptance committed 30% to 42% false changes and 10% to 33% harmful edits when a real improvement was mixed with noisy proposals. PACE reportedly accepted the genuine improvement and almost nothing else while reducing evaluation cost by about 18%. This is a preprint with limited models and tasks, but it identifies statistical acceptance rules as a core safety and reliability component for agents allowed to modify themselves.",
+      "keyFacts": [
+        "arXiv:2606.08106",
+        "June 6, 2026",
+        "Paired Anytime-valid Commit Evaluation",
+        "Greedy acceptance produced 30% to 42% false commits",
+        "Greedy acceptance produced 10% to 33% harmful edits",
+        "About 18% lower evaluation cost"
+      ],
+      "url": "https://arxiv.org/abs/2606.08106",
+      "sourceName": "arXiv",
+      "relatedSources": [
+        "arXiv",
+        "Qwen2.5"
+      ],
+      "lane": "papers",
+      "publishedAt": "2026-06-06T11:12:11.000Z",
+      "importance": 350,
+      "sourceConfidence": "medium",
+      "filterCategory": "papers",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-11T05:50:00.000Z"
+    },
     {
       "id": "curated-seattle-year-long-ai-datacenter-ban-2026-06-10",
       "title": "Seattle enacts a year-long ban on new AI data centers",
@@ -914,34 +1138,6 @@
       "importance": 358,
       "sourceConfidence": "medium",
       "filterCategory": "general",
-      "summaryEngine": "chat-curated"
-    },
-    {
-      "id": "curated-meta-8000-job-cuts-ai-efficiency-push-2026-05-20",
-      "title": "Meta cuts 8,000 jobs and redirects thousands more toward AI",
-      "summary": "Meta eliminated about 8,000 roles, canceled plans to fill 6,000 openings, and reassigned roughly 7,000 employees toward AI-focused work as infrastructure spending climbs.",
-      "fullSummary": "Meta carried out layoffs affecting about 8,000 employees, roughly 10% of its workforce, while canceling plans to hire for 6,000 open roles and moving approximately 7,000 existing employees toward AI-focused teams. The restructuring is one of the clearest examples of AI reshaping both capital allocation and workforce design at a major technology company. Meta had just under 80,000 employees before the cuts; it did not fire 80,000 people. The company is simultaneously committing well over $100 billion to AI-related capital expenditure and hiring highly paid AI specialists. It remains difficult to separate genuine automation-driven efficiency from cost cutting and resource reallocation, but the scale makes this a material labor and strategy story that should have been captured in the feed's earlier catch-up coverage.",
-      "keyFacts": [
-        "May 20, 2026",
-        "About 8,000 jobs cut",
-        "Roughly 10% of workforce",
-        "6,000 openings canceled",
-        "About 7,000 employees reassigned toward AI",
-        "Just under 80,000 employees before cuts"
-      ],
-      "url": "https://apnews.com/article/224eee4489cbc227244558ff02f5919a",
-      "sourceName": "Associated Press",
-      "relatedSources": [
-        "Associated Press",
-        "Axios",
-        "Los Angeles Times",
-        "Meta"
-      ],
-      "lane": "labor",
-      "publishedAt": "2026-05-20T14:03:00.000Z",
-      "importance": 357,
-      "sourceConfidence": "high",
-      "filterCategory": "pushback",
       "summaryEngine": "chat-curated"
     },
     {
@@ -6051,40 +6247,6 @@
       "lane": "startups",
       "publishedAt": "2026-05-29T12:00:00.000Z",
       "importance": 176,
-      "sourceConfidence": "high",
-      "summaryEngine": "chat-curated",
-      "filterCategory": "funding"
-    },
-    {
-      "id": "curated-mistral-vibe-industrial-ai-data-center-2026-05-28",
-      "title": "Mistral launches Vibe and pushes into industrial AI infrastructure",
-      "summary": "Mistral used its Paris summit to launch Vibe, industrial-engineering AI, and a new French inference data-center strategy tied to Airbus, BMW, and ASML.",
-      "fullSummary": "Mistral's AI NOW Summit was broader than a product rename. VentureBeat reports that Mistral launched Vibe, expanded into industrial engineering, and announced a new inference data center south of Paris. CEO Arthur Mensch argued that enterprise AI providers need to own more of the stack, from bare-metal infrastructure to workflow-specific models. The industrial push combines Mistral models with physics simulation capabilities from its Emmi AI acquisition, targeting aerospace, automotive, and semiconductor use cases. Named partners include Airbus across aircraft, helicopter, defense, and space divisions; BMW on Large Industry Model work for crash simulation and multimodal reasoning; and ASML as both shareholder and early adopter. The story matters because Europe's strongest AI lab is positioning around sovereignty, on-prem deployment, physics AI, and industrial workflows rather than consumer chat.",
-      "keyFacts": [
-        "Mistral AI",
-        "Vibe",
-        "AI NOW Summit",
-        "May 28, 2026",
-        "1,000 employees",
-        "EUR1B 2026 revenue target",
-        "Airbus",
-        "BMW",
-        "ASML",
-        "Emmi AI",
-        "French inference data center"
-      ],
-      "url": "https://venturebeat.com/technology/mistral-ai-launches-vibe-expands-into-industrial-ai-and-announces-data-center-push-to-challenge-openai",
-      "sourceName": "VentureBeat",
-      "relatedSources": [
-        "VentureBeat",
-        "Mistral AI",
-        "Airbus",
-        "BMW",
-        "ASML"
-      ],
-      "lane": "news",
-      "publishedAt": "2026-05-28T20:54:00.000Z",
-      "importance": 180,
       "sourceConfidence": "high",
       "summaryEngine": "chat-curated",
       "filterCategory": "funding"
