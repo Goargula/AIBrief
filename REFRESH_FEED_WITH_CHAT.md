@@ -179,6 +179,9 @@ As part of reconciliation, explicitly inspect every individually named source be
 - A 30-day query for major AI-linked layoffs, restructurings, fraud/loss figures, and scaled deployments absent from the existing feed.
 - Record each named source individually. Do not record only the five source groups, and do not infer that checking one publication covers another publication in the same group.
 - Prefer the source's latest page, AI section, newsroom, RSS feed, or direct recent-story listing. If it is inaccessible or does not expose current items, run a site-restricted fallback query for `today`, `yesterday`, and the exact current date.
+- When a direct latest/category page is accessible, a site-restricted search is supplemental and cannot substitute for inspecting that page's visible current headlines.
+- Record a short sample of the newest visible relevant headlines from every accessible direct page, then reconcile every material same-day and previous-day headline in that visible set against the feed.
+- If an accessible direct page exposes any unreviewed material same-day or previous-day headline, keep that source row and the entire refresh incomplete.
 - For each source, record the exact page or fallback query used plus the newest relevant headline and publication date observed. This evidence is required even when the source yields no additions.
 - If a source page and its fallback query both fail, mark that individual source `unavailable after fallback` and record the failure. Do not silently omit it.
 - Before closing Audit J, compare every material candidate found against the current feed and record `included`, `merged/duplicate`, or `excluded` with a concrete reason.
@@ -200,9 +203,9 @@ The ledger must also include a separate named-site source ledger with one row pe
 
 Use this structure:
 
-| Named source | Page or fallback query inspected | Newest relevant headline/date observed | Decision and reason | Status |
+| Named source | Page or fallback query inspected | Sample of newest visible relevant headlines/dates | Decision and reason | Status |
 | --- | --- | --- | --- | --- |
-| VentureBeat AI | `https://venturebeat.com/ai/` | `Headline`, YYYY-MM-DD | included / merged / excluded because ... | checked |
+| VentureBeat AI | `https://venturebeat.com/ai/` | `Headline A`, YYYY-MM-DD; `Headline B`, YYYY-MM-DD | included / merged / excluded because ... | checked |
 | AI News | `site:artificialintelligence-news.com ...` | `Headline`, YYYY-MM-DD | no material addition because ... | fallback checked |
 
 Create rows for all named AI specialists, technology publications, broad/business publications, announcement wires, and primary-source newsrooms. Add rows for relevant government offices and research labs inspected during the pass.

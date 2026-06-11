@@ -1,9 +1,368 @@
 {
-  "generatedAt": "2026-06-11T05:50:00.000Z",
-  "nextRefreshAt": "2026-06-11T08:50:00.000Z",
+  "generatedAt": "2026-06-11T08:05:00.000Z",
+  "nextRefreshAt": "2026-06-11T11:05:00.000Z",
   "summaryEngine": "chat-curated",
   "curated": true,
   "items": [
+    {
+      "id": "curated-amazon-17-5b-bond-ai-infrastructure-2026-06-10",
+      "title": "Amazon raises $17.5B to finance its AI infrastructure push",
+      "summary": "Amazon sold $17.5 billion of bonds as the company continues a capital-intensive expansion of data centers and other infrastructure for AI.",
+      "fullSummary": "Amazon raised $17.5 billion in a bond sale to help finance its expanding AI and infrastructure program. The borrowing is a concrete measure of how much capital the AI buildout is absorbing even at the world's largest technology companies. Debt financing spreads the cost over time, but it also raises the pressure for cloud and AI investments to produce durable revenue. The deal belongs alongside the industry's large data-center leases, chip orders, and power commitments: AI competition is increasingly a balance-sheet contest, not only a model-performance contest.",
+      "keyFacts": [
+        "June 10, 2026",
+        "$17.5B bond sale",
+        "Finances AI and infrastructure expansion"
+      ],
+      "url": "https://techcrunch.com/2026/06/10/amazon-raises-17-5b-in-bond-sale-to-finance-ai-and-infrastructure-push/",
+      "sourceName": "TechCrunch",
+      "relatedSources": [
+        "Amazon",
+        "TechCrunch"
+      ],
+      "lane": "infrastructure",
+      "publishedAt": "2026-06-10T19:00:00.000Z",
+      "importance": 395,
+      "sourceConfidence": "high",
+      "filterCategory": "funding",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-11T08:05:00.000Z"
+    },
+    {
+      "id": "curated-ramp-ai-spend-per-employee-2026-06-10",
+      "title": "Company AI spending reaches $7,500 per employee, Ramp finds",
+      "summary": "Ramp says companies are spending about $7,500 per employee on AI tools, a 70% increase from a year earlier, showing adoption is becoming a sizable operating expense.",
+      "fullSummary": "A Ramp analysis found that company spending on AI tools has risen to roughly $7,500 per employee, up 70% from a year ago. The figure shows that enterprise AI adoption is moving beyond small experiments and becoming a meaningful software-budget line item. It does not by itself show whether the spending creates equivalent productivity or revenue gains, making the finding especially relevant beside reports of workers saving time without companies seeing better outcomes. The next enterprise challenge is measuring which tools and workflows justify the rapidly rising cost.",
+      "keyFacts": [
+        "June 10, 2026",
+        "$7,500 AI spend per employee",
+        "70% year-over-year increase",
+        "Ramp analysis"
+      ],
+      "url": "https://techcrunch.com/2026/06/10/companies-are-spending-7500-per-employee-on-ai-tools-a-70-jump-from-a-year-ago/",
+      "sourceName": "TechCrunch + Ramp",
+      "relatedSources": [
+        "Ramp",
+        "TechCrunch"
+      ],
+      "lane": "enterprise",
+      "publishedAt": "2026-06-10T18:30:00.000Z",
+      "importance": 394,
+      "sourceConfidence": "medium",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-11T08:05:00.000Z"
+    },
+    {
+      "id": "curated-anthropic-api-memory-tools-agents-2026-06-10",
+      "title": "Anthropic adds memory tools to its API for more efficient agents",
+      "summary": "Anthropic added API tools that let agents preserve and retrieve useful context, reducing repeated work in long-running tasks and multi-session workflows.",
+      "fullSummary": "Anthropic has added memory tools to its API to help agents carry useful context across longer tasks and repeated sessions. Persistent, selective memory is an important building block for agents that must work over time rather than answer a single prompt, because it can reduce repeated context loading and improve continuity. It also creates governance questions around what is stored, when it is retrieved, and how users can inspect or delete it. The release is a practical capability upgrade for developers building production agents rather than a benchmark-only model announcement.",
+      "keyFacts": [
+        "June 10, 2026",
+        "Anthropic API",
+        "Memory tools for agents",
+        "Targets longer and repeated workflows"
+      ],
+      "url": "https://techcrunch.com/2026/06/10/anthropics-api-gets-memory-tools-to-make-agents-more-efficient/",
+      "sourceName": "TechCrunch + Anthropic",
+      "relatedSources": [
+        "Anthropic",
+        "Claude API",
+        "TechCrunch"
+      ],
+      "lane": "models",
+      "publishedAt": "2026-06-10T18:00:00.000Z",
+      "importance": 393,
+      "sourceConfidence": "high",
+      "filterCategory": "models",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-11T08:05:00.000Z"
+    },
+    {
+      "id": "curated-microsoft-restricts-claude-fable-5-2026-06-10",
+      "title": "Microsoft restricts Claude Fable 5 inside its products",
+      "summary": "Microsoft is limiting Anthropic's most capable model across its products, turning frontier-model safeguards into an immediate enterprise-access issue.",
+      "fullSummary": "Microsoft is restricting access to Anthropic's Claude Fable 5 across its products. The move is notable because enterprise platforms increasingly offer models from several providers, but the platform operator may still decide that a frontier model's capability or risk profile requires tighter controls. The restriction gives companies a concrete reminder that access to the newest models can vary by product, tenant, and governance policy even when a model is publicly released. It also adds an important distribution-layer dimension to the debate over Anthropic's extensive Fable 5 safeguards.",
+      "keyFacts": [
+        "June 10, 2026",
+        "Microsoft products",
+        "Claude Fable 5 access restricted",
+        "Enterprise model-governance decision"
+      ],
+      "url": "https://www.theverge.com/ai-artificial-intelligence/945190/microsoft-restricts-anthropic-claude-fable-5",
+      "sourceName": "The Verge",
+      "relatedSources": [
+        "Microsoft",
+        "Anthropic",
+        "The Verge"
+      ],
+      "lane": "governance",
+      "publishedAt": "2026-06-10T17:30:00.000Z",
+      "importance": 392,
+      "sourceConfidence": "high",
+      "filterCategory": "pushback",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-11T08:05:00.000Z"
+    },
+    {
+      "id": "curated-google-saves-lens-photos-ai-training-2026-06-10",
+      "title": "Google will save Lens photos and may use them to train AI",
+      "summary": "Google says Lens photos will be saved and may be used to improve AI, creating a new privacy consideration for people who use visual search on sensitive images.",
+      "fullSummary": "Google is changing how it handles images submitted through Lens: photos will be saved and may be used to improve its AI systems. Visual-search images can contain faces, documents, locations, screens, and other sensitive details, so the change expands the practical privacy stakes of model training beyond text prompts. Users and organizations will need to understand the relevant account controls and retention behavior before using Lens on confidential material. The development is a clear example of how product-default changes can expand AI training data without a new model launch.",
+      "keyFacts": [
+        "June 10, 2026",
+        "Google Lens photos will be saved",
+        "Images may be used to improve AI",
+        "Raises privacy and retention questions"
+      ],
+      "url": "https://www.theverge.com/ai-artificial-intelligence/945366/google-lens-photos-ai-training",
+      "sourceName": "The Verge",
+      "relatedSources": [
+        "Google",
+        "Google Lens",
+        "The Verge"
+      ],
+      "lane": "privacy",
+      "publishedAt": "2026-06-10T17:00:00.000Z",
+      "importance": 391,
+      "sourceConfidence": "high",
+      "filterCategory": "pushback",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-11T08:05:00.000Z"
+    },
+    {
+      "id": "curated-german-court-google-ai-overviews-liability-2026-06-10",
+      "title": "German court says Google can be liable for AI Overview errors",
+      "summary": "A German ruling found Google can be held liable when AI Overviews provide false information, raising the legal cost of answer-engine mistakes.",
+      "fullSummary": "A German court has ruled that Google can be held liable for false information produced in AI Overviews. The decision matters because generated search answers are presented more directly than ordinary ranked links, increasing the argument that the platform is responsible for their content. The ruling may be appealed and applies within a specific legal context, but it gives publishers, businesses, and individuals a meaningful path to challenge damaging AI-generated claims. It also raises the operational burden on answer engines to correct errors quickly and document their safeguards.",
+      "keyFacts": [
+        "June 10, 2026",
+        "German court ruling",
+        "Google may be liable for AI Overview errors",
+        "Generated search-answer accountability"
+      ],
+      "url": "https://www.theverge.com/ai-artificial-intelligence/944499/google-ai-overviews-liable-false-info-germany",
+      "sourceName": "The Verge",
+      "relatedSources": [
+        "Google",
+        "AI Overviews",
+        "The Verge"
+      ],
+      "lane": "policy",
+      "publishedAt": "2026-06-10T16:30:00.000Z",
+      "importance": 390,
+      "sourceConfidence": "high",
+      "filterCategory": "pushback",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-11T08:05:00.000Z"
+    },
+    {
+      "id": "curated-meta-reliance-india-ai-data-center-2026-06-10",
+      "title": "Meta signs its first India AI data-center deal with Reliance",
+      "summary": "Meta will lease capacity at Reliance's planned 168-megawatt Jamnagar facility, its first AI infrastructure deal in India, with renewable power and desalinated-water cooling.",
+      "fullSummary": "Meta has signed its first AI data-center agreement in India, partnering with Reliance Industries on a planned 168-megawatt facility in Jamnagar, Gujarat. Meta will lease capacity while Reliance provides design, construction, renewable power, connectivity, and operations. The companies say the facility will use renewable energy and desalinated seawater for cooling, and Reliance expects it to be ready within two years. The deal extends a relationship that includes Meta's $5.7 billion investment in Jio Platforms and a $100 million enterprise-AI joint venture. It also makes India a more direct part of Meta's global AI infrastructure network.",
+      "keyFacts": [
+        "June 10, 2026",
+        "168 MW planned facility",
+        "Jamnagar, Gujarat",
+        "Renewable power and desalinated-water cooling",
+        "First Meta AI data-center deal in India"
+      ],
+      "url": "https://techcrunch.com/2026/06/10/meta-signs-first-ai-data-center-deal-in-india-with-reliance/",
+      "sourceName": "TechCrunch + Meta + Reliance",
+      "relatedSources": [
+        "Meta",
+        "Reliance Industries",
+        "Jio Platforms",
+        "TechCrunch"
+      ],
+      "lane": "infrastructure",
+      "publishedAt": "2026-06-10T07:05:00.000Z",
+      "importance": 389,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-11T08:05:00.000Z"
+    },
+    {
+      "id": "curated-opendoor-pay-humans-correct-ai-2026-06-10",
+      "title": "Opendoor proposes paying people who correct AI models",
+      "summary": "Opendoor says AI companies should compensate people whose feedback and corrections improve their models, reframing routine user input as valuable labor.",
+      "fullSummary": "Opendoor has argued that AI companies should pay people whose corrections and feedback improve model behavior. The proposal targets a growing but poorly defined form of labor: users routinely identify errors, refine outputs, and supply expertise that can make AI systems more useful. Direct compensation would require companies to determine which feedback is valuable, prevent manipulation, and explain how contributions affect models. Even without an immediate payment mechanism, the proposal advances the debate over who benefits economically when human judgment improves commercial AI.",
+      "keyFacts": [
+        "June 10, 2026",
+        "Opendoor proposal",
+        "Compensation for useful AI corrections",
+        "Raises data-labor and attribution questions"
+      ],
+      "url": "https://techcrunch.com/2026/06/10/opendoor-says-ai-companies-should-pay-humans-who-correct-models/",
+      "sourceName": "TechCrunch",
+      "relatedSources": [
+        "Opendoor",
+        "TechCrunch"
+      ],
+      "lane": "labor",
+      "publishedAt": "2026-06-10T15:30:00.000Z",
+      "importance": 388,
+      "sourceConfidence": "medium",
+      "filterCategory": "pushback",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-11T08:05:00.000Z"
+    },
+    {
+      "id": "curated-former-xai-engineer-lawsuit-ai-improvement-2026-06-10",
+      "title": "Former xAI engineer sues after alleged dispute over improving its AI",
+      "summary": "A former xAI engineer says the company fired him after he tried to improve its AI, adding a legal dispute to scrutiny of frontier-lab working conditions and governance.",
+      "fullSummary": "A former xAI engineer has sued the company, alleging that he was fired after trying to improve its AI systems. The claims remain allegations that xAI can contest in court, so they should not be treated as established fact. The case is nevertheless material because it connects internal technical work, employee protections, and governance at a prominent frontier lab. Litigation may reveal more detail about how concerns and proposed improvements are handled inside fast-moving AI organizations.",
+      "keyFacts": [
+        "June 10, 2026",
+        "Former xAI engineer",
+        "Wrongful-termination allegations",
+        "Claims remain disputed"
+      ],
+      "url": "https://techcrunch.com/2026/06/10/former-xai-engineer-sues-company-saying-he-was-fired-for-trying-to-improve-its-ai/",
+      "sourceName": "TechCrunch",
+      "relatedSources": [
+        "xAI",
+        "TechCrunch"
+      ],
+      "lane": "labor",
+      "publishedAt": "2026-06-10T15:00:00.000Z",
+      "importance": 387,
+      "sourceConfidence": "medium",
+      "filterCategory": "pushback",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-11T08:05:00.000Z"
+    },
+    {
+      "id": "curated-warner-music-sues-suno-licensing-deal-2026-06-10",
+      "title": "Warner Music sues Suno over a first-of-its-kind AI licensing deal",
+      "summary": "Warner Music sued AI music startup Suno, alleging it broke a licensing agreement, turning an industry experiment in negotiated AI rights into a direct legal dispute.",
+      "fullSummary": "Warner Music has sued AI music startup Suno, alleging that the company broke a licensing agreement described as the first of its kind. The allegations will be tested in court, but the dispute is important because licensing deals have been promoted as a practical alternative to prolonged copyright litigation between creative industries and AI companies. A breakdown may affect how rights holders structure future agreements, including audit rights, permitted uses, payment terms, and enforcement. The case shows that reaching an AI license is only the beginning; compliance and trust are equally consequential.",
+      "keyFacts": [
+        "June 10, 2026",
+        "Warner Music lawsuit against Suno",
+        "Dispute over AI licensing agreement",
+        "Claims remain subject to litigation"
+      ],
+      "url": "https://techcrunch.com/2026/06/10/warner-music-sues-ai-startup-suno-for-breaking-a-first-of-its-kind-licensing-deal/",
+      "sourceName": "TechCrunch",
+      "relatedSources": [
+        "Warner Music Group",
+        "Suno",
+        "TechCrunch"
+      ],
+      "lane": "legal",
+      "publishedAt": "2026-06-10T14:30:00.000Z",
+      "importance": 386,
+      "sourceConfidence": "high",
+      "filterCategory": "pushback",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-11T08:05:00.000Z"
+    },
+    {
+      "id": "curated-niteshift-28m-autonomous-ai-workstation-2026-06-10",
+      "title": "Niteshift raises $28M for an autonomous AI workstation",
+      "summary": "Niteshift raised $28 million to build a workstation where software is increasingly operated by autonomous agents rather than through conventional app-by-app workflows.",
+      "fullSummary": "Niteshift has raised $28 million to develop an autonomous AI workstation designed around agents operating software and completing tasks. The product direction reflects a broader shift from chat interfaces toward systems that can act across applications with less direct supervision. The hard problems are reliability, permissions, observability, and recovery when an agent takes the wrong action. The funding shows investors are willing to back a new computing interface built around agents, even before the operational model is fully proven.",
+      "keyFacts": [
+        "June 10, 2026",
+        "$28M raised",
+        "Autonomous AI workstation",
+        "Agent-operated software workflows"
+      ],
+      "url": "https://techcrunch.com/2026/06/10/niteshift-raises-28m-as-autonomous-ai-workstation-races-toward-software-defined-by-agents/",
+      "sourceName": "TechCrunch",
+      "relatedSources": [
+        "Niteshift",
+        "TechCrunch"
+      ],
+      "lane": "funding",
+      "publishedAt": "2026-06-10T14:00:00.000Z",
+      "importance": 385,
+      "sourceConfidence": "medium",
+      "filterCategory": "funding",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-11T08:05:00.000Z"
+    },
+    {
+      "id": "curated-warner-music-acquires-sureel-ai-licensing-2026-06-10",
+      "title": "Warner Music acquires AI music licensing startup Sureel",
+      "summary": "Warner Music acquired Sureel to strengthen artist-first AI licensing tools as labels build technical infrastructure for negotiating and enforcing model-use rights.",
+      "fullSummary": "Warner Music has acquired Sureel, an AI music startup focused on licensing tools. The acquisition gives a major label more in-house technical capacity to identify, manage, and monetize how music is used by AI systems. It arrives as rights holders pursue both negotiated agreements and litigation, showing that the industry is building infrastructure rather than relying on a single legal strategy. The deal's financial terms were not disclosed.",
+      "keyFacts": [
+        "June 10, 2026",
+        "Warner Music acquired Sureel",
+        "AI music licensing tools",
+        "Financial terms not disclosed"
+      ],
+      "url": "https://techcrunch.com/2026/06/10/warner-music-acquires-ai-music-startup-sureel/",
+      "sourceName": "TechCrunch",
+      "relatedSources": [
+        "Warner Music Group",
+        "Sureel",
+        "TechCrunch"
+      ],
+      "lane": "funding",
+      "publishedAt": "2026-06-10T13:30:00.000Z",
+      "importance": 384,
+      "sourceConfidence": "high",
+      "filterCategory": "funding",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-11T08:05:00.000Z"
+    },
+    {
+      "id": "curated-jedify-10m-ai-coworker-agents-2026-06-10",
+      "title": "Jedify raises $10M for AI agents designed to act like coworkers",
+      "summary": "Jedify raised $10 million to build agents positioned as persistent coworkers rather than chatbots, another bet on AI completing ongoing business workflows.",
+      "fullSummary": "Jedify has raised $10 million to build AI agents intended to behave more like persistent coworkers than one-off chatbots. The positioning emphasizes ongoing context, task ownership, and work across business systems. Those capabilities can make agents more useful, but they also increase the need for permission controls, monitoring, and clear accountability. The round is another signal that startup funding is moving toward agentic workflow products, even as enterprises continue to test whether they deliver dependable outcomes.",
+      "keyFacts": [
+        "June 10, 2026",
+        "$10M raised",
+        "Persistent coworker-style agents",
+        "Targets business workflows"
+      ],
+      "url": "https://techcrunch.com/2026/06/10/jedify-raises-10m-to-build-ai-agents-that-act-like-coworkers-not-chatbots/",
+      "sourceName": "TechCrunch",
+      "relatedSources": [
+        "Jedify",
+        "TechCrunch"
+      ],
+      "lane": "funding",
+      "publishedAt": "2026-06-10T13:00:00.000Z",
+      "importance": 383,
+      "sourceConfidence": "medium",
+      "filterCategory": "funding",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-11T08:05:00.000Z"
+    },
+    {
+      "id": "curated-decart-oasis-3-4k-realtime-world-model-2026-06-10",
+      "title": "Decart unveils a real-time 4K world model controlled with text",
+      "summary": "Decart's Oasis 3 generates an interactive, Minecraft-like world in real time at 4K resolution and lets users change it with text commands.",
+      "fullSummary": "Decart has unveiled Oasis 3, a world model that generates an interactive Minecraft-like environment in real time at 4K resolution and responds to text instructions. Real-time, controllable world generation is technically distinct from producing a fixed video because the model must maintain enough consistency for continued interaction. The demonstration points toward applications in games, simulation, and training environments, while also leaving open questions about long-horizon coherence and production cost. It is a material model-capability development rather than a conventional game release.",
+      "keyFacts": [
+        "June 10, 2026",
+        "Oasis 3",
+        "Real-time 4K generation",
+        "Interactive world controlled with text"
+      ],
+      "url": "https://techcrunch.com/2026/06/10/decarts-oasis-3-ai-world-model-is-a-4k-real-time-minecraft-you-can-control-with-text/",
+      "sourceName": "TechCrunch",
+      "relatedSources": [
+        "Decart",
+        "Oasis 3",
+        "TechCrunch"
+      ],
+      "lane": "models",
+      "publishedAt": "2026-06-10T12:30:00.000Z",
+      "importance": 382,
+      "sourceConfidence": "medium",
+      "filterCategory": "models",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-11T08:05:00.000Z"
+    },
     {
       "id": "curated-ft-ai-productivity-paradox-glean-survey-2026-06-10",
       "title": "AI saves workers 11 hours a week, but companies rarely feel it",
@@ -621,29 +980,32 @@
     },
     {
       "id": "curated-anthropic-claude-fable-5-public-release-2026-06-09",
-      "title": "Anthropic releases Fable 5, its first public Mythos-class model",
-      "summary": "Anthropic made a safeguarded Mythos-class model publicly available for the first time, routing high-risk cyber, biology, chemistry, and distillation requests back to Opus 4.8.",
-      "fullSummary": "Anthropic has released Claude Fable 5, the first version of its closely watched Mythos-class technology available to the general public. The company positions Fable 5 as a major step up for software engineering, knowledge work, vision, and long-running tasks, while placing hard restrictions around cybersecurity, biology, chemistry, and model distillation. High-risk requests are blocked or routed to the less capable Claude Opus 4.8. Fable 5 is available through the Claude API and consumption-based Enterprise plans, with temporary access on Pro, Max, Team, and seat-based Enterprise subscriptions through June 22 before usage credits are required. Anthropic is separately deploying Mythos 5 to approved organizations. The release tests whether capability-selective guardrails can make frontier systems broadly useful without exposing their most dangerous skills.",
+      "title": "Anthropic details unusually extensive guardrails for Fable 5",
+      "summary": "Anthropic says Fable 5 has its most extensive safeguards yet, restricting high-risk biology, chemistry, cyber, and model-distillation requests while acknowledging remaining weaknesses.",
+      "fullSummary": "Anthropic has published more detail on the safeguards surrounding Claude Fable 5, the first publicly available version of its Mythos-class technology. The company describes the controls as the most extensive it has deployed, with restrictions focused on serious misuse in biology, chemistry, cybersecurity, and model distillation. High-risk requests can be blocked or routed to the less capable Claude Opus 4.8. Anthropic is also being explicit that the protections have weaknesses, making the release a live test of whether capability-selective guardrails can contain the most dangerous uses without removing the model's broader value. Microsoft has separately restricted Fable 5 inside its products, showing that downstream platforms may apply their own risk decisions.",
       "keyFacts": [
-        "June 9, 2026",
+        "June 9 release; guardrail details reported June 10, 2026",
         "Claude Fable 5",
-        "First public Mythos-class model",
-        "Claude Mythos 5 trusted access",
-        "Subscription access through June 22"
+        "Anthropic's most extensive safeguards to date",
+        "Restrictions target biology, chemistry, cyber, and distillation",
+        "Microsoft separately restricted access in its products"
       ],
       "url": "https://techcrunch.com/2026/06/09/anthropics-claude-fable-5-is-a-version-of-mythos-the-public-can-access-today/",
       "sourceName": "TechCrunch + Anthropic",
       "relatedSources": [
         "Anthropic",
         "Claude Fable 5",
-        "Claude Mythos 5"
+        "Claude Mythos 5",
+        "Microsoft",
+        "TechCrunch"
       ],
       "lane": "models",
       "publishedAt": "2026-06-09T17:00:00.000Z",
-      "importance": 391,
+      "importance": 396,
       "sourceConfidence": "high",
       "filterCategory": "models",
-      "summaryEngine": "chat-curated"
+      "summaryEngine": "chat-curated",
+      "updatedAt": "2026-06-11T08:05:00.000Z"
     },
     {
       "id": "curated-checkmarx-ai-code-security-survey-2026-06-09",
