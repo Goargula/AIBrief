@@ -38,11 +38,11 @@ The app now generates indexable story pages, topic pages, an archive, trust page
 1. Open `https://analytics.google.com/`.
 2. Create a GA4 property for AI Brief.
 3. Create a Web data stream for the canonical domain.
-4. Copy the Measurement ID.
-5. Add GA4 using Google Tag Manager or the Google tag.
-6. Configure events for story views, original-source clicks, shares, saves, filter usage, and newsletter sign-ups.
-7. Link the GA4 property to Search Console.
-8. Confirm events in GA4 Realtime before relying on reports.
+4. The Google tag for Measurement ID `G-BWV7M2CBXP` is installed on the production site.
+5. The app sends `story_view`, `original_source_click`, `story_share`, `story_save`, `story_unsave`, `story_filter`, and `story_sort` events.
+6. In GA4, open **Admin → Product links → Search Console links** and link the verified Search Console property.
+7. In GA4, open **Reports → Realtime**, visit the production site in another tab, open a story, use a filter, and click an original-source link. Confirm those events appear.
+8. In **Admin → Data display → Events**, mark only genuine business outcomes as key events if needed. Do not mark ordinary story views as key events.
 
 ## 4. Register Bing Webmaster Tools
 

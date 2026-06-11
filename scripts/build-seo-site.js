@@ -16,6 +16,7 @@ const categories = {
   pushback: "AI pushbacks",
   general: "General AI"
 };
+const googleTag = `<script async src="https://www.googletagmanager.com/gtag/js?id=G-BWV7M2CBXP"></script><script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());if(window.location.hostname==='goargulaainews.web.app'){gtag('config','G-BWV7M2CBXP')}</script>`;
 
 const esc = (value = "") => String(value).replaceAll("&", "&amp;").replaceAll("<", "&lt;").replaceAll(">", "&gt;").replaceAll('"', "&quot;").replaceAll("'", "&#39;");
 const json = (value) => JSON.stringify(value).replaceAll("<", "\\u003c");
@@ -26,7 +27,7 @@ const displayDate = (value) => new Intl.DateTimeFormat("en-US", { month: "short"
 
 function pageShell({ title, description, canonical, body, schema = null }) {
   return `<!doctype html>
-<html lang="en"><head>
+<html lang="en"><head>${preview ? "" : googleTag}
   <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
   ${noindex ? '<meta name="robots" content="noindex, nofollow">' : '<meta name="robots" content="max-image-preview:large">'}
   <meta name="theme-color" content="#070a0f"><title>${esc(title)}</title>

@@ -359,6 +359,20 @@ function analyticsDayId(date = new Date()) {
   return date.toISOString().slice(0, 10);
 }
 
+function trackGaEvent(name, parameters = {}) {
+  if (typeof window.gtag !== "function" || window.location.hostname !== PRIMARY_HOST) return;
+  window.gtag("event", name, parameters);
+}
+
+function gaStoryParameters(item) {
+  return {
+    story_id: String(item?.id || "").slice(0, 100),
+    story_title: String(item?.title || "").slice(0, 100),
+    source_name: String(item?.sourceName || "").slice(0, 100),
+    story_category: storyFilterType(item || {})
+  };
+}
+
 function safeAnalyticsId(value) {
   return String(value || "unknown")
     .replace(/[/.#[\]\s]+/g, "-")
@@ -410,6 +424,7 @@ async function trackPageHit() {
 async function trackStoryRead(item) {
   if (!item?.id || sessionTrackedReads.has(item.id)) return;
   sessionTrackedReads.add(item.id);
+  trackGaEvent("story_view", gaStoryParameters(item));
   if (!(await ensureFirebaseReady())) return;
 
   const day = analyticsDayId();
@@ -688,6 +703,7 @@ function createStoryCard(item, index) {
   save.addEventListener("click", () => toggleSave(item, save));
 
   share.addEventListener("click", () => shareStory(item, share));
+  original.addEventListener("click", () => trackGaEvent("original_source_click", gaStoryParameters(item)));
 
   return fragment;
 }
@@ -729,6 +745,7 @@ async function toggleSave(item, button) {
   }
   button.textContent = state.saved.has(item.id) ? "Saved" : "Save";
   persistLocalState();
+  trackGaEvent(wasSaved ? "story_unsave" : "story_save", gaStoryParameters(item));
 
   if (!wasSaved && !hasSyncedUser() && !localStorage.getItem(SAVE_SYNC_NOTICE_KEY)) {
     localStorage.setItem(SAVE_SYNC_NOTICE_KEY, "1");
@@ -851,6 +868,7 @@ function goToStoryOffset(offset) {
 
 async function shareStory(item, button) {
   const url = sharedStoryUrl(item);
+  trackGaEvent("story_share", { ...gaStoryParameters(item), share_url: url });
   if (navigator.clipboard?.writeText) {
     await navigator.clipboard.writeText(url);
     button.textContent = "Copied";
@@ -947,6 +965,7 @@ document.querySelectorAll(".filter").forEach((button) => {
   button.dataset.label = button.textContent;
   button.addEventListener("click", () => {
     setFilter(button.dataset.filter);
+    trackGaEvent("story_filter", { filter_name: button.dataset.filter });
     toggleFilterMenu(false);
   });
 });
@@ -958,6 +977,7 @@ document.querySelectorAll(".sort").forEach((button) => {
     document.querySelector(".sort.active")?.classList.remove("active");
     button.classList.add("active");
     state.sort = button.dataset.sort;
+    trackGaEvent("story_sort", { sort_name: button.dataset.sort });
     state.activeIndex = 0;
     state.renderedCount = INITIAL_RENDER_COUNT;
     render();
