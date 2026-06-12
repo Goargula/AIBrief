@@ -1,9 +1,365 @@
 {
-  "generatedAt": "2026-06-11T10:00:00.000Z",
-  "nextRefreshAt": "2026-06-11T13:00:00.000Z",
+  "generatedAt": "2026-06-12T05:30:00.000Z",
+  "nextRefreshAt": "2026-06-12T08:30:00.000Z",
   "summaryEngine": "chat-curated",
   "curated": true,
   "items": [
+    {
+      "id": "curated-avataar-varya-india-video-model-2026-06-12",
+      "title": "India-backed Varya cuts AI video generation cost by roughly 20x",
+      "summary": "Avataar's open-weight Varya video model generates culturally localized clips about 10 times faster than its Wan 2.2 base model and plans to charge about half a cent per second.",
+      "fullSummary": "Avataar AI has launched Varya, an India-focused video generation model built by distilling Alibaba's Wan 2.2. The company says Varya produces video in four steps rather than 50, generating a five-second 720p clip on an Nvidia H200 in 45 seconds versus 1,230 seconds for Wan 2.2. Its hosted price is planned at INR 0.48, or about $0.005, per second, roughly 20 times below several leading video services. Avataar also trained for Indian cultural context such as clothing, food, architecture, and festivals. Varya will be released with open weights and training data through India's AI Kosh portal, making it a meaningful regional model release rather than only an e-commerce feature.",
+      "keyFacts": [
+        "June 12, 2026",
+        "Open-weight Varya video model",
+        "5-second 720p clip in 45 seconds on Nvidia H200",
+        "About $0.005 per generated second",
+        "India AI Mission-backed"
+      ],
+      "url": "https://techcrunch.com/2026/06/11/cheaper-faster-and-culturally-aware-avataars-video-ai-is-built-for-indias-scale/",
+      "sourceName": "TechCrunch + Avataar AI",
+      "relatedSources": [
+        "Avataar AI",
+        "India AI Mission",
+        "AI Kosh",
+        "Alibaba Wan 2.2"
+      ],
+      "lane": "models",
+      "publishedAt": "2026-06-12T04:30:00.000Z",
+      "importance": 420,
+      "sourceConfidence": "high",
+      "filterCategory": "models",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-12T05:30:00.000Z"
+    },
+    {
+      "id": "curated-equal-ai-30m-call-screening-india-2026-06-12",
+      "title": "Equal AI raises $30M after its call-screening agent reaches 1M users",
+      "summary": "India's Equal AI raised a $30 million Series B for a multilingual assistant that answers unknown calls, explains why the caller rang, and can relay user responses.",
+      "fullSummary": "Equal AI has raised a $30 million Series B led by Prosus Ventures and Tomales Bay Capital for an assistant designed to screen calls on behalf of users in India. The Android app has surpassed one million monthly active users and 300,000 daily active users, according to the company. It records and transcribes screened calls, summarizes why someone called, and can read a user's quick or custom response back to the caller. Equal says its orchestration layer supports more than ten languages and code-mixed speech. The company plans known-number screening, outbound appointment calls, iOS support, and a paid tier. The round is notable because it pairs meaningful consumer adoption with a locally adapted voice-agent use case.",
+      "keyFacts": [
+        "June 12, 2026",
+        "$30M Series B",
+        "More than 1M monthly active users",
+        "More than 300,000 daily active users",
+        "Supports more than 10 languages"
+      ],
+      "url": "https://techcrunch.com/2026/06/11/equal-ai-raises-30m-to-screen-calls-so-indians-dont-have-to/",
+      "sourceName": "TechCrunch + Equal AI",
+      "relatedSources": [
+        "Equal AI",
+        "Prosus Ventures",
+        "Tomales Bay Capital"
+      ],
+      "lane": "funding",
+      "publishedAt": "2026-06-12T04:30:00.000Z",
+      "importance": 414,
+      "sourceConfidence": "high",
+      "filterCategory": "funding",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-12T05:30:00.000Z"
+    },
+    {
+      "id": "curated-theker-85m-generalist-factory-robot-2026-06-12",
+      "title": "Theker raises $85M for reconfigurable generalist factory robots",
+      "summary": "Barcelona-based Theker raised what it calls Europe's largest robotics Series A to build modular robots that can switch between messy industrial tasks.",
+      "fullSummary": "Theker has raised an $85 million Series A led by CRV to expand modular AI robots that can be reconfigured for different industrial tasks. Rather than committing to a humanoid form or a single repetitive workflow, Theker swaps or resizes hands, arms, and other components for jobs such as sorting packages, packing clothes, and handling bottles. Zara parent Inditex is an early backer, while Samsung joined the round and is in advanced commercial discussions. The Barcelona startup describes the financing as Europe's largest robotics Series A. The claim is company-framed, but the round is still a strong physical-AI signal: manufacturers are funding adaptable automation before general-purpose humanoids are dependable enough for broad factory use.",
+      "keyFacts": [
+        "June 12, 2026",
+        "$85M Series A",
+        "Led by CRV",
+        "Samsung and Inditex are investors",
+        "Modular, reconfigurable industrial robots"
+      ],
+      "url": "https://techcrunch.com/2026/06/11/theker-just-raised-85m-to-build-the-factory-robot-that-doesnt-specialize-in-anything/",
+      "sourceName": "TechCrunch + Theker",
+      "relatedSources": [
+        "Theker",
+        "CRV",
+        "Samsung",
+        "Inditex"
+      ],
+      "lane": "robotics",
+      "publishedAt": "2026-06-12T01:48:00.000Z",
+      "importance": 416,
+      "sourceConfidence": "high",
+      "filterCategory": "funding",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-12T05:30:00.000Z"
+    },
+    {
+      "id": "curated-prometheus-12b-artificial-general-engineer-2026-06-12",
+      "title": "Bezos-backed Prometheus raises $12B for an 'artificial general engineer'",
+      "summary": "Prometheus raised $12 billion at a $41 billion valuation to pursue AI that automates the design and manufacturing of physical systems from jet engines to drug compounds.",
+      "fullSummary": "Prometheus, the physical-AI startup co-founded by Jeff Bezos and former Verily co-founder Vik Bajaj, has raised $12 billion at a $41 billion valuation. Backers include Bezos, JPMorgan Chase, Goldman Sachs, and BlackRock. The company previously launched with $6.2 billion and now has about 150 employees across San Francisco, London, and Zurich. Prometheus calls its target an 'artificial general engineer': software intended to automate parts of designing and manufacturing complex physical systems, including jet engines and drug compounds. Little of the technology has been shown publicly, and a large portion of the new capital is expected to fund compute. The extraordinary financing makes this a major bet on AI moving from digital knowledge work into physical engineering.",
+      "keyFacts": [
+        "June 12, 2026",
+        "$12B new financing",
+        "$41B valuation",
+        "$6.2B previous financing",
+        "About 150 employees"
+      ],
+      "url": "https://techcrunch.com/2026/06/11/jeff-bezoss-prometheus-raises-12b-to-build-an-artificial-general-engineer-for-the-physical-world/",
+      "sourceName": "TechCrunch + Prometheus",
+      "relatedSources": [
+        "Prometheus",
+        "Jeff Bezos",
+        "Vik Bajaj",
+        "JPMorgan Chase",
+        "Goldman Sachs",
+        "BlackRock"
+      ],
+      "lane": "funding",
+      "publishedAt": "2026-06-12T01:04:00.000Z",
+      "importance": 425,
+      "sourceConfidence": "high",
+      "filterCategory": "funding",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-12T05:30:00.000Z"
+    },
+    {
+      "id": "curated-amazon-datacenter-water-disclosure-2026-06-11",
+      "title": "Amazon discloses 2.5 billion gallons of data-center water use",
+      "summary": "Amazon says its global data centers consumed 2.5 billion gallons of water in 2025, while excluding indirect water use from power generation and construction.",
+      "fullSummary": "Amazon has disclosed annual water use for its global data-center operations, reporting 2.5 billion gallons consumed in 2025 at a rate of 0.12 liters per kilowatt-hour. The company says efficiency improved by 2% despite expansion and claims its facilities are seven times more water-efficient than the industry average. Amazon uses air cooling about 90% of the time and evaporative cooling during the hottest periods. The figures do not include indirect water used to generate electricity or construct new facilities, so they are not a complete footprint. The disclosure arrives immediately after Seattle enacted a one-year data-center moratorium and gives communities a concrete metric for debating the infrastructure costs of AI growth.",
+      "keyFacts": [
+        "June 11, 2026",
+        "2.5B gallons consumed in 2025",
+        "0.12 liters per kilowatt-hour",
+        "2% efficiency improvement",
+        "Indirect water use excluded"
+      ],
+      "url": "https://www.theverge.com/tech/948534/amazon-data-centers-water-use",
+      "sourceName": "The Verge + Amazon",
+      "relatedSources": [
+        "Amazon",
+        "AWS",
+        "The Verge"
+      ],
+      "lane": "infrastructure",
+      "publishedAt": "2026-06-11T17:26:57.000Z",
+      "importance": 418,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-12T05:30:00.000Z"
+    },
+    {
+      "id": "curated-openai-acquires-ona-codex-cloud-2026-06-11",
+      "title": "OpenAI moves to acquire Ona for longer-running Codex cloud work",
+      "summary": "OpenAI plans to acquire cloud execution and orchestration company Ona to strengthen Codex's ability to run sophisticated, long-duration workloads.",
+      "fullSummary": "OpenAI has announced an agreement to acquire Ona, a company focused on cloud execution and orchestration, to strengthen Codex cloud capabilities. The strategic signal is that coding agents increasingly need more than model quality: they require dependable environments, workload scheduling, isolation, and orchestration for tasks that may run for long periods. Bringing that infrastructure in-house could help OpenAI make Codex more capable on complex software projects and more competitive with other coding-agent platforms. Financial terms were not disclosed. The acquisition should be judged by whether Codex can complete longer tasks reliably, recover from failures, and operate within clear permission and security boundaries.",
+      "keyFacts": [
+        "June 11, 2026",
+        "OpenAI agreement to acquire Ona",
+        "Targets Codex cloud execution and orchestration",
+        "Financial terms not disclosed"
+      ],
+      "url": "https://m.economictimes.com/tech/artificial-intelligence/openai-to-acquire-ona-to-strengthen-codex-cloud-capabilities/articleshow/131664834.cms",
+      "sourceName": "OpenAI + Economic Times",
+      "relatedSources": [
+        "OpenAI",
+        "Ona",
+        "Codex"
+      ],
+      "lane": "funding",
+      "publishedAt": "2026-06-11T17:00:00.000Z",
+      "importance": 419,
+      "sourceConfidence": "high",
+      "filterCategory": "funding",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-12T05:30:00.000Z"
+    },
+    {
+      "id": "curated-coinbase-mcp-agent-trading-x402-2026-06-11",
+      "title": "Coinbase gives AI agents permission to trade and buy research",
+      "summary": "Coinbase launched an MCP-connected agent that can trade spot crypto and derivatives, rebalance portfolios, and use x402 payments for research and compute.",
+      "fullSummary": "Coinbase has launched an agent that can connect to a user's main account or a separate sandbox and execute crypto trades through natural-language instructions. It can rebalance portfolios, follow an investment thesis, and currently trade spot markets and derivatives, with equities and prediction markets planned. Coinbase says future controls will include maximum trade size, allowed services, and spending limits. Through the x402 payment protocol, the agent can also pay for premium research APIs and on-demand compute without a conventional login or subscription. The product can work through ChatGPT or Claude using Coinbase's MCP server. This is a consequential agent deployment because mistakes can create immediate financial losses, making permissions, approvals, audit trails, and dispute handling central to adoption.",
+      "keyFacts": [
+        "June 11, 2026",
+        "Spot and derivatives trading supported",
+        "Main-account or sandbox operation",
+        "Uses x402 for machine payments",
+        "Works through ChatGPT or Claude via MCP"
+      ],
+      "url": "https://techcrunch.com/2026/06/11/coinbase-debuts-mcp-for-agent-trading/",
+      "sourceName": "TechCrunch + Coinbase",
+      "relatedSources": [
+        "Coinbase",
+        "MCP",
+        "x402",
+        "ChatGPT",
+        "Claude"
+      ],
+      "lane": "agents",
+      "publishedAt": "2026-06-11T17:00:00.000Z",
+      "importance": 417,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-12T05:30:00.000Z"
+    },
+    {
+      "id": "curated-deezer-cross-platform-ai-music-detector-2026-06-11",
+      "title": "Deezer opens its AI-music detector to playlists from rival services",
+      "summary": "Deezer's free detector can scan playlists from 20 platforms, including Spotify and Apple Music, and identify AI-generated tracks across 27 languages.",
+      "fullSummary": "Deezer has launched a free online tool that lets users import playlists from 20 popular streaming platforms and scan them for AI-generated music. The detector supports 27 languages and works with services including Spotify, Apple Music, SoundCloud, and YouTube Music. Deezer already removes detected AI tracks from recommendations and editorial playlists, while rivals have generally emphasized tagging. The company is also offering its detection technology to other platforms. Detection systems can produce false positives and will face increasingly capable generators, but the launch makes synthetic-media provenance a consumer-facing product rather than only an internal moderation process. It also gives the music industry another practical tool for addressing fraud and disclosure.",
+      "keyFacts": [
+        "June 11, 2026",
+        "Supports playlists from 20 platforms",
+        "Supports 27 languages",
+        "Compatible with Spotify, Apple Music, SoundCloud, and YouTube Music"
+      ],
+      "url": "https://techcrunch.com/2026/06/11/deezers-new-tool-can-identify-ai-music-from-spotify-apple-music-and-others/",
+      "sourceName": "TechCrunch + Deezer",
+      "relatedSources": [
+        "Deezer",
+        "Spotify",
+        "Apple Music",
+        "YouTube Music"
+      ],
+      "lane": "safety",
+      "publishedAt": "2026-06-11T16:36:00.000Z",
+      "importance": 408,
+      "sourceConfidence": "high",
+      "filterCategory": "pushback",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-12T05:30:00.000Z"
+    },
+    {
+      "id": "curated-doordash-ask-doordash-shopping-agent-2026-06-11",
+      "title": "DoorDash turns prompts, photos, and recipes into shopping carts",
+      "summary": "Ask DoorDash lets users describe a meal, upload a grocery-list photo, or share a recipe link and then builds a personalized cart with the needed quantities.",
+      "fullSummary": "DoorDash has launched Ask DoorDash, a conversational shopping assistant that can search for restaurants, suggest meals, and build grocery carts from text prompts, photos, and recipe links. A user can upload a cookbook photo or grocery list and have the app add the ingredients and quantities, while checking whether staples such as sugar or butter are already at home. For restaurant orders, the assistant can filter by dietary preferences, budget, group size, and past orders. This is more operational than a generic chatbot because it converts ambiguous intent into a transaction-ready cart. Its value will depend on recommendation quality, substitution handling, pricing transparency, and whether users remain in control before checkout.",
+      "keyFacts": [
+        "June 11, 2026",
+        "Ask DoorDash conversational assistant",
+        "Builds carts from photos and recipe links",
+        "Uses dietary preferences, budget, group size, and order history"
+      ],
+      "url": "https://techcrunch.com/2026/06/11/doordashs-new-ai-chatbot-lets-you-order-with-prompts-and-photos/",
+      "sourceName": "TechCrunch + DoorDash",
+      "relatedSources": [
+        "DoorDash",
+        "Ask DoorDash"
+      ],
+      "lane": "applications",
+      "publishedAt": "2026-06-11T14:23:00.000Z",
+      "importance": 407,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-12T05:30:00.000Z"
+    },
+    {
+      "id": "curated-anthropic-claude-corps-economic-futures-funds-2026-06-11",
+      "title": "Anthropic commits $350M to nonprofit adoption and AI-job research",
+      "summary": "Anthropic is putting $150 million into Claude Corps and an initial $200 million into studying and testing responses to AI's economic disruption.",
+      "fullSummary": "Anthropic has announced two programs totaling $350 million around AI's social and economic effects. Claude Corps is a $150 million fellowship that will place 1,000 early-career workers with about 400 U.S. nonprofits for a year; host organizations receive a $10,000 grant and free Claude credits. Separately, Anthropic committed an initial $200 million to an Economic Futures Research Fund that will support research trials and evaluation of policies addressing AI-driven disruption. CEO Dario Amodei has proposed responses ranging from better displacement data and pro-employment incentives to universal basic income, sovereign wealth models, and equity sharing under severe scenarios. These are company-funded initiatives rather than independent public policy, but the scale makes them a material response to workforce concerns.",
+      "keyFacts": [
+        "June 11, 2026",
+        "$150M Claude Corps",
+        "1,000 fellows across about 400 nonprofits",
+        "$200M Economic Futures Research Fund",
+        "$10,000 grant plus Claude credits for host organizations"
+      ],
+      "url": "https://apnews.com/article/b1c130a08417d13e1256f8982d233b0e",
+      "sourceName": "Associated Press + Anthropic",
+      "relatedSources": [
+        "Anthropic",
+        "Claude Corps",
+        "CodePath",
+        "Economic Futures Research Fund"
+      ],
+      "lane": "labor",
+      "publishedAt": "2026-06-11T13:01:27.000Z",
+      "importance": 421,
+      "sourceConfidence": "high",
+      "filterCategory": "pushback",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-12T05:30:00.000Z"
+    },
+    {
+      "id": "curated-anthropic-tcs-enterprise-deployment-2026-06-11",
+      "title": "Anthropic and TCS target regulated enterprises with a 50,000-person rollout",
+      "summary": "TCS will create an Anthropic-focused business unit, give Claude to more than 50,000 employees, and develop deployments for regulated industries.",
+      "fullSummary": "Anthropic and Tata Consultancy Services have formed a partnership aimed at scaling Claude across large, regulated organizations. TCS will create a dedicated business unit for deploying Anthropic models, gain early access to new releases, and provide Claude to more than 50,000 employees. The companies plan solutions for financial services, healthcare, telecommunications, and aviation. TCS's Diligenta life-and-pensions business, which serves more than 22 million customers, plans to use Claude for customer service and process automation, while TCS iON will offer training and certification. The agreement is significant because it combines a frontier model provider with one of the world's largest implementation channels, although actual operational outcomes and governance evidence will matter more than the announced scale.",
+      "keyFacts": [
+        "June 11, 2026",
+        "More than 50,000 TCS employees",
+        "Dedicated Anthropic deployment business unit",
+        "Diligenta serves more than 22M customers",
+        "Targets regulated industries"
+      ],
+      "url": "https://techcrunch.com/2026/06/11/anthropic-taps-tcs-to-scale-its-enterprise-ai-deployments/",
+      "sourceName": "TechCrunch + Anthropic + TCS",
+      "relatedSources": [
+        "Anthropic",
+        "Tata Consultancy Services",
+        "Diligenta",
+        "TCS iON"
+      ],
+      "lane": "enterprise",
+      "publishedAt": "2026-06-11T11:48:00.000Z",
+      "importance": 413,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-12T05:30:00.000Z"
+    },
+    {
+      "id": "curated-anthropic-visible-fable-guardrails-apology-2026-06-11",
+      "title": "Anthropic reverses Claude Fable's invisible anti-distillation guardrail",
+      "summary": "After researcher backlash, Anthropic apologized for silently degrading suspected distillation queries and will visibly route them to Claude Opus 4.8 instead.",
+      "fullSummary": "Anthropic has apologized for using an invisible safeguard that silently altered and degraded Claude Fable 5 responses when the system suspected a model-distillation attempt. Researchers and competitors argued that the undisclosed intervention could corrupt evaluations and legitimate development work. Anthropic now says those queries will visibly fall back to Claude Opus 4.8, similar to how Fable handles some high-risk biology, chemistry, and cybersecurity requests. The company said invisible safeguards were easier to target narrowly and ship quickly but acknowledged that the tradeoff was wrong. The reversal is important because model providers increasingly intervene at inference time, and users need to know when the output comes from a different model or has been modified by a safety system.",
+      "keyFacts": [
+        "June 11, 2026",
+        "Invisible anti-distillation safeguard reversed",
+        "Queries will visibly fall back to Claude Opus 4.8",
+        "Anthropic apologized after researcher backlash"
+      ],
+      "url": "https://www.theverge.com/ai-artificial-intelligence/948280/anthropic-claude-fable-invisible-distillation-guardrail",
+      "sourceName": "The Verge + Anthropic",
+      "relatedSources": [
+        "Anthropic",
+        "Claude Fable 5",
+        "Claude Opus 4.8"
+      ],
+      "lane": "safety",
+      "publishedAt": "2026-06-11T11:40:43.000Z",
+      "importance": 415,
+      "sourceConfidence": "high",
+      "filterCategory": "pushback",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-12T05:30:00.000Z"
+    },
+    {
+      "id": "curated-visa-chatgpt-agent-payments-2026-06-10",
+      "title": "Visa plugs its payment network into ChatGPT for agent purchases",
+      "summary": "Visa and OpenAI are enabling ChatGPT agents to shop and initiate purchases at potentially any Visa merchant, initially with user approvals and spending controls.",
+      "fullSummary": "Visa has embedded its payment network into ChatGPT so agents can move from recommending products to initiating purchases at potentially any merchant that accepts Visa. Users will be able to link cards, while Visa supplies payment authorization, fraud monitoring, and dispute infrastructure. Early transactions will generally require human approval, and planned guardrails include spending limits, approved merchants, and authorization steps. The collaboration follows OpenAI's retired Instant Checkout product, which saw limited merchant adoption and charged a 4% transaction fee. The new approach matters because it uses existing payment rails rather than requiring every seller to integrate separately. Trust will depend on accurately recording user intent and resolving mistakes when an agent buys the wrong item.",
+      "keyFacts": [
+        "June 10, 2026",
+        "Visa network embedded in ChatGPT",
+        "Potentially works at any Visa-accepting merchant",
+        "Human approvals expected initially",
+        "Spending and merchant controls planned"
+      ],
+      "url": "https://apnews.com/article/d769dec86344cb4977c98789e8ec492f",
+      "sourceName": "Associated Press + Visa + OpenAI",
+      "relatedSources": [
+        "Visa",
+        "OpenAI",
+        "ChatGPT"
+      ],
+      "lane": "agents",
+      "publishedAt": "2026-06-10T18:01:50.000Z",
+      "importance": 412,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-12T05:30:00.000Z"
+    },
     {
       "id": "curated-amazon-17-5b-bond-ai-infrastructure-2026-06-10",
       "title": "Amazon lines up a $17.5B loan facility as AI spending grows",
