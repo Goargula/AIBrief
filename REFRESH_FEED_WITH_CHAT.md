@@ -41,6 +41,8 @@ $payload.items | Select-Object title,sourceName,lane,filterCategory,publishedAt,
 
 Before searching, record the current `generatedAt`, current item count, and newest 8-12 `publishedAt` values. Use the latest `generatedAt` as the baseline for "since last refresh," but also allow high-quality missed stories from the last 48-72 hours when they fill an important lane.
 
+Also compare the current feed with the most recent successful refresh commit or other known-good pre-repair feed state. If an intervening source-link repair, cleanup, or validation commit removed stories, reconcile every removed material story during the refresh. For each removed story, either restore it with an exact newly verified source URL or record a concrete exclusion reason. Do not assume a smaller repaired feed still contains all previously discovered material coverage.
+
 3. Do a recency-first orientation pass before the category audits:
 
 - Check the latest pages or feeds from at least two broad news sources, such as TechCrunch Latest/AI, VentureBeat AI, Reuters/AP where available, The Verge, MIT Technology Review, Business Wire, PR Newswire, and Google News-style searches.
@@ -200,6 +202,8 @@ Do not write the final feed while any audit is incomplete. A category may legiti
 The ledger must name the targeted enterprise-outcomes, workforce, and report/survey searches used in Audits D, F, and J. Do not mark those audits complete based only on product-news or broad-news browsing.
 
 The ledger must also include a separate named-site source ledger with one row per individually named source from Audit J. A single combined row, a row per source group, or a note such as "broad news checked" is insufficient.
+
+When the current feed is smaller than the latest known-good refresh state, include a removed-story reconciliation ledger with one row per removed story: previous title/ID, why it was removed, replacement exact URL if found, and final decision. The refresh remains incomplete while a material removed story is neither restored nor explicitly excluded.
 
 Use this structure:
 

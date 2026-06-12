@@ -1,9 +1,228 @@
 {
-  "generatedAt": "2026-06-12T05:30:00.000Z",
-  "nextRefreshAt": "2026-06-12T08:30:00.000Z",
+  "generatedAt": "2026-06-12T07:15:00.000Z",
+  "nextRefreshAt": "2026-06-12T10:15:00.000Z",
   "summaryEngine": "chat-curated",
   "curated": true,
   "items": [
+    {
+      "id": "curated-coram-ai-35m-physical-security-2026-06-11",
+      "title": "Coram raises $35M to turn security cameras into AI investigators",
+      "summary": "Coram raised a $35 million Series B after deploying its AI physical-security platform across more than 1,500 North American sites.",
+      "fullSummary": "Coram AI raised a $35 million Series B co-led by Ansa Capital and Battery Ventures, bringing total funding to $66 million. The startup connects existing cameras, badge readers, visitor logs, and emergency systems, then lets security teams search incidents and generate reports using natural-language queries. Coram says its platform is deployed across more than 1,500 sites in the U.S. and Canada and can detect firearms, alert emergency services, and help initiate school lockdowns. Its new Deep Investigation product can search patterns across events and produce privacy-aware reports. The deployment scale makes this more than a computer-vision demo, while the sensitivity of surveillance data makes access controls, accuracy, and abuse prevention central risks.",
+      "keyFacts": [
+        "June 11, 2026",
+        "$35M Series B",
+        "$66M total funding",
+        "More than 1,500 deployed sites",
+        "Ansa Capital and Battery Ventures co-led"
+      ],
+      "url": "https://www.businessinsider.com/coram-turn-security-cameras-into-ai-detectives-2026-6",
+      "sourceName": "Business Insider + Coram AI",
+      "relatedSources": [
+        "Coram AI",
+        "Ansa Capital",
+        "Battery Ventures"
+      ],
+      "lane": "robotics",
+      "publishedAt": "2026-06-11T11:30:01.000Z",
+      "importance": 416,
+      "sourceConfidence": "high",
+      "filterCategory": "funding",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-12T07:15:00.000Z"
+    },
+    {
+      "id": "curated-neura-robotics-1-4b-physical-ai-2026-06-11",
+      "title": "Neura Robotics secures up to $1.4B to manufacture millions of robots",
+      "summary": "Germany's Neura Robotics secured backing from Nvidia, Amazon, Qualcomm, Bosch, and the EIB to scale cognitive robots and humanoids.",
+      "fullSummary": "Neura Robotics says it has secured up to $1.4 billion to build a physical-AI platform and scale production toward several million robots by 2030. Backers include Nvidia, Amazon, Tether, Qualcomm Technologies, Bosch, Schaeffler, and the European Investment Bank. The German company reports an order backlog above $1 billion and plans to expand cognitive robots and humanoids across manufacturing, logistics, healthcare, and consumer applications. It also intends to build a real-world training network for robots. The scale of the financing makes Neura one of Europe's largest physical-AI bets, although the 'up to' structure and ambitious production target mean execution, delivered units, and customer deployments matter more than the headline amount.",
+      "keyFacts": [
+        "June 11, 2026",
+        "Up to $1.4B financing",
+        "More than $1B reported order backlog",
+        "Several million robots targeted by 2030",
+        "Backed by Nvidia, Amazon, Qualcomm, Bosch, and EIB"
+      ],
+      "url": "https://www.wsj.com/tech/ai/nvidia-amazon-back-neura-robotics-1-4-billion-fundraise-ff630662",
+      "sourceName": "Wall Street Journal + Neura Robotics",
+      "relatedSources": [
+        "Neura Robotics",
+        "Nvidia",
+        "Amazon",
+        "European Investment Bank"
+      ],
+      "lane": "robotics",
+      "publishedAt": "2026-06-11T07:06:00.000Z",
+      "importance": 424,
+      "sourceConfidence": "high",
+      "filterCategory": "funding",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-12T07:15:00.000Z"
+    },
+    {
+      "id": "curated-mcdonalds-archiq-google-ai-drive-thru-2026-06-10",
+      "title": "McDonald's tests a Google-backed AI drive-thru after its IBM failure",
+      "summary": "McDonald's is piloting ArchIQ at five U.S. restaurants; a franchisee says it has processed over one million transactions with roughly 90% avoiding staff escalation.",
+      "fullSummary": "McDonald's is testing ArchIQ, nicknamed Archy, at five U.S. restaurants as a new attempt to automate drive-thru ordering and restaurant operations. The Google-backed system can take orders in English and Spanish, handle changes, and appears able to recognize repeat customers. A franchisee account says ArchIQ has processed more than one million transactions and completed about 90% without staff escalation, although McDonald's has not independently published those figures. The system can also flag freezer failures and kitchen bottlenecks. This is a meaningful operational deployment because McDonald's ended an earlier IBM ordering pilot in 2024 after widely reported errors. The real test is whether the new system improves speed and accuracy without frustrating customers or displacing service quality.",
+      "keyFacts": [
+        "June 10, 2026",
+        "Pilot at five U.S. restaurants",
+        "More than 1M claimed transactions",
+        "About 90% claimed without staff escalation",
+        "Developed with Google"
+      ],
+      "url": "https://www.artificialintelligence-news.com/news/mcdonalds-ai-drive-thru-google-archiq/",
+      "sourceName": "AI News + McDonald's",
+      "relatedSources": [
+        "McDonald's",
+        "Google",
+        "ArchIQ"
+      ],
+      "lane": "enterprise",
+      "publishedAt": "2026-06-10T12:00:00.000Z",
+      "importance": 409,
+      "sourceConfidence": "medium",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-12T07:15:00.000Z"
+    },
+    {
+      "id": "curated-german-court-google-ai-overviews-liability-2026-06-10",
+      "title": "German court treats AI Overviews as Google's own liable speech",
+      "summary": "A Munich court ruled Google directly liable for false AI Overview claims because generated summaries are its own substantive statements, not conventional search links.",
+      "fullSummary": "The Regional Court of Munich issued a temporary injunction after Google's AI Overviews falsely linked two publishers to scams and dubious business practices. The court treated the generated summaries as Google's own content because they created independent statements that did not appear in the linked sources. It rejected Google's argument that users could verify the claims themselves and held that traditional search-engine liability protections do not automatically apply to generated answers. Google says it is reviewing the decision, which is not final. The ruling is potentially consequential beyond Germany because it offers a legal theory for holding answer engines responsible when generated summaries confidently make false claims.",
+      "keyFacts": [
+        "June 11, 2026 update",
+        "Regional Court of Munich",
+        "Temporary injunction",
+        "Google assigned 80% of legal costs",
+        "Decision is not final"
+      ],
+      "url": "https://the-decoder.com/landmark-german-ruling-declares-googles-ai-overviews-are-googles-own-words-and-makes-it-liable-for-false-answers/",
+      "sourceName": "The Decoder + The Verge",
+      "relatedSources": [
+        "Google",
+        "Regional Court of Munich",
+        "The Decoder",
+        "The Verge"
+      ],
+      "lane": "legal",
+      "publishedAt": "2026-06-10T16:30:00.000Z",
+      "importance": 418,
+      "sourceConfidence": "high",
+      "filterCategory": "pushback",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-12T07:15:00.000Z"
+    },
+    {
+      "id": "curated-warner-music-acquires-sureel-ai-licensing-2026-06-10",
+      "title": "Warner Music acquires Sureel to track unauthorized AI training",
+      "summary": "Warner Music acquired attribution startup Sureel AI, whose 'AI DNA' technology tracks how artists' work is used to train generative models.",
+      "fullSummary": "Warner Music Group has acquired Sureel AI, an attribution company that tracks how creative work is used in generative-AI training. Sureel describes its approach as 'AI DNA' and will continue operating as a standalone platform after the acquisition. Financial terms were not disclosed. The deal gives a major music company technical infrastructure for identifying model-training use, supporting licensing negotiations, and protecting artist rights. It arrives as labels pursue a mix of lawsuits, licensing agreements, and detection tools. The strategic question is whether attribution technology can remain accurate as model pipelines become more complex and whether it leads to transparent compensation rather than only enforcement.",
+      "keyFacts": [
+        "June 10, 2026",
+        "Warner Music Group acquired Sureel AI",
+        "Sureel remains a standalone platform",
+        "Financial terms not disclosed",
+        "Tracks generative-AI training use"
+      ],
+      "url": "https://www.prnewswire.com/news-releases/warner-music-group-acquires-sureel-ai-302796705.html",
+      "sourceName": "Warner Music Group / PR Newswire",
+      "relatedSources": [
+        "Warner Music Group",
+        "Sureel AI",
+        "PR Newswire"
+      ],
+      "lane": "funding",
+      "publishedAt": "2026-06-10T13:30:00.000Z",
+      "importance": 405,
+      "sourceConfidence": "high",
+      "filterCategory": "funding",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-12T07:15:00.000Z"
+    },
+    {
+      "id": "curated-amd-venice-vera-rack-performance-claim-2026-06-11",
+      "title": "AMD claims Zen 6 Venice can beat Nvidia Vera by 3.3x per rack",
+      "summary": "AMD published modeled rack-level estimates claiming its 256-core EPYC Venice CPU outperforms Nvidia Vera by 3.3 times under a 100kW power budget.",
+      "fullSummary": "AMD has published preliminary estimates claiming that a rack of its upcoming 256-core EPYC Venice CPUs can deliver 3.3 times the performance of Nvidia's Vera CPU under a 100-kilowatt power budget. The comparison is directional rather than an independently tested benchmark: AMD modeled future scaling from earlier EPYC and Nvidia Grace results and used general-purpose SPEC CPU 2017 workloads rather than AI-specific tests. AMD is framing Venice around agentic-AI infrastructure as competition expands beyond GPUs to CPUs, networking, memory, and rack design. The claim is material because rack-level power efficiency increasingly determines data-center economics, but it should remain labeled as a vendor estimate until production hardware is benchmarked independently.",
+      "keyFacts": [
+        "June 11, 2026",
+        "256-core Zen 6 EPYC Venice",
+        "Claimed 3.3x rack-level advantage",
+        "100kW modeled power budget",
+        "Vendor estimate, not independent testing"
+      ],
+      "url": "https://www.tomshardware.com/pc-components/cpus/amd-fires-back-at-nvidia-claiming-256-core-zen-6-venice-cpu-beats-vera-by-3-3x-in-rack-level-performance-company-shares-first-estimated-epyc-venice-benchmarks",
+      "sourceName": "Tom's Hardware + AMD",
+      "relatedSources": [
+        "AMD",
+        "Nvidia",
+        "EPYC Venice",
+        "Vera CPU"
+      ],
+      "lane": "infrastructure",
+      "publishedAt": "2026-06-11T10:00:00.000Z",
+      "importance": 402,
+      "sourceConfidence": "medium",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-12T07:15:00.000Z"
+    },
+    {
+      "id": "curated-meta-workforce-academy-data-centers-2026-06-08",
+      "title": "Meta puts $115M into training workers to build AI data centers",
+      "summary": "Meta's new Workforce Academy funds five-week skilled-trades training and guarantees graduates jobs building data centers in four U.S. states.",
+      "fullSummary": "Meta has launched America's Workforce Academy, a $115 million program intended to train skilled-trade workers for its expanding AI data-center construction pipeline. The five-week, tuition-free program will begin in Louisiana, Ohio, Indiana, and Texas and includes guaranteed job placement for graduates at Meta construction sites. Partners include CBRE and Associated Builders and Contractors. The initiative highlights a less visible workforce effect of AI infrastructure: hyperscalers are cutting or redirecting white-collar roles while creating intense demand for electricians, mechanical specialists, and other construction trades. The jobs are meaningful, but long-term impact depends on whether workers have durable career paths after individual data centers are completed.",
+      "keyFacts": [
+        "June 8, 2026",
+        "$115M program",
+        "Five-week tuition-free training",
+        "Guaranteed job placement",
+        "Initial rollout in Louisiana, Ohio, Indiana, and Texas"
+      ],
+      "url": "https://www.wsj.com/tech/ai/meta-launches-workforce-academy-to-train-workers-to-build-data-centers-35470a80",
+      "sourceName": "Wall Street Journal + Meta",
+      "relatedSources": [
+        "Meta",
+        "CBRE",
+        "Associated Builders and Contractors"
+      ],
+      "lane": "labor",
+      "publishedAt": "2026-06-08T12:00:00.000Z",
+      "importance": 399,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-12T07:15:00.000Z"
+    },
+    {
+      "id": "curated-meta-8000-job-cuts-ai-infrastructure-2026-05-20",
+      "title": "Meta cuts 8,000 jobs as AI infrastructure consumes its budget",
+      "summary": "Meta is cutting roughly 8,000 jobs while redirecting about 7,000 employees toward AI and planning up to $145 billion of 2026 capital spending.",
+      "fullSummary": "Meta began cutting roughly 8,000 jobs, about 10% of its workforce, while redirecting approximately 7,000 employees toward AI-related teams. The company has framed the reductions around the enormous cost of AI infrastructure rather than claiming that AI directly replaced every affected worker. Meta's 2026 capital-expenditure forecast reaches as high as $145 billion, roughly double its 2025 spending. The restructuring is a major example of AI changing corporate resource allocation even before productivity evidence is clear: profitable technology companies are trading headcount for compute, data centers, and new model teams. The layoffs and the new Workforce Academy together show the uneven labor transition, with white-collar cuts occurring alongside demand for construction trades.",
+      "keyFacts": [
+        "May 20, 2026",
+        "About 8,000 jobs cut",
+        "About 7,000 employees redirected toward AI",
+        "Up to $145B 2026 capital spending",
+        "Roughly 10% workforce reduction"
+      ],
+      "url": "https://www.tomshardware.com/tech-industry/big-tech/mark-zuckerberg-says-meta-is-cutting-8000-jobs-to-pay-for-ai-infrastructure",
+      "sourceName": "Tom's Hardware + Meta",
+      "relatedSources": [
+        "Meta",
+        "Mark Zuckerberg",
+        "Tom's Hardware"
+      ],
+      "lane": "labor",
+      "publishedAt": "2026-05-20T14:00:00.000Z",
+      "importance": 411,
+      "sourceConfidence": "high",
+      "filterCategory": "pushback",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-12T07:15:00.000Z"
+    },
     {
       "id": "curated-avataar-varya-india-video-model-2026-06-12",
       "title": "India-backed Varya cuts AI video generation cost by roughly 20x",
