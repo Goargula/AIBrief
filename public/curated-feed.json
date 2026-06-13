@@ -1,9 +1,215 @@
 {
-  "generatedAt": "2026-06-12T07:15:00.000Z",
-  "nextRefreshAt": "2026-06-12T10:15:00.000Z",
+  "generatedAt": "2026-06-13T03:46:09.514Z",
+  "nextRefreshAt": "2026-06-13T06:46:09.514Z",
   "summaryEngine": "chat-curated",
   "curated": true,
   "items": [
+    {
+      "id": "curated-anthropic-government-directive-fable-mythos-2026-06-12",
+      "title": "Anthropic takes Fable and Mythos offline under U.S. export controls",
+      "summary": "Anthropic took Fable 5 and Mythos 5 offline after the Trump administration imposed export controls intended to block access by foreign nationals.",
+      "fullSummary": "Anthropic took its latest Fable 5 and Mythos 5 models offline after receiving a Trump administration directive aimed at preventing access by foreign nationals. The company disagrees with what it described as an opaque and abrupt approach and says the national-security justification remains unclear. Other Anthropic models are not affected. The action is a major test of how far governments can reach into commercial access to advanced AI models, especially when export controls affect domestic operations and global customers.",
+      "keyFacts": [
+        "June 12, 2026",
+        "Covers Fable 5 and Mythos 5",
+        "Directive targets access by foreign nationals",
+        "Other Anthropic models remain available"
+      ],
+      "url": "https://apnews.com/article/d9cc7df5c02e93837d0f0bfb24d5cfd2",
+      "sourceName": "Associated Press + Anthropic",
+      "relatedSources": [
+        "Anthropic",
+        "U.S. government"
+      ],
+      "lane": "policy",
+      "publishedAt": "2026-06-12T20:00:00.000Z",
+      "importance": 440,
+      "sourceConfidence": "high",
+      "filterCategory": "pushback",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-13T03:46:09.514Z"
+    },
+    {
+      "id": "curated-spacex-largest-ipo-ai-xai-2026-06-12",
+      "title": "SpaceX officially prices the largest IPO in history",
+      "summary": "SpaceX officially priced its record-setting public offering, giving public-market investors exposure to a company that now includes xAI and its AI infrastructure ambitions.",
+      "fullSummary": "SpaceX made what The Guardian describes as the largest stock-market debut in history. The listing is also an AI-capital event because SpaceX now includes xAI and its costly model-training and infrastructure operations. Trading opened above the IPO price, giving the combined company a market capitalization above $2 trillion, according to market reports. The offering moves a major source of AI compute demand and financing into public markets, where investors can more directly scrutinize spending, revenue, and execution.",
+      "keyFacts": [
+        "June 12, 2026",
+        "IPO officially priced",
+        "Described as the largest IPO in history",
+        "SpaceX now includes xAI"
+      ],
+      "url": "https://www.theguardian.com/science/2026/jun/12/spacex-stock-price-ipo-spcx",
+      "sourceName": "The Guardian",
+      "relatedSources": [
+        "SpaceX",
+        "xAI",
+        "Nasdaq"
+      ],
+      "lane": "funding",
+      "publishedAt": "2026-06-12T17:30:00.000Z",
+      "importance": 437,
+      "sourceConfidence": "high",
+      "filterCategory": "funding",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-13T03:46:09.514Z"
+    },
+    {
+      "id": "curated-google-outsider-enterprise-ai-phishing-lawsuit-2026-06-12",
+      "title": "Google sues cybercrime group accused of scaling phishing with AI",
+      "summary": "Google says Outsider Enterprise used Gemini to help mass-produce a campaign involving more than 9,000 fake websites and roughly 2.5 million scam messages.",
+      "fullSummary": "Google sued a China-based cybercrime group it calls Outsider Enterprise, alleging that the operation used Gemini to help mass-produce convincing financial scams. The complaint says the network created more than 9,000 fake websites and distributed roughly 2.5 million scam messages to hundreds of thousands of smartphone users. The case is a concrete example of generative AI lowering the operational cost of global cybercrime, while also testing whether civil litigation can disrupt the people and infrastructure behind abuse.",
+      "keyFacts": [
+        "June 12, 2026",
+        "More than 9,000 alleged fake websites",
+        "Roughly 2.5M alleged scam messages",
+        "Hundreds of thousands of smartphone users targeted"
+      ],
+      "url": "https://timesofindia.indiatimes.com/technology/tech-news/9000-fake-websites-2-5-million-messages-and-more-chinese-hackers-used-gemini-ai-to-scam-people-now-google-is-suing-them/articleshow/131688909.cms",
+      "sourceName": "Times of India + Google",
+      "relatedSources": [
+        "Google",
+        "Outsider Enterprise",
+        "OpenAI"
+      ],
+      "lane": "security",
+      "publishedAt": "2026-06-12T15:30:00.000Z",
+      "importance": 433,
+      "sourceConfidence": "high",
+      "filterCategory": "pushback",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-13T03:46:09.514Z"
+    },
+    {
+      "id": "curated-meta-ai-glasses-blind-veterans-2026-06-12",
+      "title": "Meta will donate AI glasses to every blind U.S. veteran",
+      "summary": "More than 130,000 legally blind American veterans will be eligible for free Ray-Ban Meta glasses plus hands-on training and support.",
+      "fullSummary": "Meta announced a program to donate Ray-Ban Meta AI glasses to every blind veteran in the United States. More than 130,000 legally blind American veterans will be eligible, and Meta and its partners will provide training through the Blinded Veterans Association, TechSoup, and other groups. The glasses can identify objects, read text, and help users manage everyday tasks by voice. The program is a large-scale accessibility deployment that can demonstrate whether consumer AI wearables deliver durable independence outside controlled product demos.",
+      "keyFacts": [
+        "June 12, 2026",
+        "More than 130,000 veterans eligible",
+        "Ray-Ban Meta glasses provided free",
+        "Training included with every pair"
+      ],
+      "url": "https://about.fb.com/news/2026/06/free-ai-glasses-for-every-blind-veteran/",
+      "sourceName": "Meta",
+      "relatedSources": [
+        "Meta",
+        "Blinded Veterans Association",
+        "TechSoup"
+      ],
+      "lane": "consumer",
+      "publishedAt": "2026-06-12T14:30:00.000Z",
+      "importance": 430,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-13T03:46:09.514Z"
+    },
+    {
+      "id": "curated-relativity-acquires-gavel-legal-ai-2026-06-12",
+      "title": "Relativity acquires Gavel to bring legal AI into Microsoft Word",
+      "summary": "Relativity acquired contract-drafting and redlining platform Gavel, extending its legal-data AI into Word workflows used by nearly 15,000 professionals.",
+      "fullSummary": "Legal-data intelligence company Relativity acquired Gavel, an AI-assisted contract drafting and redlining platform embedded in Microsoft Word. Gavel says its platform has reached 1.2 million users, generated more than 2.5 million documents, and is used by nearly 15,000 legal professionals. Financial terms were not disclosed. The acquisition connects Relativity's litigation and investigation data with document-production workflows, reflecting consolidation as legal-AI vendors compete to own more of a lawyer's daily work.",
+      "keyFacts": [
+        "June 12, 2026",
+        "Financial terms not disclosed",
+        "1.2M reported Gavel users",
+        "More than 2.5M documents generated",
+        "Nearly 15,000 legal professionals"
+      ],
+      "url": "https://www.prnewswire.com/news-releases/relativity-acquires-gavel-to-extend-its-ai-platform-for-legal-data-intelligence-into-microsoft-word-302799189.html",
+      "sourceName": "Relativity / PR Newswire",
+      "relatedSources": [
+        "Relativity",
+        "Gavel",
+        "Microsoft"
+      ],
+      "lane": "enterprise",
+      "publishedAt": "2026-06-12T13:30:00.000Z",
+      "importance": 425,
+      "sourceConfidence": "high",
+      "filterCategory": "funding",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-13T03:46:09.514Z"
+    },
+    {
+      "id": "curated-pokemon-go-data-military-drone-ai-2026-06-12",
+      "title": "Pokemon Go mapping data reportedly helped train military drone AI",
+      "summary": "A report says location scans and imagery collected through Pokemon Go helped train Niantic's geospatial AI, technology later used in U.S. military drones.",
+      "fullSummary": "The Guardian reports that location scans, images, and other data collected through Pokemon Go helped train Niantic's geospatial AI technology, which was later used in U.S. military drone applications. The report does not mean players knowingly contributed to a military project, and the chain from consumer data collection to defense use requires careful distinction. The story highlights how data gathered for games and consumer mapping can acquire unexpected downstream uses after technologies, teams, or assets move between companies and customers.",
+      "keyFacts": [
+        "June 12, 2026 report",
+        "Consumer mapping data used to train geospatial AI",
+        "Technology reportedly used in U.S. military drones",
+        "Players did not knowingly contribute to a military project"
+      ],
+      "url": "https://www.theguardian.com/technology/2026/jun/12/pokemon-go-data-trained-ai-that-could-assist-military-drones-in-war-zones",
+      "sourceName": "The Guardian",
+      "relatedSources": [
+        "Niantic",
+        "Pokemon Go",
+        "U.S. military"
+      ],
+      "lane": "policy",
+      "publishedAt": "2026-06-12T12:00:00.000Z",
+      "importance": 417,
+      "sourceConfidence": "medium",
+      "filterCategory": "pushback",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-13T03:46:09.514Z"
+    },
+    {
+      "id": "curated-california-ai-workforce-executive-order-2026-06-12",
+      "title": "California starts preparing for AI-driven workforce disruption",
+      "summary": "California agencies are collecting employment data and developing worker safeguards under an executive order focused on AI's labor-market effects.",
+      "fullSummary": "California has begun implementing Governor Gavin Newsom's executive order directing state agencies to study how AI is reshaping work. The effort includes collecting employment data, monitoring exposed occupations, and considering safeguards such as retraining programs and severance support. Axios describes it as a first-in-the-nation attempt to prepare for AI-driven workforce disruption while evidence about the scale and timing of job losses remains uncertain. The policy is significant because California is both a center of AI development and a potential early indicator of labor-market effects.",
+      "keyFacts": [
+        "June 12, 2026 analysis",
+        "State agencies collecting employment data",
+        "Includes retraining and worker-safeguard planning",
+        "Targets AI-driven workforce disruption"
+      ],
+      "url": "https://www.axios.com/local/san-francisco/2026/06/12/california-ai-workforce-displacement-newsom-order-employment-data-worker-safeguards",
+      "sourceName": "Axios",
+      "relatedSources": [
+        "California",
+        "Governor Gavin Newsom"
+      ],
+      "lane": "policy",
+      "publishedAt": "2026-06-12T11:30:00.000Z",
+      "importance": 415,
+      "sourceConfidence": "high",
+      "filterCategory": "pushback",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-13T03:46:09.514Z"
+    },
+    {
+      "id": "curated-china-295b-national-ai-data-center-grid-2026-06-10",
+      "title": "China drafts $295B national AI data-center grid",
+      "summary": "China is reportedly considering a $295 billion nationwide AI-compute grid targeting 70GW of IT load and 80% domestic hardware by 2030.",
+      "fullSummary": "China has drafted a reported CNY2.4 trillion, or roughly $295 billion, plan for a nationwide AI data-center grid. The proposal targets up to 70 gigawatts of IT load and aims for 80% of chips, servers, and networking equipment to be domestically produced by 2030. The plan would connect regional compute capacity and reduce reliance on foreign technology as AI infrastructure becomes a strategic national asset. Because the proposal remains a draft, implementation details, funding, and actual procurement will determine its impact.",
+      "keyFacts": [
+        "June 10, 2026 report",
+        "CNY2.4T / about $295B draft plan",
+        "Up to 70GW IT load",
+        "80% domestic hardware target by 2030"
+      ],
+      "url": "https://www.tomshardware.com/tech-industry/china-drafts-295-billion-plan-to-build-a-national-ai-data-center-grid-running-on-80-percent-domestic-chips",
+      "sourceName": "Tom's Hardware",
+      "relatedSources": [
+        "China",
+        "AI data centers"
+      ],
+      "lane": "infrastructure",
+      "publishedAt": "2026-06-10T10:00:00.000Z",
+      "importance": 412,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-13T03:46:09.514Z"
+    },
     {
       "id": "curated-coram-ai-35m-physical-security-2026-06-11",
       "title": "Coram raises $35M to turn security cameras into AI investigators",
