@@ -1,9 +1,60 @@
 {
-  "generatedAt": "2026-06-13T04:13:19.438Z",
-  "nextRefreshAt": "2026-06-13T07:13:19.438Z",
+  "generatedAt": "2026-06-13T05:25:11.120Z",
+  "nextRefreshAt": "2026-06-13T08:25:11.120Z",
   "summaryEngine": "chat-curated",
   "curated": true,
   "items": [
+    {
+      "id": "curated-chatsee-6-5m-agent-failure-detection-2026-06-12",
+      "title": "ChatSeeAI raises $6.5M to tackle AI-agent failures",
+      "summary": "ChatSeeAI raised a $6.5 million seed round led by True Ventures to help companies detect, diagnose, and prevent failures in production AI agents.",
+      "fullSummary": "ChatSeeAI raised a $6.5 million seed round led by True Ventures to address the growing problem of AI agents failing in production. The company is building observability and reliability tools intended to detect, diagnose, and help prevent agent failures before they disrupt customers or business operations. The funding is a useful signal that the agent ecosystem is expanding beyond model builders and application developers into operational infrastructure. As companies deploy agents that take actions across software and business systems, monitoring, root-cause analysis, and failure prevention become necessary controls rather than optional developer tools.",
+      "keyFacts": [
+        "June 12, 2026",
+        "$6.5M seed round",
+        "True Ventures led",
+        "Focuses on production AI-agent failures"
+      ],
+      "url": "https://www.morningstar.com/news/pr-newswire/20260612sf82289/chatseeai-raises-65m-led-by-true-ventures-to-tackle-the-growing-problem-of-ai-agent-failures",
+      "sourceName": "Morningstar / PR Newswire",
+      "relatedSources": [
+        "ChatSeeAI",
+        "True Ventures",
+        "PR Newswire"
+      ],
+      "lane": "enterprise",
+      "publishedAt": "2026-06-12T13:15:00.000Z",
+      "importance": 420,
+      "sourceConfidence": "high",
+      "filterCategory": "funding",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-13T05:25:11.120Z"
+    },
+    {
+      "id": "curated-opentext-ireland-ai-investment-jobs-2026-06-12",
+      "title": "OpenText commits EUR105M to Irish AI expansion and 400 jobs",
+      "summary": "OpenText will invest EUR105 million and create 400 jobs over three years while establishing an EMEA headquarters and AI innovation center in Ireland.",
+      "fullSummary": "OpenText announced a EUR105 million investment in Ireland that is expected to create 400 jobs over three years. The enterprise-software company plans to establish an EMEA headquarters and AI innovation center, with activity in Dublin, Cork, and Galway. The commitment is notable as a regional AI investment tied to specific employment and operating locations rather than only compute capacity. It also shows how enterprise-AI companies are distributing research, sales, and operational functions across regional ecosystems. Execution will be measured by hiring, the functions placed in Ireland, and the products or research produced by the innovation center.",
+      "keyFacts": [
+        "June 12, 2026",
+        "EUR105M investment",
+        "400 jobs over three years",
+        "EMEA headquarters and AI innovation center"
+      ],
+      "url": "https://www.finanzwire.com/article/open-text-corporation-etr-opentext-to-boost-irish-economy-with-105m-investment-0c7Ke3RwXui",
+      "sourceName": "Finanzwire + OpenText",
+      "relatedSources": [
+        "OpenText",
+        "Ireland"
+      ],
+      "lane": "enterprise",
+      "publishedAt": "2026-06-12T13:00:00.000Z",
+      "importance": 418,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-13T05:25:11.120Z"
+    },
     {
       "id": "curated-meta-companywide-ai-hackathon-backlash-2026-06-12",
       "title": "Meta employees revolt against a companywide AI hackathon",

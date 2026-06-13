@@ -43,6 +43,8 @@ Before searching, record the current `generatedAt`, current item count, and newe
 
 Also compare the current feed with the most recent successful refresh commit or other known-good pre-repair feed state. If an intervening source-link repair, cleanup, or validation commit removed stories, reconcile every removed material story during the refresh. For each removed story, either restore it with an exact newly verified source URL or record a concrete exclusion reason. Do not assume a smaller repaired feed still contains all previously discovered material coverage.
 
+Create a recovery queue for every material candidate whose initial URL is broken, inaccessible, or uncertain. A failed publisher URL does not make the underlying story unimportant. Search the exact headline, distinctive numbers and company names, the publisher's own site, and reputable syndication mirrors such as Morningstar, Yahoo Finance, local business wires, and established secondary reporting. Keep the candidate open until a readable matching URL is found or at least three distinct recovery routes have been checked and recorded. Never invent a URL slug.
+
 3. Do a recency-first orientation pass before the category audits:
 
 - Check the latest pages or feeds from at least two broad news sources, such as TechCrunch Latest/AI, VentureBeat AI, Reuters/AP where available, The Verge, MIT Technology Review, Business Wire, PR Newswire, and Google News-style searches.
@@ -259,6 +261,13 @@ npm run check:source-links -- --since=<previous-generatedAt>
 
 Any confirmed `404`, `410`, malformed URL, redirect to an unrelated story, or page whose headline/content does not match the curated story blocks publication. `403`, `401`, and network errors require manual browser/search verification; they are not proof that a URL is valid. Record the exact verified URL, not a plausible replacement. Also spot-check the final page title/content because a working URL can still point to the wrong article.
 
+For every broken new-story URL, use the recovery searches printed by `check:source-links` and add a link-recovery ledger row before deciding whether to exclude the story:
+
+| Story | Broken URL | Recovery routes checked | Replacement exact URL | Final decision |
+| --- | --- | --- | --- | --- |
+
+Required recovery routes are: exact-title search, distinctive-fact search, publisher-site search, and syndication/secondary-coverage search. A material story cannot be excluded solely because its first URL failed.
+
 10. Build the production SEO site. This generates an indexable page for every qualifying curated story, topic/archive discovery pages, trust pages, `robots.txt`, `sitemap.xml`, and the rolling two-day `news-sitemap.xml`:
 
 ```powershell
@@ -354,3 +363,4 @@ If these facts cannot be reported from the source ledger, do not describe the re
 - Keep the feed comprehensive across the mandatory audits; do not mistake visual balance or category quotas for completeness.
 - Prefer primary sources and reputable reporting. For biomedical or public-health claims, use official research institutions, journals, WHO/CDC/public-health sources, or reputable science outlets; avoid implying a treatment works until validated in lab, animal, or clinical testing.
 - For semiconductor/geopolitical AI stories, distinguish company claims, analyst estimates, and confirmed production or revenue. Do not present roadmap claims as achieved performance.
+- Treat link validity and story validity as separate questions. A broken source link triggers recovery work; it does not by itself justify dropping a material story.

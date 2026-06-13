@@ -21,6 +21,17 @@ const failures = [];
 const warnings = [];
 let cursor = 0;
 
+function recoveryQueries(story) {
+  const quotedTitle = `"${story.title.replaceAll('"', "")}"`;
+  const sourceName = story.sourceName || new URL(story.url).hostname;
+  return [
+    quotedTitle,
+    `${quotedTitle} ${sourceName}`,
+    `${quotedTitle} Morningstar OR "Yahoo Finance" OR Reuters OR AP`,
+    `${story.relatedSources?.slice(0, 2).join(" ") || sourceName} ${story.keyFacts?.slice(0, 2).join(" ") || story.title}`
+  ];
+}
+
 async function check(story) {
   let parsed;
   try {
@@ -62,6 +73,10 @@ await Promise.all(Array.from({ length: Math.min(12, stories.length) }, worker));
 
 for (const result of failures) {
   console.error(`BROKEN ${result.status} ${result.story.title}\n  ${result.story.url}`);
+  console.error("  Recovery searches:");
+  for (const query of recoveryQueries(result.story)) {
+    console.error(`    ${query}`);
+  }
 }
 for (const result of warnings) {
   console.warn(`REVIEW ${result.status} ${result.story.title}\n  ${result.story.url}`);
