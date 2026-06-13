@@ -1,9 +1,163 @@
 {
-  "generatedAt": "2026-06-13T04:00:19.685Z",
-  "nextRefreshAt": "2026-06-13T07:00:19.685Z",
+  "generatedAt": "2026-06-13T04:13:19.438Z",
+  "nextRefreshAt": "2026-06-13T07:13:19.438Z",
   "summaryEngine": "chat-curated",
   "curated": true,
   "items": [
+    {
+      "id": "curated-meta-companywide-ai-hackathon-backlash-2026-06-12",
+      "title": "Meta employees revolt against a companywide AI hackathon",
+      "summary": "Meta employees pushed back on a July companywide AI hackathon, saying layoffs, aggressive goals, and reduced staffing leave little time or trust for the event.",
+      "fullSummary": "Meta employees are pushing back against Mark Zuckerberg's plan for a companywide AI hackathon scheduled for July 14-16. Wired reports that workers questioned whether they have time to participate after 8,000 recent layoffs, aggressive efficiency targets, and declining trust in management. Some employees said hackathon work would not count toward performance evaluations, while others described being preoccupied with keeping their teams operating. The event is intended to rebuild camaraderie and focus exclusively on AI innovation, but the backlash makes it a useful signal of organizational strain: companies cannot simply demand more AI experimentation while cutting staff and increasing routine workloads.",
+      "keyFacts": [
+        "June 12, 2026",
+        "Companywide AI hackathon planned for July 14-16",
+        "Follows 8,000 reported layoffs",
+        "Employees cite workload and low morale"
+      ],
+      "url": "https://www.wired.com/story/meta-employees-absolutely-hate-mark-zuckerbergs-hackathon-idea",
+      "sourceName": "Wired",
+      "relatedSources": [
+        "Meta",
+        "Mark Zuckerberg"
+      ],
+      "lane": "workforce",
+      "publishedAt": "2026-06-12T23:45:26.000Z",
+      "importance": 434,
+      "sourceConfidence": "high",
+      "filterCategory": "pushback",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-13T04:13:19.438Z"
+    },
+    {
+      "id": "curated-nvidia-agentperf-blackwell-benchmark-2026-06-12",
+      "title": "Nvidia publishes the first AgentPerf infrastructure results",
+      "summary": "AgentPerf measures real-world agentic workloads, with Nvidia claiming Blackwell Ultra runs up to 20 times more agents per megawatt than Hopper.",
+      "fullSummary": "Nvidia published the first results from AgentPerf, which it describes as the industry's first infrastructure benchmark built around real agentic AI workloads. The benchmark uses coding-agent trajectories across more than 12 programming languages and measures how many simultaneous tasks a platform can support while meeting responsiveness thresholds. Nvidia says its GB300 NVL72 system ran up to 20 times more agents per megawatt than an H200 system on the initial DeepSeek V4 Pro workload. The result is vendor-published and should be independently scrutinized, but AgentPerf addresses an important gap: chatbot inference benchmarks do not capture the long sequences, tool delays, and repeated model calls that determine agent economics.",
+      "keyFacts": [
+        "June 12, 2026",
+        "First published AgentPerf results",
+        "Uses real coding-agent trajectories",
+        "Nvidia claims up to 20x more agents per megawatt"
+      ],
+      "url": "https://blogs.nvidia.com/blog/nvidia-blackwell-agentperf-artificial-analysis/",
+      "sourceName": "Nvidia",
+      "relatedSources": [
+        "Nvidia",
+        "Artificial Analysis",
+        "DeepSeek"
+      ],
+      "lane": "infrastructure",
+      "publishedAt": "2026-06-12T19:00:00.000Z",
+      "importance": 432,
+      "sourceConfidence": "high",
+      "filterCategory": "papers",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-13T04:13:19.438Z"
+    },
+    {
+      "id": "curated-anthropic-public-record-ai-survey-2026-06-12",
+      "title": "Anthropic survey finds AI adoption outpacing public trust",
+      "summary": "Anthropic's first Public Record survey found frequent AI use alongside low confidence that companies will deploy the technology responsibly.",
+      "fullSummary": "Anthropic published results from its first Public Record, a nationally representative survey of 2,228 U.S. adults about AI use, expectations, and governance. The research found 39% use AI multiple times a week, while 52% have little or no confidence that companies will use it responsibly. More respondents expect AI to cause harm than benefit, and large majorities support greater company transparency and government oversight. The survey is notable because it comes directly from a frontier lab and documents the widening gap between fast adoption and public trust, a gap likely to shape regulation, deployment choices, and companies' social license.",
+      "keyFacts": [
+        "June 12, 2026",
+        "2,228 U.S. adults surveyed",
+        "39% use AI multiple times a week",
+        "52% have little or no confidence in responsible company use"
+      ],
+      "url": "https://www.anthropic.com/news/anthropic-public-record",
+      "sourceName": "Anthropic",
+      "relatedSources": [
+        "Anthropic",
+        "Public Record"
+      ],
+      "lane": "research",
+      "publishedAt": "2026-06-12T16:00:00.000Z",
+      "importance": 430,
+      "sourceConfidence": "high",
+      "filterCategory": "papers",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-13T04:13:19.438Z"
+    },
+    {
+      "id": "curated-kpmg-ai-report-hallucinations-2026-06-12",
+      "title": "KPMG withdraws an AI report built on hallucinated case studies",
+      "summary": "KPMG removed a report after false claims about AI adoption at UBS, the NHS, transit systems, and other organizations were identified and verified.",
+      "fullSummary": "KPMG withdrew an October report about agentic AI after GPTZero and the Financial Times identified numerous false claims that appear to have been based on AI hallucinations. The report described nonexistent or exaggerated deployments at UBS, NHS Greater Manchester, Swiss Federal Railways, and Transport for London. Several named organizations denied the claims, and KPMG removed the report from websites while opening an investigation. The incident is especially consequential because consulting firms market themselves as trusted advisers on responsible AI adoption. Hallucinated case studies from authoritative organizations can spread into secondary reporting, procurement decisions, and executive strategy long after the original error.",
+      "keyFacts": [
+        "June 12, 2026",
+        "KPMG withdrew the report",
+        "False claims involved UBS, NHS, and transit systems",
+        "GPTZero identified the inaccuracies"
+      ],
+      "url": "https://www.ft.com/content/b3828e92-4961-4b39-84f0-c42f33be3c3f",
+      "sourceName": "Financial Times",
+      "relatedSources": [
+        "KPMG",
+        "GPTZero",
+        "UBS"
+      ],
+      "lane": "governance",
+      "publishedAt": "2026-06-12T04:00:22.000Z",
+      "importance": 427,
+      "sourceConfidence": "high",
+      "filterCategory": "pushback",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-13T04:13:19.438Z"
+    },
+    {
+      "id": "curated-us-insurers-ai-data-center-credit-risk-2026-06-12",
+      "title": "U.S. insurance regulators probe AI data-center credit risk",
+      "summary": "The NAIC is examining whether investment-grade ratings on data-center projects adequately reflect construction, tenant, and private-credit risks.",
+      "fullSummary": "The National Association of Insurance Commissioners is examining credit risks tied to data-center investments increasingly held by U.S. insurers. The Financial Times reports that the regulator is reviewing whether ratings on projects, including facilities still under construction, properly reflect tenant creditworthiness, lease exit clauses, delays, and cost overruns. Insurance and pension capital has become an important funding source for AI infrastructure, while about 20% of U.S. life insurers' fixed-income portfolios are linked to private and illiquid bonds. The review matters because it tests whether AI data-center financing is transferring opaque construction and demand risks into institutions expected to hold relatively conservative assets.",
+      "keyFacts": [
+        "June 12, 2026",
+        "NAIC is reviewing data-center holdings",
+        "Focus includes tenant, lease, delay, and overrun risks",
+        "Insurance capital increasingly funds AI infrastructure"
+      ],
+      "url": "https://www.ft.com/content/539bd3f8-96b2-4116-b4e4-19a3eaac88e3",
+      "sourceName": "Financial Times",
+      "relatedSources": [
+        "National Association of Insurance Commissioners",
+        "U.S. insurers"
+      ],
+      "lane": "infrastructure",
+      "publishedAt": "2026-06-12T04:00:22.000Z",
+      "importance": 424,
+      "sourceConfidence": "high",
+      "filterCategory": "pushback",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-13T04:13:19.438Z"
+    },
+    {
+      "id": "curated-deepmind-10m-multi-agent-safety-call-2026-06-11",
+      "title": "DeepMind and partners commit up to $10M to multi-agent safety",
+      "summary": "Google DeepMind and four partners opened a global research funding call focused on emergent risks from large populations of interacting AI agents.",
+      "fullSummary": "Google DeepMind, Schmidt Sciences, the Cooperative AI Foundation, ARIA, and Google.org opened a research funding call of up to $10 million for multi-agent AI safety. The program targets risks that emerge when large populations of independently built agents communicate, negotiate, transact, and coordinate across networks. Priority areas include realistic sandboxes, the science of agent networks, secure identity and reputation infrastructure, and oversight methods for deployed agent populations. The initiative is high signal because most current evaluations study models individually, while future failures may emerge from interactions among many capable systems rather than from a single model in isolation.",
+      "keyFacts": [
+        "June 11, 2026",
+        "Up to $10M research funding",
+        "Five partner organizations",
+        "Applications close August 8, 2026"
+      ],
+      "url": "https://deepmind.google/blog/investing-in-multi-agent-ai-safety-research/",
+      "sourceName": "Google DeepMind",
+      "relatedSources": [
+        "Google DeepMind",
+        "Schmidt Sciences",
+        "ARIA",
+        "Cooperative AI Foundation"
+      ],
+      "lane": "safety",
+      "publishedAt": "2026-06-11T12:00:00.000Z",
+      "importance": 422,
+      "sourceConfidence": "high",
+      "filterCategory": "papers",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-13T04:13:19.438Z"
+    },
     {
       "id": "curated-spacex-colossus-latency-rental-2026-06-13",
       "title": "SpaceX reportedly rented out Colossus 1 after latency problems",
