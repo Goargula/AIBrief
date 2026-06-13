@@ -1,0 +1,205 @@
+{
+  "version": 1,
+  "sources": [
+    {
+      "id": "venturebeat-ai",
+      "name": "VentureBeat AI",
+      "group": "ai-specialist",
+      "url": "https://venturebeat.com/category/ai/",
+      "fallbackDomain": "venturebeat.com",
+      "categories": ["models", "papers", "funding", "general", "pushback"]
+    },
+    {
+      "id": "ai-news",
+      "name": "AI News",
+      "group": "ai-specialist",
+      "url": "https://www.artificialintelligence-news.com/",
+      "fallbackDomain": "artificialintelligence-news.com",
+      "categories": ["models", "funding", "general"]
+    },
+    {
+      "id": "unite-ai",
+      "name": "Unite.AI",
+      "group": "ai-specialist",
+      "url": "https://www.unite.ai/",
+      "fallbackDomain": "unite.ai",
+      "categories": ["models", "papers", "funding", "general"]
+    },
+    {
+      "id": "register-ai",
+      "name": "The Register AI/ML",
+      "group": "ai-specialist",
+      "url": "https://www.theregister.com/software/ai_ml/",
+      "fallbackDomain": "theregister.com",
+      "categories": ["general", "pushback"]
+    },
+    {
+      "id": "techcrunch-ai",
+      "name": "TechCrunch AI",
+      "group": "technology",
+      "url": "https://techcrunch.com/category/artificial-intelligence/",
+      "fallbackDomain": "techcrunch.com",
+      "categories": ["models", "funding", "general", "pushback"]
+    },
+    {
+      "id": "the-verge-ai",
+      "name": "The Verge AI",
+      "group": "technology",
+      "url": "https://www.theverge.com/ai-artificial-intelligence",
+      "fallbackDomain": "theverge.com",
+      "categories": ["models", "general", "pushback"]
+    },
+    {
+      "id": "mit-tech-review-ai",
+      "name": "MIT Technology Review AI",
+      "group": "technology",
+      "url": "https://www.technologyreview.com/topic/artificial-intelligence/",
+      "fallbackDomain": "technologyreview.com",
+      "categories": ["papers", "general", "pushback"]
+    },
+    {
+      "id": "wired-ai",
+      "name": "Wired AI",
+      "group": "technology",
+      "url": "https://www.wired.com/tag/artificial-intelligence/",
+      "fallbackDomain": "wired.com",
+      "categories": ["general", "pushback"]
+    },
+    {
+      "id": "reuters-ai",
+      "name": "Reuters",
+      "group": "broad-business",
+      "url": "https://www.reuters.com/technology/artificial-intelligence/",
+      "fallbackDomain": "reuters.com",
+      "categories": ["funding", "general", "pushback"]
+    },
+    {
+      "id": "ap-ai",
+      "name": "Associated Press AI",
+      "group": "broad-business",
+      "url": "https://apnews.com/hub/artificial-intelligence",
+      "fallbackDomain": "apnews.com",
+      "categories": ["general", "pushback"]
+    },
+    {
+      "id": "axios-ai",
+      "name": "Axios AI",
+      "group": "broad-business",
+      "url": "https://www.axios.com/technology/artificial-intelligence",
+      "fallbackDomain": "axios.com",
+      "categories": ["funding", "general", "pushback"]
+    },
+    {
+      "id": "fortune-ai",
+      "name": "Fortune AI",
+      "group": "broad-business",
+      "url": "https://fortune.com/tag/artificial-intelligence/",
+      "fallbackDomain": "fortune.com",
+      "categories": ["funding", "general", "pushback"]
+    },
+    {
+      "id": "guardian-ai",
+      "name": "The Guardian AI",
+      "group": "broad-business",
+      "url": "https://www.theguardian.com/technology/artificialintelligenceai",
+      "fallbackDomain": "theguardian.com",
+      "categories": ["general", "pushback"]
+    },
+    {
+      "id": "financial-times-ai",
+      "name": "Financial Times AI",
+      "group": "broad-business",
+      "url": "https://www.ft.com/artificial-intelligence",
+      "fallbackDomain": "ft.com",
+      "categories": ["funding", "general", "pushback"]
+    },
+    {
+      "id": "business-wire-ai",
+      "name": "Business Wire AI",
+      "group": "announcement-wire",
+      "url": "https://www.businesswire.com/newsroom/subject/artificial-intelligence",
+      "fallbackDomain": "businesswire.com",
+      "categories": ["funding", "general"]
+    },
+    {
+      "id": "pr-newswire-ai",
+      "name": "PR Newswire AI",
+      "group": "announcement-wire",
+      "url": "https://www.prnewswire.com/news-releases/artificial-intelligence-latest-news/artificial-intelligence-latest-news-list/",
+      "fallbackDomain": "prnewswire.com",
+      "categories": ["funding", "general"]
+    },
+    {
+      "id": "globenewswire-ai",
+      "name": "GlobeNewswire AI",
+      "group": "announcement-wire",
+      "url": "https://www.globenewswire.com/search/keyword/artificial%20intelligence",
+      "fallbackDomain": "globenewswire.com",
+      "categories": ["funding", "general"]
+    },
+    {
+      "id": "openai-news",
+      "name": "OpenAI News",
+      "group": "primary-newsroom",
+      "url": "https://openai.com/news/",
+      "fallbackDomain": "openai.com",
+      "categories": ["models", "papers", "general"]
+    },
+    {
+      "id": "anthropic-news",
+      "name": "Anthropic News",
+      "group": "primary-newsroom",
+      "url": "https://www.anthropic.com/news",
+      "fallbackDomain": "anthropic.com",
+      "categories": ["models", "papers", "general", "pushback"]
+    },
+    {
+      "id": "deepmind-blog",
+      "name": "Google DeepMind",
+      "group": "primary-newsroom",
+      "url": "https://deepmind.google/blog/",
+      "fallbackDomain": "deepmind.google",
+      "categories": ["models", "papers", "general"]
+    },
+    {
+      "id": "microsoft-ai",
+      "name": "Microsoft AI",
+      "group": "primary-newsroom",
+      "url": "https://news.microsoft.com/source/topics/ai/",
+      "fallbackDomain": "microsoft.com",
+      "categories": ["models", "papers", "general"]
+    },
+    {
+      "id": "meta-news",
+      "name": "Meta News",
+      "group": "primary-newsroom",
+      "url": "https://about.fb.com/news/",
+      "fallbackDomain": "about.fb.com",
+      "categories": ["models", "papers", "general", "pushback"]
+    },
+    {
+      "id": "nvidia-blog",
+      "name": "Nvidia AI Blog",
+      "group": "primary-newsroom",
+      "url": "https://blogs.nvidia.com/blog/category/deep-learning/",
+      "fallbackDomain": "blogs.nvidia.com",
+      "categories": ["models", "papers", "general"]
+    },
+    {
+      "id": "apple-newsroom",
+      "name": "Apple Newsroom",
+      "group": "primary-newsroom",
+      "url": "https://www.apple.com/newsroom/",
+      "fallbackDomain": "apple.com",
+      "categories": ["models", "general"]
+    },
+    {
+      "id": "aws-ml-blog",
+      "name": "AWS Machine Learning Blog",
+      "group": "primary-newsroom",
+      "url": "https://aws.amazon.com/blogs/machine-learning/",
+      "fallbackDomain": "aws.amazon.com",
+      "categories": ["models", "papers", "general"]
+    }
+  ]
+}

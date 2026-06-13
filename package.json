@@ -9,6 +9,11 @@
     "dev": "node server.js",
     "check:source-links": "node scripts/check-source-links.js",
     "build:secondary-preview": "node scripts/build-seo-site.js --preview",
-    "build:seo-site": "node scripts/build-seo-site.js"
+    "build:seo-site": "node scripts/build-seo-site.js",
+    "refresh:init": "node scripts/refresh-audit.js init",
+    "refresh:check": "node scripts/refresh-audit.js check",
+    "refresh:report": "node scripts/refresh-audit.js report",
+    "refresh:challenge": "node scripts/refresh-audit.js challenge",
+    "test": "node --test"
   }
 }

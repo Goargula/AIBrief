@@ -68,14 +68,23 @@ The refresh button also forces a live reload.
 
 The app checks `public/curated-feed.json` first. When that file exists, the app serves the manually curated feed written in this chat, so no API key is required.
 
-Use `REFRESH_FEED_WITH_CHAT.md` whenever the feed needs to be refreshed this way. The workflow is:
+Use `REFRESH_FEED_WITH_CHAT.md` whenever the feed needs to be refreshed this
+way. It routes the work through sequential phase files under `refresh/` and a
+durable ignored ledger under `.refresh-ledger/`.
 
-1. Fetch current AI news, papers, funding rounds, acquisitions, policy stories, and product launches.
-2. Merge duplicate coverage into one story.
-3. Write each story with a short summary, a longer `fullSummary`, exact `keyFacts`, source links, and `summaryEngine: "chat-curated"`.
-   Include `filterCategory` for each story as one of `funding`, `models`, `papers`, `pushback`, or `general`; the filter UI uses this field first. Supportive policy, government adoption, national AI strategies, public investment proposals, and procurement belong in `general`. Reserve `pushback` for restrictive, oppositional, harm, or risk-focused events.
-4. Save the result to `public/curated-feed.json`.
-5. Restart the local server and check `/api/feed`.
+The workflow deliberately overlaps direct named-source inspection,
+category-targeted searches, and an adversarial sufficiency pass. The
+`scripts/refresh-audit.js` CLI records evidence, prevents incomplete discovery or
+link recovery from reaching publication, and reopens the relevant work when a
+refresh is challenged.
+
+```powershell
+npm run refresh:init
+npm run refresh:check -- --gate=discovery
+npm run refresh:check -- --gate=publish
+npm run refresh:check -- --gate=complete
+npm run refresh:report
+```
 
 To go back to live RSS/model-generated summaries, remove or rename `public/curated-feed.json`.
 

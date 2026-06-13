@@ -1,0 +1,71 @@
+{
+  "version": 1,
+  "audits": [
+    {
+      "id": "models",
+      "name": "Model releases and capabilities",
+      "requiredSearches": ["AI model release", "open weight model", "reasoning model", "multimodal model"],
+      "primaryTargets": ["OpenAI", "Anthropic", "Google DeepMind", "Meta", "xAI", "Mistral", "Cohere", "Qwen", "DeepSeek", "regional labs"]
+    },
+    {
+      "id": "papers",
+      "name": "Research, benchmarks, datasets, and evaluations",
+      "requiredSearches": ["AI benchmark", "AI dataset", "AI agent research", "AI safety research", "arXiv AI"],
+      "primaryTargets": ["arXiv cs.AI", "arXiv cs.LG", "arXiv cs.CL", "arXiv cs.CV", "arXiv cs.RO", "Nature", "Science", "university labs"]
+    },
+    {
+      "id": "funding",
+      "name": "Funding, acquisitions, investments, and company formation",
+      "requiredSearches": ["AI funding", "AI acquisition", "AI investment", "AI IPO", "AI debt raise"],
+      "primaryTargets": ["TechCrunch", "Crunchbase News", "Axios Pro Rata", "Fortune Term Sheet", "announcement wires", "company newsrooms"]
+    },
+    {
+      "id": "policy-safety",
+      "name": "Policy, safety, security, legal, labor, and pushback",
+      "requiredSearches": ["AI regulation", "AI lawsuit", "AI security", "AI layoffs", "AI workforce", "AI misuse"],
+      "primaryTargets": ["governments", "courts", "standards bodies", "civil society", "security researchers", "labor reporting"]
+    },
+    {
+      "id": "infrastructure",
+      "name": "Chips, compute, cloud, networking, energy, and data centers",
+      "requiredSearches": ["AI chip", "AI data center", "AI compute", "AI power", "AI networking", "AI memory"],
+      "primaryTargets": ["Nvidia", "AMD", "Intel", "Huawei", "hyperscalers", "CoreWeave", "Cerebras", "sovereign compute programs"]
+    },
+    {
+      "id": "products-adoption",
+      "name": "Products, agents, tools, deployments, and outcomes",
+      "requiredSearches": ["AI adoption report", "AI deployment results", "AI agent", "AI fraud", "AI productivity report", "AI business outcomes"],
+      "primaryTargets": ["enterprise newsrooms", "developer platforms", "consultancies", "research institutions", "major business reporting"]
+    },
+    {
+      "id": "physical-ai",
+      "name": "Robotics, autonomous systems, and industrial AI",
+      "requiredSearches": ["AI robotics", "humanoid robot", "autonomous vehicle AI", "industrial AI", "AI drone"],
+      "primaryTargets": ["robotics companies", "automakers", "industrial companies", "research labs"]
+    },
+    {
+      "id": "health-science",
+      "name": "Healthcare, biology, drug discovery, and AI for science",
+      "requiredSearches": ["healthcare AI", "clinical AI", "AI drug discovery", "AI biology", "AI scientific discovery"],
+      "primaryTargets": ["medical journals", "health systems", "Nature", "Science", "research institutes", "biotech companies"]
+    },
+    {
+      "id": "regional",
+      "name": "Regional ecosystems and smaller important developments",
+      "requiredSearches": ["China AI", "India AI", "Japan AI", "Korea AI", "Europe AI", "Middle East AI", "Africa AI", "Latin America AI"],
+      "primaryTargets": ["regional labs", "local business press", "open-source communities", "local-language model developers"]
+    }
+  ],
+  "sufficiencyDimensions": [
+    "models",
+    "research",
+    "funding",
+    "policy and safety",
+    "infrastructure",
+    "products and operational outcomes",
+    "workforce",
+    "physical AI",
+    "health and science",
+    "regional ecosystems"
+  ]
+}

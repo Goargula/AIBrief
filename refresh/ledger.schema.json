@@ -1,0 +1,18 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "AI Brief refresh ledger",
+  "type": "object",
+  "required": ["version", "date", "status", "baseline", "sources", "audits", "candidates", "recovery", "sufficiency", "publication"],
+  "properties": {
+    "version": { "const": 1 },
+    "date": { "type": "string" },
+    "status": { "enum": ["in_progress", "challenged", "ready_to_publish", "complete"] },
+    "baseline": { "type": "object" },
+    "sources": { "type": "object" },
+    "audits": { "type": "object" },
+    "candidates": { "type": "array" },
+    "recovery": { "type": "array" },
+    "sufficiency": { "type": "object" },
+    "publication": { "type": "object" }
+  }
+}
