@@ -1,9 +1,139 @@
 {
-  "generatedAt": "2026-06-13T03:46:09.514Z",
-  "nextRefreshAt": "2026-06-13T06:46:09.514Z",
+  "generatedAt": "2026-06-13T04:00:19.685Z",
+  "nextRefreshAt": "2026-06-13T07:00:19.685Z",
   "summaryEngine": "chat-curated",
   "curated": true,
   "items": [
+    {
+      "id": "curated-spacex-colossus-latency-rental-2026-06-13",
+      "title": "SpaceX reportedly rented out Colossus 1 after latency problems",
+      "summary": "Bloomberg reports that SpaceX rented Colossus 1 capacity to Anthropic and Google after hardware variation and network lag complicated xAI's own clustered training plans.",
+      "fullSummary": "SpaceX reportedly rented out capacity at its Colossus 1 AI data center after xAI encountered problems connecting it with two other Memphis-area campuses. Bloomberg, summarized by The Verge, attributes the trouble to hardware variation, aging network infrastructure, and latency between sites more than 10 miles apart. The report says SpaceX then struck large capacity deals with Anthropic and Google. The story complicates the idea that simply assembling more accelerators guarantees useful training scale: networking, hardware consistency, and geography can determine whether a cluster works as one system. It also shows SpaceX turning an internal infrastructure problem into a major external compute business.",
+      "keyFacts": [
+        "June 13, 2026 report",
+        "Colossus campuses are more than 10 miles apart",
+        "Hardware variation and network lag reportedly caused problems",
+        "Capacity reportedly rented to Anthropic and Google"
+      ],
+      "url": "https://www.bloomberg.com/news/articles/2026-06-12/spacex-rented-out-computing-after-own-teams-had-trouble-using-it",
+      "sourceName": "Bloomberg + The Verge",
+      "relatedSources": [
+        "SpaceX",
+        "xAI",
+        "Anthropic",
+        "Google"
+      ],
+      "lane": "infrastructure",
+      "publishedAt": "2026-06-13T00:12:00.000Z",
+      "importance": 439,
+      "sourceConfidence": "medium",
+      "filterCategory": "pushback",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-13T04:00:19.685Z"
+    },
+    {
+      "id": "curated-meta-applied-ai-workforce-revolt-2026-06-12",
+      "title": "Meta's 6,500-person Applied AI unit faces an employee revolt",
+      "summary": "Meta employees say thousands were drafted into repetitive AI-training work, while more than 1,600 workers reportedly protested click-and-keystroke monitoring.",
+      "fullSummary": "Meta's roughly three-month-old Applied AI organization is facing intense internal pushback, according to reporting summarized by TechCrunch. The unit includes about 6,500 engineers and product managers, many of whom say they were drafted into generating puzzles and coding problems to train Meta's models with little choice over the assignment. More than 1,600 employees have also reportedly signed a petition opposing a program that monitors clicks and keystrokes for AI training data. Mark Zuckerberg acknowledged that recent changes caused distress and said Meta made mistakes. The episode is a significant workforce story because it exposes the human labor, surveillance concerns, and organizational strain behind frontier-model development.",
+      "keyFacts": [
+        "June 12, 2026",
+        "Roughly 6,500 workers in Applied AI",
+        "More than 1,600 reportedly signed a monitoring protest",
+        "Employees describe being drafted into AI-training tasks"
+      ],
+      "url": "https://techcrunch.com/2026/06/12/metas-months-old-ai-unit-is-a-soul-crushing-gulag-say-the-engineers-stuck-inside-it/",
+      "sourceName": "TechCrunch + Wired",
+      "relatedSources": [
+        "Meta",
+        "Meta Applied AI",
+        "Wired"
+      ],
+      "lane": "workforce",
+      "publishedAt": "2026-06-12T23:00:00.000Z",
+      "importance": 436,
+      "sourceConfidence": "high",
+      "filterCategory": "pushback",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-13T04:00:19.685Z"
+    },
+    {
+      "id": "curated-trump-ai-cyber-strategy-implementation-2026-06-12",
+      "title": "Trump's AI strategy shifts toward cybersecurity implementation",
+      "summary": "The administration's emerging AI plan relies on voluntary developer cooperation while setting July and August deadlines for cyber defenses and government hiring.",
+      "fullSummary": "The Trump administration's AI strategy is moving from broad executive-order language into implementation, according to Axios. The approach emphasizes national security and cybersecurity while continuing to rely largely on voluntary cooperation from AI developers rather than mandatory safety rules. Early deadlines include a July 2 target for the Department of Homeland Security to strengthen cyber defenses and expand advanced AI tools for critical sectors, plus an August 1 target for the Office of Personnel Management to increase cybersecurity hiring through the U.S. Tech Force. The plan matters because its concrete staffing and defense measures will show whether the government's light-regulation posture can produce operational security improvements.",
+      "keyFacts": [
+        "June 12, 2026 analysis",
+        "Relies largely on voluntary developer cooperation",
+        "July 2 DHS cyber-defense deadline",
+        "August 1 U.S. Tech Force hiring deadline"
+      ],
+      "url": "https://www.axios.com/2026/06/12/trump-ai-strategy-national-security",
+      "sourceName": "Axios",
+      "relatedSources": [
+        "White House",
+        "Department of Homeland Security",
+        "U.S. Tech Force"
+      ],
+      "lane": "policy",
+      "publishedAt": "2026-06-12T21:00:00.000Z",
+      "importance": 431,
+      "sourceConfidence": "high",
+      "filterCategory": "pushback",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-13T04:00:19.685Z"
+    },
+    {
+      "id": "curated-mistral-3b-20b-valuation-report-2026-06-12",
+      "title": "Mistral reportedly seeks EUR3B at a EUR20B valuation",
+      "summary": "Mistral AI is reportedly in early discussions to raise about EUR3 billion at roughly a EUR20 billion valuation.",
+      "fullSummary": "Mistral AI is reportedly in early discussions to raise about EUR3 billion, or $3.5 billion, at a valuation near EUR20 billion. TechCrunch cites Bloomberg and anonymous sources, and Mistral has not formally confirmed the financing, so the terms may change or the round may not close. The reported valuation would be nearly double the French lab's EUR11.7 billion Series C valuation from September. If completed, the financing would expand Mistral's resources for models, sovereign infrastructure, and enterprise products while underscoring the capital gap between Europe's leading frontier lab and its much larger U.S. rivals.",
+      "keyFacts": [
+        "June 12, 2026 report",
+        "About EUR3B reportedly sought",
+        "Around EUR20B reported valuation",
+        "Early discussions; not formally confirmed"
+      ],
+      "url": "https://techcrunch.com/2026/06/12/mistral-is-rumored-to-be-raising-e3b-at-e20-valuation/",
+      "sourceName": "TechCrunch + Bloomberg",
+      "relatedSources": [
+        "Mistral AI",
+        "Bloomberg"
+      ],
+      "lane": "funding",
+      "publishedAt": "2026-06-12T17:38:00.000Z",
+      "importance": 429,
+      "sourceConfidence": "medium",
+      "filterCategory": "funding",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-13T04:00:19.685Z"
+    },
+    {
+      "id": "curated-sciagentarena-scientific-agent-benchmark-2026-06-10",
+      "title": "SciAgentArena tests AI agents on real scientific research workflows",
+      "summary": "A new roughly 200-task benchmark finds agents can help with well-specified data analysis but struggle with novel insights and open-ended scientific exploration.",
+      "fullSummary": "Researchers introduced SciAgentArena, a benchmark for evaluating AI agents on approximately 200 realistic scientific-research tasks across multiple domains. The tasks use stepwise verification and an interactive, agent-agnostic environment rather than reducing science to static question answering. The initial evaluation finds that current agents can contribute to clearly specified data-analysis workflows, but performance remains uneven: agents struggle to produce genuinely novel insights, sustain self-directed exploration, and solve open-ended research problems robustly. The benchmark is useful because claims about AI accelerating science need evaluation against the messy, extended workflows that researchers actually perform.",
+      "keyFacts": [
+        "June 10, 2026",
+        "Approximately 200 scientific tasks",
+        "Interactive environment with stepwise verification",
+        "Agents struggle with novelty and open-ended exploration"
+      ],
+      "url": "https://arxiv.org/abs/2606.12736",
+      "sourceName": "arXiv / SciAgentArena researchers",
+      "relatedSources": [
+        "SciAgentArena",
+        "Harvard",
+        "Stanford"
+      ],
+      "lane": "research",
+      "publishedAt": "2026-06-10T22:55:30.000Z",
+      "importance": 421,
+      "sourceConfidence": "high",
+      "filterCategory": "papers",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-13T04:00:19.685Z"
+    },
     {
       "id": "curated-anthropic-government-directive-fable-mythos-2026-06-12",
       "title": "Anthropic takes Fable and Mythos offline under U.S. export controls",
