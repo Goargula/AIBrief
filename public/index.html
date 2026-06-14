@@ -17,7 +17,7 @@
     <link rel="icon" href="/logo.svg" type="image/svg+xml">
     <link rel="shortcut icon" href="/logo.svg" type="image/svg+xml">
     <link rel="manifest" href="/manifest.json">
-    <link rel="stylesheet" href="/styles.css?v=37">
+    <link rel="stylesheet" href="/styles.css?v=38">
   </head>
   <body>
     <main class="reader-shell">
@@ -29,6 +29,7 @@
         <nav class="sort-bar" aria-label="Story sort">
           <button class="sort active" type="button" data-sort="relevance">Relevant</button>
           <button class="sort" type="button" data-sort="recency">Recent</button>
+          <button id="newStoriesButton" class="new-stories" type="button" aria-pressed="false" hidden>New</button>
         </nav>
         <div class="top-actions">
           <button id="filterButton" class="icon-action" type="button" aria-label="Filter stories" title="Filter stories" aria-expanded="false" aria-controls="filterMenu">
@@ -128,6 +129,6 @@
 
     <div id="toast" class="toast" role="status" aria-live="polite" hidden></div>
 
-    <script src="/app.js?v=41" type="module"></script>
+    <script src="/app.js?v=42" type="module"></script>
   </body>
 </html>

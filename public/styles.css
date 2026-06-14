@@ -64,7 +64,8 @@ a {
   padding: 2px;
 }
 
-.sort {
+.sort,
+.new-stories {
   height: 30px;
   border: 0;
   border-radius: 6px;
@@ -77,10 +78,15 @@ a {
   white-space: nowrap;
 }
 
-.sort.active {
+.sort.active,
+.new-stories.active {
   border-color: var(--text);
   background: var(--text);
   color: var(--ink);
+}
+
+.new-stories {
+  color: var(--green);
 }
 
 .reader-top p,

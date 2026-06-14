@@ -3,6 +3,35 @@
   "nextRefreshAt": "2026-06-14T07:26:55.026Z",
   "summaryEngine": "chat-curated",
   "curated": true,
+  "lastRefresh": {
+    "previousGeneratedAt": "2026-06-13T05:25:11.120Z",
+    "addedCount": 23,
+    "addedIds": [
+      "curated-meta-manus-unwind-2026-06-13",
+      "curated-openai-state-ag-investigation-2026-06-13",
+      "curated-amazon-anthropic-security-concerns-2026-06-13",
+      "curated-met-police-palantir-700-jobs-2026-06-12",
+      "curated-delos-ai-chip-rack-scale-2026-06-12",
+      "curated-palantir-frontier-labs-enterprise-2026-06-11",
+      "curated-google-diffusiongemma-2026-06-11",
+      "curated-oracle-70b-ai-datacenter-capex-2026-06-11",
+      "curated-opendoor-india-ai-outsourcing-2026-06-10",
+      "curated-ai-memory-personalization-sycophancy-2026-06-10",
+      "curated-xai-grok-safety-whistleblower-2026-06-10",
+      "curated-ai-pilled-7500-employee-month-2026-06-10",
+      "curated-datacenter-power-wall-2030-2026-06-10",
+      "curated-ai-memory-tools-worse-2026-06-10",
+      "curated-niteshift-7m-ai-coding-2026-06-10",
+      "curated-brit-workers-botsitting-six-hours-2026-06-10",
+      "curated-linux-foundation-europe-ai-jobs-2026-06-08",
+      "curated-new-york-datacenter-moratorium-2026-06-05",
+      "curated-canada-sovereign-ai-2026-06-04",
+      "curated-ai-bioweapon-dna-screening-2026-06-04",
+      "curated-ft-ai-investment-disruption-2026-06-13",
+      "curated-cerebras-data-center-neighbor-backlash-2026-06-13",
+      "curated-enterprise-ai-pruning-2026-06-07"
+    ]
+  },
   "items": [
     {
       "id": "curated-meta-manus-unwind-2026-06-13",

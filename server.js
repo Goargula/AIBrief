@@ -158,6 +158,7 @@ async function loadCuratedFeed() {
       })),
       errors: payload.errors || [],
       summaryEngine: payload.summaryEngine || "chat-curated",
+      lastRefresh: payload.lastRefresh || null,
       curated: true
     };
   } catch {
