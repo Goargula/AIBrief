@@ -1,9 +1,86 @@
 {
-  "generatedAt": "2026-06-13T05:25:11.120Z",
-  "nextRefreshAt": "2026-06-13T08:25:11.120Z",
+  "generatedAt": "2026-06-14T03:42:38.537Z",
+  "nextRefreshAt": "2026-06-14T06:42:38.537Z",
   "summaryEngine": "chat-curated",
   "curated": true,
   "items": [
+    {
+      "id": "curated-ft-ai-investment-disruption-2026-06-13",
+      "title": "AI is reshaping how investors allocate risk",
+      "summary": "The Financial Times argues that AI's giant listings, debt issuance, and capital spending are concentrating investor exposure across equities and bonds.",
+      "fullSummary": "Artificial intelligence is changing more than the companies investors choose: it is reshaping the structure of major asset classes. The Financial Times argues that enormous AI-linked public listings, rising debt issuance by technology companies, and an estimated $14 trillion of AI capital spending over five years are pushing both active and passive investors toward increasingly concentrated exposure. The analysis matters because the AI buildout could stimulate growth and reduce some costs while also making diversification harder and amplifying market-wide risk. The key uncertainty is whether earnings and productivity gains arrive quickly enough to justify the concentration.",
+      "keyFacts": [
+        "June 13, 2026",
+        "AI-linked listings are reshaping equity benchmarks",
+        "Technology debt issuance is increasing fixed-income exposure",
+        "Estimated $14T of AI capital spending over five years"
+      ],
+      "url": "https://www.ft.com/content/b9273a66-f05d-4b28-bf34-be8ab93b89d1",
+      "sourceName": "Financial Times",
+      "relatedSources": [
+        "Financial Times",
+        "SpaceX",
+        "OpenAI",
+        "Anthropic"
+      ],
+      "lane": "finance",
+      "publishedAt": "2026-06-13T04:00:31.000Z",
+      "importance": 438,
+      "sourceConfidence": "high",
+      "filterCategory": "funding",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-14T03:42:38.537Z"
+    },
+    {
+      "id": "curated-cerebras-data-center-neighbor-backlash-2026-06-13",
+      "title": "Cerebras CEO says data-center builders caused public backlash",
+      "summary": "Cerebras CEO Andrew Feldman says reckless development and weak community engagement helped turn Americans against new AI data centers.",
+      "fullSummary": "Cerebras CEO Andrew Feldman publicly blamed data-center builders and operators for much of the growing opposition to AI infrastructure in the United States. He said projects moved too quickly, disrupted communities, and failed to explain or share their benefits, acknowledging that the industry could have been a better neighbor. The criticism is notable because it comes from the head of an AI-chip company that benefits from compute expansion. It suggests the industry's permitting and power constraints are becoming a social-license problem as well as an engineering and financing problem.",
+      "keyFacts": [
+        "June 13, 2026",
+        "Cerebras CEO Andrew Feldman criticized industry behavior",
+        "He cited weak community engagement and disruption",
+        "Public opposition is becoming an infrastructure constraint"
+      ],
+      "url": "https://timesofindia.indiatimes.com/technology/tech-news/ceo-of-cerebras-that-launched-largest-us-ipo-of-2026-blames-builders-and-operators-for-anger-against-data-centers-in-america-says-they-are-causing-/articleshow/131676495.cms",
+      "sourceName": "Times of India",
+      "relatedSources": [
+        "Cerebras",
+        "Andrew Feldman"
+      ],
+      "lane": "infrastructure",
+      "publishedAt": "2026-06-13T12:00:00.000Z",
+      "importance": 432,
+      "sourceConfidence": "medium",
+      "filterCategory": "pushback",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-14T03:42:38.537Z"
+    },
+    {
+      "id": "curated-enterprise-ai-pruning-2026-06-07",
+      "title": "Enterprises quietly prune AI projects that lack clear value",
+      "summary": "Companies are cutting AI pilots with weak ROI, high risk, or unsustainable costs while keeping narrower deployments with measurable outcomes.",
+      "fullSummary": "Enterprise AI adoption is entering a more selective phase as companies quietly stop projects that do not show clear value, manageable risk, or sustainable operating costs. ITPro describes the trend as AI pruning rather than a broad retreat: general-purpose copilots and sprawling agent portfolios face more scrutiny, while narrowly scoped tools tied to measurable workflow improvements are more likely to survive. The shift is a useful corrective to deployment-count hype because it makes business outcomes, governance, and total cost more important than the number of pilots launched.",
+      "keyFacts": [
+        "June 7, 2026",
+        "Weak ROI and unclear objectives are driving project cuts",
+        "Agent sprawl and governance raise operating risk",
+        "Narrow workflow tools show clearer measurable value"
+      ],
+      "url": "https://www.itpro.com/technology/artificial-intelligence/the-ai-rollback-nobody-wants-to-talk-about",
+      "sourceName": "ITPro",
+      "relatedSources": [
+        "ITPro",
+        "Gartner"
+      ],
+      "lane": "enterprise",
+      "publishedAt": "2026-06-07T12:00:00.000Z",
+      "importance": 405,
+      "sourceConfidence": "medium",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-14T03:42:38.537Z"
+    },
     {
       "id": "curated-chatsee-6-5m-agent-failure-detection-2026-06-12",
       "title": "ChatSeeAI raises $6.5M to tackle AI-agent failures",
