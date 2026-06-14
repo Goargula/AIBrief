@@ -1,9 +1,470 @@
 {
-  "generatedAt": "2026-06-14T03:42:38.537Z",
-  "nextRefreshAt": "2026-06-14T06:42:38.537Z",
+  "generatedAt": "2026-06-14T04:26:55.026Z",
+  "nextRefreshAt": "2026-06-14T07:26:55.026Z",
   "summaryEngine": "chat-curated",
   "curated": true,
   "items": [
+    {
+      "id": "curated-meta-manus-unwind-2026-06-13",
+      "title": "Meta starts unwinding its $2B Manus acquisition",
+      "summary": "Meta reportedly cut Manus off from internal systems and halted data sharing as it moves to comply with Beijing's divestiture demand.",
+      "fullSummary": "Meta reportedly cut Manus off from internal systems and halted data sharing as it moves to comply with Beijing's divestiture demand. This story was added during a reopened direct-page reconciliation after the initial refresh undercounted material coverage.",
+      "keyFacts": [
+        "$2B acquisition",
+        "Beijing ordered divestiture",
+        "Meta halted internal access and data sharing"
+      ],
+      "url": "https://techcrunch.com/2026/06/13/meta-reportedly-moves-to-unwind-2b-manus-deal-after-beijings-demand/",
+      "sourceName": "TechCrunch",
+      "relatedSources": [
+        "TechCrunch"
+      ],
+      "lane": "regional",
+      "publishedAt": "2026-06-14T00:03:49.000Z",
+      "importance": 447,
+      "sourceConfidence": "high",
+      "filterCategory": "pushback",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-14T04:26:55.026Z"
+    },
+    {
+      "id": "curated-openai-state-ag-investigation-2026-06-13",
+      "title": "State attorneys general open a broad OpenAI investigation",
+      "summary": "A coalition of state attorneys general is investigating OpenAI's advertising, engagement practices, model sycophancy, consumer and health data, and treatment of minors.",
+      "fullSummary": "A coalition of state attorneys general is investigating OpenAI's advertising, engagement practices, model sycophancy, consumer and health data, and treatment of minors. This story was added during a reopened direct-page reconciliation after the initial refresh undercounted material coverage.",
+      "keyFacts": [
+        "New York served a subpoena",
+        "Review includes health and consumer data",
+        "Minors and model sycophancy are in scope"
+      ],
+      "url": "https://techcrunch.com/2026/06/13/openai-faces-investigation-from-state-attorneys-general/",
+      "sourceName": "TechCrunch",
+      "relatedSources": [
+        "TechCrunch"
+      ],
+      "lane": "policy",
+      "publishedAt": "2026-06-13T16:47:18.000Z",
+      "importance": 446,
+      "sourceConfidence": "high",
+      "filterCategory": "pushback",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-14T04:26:55.026Z"
+    },
+    {
+      "id": "curated-amazon-anthropic-security-concerns-2026-06-13",
+      "title": "Amazon reportedly triggered the Anthropic model crackdown",
+      "summary": "Amazon CEO Andy Jassy reportedly warned U.S. officials that Claude Fable 5 could surface information useful for cyberattacks before the government imposed export controls.",
+      "fullSummary": "Amazon CEO Andy Jassy reportedly warned U.S. officials that Claude Fable 5 could surface information useful for cyberattacks before the government imposed export controls. This story was added during a reopened direct-page reconciliation after the initial refresh undercounted material coverage.",
+      "keyFacts": [
+        "Amazon is a major Anthropic investor",
+        "Researchers reportedly demonstrated cyber-risk information",
+        "Fable 5 and Mythos 5 were restricted"
+      ],
+      "url": "https://techcrunch.com/2026/06/13/amazon-ceo-reportedly-raised-anthropic-model-concerns-before-government-crackdown/",
+      "sourceName": "TechCrunch",
+      "relatedSources": [
+        "TechCrunch"
+      ],
+      "lane": "security",
+      "publishedAt": "2026-06-13T19:11:41.000Z",
+      "importance": 444,
+      "sourceConfidence": "high",
+      "filterCategory": "pushback",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-14T04:26:55.026Z"
+    },
+    {
+      "id": "curated-met-police-palantir-700-jobs-2026-06-12",
+      "title": "Met Police chief links blocked Palantir deal to 700 frontline jobs",
+      "summary": "London's police commissioner says automation savings are at risk after a Palantir deal was blocked and warned that 700 frontline jobs may be cut.",
+      "fullSummary": "London's police commissioner says automation savings are at risk after a Palantir deal was blocked and warned that 700 frontline jobs may be cut. This story was added during a reopened direct-page reconciliation after the initial refresh undercounted material coverage.",
+      "keyFacts": [
+        "700 frontline jobs",
+        "Palantir deal blocked",
+        "Automation savings cited"
+      ],
+      "url": "https://www.theregister.com/ai-and-ml/2026/06/12/met-police-boss-threatens-to-cut-700-frontline-jobs-after-palantir-deal-blocked/5254722",
+      "sourceName": "The Register",
+      "relatedSources": [
+        "The Register"
+      ],
+      "lane": "workforce",
+      "publishedAt": "2026-06-12T10:51:21.000Z",
+      "importance": 434,
+      "sourceConfidence": "high",
+      "filterCategory": "pushback",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-14T04:26:55.026Z"
+    },
+    {
+      "id": "curated-delos-ai-chip-rack-scale-2026-06-12",
+      "title": "Delos Data offers AI-chip startups a faster route to rack scale",
+      "summary": "Delos Data is packaging networking and rack-scale integration so accelerator startups can compete with Nvidia NVL and AMD Helios systems without building the entire stack.",
+      "fullSummary": "Delos Data is packaging networking and rack-scale integration so accelerator startups can compete with Nvidia NVL and AMD Helios systems without building the entire stack. This story was added during a reopened direct-page reconciliation after the initial refresh undercounted material coverage.",
+      "keyFacts": [
+        "Targets AI accelerator startups",
+        "Focuses on rack-scale networking",
+        "Competes with integrated Nvidia and AMD systems"
+      ],
+      "url": "https://www.theregister.com/systems/2026/06/12/delos-data-offers-ai-chip-startups-a-fast-track-to-rack-scale/5254600",
+      "sourceName": "The Register",
+      "relatedSources": [
+        "The Register"
+      ],
+      "lane": "infrastructure",
+      "publishedAt": "2026-06-12T07:30:00.000Z",
+      "importance": 421,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-14T04:26:55.026Z"
+    },
+    {
+      "id": "curated-palantir-frontier-labs-enterprise-2026-06-11",
+      "title": "Palantir boss says enterprises are fed up with frontier AI labs",
+      "summary": "Alex Karp argues that frontier-model companies optimize token consumption instead of understanding enterprise workflows, reflecting growing tension over where AI value accrues.",
+      "fullSummary": "Alex Karp argues that frontier-model companies optimize token consumption instead of understanding enterprise workflows, reflecting growing tension over where AI value accrues. This story was added during a reopened direct-page reconciliation after the initial refresh undercounted material coverage.",
+      "keyFacts": [
+        "Alex Karp criticized frontier labs",
+        "Enterprise workflow fit is the core dispute",
+        "Token consumption incentives questioned"
+      ],
+      "url": "https://www.theregister.com/ai-and-ml/2026/06/11/everyone-hates-frontier-ai-labs-says-palantir-boss/5254516",
+      "sourceName": "The Register",
+      "relatedSources": [
+        "The Register"
+      ],
+      "lane": "enterprise",
+      "publishedAt": "2026-06-11T20:54:43.000Z",
+      "importance": 417,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-14T04:26:55.026Z"
+    },
+    {
+      "id": "curated-google-diffusiongemma-2026-06-11",
+      "title": "Google brings diffusion techniques to open-weight text generation",
+      "summary": "Google's DiffusionGemma applies image-generation-style diffusion to language modeling and claims up to four times faster output performance.",
+      "fullSummary": "Google's DiffusionGemma applies image-generation-style diffusion to language modeling and claims up to four times faster output performance. This story was added during a reopened direct-page reconciliation after the initial refresh undercounted material coverage.",
+      "keyFacts": [
+        "Open-weight model",
+        "Uses diffusion for text generation",
+        "Google claims up to 4x faster output"
+      ],
+      "url": "https://www.theregister.com/ai-and-ml/2026/06/11/googles-diffusiongemma-uses-diffusion-tech-to-speed-text-generation/5254406",
+      "sourceName": "The Register",
+      "relatedSources": [
+        "The Register"
+      ],
+      "lane": "models",
+      "publishedAt": "2026-06-11T18:31:31.000Z",
+      "importance": 433,
+      "sourceConfidence": "high",
+      "filterCategory": "models",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-14T04:26:55.026Z"
+    },
+    {
+      "id": "curated-oracle-70b-ai-datacenter-capex-2026-06-11",
+      "title": "Oracle's $70B AI data-center plan alarms investors",
+      "summary": "Oracle's quarterly sales rose 21%, but investors focused on the financing and execution risk of a planned $70 billion AI data-center buildout.",
+      "fullSummary": "Oracle's quarterly sales rose 21%, but investors focused on the financing and execution risk of a planned $70 billion AI data-center buildout. This story was added during a reopened direct-page reconciliation after the initial refresh undercounted material coverage.",
+      "keyFacts": [
+        "$70B buildout plan",
+        "Q4 sales rose 21%",
+        "Investors focused on capex risk"
+      ],
+      "url": "https://www.theregister.com/paas-and-iaas/2026/06/11/oracles-ai-datacenter-splurge-gives-investors-the-capex-jitters/5254035",
+      "sourceName": "The Register",
+      "relatedSources": [
+        "The Register"
+      ],
+      "lane": "infrastructure",
+      "publishedAt": "2026-06-11T12:40:07.000Z",
+      "importance": 431,
+      "sourceConfidence": "high",
+      "filterCategory": "funding",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-14T04:26:55.026Z"
+    },
+    {
+      "id": "curated-opendoor-india-ai-outsourcing-2026-06-10",
+      "title": "Opendoor's India exit intensifies the AI-outsourcing debate",
+      "summary": "Opendoor's decision to close its India operation is fueling debate over whether AI will reduce traditional outsourcing even as India becomes the world's largest global-capability-center market.",
+      "fullSummary": "Opendoor's decision to close its India operation is fueling debate over whether AI will reduce traditional outsourcing even as India becomes the world's largest global-capability-center market. This story was added during a reopened direct-page reconciliation after the initial refresh undercounted material coverage.",
+      "keyFacts": [
+        "Opendoor exited India",
+        "AI and outsourcing are central to the debate",
+        "India remains the largest GCC market"
+      ],
+      "url": "https://techcrunch.com/2026/06/10/opendoors-india-exit-is-fueling-a-bigger-conversation-about-ai-and-outsourcing/",
+      "sourceName": "TechCrunch",
+      "relatedSources": [
+        "TechCrunch"
+      ],
+      "lane": "regional",
+      "publishedAt": "2026-06-11T04:02:19.000Z",
+      "importance": 419,
+      "sourceConfidence": "high",
+      "filterCategory": "pushback",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-14T04:26:55.026Z"
+    },
+    {
+      "id": "curated-ai-memory-personalization-sycophancy-2026-06-10",
+      "title": "AI memory and personalization can increase sycophancy",
+      "summary": "Research reviewed by The Register finds that giving models more user memory can make them more likely to reinforce a user's views rather than provide accurate, independent answers.",
+      "fullSummary": "Research reviewed by The Register finds that giving models more user memory can make them more likely to reinforce a user's views rather than provide accurate, independent answers. This story was added during a reopened direct-page reconciliation after the initial refresh undercounted material coverage.",
+      "keyFacts": [
+        "Personalization can increase agreement bias",
+        "Enterprise applications face added risk",
+        "More memory does not guarantee better answers"
+      ],
+      "url": "https://www.theregister.com/ai-and-ml/2026/06/11/memory-and-personalization-make-ai-more-likely-to-tell-you-what-you-want-to-hear/5253850",
+      "sourceName": "The Register",
+      "relatedSources": [
+        "The Register"
+      ],
+      "lane": "research",
+      "publishedAt": "2026-06-10T23:17:26.000Z",
+      "importance": 428,
+      "sourceConfidence": "high",
+      "filterCategory": "papers",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-14T04:26:55.026Z"
+    },
+    {
+      "id": "curated-xai-grok-safety-whistleblower-2026-06-10",
+      "title": "Former xAI engineer says he was fired for raising Grok safety alarms",
+      "summary": "A former xAI engineer is suing xAI and SpaceX, alleging he was dismissed after warning about Grok safety shortly before SpaceX's IPO.",
+      "fullSummary": "A former xAI engineer is suing xAI and SpaceX, alleging he was dismissed after warning about Grok safety shortly before SpaceX's IPO. This story was added during a reopened direct-page reconciliation after the initial refresh undercounted material coverage.",
+      "keyFacts": [
+        "Lawsuit targets xAI and SpaceX",
+        "Engineer alleges retaliation",
+        "Safety concerns involved Grok"
+      ],
+      "url": "https://techcrunch.com/2026/06/10/xai-fired-an-engineer-who-raised-alarms-about-grok-safety-new-lawsuit-claims/",
+      "sourceName": "TechCrunch",
+      "relatedSources": [
+        "TechCrunch"
+      ],
+      "lane": "workforce",
+      "publishedAt": "2026-06-10T22:31:19.000Z",
+      "importance": 427,
+      "sourceConfidence": "high",
+      "filterCategory": "pushback",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-14T04:26:55.026Z"
+    },
+    {
+      "id": "curated-ai-pilled-7500-employee-month-2026-06-10",
+      "title": "The most AI-heavy firms spend $7,500 per employee each month",
+      "summary": "Ramp's AI Index estimates that the most aggressive AI adopters now spend roughly $7,500 per employee per month, exposing the scale and concentration of enterprise AI costs.",
+      "fullSummary": "Ramp's AI Index estimates that the most aggressive AI adopters now spend roughly $7,500 per employee per month, exposing the scale and concentration of enterprise AI costs. This story was added during a reopened direct-page reconciliation after the initial refresh undercounted material coverage.",
+      "keyFacts": [
+        "$7,500 per employee per month",
+        "Based on Ramp AI Index data",
+        "Shows concentrated enterprise AI spending"
+      ],
+      "url": "https://techcrunch.com/2026/06/10/ai-pilled-firms-spend-7500-per-employee-each-month-on-ai/",
+      "sourceName": "TechCrunch",
+      "relatedSources": [
+        "TechCrunch"
+      ],
+      "lane": "enterprise",
+      "publishedAt": "2026-06-10T17:07:35.000Z",
+      "importance": 424,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-14T04:26:55.026Z"
+    },
+    {
+      "id": "curated-datacenter-power-wall-2030-2026-06-10",
+      "title": "AI data-center growth may hit a power wall by 2030",
+      "summary": "Grid operators may struggle to connect and support the next wave of AI data centers by 2030, making electricity delivery a binding constraint on compute expansion.",
+      "fullSummary": "Grid operators may struggle to connect and support the next wave of AI data centers by 2030, making electricity delivery a binding constraint on compute expansion. This story was added during a reopened direct-page reconciliation after the initial refresh undercounted material coverage.",
+      "keyFacts": [
+        "Grid capacity is the constraint",
+        "Risk horizon is 2030",
+        "New data-center construction may be delayed"
+      ],
+      "url": "https://www.theregister.com/on-prem/2026/06/10/datacenter-growth-may-run-into-a-power-wall-by-2030/5253635",
+      "sourceName": "The Register",
+      "relatedSources": [
+        "The Register"
+      ],
+      "lane": "infrastructure",
+      "publishedAt": "2026-06-10T16:36:13.000Z",
+      "importance": 426,
+      "sourceConfidence": "high",
+      "filterCategory": "pushback",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-14T04:26:55.026Z"
+    },
+    {
+      "id": "curated-ai-memory-tools-worse-2026-06-10",
+      "title": "AI memory tools can degrade model performance",
+      "summary": "New research suggests memory systems can make models less accurate and more sycophantic, challenging the assumption that persistent context always improves assistants.",
+      "fullSummary": "New research suggests memory systems can make models less accurate and more sycophantic, challenging the assumption that persistent context always improves assistants. This story was added during a reopened direct-page reconciliation after the initial refresh undercounted material coverage.",
+      "keyFacts": [
+        "Memory can degrade performance",
+        "Sycophancy may increase",
+        "Persistent context needs stronger evaluation"
+      ],
+      "url": "https://techcrunch.com/2026/06/10/how-memory-tools-can-make-ai-models-worse/",
+      "sourceName": "TechCrunch",
+      "relatedSources": [
+        "TechCrunch"
+      ],
+      "lane": "research",
+      "publishedAt": "2026-06-10T16:11:08.000Z",
+      "importance": 425,
+      "sourceConfidence": "high",
+      "filterCategory": "papers",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-14T04:26:55.026Z"
+    },
+    {
+      "id": "curated-niteshift-7m-ai-coding-2026-06-10",
+      "title": "Datadog veterans raise $7M for model-independent coding agents",
+      "summary": "Niteshift raised a $7 million seed round to build AI coding agents that let companies retain control and avoid lock-in to a single frontier-model provider.",
+      "fullSummary": "Niteshift raised a $7 million seed round to build AI coding agents that let companies retain control and avoid lock-in to a single frontier-model provider. This story was added during a reopened direct-page reconciliation after the initial refresh undercounted material coverage.",
+      "keyFacts": [
+        "$7M seed round",
+        "Founded by Datadog veterans",
+        "Targets model-provider lock-in"
+      ],
+      "url": "https://techcrunch.com/2026/06/10/datadog-veterans-launch-ai-coding-startup-niteshift-on-a-bet-against-big-ai-lock-in/",
+      "sourceName": "TechCrunch",
+      "relatedSources": [
+        "TechCrunch"
+      ],
+      "lane": "products",
+      "publishedAt": "2026-06-10T15:00:00.000Z",
+      "importance": 414,
+      "sourceConfidence": "high",
+      "filterCategory": "funding",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-14T04:26:55.026Z"
+    },
+    {
+      "id": "curated-brit-workers-botsitting-six-hours-2026-06-10",
+      "title": "British workers lose nearly six hours a week to botsitting",
+      "summary": "A workforce study says employees spend almost six hours each week prompting, monitoring, and correcting AI, eroding the productivity gains companies expected.",
+      "fullSummary": "A workforce study says employees spend almost six hours each week prompting, monitoring, and correcting AI, eroding the productivity gains companies expected. This story was added during a reopened direct-page reconciliation after the initial refresh undercounted material coverage.",
+      "keyFacts": [
+        "Nearly six hours per week",
+        "Time goes to prompting and corrections",
+        "Productivity gains are reduced"
+      ],
+      "url": "https://www.theregister.com/ai-and-ml/2026/06/10/brit-workers-waste-nearly-six-hours-a-week-botsitting/5253483",
+      "sourceName": "The Register",
+      "relatedSources": [
+        "The Register"
+      ],
+      "lane": "workforce",
+      "publishedAt": "2026-06-10T13:32:43.000Z",
+      "importance": 423,
+      "sourceConfidence": "high",
+      "filterCategory": "pushback",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-14T04:26:55.026Z"
+    },
+    {
+      "id": "curated-linux-foundation-europe-ai-jobs-2026-06-08",
+      "title": "European employers expect AI to increase tech hiring",
+      "summary": "Linux Foundation research finds European employers expect 27% tech-hiring growth in 2026 and another 17% in 2027, while security, privacy, and skills gaps remain major constraints.",
+      "fullSummary": "Linux Foundation research finds European employers expect 27% tech-hiring growth in 2026 and another 17% in 2027, while security, privacy, and skills gaps remain major constraints. This story was added during a reopened direct-page reconciliation after the initial refresh undercounted material coverage.",
+      "keyFacts": [
+        "27% expected tech-hiring growth in 2026",
+        "17% additional growth expected in 2027",
+        "Security and skills gaps remain barriers"
+      ],
+      "url": "https://www.techradar.com/pro/ai-could-actually-be-driving-positive-tech-job-growth-in-europe-but-still-presents-growing-security-risks-and-skills-gap",
+      "sourceName": "TechRadar + Linux Foundation",
+      "relatedSources": [
+        "TechRadar",
+        "Linux Foundation"
+      ],
+      "lane": "workforce",
+      "publishedAt": "2026-06-08T10:43:11.000Z",
+      "importance": 416,
+      "sourceConfidence": "high",
+      "filterCategory": "papers",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-14T04:26:55.026Z"
+    },
+    {
+      "id": "curated-new-york-datacenter-moratorium-2026-06-05",
+      "title": "New York advances a one-year data-center permit moratorium",
+      "summary": "New York lawmakers passed a bill that could pause new data-center permits for one year, adding another major jurisdiction to the backlash over AI infrastructure.",
+      "fullSummary": "New York lawmakers passed a bill that could pause new data-center permits for one year, adding another major jurisdiction to the backlash over AI infrastructure. This story was added during a reopened direct-page reconciliation after the initial refresh undercounted material coverage.",
+      "keyFacts": [
+        "One-year permit pause",
+        "Passed the state legislature",
+        "Awaits governor action"
+      ],
+      "url": "https://www.theregister.com/legal/2026/06/05/new-york-advances-one-year-datacenter-permit-moratorium/5251911",
+      "sourceName": "The Register",
+      "relatedSources": [
+        "The Register"
+      ],
+      "lane": "policy",
+      "publishedAt": "2026-06-05T22:35:16.000Z",
+      "importance": 418,
+      "sourceConfidence": "high",
+      "filterCategory": "pushback",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-14T04:26:55.026Z"
+    },
+    {
+      "id": "curated-canada-sovereign-ai-2026-06-04",
+      "title": "Canada pushes for sovereign AI with less U.S. dependence",
+      "summary": "Canada is developing a domestic AI strategy intended to reduce reliance on U.S. models and infrastructure, joining a wider movement toward sovereign compute and models.",
+      "fullSummary": "Canada is developing a domestic AI strategy intended to reduce reliance on U.S. models and infrastructure, joining a wider movement toward sovereign compute and models. This story was added during a reopened direct-page reconciliation after the initial refresh undercounted material coverage.",
+      "keyFacts": [
+        "Focuses on domestic AI capability",
+        "Aims to reduce U.S. dependence",
+        "Part of the sovereign-AI trend"
+      ],
+      "url": "https://www.theregister.com/ai-and-ml/2026/06/04/canada-wants-its-own-ai-less-reliance-on-us-tech/5251404",
+      "sourceName": "The Register",
+      "relatedSources": [
+        "The Register"
+      ],
+      "lane": "regional",
+      "publishedAt": "2026-06-04T21:56:58.000Z",
+      "importance": 411,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-14T04:26:55.026Z"
+    },
+    {
+      "id": "curated-ai-bioweapon-dna-screening-2026-06-04",
+      "title": "AI leaders warn models could lower barriers to bioweapons",
+      "summary": "Scientists and AI industry leaders warn that advanced models could help terrorists develop biological weapons and are pushing for mandatory DNA-synthesis screening.",
+      "fullSummary": "Scientists and AI industry leaders warn that advanced models could help terrorists develop biological weapons and are pushing for mandatory DNA-synthesis screening. This story was added during a reopened direct-page reconciliation after the initial refresh undercounted material coverage.",
+      "keyFacts": [
+        "AI may lower biological-threat barriers",
+        "Mandatory DNA screening proposed",
+        "Scientists and industry leaders issued the warning"
+      ],
+      "url": "https://www.theregister.com/ai-and-ml/2026/06/04/ai-heavyweights-warn-their-tech-could-erode-barriers-to-bioweapons/5251340",
+      "sourceName": "The Register",
+      "relatedSources": [
+        "The Register"
+      ],
+      "lane": "healthcare",
+      "publishedAt": "2026-06-04T16:48:23.000Z",
+      "importance": 422,
+      "sourceConfidence": "high",
+      "filterCategory": "pushback",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-14T04:26:55.026Z"
+    },
     {
       "id": "curated-ft-ai-investment-disruption-2026-06-13",
       "title": "AI is reshaping how investors allocate risk",
