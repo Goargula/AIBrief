@@ -1,9 +1,62 @@
 {
-  "generatedAt": "2026-06-14T04:26:55.026Z",
-  "nextRefreshAt": "2026-06-14T07:26:55.026Z",
+  "generatedAt": "2026-06-14T05:40:26.491Z",
+  "nextRefreshAt": "2026-06-14T08:40:26.491Z",
   "summaryEngine": "chat-curated",
   "curated": true,
   "items": [
+    {
+      "id": "curated-india-anthropic-sovereign-ai-debate-2026-06-14",
+      "title": "Anthropic restrictions reignite India's sovereign-AI debate",
+      "summary": "Anthropic's model-access suspension is pushing Indian founders and policy experts to reconsider dependence on U.S. frontier models and accelerate domestic and open-source alternatives.",
+      "fullSummary": "Anthropic's sudden suspension of access to Fable 5 and Mythos 5 has intensified India's debate over sovereign AI. Indian founders, investors, and policy experts told TechCrunch that geopolitical restrictions could disadvantage globally distributed teams and make reliance on a small number of U.S. frontier-model providers strategically risky. The episode is especially significant because India is Anthropic's second-largest market and the restriction followed a major partnership with Tata Consultancy Services. Proposed responses range from wider adoption of smaller open-source models to substantially larger national investment in AI, compute, and semiconductors.",
+      "keyFacts": [
+        "Published June 14, 2026 UTC",
+        "India is Anthropic's second-largest market",
+        "Restrictions affect globally distributed engineering teams",
+        "Debate centers on sovereign and open-source AI alternatives"
+      ],
+      "url": "https://techcrunch.com/2026/06/13/as-anthropic-suspends-access-to-new-models-india-debates-its-ai-future/",
+      "sourceName": "TechCrunch",
+      "relatedSources": [
+        "TechCrunch",
+        "Anthropic",
+        "India",
+        "Tata Consultancy Services"
+      ],
+      "lane": "regional",
+      "publishedAt": "2026-06-14T03:00:00.000Z",
+      "importance": 445,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-14T05:40:26.491Z"
+    },
+    {
+      "id": "curated-axios-us-ai-oversight-gap-2026-06-13",
+      "title": "America's AI oversight gap could become a lasting policy legacy",
+      "summary": "Axios says Congress is again failing to regulate a transformative technology, leaving courts, states, and executive power to shape U.S. AI oversight.",
+      "fullSummary": "Axios argues that the United States is on track to repeat its historical failure to regulate major technologies before their effects become entrenched. The Trump administration prioritized AI innovation over safety and dismantled earlier federal safeguards, while Congress has not established a durable national oversight framework. That leaves courts, states, and executive actions to define the rules as frontier models gain stronger cyber capabilities. The policy gap matters internationally as well: if the U.S. does not set credible rules, rivals and authoritarian governments may have greater influence over global AI standards.",
+      "keyFacts": [
+        "June 13, 2026",
+        "Congress has not established durable federal AI oversight",
+        "States, courts, and executive actions are filling the gap",
+        "Frontier-model cyber capabilities increase the stakes"
+      ],
+      "url": "https://www.axios.com/2026/06/13/ai-oversight-federal-states-courts",
+      "sourceName": "Axios",
+      "relatedSources": [
+        "Axios",
+        "U.S. Congress",
+        "White House"
+      ],
+      "lane": "policy",
+      "publishedAt": "2026-06-13T16:55:05.000Z",
+      "importance": 440,
+      "sourceConfidence": "high",
+      "filterCategory": "pushback",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-14T05:40:26.491Z"
+    },
     {
       "id": "curated-meta-manus-unwind-2026-06-13",
       "title": "Meta starts unwinding its $2B Manus acquisition",
