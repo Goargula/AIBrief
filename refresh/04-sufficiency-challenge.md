@@ -9,6 +9,8 @@ each dimension.
 Review:
 
 - Additions relative to elapsed time since the previous refresh.
+- The exact count of stories with `publishedAt` newer than the previous
+  `generatedAt`, kept separate from older backlog corrections.
 - Categories with zero or unusually few additions.
 - Major labs, companies, regions, and application areas with no activity found.
 - Named sources that were unavailable or produced unresolved headlines.

@@ -79,5 +79,8 @@ any named-source or category rows identified by the challenge.
 - Treat link validity and story validity separately.
 - Recover broken material-story links before excluding the story.
 - Keep every material candidate until included, merged, or concretely excluded.
+- Report stories newer than the previous `generatedAt` separately from older
+  backlog corrections. Never describe their combined count as new stories from
+  the latest refresh window.
 - Build, deploy, verify both Firebase hosts, commit, and push intended files.
 - Leave unrelated working-tree files untouched.

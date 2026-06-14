@@ -32,7 +32,6 @@ const state = {
   savedSnapshots: new Map(),
   opened: new Set(),
   notes: {},
-  newIds: new Set(),
   firebaseReady: false,
   firebaseError: "",
   authReady: false,
@@ -86,7 +85,6 @@ const storyDeck = document.querySelector("#storyDeck");
 const storyTemplate = document.querySelector("#storyTemplate");
 const filterButton = document.querySelector("#filterButton");
 const filterMenu = document.querySelector("#filterMenu");
-const newStoriesButton = document.querySelector("#newStoriesButton");
 const storyPosition = document.querySelector("#storyPosition");
 const profileButton = document.querySelector("#profileButton");
 const profileDialog = document.querySelector("#profileDialog");
@@ -592,7 +590,6 @@ function storyVisualUrl(item) {
 
 function filteredItems() {
   if (state.filter === "all") return [...state.items];
-  if (state.filter === "new") return state.items.filter((item) => state.newIds.has(item.id));
   return state.items.filter((item) => storyFilterType(item) === state.filter);
 }
 
@@ -640,12 +637,7 @@ function buildStory(item) {
 function setPosition() {
   const total = sortedItems().length || visibleItems().length;
   const current = Math.min(state.activeIndex + 1, total || 1);
-  const prefix =
-    state.filter === "all"
-      ? "Story"
-      : state.filter === "new"
-        ? "New story"
-        : document.querySelector(`.filter[data-filter="${state.filter}"]`)?.dataset.label || "Story";
+  const prefix = state.filter === "all" ? "Story" : document.querySelector(`.filter[data-filter="${state.filter}"]`)?.dataset.label || "Story";
   storyPosition.textContent = `${prefix} ${current} of ${total || 1}`;
 }
 
@@ -892,11 +884,9 @@ async function loadFeed() {
   try {
     const payload = await fetchFeed();
     state.items = payload.items && payload.items.length ? payload.items : fallbackItems;
-    state.newIds = new Set(payload.lastRefresh?.addedIds || []);
     updateFilterCounts();
   } catch {
     state.items = fallbackItems;
-    state.newIds = new Set();
     updateFilterCounts();
   } finally {
     render();
@@ -922,8 +912,6 @@ function setFilter(filter) {
   state.renderedCount = INITIAL_RENDER_COUNT;
   document.querySelector(".filter.active")?.classList.remove("active");
   document.querySelector(`.filter[data-filter="${filter}"]`)?.classList.add("active");
-  newStoriesButton?.classList.toggle("active", filter === "new");
-  newStoriesButton?.setAttribute("aria-pressed", String(filter === "new"));
   render();
   storyDeck.scrollTo({ top: 0, behavior: "instant" });
 }
@@ -946,11 +934,6 @@ function updateFilterCounts() {
     button.dataset.label = label;
     button.textContent = `${label} ${counts[button.dataset.filter] || 0}`;
   });
-
-  if (newStoriesButton) {
-    newStoriesButton.hidden = state.newIds.size === 0;
-    newStoriesButton.textContent = `New ${state.newIds.size}`;
-  }
 }
 
 function toggleFilterMenu(forceOpen) {
@@ -961,10 +944,6 @@ function toggleFilterMenu(forceOpen) {
 }
 
 filterButton?.addEventListener("click", () => toggleFilterMenu());
-newStoriesButton?.addEventListener("click", () => {
-  setFilter(state.filter === "new" ? "all" : "new");
-  trackGaEvent("story_filter", { filter_name: "new" });
-});
 document.addEventListener("click", (event) => {
   if (!filterButton || !filterMenu || filterMenu.hidden || filterMenu.contains(event.target) || filterButton.contains(event.target)) return;
   toggleFilterMenu(false);

@@ -27,6 +27,8 @@ Verify both hosted feeds, a new story page, and the secondary site's
 Record publication evidence in the ledger:
 
 - Local feed count and generated timestamp.
+- Stories newer than the previous `generatedAt`, and backlog corrections as a
+  separate count.
 - Build story counts.
 - Primary and secondary feed counts.
 - Representative hosted story status.
