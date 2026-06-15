@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-15T05:36:19.330Z",
-  "nextRefreshAt": "2026-06-15T08:36:19.330Z",
+  "generatedAt": "2026-06-15T05:48:05.025Z",
+  "nextRefreshAt": "2026-06-15T08:48:05.025Z",
   "summaryEngine": "chat-curated",
   "curated": true,
   "items": [
@@ -58,6 +58,235 @@
       "filterCategory": "pushback",
       "summaryEngine": "chat-curated",
       "curatedAt": "2026-06-15T05:36:19.330Z"
+    },
+    {
+      "id": "curated-orbio-frontline-hiring-2026-06-14",
+      "title": "Orbio raises $21M to automate frontline hiring and onboarding",
+      "summary": "Orbio raised a $21 million Series A led by Dawn Capital to expand its AI platform for hiring, onboarding, and managing frontline workers.",
+      "fullSummary": "Orbio announced a $21 million Series A led by Dawn Capital for its AI-driven frontline workforce platform. The company is targeting employers whose hiring and onboarding processes still rely heavily on manual screening, paperwork, and fragmented systems. The funding is a meaningful enterprise-adoption signal because Orbio is applying automation to high-volume operational work rather than another general-purpose chatbot use case.",
+      "keyFacts": [
+        "Published June 14, 2026",
+        "$21 million Series A",
+        "Round led by Dawn Capital",
+        "Focuses on frontline hiring and onboarding"
+      ],
+      "url": "https://techcrunch.com/2026/06/14/orbio-raises-21-million-to-automate-hiring-and-onboarding-for-frontline-workers/",
+      "sourceName": "TechCrunch",
+      "relatedSources": [
+        "TechCrunch",
+        "Orbio",
+        "Dawn Capital"
+      ],
+      "lane": "funding",
+      "publishedAt": "2026-06-14T16:00:00.000Z",
+      "importance": 442,
+      "sourceConfidence": "high",
+      "filterCategory": "funding",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-15T05:48:05.025Z"
+    },
+    {
+      "id": "curated-nanoclaw-jfrog-agent-security-2026-06-13",
+      "title": "NanoClaw adds JFrog checks to secure AI agent downloads",
+      "summary": "NanoClaw integrated JFrog registries and scanning so AI agents can check packages for malicious or vulnerable components before using them.",
+      "fullSummary": "NanoClaw, a lightweight personal AI agent runtime, integrated JFrog's registry and security tooling into its package-download workflow. The integration uses the official JFrog CLI to scan and flag malicious or vulnerable components before an agent downloads or uses them. The move addresses a growing practical risk: autonomous agents can pull software dependencies at machine speed, expanding the damage from compromised packages unless security checks are built directly into agent workflows.",
+      "keyFacts": [
+        "Published June 13, 2026",
+        "Uses the official JFrog CLI",
+        "Scans packages before agent download or use",
+        "Targets malicious and vulnerable components"
+      ],
+      "url": "https://www.theregister.com/ai-and-ml/2026/06/13/nanoclaw-integrates-jfrog-registries-to-secure-ai-agent-downloads/5255189",
+      "sourceName": "The Register",
+      "relatedSources": [
+        "The Register",
+        "NanoClaw",
+        "JFrog"
+      ],
+      "lane": "security",
+      "publishedAt": "2026-06-13T17:00:00.000Z",
+      "importance": 431,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-15T05:48:05.025Z"
+    },
+    {
+      "id": "curated-uk-nerve-lab-ai-screen-time-2026-06-13",
+      "title": "UK Nerve Lab uses AI to map how screen time affects children",
+      "summary": "A UK research lab is combining AI and brain-scanning technology to study how children's screen use affects developing brains.",
+      "fullSummary": "The UK's Nerve Lab is using AI-assisted brain mapping to study how screen use affects children. The work aims to make patterns in developing brains easier to interpret and could help researchers move beyond broad screen-time measures toward evidence about specific effects. The lab is also developing accessibility tools, including technology intended to help visually impaired people navigate video games.",
+      "keyFacts": [
+        "Published June 13, 2026",
+        "Combines AI with brain-scanning research",
+        "Studies effects of children's screen use",
+        "Also develops accessibility tools"
+      ],
+      "url": "https://www.theguardian.com/society/2026/jun/13/nerve-lab-uk-ai-brain-scanning-tech-childrens-screen-time",
+      "sourceName": "The Guardian",
+      "relatedSources": [
+        "The Guardian",
+        "Nerve Lab"
+      ],
+      "lane": "healthcare",
+      "publishedAt": "2026-06-13T09:00:00.000Z",
+      "importance": 424,
+      "sourceConfidence": "high",
+      "filterCategory": "papers",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-15T05:48:05.025Z"
+    },
+    {
+      "id": "curated-sk-hynix-triple-wafer-capacity-2026-06-12",
+      "title": "AI demand pushes SK Hynix to plan triple wafer capacity",
+      "summary": "SK Hynix plans to triple wafer-production capacity by 2034 as the memory maker expects AI-driven demand to more than triple.",
+      "fullSummary": "SK Hynix is planning to triple its wafer-production capacity by 2034 in response to the AI infrastructure boom. The memory maker says it expects demand to more than triple, underscoring how sustained demand for high-bandwidth memory and related components is reshaping long-term semiconductor investment. The plan is a concrete capacity response to AI compute growth, not merely a forecast about future demand.",
+      "keyFacts": [
+        "Published June 12, 2026",
+        "Plans to triple wafer capacity by 2034",
+        "Expects demand to more than triple",
+        "Expansion is tied to AI infrastructure demand"
+      ],
+      "url": "https://www.theregister.com/systems/2026/06/12/sk-hynix-to-triple-wafer-capacity-by-2034/5255151",
+      "sourceName": "The Register",
+      "relatedSources": [
+        "The Register",
+        "SK Hynix"
+      ],
+      "lane": "chips",
+      "publishedAt": "2026-06-12T18:00:00.000Z",
+      "importance": 446,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-15T05:48:05.025Z"
+    },
+    {
+      "id": "curated-github-ai-traffic-outages-2026-06-12",
+      "title": "AI coding traffic is straining GitHub's reliability",
+      "summary": "GitHub reported nine incidents in May as AI coding, commits, and agent traffic strained capacity despite ongoing Azure migration work.",
+      "fullSummary": "GitHub's recurring availability problems are being linked to rapid growth in AI-assisted coding and agent traffic. The platform reported nine incidents in May 2026, while developers have also encountered access problems and Copilot rate limits. The reliability pressure shows a less-visible cost of AI coding adoption: developer infrastructure must absorb not only more users but also automated agents generating requests and commits at much higher rates.",
+      "keyFacts": [
+        "Published June 12, 2026",
+        "GitHub reported nine May 2026 incidents",
+        "AI coding and agent traffic are straining capacity",
+        "Users have reported access problems and Copilot rate limits"
+      ],
+      "url": "https://www.theregister.com/software/2026/06/12/github-outages-persist-as-ai-coding-drives-traffic-surge/5255125",
+      "sourceName": "The Register",
+      "relatedSources": [
+        "The Register",
+        "GitHub",
+        "Microsoft",
+        "Copilot"
+      ],
+      "lane": "developer-tools",
+      "publishedAt": "2026-06-12T17:00:00.000Z",
+      "importance": 451,
+      "sourceConfidence": "high",
+      "filterCategory": "pushback",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-15T05:48:05.025Z"
+    },
+    {
+      "id": "curated-uk-police-ai-evidence-investigation-2026-06-12",
+      "title": "UK officer faces criminal investigation over alleged AI-generated evidence",
+      "summary": "A UK police officer is under criminal investigation over allegations that AI was used to generate evidence, raising questions about evidentiary integrity.",
+      "fullSummary": "A UK police officer is under criminal investigation over the alleged use of AI to generate evidence. The case moves concerns about synthetic content in law enforcement from hypothetical policy debate into a concrete accountability process. It highlights the need for auditable provenance, disclosure rules, and strict controls when generative systems touch evidence used in investigations or court proceedings.",
+      "keyFacts": [
+        "Published June 12, 2026",
+        "A police officer is under criminal investigation",
+        "The allegation involves AI-generated evidence",
+        "The case raises evidence-provenance concerns"
+      ],
+      "url": "https://www.ft.com/content/514bab88-788c-4d48-a140-03597860bdb6",
+      "sourceName": "Financial Times",
+      "relatedSources": [
+        "Financial Times",
+        "UK police"
+      ],
+      "lane": "legal",
+      "publishedAt": "2026-06-12T16:00:00.000Z",
+      "importance": 454,
+      "sourceConfidence": "high",
+      "filterCategory": "pushback",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-15T05:48:05.025Z"
+    },
+    {
+      "id": "curated-clinhallu-medical-ai-benchmark-2026-06-12",
+      "title": "ClinHallu diagnoses stage-by-stage hallucinations in medical AI",
+      "summary": "ClinHallu is a benchmark designed to identify where hallucinations emerge during medical multimodal model reasoning, rather than scoring only final answers.",
+      "fullSummary": "Researchers introduced ClinHallu, a benchmark for diagnosing stage-wise hallucinations in medical multimodal language-model reasoning. Instead of evaluating only whether a final clinical answer is correct, the benchmark is designed to identify where unsupported claims enter a model's reasoning process. That makes it useful for evaluating detection and mitigation methods in a domain where plausible but ungrounded intermediate reasoning can create serious downstream risk.",
+      "keyFacts": [
+        "Submitted June 2026",
+        "Benchmarks medical multimodal language models",
+        "Diagnoses hallucinations across reasoning stages",
+        "Focuses on clinically sensitive model reliability"
+      ],
+      "url": "https://arxiv.org/abs/2606.14697",
+      "sourceName": "arXiv",
+      "relatedSources": [
+        "arXiv",
+        "ClinHallu"
+      ],
+      "lane": "research",
+      "publishedAt": "2026-06-12T14:00:00.000Z",
+      "importance": 438,
+      "sourceConfidence": "high",
+      "filterCategory": "papers",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-15T05:48:05.025Z"
+    },
+    {
+      "id": "curated-agent-cyber-range-benchmark-2026-06-12",
+      "title": "AgentCyberRange tests frontier AI systems in realistic cyber ranges",
+      "summary": "AgentCyberRange evaluates frontier AI agents on realistic cybersecurity tasks and exposes limitations in complex, multi-step operations.",
+      "fullSummary": "AgentCyberRange is a benchmark for evaluating frontier AI systems in realistic cybersecurity environments. It tests agents across operational phases and emphasizes complex, multi-step tasks rather than isolated question answering. The results provide a more grounded view of autonomous cyber capability and expose where current agents still fail, which is important for both defensive deployment decisions and assessments of misuse risk.",
+      "keyFacts": [
+        "Submitted June 2026",
+        "Uses realistic cybersecurity ranges",
+        "Tests complex multi-step agent behavior",
+        "Targets frontier AI systems"
+      ],
+      "url": "https://arxiv.org/abs/2606.14295",
+      "sourceName": "arXiv",
+      "relatedSources": [
+        "arXiv",
+        "AgentCyberRange"
+      ],
+      "lane": "security",
+      "publishedAt": "2026-06-12T13:00:00.000Z",
+      "importance": 442,
+      "sourceConfidence": "high",
+      "filterCategory": "papers",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-15T05:48:05.025Z"
+    },
+    {
+      "id": "curated-affordance20q-physical-reasoning-2026-06-12",
+      "title": "AFFORDANCE20Q probes AI reasoning about physical properties",
+      "summary": "AFFORDANCE20Q is a zero-shot benchmark that tests whether models can reason from physical properties to the ways objects can be used.",
+      "fullSummary": "AFFORDANCE20Q evaluates whether AI models can infer object affordances from physical properties through open-ended questions. The zero-shot benchmark shifts physical reasoning away from narrow label selection and toward explanations about how objects can be used. This matters for embodied and robotic systems, which need reliable reasoning about real-world constraints before acting.",
+      "keyFacts": [
+        "Submitted June 2026",
+        "Evaluates affordance reasoning",
+        "Uses open-ended zero-shot questions",
+        "Relevant to embodied AI and robotics"
+      ],
+      "url": "https://arxiv.org/abs/2606.14240",
+      "sourceName": "arXiv",
+      "relatedSources": [
+        "arXiv",
+        "AFFORDANCE20Q"
+      ],
+      "lane": "robotics",
+      "publishedAt": "2026-06-12T12:00:00.000Z",
+      "importance": 429,
+      "sourceConfidence": "high",
+      "filterCategory": "papers",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-15T05:48:05.025Z"
     },
     {
       "id": "curated-india-anthropic-sovereign-ai-debate-2026-06-14",
