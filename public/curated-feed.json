@@ -1,9 +1,62 @@
 {
-  "generatedAt": "2026-06-15T05:48:05.025Z",
-  "nextRefreshAt": "2026-06-15T08:48:05.025Z",
+  "generatedAt": "2026-06-15T06:01:48.302Z",
+  "nextRefreshAt": "2026-06-15T09:01:48.302Z",
   "summaryEngine": "chat-curated",
   "curated": true,
   "items": [
+    {
+      "id": "curated-nadella-ai-industry-hollowing-warning-2026-06-15",
+      "title": "Satya Nadella warns a few AI models could hollow out entire industries",
+      "summary": "Microsoft CEO Satya Nadella warned that companies risk surrendering their knowledge and economic value if a handful of AI models dominate every sector.",
+      "fullSummary": "Microsoft CEO Satya Nadella warned against an AI economy in which a small number of model providers absorb corporate knowledge and capture most of the value created across industries. He compared that risk with the first phase of globalization, when headline economic growth obscured the hollowing out of industrial economies and lasting worker displacement. Nadella argued that companies need to retain control over their learning systems, expertise, and context rather than becoming raw-data suppliers to dominant models.",
+      "keyFacts": [
+        "Published June 15, 2026",
+        "Nadella warned against ceding industry value to a few models",
+        "He compared the risk with globalization-driven industrial hollowing",
+        "The warning emphasizes company control over knowledge and learning systems"
+      ],
+      "url": "https://www.businessinsider.com/microsoft-ceo-warns-ai-winners-hurt-whole-industries-satya-nadella-2026-6",
+      "sourceName": "Business Insider",
+      "relatedSources": [
+        "Business Insider",
+        "Microsoft",
+        "Satya Nadella"
+      ],
+      "lane": "governance",
+      "publishedAt": "2026-06-15T04:09:15.000Z",
+      "importance": 464,
+      "sourceConfidence": "high",
+      "filterCategory": "pushback",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-15T06:01:48.302Z"
+    },
+    {
+      "id": "curated-legora-double-headcount-2026-06-15",
+      "title": "Legal AI startup Legora plans to more than double headcount",
+      "summary": "Legora plans to grow from 650 employees to about 1,500 by the end of 2026 after its client base quadrupled to roughly 1,200.",
+      "fullSummary": "Stockholm-based legal AI startup Legora plans to more than double its global workforce from 650 employees to roughly 1,500 by the end of 2026. The expansion follows a quadrupling of its client base to about 1,200 organizations, including Heineken, Deloitte, and Linklaters. Legora, valued at $5.6 billion and backed by investors including Bain Capital and Nvidia's venture arm, provides AI tools for legal document review, drafting, compliance, and due diligence. The hiring plan is a concrete adoption signal in a profession that has remained cautious about confidentiality and AI errors.",
+      "keyFacts": [
+        "Published June 15, 2026",
+        "Plans to grow from 650 to about 1,500 employees",
+        "Client base quadrupled to roughly 1,200",
+        "Legora is valued at $5.6 billion"
+      ],
+      "url": "https://www.ft.com/content/51b43d91-ae82-4142-9ff6-3252720e2906",
+      "sourceName": "Financial Times",
+      "relatedSources": [
+        "Financial Times",
+        "Legora",
+        "Bain Capital",
+        "Nvidia"
+      ],
+      "lane": "adoption",
+      "publishedAt": "2026-06-15T04:00:26.000Z",
+      "importance": 456,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-15T06:01:48.302Z"
+    },
     {
       "id": "curated-openai-partner-network-2026-06-14",
       "title": "OpenAI launches a $150M partner network for enterprise adoption",
@@ -455,6 +508,60 @@
       "filterCategory": "general",
       "summaryEngine": "chat-curated",
       "curatedAt": "2026-06-14T04:26:55.026Z"
+    },
+    {
+      "id": "curated-meta-edits-desktop-ai-assistant-2026-06-11",
+      "title": "Meta's Edits app is getting a desktop version and AI assistant",
+      "summary": "Meta plans to expand its Edits video editor to desktop and add an AI production assistant as it competes for creators with TikTok and YouTube.",
+      "fullSummary": "Meta is expanding its Edits video-creation app beyond mobile with a desktop version and an integrated AI production assistant. The assistant is intended to help creators through the production workflow, while the desktop release makes Edits more useful for longer and more complex projects. The move broadens Meta's creator-tool strategy and increases its competition with CapCut, TikTok, and YouTube by keeping more of the creation process inside Instagram's ecosystem.",
+      "keyFacts": [
+        "Published June 11, 2026",
+        "Edits is getting a desktop version",
+        "Meta is adding an AI production assistant",
+        "The expansion targets professional creator workflows"
+      ],
+      "url": "https://techcrunch.com/2026/06/11/metas-edits-app-is-getting-an-ai-assistant-and-a-desktop-version/",
+      "sourceName": "TechCrunch",
+      "relatedSources": [
+        "TechCrunch",
+        "Meta",
+        "Instagram",
+        "Edits"
+      ],
+      "lane": "products",
+      "publishedAt": "2026-06-11T17:30:00.000Z",
+      "importance": 447,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-15T06:01:48.302Z"
+    },
+    {
+      "id": "curated-eip-virtual-tpai-insurance-claims-2026-06-11",
+      "title": "EIP launches a voice-led AI platform for insurance claims",
+      "summary": "Embedded-insurance provider EIP launched Virtual TPAi, a voice-led AI agent designed to automate insurance claims processing and decisions end to end.",
+      "fullSummary": "Embedded-insurance provider EIP launched Virtual TPAi, an AI-powered platform for end-to-end claims processing and decision-making. Its voice-led agent, Ella, is designed to replicate the work of a third-party administrator by holding real-time conversations with customers, answering policy questions, and submitting claims. The launch is a concrete industry-adoption story because it moves conversational AI into a regulated, high-stakes workflow traditionally handled by human claims administrators.",
+      "keyFacts": [
+        "Published June 11, 2026",
+        "Product is called Virtual TPAi",
+        "Voice-led agent Ella handles customer conversations",
+        "Designed for end-to-end claims processing and decisions"
+      ],
+      "url": "https://fintech.global/2026/06/11/eip-launches-ai-tool-to-automate-insurance-claims/",
+      "sourceName": "FinTech Global",
+      "relatedSources": [
+        "FinTech Global",
+        "EIP",
+        "Virtual TPAi",
+        "Ella"
+      ],
+      "lane": "applications",
+      "publishedAt": "2026-06-11T15:22:37.000Z",
+      "importance": 443,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-15T06:01:48.302Z"
     },
     {
       "id": "curated-palantir-frontier-labs-enterprise-2026-06-11",
