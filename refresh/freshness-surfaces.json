@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "surfaces": [
+    {
+      "id": "broad-ai-news",
+      "name": "Broad AI news search",
+      "query": "AI news",
+      "windowHours": 24,
+      "minimumHeadlines": 10
+    },
+    {
+      "id": "broad-artificial-intelligence-news",
+      "name": "Broad artificial-intelligence news search",
+      "query": "artificial intelligence news",
+      "windowHours": 24,
+      "minimumHeadlines": 10
+    },
+    {
+      "id": "ai-products-and-launches",
+      "name": "AI products and launches search",
+      "query": "AI product launch OR launches",
+      "windowHours": 72,
+      "minimumHeadlines": 10
+    },
+    {
+      "id": "ai-business-impact",
+      "name": "AI business impact search",
+      "query": "AI adoption OR deployment OR CEO warning",
+      "windowHours": 72,
+      "minimumHeadlines": 10
+    }
+  ]
+}

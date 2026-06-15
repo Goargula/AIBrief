@@ -36,6 +36,14 @@ test("category registry has unique audits and sufficiency dimensions", async () 
   assert.ok(registry.sufficiencyDimensions.length >= ids.length);
 });
 
+test("freshness registry has unique surfaces with meaningful headline minimums", async () => {
+  const registry = JSON.parse(await readFile(path.join(root, "refresh", "freshness-surfaces.json"), "utf8"));
+  const ids = registry.surfaces.map((surface) => surface.id);
+  assert.equal(new Set(ids).size, ids.length);
+  assert.ok(registry.surfaces.length >= 4);
+  assert.ok(registry.surfaces.every((surface) => surface.query && surface.windowHours && surface.minimumHeadlines >= 10));
+});
+
 test("all sequential phase files exist and the orchestrator names them", async () => {
   const orchestrator = await readFile(path.join(root, "refresh", "README.md"), "utf8");
   for (let phase = 1; phase <= 6; phase += 1) {
@@ -65,10 +73,17 @@ test("gates fail incomplete work, pass completed work, and reopen on challenge",
     source.status = "checked";
     source.inspected = [source.url];
     source.headlineSample = ["Current relevant headline, 2026-06-13"];
+    source.decisions = ["Current relevant headline included or excluded"];
   }
   for (const audit of Object.values(ledger.audits)) {
     audit.status = "complete";
     audit.searches = audit.requiredSearches.map((search) => `${search} 2026-06-13`);
+  }
+  for (const surface of Object.values(ledger.freshnessSurfaces)) {
+    surface.status = "complete";
+    surface.inspected = [`News search: ${surface.query}`];
+    surface.headlines = Array.from({ length: surface.minimumHeadlines }, (_, index) => `Headline ${index + 1}`);
+    surface.decisions = surface.headlines.map((headline) => `${headline} excluded as duplicate or immaterial`);
   }
   ledger.sufficiency.verdict = "pass";
   ledger.sufficiency.searches = [
@@ -119,6 +134,62 @@ test("gates fail incomplete work, pass completed work, and reopen on challenge",
   assert.match(reopened.stderr, /sufficiency verdict is reopen/);
   assert.match(reopened.stderr, /source reuters-ai is pending/);
   assert.match(reopened.stderr, /audit funding is pending/);
+  assert.match(reopened.stderr, /freshness surface broad-ai-news is pending/);
+});
+
+test("discovery gate requires top-headline reconciliation on broad freshness surfaces", async () => {
+  const temp = await mkdtemp(path.join(os.tmpdir(), "ai-brief-refresh-"));
+  const ledgerPath = path.join(temp, "ledger.json");
+  execFileSync(process.execPath, [script, "init", `--ledger=${ledgerPath}`], { cwd: root });
+  const ledger = JSON.parse(await readFile(ledgerPath, "utf8"));
+  ledger.baseline.removedStoriesReconciled = true;
+  for (const source of Object.values(ledger.sources)) {
+    source.status = "checked";
+    source.inspected = [source.url];
+    source.headlineSample = ["Current relevant headline, 2026-06-13"];
+    source.decisions = ["Current relevant headline included or excluded"];
+  }
+  for (const audit of Object.values(ledger.audits)) {
+    audit.status = "complete";
+    audit.searches = audit.requiredSearches.map((search) => `${search} 2026-06-13`);
+  }
+  for (const surface of Object.values(ledger.freshnessSurfaces)) {
+    surface.status = "complete";
+    surface.inspected = [`News search: ${surface.query}`];
+    surface.headlines = Array.from({ length: surface.minimumHeadlines }, (_, index) => `Headline ${index + 1}`);
+    surface.decisions = surface.headlines.slice(0, -1).map((headline) => `${headline} excluded`);
+  }
+  ledger.sufficiency.verdict = "pass";
+  ledger.sufficiency.searches = ["gap one", "gap two", "gap three"];
+  ledger.sufficiency.reasons = ["All gaps checked"];
+  await writeFile(ledgerPath, `${JSON.stringify(ledger, null, 2)}\n`, "utf8");
+
+  const result = run(["check", "--gate=discovery", `--ledger=${ledgerPath}`]);
+  assert.notEqual(result.status, 0);
+  assert.match(result.stderr, /freshness surface .* has decisions for 9\/10 headlines/);
+});
+
+test("older ledgers are hydrated with required freshness surfaces", async () => {
+  const temp = await mkdtemp(path.join(os.tmpdir(), "ai-brief-refresh-"));
+  const ledgerPath = path.join(temp, "ledger.json");
+  execFileSync(process.execPath, [script, "init", `--ledger=${ledgerPath}`], { cwd: root });
+  const ledger = JSON.parse(await readFile(ledgerPath, "utf8"));
+  delete ledger.freshnessSurfaces;
+  await writeFile(ledgerPath, `${JSON.stringify(ledger, null, 2)}\n`, "utf8");
+
+  const result = run([
+    "record-freshness",
+    "--id=broad-ai-news",
+    "--status=complete",
+    "--inspected=Broad AI news results",
+    "--headlines=Headline 1",
+    "--decisions=Headline 1 included",
+    `--ledger=${ledgerPath}`
+  ]);
+  assert.equal(result.status, 0, result.stderr);
+  const hydrated = JSON.parse(await readFile(ledgerPath, "utf8"));
+  assert.equal(hydrated.freshnessSurfaces["broad-ai-news"].status, "complete");
+  assert.equal(hydrated.freshnessSurfaces["ai-business-impact"].status, "pending");
 });
 
 test("material exclusions and unresolved recovery block publication", async () => {
@@ -131,10 +202,17 @@ test("material exclusions and unresolved recovery block publication", async () =
     source.status = "checked";
     source.inspected = [source.url];
     source.headlineSample = ["Current relevant headline, 2026-06-13"];
+    source.decisions = ["Current relevant headline included or excluded"];
   }
   for (const audit of Object.values(ledger.audits)) {
     audit.status = "complete";
     audit.searches = audit.requiredSearches.map((search) => `${search} 2026-06-13`);
+  }
+  for (const surface of Object.values(ledger.freshnessSurfaces)) {
+    surface.status = "complete";
+    surface.inspected = [`News search: ${surface.query}`];
+    surface.headlines = Array.from({ length: surface.minimumHeadlines }, (_, index) => `Headline ${index + 1}`);
+    surface.decisions = surface.headlines.map((headline) => `${headline} excluded as duplicate or immaterial`);
   }
   ledger.sufficiency.verdict = "pass";
   ledger.sufficiency.searches = [

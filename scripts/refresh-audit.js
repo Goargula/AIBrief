@@ -16,7 +16,9 @@ const closedSourceStatuses = new Set(["checked", "fallback_checked", "unavailabl
 const closedCandidateDecisions = new Set(["included", "merged", "excluded"]);
 const verifiedLinkStatuses = new Set(["verified", "manual_verified", "not_applicable"]);
 const categoryRegistry = await readJson(path.join(root, "refresh", "categories.json"));
+const freshnessRegistry = await readJson(path.join(root, "refresh", "freshness-surfaces.json"));
 const requiredAudits = categoryRegistry.audits.map((audit) => audit.id);
+const requiredFreshnessSurfaces = freshnessRegistry.surfaces.map((surface) => surface.id);
 
 function list(value) {
   if (!value) return [];
@@ -46,7 +48,20 @@ async function writeJson(file, value) {
 
 async function loadLedger() {
   try {
-    return await readJson(ledgerPath);
+    const ledger = await readJson(ledgerPath);
+    ledger.freshnessSurfaces ||= {};
+    for (const surface of freshnessRegistry.surfaces) {
+      ledger.freshnessSurfaces[surface.id] ||= {
+        ...surface,
+        status: "pending",
+        inspected: [],
+        headlines: [],
+        decisions: [],
+        included: [],
+        notes: ""
+      };
+    }
+    return ledger;
   } catch {
     throw new Error(`Refresh ledger not found: ${ledgerPath}. Run npm run refresh:init first.`);
   }
@@ -59,6 +74,8 @@ function sourceProblems(ledger) {
     else if (!source.inspected.length) problems.push(`source ${source.id} has no inspected page or fallback query`);
     else if (source.status !== "unavailable_after_fallback" && !source.headlineSample.length) {
       problems.push(`source ${source.id} has no headline sample`);
+    } else if (source.status !== "unavailable_after_fallback" && source.decisions.length < source.headlineSample.length) {
+      problems.push(`source ${source.id} has decisions for ${source.decisions.length}/${source.headlineSample.length} sampled headlines`);
     }
   }
   return problems;
@@ -71,6 +88,24 @@ function auditProblems(ledger) {
     if (audit?.status !== "complete") problems.push(`audit ${id} is ${audit?.status || "missing"}`);
     else if (audit.searches.length < audit.requiredSearches.length) {
       problems.push(`audit ${id} has ${audit.searches.length}/${audit.requiredSearches.length} required independent searches`);
+    }
+  }
+  return problems;
+}
+
+function freshnessProblems(ledger) {
+  const problems = [];
+  for (const id of requiredFreshnessSurfaces) {
+    const surface = ledger.freshnessSurfaces?.[id];
+    if (surface?.status !== "complete") {
+      problems.push(`freshness surface ${id} is ${surface?.status || "missing"}`);
+      continue;
+    }
+    if (surface.headlines.length < surface.minimumHeadlines) {
+      problems.push(`freshness surface ${id} has ${surface.headlines.length}/${surface.minimumHeadlines} required top headlines`);
+    }
+    if (surface.decisions.length < surface.headlines.length) {
+      problems.push(`freshness surface ${id} has decisions for ${surface.decisions.length}/${surface.headlines.length} headlines`);
     }
   }
   return problems;
@@ -102,7 +137,8 @@ function recoveryProblems(ledger) {
 function discoveryProblems(ledger) {
   const problems = [
     ...sourceProblems(ledger),
-    ...auditProblems(ledger)
+    ...auditProblems(ledger),
+    ...freshnessProblems(ledger)
   ];
   if (!ledger.baseline.removedStoriesReconciled) {
     problems.push("baseline removed-story reconciliation is incomplete");
@@ -217,6 +253,20 @@ async function init() {
         }
       ])
     ),
+    freshnessSurfaces: Object.fromEntries(
+      freshnessRegistry.surfaces.map((surface) => [
+        surface.id,
+        {
+          ...surface,
+          status: "pending",
+          inspected: [],
+          headlines: [],
+          decisions: [],
+          included: [],
+          notes: ""
+        }
+      ])
+    ),
     candidates: [],
     recovery: [],
     sufficiency: {
@@ -322,6 +372,20 @@ async function recordAudit() {
   });
 }
 
+async function recordFreshnessSurface() {
+  await mutate((ledger) => {
+    const id = requireArg("id");
+    const surface = ledger.freshnessSurfaces?.[id];
+    if (!surface) throw new Error(`Unknown freshness surface id: ${id}`);
+    surface.status = requireArg("status");
+    surface.inspected.push(...list(args.get("inspected")));
+    surface.headlines.push(...list(args.get("headlines")));
+    surface.decisions.push(...list(args.get("decisions")));
+    surface.included.push(...list(args.get("included")));
+    surface.notes = args.get("notes") || surface.notes;
+  });
+}
+
 async function addCandidate() {
   await mutate((ledger) => {
     const title = requireArg("title");
@@ -407,6 +471,9 @@ async function challenge() {
       if (!ledger.audits[id]) throw new Error(`Unknown audit id: ${id}`);
       ledger.audits[id].status = "pending";
     }
+    for (const surface of Object.values(ledger.freshnessSurfaces || {})) {
+      surface.status = "pending";
+    }
   });
 }
 
@@ -455,6 +522,9 @@ async function report() {
   console.log(`Named sources closed: ${closedSources.length}/${Object.keys(ledger.sources).length}`);
   console.log(`Unavailable after fallback: ${unavailable.length}${unavailable.length ? ` (${unavailable.map((source) => source.id).join(", ")})` : ""}`);
   console.log(`Audits complete: ${Object.values(ledger.audits).filter((audit) => audit.status === "complete").length}/${requiredAudits.length}`);
+  const completedFreshnessSurfaces = Object.values(ledger.freshnessSurfaces || {}).filter((surface) => surface.status === "complete");
+  const reconciledFreshnessHeadlines = completedFreshnessSurfaces.reduce((count, surface) => count + Math.min(surface.headlines.length, surface.decisions.length), 0);
+  console.log(`Freshness surfaces complete: ${completedFreshnessSurfaces.length}/${requiredFreshnessSurfaces.length}; headlines reconciled: ${reconciledFreshnessHeadlines}`);
   console.log(`Audits with no included candidates: ${sparseAudits.length}${sparseAudits.length ? ` (${sparseAudits.map((audit) => audit.id).join(", ")})` : ""}`);
   console.log(`Candidates: ${ledger.candidates.length}; included: ${included.length}; unresolved: ${unresolved.length}`);
   console.log(`Material exclusions: ${materialExcluded.length}; single-pass candidates: ${singlePassCandidates.length}`);
@@ -488,6 +558,7 @@ Commands:
   add-source           Add a relevant government, research, or other source row
   record-source        Close or update one named-source row
   record-audit         Close or update one category-audit row
+  record-freshness     Reconcile top headlines from a broad freshness surface
   add-candidate        Add discovery evidence for a candidate
   decide-candidate     Include, merge, or exclude a candidate
   record-recovery      Track broken-link recovery work
@@ -507,6 +578,7 @@ const handlers = {
   "add-source": addSource,
   "record-source": recordSource,
   "record-audit": recordAudit,
+  "record-freshness": recordFreshnessSurface,
   "add-candidate": addCandidate,
   "decide-candidate": decideCandidate,
   "record-recovery": recordRecovery,

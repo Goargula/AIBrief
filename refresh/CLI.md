@@ -35,6 +35,14 @@ node scripts/refresh-audit.js record-audit `
   --sources=techcrunch-ai `
   --included=candidate-id
 
+node scripts/refresh-audit.js record-freshness `
+  --id=broad-ai-news `
+  --status=complete `
+  --inspected="Google News AI news, rolling 24 hours" `
+  --headlines="Headline A|Headline B" `
+  --decisions="Headline A included|Headline B excluded as duplicate" `
+  --included=candidate-id
+
 node scripts/refresh-audit.js add-candidate `
   --id=candidate-id `
   --title="Candidate title" `

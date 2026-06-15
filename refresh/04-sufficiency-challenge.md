@@ -17,6 +17,8 @@ Review:
 - Material excluded candidates and incomplete link recovery.
 - Stories discovered by only one pass with weak evidence.
 - Current headlines from competitors or broad sources absent from the feed.
+- Every top headline from the required broad freshness surfaces has a recorded
+  decision and every material result is represented in the candidate ledger.
 
 Run new gap-oriented searches rather than repeating the same general queries.
 Examples include missing regions, missing healthcare/robotics/research coverage,

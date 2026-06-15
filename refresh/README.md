@@ -9,11 +9,13 @@ Use `refresh/CLI.md` as the command reference while recording evidence.
 
 ## Core Principle
 
-The workflow deliberately uses three overlapping discovery passes:
+The workflow deliberately uses four overlapping discovery passes:
 
 1. Named-source inspection catches unexpected and non-obvious headlines.
 2. Category searches catch stories outside the named-source list.
-3. The sufficiency challenge assumes the first two passes missed material news.
+3. Broad freshness surfaces reproduce the user experience of searching for
+   "AI news" and require every top visible headline to be reconciled.
+4. The sufficiency challenge assumes the first three passes missed material news.
 
 Overlap between these passes is required. Repeating the exact same page request
 without a distinct purpose is not. Record requests and findings in the ledger so

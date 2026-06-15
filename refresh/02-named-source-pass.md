@@ -9,6 +9,8 @@ For each source:
 
 1. Inspect its direct latest/category page when accessible.
 2. Record a sample of newest relevant visible headlines and dates.
+   Record an include, merge, exclude, or investigate decision for every sampled
+   headline; listing headlines without reconciling them does not close a source.
 3. If inaccessible or stale, run a site-restricted fallback for today,
    yesterday, and the exact current date.
 4. Add every material candidate to the ledger before deduplication.

@@ -30,3 +30,21 @@ For each audit:
 
 Run a 30-day catch-up for workforce restructurings, scaled deployments,
 fraud/loss figures, and empirical adoption reports.
+
+## Broad Freshness Surfaces
+
+After the category audits, load `refresh/freshness-surfaces.json`. Run every
+surface as a user-like news search and inspect the top visible results, not only
+results from registered sources.
+
+For each surface:
+
+1. Inspect at least `minimumHeadlines` top visible headlines within its window.
+2. Record every headline and a matching include, merge, exclude, or investigate
+   decision.
+3. Add every material candidate before marking the surface complete.
+4. Do not mark a surface complete from a query string alone.
+
+These surfaces are mandatory because broad search ranking can expose executive
+warnings, product rollouts, and vertical-industry adoption that source and
+category searches miss.
