@@ -1,9 +1,64 @@
 {
-  "generatedAt": "2026-06-14T05:40:26.491Z",
-  "nextRefreshAt": "2026-06-14T08:40:26.491Z",
+  "generatedAt": "2026-06-15T05:36:19.330Z",
+  "nextRefreshAt": "2026-06-15T08:36:19.330Z",
   "summaryEngine": "chat-curated",
   "curated": true,
   "items": [
+    {
+      "id": "curated-openai-partner-network-2026-06-14",
+      "title": "OpenAI launches a $150M partner network for enterprise adoption",
+      "summary": "OpenAI is investing $150 million in a global partner program and aims to train 300,000 certified consultants by the end of 2026.",
+      "fullSummary": "OpenAI launched the OpenAI Partner Network to help organizations move from AI pilots to production deployments through systems integrators, consultancies, technology firms, and data specialists. The company is investing $150 million in the ecosystem and aims to train and enable 300,000 certified consultants by the end of 2026. OpenAI cited early partner-led outcomes including Paychex reducing wait time by 80% and human-reviewed effort time by 30% for a mission-critical payroll workflow. The program also introduces Select, Advanced, and Elite tiers, planned specializations for Codex, cybersecurity, and agents, and a pilot that connects partner practitioners with OpenAI's forward-deployed engineering teams.",
+      "keyFacts": [
+        "Published June 14, 2026",
+        "$150 million ecosystem investment",
+        "Targeting 300,000 certified consultants by the end of 2026",
+        "Paychex reported 80% lower wait time and 30% lower human-reviewed effort"
+      ],
+      "url": "https://openai.com/index/introducing-openai-partner-network/",
+      "sourceName": "OpenAI",
+      "relatedSources": [
+        "OpenAI",
+        "Accenture",
+        "Bain",
+        "BCG",
+        "Paychex"
+      ],
+      "lane": "enterprise",
+      "publishedAt": "2026-06-14T12:00:00.000Z",
+      "importance": 452,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-15T05:36:19.330Z"
+    },
+    {
+      "id": "curated-china-mythos-access-report-2026-06-14",
+      "title": "China-linked access fears may have driven the Mythos crackdown",
+      "summary": "A new report says White House restrictions on Anthropic's strongest models may partly reflect fears that a China-linked group accessed Mythos, though the claim remains unconfirmed.",
+      "fullSummary": "The Verge, citing a Semafor report, says the White House decision to restrict access to Anthropic's Mythos and Fable models was partly driven by fears that a China-linked group may have accessed Mythos. Such access could create a national-security risk and enable attempts to reproduce the model through distillation. The White House has not confirmed the report, and Anthropic said China was not raised during its discussions with the government, so the alleged access remains unconfirmed. The report adds a possible geopolitical and security explanation to the previously covered export-control directive.",
+      "keyFacts": [
+        "Published June 14, 2026",
+        "China-linked access claim is unconfirmed",
+        "Possible concerns include model distillation and national-security risk",
+        "Anthropic said China was not discussed in government talks"
+      ],
+      "url": "https://www.theverge.com/ai-artificial-intelligence/949644/china-white-house-anthropic-mythos",
+      "sourceName": "The Verge",
+      "relatedSources": [
+        "The Verge",
+        "Semafor",
+        "Anthropic",
+        "White House"
+      ],
+      "lane": "policy",
+      "publishedAt": "2026-06-14T18:27:55.000Z",
+      "importance": 455,
+      "sourceConfidence": "medium",
+      "filterCategory": "pushback",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-15T05:36:19.330Z"
+    },
     {
       "id": "curated-india-anthropic-sovereign-ai-debate-2026-06-14",
       "title": "Anthropic restrictions reignite India's sovereign-AI debate",
