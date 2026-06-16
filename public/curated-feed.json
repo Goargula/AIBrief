@@ -1,9 +1,380 @@
 {
-  "generatedAt": "2026-06-15T06:01:48.302Z",
-  "nextRefreshAt": "2026-06-15T09:01:48.302Z",
+  "generatedAt": "2026-06-16T07:38:36.282Z",
+  "nextRefreshAt": "2026-06-16T10:38:36.282Z",
   "summaryEngine": "chat-curated",
   "curated": true,
   "items": [
+    {
+      "id": "curated-claude-mythos-export-fight-2026-06-16",
+      "title": "Inside Anthropic's fight to defend Claude Mythos 5",
+      "summary": "The Verge reported that Anthropic and AI backers spent the weekend arguing the U.S. government had overreacted to Mythos 5 and Fable 5 risks.",
+      "fullSummary": "The Verge detailed the policy fight behind the U.S. directive that froze foreign access to Anthropic's Mythos 5 and Fable 5 models. The report says Anthropic and allied AI boosters tried to convince officials that the public Fable 5 release was not too dangerous and that the government's intervention could strengthen non-U.S. sovereign AI efforts. The story adds useful context to the existing feed's export-control coverage because it shifts the focus from the fact of the shutdown to the industry and policy struggle around whether frontier access should be centrally controlled.",
+      "keyFacts": [
+        "Published June 16, 2026",
+        "The report focuses on the fight over the U.S. Mythos 5 and Fable 5 access freeze",
+        "Anthropic and AI backers reportedly argued Fable 5 was not too powerful for release",
+        "The dispute could accelerate demand for non-U.S. frontier AI options"
+      ],
+      "url": "https://www.theverge.com/ai-artificial-intelligence/950412/anthropic-trump-adminstration-claude-mythos-fable-5-export-controls",
+      "sourceName": "The Verge",
+      "relatedSources": [
+        "The Verge",
+        "Anthropic",
+        "U.S. government"
+      ],
+      "lane": "policy-safety",
+      "publishedAt": "2026-06-16T03:00:00.000Z",
+      "importance": 482,
+      "sourceConfidence": "high",
+      "filterCategory": "pushback",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-16T07:38:36.282Z"
+    },
+    {
+      "id": "curated-openai-spending-34b-ipo-2026-06-16",
+      "title": "OpenAI spending reportedly hit $34B ahead of planned IPO",
+      "summary": "Financial Times reported that audited figures show OpenAI's spending reached $34 billion last year as model development and infrastructure costs mounted.",
+      "fullSummary": "Financial Times reported that audited figures show OpenAI's spending reached $34 billion last year, underlining how expensive frontier model development, infrastructure, and rapid expansion have become before the company's planned IPO. The story is a finance and infrastructure signal rather than a product launch: it shows how the leading AI labs' capital needs are changing investor expectations, pricing power, and public-market timing. It also helps explain why model companies are moving toward partner networks, cloud commitments, and public-market access.",
+      "keyFacts": [
+        "Published June 16, 2026",
+        "FT reported audited figures showing $34 billion of OpenAI spending last year",
+        "The spending was tied to model development, infrastructure, and rapid expansion",
+        "The disclosure lands ahead of OpenAI's planned IPO process"
+      ],
+      "url": "https://www.ft.com/artificial-intelligence",
+      "sourceName": "Financial Times",
+      "relatedSources": [
+        "Financial Times",
+        "OpenAI",
+        "IPO"
+      ],
+      "lane": "funding",
+      "publishedAt": "2026-06-16T04:30:00.000Z",
+      "importance": 481,
+      "sourceConfidence": "medium",
+      "filterCategory": "funding",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-16T07:38:36.282Z"
+    },
+    {
+      "id": "curated-mistral-russian-disinformation-study-2026-06-16",
+      "title": "Study finds Mistral more vulnerable to Russian disinformation",
+      "summary": "Financial Times reported that Estonian researchers found open-source generative models were worse than peers at removing false-news content.",
+      "fullSummary": "Financial Times reported on a study by Estonian researchers finding that Europe's AI champion Mistral was vulnerable to Russian disinformation, with open-source generative models performing worse than other systems at removing false news. The story is a useful research and policy signal because it links model openness, content moderation, and national-security information operations. It also gives the feed a European AI governance angle beyond the dominant U.S. frontier-lab stories.",
+      "keyFacts": [
+        "Published June 16, 2026",
+        "The reported study focused on Mistral and Russian disinformation",
+        "Open-source generative models were said to be worse at removing false news than other systems",
+        "The finding adds a European model-governance risk to the current feed"
+      ],
+      "url": "https://www.ft.com/artificial-intelligence",
+      "sourceName": "Financial Times",
+      "relatedSources": [
+        "Financial Times",
+        "Mistral",
+        "Estonian researchers"
+      ],
+      "lane": "papers",
+      "publishedAt": "2026-06-16T04:45:00.000Z",
+      "importance": 478,
+      "sourceConfidence": "medium",
+      "filterCategory": "papers",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-16T07:38:36.282Z"
+    },
+    {
+      "id": "curated-accenture-hr-ai-bots-management-2026-06-16",
+      "title": "Accenture executive says HR must manage AI bots like workers",
+      "summary": "Financial Times reported that an Accenture executive expects businesses to rethink leadership and HR models as AI agents enter daily operations.",
+      "fullSummary": "Financial Times reported that Accenture executive Matt Prebble said businesses will have to manage AI bots alongside human employees, forcing leadership and HR models to change. The item fits the enterprise-adoption lane because it moves beyond generic agent hype toward operating-model consequences: governance, accountability, and management practices for software workers. It complements the NewCore identity story by showing that agent governance is becoming an organizational issue, not just a security-tool category.",
+      "keyFacts": [
+        "Published June 16, 2026",
+        "Accenture's Matt Prebble said HR must manage AI bots as well as humans",
+        "The report frames agents as a leadership and operating-model challenge",
+        "It reinforces the need for governance around software workers"
+      ],
+      "url": "https://www.ft.com/artificial-intelligence",
+      "sourceName": "Financial Times",
+      "relatedSources": [
+        "Financial Times",
+        "Accenture",
+        "AI agents"
+      ],
+      "lane": "products-adoption",
+      "publishedAt": "2026-06-16T05:30:00.000Z",
+      "importance": 476,
+      "sourceConfidence": "medium",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-16T07:38:36.282Z"
+    },
+    {
+      "id": "curated-dod-genai-mil-1-5m-users-2026-06-15",
+      "title": "Pentagon says 1.5M workers use GenAI.mil daily",
+      "summary": "A Pentagon official said daily use of the Defense Department's generative AI hub has jumped from 80,000 users at launch to 1.5 million.",
+      "fullSummary": "Business Insider reported that Pentagon CTO Emil Michael said 1.5 million Defense Department personnel now use GenAI.mil daily, up from 80,000 users when the platform launched in December 2025. The DoD has also rolled out Google's Gemini on unclassified networks. Michael said workers use the platform for administrative tasks such as drafting job descriptions and congressional reports, while officials continue to explore military uses with human oversight. The scale makes this one of the clearest government-adoption signals in the current refresh window.",
+      "keyFacts": [
+        "Published June 15, 2026",
+        "Daily GenAI.mil users reportedly rose from 80,000 to 1.5 million",
+        "The Pentagon also launched Google's Gemini on unclassified networks",
+        "Officials cited paperwork and report drafting as current use cases"
+      ],
+      "url": "https://www.businessinsider.com/user-increase-dod-workers-using-military-ai-program-daily-official-2026-6",
+      "sourceName": "Business Insider",
+      "relatedSources": [
+        "Business Insider",
+        "U.S. Department of Defense",
+        "GenAI.mil",
+        "Google Gemini"
+      ],
+      "lane": "products-adoption",
+      "publishedAt": "2026-06-15T19:38:09.377Z",
+      "importance": 475,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-16T07:38:36.282Z"
+    },
+    {
+      "id": "curated-meta-facebook-ai-mode-public-posts-2026-06-15",
+      "title": "Meta's Facebook AI Mode will answer from public posts",
+      "summary": "Meta is rolling out Facebook AI Mode, a search option that uses Muse Spark to answer questions from public information across the social network.",
+      "fullSummary": "The Verge reported that Meta is adding an AI Mode to Facebook search that answers questions using public information from the social network, powered by Meta's Muse Spark model. The feature will appear alongside existing Facebook search modes such as People and Marketplace. Meta is also rolling out AI photo presets and collage suggestions. The launch matters because it turns Facebook's public-post corpus into a consumer AI search surface, raising product, data-use, and platform-distribution questions.",
+      "keyFacts": [
+        "Published June 15, 2026",
+        "Facebook AI Mode uses Meta's Muse Spark model",
+        "The feature draws from public information across Facebook",
+        "It is rolling out alongside other AI photo and collage tools"
+      ],
+      "url": "https://www.theverge.com/tech/950264/meta-ai-mode-search-facebook",
+      "sourceName": "The Verge",
+      "relatedSources": [
+        "The Verge",
+        "Meta",
+        "Facebook",
+        "Muse Spark"
+      ],
+      "lane": "products-adoption",
+      "publishedAt": "2026-06-15T21:15:00.000Z",
+      "importance": 474,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-16T07:38:36.282Z"
+    },
+    {
+      "id": "curated-salesforce-fin-acquisition-2026-06-15",
+      "title": "Salesforce buys Fin for $3.6B to bolster Agentforce",
+      "summary": "Salesforce agreed to acquire AI customer-service platform Fin for $3.6 billion, adding service-agent technology to Agentforce.",
+      "fullSummary": "TechCrunch reported that Salesforce will acquire Fin, formerly known as Intercom, for $3.6 billion. Fin sells AI agents that resolve customer queries across live chat, WhatsApp, SMS, phone calls, Slack, and other channels. Salesforce said the acquisition will strengthen Agentforce, its platform for enterprise AI agents. The deal is a major consolidation signal in customer-service automation and shows incumbent enterprise software vendors buying proven agent workflows rather than building every capability internally.",
+      "keyFacts": [
+        "Published June 15, 2026",
+        "Salesforce agreed to acquire Fin for $3.6 billion",
+        "Fin builds AI customer-service agents across multiple channels",
+        "Salesforce plans to use the deal to improve Agentforce"
+      ],
+      "url": "https://techcrunch.com/2026/06/15/salesforce-acquires-ai-customer-service-platform-fin-for-3-6b/",
+      "sourceName": "TechCrunch",
+      "relatedSources": [
+        "TechCrunch",
+        "Salesforce",
+        "Fin",
+        "Agentforce"
+      ],
+      "lane": "funding",
+      "publishedAt": "2026-06-15T14:34:00.000Z",
+      "importance": 473,
+      "sourceConfidence": "high",
+      "filterCategory": "funding",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-16T07:38:36.282Z"
+    },
+    {
+      "id": "curated-sarvam-ai-unicorn-234m-2026-06-15",
+      "title": "Sarvam reaches unicorn status with $234M round",
+      "summary": "Indian AI startup Sarvam raised $234 million at a $1.5 billion valuation, led by HCLTech as a strategic investor.",
+      "fullSummary": "TechCrunch reported that Bengaluru-based Sarvam raised $234 million at a $1.5 billion valuation, making it India's newest AI unicorn. HCLTech is providing $150 million of the round as lead strategic investor, with Bessemer Venture Partners and existing backers also participating. Sarvam said it will fund next-generation agentic, coding, and cybersecurity models while expanding compute access and enterprise deployments. The round is also a sovereign-AI signal because Sarvam is building Indian-language models, inference infrastructure, and applications for government and enterprise customers.",
+      "keyFacts": [
+        "Published June 15, 2026",
+        "Sarvam raised $234 million at a $1.5 billion valuation",
+        "HCLTech is contributing $150 million as lead strategic investor",
+        "Sarvam says its platform handles 10 million API calls daily"
+      ],
+      "url": "https://techcrunch.com/2026/06/15/sarvam-becomes-indias-newest-ai-unicorn-with-234-million-funding-round-led-by-hcltech/",
+      "sourceName": "TechCrunch",
+      "relatedSources": [
+        "TechCrunch",
+        "Sarvam",
+        "HCLTech",
+        "Bessemer Venture Partners"
+      ],
+      "lane": "funding",
+      "publishedAt": "2026-06-15T13:46:00.000Z",
+      "importance": 472,
+      "sourceConfidence": "high",
+      "filterCategory": "funding",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-16T07:38:36.282Z"
+    },
+    {
+      "id": "curated-newcore-agent-identity-66m-2026-06-15",
+      "title": "NewCore raises $66M to govern AI-agent identities",
+      "summary": "Cybersecurity startup NewCore emerged from stealth with $66 million to authenticate, govern, and control AI agents as workplace participants.",
+      "fullSummary": "TechCrunch reported that NewCore emerged from stealth with $66 million in seed funding led by Cyberstarts, with Index Ventures and Evolution Equity Partners participating. The company is building identity and governance systems for AI agents that companies increasingly treat as workplace participants. NewCore argues that legacy identity platforms will struggle when software workers operate alongside humans at scale. The story is both a funding event and an enterprise-governance marker for agent deployments.",
+      "keyFacts": [
+        "Published June 15, 2026",
+        "NewCore emerged from stealth with $66 million",
+        "The seed round values the company at $300 million post-investment",
+        "The product focuses on authentication and governance for AI agents"
+      ],
+      "url": "https://techcrunch.com/2026/06/15/ai-agents-are-becoming-employees-newcore-emerges-with-66m-to-give-them-identities/",
+      "sourceName": "TechCrunch",
+      "relatedSources": [
+        "TechCrunch",
+        "NewCore",
+        "Cyberstarts",
+        "Index Ventures"
+      ],
+      "lane": "funding",
+      "publishedAt": "2026-06-15T13:00:00.000Z",
+      "importance": 470,
+      "sourceConfidence": "high",
+      "filterCategory": "funding",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-16T07:38:36.282Z"
+    },
+    {
+      "id": "curated-orbit-vision-language-model-demo-2026-06-15",
+      "title": "Satellite runs a vision-language model to find targets on orbit",
+      "summary": "A Loft Orbital satellite using NASA JPL software and Google DeepMind's Gemma 3 identified areas of interest in orbit from natural-language queries.",
+      "fullSummary": "TechCrunch reported that a Loft Orbital YAM-9 satellite used NASA Jet Propulsion Laboratory software and Google DeepMind's Gemma 3 vision-language model to identify areas of interest in orbit without waiting for human analysts on the ground. The April demonstration is framed as the first reported use of a vision-language model in orbit. It matters because edge AI could let satellites triage sensor data before downlinking and eventually support always-on monitoring layers in space.",
+      "keyFacts": [
+        "Published June 15, 2026",
+        "The demo ran on Loft Orbital's YAM-9 spacecraft",
+        "NASA JPL software used Google DeepMind's Gemma 3 vision-language model",
+        "The system responded to natural-language queries while in orbit"
+      ],
+      "url": "https://techcrunch.com/2026/06/15/a-satellite-just-learned-to-find-things-on-its-own-heres-what-that-means/",
+      "sourceName": "TechCrunch",
+      "relatedSources": [
+        "TechCrunch",
+        "Loft Orbital",
+        "NASA JPL",
+        "Google DeepMind",
+        "Gemma 3"
+      ],
+      "lane": "physical-ai",
+      "publishedAt": "2026-06-15T12:00:00.000Z",
+      "importance": 468,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-16T07:38:36.282Z"
+    },
+    {
+      "id": "curated-ai-regulation-child-safety-deal-2026-06-15",
+      "title": "White House ties AI preemption push to child-safety deal",
+      "summary": "The Verge reported that the White House is trying to pair state-AI-law preemption with child-safety measures as midterms approach.",
+      "fullSummary": "The Verge reported that the White House is proposing a legislative package that would combine AI industry priorities, including preempting state AI laws, with child-safety measures. The story shows how federal AI regulation is being shaped by tradeoffs between tech-company demands, online safety politics, and election timing. It is a distinct policy update from the Anthropic model-access fight because it focuses on the broader legislative bargain that could determine whether states can regulate AI independently.",
+      "keyFacts": [
+        "Published June 15, 2026",
+        "The reported package would pair state AI law preemption with child-safety provisions",
+        "The issue is unfolding as midterms approach",
+        "The story tracks federal-state conflict over AI regulation"
+      ],
+      "url": "https://www.theverge.com/policy/949970/ai-regulation-child-safety-kosa-congress",
+      "sourceName": "The Verge",
+      "relatedSources": [
+        "The Verge",
+        "White House",
+        "Congress"
+      ],
+      "lane": "policy-safety",
+      "publishedAt": "2026-06-15T17:44:00.000Z",
+      "importance": 467,
+      "sourceConfidence": "high",
+      "filterCategory": "pushback",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-16T07:38:36.282Z"
+    },
+    {
+      "id": "curated-physical-ai-robotics-investor-boom-2026-06-15",
+      "title": "Robotics and physical AI funding surge as investors chase real-world automation",
+      "summary": "Business Insider reported that robotics and physical AI investment rose from about $4 billion in 2019 to $26 billion in 2025.",
+      "fullSummary": "Business Insider profiled the investors shaping robotics and physical AI, reporting that venture investment in the category rose from around $4 billion in 2019 to $26 billion in 2025, with more than $23 billion already raised this year. The report describes capital flowing into humanoids, autonomous vehicles, warehouse automation, defense robotics, and foundation models for robots. It is a useful physical-AI market signal because it ties falling hardware costs, labor shortages, and better AI models to a measurable investment shift.",
+      "keyFacts": [
+        "Published June 15, 2026",
+        "Robotics and physical AI investment rose from about $4 billion in 2019 to $26 billion in 2025",
+        "The category has raised more than $23 billion this year",
+        "Investors are backing humanoids, defense robotics, warehouse automation, and robot foundation models"
+      ],
+      "url": "https://www.businessinsider.com/investors-to-know-in-robotics-and-physical-ai-2026-6",
+      "sourceName": "Business Insider",
+      "relatedSources": [
+        "Business Insider",
+        "PitchBook",
+        "robotics investors"
+      ],
+      "lane": "physical-ai",
+      "publishedAt": "2026-06-15T09:00:01.288Z",
+      "importance": 463,
+      "sourceConfidence": "high",
+      "filterCategory": "funding",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-16T07:38:36.282Z"
+    },
+    {
+      "id": "curated-anthropic-economic-futures-fund-2026-06-10",
+      "title": "Anthropic commits $200M to study AI's economic impact",
+      "summary": "Anthropic pledged $200 million for an Economic Futures Research Fund while proposing policy responses to AI-driven labor disruption.",
+      "fullSummary": "The Associated Press reported that Anthropic committed $200 million to research AI's impact on jobs and the economy through an Economic Futures Research Fund. CEO Dario Amodei proposed better job-displacement data, pro-employment incentives, and support mechanisms such as universal basic income if AI permanently reduces labor demand. Although older than the last refresh timestamp, the item is a material backlog correction because it connects frontier-lab strategy with policy proposals for AI-driven economic disruption.",
+      "keyFacts": [
+        "Published June 10, 2026",
+        "Anthropic pledged $200 million for an Economic Futures Research Fund",
+        "Dario Amodei proposed policy responses to AI job displacement",
+        "The company also discussed stronger safety and security regulation"
+      ],
+      "url": "https://apnews.com/article/afeb5279eef406980dffa46ff91495e0",
+      "sourceName": "Associated Press",
+      "relatedSources": [
+        "Associated Press",
+        "Anthropic",
+        "Dario Amodei"
+      ],
+      "lane": "policy-safety",
+      "publishedAt": "2026-06-10T21:03:00.000Z",
+      "importance": 424,
+      "sourceConfidence": "high",
+      "filterCategory": "pushback",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-16T07:38:36.282Z"
+    },
+    {
+      "id": "curated-new-york-synthetic-performer-label-law-2026-06-09",
+      "title": "New York requires AI synthetic-performer labels in ads",
+      "summary": "A New York law now requires ads using AI-generated performers to clearly disclose that synthetic people were used.",
+      "fullSummary": "The Associated Press reported that New York's first-in-the-nation synthetic-performer ad law took effect, requiring advertisements that use AI-generated people in place of actors to clearly disclose that fact. The law applies across ad formats, includes penalties that rise from $1,000 to $5,000 for repeat violations, and excludes categories such as movies, TV, streaming, video games, and audio-only ads. The item is a backlog correction for state-level AI labor and disclosure regulation.",
+      "keyFacts": [
+        "Published June 9, 2026",
+        "The New York law requires disclosure for AI-generated synthetic performers in ads",
+        "Penalties start at $1,000 and rise to $5,000 for repeat violations",
+        "SAG-AFTRA supported the measure while advertising groups raised objections"
+      ],
+      "url": "https://apnews.com/article/e433625bfb61c8abeab0d619869192ed",
+      "sourceName": "Associated Press",
+      "relatedSources": [
+        "Associated Press",
+        "New York",
+        "SAG-AFTRA"
+      ],
+      "lane": "policy-safety",
+      "publishedAt": "2026-06-09T20:17:14.000Z",
+      "importance": 418,
+      "sourceConfidence": "high",
+      "filterCategory": "pushback",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-16T07:38:36.282Z"
+    },
     {
       "id": "curated-nadella-ai-industry-hollowing-warning-2026-06-15",
       "title": "Satya Nadella warns a few AI models could hollow out entire industries",
