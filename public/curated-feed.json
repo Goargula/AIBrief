@@ -1,9 +1,272 @@
 {
-  "generatedAt": "2026-06-16T07:38:36.282Z",
-  "nextRefreshAt": "2026-06-16T10:38:36.282Z",
+  "generatedAt": "2026-06-16T08:19:38.601Z",
+  "nextRefreshAt": "2026-06-16T11:19:38.601Z",
   "summaryEngine": "chat-curated",
   "curated": true,
   "items": [
+    {
+      "id": "curated-respondio-series-b-ai-agents-2026-06-16",
+      "title": "Respond.io raises $62.5M for AI-agent messaging",
+      "summary": "TechCrunch reported that Malaysia-based Respond.io raised a $62.5M Series B as AI agents reshape customer conversations.",
+      "fullSummary": "TechCrunch reported that Respond.io raised a $62.5M Series B led by Camber Partners, giving the Kuala Lumpur company fresh capital for hiring, expansion, and possible acquisitions in North America and Europe. The company says it processes 2B messages per quarter across channels such as WhatsApp, Instagram, TikTok, Messenger, Line, Telegram, WeChat, voice, and web chat. Its AI agents qualify leads, answer inquiries, and close sales, while its conversation-volume pricing model gives it a different exposure to automation than seat-based software vendors.",
+      "keyFacts": [
+        "Published June 15, 2026 at 11:59 PM PDT",
+        "Respond.io raised a $62.5M Series B led by Camber Partners",
+        "The company says it has $35M in ARR and 169% year-over-year growth",
+        "Its platform uses AI agents to manage high-volume customer conversations"
+      ],
+      "url": "https://techcrunch.com/2026/06/15/malaysias-respond-io-raises-62-5m-eyes-acquisitions-in-north-america-and-europe/",
+      "sourceName": "TechCrunch",
+      "relatedSources": [
+        "TechCrunch",
+        "Respond.io",
+        "Camber Partners"
+      ],
+      "lane": "funding",
+      "publishedAt": "2026-06-16T06:59:00.000Z",
+      "importance": 488,
+      "sourceConfidence": "high",
+      "filterCategory": "funding",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-16T08:19:38.601Z"
+    },
+    {
+      "id": "curated-ft-private-equity-ai-professional-services-2026-06-16",
+      "title": "Private equity bosses warn AI threatens law and accountancy bets",
+      "summary": "The FT reported that private-capital executives are reassessing professional-services roll-ups as generative AI pressures hourly billing models.",
+      "fullSummary": "The Financial Times reported that private equity and credit executives at SuperReturn warned generative AI could disrupt law, accountancy, translation, claims auditing, billing automation, and other asset-light advisory businesses. The concern is that firms bought for stable hourly-billing revenue may face both automation and revenue-model pressure. Some investors are already shunning parts of white-collar services, while others argue regulated audit work and firms that adapt pricing models could benefit from AI rather than be displaced by it.",
+      "keyFacts": [
+        "Published June 16, 2026",
+        "Private capital executives highlighted law, accountancy, billing, claims, and translation exposure",
+        "The risk centers on hourly billing and professional-services roll-up valuations",
+        "Some investors are rotating toward asset-heavy industrial companies"
+      ],
+      "url": "https://www.ft.com/content/d368d0b8-9264-408b-b0af-0f0b660e1c8f",
+      "sourceName": "Financial Times",
+      "relatedSources": [
+        "Financial Times",
+        "SuperReturn",
+        "Apollo",
+        "Apax Partners",
+        "Neuberger Berman"
+      ],
+      "lane": "business-impact",
+      "publishedAt": "2026-06-16T04:00:24.000Z",
+      "importance": 486,
+      "sourceConfidence": "high",
+      "filterCategory": "pushback",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-16T08:19:38.601Z"
+    },
+    {
+      "id": "curated-harmonyos-7-agent-era-china-2026-06-15",
+      "title": "HarmonyOS 7 moves into China’s agentic phone gap",
+      "summary": "AI News reported that Huawei positioned HarmonyOS 7 as an agent-era mobile OS while Apple’s Siri AI remains unavailable in China.",
+      "fullSummary": "AI News reported that Huawei used HDC 2026 to frame HarmonyOS 7 as a system-level agent platform. The release introduces the HarmonyOS Intelligent Agent Framework 2.0, a rebuilt Xiaoyi assistant, openPangu 2.0 models, and coordination with more than 2,000 third-party AI agents. The story matters because Apple cannot deploy its headline Siri AI capability in China, while HarmonyOS has already passed iOS in the Chinese smartphone OS market and is embedding agents directly into local services such as travel and health.",
+      "keyFacts": [
+        "Published June 15, 2026",
+        "Huawei says Xiaoyi can coordinate with more than 2,000 third-party AI agents",
+        "openPangu 2.0 includes 505B-parameter Pro and 92B-parameter Flash variants",
+        "HarmonyOS held 19% of China’s smartphone OS market in Q1 2026, above iOS at 16%"
+      ],
+      "url": "https://www.artificialintelligence-news.com/news/harmonyos-7-china-ai-apple-gap/",
+      "sourceName": "AI News",
+      "relatedSources": [
+        "AI News",
+        "Huawei",
+        "HarmonyOS",
+        "Counterpoint Research"
+      ],
+      "lane": "products-adoption",
+      "publishedAt": "2026-06-15T10:30:00.000Z",
+      "importance": 481,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-16T08:19:38.601Z"
+    },
+    {
+      "id": "curated-accenture-ai-shopping-agent-trust-2026-06-15",
+      "title": "Accenture says consumers are warming to AI shopping agents",
+      "summary": "AI News covered Accenture research finding consumers are increasingly willing to delegate routine shopping tasks to AI agents.",
+      "fullSummary": "AI News reported on Accenture’s 2026 Consumer Pulse Research, a 25,590-consumer survey across 16 countries that found growing willingness to use AI agents for shopping tasks. The survey said 74% of respondents would allow agents to handle routine work such as negotiation, complaint resolution, subscription renewal, and reorders, while smaller shares would let agents make or complete purchases within limits. The finding adds a demand-side view of agentic commerce to the feed’s existing payment and retail-agent coverage.",
+      "keyFacts": [
+        "Published June 15, 2026",
+        "Accenture surveyed 25,590 consumers across 16 countries",
+        "74% would let AI agents handle routine shopping-related tasks",
+        "71% expect generative AI to influence at least half of their spending decisions over the next year"
+      ],
+      "url": "https://www.artificialintelligence-news.com/news/ai-shopping-agents-consumer-trust-accenture-report/",
+      "sourceName": "AI News",
+      "relatedSources": [
+        "AI News",
+        "Accenture"
+      ],
+      "lane": "products-adoption",
+      "publishedAt": "2026-06-15T10:00:00.000Z",
+      "importance": 478,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-16T08:19:38.601Z"
+    },
+    {
+      "id": "curated-axios-hyperscalers-capital-cost-2026-06-15",
+      "title": "Axios says AI hyperscalers are repricing capital for everyone",
+      "summary": "Axios reported that hyperscaler AI infrastructure spending is becoming a C-suite capital-planning issue beyond the tech sector.",
+      "fullSummary": "Axios argued that AI hyperscalers are absorbing a large share of available capital, making the AI buildout a strategic issue for CEOs in every sector. The piece links data-center borrowing and investment demand to higher economy-wide borrowing costs and warns that businesses are now competing with AI infrastructure companies not just for chips and power, but for capital itself. It extends the feed’s data-center coverage from individual buildouts to macro-financial effects.",
+      "keyFacts": [
+        "Published June 15, 2026",
+        "Axios framed hyperscaler borrowing as a 2027 capital-planning issue for CEOs",
+        "The story says AI infrastructure demand may raise borrowing costs for other companies",
+        "It builds on earlier evidence of extraordinary AI data-center financing"
+      ],
+      "url": "https://www.axios.com/2026/06/15/ai-hyperscalers-cash-data-centers-inflation",
+      "sourceName": "Axios",
+      "relatedSources": [
+        "Axios",
+        "AI hyperscalers",
+        "data centers"
+      ],
+      "lane": "infrastructure",
+      "publishedAt": "2026-06-15T09:57:04.000Z",
+      "importance": 477,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-16T08:19:38.601Z"
+    },
+    {
+      "id": "curated-techcrunch-ai-layoff-wave-powder-keg-2026-06-15",
+      "title": "TechCrunch warns the AI layoff wave is becoming combustible",
+      "summary": "TechCrunch connected AI-cited layoffs, weak cost-of-living conditions, and AI insider wealth into a broader labor-risk story.",
+      "fullSummary": "TechCrunch reported that AI has been the most-cited reason for layoffs across industries for three straight months, even as some investors and executives argue AI is also being used as a convenient excuse for overhiring and mismanagement. The piece contrasts tens of thousands of AI-linked job cuts with newly minted AI and space-tech wealth, warning that the optics could produce a stronger backlash if profitable companies keep pointing to AI as the reason for cuts while insiders gain extraordinary paper wealth.",
+      "keyFacts": [
+        "Published June 15, 2026 at 12:25 AM PDT",
+        "Challenger, Gray & Christmas said AI was the most-cited layoff reason for a third straight month",
+        "The piece cites nearly 40,000 tech cuts in the prior month",
+        "It frames AI layoffs as a social and political backlash risk"
+      ],
+      "url": "https://techcrunch.com/2026/06/15/the-ai-layoff-wave-is-becoming-a-powder-keg/",
+      "sourceName": "TechCrunch",
+      "relatedSources": [
+        "TechCrunch",
+        "Challenger, Gray & Christmas",
+        "Block",
+        "Meta"
+      ],
+      "lane": "workforce",
+      "publishedAt": "2026-06-15T07:25:00.000Z",
+      "importance": 480,
+      "sourceConfidence": "high",
+      "filterCategory": "pushback",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-16T08:19:38.601Z"
+    },
+    {
+      "id": "curated-axios-unions-ai-2028-election-fight-2026-06-14",
+      "title": "Unions prepare to make AI a 2028 election fight",
+      "summary": "Axios reported that AFL-CIO unions are organizing around worker protections as AI becomes a central political issue.",
+      "fullSummary": "Axios reported from the AFL-CIO convention that leaders from the federation’s 65 affiliated unions are preparing to press 2028 candidates on AI regulation and worker protections. Union leaders criticized bossware, digital replicas, data harvesting, synthetic media, discriminatory algorithms, and surveillance pricing, while also recognizing that union labor could benefit from building AI infrastructure. The story belongs in the feed because it shows AI policy moving from Washington process fights into organized electoral pressure.",
+      "keyFacts": [
+        "Published June 14, 2026",
+        "AI anxiety dominated AFL-CIO convention discussion, according to Axios",
+        "Union leaders criticized bossware, digital replicas, data harvesting, synthetics, and discriminatory algorithms",
+        "The labor movement is also weighing data-center construction jobs against AI workplace risks"
+      ],
+      "url": "https://www.axios.com/2026/06/14/unions-ai-2028-elections",
+      "sourceName": "Axios",
+      "relatedSources": [
+        "Axios",
+        "AFL-CIO",
+        "U.S. labor unions"
+      ],
+      "lane": "policy-safety",
+      "publishedAt": "2026-06-14T21:45:05.000Z",
+      "importance": 476,
+      "sourceConfidence": "high",
+      "filterCategory": "pushback",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-16T08:19:38.601Z"
+    },
+    {
+      "id": "curated-register-ai-is-code-security-2026-06-14",
+      "title": "The Register argues AI systems must be treated as code",
+      "summary": "The Register warned that prompt-based mitigation is not enough when AI agents keep executing unsafe inputs and code paths.",
+      "fullSummary": "The Register’s AI and ML page led with an analysis arguing that AI is code and cannot simply be prompted into reliable behavior. The story uses recent software-supply-chain and agent failures to make the case that AI systems need the same engineering discipline, testing, dependency control, and defensive assumptions as other production software. It is a useful catch-up item because it connects several isolated security stories in the feed into a broader operational lesson for AI deployment.",
+      "keyFacts": [
+        "Published June 14, 2026",
+        "The Register framed AI reliability as a software-engineering problem",
+        "The analysis ties agent behavior to dependency and input-safety failures",
+        "It argues prompts alone are not an adequate production control"
+      ],
+      "url": "https://www.theregister.com/ai-and-ml/2026/06/14/ai-is-code-and-cant-be-prompted-into-being-smarter/5254141",
+      "sourceName": "The Register",
+      "relatedSources": [
+        "The Register",
+        "Shai-Hulud",
+        "AI agents"
+      ],
+      "lane": "policy-safety",
+      "publishedAt": "2026-06-14T12:00:00.000Z",
+      "importance": 468,
+      "sourceConfidence": "high",
+      "filterCategory": "pushback",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-16T08:19:38.601Z"
+    },
+    {
+      "id": "curated-google-chinese-ai-fraud-lawsuit-2026-06-12",
+      "title": "Google sues alleged Chinese AI-powered fraud network",
+      "summary": "The Register reported that Google sued an alleged Telegram-based phishing operation accused of using AI to scale scam texts.",
+      "fullSummary": "The Register reported that Google filed suit against alleged Chinese phishers behind an operation called Outsider Enterprise, accusing the group of using AI-powered tooling to send millions of scam texts and impersonate trusted brands. The story fills a security-and-abuse gap in the refresh because it moves beyond theoretical AI misuse to a concrete civil enforcement action against a scaled fraud operation.",
+      "keyFacts": [
+        "Published June 12, 2026",
+        "Google sued an alleged operation called Outsider Enterprise",
+        "The complaint concerns AI-powered phishing and fraud operations",
+        "The operation allegedly used Telegram channels and trusted-brand impersonation"
+      ],
+      "url": "https://www.theregister.com/security/2026/06/12/google-fires-sueball-at-alleged-chinese-phishers-over-ai-powered-fraud-ops/5254841",
+      "sourceName": "The Register",
+      "relatedSources": [
+        "The Register",
+        "Google",
+        "Outsider Enterprise"
+      ],
+      "lane": "policy-safety",
+      "publishedAt": "2026-06-12T13:00:00.000Z",
+      "importance": 466,
+      "sourceConfidence": "high",
+      "filterCategory": "pushback",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-16T08:19:38.601Z"
+    },
+    {
+      "id": "curated-ios-27-agentic-passwords-2026-06-09",
+      "title": "Apple’s iOS 27 adds agentic compromised-password repairs",
+      "summary": "The Register reported that iOS 27 will use agentic automation to change compromised passwords with one tap.",
+      "fullSummary": "The Register reported that Apple’s iOS 27 will add an agentic password-repair workflow that can detect compromised passwords and change them with a single tap. The story is a smaller backlog correction, but it is worth including because it is a concrete consumer-facing agentic feature rather than another broad AI strategy update. It also balances the feed’s Apple coverage, which has focused more heavily on Siri’s delays and competitive pressure.",
+      "keyFacts": [
+        "Published June 9, 2026",
+        "The feature promises one-tap changes for compromised passwords",
+        "Analysts framed it as Apple focusing on practical AI features",
+        "The story adds product-level detail to broader Apple AI coverage"
+      ],
+      "url": "https://www.theregister.com/personal-tech/2026/06/09/apples-ios-27-goes-all-agentic-on-compromised-passwords/5252957",
+      "sourceName": "The Register",
+      "relatedSources": [
+        "The Register",
+        "Apple",
+        "iOS 27"
+      ],
+      "lane": "products-adoption",
+      "publishedAt": "2026-06-09T14:00:00.000Z",
+      "importance": 458,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-16T08:19:38.601Z"
+    },
     {
       "id": "curated-claude-mythos-export-fight-2026-06-16",
       "title": "Inside Anthropic's fight to defend Claude Mythos 5",
@@ -12136,5 +12399,6 @@
       "filterCategory": "papers"
     }
   ],
-  "errors": []
+  "errors": [],
+  "totalItems": 442
 }
