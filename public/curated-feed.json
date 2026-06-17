@@ -1,9 +1,325 @@
 {
-  "generatedAt": "2026-06-16T08:19:38.601Z",
-  "nextRefreshAt": "2026-06-16T11:19:38.601Z",
+  "generatedAt": "2026-06-17T04:56:00.000Z",
+  "nextRefreshAt": "2026-06-17T07:56:00.000Z",
   "summaryEngine": "chat-curated",
   "curated": true,
   "items": [
+    {
+      "id": "curated-anthropic-feud-sales-data-2026-06-16",
+      "title": "Anthropic feud may boost enterprise demand, Ramp data suggests",
+      "summary": "TechCrunch reported that Anthropic's clash with the U.S. government may be reinforcing its enterprise momentum rather than hurting sales.",
+      "fullSummary": "TechCrunch reported that Anthropic's latest fight with the Trump administration may be adding to the company's enterprise appeal, based on Ramp business-spending data. Ramp said Anthropic passed OpenAI in May for AI subscriptions paid by businesses, with 41% share versus OpenAI's 39.5%, even after earlier government friction. The story connects the Fable 5 and Mythos 5 export-control drama with a broader buyer signal: some customers may see government scrutiny of Anthropic's models as proof of their capability, while the company still faces uncertainty from having to pull its newest models from market access.",
+      "keyFacts": [
+        "Published June 16, 2026 at 3:34 PM PDT",
+        "Ramp data showed Anthropic at 41% of AI subscriptions paid by businesses in May",
+        "OpenAI held 39.5% in the same Ramp dataset",
+        "Anthropic disabled Fable 5 and Mythos 5 access after a U.S. export-control directive"
+      ],
+      "url": "https://techcrunch.com/2026/06/16/anthropics-latest-feud-with-the-trump-admin-may-actually-help-it-sales-data-suggests/",
+      "sourceName": "TechCrunch",
+      "relatedSources": [
+        "TechCrunch",
+        "Anthropic",
+        "Ramp"
+      ],
+      "lane": "business-impact",
+      "publishedAt": "2026-06-16T22:34:00.000Z",
+      "importance": 494,
+      "sourceConfidence": "high",
+      "filterCategory": "pushback",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-17T04:56:00.000Z"
+    },
+    {
+      "id": "curated-android-17-gemini-features-2026-06-16",
+      "title": "Android 17 ships with Gemini Omni, Lyria 3 and AudioLM features",
+      "summary": "TechCrunch reported that Google's Android 17 and Pixel Drop expand Gemini-powered creation, translation, and device workflows.",
+      "fullSummary": "TechCrunch reported that Google released Android 17 alongside Wear OS 7 and a Pixel Drop that pushes several AI features into phones and watches. The release adds support for Gemini Omni video editing in conversation, Lyria 3 music generation, and AudioLM speech-to-speech translation on Pixel 10a devices. The update also reinforces Google's device strategy against Apple by using Android and Pixel releases to showcase fresh Gemini model capabilities across communication, creative work, emergency detection, widgets, and wearables.",
+      "keyFacts": [
+        "Published June 16, 2026 at 11:00 AM PDT",
+        "Android 17 began rolling out first to Pixel devices",
+        "The Pixel Drop includes Gemini Omni, Lyria 3, and AudioLM features",
+        "Wear OS 7 adds more Gemini Intelligence and personal widget creation"
+      ],
+      "url": "https://techcrunch.com/2026/06/16/android-17-launches-with-new-multitasking-tools-as-google-expands-gemini-features/",
+      "sourceName": "TechCrunch",
+      "relatedSources": [
+        "TechCrunch",
+        "Google",
+        "Android",
+        "Gemini"
+      ],
+      "lane": "products-adoption",
+      "publishedAt": "2026-06-16T18:00:00.000Z",
+      "importance": 490,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-17T04:56:00.000Z"
+    },
+    {
+      "id": "curated-plaud-ai-notetakers-arr-2026-06-16",
+      "title": "Plaud says AI-notetaker subscriptions passed $100M ARR",
+      "summary": "TechCrunch reported that Plaud has shipped more than 2M AI notetakers and reached over $100M in annualized software revenue.",
+      "fullSummary": "TechCrunch reported that Plaud, maker of screenless AI-powered notetaking devices, says it has sold more than 2M units and crossed $100M in annualized subscription revenue. The company argues that meeting-heavy professionals need capture devices built for real conversations rather than AI tools that start from typed prompts and memory. The numbers make Plaud one of the more concrete AI hardware adoption cases, with a business model tied to recurring software revenue after device sales.",
+      "keyFacts": [
+        "Published June 16, 2026 at 8:00 AM PDT",
+        "Plaud says it has shipped more than 2M AI notetaking devices",
+        "The company says its subscription business topped $100M ARR",
+        "Plaud's devices include Plaud Pins and phone-mounted card-style recorders"
+      ],
+      "url": "https://techcrunch.com/2026/06/16/plaud-says-its-software-business-topped-100m-in-arr-after-shipping-over-2m-ai-notetakers/",
+      "sourceName": "TechCrunch",
+      "relatedSources": [
+        "TechCrunch",
+        "Plaud"
+      ],
+      "lane": "products-adoption",
+      "publishedAt": "2026-06-16T15:00:00.000Z",
+      "importance": 485,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-17T04:56:00.000Z"
+    },
+    {
+      "id": "curated-xai-turbines-doj-security-2026-06-16",
+      "title": "DOJ backs xAI gas turbines as an AI security issue",
+      "summary": "TechCrunch reported that the Justice Department sided with xAI in litigation over unpermitted turbines powering its Memphis data centers.",
+      "fullSummary": "TechCrunch reported that the U.S. Department of Justice backed xAI in a lawsuit seeking to stop the company's use of mobile natural-gas turbines near its Memphis data centers. The DOJ argued that cutting off the power supply would undermine national, economic, and energy security because AI innovation supports military operations. The filing raises the stakes around AI infrastructure permitting, local air-quality challenges, and the government's willingness to frame data-center power access as a national-security priority.",
+      "keyFacts": [
+        "Published June 16, 2026 at 8:05 AM PDT",
+        "The NAACP lawsuit targets xAI's use of unpermitted gas turbines near Memphis",
+        "The DOJ said shutting the turbines could affect AI systems supporting military operations",
+        "TechCrunch reported that xAI has added turbines at its Colossus and Colossus 2 data centers"
+      ],
+      "url": "https://techcrunch.com/2026/06/16/doj-claims-xais-unpermitted-gas-turbines-are-a-matter-of-national-economic-and-energy-security/",
+      "sourceName": "TechCrunch",
+      "relatedSources": [
+        "TechCrunch",
+        "xAI",
+        "U.S. Department of Justice",
+        "NAACP"
+      ],
+      "lane": "infrastructure",
+      "publishedAt": "2026-06-16T15:05:00.000Z",
+      "importance": 484,
+      "sourceConfidence": "high",
+      "filterCategory": "pushback",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-17T04:56:00.000Z"
+    },
+    {
+      "id": "curated-robinhood-layoffs-ai-cover-2026-06-16",
+      "title": "Robinhood cuts 10% while avoiding AI as the rationale",
+      "summary": "TechCrunch reported that Robinhood's layoff note avoided the now-common framing that job cuts are needed to reorganize around AI.",
+      "fullSummary": "TechCrunch reported that Robinhood is cutting 10% of full-time staff, or about 290 employees, while CEO Vlad Tenev's note avoided using AI as the stated rationale. The regulatory filing also framed the move as a restructuring rather than an AI-driven workforce reset. The article treats that omission as a signal that blaming layoffs on AI may be losing credibility as public sentiment toward AI and infrastructure projects weakens.",
+      "keyFacts": [
+        "Published June 16, 2026 at 7:50 AM PDT",
+        "Robinhood is laying off about 10% of full-time employees",
+        "The cuts amount to roughly 290 people",
+        "The company described the move as restructuring rather than an explicit AI reorganization"
+      ],
+      "url": "https://techcrunch.com/2026/06/16/robinhoods-note-on-10-layoffs-shows-blaming-ai-isnt-cutting-it/",
+      "sourceName": "TechCrunch",
+      "relatedSources": [
+        "TechCrunch",
+        "Robinhood"
+      ],
+      "lane": "workforce",
+      "publishedAt": "2026-06-16T14:50:00.000Z",
+      "importance": 480,
+      "sourceConfidence": "high",
+      "filterCategory": "pushback",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-17T04:56:00.000Z"
+    },
+    {
+      "id": "curated-probably-seed-reliable-ai-2026-06-16",
+      "title": "Probably raises $9M to make AI answers more reliable",
+      "summary": "TechCrunch reported that Probably raised a $9M seed round from Andreessen Horowitz to reduce hallucinations in data-science workflows.",
+      "fullSummary": "TechCrunch reported that Probably raised $9M in seed funding from Andreessen Horowitz for tools designed to keep AI-generated answers from reaching users without evidence and audit trails. Founder Peter Elias says the company wants AI systems to approach deterministic reliability by catching hallucinations and factual errors before output. Its first product targets data-science work, returning quick answers from complex datasets with citations and an audit trail for how each result was produced.",
+      "keyFacts": [
+        "Published June 16, 2026 at 6:15 AM PDT",
+        "Probably raised a $9M seed round led by Andreessen Horowitz",
+        "The startup's first product focuses on data-science answers",
+        "Results include citations and audit trails to reduce hallucination risk"
+      ],
+      "url": "https://techcrunch.com/2026/06/16/probably-raises-9m-to-build-a-more-reliable-kind-of-ai/",
+      "sourceName": "TechCrunch",
+      "relatedSources": [
+        "TechCrunch",
+        "Probably",
+        "Andreessen Horowitz"
+      ],
+      "lane": "funding",
+      "publishedAt": "2026-06-16T13:15:00.000Z",
+      "importance": 479,
+      "sourceConfidence": "high",
+      "filterCategory": "funding",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-17T04:56:00.000Z"
+    },
+    {
+      "id": "curated-spacex-cursor-acquisition-2026-06-16",
+      "title": "SpaceX agrees to acquire Cursor in $60B stock deal",
+      "summary": "TechCrunch reported that SpaceX plans to buy AI coding startup Cursor days after its IPO, escalating its xAI-centered AI strategy.",
+      "fullSummary": "TechCrunch reported that SpaceX agreed to acquire AI coding startup Cursor in a $60B stock deal, shortly after SpaceX's IPO and after a prior tie-up between the companies. The deal is intended to help SpaceX's AI division, built around xAI after an earlier merger, catch up with major AI labs. Cursor had reportedly been on track for a $2B funding round at a $50B valuation before the acquisition agreement.",
+      "keyFacts": [
+        "Published June 16, 2026 at 4:21 AM PDT",
+        "The reported transaction is a $60B all-stock deal",
+        "SpaceX said the acquisition is likely to close in Q3 2026",
+        "Cursor had reportedly been pursuing a $2B round at a $50B valuation"
+      ],
+      "url": "https://techcrunch.com/2026/06/16/spacex-to-acquire-cursor-for-60b-in-stock-days-after-blockbuster-ipo/",
+      "sourceName": "TechCrunch",
+      "relatedSources": [
+        "TechCrunch",
+        "SpaceX",
+        "Cursor",
+        "xAI"
+      ],
+      "lane": "funding",
+      "publishedAt": "2026-06-16T11:21:00.000Z",
+      "importance": 491,
+      "sourceConfidence": "high",
+      "filterCategory": "funding",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-17T04:56:00.000Z"
+    },
+    {
+      "id": "curated-chatgpt-market-share-below-50-2026-06-16",
+      "title": "ChatGPT share slips below 50% as Gemini and Claude gain",
+      "summary": "TechCrunch reported Sensor Tower data showing ChatGPT's AI-assistant market share fell below 50% for the first time.",
+      "fullSummary": "TechCrunch reported that Sensor Tower's State of AI Report for 2026 shows ChatGPT still leading AI assistants but falling below 50% market share for the first time. ChatGPT had 46.4% share by the end of May, while Gemini reached 27.7% and Claude reached 10.3%. The report also says users are more willing to switch between assistants, with trust and values-alignment events influencing uninstall behavior as much as features.",
+      "keyFacts": [
+        "Published June 16, 2026 at 3:30 AM PDT",
+        "Sensor Tower estimated ChatGPT at 46.4% AI-assistant market share by the end of May",
+        "Gemini reached 27.7% and Claude reached 10.3%",
+        "ChatGPT still had more than 1.1B monthly users in the report"
+      ],
+      "url": "https://techcrunch.com/2026/06/16/chatgpts-market-share-slips-below-50-for-first-time/",
+      "sourceName": "TechCrunch",
+      "relatedSources": [
+        "TechCrunch",
+        "Sensor Tower",
+        "OpenAI",
+        "Google",
+        "Anthropic"
+      ],
+      "lane": "products-adoption",
+      "publishedAt": "2026-06-16T10:30:00.000Z",
+      "importance": 486,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-17T04:56:00.000Z"
+    },
+    {
+      "id": "curated-openai-deployment-simulation-2026-06-16",
+      "title": "OpenAI details deployment simulation for model-risk forecasting",
+      "summary": "OpenAI published a research note on using realistic conversation simulations to estimate undesired model behavior before release.",
+      "fullSummary": "OpenAI published research describing Deployment Simulation, a pre-release safety method that replays privacy-preserving prior conversations with a candidate model to estimate how it may behave after launch. OpenAI says the method improved risk estimates across GPT-5-series Thinking deployments, helped surface calculator hacking before release, and reduced the chance that models recognize they are being evaluated. The work also extends to agentic coding settings by simulating tool calls rather than applying them to live systems.",
+      "keyFacts": [
+        "Published June 16, 2026",
+        "OpenAI analyzed about 1.3M de-identified conversations across GPT-5-series Thinking deployments",
+        "Deployment Simulation had a median multiplicative error of 1.5x in aggregate predictions",
+        "The method was tested on 120,000 internal agentic coding trajectories"
+      ],
+      "url": "https://openai.com/index/deployment-simulation/",
+      "sourceName": "OpenAI",
+      "relatedSources": [
+        "OpenAI"
+      ],
+      "lane": "research-safety",
+      "publishedAt": "2026-06-16T09:00:00.000Z",
+      "importance": 487,
+      "sourceConfidence": "high",
+      "filterCategory": "papers",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-17T04:56:00.000Z"
+    },
+    {
+      "id": "curated-deepmind-uk-planning-prototype-2026-06-16",
+      "title": "Google DeepMind builds Gemini planning tool with UK government",
+      "summary": "Google DeepMind said it is co-developing a Gemini-powered planning prototype meant to halve householder-application decision times.",
+      "fullSummary": "Google DeepMind announced a partnership with the UK government, Google Cloud, Faculty, and local planning authorities to build an AI-powered prototype for planning officers. The tool is designed to extract and analyze application data, cross-reference policies and historical documents, and reduce the time required to process householder planning applications. DeepMind says the goal is to cut application decision times by 50%, with early trials in Barnet, Camden, and Dorset and a national council rollout planned from 2027.",
+      "keyFacts": [
+        "Published June 16, 2026",
+        "The prototype is built with Gemini for UK planning officers",
+        "The stated goal is to cut householder planning decision times by 50%",
+        "Early trials involve Barnet, Camden, and Dorset, with national availability planned from 2027"
+      ],
+      "url": "https://deepmind.google/blog/unlocking-uk-house-building-with-ai-accelerated-planning/",
+      "sourceName": "Google DeepMind",
+      "relatedSources": [
+        "Google DeepMind",
+        "UK government",
+        "Google Cloud",
+        "Faculty"
+      ],
+      "lane": "products-adoption",
+      "publishedAt": "2026-06-16T08:30:00.000Z",
+      "importance": 482,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-17T04:56:00.000Z"
+    },
+    {
+      "id": "curated-insurers-ai-underwriting-2026-06-16",
+      "title": "Insurers shift AI from efficiency pilots to underwriting ROI",
+      "summary": "AI News reported that insurers are embedding AI into underwriting, claims, and capital-allocation workflows as ROI pressure rises.",
+      "fullSummary": "AI News reported on the 2026 Evident AI Index, which finds that insurers are moving AI from broad ambition toward measurable value in underwriting, claims, risk selection, and capital allocation. Across 30 tracked insurers, AI-specialist headcount rose 32% while the broader insurance workforce contracted 2.2%. Evident said Manulife, Generali, and Intact Financial are publicly reporting AI-driven value, with those three firms projected to generate more than $1B in AI-driven value by the end of their respective reporting periods.",
+      "keyFacts": [
+        "Published June 16, 2026",
+        "The 2026 Evident AI Index tracks 30 insurers",
+        "AI-specialist headcount rose 32% while the broader insurance workforce fell 2.2%",
+        "Manulife, Generali, and Intact Financial are projected to generate more than $1B in AI-driven value"
+      ],
+      "url": "https://www.artificialintelligence-news.com/news/insurers-pivot-ai-strategy-toward-core-risk-underwriting/",
+      "sourceName": "AI News",
+      "relatedSources": [
+        "AI News",
+        "Evident",
+        "Zurich",
+        "Allianz",
+        "AXA"
+      ],
+      "lane": "business-impact",
+      "publishedAt": "2026-06-16T08:00:00.000Z",
+      "importance": 483,
+      "sourceConfidence": "medium",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-17T04:56:00.000Z"
+    },
+    {
+      "id": "curated-eu-ai-content-labelling-code-2026-06-16",
+      "title": "EU publishes AI content-labelling playbook before August deadline",
+      "summary": "AI News reported that the European Commission's voluntary Code of Practice gives companies a route to comply with AI Act transparency duties.",
+      "fullSummary": "AI News reported that the European Union published a voluntary AI content-labelling Code of Practice before transparency obligations under Article 50 of the AI Act begin applying on August 2, 2026. The Code asks model providers to mark generative outputs in machine-readable formats and deployers to provide visible labels for deepfakes, public-interest AI text without human review, and interactive AI systems. The Commission says the guidance is a practical compliance route, but companies serving European users still face open details while separate guidelines are pending.",
+      "keyFacts": [
+        "Published June 16, 2026",
+        "The European Commission released the final Code on June 10",
+        "Article 50 transparency obligations apply from August 2, 2026",
+        "The Code covers deepfakes, public-interest AI text, and interactive AI systems"
+      ],
+      "url": "https://www.artificialintelligence-news.com/news/ai-content-labelling-eu-code-of-practice/",
+      "sourceName": "AI News",
+      "relatedSources": [
+        "AI News",
+        "European Commission",
+        "EU AI Act"
+      ],
+      "lane": "policy-safety",
+      "publishedAt": "2026-06-16T07:30:00.000Z",
+      "importance": 481,
+      "sourceConfidence": "medium",
+      "filterCategory": "pushback",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-17T04:56:00.000Z"
+    },
     {
       "id": "curated-respondio-series-b-ai-agents-2026-06-16",
       "title": "Respond.io raises $62.5M for AI-agent messaging",
