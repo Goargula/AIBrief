@@ -1,9 +1,166 @@
 {
-  "generatedAt": "2026-06-17T04:56:00.000Z",
-  "nextRefreshAt": "2026-06-17T07:56:00.000Z",
+  "generatedAt": "2026-06-17T05:10:00.000Z",
+  "nextRefreshAt": "2026-06-17T08:10:00.000Z",
   "summaryEngine": "chat-curated",
   "curated": true,
   "items": [
+    {
+      "id": "curated-spacex-valuation-ai-business-2026-06-16",
+      "title": "SpaceX valuation jumps on AI business promises",
+      "summary": "TechCrunch reported that SpaceX briefly passed Amazon in market value as investors priced in its AI strategy after the Cursor deal.",
+      "fullSummary": "TechCrunch reported that newly public SpaceX briefly passed Amazon to become the world's fifth-most valuable company before giving back some gains. The move followed SpaceX's planned $60B all-stock acquisition of AI coding company Cursor, new options trading, and investor optimism that Elon Musk can turn SpaceX's xAI-linked compute, coding, and model strategy into a trillion-dollar AI business. The valuation story matters because SpaceX is still loss-making, so the market reaction shows how aggressively public investors are capitalizing AI narratives around infrastructure, coding tools, and compute leasing.",
+      "keyFacts": [
+        "Published June 16, 2026 at 1:11 PM PDT",
+        "SpaceX briefly reached a $2.9T valuation before settling near $2.6T",
+        "The rally followed the announced $60B stock deal to acquire Cursor",
+        "TechCrunch tied the valuation jump to AI compute, xAI, and Cursor revenue expectations"
+      ],
+      "url": "https://techcrunch.com/2026/06/16/spacex-valuation-balloons-to-2-6t-briefly-passes-amazon/",
+      "sourceName": "TechCrunch",
+      "relatedSources": [
+        "TechCrunch",
+        "SpaceX",
+        "Cursor",
+        "xAI"
+      ],
+      "lane": "business-impact",
+      "publishedAt": "2026-06-16T20:11:00.000Z",
+      "importance": 497,
+      "sourceConfidence": "high",
+      "filterCategory": "funding",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-17T05:10:00.000Z"
+    },
+    {
+      "id": "curated-ap-nvidia-huang-social-norms-workforce-2026-06-16",
+      "title": "Jensen Huang says AI work needs new social norms",
+      "summary": "AP reported that Nvidia CEO Jensen Huang says society needs new norms for the AI age as adoption moves faster than workplace and policy customs.",
+      "fullSummary": "The Associated Press reported from Sherman, Texas that Nvidia CEO Jensen Huang is urging society to develop new social norms around AI while encouraging broader use of the technology. Huang framed AI as a driver of economic growth and scientific breakthroughs, but AP placed those comments against public concern over job loss, data center buildout, national security, and the distribution of gains from AI. The interview is material because Nvidia's chief executive is shaping both the technical and political narrative for AI adoption as the company moves beyond chips into full AI systems.",
+      "keyFacts": [
+        "Published June 16, 2026 at 20:06 UTC",
+        "Huang said society needs new social norms for the AI age",
+        "AP tied the remarks to worker displacement, data center, and national-security concerns",
+        "The interview ran alongside Nvidia's Texas AI infrastructure announcement"
+      ],
+      "url": "https://apnews.com/article/nvidea-huang-artificial-intelligence-8334abcbc6ed8d3d7889b640ec6fa05b",
+      "sourceName": "AP News",
+      "relatedSources": [
+        "AP News",
+        "Nvidia"
+      ],
+      "lane": "business-impact",
+      "publishedAt": "2026-06-16T20:06:08.000Z",
+      "importance": 493,
+      "sourceConfidence": "high",
+      "filterCategory": "pushback",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-17T05:10:00.000Z"
+    },
+    {
+      "id": "curated-guardian-france-palantir-ai-sovereignty-2026-06-16",
+      "title": "France moves from Palantir AI tools to domestic ChapsVision",
+      "summary": "The Guardian reported that France's domestic intelligence service will replace Palantir AI data tools with ChapsVision to reduce strategic dependency.",
+      "fullSummary": "The Guardian reported that France's DGSI domestic intelligence agency plans to replace Palantir's AI data tools with technology from French provider ChapsVision. Prime Minister Sebastien Lecornu framed the move as a digital-sovereignty step, saying France cannot depend on tools developed by foreign powers or on partners that could restrict access. The report connects the decision to wider European concern about reliance on U.S.-controlled AI infrastructure and software, including recent restrictions on foreign access to Anthropic's latest model.",
+      "keyFacts": [
+        "Published June 17, 2026 at 3:08 AM AEST",
+        "France's DGSI will shift from Palantir to ChapsVision",
+        "The transition may take years because Palantir's contract was renewed in 2025",
+        "France also plans AI investment and government chatbot infrastructure"
+      ],
+      "url": "https://www.theguardian.com/world/2026/jun/16/france-ai-data-tools-palantir-chapsvision",
+      "sourceName": "The Guardian",
+      "relatedSources": [
+        "The Guardian",
+        "Palantir",
+        "ChapsVision",
+        "France"
+      ],
+      "lane": "policy-safety",
+      "publishedAt": "2026-06-16T17:08:00.000Z",
+      "importance": 491,
+      "sourceConfidence": "high",
+      "filterCategory": "pushback",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-17T05:10:00.000Z"
+    },
+    {
+      "id": "curated-techcrunch-ai-branding-turnoff-2026-06-16",
+      "title": "Survey finds AI branding turns off many U.S. consumers",
+      "summary": "TechCrunch reported that 60% of U.S. consumers say brands using AI in messaging are a turnoff, even as AI referrals grow.",
+      "fullSummary": "TechCrunch reported on a WordPress VIP survey showing that consumer trust is not keeping pace with brands' push into AI search and answer-engine visibility. The survey found 60% of U.S. consumers say brands that use AI in their messaging are a turnoff, while 86% do not fully trust AI and still want original sources. The result is important for AI adoption because it shows companies face a brand-trust penalty when they market AI too directly, even as enterprise respondents say AI referrals are growing and AI discoverability is becoming a priority.",
+      "keyFacts": [
+        "Published June 16, 2026 at 9:49 AM PDT",
+        "60% of U.S. consumers surveyed said AI in brand messaging is a turnoff",
+        "86% said they do not fully trust AI and still want original sources",
+        "The report surveyed 2,000 respondents, including 1,200 U.S. adults"
+      ],
+      "url": "https://techcrunch.com/2026/06/16/sixty-percent-of-u-s-consumers-say-ai-in-brand-messaging-is-a-turnoff-survey-finds/",
+      "sourceName": "TechCrunch",
+      "relatedSources": [
+        "TechCrunch",
+        "WordPress VIP",
+        "Automattic"
+      ],
+      "lane": "products-adoption",
+      "publishedAt": "2026-06-16T16:49:00.000Z",
+      "importance": 486,
+      "sourceConfidence": "high",
+      "filterCategory": "pushback",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-17T05:10:00.000Z"
+    },
+    {
+      "id": "curated-guardian-pennsylvania-datacenter-politics-2026-06-16",
+      "title": "AI datacenter fight scrambles Pennsylvania politics",
+      "summary": "The Guardian reported that local fights over AI datacenters in Pennsylvania are reshaping state politics and moratorium debates.",
+      "fullSummary": "The Guardian reported that proposed AI datacenters in Pennsylvania, including a large East Vincent project near a veterans' home, have triggered local backlash and a broader state political fight. Governor Josh Shapiro is courting datacenter investment while offering voluntary accountability guidelines, while lawmakers and political challengers are pushing pauses or moratoriums. The story is feed-worthy because it shows AI infrastructure disputes moving from local zoning meetings into gubernatorial politics, energy policy, public health, and the national backlash against datacenter expansion.",
+      "keyFacts": [
+        "First published June 16, 2026 at 15:00 BST; updated at 22:23 BST",
+        "East Vincent officials rejected a proposed datacenter plan, but developers plan to appeal",
+        "A Pennsylvania state senator introduced a three-year moratorium bill for large datacenters",
+        "The report cites rising power bills and polling opposition to nearby AI datacenters"
+      ],
+      "url": "https://www.theguardian.com/technology/2026/jun/16/pennsylvania-datacenters-debate-politicians",
+      "sourceName": "The Guardian",
+      "relatedSources": [
+        "The Guardian",
+        "Pennsylvania",
+        "Data Center Coalition"
+      ],
+      "lane": "infrastructure",
+      "publishedAt": "2026-06-16T14:00:00.000Z",
+      "importance": 484,
+      "sourceConfidence": "high",
+      "filterCategory": "pushback",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-17T05:10:00.000Z"
+    },
+    {
+      "id": "curated-ap-nvidia-ai-infrastructure-texas-2026-06-16",
+      "title": "Nvidia unveils Texas AI infrastructure upgrade with Coherent",
+      "summary": "AP reported that Nvidia and Coherent unveiled a $2B AI infrastructure upgrade in Texas to expand laser-component production for AI systems.",
+      "fullSummary": "The Associated Press reported that Nvidia formally unveiled a major AI infrastructure upgrade tied to its $2B partnership with Coherent in Sherman, Texas. The expanded factory will produce Indium Phosphide material for lasers that transmit data between chips, helping AI systems operate faster and more efficiently while cutting power consumption by up to 50%. The story matters because it grounds the AI infrastructure boom in domestic manufacturing, supply-chain policy, CHIPS Act support, and Nvidia's shift from selling chips to providing complete AI systems.",
+      "keyFacts": [
+        "Published June 16, 2026 at 13:03 UTC",
+        "The project is part of Nvidia's $2B partnership with Coherent",
+        "The factory expansion is expected to create about 1,000 jobs",
+        "AP reported the optical technology could cut power consumption by up to 50%"
+      ],
+      "url": "https://apnews.com/article/nvidia-artificial-intelligence-infrastructure-9bf560fa2365e4d6b57804438cda579e",
+      "sourceName": "AP News",
+      "relatedSources": [
+        "AP News",
+        "Nvidia",
+        "Coherent"
+      ],
+      "lane": "infrastructure",
+      "publishedAt": "2026-06-16T13:03:55.000Z",
+      "importance": 482,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-17T05:10:00.000Z"
+    },
     {
       "id": "curated-anthropic-feud-sales-data-2026-06-16",
       "title": "Anthropic feud may boost enterprise demand, Ramp data suggests",
