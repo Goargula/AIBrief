@@ -114,6 +114,38 @@
       "categories": ["funding", "general", "pushback"]
     },
     {
+      "id": "wsj-ai",
+      "name": "Wall Street Journal AI",
+      "group": "broad-business",
+      "url": "https://www.wsj.com/tech/ai",
+      "fallbackDomain": "wsj.com",
+      "categories": ["funding", "general", "pushback"]
+    },
+    {
+      "id": "economictimes-ai",
+      "name": "Economic Times AI and IT services",
+      "group": "regional-business",
+      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence",
+      "fallbackDomain": "economictimes.indiatimes.com",
+      "categories": ["funding", "general"]
+    },
+    {
+      "id": "itpro-ai",
+      "name": "ITPro AI",
+      "group": "enterprise-technology",
+      "url": "https://www.itpro.com/technology/artificial-intelligence",
+      "fallbackDomain": "itpro.com",
+      "categories": ["general", "pushback"]
+    },
+    {
+      "id": "lemonde-ai",
+      "name": "Le Monde AI and policy",
+      "group": "regional-policy",
+      "url": "https://www.lemonde.fr/en/artificial-intelligence/",
+      "fallbackDomain": "lemonde.fr",
+      "categories": ["general", "pushback"]
+    },
+    {
       "id": "business-wire-ai",
       "name": "Business Wire AI",
       "group": "announcement-wire",
@@ -199,6 +231,14 @@
       "group": "primary-newsroom",
       "url": "https://aws.amazon.com/blogs/machine-learning/",
       "fallbackDomain": "aws.amazon.com",
+      "categories": ["models", "papers", "general"]
+    },
+    {
+      "id": "arxiv-ai-robotics",
+      "name": "arXiv AI and Robotics",
+      "group": "research",
+      "url": "https://arxiv.org/list/cs.AI/recent",
+      "fallbackDomain": "arxiv.org",
       "categories": ["models", "papers", "general"]
     }
   ]
