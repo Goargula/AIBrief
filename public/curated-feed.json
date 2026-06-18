@@ -1,9 +1,91 @@
 {
-  "generatedAt": "2026-06-18T16:25:00.000Z",
-  "nextRefreshAt": "2026-06-18T18:25:00.000Z",
+  "generatedAt": "2026-06-18T21:50:00.000Z",
+  "nextRefreshAt": "2026-06-18T23:50:00.000Z",
   "summaryEngine": "chat-curated",
   "curated": true,
   "items": [
+    {
+      "id": "curated-axios-openai-devices-ha-thai-2026-06-18",
+      "title": "OpenAI hires Ha Thai to lead communications for devices",
+      "summary": "Axios reported that Ha Thai left Meta to become OpenAI's vice president of communications for devices as the company prepares its first consumer hardware push.",
+      "fullSummary": "Axios reported that Ha Thai has left Meta to lead communications for OpenAI's devices division. Thai has nearly two decades of consumer-hardware communications experience and most recently supported Meta CTO Andrew Bosworth at Reality Labs. At OpenAI, she will work with LoveFrom, the design collective led by former Apple design chief Jony Ive. Axios says OpenAI is expected to unveil its first device this year and has filed confidential draft IPO paperwork shortly after Anthropic made a similar filing.",
+      "keyFacts": [
+        "Published June 18, 2026 at 16:01 UTC",
+        "Thai will be vice president of communications for devices at OpenAI",
+        "She previously worked on communications at Meta Reality Labs",
+        "The role connects OpenAI's device work with LoveFrom and Jony Ive"
+      ],
+      "url": "https://www.axios.com/2026/06/18/openai-devices-ha-thai",
+      "sourceName": "Axios",
+      "relatedSources": [
+        "Axios",
+        "OpenAI",
+        "Meta",
+        "LoveFrom"
+      ],
+      "lane": "products-adoption",
+      "publishedAt": "2026-06-18T16:01:05.000Z",
+      "importance": 546,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-18T21:50:00.000Z",
+      "whyItMatters": "OpenAI's hardware effort is moving from abstract design speculation toward operating-company structure, with senior communications talent now attached to the devices group."
+    },
+    {
+      "id": "curated-et-ifc-sify-data-centers-371m-2026-06-18",
+      "title": "IFC commits $371M to Sify data centers in India",
+      "summary": "Economic Times reported that the International Finance Corporation committed $371 million to Sify Technologies for next-generation data centers in Navi Mumbai and Chennai.",
+      "fullSummary": "Economic Times reported that the International Finance Corporation, part of the World Bank Group, committed $371 million to Indian data-center operator Sify Technologies. The financing will support two next-generation data centers in Navi Mumbai and Chennai with a combined capacity of 103 MW. The investment is aimed at expanding India's digital infrastructure as demand grows for cloud, enterprise, and AI workloads. It adds another multilateral-finance signal to the wave of institutional capital backing AI-ready data-center capacity in India.",
+      "keyFacts": [
+        "Published June 18, 2026 at 19:35 IST",
+        "IFC committed $371 million to Sify Technologies",
+        "The two data centers are planned for Navi Mumbai and Chennai",
+        "The facilities are expected to have a combined capacity of 103 MW"
+      ],
+      "url": "https://m.economictimes.com/tech/technology/international-finance-corporation-announces-371-million-investment-in-data-centre-operator-sify/articleshow/131833207.cms",
+      "sourceName": "Economic Times",
+      "relatedSources": [
+        "Economic Times",
+        "International Finance Corporation",
+        "Sify Technologies"
+      ],
+      "lane": "infrastructure",
+      "publishedAt": "2026-06-18T14:05:12.000Z",
+      "importance": 543,
+      "sourceConfidence": "high",
+      "filterCategory": "funding",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-18T21:50:00.000Z",
+      "whyItMatters": "India's AI infrastructure buildout is attracting development-finance capital, not just hyperscaler and pension-fund money, which broadens the pool funding compute capacity."
+    },
+    {
+      "id": "curated-toi-yotta-6b-ai-infrastructure-expansion-2026-06-17",
+      "title": "Yotta plans $6B AI infrastructure expansion",
+      "summary": "Times of India reported that Yotta Data Services plans an additional $6 billion investment to expand AI infrastructure and Nvidia GPU capacity.",
+      "fullSummary": "Times of India reported that Yotta Data Services plans to invest an additional $6 billion to expand its artificial intelligence infrastructure. The company said demand from Indian and global customers is pushing it to increase its Nvidia GPU deployment. Yotta is part of India's rapidly expanding data-center and AI-infrastructure market, where operators are competing to serve cloud, model-training, enterprise inference, and sovereign-compute demand. The plan is company-stated and capital-intensive, so execution depends on power, chips, customers, and construction pace.",
+      "keyFacts": [
+        "Published June 17, 2026 at 00:27 IST",
+        "Yotta plans an additional $6 billion AI infrastructure investment",
+        "The expansion includes a larger Nvidia GPU deployment",
+        "The company is targeting demand from Indian and global customers"
+      ],
+      "url": "https://timesofindia.indiatimes.com/technology/tech-news/yotta-scales-up-ai-bet-with-6-bn-expansion-plan/articleshow/131780710.cms",
+      "sourceName": "Times of India",
+      "relatedSources": [
+        "Times of India",
+        "Yotta Data Services",
+        "Nvidia"
+      ],
+      "lane": "infrastructure",
+      "publishedAt": "2026-06-16T18:57:28.000Z",
+      "importance": 532,
+      "sourceConfidence": "medium",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-18T21:50:00.000Z",
+      "whyItMatters": "Yotta's plan adds another large India-specific compute-capacity signal, showing that AI infrastructure demand is pulling local operators into multibillion-dollar GPU and data-center expansion plans."
+    },
     {
       "id": "curated-axios-dean-ball-openai-strategic-futures-2026-06-18",
       "title": "Dean Ball joins OpenAI to lead Strategic Futures",

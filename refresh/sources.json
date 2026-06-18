@@ -130,6 +130,22 @@
       "categories": ["funding", "general"]
     },
     {
+      "id": "timesofindia-tech",
+      "name": "Times of India Technology",
+      "group": "regional-business",
+      "url": "https://timesofindia.indiatimes.com/technology/tech-news",
+      "fallbackDomain": "timesofindia.indiatimes.com",
+      "categories": ["funding", "general"]
+    },
+    {
+      "id": "ifc-press",
+      "name": "International Finance Corporation Pressroom",
+      "group": "broad-business",
+      "url": "https://www.ifc.org/en/pressroom",
+      "fallbackDomain": "ifc.org",
+      "categories": ["funding", "general"]
+    },
+    {
       "id": "itpro-ai",
       "name": "ITPro AI",
       "group": "enterprise-technology",
