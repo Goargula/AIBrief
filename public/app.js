@@ -625,12 +625,14 @@ function buildStory(item) {
     watch = "Watch reproductions, open-source implementations, and real workflow impact.";
   }
 
+  const whyItMatters = item.whyItMatters || "";
+
   return {
     hook: summary,
     change: fullSummary,
     facts,
     coverage,
-    watch: `What to watch next: ${watch}`
+    watch: whyItMatters ? `Why it matters: ${whyItMatters}` : `Why it matters: ${watch}`
   };
 }
 

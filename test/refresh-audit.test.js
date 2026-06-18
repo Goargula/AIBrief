@@ -54,6 +54,28 @@ test("freshness registry has unique surfaces with meaningful headline minimums",
   assert.ok(registry.surfaces.every((surface) => surface.query && surface.windowHours && surface.minimumHeadlines >= 10));
 });
 
+test("latest curated stories have reader-facing summaries and custom why-it-matters text", async () => {
+  const feed = JSON.parse(await readFile(path.join(root, "public", "curated-feed.json"), "utf8"));
+  const latestCuratedAt = feed.items.reduce((latest, item) => {
+    if (!item.curatedAt) return latest;
+    return !latest || item.curatedAt > latest ? item.curatedAt : latest;
+  }, "");
+  const latestItems = feed.items.filter((item) => item.curatedAt === latestCuratedAt);
+  assert.ok(latestItems.length > 0);
+
+  const feedRationalePattern =
+    /\b(?:included (?:because|as)|retained as|classified as|belongs? in the feed|refresh workflow|audit lane|coverage lane|research candidate|backlog correction|catch-up item)\b/i;
+  const whyValues = new Set();
+  for (const item of latestItems) {
+    assert.ok(item.fullSummary, `${item.id} missing fullSummary`);
+    assert.ok(item.whyItMatters, `${item.id} missing whyItMatters`);
+    assert.doesNotMatch(item.fullSummary, feedRationalePattern, `${item.id} fullSummary contains feed rationale`);
+    whyValues.add(item.whyItMatters);
+  }
+
+  assert.equal(whyValues.size, latestItems.length);
+});
+
 test("all sequential phase files exist and the orchestrator names them", async () => {
   const orchestrator = await readFile(path.join(root, "refresh", "README.md"), "utf8");
   for (let phase = 1; phase <= 6; phase += 1) {

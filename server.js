@@ -143,6 +143,7 @@ async function loadCuratedFeed() {
         title: item.title || "Untitled update",
         summary: item.summary || item.fullSummary || "Curated AI story.",
         fullSummary: item.fullSummary || item.summary || "Curated AI story.",
+        whyItMatters: item.whyItMatters || undefined,
         keyFacts: Array.isArray(item.keyFacts) ? item.keyFacts : [],
         imageUrl: item.imageUrl || `/visual.svg?lane=${encodeURIComponent(item.lane || "news")}&title=${encodeURIComponent(item.title || "AI Brief")}`,
         url: item.url || "#",

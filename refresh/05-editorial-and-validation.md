@@ -10,6 +10,11 @@ For every candidate:
   and syndication searches before excluding a material story.
 - Merge duplicate coverage of the same underlying event.
 - Write editorial summaries with important numbers and uncertainty labels.
+- Keep `summary` and `fullSummary` strictly reader-facing: summarize the story
+  and all relevant source-backed points, but do not explain why the story was
+  included in the feed, what audit lane found it, or how it was classified.
+- Write a custom `whyItMatters` for every added or materially updated story.
+  This should be specific to the story, not a generic category fallback.
 - Preserve stable IDs and existing `curatedAt`; set `updatedAt` for material
   changes.
 - Use exactly one visible category: `funding`, `models`, `papers`, `pushback`,
