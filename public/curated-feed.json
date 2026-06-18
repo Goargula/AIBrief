@@ -1,9 +1,279 @@
 {
-  "generatedAt": "2026-06-18T06:30:00.000Z",
-  "nextRefreshAt": "2026-06-17T08:31:30.000Z",
+  "generatedAt": "2026-06-18T16:25:00.000Z",
+  "nextRefreshAt": "2026-06-18T18:25:00.000Z",
   "summaryEngine": "chat-curated",
   "curated": true,
   "items": [
+    {
+      "id": "curated-axios-dean-ball-openai-strategic-futures-2026-06-18",
+      "title": "Dean Ball joins OpenAI to lead Strategic Futures",
+      "summary": "Axios reported that AI policy scholar Dean Ball is joining OpenAI to lead a new Strategic Futures unit focused on frontier AI policy and internal governance.",
+      "fullSummary": "Axios reported that Dean Ball, an AI policy scholar who helped shape early Trump administration AI policy, is joining OpenAI. Ball will lead a new team called Strategic Futures, where he says he will focus on frontier AI policy and internal governance. OpenAI chief strategy officer Jason Kwon publicly welcomed the hire. The move adds Washington policy expertise inside a frontier lab at a moment when model access, pre-release review, procurement, and export controls are becoming central to AI competition.",
+      "keyFacts": [
+        "Published June 18, 2026 at 15:39 UTC",
+        "Ball will lead OpenAI's new Strategic Futures team",
+        "The role focuses on frontier AI policy and internal governance",
+        "Axios says Ball helped shape early Trump administration AI policy"
+      ],
+      "url": "https://www.axios.com/2026/06/18/dean-ball-openai",
+      "sourceName": "Axios",
+      "relatedSources": [
+        "Axios",
+        "OpenAI",
+        "Dean Ball"
+      ],
+      "lane": "policy-safety",
+      "publishedAt": "2026-06-18T15:39:34.000Z",
+      "importance": 566,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-18T16:25:00.000Z",
+      "whyItMatters": "Frontier labs are hiring policy operators into core governance roles, a sign that regulation, government review, and institutional design are becoming product-shaping constraints rather than outside commentary."
+    },
+    {
+      "id": "curated-ap-ferc-ai-datacenter-grid-fast-track-2026-06-18",
+      "title": "FERC backs faster grid connections for AI data centers",
+      "summary": "AP reported that federal regulators voted to speed large-load connections to the U.S. transmission system as AI data centers strain power planning.",
+      "fullSummary": "AP reported that the Federal Energy Regulatory Commission voted unanimously to let large energy users connect more quickly to the U.S. transmission system, with AI data centers at the center of the demand surge. Energy Secretary Chris Wright had urged the agency to act, while utilities, states, regional grid operators, and clean-energy advocates warned about local authority, affordability, and renewable-policy impacts. Data centers would pay the full cost of required grid upgrades under the order, but AP notes that the order does not by itself solve tightening power supply, rising bills, or blackout concerns. The story adds a concrete federal action to the AI infrastructure bottleneck.",
+      "keyFacts": [
+        "Published June 18, 2026 at 15:27 UTC",
+        "FERC voted unanimously on faster large-load grid connections",
+        "AI data centers were a central driver of the action",
+        "Data centers would pay the full cost of needed grid upgrades"
+      ],
+      "url": "https://apnews.com/article/power-electricity-ai-plants-data-centers-grid-506e3d206871111f15c3c62fc5368be5",
+      "sourceName": "Associated Press",
+      "relatedSources": [
+        "Associated Press",
+        "FERC",
+        "U.S. Department of Energy"
+      ],
+      "lane": "infrastructure",
+      "publishedAt": "2026-06-18T15:27:10.000Z",
+      "importance": 564,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-18T16:25:00.000Z",
+      "whyItMatters": "The AI race is increasingly constrained by grid interconnection rather than only GPUs, and federal regulators are now changing transmission rules in response."
+    },
+    {
+      "id": "curated-axios-noam-shazeer-openai-google-2026-06-18",
+      "title": "Noam Shazeer leaves Google for OpenAI",
+      "summary": "Axios reported that Noam Shazeer, a Gemini co-lead and Character.AI cofounder, is leaving Google for OpenAI two years after Google's multibillion-dollar Character.AI deal.",
+      "fullSummary": "Axios reported that Noam Shazeer is leaving Google for OpenAI, two years after Google paid $2.7 billion to bring Shazeer and part of the Character.AI team back into the company. Shazeer was a co-lead of Gemini and is widely viewed as one of the most important researchers in modern language models. The move highlights the limits of acqui-hire style AI talent deals: once retention periods end, the people who matter most can still leave. Axios linked the hire to OpenAI's competition with Anthropic and the broader race for frontier-model talent.",
+      "keyFacts": [
+        "Published June 18, 2026 at 14:19 UTC",
+        "Shazeer was a Gemini co-lead at Google",
+        "Google paid $2.7 billion in 2024 for Character.AI technology and talent",
+        "Axios says the move is a major OpenAI win in the AI talent war"
+      ],
+      "url": "https://www.axios.com/2026/06/18/noam-shazeer-google-openai-characterai",
+      "sourceName": "Axios",
+      "relatedSources": [
+        "Axios",
+        "OpenAI",
+        "Google",
+        "Character.AI"
+      ],
+      "lane": "models",
+      "publishedAt": "2026-06-18T14:19:50.000Z",
+      "importance": 562,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-18T16:25:00.000Z",
+      "whyItMatters": "Top individual researchers remain strategic assets in frontier AI, and this move weakens the assumption that expensive acqui-hire deals permanently secure model-building talent."
+    },
+    {
+      "id": "curated-axios-sanders-ai-equity-tax-plan-2026-06-18",
+      "title": "Bernie Sanders proposes 50% equity stake in large AI companies",
+      "summary": "Axios reported that Sen. Bernie Sanders proposed a one-time AI tax that would give the U.S. government 50% equity stakes in companies with at least $200 million in annual AI revenue.",
+      "fullSummary": "Axios reported that Sen. Bernie Sanders unveiled a proposal for the U.S. government to take 50% equity stakes in large AI companies. The one-time tax would apply to companies with at least $200 million in annual AI revenue, with stakes held in a new sovereign wealth fund overseen by presidentially nominated commissioners. The fund would pay a 5% annual dividend to Americans, while companies increasing share counts would owe further equity to the government. Axios noted major practical and constitutional questions, including how to define an AI company, how integrated tech firms would separate AI and non-AI business lines, and how the fund would pay dividends without selling underlying equities.",
+      "keyFacts": [
+        "Published June 18, 2026 at 14:14 UTC",
+        "The proposal targets companies with at least $200 million in annual AI revenue",
+        "Government stakes would go into a new sovereign wealth fund",
+        "Axios says the White House is discussing smaller but related AI-industry interventions"
+      ],
+      "url": "https://www.axios.com/2026/06/18/bernie-sanders-ai-openai-anthropic",
+      "sourceName": "Axios",
+      "relatedSources": [
+        "Axios",
+        "Bernie Sanders",
+        "OpenAI",
+        "Anthropic"
+      ],
+      "lane": "policy-safety",
+      "publishedAt": "2026-06-18T14:14:45.000Z",
+      "importance": 558,
+      "sourceConfidence": "high",
+      "filterCategory": "pushback",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-18T16:25:00.000Z",
+      "whyItMatters": "The proposal turns AI labor-disruption fears into an explicit ownership and redistribution plan, pushing the policy debate beyond licensing, safety rules, and procurement."
+    },
+    {
+      "id": "curated-axios-gradial-65m-agentic-marketing-2026-06-18",
+      "title": "Gradial raises $65M for agentic marketing automation",
+      "summary": "Axios reported that Seattle startup Gradial raised a $65 million Series C for AI agents that automate enterprise marketing workflows across existing software stacks.",
+      "fullSummary": "Axios reported that Gradial raised $65 million in Series C funding led by Insight Partners, valuing the Seattle startup at $675 million. Gradial builds AI agents for enterprise marketing workflows, integrating with systems such as Adobe, Salesforce, ServiceNow, and Databricks. The company says customers include AWS, Prudential, T-Mobile, Vanguard, Kaiser Permanente, and U.S. Bank, and Axios reported that T-Mobile cut campaign execution time by 80% to 90% with 99% accuracy. Gradial plans to use the funding to expand its roughly 100-person team across engineering, sales, and marketing.",
+      "keyFacts": [
+        "Published June 18, 2026 at 14:00 UTC",
+        "Insight Partners led the $65 million Series C",
+        "The round values Gradial at $675 million",
+        "Axios says Gradial has raised more than $120 million in total"
+      ],
+      "url": "https://www.axios.com/2026/06/18/gradial-ai-agents-marketing",
+      "sourceName": "Axios",
+      "relatedSources": [
+        "Axios",
+        "Gradial",
+        "Insight Partners"
+      ],
+      "lane": "funding",
+      "publishedAt": "2026-06-18T14:00:05.000Z",
+      "importance": 552,
+      "sourceConfidence": "high",
+      "filterCategory": "funding",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-18T16:25:00.000Z",
+      "whyItMatters": "Agent startups are moving from demos to narrow enterprise operating systems, and customer-reported campaign-speed numbers give the round a stronger adoption signal than funding alone."
+    },
+    {
+      "id": "curated-axios-deepmind-ai-control-roadmap-2026-06-18",
+      "title": "DeepMind publishes AI-control roadmap for autonomous agents",
+      "summary": "Axios reported that Google DeepMind released an AI Control Roadmap that borrows from cybersecurity to monitor and contain increasingly autonomous agents.",
+      "fullSummary": "Axios reported that Google DeepMind published an AI Control Roadmap for monitoring and containing increasingly capable autonomous agents. DeepMind is treating powerful agents less like ordinary software tools and more like potential insider threats that could misuse access, evade monitoring, or subvert assigned work. The roadmap layers alignment work with monitoring systems, including AI supervisors that review agent reasoning and behavior. DeepMind researcher Rohin Shah told Axios that alignment remains the first line of defense but should be backed by multiple layers. The company says truly dangerous agents are not here yet, but some roadmap elements are already being implemented.",
+      "keyFacts": [
+        "Published June 18, 2026 at 13:00 UTC",
+        "The roadmap borrows concepts from cybersecurity and insider-threat monitoring",
+        "DeepMind proposes escalating safeguards as agent capabilities increase",
+        "Rohin Shah told Axios that multiple defensive layers are needed"
+      ],
+      "url": "https://www.axios.com/2026/06/18/google-deepmind-prepares-for-rogue-ai-agents",
+      "sourceName": "Axios",
+      "relatedSources": [
+        "Axios",
+        "Google DeepMind"
+      ],
+      "lane": "policy-safety",
+      "publishedAt": "2026-06-18T13:00:04.000Z",
+      "importance": 550,
+      "sourceConfidence": "high",
+      "filterCategory": "pushback",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-18T16:25:00.000Z",
+      "whyItMatters": "Agent safety is becoming an operational control problem: labs now need runtime monitoring, containment, and escalation plans in addition to pre-release alignment work."
+    },
+    {
+      "id": "curated-axios-trump-shadow-ai-policy-2026-06-18",
+      "title": "Axios maps the Trump administration's shadow AI policy",
+      "summary": "Axios reported that the Trump administration is shaping AI through case-by-case interventions even while publicly rejecting formal AI regulation.",
+      "fullSummary": "Axios reported that the Trump administration is building a de facto AI policy through indirect and case-specific interventions rather than a formal regulatory regime. The administration has rolled back Biden-era rules and publicly emphasized minimal interference, but Axios says it is still shaping the industry through state-law preemption efforts, national-security reviews, federal procurement, export-control questions, and economic leverage over dominant AI companies. The report points to Anthropic negotiations over model-access restrictions and a new executive order for voluntary government review of advanced AI systems as examples. The story helps explain why the U.S. AI policy environment is active even when officials avoid calling it regulation.",
+      "keyFacts": [
+        "Published June 18, 2026",
+        "Axios describes a case-by-case policy approach rather than a formal AI regulator",
+        "Key levers include preemption, procurement, national security, and export controls",
+        "Anthropic model-access talks are one visible example"
+      ],
+      "url": "https://www.axios.com/2026/06/18/trump-shadow-ai-policy",
+      "sourceName": "Axios",
+      "relatedSources": [
+        "Axios",
+        "White House",
+        "Anthropic"
+      ],
+      "lane": "policy-safety",
+      "publishedAt": "2026-06-18T12:30:00.000Z",
+      "importance": 548,
+      "sourceConfidence": "medium",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-18T16:25:00.000Z",
+      "whyItMatters": "AI governance can happen through procurement, export controls, and national-security pressure even without a single omnibus AI law, which makes policy risk harder for companies to price."
+    },
+    {
+      "id": "curated-axios-arizona-ai-datacenter-water-power-2026-06-18",
+      "title": "Arizona becomes a test case for AI data-center power and water limits",
+      "summary": "Axios reported from Phoenix that Arizona is becoming a bellwether for AI data-center growth as utilities, regulators, and Google contend with power demand and water scarcity.",
+      "fullSummary": "Axios reported that Arizona is becoming a test case for the energy and water constraints surrounding AI data centers. Utility regulator Kevin Thompson said infrastructure that took more than 100 years to build may need to double within four to five years to meet demand. State officials have paused some data-center tax incentives while they reassess which projects and cooling approaches make sense in a desert climate. Google told Axios that its Arizona data center uses air-based cooling for the broader facility and recirculated water in a closed loop for chips, after moving away from more water-intensive evaporative cooling. The story puts local resource planning beside the national AI infrastructure race.",
+      "keyFacts": [
+        "Published June 18, 2026",
+        "Arizona paused some data-center tax incentives for three years",
+        "A state utility regulator warned that infrastructure may need to double within four to five years",
+        "Google says its Arizona site uses air-based cooling for the facility and closed-loop water for chips"
+      ],
+      "url": "https://www.axios.com/2026/06/18/arizona-ai-data-center-water-power",
+      "sourceName": "Axios",
+      "relatedSources": [
+        "Axios",
+        "Google",
+        "Arizona Corporation Commission"
+      ],
+      "lane": "infrastructure",
+      "publishedAt": "2026-06-18T12:00:00.000Z",
+      "importance": 544,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-18T16:25:00.000Z",
+      "whyItMatters": "The same AI buildout that looks like a national compute race becomes a local fight over water, electricity reliability, tax incentives, and cooling choices."
+    },
+    {
+      "id": "curated-axios-conservatives-ai-datacenter-protest-2026-06-18",
+      "title": "Conservative group plans nationwide AI data-center protest",
+      "summary": "Axios reported that Humans First is organizing a July 18 nationwide protest against AI data centers over secrecy, resource use, pollution, land, noise, and national-security concerns.",
+      "fullSummary": "Axios reported that Humans First, a conservative group aligned with an America First AI policy, is organizing a Nationwide Day of Protest against AI data centers on July 18. The group argues that rapid data-center expansion creates risks around secrecy, national security, water and energy use, pollution, land use, and noise. Axios noted that the planned protest reflects growing public concern about AI infrastructure and could create overlap between conservative and liberal critics of unchecked data-center growth. The story adds a political organizing layer to the existing local pushback around power prices, water use, and permitting.",
+      "keyFacts": [
+        "Published June 18, 2026",
+        "Humans First is planning a July 18 Nationwide Day of Protest",
+        "The group is focused on AI data centers and resource impacts",
+        "Axios says Republicans in Washington are watching the backlash"
+      ],
+      "url": "https://www.axios.com/2026/06/18/conservatives-protest-ai-data-centers",
+      "sourceName": "Axios",
+      "relatedSources": [
+        "Axios",
+        "Humans First"
+      ],
+      "lane": "policy-safety",
+      "publishedAt": "2026-06-18T11:30:00.000Z",
+      "importance": 538,
+      "sourceConfidence": "medium",
+      "filterCategory": "pushback",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-18T16:25:00.000Z",
+      "whyItMatters": "AI infrastructure opposition is becoming organized national politics, which could slow permits and complicate the assumption that compute buildouts can expand wherever power and land are available."
+    },
+    {
+      "id": "curated-bi-convey-38m-ai-teammates-2026-06-17",
+      "title": "Convey raises $38M for AI workplace teammates",
+      "summary": "Business Insider reported that Convey raised a $38 million Series A led by Andreessen Horowitz for AI teammates that handle repetitive workplace tasks.",
+      "fullSummary": "Business Insider reported that Convey raised $38 million in Series A funding led by Andreessen Horowitz, with Khosla Ventures and Pear VC participating. Convey builds AI teammates meant to handle repetitive workplace tasks and business outcomes rather than only execute narrow agent actions. The company says customers include NBCUniversal, Samsara, TelevisaUnivision, Unity, Faire, and ChargePoint. CEO Rohan Chopra, formerly an early DoorDash engineer, frames the product as a way to move employees away from manual workflow tracking and data entry.",
+      "keyFacts": [
+        "Published June 17, 2026 at 13:00 UTC",
+        "Andreessen Horowitz led the $38 million Series A",
+        "Khosla Ventures and Pear VC participated",
+        "Convey says customers include NBCUniversal, Samsara, Unity, Faire, and ChargePoint"
+      ],
+      "url": "https://www.businessinsider.com/convey-raises-38-million-a16z-to-automate-repetitive-office-work-2026-6",
+      "sourceName": "Business Insider",
+      "relatedSources": [
+        "Business Insider",
+        "Convey",
+        "Andreessen Horowitz"
+      ],
+      "lane": "funding",
+      "publishedAt": "2026-06-17T13:00:02.579Z",
+      "importance": 526,
+      "sourceConfidence": "high",
+      "filterCategory": "funding",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-18T16:25:00.000Z",
+      "whyItMatters": "The round shows investors funding agent companies around measurable workplace outcomes and real customer lists, not just generic chatbot wrappers."
+    },
     {
       "id": "curated-midjourney-medical-ultrasound-scanner-2026-06-18",
       "title": "Midjourney unveils full-body ultrasound scanner project",
