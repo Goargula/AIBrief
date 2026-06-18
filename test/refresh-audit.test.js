@@ -23,7 +23,17 @@ test("source registry has unique ids and required source groups", async () => {
   assert.equal(new Set(ids).size, ids.length);
   assert.deepEqual(
     new Set(registry.sources.map((source) => source.group)),
-    new Set(["ai-specialist", "technology", "broad-business", "announcement-wire", "primary-newsroom"])
+    new Set([
+      "ai-specialist",
+      "technology",
+      "broad-business",
+      "regional-business",
+      "enterprise-technology",
+      "regional-policy",
+      "announcement-wire",
+      "primary-newsroom",
+      "research"
+    ])
   );
 });
 

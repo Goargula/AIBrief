@@ -1,9 +1,576 @@
 {
-  "generatedAt": "2026-06-17T05:31:30.000Z",
+  "generatedAt": "2026-06-18T06:30:00.000Z",
   "nextRefreshAt": "2026-06-17T08:31:30.000Z",
   "summaryEngine": "chat-curated",
   "curated": true,
   "items": [
+    {
+      "id": "curated-midjourney-medical-ultrasound-scanner-2026-06-18",
+      "title": "Midjourney unveils full-body ultrasound scanner project",
+      "summary": "The Verge reported that Midjourney is moving into medical hardware with a water-based full-body ultrasound scanner built with Butterfly Network sensors.",
+      "fullSummary": "The Verge reported that Midjourney CEO David Holz introduced the Midjourney Scanner, a full-body ultrasound system developed with Butterfly Network hardware. The product is not positioned as a diagnostic tool yet, but Midjourney says it can create body-composition maps and could eventually support health tracking or AI-assisted review. The project is notable because it pushes a major image-generation company into physical healthcare hardware, with a planned San Francisco spa-like scanner site before the end of 2027.",
+      "keyFacts": [
+        "Published June 17, 2026 at 11:12 PM ET",
+        "The scanner uses 40 Butterfly ultrasound-on-chip imaging modules",
+        "Midjourney says the scan takes about 60 seconds",
+        "The company plans a San Francisco scanner location before the end of 2027"
+      ],
+      "url": "https://www.theverge.com/ai-artificial-intelligence/952011/midjourney-medical-ai-ultrasound-scan",
+      "sourceName": "The Verge",
+      "relatedSources": [
+        "The Verge",
+        "Midjourney",
+        "Butterfly Network"
+      ],
+      "lane": "health-science",
+      "publishedAt": "2026-06-18T03:12:31.000Z",
+      "importance": 540,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-18T06:30:00.000Z"
+    },
+    {
+      "id": "curated-ft-jpmorgan-hong-kong-anthropic-access-2026-06-18",
+      "title": "JPMorgan cuts Anthropic access for Hong Kong staff",
+      "summary": "The Financial Times reported that JPMorgan blocked Anthropic access for Hong Kong employees after similar moves by other banks responding to Claude restrictions in Asia.",
+      "fullSummary": "The Financial Times reported that JPMorgan Chase cut off Anthropic access for staff in Hong Kong, following Goldman Sachs in preventing use of Claude in the Asian financial hub. The move turns the U.S. government's Anthropic access restrictions into an operational issue for global financial institutions, especially teams that rely on American AI services in sensitive jurisdictions. The item is included as a medium-confidence paywalled-source story because the FT hub exposed the headline, date, and deck but not the full article body.",
+      "keyFacts": [
+        "Listed by the Financial Times on June 18, 2026",
+        "The affected staff are in Hong Kong",
+        "The FT says Goldman Sachs made a similar access decision",
+        "The story links AI model restrictions to regulated financial operations"
+      ],
+      "url": "https://www.ft.com/content/de83d303-6a03-456b-bfb9-7b11dd502ab3",
+      "sourceName": "Financial Times",
+      "relatedSources": [
+        "Financial Times",
+        "JPMorgan Chase",
+        "Anthropic"
+      ],
+      "lane": "policy-safety",
+      "publishedAt": "2026-06-18T00:00:00.000Z",
+      "importance": 536,
+      "sourceConfidence": "medium",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-18T06:30:00.000Z"
+    },
+    {
+      "id": "curated-techcrunch-google-docs-gemini-off-switch-2026-06-18",
+      "title": "Google Docs users get a guide to disabling Gemini prompts",
+      "summary": "TechCrunch covered how Gemini prompts inside Google Docs can be disabled, reflecting continued consumer friction around AI defaults in productivity software.",
+      "fullSummary": "TechCrunch published a practical guide to turning off Gemini prompts in Google Docs and related Google Workspace smart features. The story is not a model launch, but it is a useful consumer-facing signal: Google is pushing AI assistance into default writing surfaces while users are seeking ways to opt out. It belongs in the feed as a lower-importance product-adoption item because it captures the operational reality of AI features becoming embedded in everyday productivity tools.",
+      "keyFacts": [
+        "Published June 17, 2026 at 6:23 PM PDT",
+        "The guide points users to Google Docs Gemini bottom bar preferences",
+        "It also describes Workspace smart-feature controls in Gmail settings",
+        "The story reflects user pushback against default AI prompts"
+      ],
+      "url": "https://techcrunch.com/2026/06/17/how-to-turn-off-ai-in-your-google-docs/",
+      "sourceName": "TechCrunch",
+      "relatedSources": [
+        "TechCrunch",
+        "Google"
+      ],
+      "lane": "products-adoption",
+      "publishedAt": "2026-06-18T01:23:00.000Z",
+      "importance": 506,
+      "sourceConfidence": "high",
+      "filterCategory": "pushback",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-18T06:30:00.000Z"
+    },
+    {
+      "id": "curated-techcrunch-nea-ai-roi-reckoning-2026-06-17",
+      "title": "NEA partner says enterprises are still finding AI ROI",
+      "summary": "TechCrunch's Equity interview with NEA's Tiffany Luck focused on AI IPOs, personal agents, and how startups are helping enterprises measure return on AI spend.",
+      "fullSummary": "TechCrunch published an Equity interview with NEA partner Tiffany Luck about the enterprise AI spending reset. The discussion connected the recent token-cost backlash with startups that help companies track return on AI investments, and it also covered personal agents and the state of AI IPOs. The story is included because the refresh workflow explicitly calls for operational-outcome and adoption-report coverage, not only model launches and funding rounds.",
+      "keyFacts": [
+        "Published June 17, 2026 at 1:17 PM PDT",
+        "The interview covered enterprise AI ROI and personal agents",
+        "TechCrunch tied the discussion to token-budget pressure at major companies",
+        "The story was listed on TechCrunch's AI page as a fresh June 17 item"
+      ],
+      "url": "https://techcrunch.com/video/neas-tiffany-luck-says-enterprises-are-still-figuring-out-their-ai-roi/",
+      "sourceName": "TechCrunch",
+      "relatedSources": [
+        "TechCrunch",
+        "NEA"
+      ],
+      "lane": "products-adoption",
+      "publishedAt": "2026-06-17T20:17:00.000Z",
+      "importance": 526,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-18T06:30:00.000Z"
+    },
+    {
+      "id": "curated-techcrunch-g7-american-ai-off-switch-2026-06-17",
+      "title": "G7 leaders warn against an American AI off switch",
+      "summary": "TechCrunch reported that leaders at the G7 summit want access to American frontier AI but are worried the U.S. could cut it off unilaterally.",
+      "fullSummary": "TechCrunch reported that French President Emmanuel Macron and Indian Prime Minister Narendra Modi used the G7 summit to raise concerns that the U.S. could turn off access to leading American AI models without warning. The story connects the Anthropic export-control fight to broader AI sovereignty and customer-dependence risks for countries and enterprises. It is classified as general policy coverage because the central event is international AI access and cooperation, not domestic opposition to AI itself.",
+      "keyFacts": [
+        "Published June 17, 2026 at 12:01 PM PDT",
+        "The G7 discussion included leaders and top AI executives",
+        "Macron warned that sudden cutoffs could damage European customers and U.S. AI firms",
+        "The story followed the U.S. directive affecting Anthropic model access"
+      ],
+      "url": "https://techcrunch.com/2026/06/17/world-leaders-want-american-ai-they-just-dont-want-america-to-be-able-to-turn-it-off/",
+      "sourceName": "TechCrunch",
+      "relatedSources": [
+        "TechCrunch",
+        "G7",
+        "Anthropic"
+      ],
+      "lane": "policy-safety",
+      "publishedAt": "2026-06-17T19:01:00.000Z",
+      "importance": 534,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-18T06:30:00.000Z"
+    },
+    {
+      "id": "curated-ap-g7-ai-cooperation-macron-altman-2026-06-17",
+      "title": "Macron and Altman call for G7 AI cooperation",
+      "summary": "AP reported that Macron urged the U.S. to share frontier AI access while Sam Altman called for an international forum on AI standards.",
+      "fullSummary": "AP reported from the G7 meetings in Evian-les-Bains that French President Emmanuel Macron urged democracies to cooperate on advanced AI regulation and warned against nationalist restrictions on frontier systems. OpenAI CEO Sam Altman also called for an international forum to set standards for AI testing and risk analysis. The story overlaps with the TechCrunch off-switch item but adds primary summit framing and broader G7 participation, so it is retained as a separate source-backed policy record.",
+      "keyFacts": [
+        "Published June 17, 2026 at 7:47 AM UTC",
+        "The G7 lunch included leaders from OpenAI, Google DeepMind, Anthropic, Meta, Mistral, Cohere, and others",
+        "Macron criticized unilateral restrictions on access to frontier models",
+        "Altman called for international AI safety standards"
+      ],
+      "url": "https://apnews.com/article/7d783c6de4356962e338b8b8563d48ea",
+      "sourceName": "Associated Press",
+      "relatedSources": [
+        "Associated Press",
+        "G7",
+        "OpenAI",
+        "Anthropic"
+      ],
+      "lane": "policy-safety",
+      "publishedAt": "2026-06-17T07:47:10.000Z",
+      "importance": 516,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-18T06:30:00.000Z"
+    },
+    {
+      "id": "curated-techcrunch-anthropic-frontier-carbon-2026-06-17",
+      "title": "Anthropic joins Frontier carbon removal coalition",
+      "summary": "TechCrunch reported that Anthropic joined Frontier as the first AI startup in the carbon-removal buying group, alongside a new $915 million funding tranche.",
+      "fullSummary": "TechCrunch reported that Anthropic became the first AI startup to join Frontier, the carbon-removal coalition backed by major technology companies. The new tranche nearly doubles Frontier pledges to $1.8 billion, and the story is relevant because energy use and carbon accounting have become material parts of AI infrastructure scrutiny. This is not a model or funding story for Anthropic itself, but it is a useful climate-and-infrastructure signal from a leading AI lab.",
+      "keyFacts": [
+        "Published June 17, 2026 at 11:30 AM PDT",
+        "Anthropic joined Frontier as the first AI startup participant",
+        "The new Frontier tranche totals $915 million",
+        "Frontier pledges now total about $1.8 billion"
+      ],
+      "url": "https://techcrunch.com/2026/06/17/anthropic-becomes-first-ai-startup-to-join-the-frontier-carbon-removal-coalition/",
+      "sourceName": "TechCrunch",
+      "relatedSources": [
+        "TechCrunch",
+        "Anthropic",
+        "Frontier"
+      ],
+      "lane": "infrastructure",
+      "publishedAt": "2026-06-17T18:30:00.000Z",
+      "importance": 522,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-18T06:30:00.000Z"
+    },
+    {
+      "id": "curated-verge-anthropic-export-rules-unclear-2026-06-17",
+      "title": "Anthropic export controls expose unclear AI access rules",
+      "summary": "The Verge reported that experts see the U.S. Anthropic directive as an unprecedented and unstable use of export controls against remotely hosted AI models.",
+      "fullSummary": "The Verge examined the legal uncertainty around the U.S. directive that forced Anthropic to cut access to Fable 5 and Mythos 5. Experts told the publication that traditional export-control regimes do not map cleanly onto remotely hosted AI services where users never receive model weights or code. The piece is included as a governance-risk story because it explains why ad hoc frontier-model access controls could unsettle AI providers, enterprise customers, and foreign governments.",
+      "keyFacts": [
+        "Published June 17, 2026 at 2:28 PM ET",
+        "Experts described the order as a first-of-its-kind use of export controls for AI model access",
+        "The story notes uncertainty over whether access, outputs, or model capabilities are being controlled",
+        "The analysis connected the Anthropic order to broader U.S. AI governance instability"
+      ],
+      "url": "https://www.theverge.com/ai-artificial-intelligence/951703/anthropic-shutdown-export-controls",
+      "sourceName": "The Verge",
+      "relatedSources": [
+        "The Verge",
+        "Anthropic",
+        "U.S. export controls"
+      ],
+      "lane": "policy-safety",
+      "publishedAt": "2026-06-17T18:28:50.000Z",
+      "importance": 532,
+      "sourceConfidence": "high",
+      "filterCategory": "pushback",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-18T06:30:00.000Z"
+    },
+    {
+      "id": "curated-techcrunch-odyssey-310m-world-models-2026-06-17",
+      "title": "Odyssey raises $310M for physical-world AI models",
+      "summary": "TechCrunch reported that Odyssey raised a $310 million Series B at a $1.45 billion valuation to build world models for physical simulations.",
+      "fullSummary": "TechCrunch reported that Odyssey, a world-model startup founded by self-driving vehicle veterans Oliver Cameron and Jeff Hawke, raised a $310 million Series B at a $1.45 billion valuation. Natural Capital led the round, with Amazon, AMD Ventures, GV, and others participating. The company is building physical-world models that can simulate environments with accurate physics, making the round relevant across funding, physical AI, and infrastructure categories.",
+      "keyFacts": [
+        "Published June 17, 2026 at 10:43 AM PDT",
+        "Odyssey raised $310 million in Series B funding",
+        "The round valued the company at $1.45 billion",
+        "Amazon, AMD Ventures, GV, and others participated"
+      ],
+      "url": "https://techcrunch.com/2026/06/17/world-model-maker-odyssey-nabs-1-45b-valuation-backed-by-amazon-and-other-big-names/",
+      "sourceName": "TechCrunch",
+      "relatedSources": [
+        "TechCrunch",
+        "Odyssey",
+        "Amazon",
+        "AMD Ventures"
+      ],
+      "lane": "funding",
+      "publishedAt": "2026-06-17T17:43:00.000Z",
+      "importance": 530,
+      "sourceConfidence": "high",
+      "filterCategory": "funding",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-18T06:30:00.000Z"
+    },
+    {
+      "id": "curated-techcrunch-pew-ai-positive-impact-16-percent-2026-06-17",
+      "title": "Pew finds only 16% of Americans positive on AI impact",
+      "summary": "TechCrunch covered Pew data showing broad public skepticism: chatbot use is rising, but only a small minority expects AI to benefit society.",
+      "fullSummary": "TechCrunch reported on a Pew Research study showing that U.S. AI chatbot usage is rising while optimism remains low. The story says only 16% of Americans think AI will have a positive impact on society, echoing The Verge's coverage of the same Pew findings. This is classified as pushback because the core event is public concern and low trust, not a product launch.",
+      "keyFacts": [
+        "Published June 17, 2026 at 10:00 AM PDT",
+        "Pew found only 16% of Americans think AI will positively affect society",
+        "Chatbot usage has increased since 2024",
+        "The same survey also surfaced concern about AI advancing too quickly"
+      ],
+      "url": "https://techcrunch.com/2026/06/17/only-16-percent-of-americans-think-ai-will-have-a-positive-impact-on-society-a-new-study-shows/",
+      "sourceName": "TechCrunch",
+      "relatedSources": [
+        "TechCrunch",
+        "Pew Research"
+      ],
+      "lane": "policy-safety",
+      "publishedAt": "2026-06-17T17:00:00.000Z",
+      "importance": 524,
+      "sourceConfidence": "high",
+      "filterCategory": "pushback",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-18T06:30:00.000Z"
+    },
+    {
+      "id": "curated-techcrunch-google-gemini-home-speaker-2026-06-17",
+      "title": "Google launches Gemini-first smart home speaker",
+      "summary": "TechCrunch reported that Google introduced a $99.99 smart speaker built specifically around Gemini, its first standalone speaker since Nest Audio.",
+      "fullSummary": "TechCrunch reported that Google introduced the Google Home Speaker, a $99.99 smart speaker built around Gemini. The product is the company's first standalone smart speaker since Nest Audio in 2020 and reflects the shift from command-based smart-home devices toward conversational AI assistants. It is included as a product-adoption story because it puts frontier assistant capabilities into consumer hardware.",
+      "keyFacts": [
+        "Published June 17, 2026 at 9:30 AM PDT",
+        "The Google Home Speaker is priced at $99.99",
+        "It is Google's first standalone smart speaker since the 2020 Nest Audio",
+        "Google is positioning Gemini as the core interaction layer"
+      ],
+      "url": "https://techcrunch.com/2026/06/17/google-bets-on-gemini-to-reinvent-the-smart-home-speaker/",
+      "sourceName": "TechCrunch",
+      "relatedSources": [
+        "TechCrunch",
+        "Google",
+        "Gemini"
+      ],
+      "lane": "products-adoption",
+      "publishedAt": "2026-06-17T16:30:00.000Z",
+      "importance": 518,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-18T06:30:00.000Z"
+    },
+    {
+      "id": "curated-techcrunch-xdof-robot-training-data-2026-06-17",
+      "title": "XDOF sells robot training data to AI labs",
+      "summary": "TechCrunch reported that XDOF is already being paid by AI labs to collect the physical-world data needed to train capable robots.",
+      "fullSummary": "TechCrunch reported on XDOF, a company collecting robot manipulation data for AI labs. The story frames robot data collection as difficult, expensive, and increasingly important as major labs return to embodied AI. It is included in the physical-AI lane because the limiting factor is not only model architecture, but the availability of high-quality physical-world training data.",
+      "keyFacts": [
+        "Published June 17, 2026 at 8:00 AM PDT",
+        "The story follows OpenAI's stated plan to relaunch robotics work",
+        "XDOF is collecting manipulation data for AI labs",
+        "The story highlights data scarcity as a robotics bottleneck"
+      ],
+      "url": "https://techcrunch.com/2026/06/17/collecting-robot-training-data-is-dirty-unglamorous-work-some-ai-labs-are-already-paying-xdof-to-do-it/",
+      "sourceName": "TechCrunch",
+      "relatedSources": [
+        "TechCrunch",
+        "XDOF",
+        "OpenAI"
+      ],
+      "lane": "physical-ai",
+      "publishedAt": "2026-06-17T15:00:00.000Z",
+      "importance": 520,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-18T06:30:00.000Z"
+    },
+    {
+      "id": "curated-techcrunch-pramaana-27m-formal-verification-ai-2026-06-17",
+      "title": "Pramaana Labs raises $27M for formal verification in AI",
+      "summary": "TechCrunch reported that Pramaana Labs raised a $27 million seed round led by Khosla Ventures to bring formal methods to enterprise AI reliability.",
+      "fullSummary": "TechCrunch reported that Pramaana Labs raised $27 million in seed funding led by Khosla Ventures, with Accel, BoldCap, Nexus Venture Partners, Premji Invest, and Unbound also participating. The startup is trying to apply formal verification and mathematical reliability tools to AI systems used by enterprises. The story is relevant because it targets a concrete blocker in enterprise AI adoption: trustworthiness and reliable deployment rather than raw model performance.",
+      "keyFacts": [
+        "Published June 17, 2026 at 7:15 AM PDT",
+        "Pramaana Labs raised $27 million in seed funding",
+        "Khosla Ventures led the round",
+        "The company focuses on formal verification for AI reliability"
+      ],
+      "url": "https://techcrunch.com/2026/06/17/pramaana-labs-raises-27-million-seed-round-from-khosla-ventures-to-bring-formal-verification-to-ai/",
+      "sourceName": "TechCrunch",
+      "relatedSources": [
+        "TechCrunch",
+        "Pramaana Labs",
+        "Khosla Ventures"
+      ],
+      "lane": "funding",
+      "publishedAt": "2026-06-17T14:15:00.000Z",
+      "importance": 522,
+      "sourceConfidence": "high",
+      "filterCategory": "funding",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-18T06:30:00.000Z"
+    },
+    {
+      "id": "curated-techcrunch-cpp-ctrls-india-ai-datacenters-2026-06-17",
+      "title": "CPP Investments backs India's AI data center buildout",
+      "summary": "TechCrunch reported that CPP Investments committed up to about $741 million to CtrlS, betting on India's AI-fueled cloud and data center growth.",
+      "fullSummary": "TechCrunch reported that Canada Pension Plan Investment Board's CPP Investments committed up to Rs 70 billion, about $741 million, to Indian data center operator CtrlS. The deal reflects investor appetite for AI infrastructure in India as global cloud and AI demand rises. It is included as funding coverage because the capital commitment is explicitly tied to the AI infrastructure buildout.",
+      "keyFacts": [
+        "Published June 17, 2026 at 5:38 AM PDT",
+        "CPP Investments committed up to Rs 70 billion",
+        "The commitment is worth roughly $741 million",
+        "The investment backs Indian data center operator CtrlS"
+      ],
+      "url": "https://techcrunch.com/2026/06/17/canadian-pension-giant-joins-race-to-fund-indias-ai-fueled-data-center-boom/",
+      "sourceName": "TechCrunch",
+      "relatedSources": [
+        "TechCrunch",
+        "CPP Investments",
+        "CtrlS"
+      ],
+      "lane": "infrastructure",
+      "publishedAt": "2026-06-17T12:38:00.000Z",
+      "importance": 528,
+      "sourceConfidence": "high",
+      "filterCategory": "funding",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-18T06:30:00.000Z"
+    },
+    {
+      "id": "curated-techcrunch-pinterest-ask-shopping-ai-2026-06-17",
+      "title": "Pinterest launches experimental AI shopping app",
+      "summary": "TechCrunch reported that Pinterest launched Ask Pinterest, a conversational shopping experiment, plus MCP and AI ad tools for advertisers.",
+      "fullSummary": "TechCrunch reported that Pinterest launched an experimental app called Ask Pinterest to test conversational shopping and product discovery. The company also announced Pinterest Model Context Protocol for advertisers and additional AI ad tools. The story is included because it is a concrete consumer and advertiser product launch rather than a generic AI strategy announcement.",
+      "keyFacts": [
+        "Published June 17, 2026 at 4:00 AM PDT",
+        "Ask Pinterest is a conversational shopping app experiment",
+        "Pinterest also announced Model Context Protocol for advertisers",
+        "The tools could later reach the main Pinterest app"
+      ],
+      "url": "https://techcrunch.com/2026/06/17/pinterest-launches-an-experimental-ai-shopping-app-called-ask-pinterest/",
+      "sourceName": "TechCrunch",
+      "relatedSources": [
+        "TechCrunch",
+        "Pinterest"
+      ],
+      "lane": "products-adoption",
+      "publishedAt": "2026-06-17T11:00:00.000Z",
+      "importance": 514,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-18T06:30:00.000Z"
+    },
+    {
+      "id": "curated-axios-trahan-ai-regulation-pushback-2026-06-17",
+      "title": "Trahan faces backlash over federal AI regulation draft",
+      "summary": "Axios reported that Rep. Lori Trahan is facing progressive and state-level pushback over a bipartisan AI bill draft that would freeze some state rules.",
+      "fullSummary": "Axios reported that Massachusetts Rep. Lori Trahan is facing criticism from progressive groups and state lawmakers over the Great American Artificial Intelligence Act discussion draft. The draft, co-authored with Rep. Jay Obernolte, would freeze some state-level AI development regulation for three years. The story is included as a pushback item because it shows AI federal preemption becoming politically contentious inside the Democratic coalition and among state officials.",
+      "keyFacts": [
+        "Published June 17, 2026 at 10:00:05 UTC",
+        "The draft bill is 269 pages",
+        "More than 200 state legislators asked Congress to remove state-law preemption",
+        "Massachusetts advocacy groups sent Trahan a June 17 letter opposing the preemption approach"
+      ],
+      "url": "https://www.axios.com/local/boston/2026/06/17/trahan-ai-regulation-plan-progressive-pushback",
+      "sourceName": "Axios",
+      "relatedSources": [
+        "Axios",
+        "Rep. Lori Trahan",
+        "Rep. Jay Obernolte"
+      ],
+      "lane": "policy-safety",
+      "publishedAt": "2026-06-17T10:00:05.000Z",
+      "importance": 510,
+      "sourceConfidence": "high",
+      "filterCategory": "pushback",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-18T06:30:00.000Z"
+    },
+    {
+      "id": "curated-guardian-russell-ai-regulation-disaster-warning-2026-06-17",
+      "title": "Stuart Russell warns AI regulation may wait for disaster",
+      "summary": "The Guardian published Stuart Russell's argument that Anthropic's latest model controversy should push governments toward a licensing-style AI safety regime.",
+      "fullSummary": "The Guardian published a Stuart Russell column arguing that recent Anthropic-related alarm should trigger serious AI regulation before a catastrophic event forces action. Russell called for a licensing regime with minimum safety standards before frontier systems are built and released. This is an opinion piece, but it is included because it comes from a prominent AI safety researcher and captures the broader regulatory reaction to current Anthropic model-access events.",
+      "keyFacts": [
+        "Published June 17, 2026 at 10:00:28 UTC",
+        "The column links Anthropic's latest model controversy to global AI regulation",
+        "Russell argues for minimum safety standards before frontier systems are built and released",
+        "The story was a top broad AI-news result during the refresh"
+      ],
+      "url": "https://www.theguardian.com/commentisfree/2026/jun/17/anthropic-ai-rsi-fable",
+      "sourceName": "The Guardian",
+      "relatedSources": [
+        "The Guardian",
+        "Stuart Russell",
+        "Anthropic"
+      ],
+      "lane": "policy-safety",
+      "publishedAt": "2026-06-17T10:00:28.000Z",
+      "importance": 508,
+      "sourceConfidence": "high",
+      "filterCategory": "pushback",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-18T06:30:00.000Z"
+    },
+    {
+      "id": "curated-arxiv-txbench-pp-ai-agent-pharmacology-2026-06-18",
+      "title": "TxBench-PP tests AI agents on preclinical pharmacology",
+      "summary": "A new arXiv submission proposes TxBench-PP, a benchmark for analyzing AI-agent performance on small-molecule preclinical pharmacology tasks.",
+      "fullSummary": "A June 18 arXiv cs.AI listing introduced TxBench-PP: Analyzing AI Agent Performance on Small-Molecule Preclinical Pharmacology. The work is relevant to both AI evaluation and biomedical AI because it tests agent behavior on preclinical pharmacology tasks rather than generic reasoning alone. It is included as a research candidate from the daily arXiv pass, with the feed summary intentionally limited to the arXiv listing metadata available during the refresh.",
+      "keyFacts": [
+        "Listed on arXiv cs.AI on June 18, 2026",
+        "The paper is arXiv:2606.19245",
+        "The subject areas are Artificial Intelligence and Machine Learning",
+        "The title focuses on small-molecule preclinical pharmacology"
+      ],
+      "url": "https://arxiv.org/abs/2606.19245",
+      "sourceName": "arXiv",
+      "relatedSources": [
+        "arXiv",
+        "TxBench-PP"
+      ],
+      "lane": "health-science",
+      "publishedAt": "2026-06-18T00:00:00.000Z",
+      "importance": 504,
+      "sourceConfidence": "high",
+      "filterCategory": "papers",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-18T06:30:00.000Z"
+    },
+    {
+      "id": "curated-arxiv-scirisk-bench-ai4science-safety-2026-06-18",
+      "title": "SciRisk-Bench targets AI-for-science safety evaluation",
+      "summary": "A new arXiv submission proposes SciRisk-Bench, a benchmark for evaluating AI-for-science safety risks across multiple risk dimensions.",
+      "fullSummary": "A June 18 arXiv cs.AI listing introduced SciRisk-Bench: A Risk-Dimension-Aware Benchmark for AI4Science Safety. The paper is relevant because AI-for-science systems are moving into higher-stakes research settings, and the refresh workflow calls for benchmark and safety-research coverage. The feed record is based on arXiv listing metadata rather than a full paper review.",
+      "keyFacts": [
+        "Listed on arXiv cs.AI on June 18, 2026",
+        "The paper is arXiv:2606.18936",
+        "The subject areas are Artificial Intelligence and Computers and Society",
+        "The benchmark focuses on AI4Science safety risk dimensions"
+      ],
+      "url": "https://arxiv.org/abs/2606.18936",
+      "sourceName": "arXiv",
+      "relatedSources": [
+        "arXiv",
+        "SciRisk-Bench"
+      ],
+      "lane": "papers",
+      "publishedAt": "2026-06-18T00:00:00.000Z",
+      "importance": 502,
+      "sourceConfidence": "high",
+      "filterCategory": "papers",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-18T06:30:00.000Z"
+    },
+    {
+      "id": "curated-ft-ai-medical-tools-doctor-advice-2026-06-17",
+      "title": "FT says AI medical tools matched or surpassed doctors",
+      "summary": "The Financial Times reported that two health AI models showed clinical value across diagnostic and treatment-advice decisions.",
+      "fullSummary": "The Financial Times listed a June 17 story saying AI medical tools matched or surpassed doctors for advice, with two health models showing clinical value across diagnostic and treatment decisions. The article is paywalled in this environment, so the feed record is marked medium confidence and summarizes only the headline and deck available from the FT AI hub. It is included because healthcare AI was an explicit catch-up lane and the story is current, specialized, and material.",
+      "keyFacts": [
+        "Listed by the Financial Times on June 17, 2026",
+        "The FT deck says two health models showed clinical value",
+        "The article concerns diagnostic and treatment decision support",
+        "Full article text was paywalled during this refresh"
+      ],
+      "url": "https://www.ft.com/content/734a45ee-86c4-47e1-8323-569bc14dcdd7",
+      "sourceName": "Financial Times",
+      "relatedSources": [
+        "Financial Times",
+        "medical AI"
+      ],
+      "lane": "health-science",
+      "publishedAt": "2026-06-17T00:00:00.000Z",
+      "importance": 500,
+      "sourceConfidence": "medium",
+      "filterCategory": "papers",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-18T06:30:00.000Z"
+    },
+    {
+      "id": "curated-uniteai-limitless-labs-20m-physical-ai-2026-06-16",
+      "title": "Limitless Labs raises $20M for physical AI in manufacturing",
+      "summary": "Unite.AI reported that Limitless Labs raised a $20 million Series A to build agentic physical AI for CAD/CAM-driven manufacturing.",
+      "fullSummary": "Unite.AI reported that Limitless Labs raised a $20 million Series A co-led by Dell Technologies Capital and Square Peg. The company is building an agentic physical AI platform for CAD/CAM-driven manufacturing, including CNC programming support embedded in production software. It is a backlog correction because it predates the previous feed timestamp, but it closes an important physical-AI and industrial-adoption gap.",
+      "keyFacts": [
+        "Published June 16, 2026",
+        "Limitless Labs raised $20 million in Series A funding",
+        "Dell Technologies Capital and Square Peg co-led the round",
+        "The company says customers have reduced CNC programming time by up to 50%"
+      ],
+      "url": "https://www.unite.ai/limitless-labs-raises-20m-series-a-to-bring-agentic-ai-into-precision-manufacturing/",
+      "sourceName": "Unite.AI",
+      "relatedSources": [
+        "Unite.AI",
+        "Limitless Labs",
+        "Dell Technologies Capital",
+        "Square Peg"
+      ],
+      "lane": "physical-ai",
+      "publishedAt": "2026-06-16T00:00:00.000Z",
+      "importance": 498,
+      "sourceConfidence": "high",
+      "filterCategory": "funding",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-18T06:30:00.000Z"
+    },
+    {
+      "id": "curated-itpro-forrester-agentic-ai-operational-gap-2026-06-11",
+      "title": "Forrester says most enterprises cannot operationalize agents",
+      "summary": "ITPro covered Forrester research finding that many enterprises are bullish on agentic AI but remain stuck in pilots without the infrastructure to scale.",
+      "fullSummary": "ITPro reported on Forrester research showing that three quarters of enterprise leaders are adopting agentic AI, but only a small minority are using it operationally beyond chatbot-like deployments. The story identifies orchestration, governance, data foundations, and trust as the blockers. It is a 30-day enterprise-adoption catch-up item rather than a fresh last-24-hours story, included because the workflow explicitly calls for empirical adoption and operational-outcome coverage.",
+      "keyFacts": [
+        "Published June 11, 2026 at 14:18:14 UTC",
+        "Forrester found many enterprise agent efforts remain in pilots",
+        "The report frames orchestration, control, and trust as core blockers",
+        "The story says agentic AI should be treated as a distributed system, not a chatbot feature"
+      ],
+      "url": "https://www.itpro.com/technology/artificial-intelligence/most-enterprises-are-still-unprepared-to-operationalize-it-it-leaders-are-bullish-on-agents-but-keeping-falling-at-the-final-hurdle-heres-why",
+      "sourceName": "ITPro",
+      "relatedSources": [
+        "ITPro",
+        "Forrester"
+      ],
+      "lane": "products-adoption",
+      "publishedAt": "2026-06-11T14:18:14.000Z",
+      "importance": 496,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-18T06:30:00.000Z"
+    },
     {
       "id": "curated-wipro-anthropic-claude-coe-2026-06-17",
       "title": "Wipro launches Anthropic Claude AI center in Bengaluru",
