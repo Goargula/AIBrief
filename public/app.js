@@ -1,4 +1,5 @@
 import { FILTER_CATEGORIES, storyFilterType } from "./category.js";
+import { prioritizeSharedStory } from "./story-order.js";
 
 const STORAGE_KEY = "ai-brief-state-v2";
 const INITIAL_RENDER_COUNT = 10;
@@ -599,11 +600,14 @@ function visibleItems() {
 
 function sortedItems() {
   const items = filteredItems();
+  let sorted;
   if (state.sort === "recency") {
-    return items.sort((a, b) => new Date(b.publishedAt) - new Date(a.publishedAt));
+    sorted = items.sort((a, b) => new Date(b.publishedAt) - new Date(a.publishedAt));
+  } else {
+    sorted = items.sort((a, b) => (b.importance || 0) - (a.importance || 0) || new Date(b.publishedAt) - new Date(a.publishedAt));
   }
 
-  return items.sort((a, b) => (b.importance || 0) - (a.importance || 0) || new Date(b.publishedAt) - new Date(a.publishedAt));
+  return prioritizeSharedStory(sorted, state.selectedId);
 }
 
 function buildStory(item) {
@@ -842,7 +846,10 @@ function openInitialSharedStory() {
   }
   if (!state.items.some((item) => item.id === storyId)) return;
   initialSharedStoryHandled = true;
-  jumpToStory(storyId);
+  state.selectedId = storyId;
+  state.filter = "all";
+  state.activeIndex = 0;
+  state.renderedCount = INITIAL_RENDER_COUNT;
 }
 
 function isEditingTarget(target) {
@@ -891,8 +898,9 @@ async function loadFeed() {
     state.items = fallbackItems;
     updateFilterCounts();
   } finally {
-    render();
     openInitialSharedStory();
+    render();
+    storyDeck.scrollTo({ top: 0, behavior: "instant" });
   }
 }
 
@@ -909,6 +917,7 @@ async function fetchFeed() {
 }
 
 function setFilter(filter) {
+  state.selectedId = null;
   state.filter = filter;
   state.activeIndex = 0;
   state.renderedCount = INITIAL_RENDER_COUNT;
@@ -979,6 +988,7 @@ document.querySelectorAll(".sort").forEach((button) => {
     document.querySelector(".sort.active")?.classList.remove("active");
     button.classList.add("active");
     state.sort = button.dataset.sort;
+    state.selectedId = null;
     trackGaEvent("story_sort", { sort_name: button.dataset.sort });
     state.activeIndex = 0;
     state.renderedCount = INITIAL_RENDER_COUNT;
