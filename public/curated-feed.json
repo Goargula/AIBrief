@@ -1,9 +1,510 @@
 {
-  "generatedAt": "2026-06-18T21:50:00.000Z",
+  "generatedAt": "2026-06-19T09:15:00.000Z",
   "nextRefreshAt": "2026-06-18T23:50:00.000Z",
   "summaryEngine": "chat-curated",
   "curated": true,
   "items": [
+    {
+      "id": "curated-techcrunch-asml-euv-china-claim-2026-06-19",
+      "title": "U.S. says ASML's top chip tool may be in China; ASML denies it",
+      "summary": "TechCrunch reported that U.S. Commerce Secretary Howard Lutnick has pressed ASML over claims an EUV lithography machine or related equipment may have reached China, while ASML says no EUV system has ever been there.",
+      "fullSummary": "TechCrunch reported that U.S. officials have raised concerns with ASML about whether one of its extreme ultraviolet lithography systems, or related components and transport equipment, may have ended up in China. ASML says it tracks every EUV machine it has shipped and that no such system exists, or has ever existed, in China. The dispute matters because EUV tools are central to the most advanced AI chips and are subject to long-running export controls. TechCrunch also notes that a bipartisan bill would tighten restrictions on ASML's less advanced DUV shipments to China, which could affect a meaningful slice of ASML's 2026 revenue.",
+      "keyFacts": [
+        "Published June 19, 2026 at 07:59 UTC",
+        "U.S. officials are questioning whether EUV-related ASML equipment reached China",
+        "ASML says no EUV system exists or has existed in China",
+        "A separate U.S. bill would restrict ASML DUV shipments to China"
+      ],
+      "url": "https://techcrunch.com/2026/06/19/the-us-says-asmls-top-chip-tool-may-be-in-china-asml-says-it-isnt/",
+      "sourceName": "TechCrunch",
+      "relatedSources": [
+        "TechCrunch",
+        "ASML",
+        "U.S. Commerce Department",
+        "Bloomberg"
+      ],
+      "lane": "infrastructure",
+      "publishedAt": "2026-06-19T07:59:00.000Z",
+      "importance": 570,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-19T09:15:00.000Z",
+      "whyItMatters": "Advanced-chip export controls are moving from abstract rules to disputes over the physical supply chain that underpins frontier AI compute."
+    },
+    {
+      "id": "curated-verge-barret-zoph-openai-exit-2026-06-19",
+      "title": "Barret Zoph leaves OpenAI again after five months",
+      "summary": "The Verge reported that Barret Zoph, OpenAI's head of enterprise AI sales, has left the company five months after returning from Mira Murati's Thinking Machines Lab.",
+      "fullSummary": "The Verge reported that Barret Zoph has departed OpenAI after returning in January to lead enterprise AI sales. His role mattered because OpenAI has been trying to focus more tightly on enterprise and coding revenue ahead of a planned IPO. Zoph previously left OpenAI for Thinking Machines Lab, the AI company founded by former OpenAI CTO Mira Murati, before returning with two colleagues earlier this year. OpenAI confirmed the departure to The Verge, and Zoph posted a goodbye message internally.",
+      "keyFacts": [
+        "Published June 19, 2026 at 04:49 UTC",
+        "Zoph was OpenAI's head of enterprise AI sales",
+        "He had returned to OpenAI in January 2026",
+        "OpenAI confirmed the departure to The Verge"
+      ],
+      "url": "https://www.theverge.com/ai-artificial-intelligence/952837/barret-zoph-openai-thinking-machines-lab",
+      "sourceName": "The Verge",
+      "relatedSources": [
+        "The Verge",
+        "OpenAI",
+        "Thinking Machines Lab"
+      ],
+      "lane": "products-adoption",
+      "publishedAt": "2026-06-19T04:49:33.000Z",
+      "importance": 553,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-19T09:15:00.000Z",
+      "whyItMatters": "OpenAI's enterprise push depends on execution and sales leadership, so another senior departure is part of the company's pre-IPO operating-risk story."
+    },
+    {
+      "id": "curated-ft-ai-usage-cost-caps-2026-06-19",
+      "title": "Companies rein in AI usage as agent costs strain budgets",
+      "summary": "The Financial Times reported that Amazon, Walmart, Cisco, Uber, Meta and others are capping or steering AI usage as token-based pricing makes agents more expensive to run at scale.",
+      "fullSummary": "The Financial Times reported that companies that rushed to put AI tools in workers' hands are now limiting usage, discouraging waste, or routing employees toward cheaper models as costs rise. The article says the shift is especially visible as workers move from chatbots to AI agents, which consume more compute and expose companies to token-based billing from providers such as Anthropic and OpenAI. Uber reportedly capped individual monthly token spend at $1,500 after exhausting its AI budget early in the year, while Walmart, Amazon, Meta, Cisco and Workato are also managing AI spending more tightly. The story frames this as a new phase of enterprise AI adoption: adoption is still growing, but cost discipline is becoming a board-level constraint.",
+      "keyFacts": [
+        "Published June 19, 2026 at 04:00 UTC",
+        "The FT names Amazon, Walmart, Cisco, Uber and Meta among companies managing AI usage costs",
+        "Uber reportedly capped individual AI token spending at $1,500 per month",
+        "Agent workflows consume more compute than basic chatbot use"
+      ],
+      "url": "https://www.ft.com/content/1d37cc08-e0aa-45a4-a45d-4ad282529314",
+      "sourceName": "Financial Times",
+      "relatedSources": [
+        "Financial Times",
+        "Amazon",
+        "Walmart",
+        "Cisco",
+        "Uber",
+        "Meta",
+        "OpenAI",
+        "Anthropic"
+      ],
+      "lane": "products-adoption",
+      "publishedAt": "2026-06-19T04:00:11.000Z",
+      "importance": 566,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-19T09:15:00.000Z",
+      "whyItMatters": "The enterprise AI story is shifting from whether employees will use agents to whether companies can afford uncontrolled agent usage at scale."
+    },
+    {
+      "id": "curated-ai-news-5g-ai-traffic-pressure-2026-06-19",
+      "title": "AI traffic adds pressure as 5G subscriptions pass 3 billion",
+      "summary": "Telecoms Tech News reported via AI News that rising AI traffic is putting new pressure on mobile networks as global 5G subscriptions pass the 3 billion mark.",
+      "fullSummary": "Telecoms Tech News, surfaced on AI News, reported that AI-heavy traffic is becoming a larger consideration for mobile networks as global 5G subscriptions pass 3 billion. The story ties AI workloads and consumer services to network-capacity planning, with operators facing higher expectations for low latency, throughput, and reliability. It also points to the broader infrastructure layer behind AI adoption: model and app usage does not only stress data centers, it changes traffic patterns across telecom networks.",
+      "keyFacts": [
+        "Published June 19, 2026",
+        "Global 5G subscriptions have passed 3 billion",
+        "AI traffic is adding pressure to telecom network planning",
+        "The story was surfaced in AI News related coverage"
+      ],
+      "url": "https://www.telecomstechnews.com/news/ai-traffic-pressures-5g-networks-subscriptions-pass-3-billion/",
+      "sourceName": "Telecoms Tech News",
+      "relatedSources": [
+        "Telecoms Tech News",
+        "AI News"
+      ],
+      "lane": "infrastructure",
+      "publishedAt": "2026-06-19T03:30:00.000Z",
+      "importance": 536,
+      "sourceConfidence": "medium",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-19T09:15:00.000Z",
+      "whyItMatters": "AI infrastructure is not only a GPU and power-grid problem; mobile networks are also becoming part of the capacity story."
+    },
+    {
+      "id": "curated-techcrunch-elastic-deductiveai-acquisition-2026-06-18",
+      "title": "Elastic agrees to buy DeductiveAI for up to $85 million",
+      "summary": "TechCrunch reported that Elastic has agreed to acquire DeductiveAI, an AI site reliability engineering startup, for up to $85 million.",
+      "fullSummary": "TechCrunch reported that DeductiveAI, a startup using AI to catch and resolve software bugs, has agreed to be sold to Elastic for up to $85 million. DeductiveAI emerged from stealth last November after raising a $7.5 million seed round led by CRV. The company works in AI site reliability engineering, a sector growing as teams try to handle outages and performance issues created or exposed by AI-written software. TechCrunch says Elastic's observability platform could use DeductiveAI's technology to monitor and resolve failures in real time.",
+      "keyFacts": [
+        "Published June 19, 2026 at 00:51 UTC",
+        "Deal value is reported at up to $85 million",
+        "DeductiveAI raised a $7.5 million seed round in 2025",
+        "The acquisition targets AI-powered observability and SRE workflows"
+      ],
+      "url": "https://techcrunch.com/2026/06/18/source-elastic-agrees-to-buy-crv-backed-deductiveai-for-up-to-85m/",
+      "sourceName": "TechCrunch",
+      "relatedSources": [
+        "TechCrunch",
+        "Elastic",
+        "DeductiveAI",
+        "CRV"
+      ],
+      "lane": "funding",
+      "publishedAt": "2026-06-19T00:51:00.000Z",
+      "importance": 548,
+      "sourceConfidence": "high",
+      "filterCategory": "funding",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-19T09:15:00.000Z",
+      "whyItMatters": "AI-native tooling is being pulled into incumbent software platforms, especially where AI-generated code creates new monitoring and reliability needs."
+    },
+    {
+      "id": "curated-techcrunch-baseten-1-5b-raise-2026-06-18",
+      "title": "Baseten reportedly nears $1.5 billion round at $13 billion valuation",
+      "summary": "TechCrunch reported that AI inference startup Baseten is close to a $1.5 billion funding round that could value the company at $13 billion, months after a $300 million Series E.",
+      "fullSummary": "TechCrunch reported that Baseten, an AI inference company, is close to finalizing a $1.5 billion funding round at a reported $13 billion valuation. The round would come only five months after Baseten announced a $300 million Series E at a $5 billion valuation. The report says some investors may be coming in at $13 billion and others at $11 billion in a split-priced structure. Baseten sells infrastructure for fast, cost-controlled inference and routing, positioning itself inside the fast-growing inference layer rather than model training itself.",
+      "keyFacts": [
+        "Published June 18, 2026 at 21:20 UTC",
+        "Reported round size is $1.5 billion",
+        "Reported headline valuation is $13 billion",
+        "Baseten last announced a $300 million Series E at a $5 billion valuation"
+      ],
+      "url": "https://techcrunch.com/2026/06/18/ai-inference-startup-baseten-reportedly-raising-1-5b-months-after-its-last-mega-round/",
+      "sourceName": "TechCrunch",
+      "relatedSources": [
+        "TechCrunch",
+        "Baseten",
+        "Wall Street Journal",
+        "Spark Capital"
+      ],
+      "lane": "funding",
+      "publishedAt": "2026-06-18T21:20:00.000Z",
+      "importance": 556,
+      "sourceConfidence": "high",
+      "filterCategory": "funding",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-19T09:15:00.000Z",
+      "whyItMatters": "Investor attention is moving deeper into inference infrastructure, where cost and routing may matter as much as frontier-model access."
+    },
+    {
+      "id": "curated-ft-uk-police-ai-chatbot-convictions-2026-06-18",
+      "title": "UK rape convictions reviewed after detective allegedly used AI chatbot for paperwork",
+      "summary": "The Financial Times reported that several UK rape convictions are under review after a Derbyshire detective allegedly used biased AI prompts to prepare legal paperwork.",
+      "fullSummary": "The Financial Times reported that several rape convictions are being reviewed after a Derbyshire Police detective was suspended over alleged AI use in case paperwork. A person familiar with the matter told the FT the officer allegedly asked AI software to generate materials slanted toward police-preferred outcomes, including victim impact statements and prosecution briefings. Derbyshire Police is investigating possible offences of perverting the course of justice, while the Crown Prosecution Service is engaging with defence lawyers and courts. The case adds to pressure on police forces to control AI use in legal and evidentiary documents.",
+      "keyFacts": [
+        "Published June 18, 2026 at 18:18 UTC",
+        "Several rape convictions are under review",
+        "The allegation concerns biased prompts used for legal paperwork",
+        "PoliceAI has asked some forces to pause AI use for court documents"
+      ],
+      "url": "https://www.ft.com/content/4d1db23d-7747-4e8a-a95f-d63af64458c2",
+      "sourceName": "Financial Times",
+      "relatedSources": [
+        "Financial Times",
+        "Derbyshire Police",
+        "Crown Prosecution Service",
+        "PoliceAI"
+      ],
+      "lane": "policy-safety",
+      "publishedAt": "2026-06-18T18:18:12.000Z",
+      "importance": 562,
+      "sourceConfidence": "high",
+      "filterCategory": "pushback",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-19T09:15:00.000Z",
+      "whyItMatters": "AI use in justice systems can affect due process directly, making auditability and prompt controls more than an internal productivity issue."
+    },
+    {
+      "id": "curated-verge-amazon-employees-data-center-limits-2026-06-18",
+      "title": "Amazon employees file complaint over data-center-limit testimony",
+      "summary": "The Verge reported that three Amazon engineers say they faced HR investigations after backing Seattle limits on large data centers, and have filed a legal complaint.",
+      "fullSummary": "The Verge reported that three Amazon software engineers filed a complaint with Seattle's Office for Civil Rights after testifying in support of a moratorium on large-scale data centers. The employees, who are members of Amazon Employees for Climate Justice, say HR representatives investigated them after their testimony and warned that discipline could include termination. Amazon denies retaliatory plans and says it is reviewing possible policy violations. The dispute comes after Seattle passed a one-year moratorium on large data centers while it studies effects on land use, public health, water, jobs, utility rates, and infrastructure.",
+      "keyFacts": [
+        "Published June 18, 2026 at 16:00 UTC",
+        "Three Amazon engineers filed a legal complaint in Seattle",
+        "The testimony concerned a moratorium on large data centers",
+        "Amazon says no termination decision has been made"
+      ],
+      "url": "https://www.theverge.com/ai-artificial-intelligence/952180/amazon-seattle-data-center-moratorium-aecj-disciplinary-action",
+      "sourceName": "The Verge",
+      "relatedSources": [
+        "The Verge",
+        "Amazon",
+        "Amazon Employees for Climate Justice",
+        "Seattle City Council"
+      ],
+      "lane": "policy-safety",
+      "publishedAt": "2026-06-18T16:00:00.000Z",
+      "importance": 552,
+      "sourceConfidence": "high",
+      "filterCategory": "pushback",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-19T09:15:00.000Z",
+      "whyItMatters": "Community resistance to AI data centers is now intersecting with employee speech and labor rights inside the companies building that infrastructure."
+    },
+    {
+      "id": "curated-techcrunch-snap-dotmo-ai-video-spinoff-2026-06-18",
+      "title": "Snap spins off AI video team into Dotmo",
+      "summary": "TechCrunch reported that Snap is spinning out an internal generative AI video group into Dotmo, a company focused on AI models for interactive gaming experiences.",
+      "fullSummary": "TechCrunch reported that Snap will spin off an internal generative AI video team into a separate company called Dotmo. Dotmo will focus on AI models for interactive gaming experiences and will receive a license to adapt Snap technology for gaming and interactive entertainment platforms. Snap said the cost of doing the work internally was one reason for the spinoff. CTO Bobby Murphy will be the lead investor while continuing to work full time at Snap, and Snap will retain a large equity stake in the new company.",
+      "keyFacts": [
+        "Published June 18, 2026 at 20:30 UTC",
+        "Dotmo will focus on AI video models for interactive gaming",
+        "Snap cites internal cost as one reason for the spinoff",
+        "Snap CTO Bobby Murphy will be lead investor"
+      ],
+      "url": "https://techcrunch.com/2026/06/18/snap-spins-off-ai-video-team-into-new-company-dotmo-due-to-costs/",
+      "sourceName": "TechCrunch",
+      "relatedSources": [
+        "TechCrunch",
+        "Snap",
+        "Dotmo"
+      ],
+      "lane": "products-adoption",
+      "publishedAt": "2026-06-18T20:30:00.000Z",
+      "importance": 541,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-19T09:15:00.000Z",
+      "whyItMatters": "High AI development costs are pushing some companies to restructure research teams instead of keeping every generative project in-house."
+    },
+    {
+      "id": "curated-techcrunch-amazon-trainium-third-party-sales-2026-06-18",
+      "title": "Amazon weighs selling Trainium AI chips outside AWS",
+      "summary": "TechCrunch reported that AWS is in early talks to sell Trainium AI chips to other companies for use in data centers, potentially challenging Nvidia more directly.",
+      "fullSummary": "TechCrunch reported that Amazon Web Services is considering selling its Trainium AI chips to third parties for use in data centers. Amazon AI chief Peter DeSantis told Bloomberg the company is in talks over such sales, though Amazon says the idea remains early. CEO Andy Jassy previously suggested the chip business could represent about a $50 billion annual run rate if sold as a standalone business. TechCrunch notes that selling chips directly would force Amazon to balance external demand against its own AWS capacity needs.",
+      "keyFacts": [
+        "Published June 18, 2026 at 18:22 UTC",
+        "AWS is discussing third-party Trainium chip sales",
+        "Jassy has framed AWS chips as a possible $50 billion standalone run-rate business",
+        "Trainium capacity has reportedly sold out quickly for AWS"
+      ],
+      "url": "https://techcrunch.com/2026/06/18/amazon-hopes-to-challenge-nvidia-more-directly-by-selling-its-ai-chips/",
+      "sourceName": "TechCrunch",
+      "relatedSources": [
+        "TechCrunch",
+        "Amazon",
+        "AWS",
+        "Nvidia",
+        "Bloomberg"
+      ],
+      "lane": "infrastructure",
+      "publishedAt": "2026-06-18T18:22:00.000Z",
+      "importance": 555,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-19T09:15:00.000Z",
+      "whyItMatters": "Hyperscalers are no longer just buyers of AI chips; Amazon is testing whether its internal silicon can become an external platform."
+    },
+    {
+      "id": "curated-techcrunch-general-intuition-300m-world-models-2026-06-18",
+      "title": "General Intuition seeks $300 million for world-model work",
+      "summary": "TechCrunch reported that General Intuition is in talks to raise about $300 million at a valuation just over $2 billion for spatial-temporal AI and world models.",
+      "fullSummary": "TechCrunch reported that General Intuition is in talks to raise around $300 million at a valuation just over $2 billion. The startup spun out of Medal and is building foundation models that train AI agents to move through space and time. TechCrunch says General Intuition uses Medal's dataset of roughly 2 billion gameplay videos per year from 10 million monthly active users to train spatial-temporal reasoning in simulation. Backers are said to include Jeff Bezos, Eric Schmidt, Khosla Ventures, and General Catalyst.",
+      "keyFacts": [
+        "Published June 18, 2026 at 15:20 UTC",
+        "Reported round size is around $300 million",
+        "Reported valuation is just over $2 billion",
+        "The company trains world models using Medal gameplay video data"
+      ],
+      "url": "https://techcrunch.com/2026/06/18/general-intuition-in-talks-to-raise-300m-at-around-2b-valuation/",
+      "sourceName": "TechCrunch",
+      "relatedSources": [
+        "TechCrunch",
+        "General Intuition",
+        "Medal",
+        "Khosla Ventures",
+        "General Catalyst"
+      ],
+      "lane": "funding",
+      "publishedAt": "2026-06-18T15:20:00.000Z",
+      "importance": 549,
+      "sourceConfidence": "high",
+      "filterCategory": "funding",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-19T09:15:00.000Z",
+      "whyItMatters": "World-model startups are becoming a serious funding lane as labs look for data that can teach agents physical and interactive reasoning."
+    },
+    {
+      "id": "curated-techcrunch-guardrails-alliance-pac-ai-2026-06-18",
+      "title": "Tech worker-backed PAC launches to support AI guardrail laws",
+      "summary": "TechCrunch reported that Guardrails Alliance, a new super PAC backed by tech workers and labor groups, launched with about $5 million to support AI legislation.",
+      "fullSummary": "TechCrunch reported that Guardrails Alliance, a new super PAC, has launched with backing from tech employees, labor unions, and other groups. The PAC says it wants to support AI legislation and position itself as a counterweight to better-funded tech-backed political efforts such as Leading the Future. TechCrunch says Guardrails has about $5 million available now and plans to raise $15 million this cycle, compared with more than $100 million for Leading the Future. The group is already buying ads in a New York congressional primary.",
+      "keyFacts": [
+        "Published June 18, 2026 at 15:13 UTC",
+        "Guardrails Alliance launched with about $5 million",
+        "The PAC plans to raise $15 million this cycle",
+        "The group supports AI legislation and worker-backed political pressure"
+      ],
+      "url": "https://techcrunch.com/2026/06/18/a-tech-worker-backed-pac-is-bringing-a-5m-knife-to-big-techs-100m-gunfight/",
+      "sourceName": "TechCrunch",
+      "relatedSources": [
+        "TechCrunch",
+        "Guardrails Alliance",
+        "Leading the Future",
+        "New York Times"
+      ],
+      "lane": "policy-safety",
+      "publishedAt": "2026-06-18T15:13:00.000Z",
+      "importance": 545,
+      "sourceConfidence": "high",
+      "filterCategory": "pushback",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-19T09:15:00.000Z",
+      "whyItMatters": "AI policy fights are becoming electoral fights, with worker and labor groups trying to counterbalance industry-funded campaigns."
+    },
+    {
+      "id": "curated-ai-news-retail-computer-vision-productivity-2026-06-18",
+      "title": "Retail computer-vision deployments show productivity gains",
+      "summary": "AI News reported that retailers are scaling computer-vision systems for shelf tracking, pricing accuracy, and fulfillment after a study put operational losses at $196.4 billion in 2026.",
+      "fullSummary": "AI News reported that computer-vision deployments are gaining traction in retail as operators try to fix shelf availability, pricing, and in-store execution problems. The article cites a Coresight Research study with Simbe and RELEX estimating that operational shortfalls consume 6.4% of gross sales and will cost hardware, mass merchandise, and grocery retailers $196.4 billion in 2026. It says full-scale store-intelligence deployments now cover 60% of enterprise footprints, up 18 percentage points year over year, while BJ's Wholesale Club reported a 40% year-over-year improvement in picking efficiency after deploying shelf-digitization tools.",
+      "keyFacts": [
+        "Published June 18, 2026",
+        "Operational shortfalls are estimated at $196.4 billion in 2026",
+        "Full-scale deployments cover 60% of enterprise footprints",
+        "BJ's reported a 40% year-over-year picking-efficiency improvement"
+      ],
+      "url": "https://www.artificialintelligence-news.com/news/computer-vision-deployments-drive-retail-productivity-gains/",
+      "sourceName": "AI News",
+      "relatedSources": [
+        "AI News",
+        "Coresight Research",
+        "Simbe",
+        "RELEX Solutions",
+        "BJ's Wholesale Club",
+        "Albertsons"
+      ],
+      "lane": "products-adoption",
+      "publishedAt": "2026-06-18T13:30:00.000Z",
+      "importance": 538,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-19T09:15:00.000Z",
+      "whyItMatters": "This is a concrete deployment story with measured operational impact, not just another generic AI retail pilot."
+    },
+    {
+      "id": "curated-ai-news-mavenir-token-billing-2026-06-18",
+      "title": "Mavenir launches telecom AI token billing infrastructure",
+      "summary": "Telecoms Tech News reported via AI News that Mavenir has launched infrastructure for billing AI usage by tokens in telecom environments.",
+      "fullSummary": "Telecoms Tech News, surfaced through AI News, reported that Mavenir has launched telecom infrastructure for AI token billing. The move brings the token-metering logic common in AI platforms into telecom service infrastructure, giving operators a way to account for AI-driven usage as networks add more AI services. The story points to a practical monetization layer for AI traffic and services, especially as carriers look for business models around AI-enabled network functions and customer-facing applications.",
+      "keyFacts": [
+        "Published June 18, 2026",
+        "Mavenir launched telecom AI token billing infrastructure",
+        "The system targets AI usage accounting in telecom environments",
+        "The story was surfaced in AI News related coverage"
+      ],
+      "url": "https://www.telecomstechnews.com/news/mavenir-telecom-ai-token-billing-infrastructure/",
+      "sourceName": "Telecoms Tech News",
+      "relatedSources": [
+        "Telecoms Tech News",
+        "AI News",
+        "Mavenir"
+      ],
+      "lane": "infrastructure",
+      "publishedAt": "2026-06-18T12:45:00.000Z",
+      "importance": 531,
+      "sourceConfidence": "medium",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-19T09:15:00.000Z",
+      "whyItMatters": "As AI traffic grows, telecom providers are building billing and metering primitives rather than treating AI as ordinary data usage."
+    },
+    {
+      "id": "curated-developer-tech-block-builderbot-2026-06-18",
+      "title": "Block automates software development with Builderbot",
+      "summary": "Developer Tech reported via AI News that Block has introduced Builderbot, a framework for automating parts of software development.",
+      "fullSummary": "Developer Tech, surfaced through AI News, reported that Block has introduced Builderbot, a framework aimed at automating parts of software development. The story places Builderbot in the broader move toward agentic developer workflows, where companies are trying to coordinate coding, review, and implementation tasks rather than only generate snippets. It also adds another large-company example to the practical AI coding-tools lane, beyond the usual standalone AI coding startups.",
+      "keyFacts": [
+        "Published June 18, 2026",
+        "Block introduced the Builderbot framework",
+        "The framework targets software-development automation",
+        "The story was surfaced in AI News related coverage"
+      ],
+      "url": "https://www.developer-tech.com/news/block-automates-software-development-builderbot-framework/",
+      "sourceName": "Developer Tech",
+      "relatedSources": [
+        "Developer Tech",
+        "AI News",
+        "Block"
+      ],
+      "lane": "products-adoption",
+      "publishedAt": "2026-06-18T12:15:00.000Z",
+      "importance": 533,
+      "sourceConfidence": "medium",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-19T09:15:00.000Z",
+      "whyItMatters": "AI coding agents are becoming internal platform work at major companies, not only third-party tools developers subscribe to."
+    },
+    {
+      "id": "curated-openai-chatgpt-health-intelligence-2026-06-18",
+      "title": "OpenAI updates health intelligence in ChatGPT",
+      "summary": "OpenAI announced updates to health intelligence in ChatGPT, part of a broader June 18 set of product and applied-health releases.",
+      "fullSummary": "OpenAI announced improvements to health intelligence in ChatGPT on June 18. The update sits alongside OpenAI's applied-health work on rare genetic disease diagnosis and life-sciences research tools, signaling a more explicit push into medical and health-advice contexts. The company is presenting these releases as product and applied-AI work rather than only research benchmarks, which raises the stakes for accuracy, safety, and user guidance in health-related interactions.",
+      "keyFacts": [
+        "Published June 18, 2026",
+        "OpenAI listed the release under Product",
+        "The update focuses on health intelligence in ChatGPT",
+        "It appeared alongside OpenAI applied-health and life-sciences releases"
+      ],
+      "url": "https://openai.com/index/improving-health-intelligence-in-chatgpt/",
+      "sourceName": "OpenAI",
+      "relatedSources": [
+        "OpenAI",
+        "ChatGPT"
+      ],
+      "lane": "health-science",
+      "publishedAt": "2026-06-18T11:30:00.000Z",
+      "importance": 540,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-19T09:15:00.000Z",
+      "whyItMatters": "Health is one of the highest-stakes consumer AI categories, so product-level changes in ChatGPT deserve separate tracking from general model updates."
+    },
+    {
+      "id": "curated-openai-rare-genetic-disease-diagnosis-2026-06-18",
+      "title": "OpenAI applies AI to rare genetic disease diagnosis",
+      "summary": "OpenAI published an applied-AI case on using AI to help physicians diagnose rare genetic diseases affecting children.",
+      "fullSummary": "OpenAI published an applied-AI update about using AI to help physicians diagnose rare genetic diseases affecting children. The release appeared alongside OpenAI's June 18 health-intelligence update and follows recent life-sciences benchmark work. The article signals that OpenAI is moving medical AI work into clinician-support contexts where evidence handling, uncertainty, and workflow fit matter as much as raw model capability.",
+      "keyFacts": [
+        "Published June 18, 2026",
+        "The release concerns rare genetic diseases affecting children",
+        "OpenAI categorized it as Applied AI",
+        "The work targets physician diagnostic support"
+      ],
+      "url": "https://openai.com/index/diagnose-rare-childhood-diseases/",
+      "sourceName": "OpenAI",
+      "relatedSources": [
+        "OpenAI",
+        "Boston Children's Hospital"
+      ],
+      "lane": "health-science",
+      "publishedAt": "2026-06-18T11:15:00.000Z",
+      "importance": 539,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-19T09:15:00.000Z",
+      "whyItMatters": "Rare-disease diagnosis is a concrete medical workflow where AI could help clinicians, but only if evidence quality and oversight are handled carefully."
+    },
+    {
+      "id": "curated-ft-accenture-ai-threat-shares-2026-06-18",
+      "title": "Accenture shares slide as investors weigh AI threat",
+      "summary": "The Financial Times reported that Accenture shares fell to their lowest level since 2017 after weaker bookings and guidance renewed concern that AI will disrupt traditional consulting and outsourcing.",
+      "fullSummary": "The Financial Times reported that Accenture shares closed 18% lower after the consulting group cut its revenue forecast and reported a 3% decline in new bookings for the quarter ending in May. Investors are questioning whether AI will shrink demand for traditional IT and outsourcing services or create new competition from AI-native firms. Accenture says it is still winning AI adoption work, but overall corporate IT budgets have not risen and clients are spending differently. The company is also expanding acquisitions, including cybersecurity deals tied to AI-era threats.",
+      "keyFacts": [
+        "Published June 18, 2026 at 11:49 UTC",
+        "Accenture shares closed 18% lower",
+        "New bookings fell 3% year over year",
+        "The company raised its acquisition budget to $9 billion for the fiscal year"
+      ],
+      "url": "https://www.ft.com/content/9f063b07-da39-4feb-92ab-ee0f91385c62",
+      "sourceName": "Financial Times",
+      "relatedSources": [
+        "Financial Times",
+        "Accenture",
+        "Jefferies"
+      ],
+      "lane": "products-adoption",
+      "publishedAt": "2026-06-18T11:49:58.000Z",
+      "importance": 544,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-19T09:15:00.000Z",
+      "whyItMatters": "AI disruption is now showing up in public-market pressure on consulting business models, not just in speculative workforce forecasts."
+    },
     {
       "id": "curated-axios-openai-devices-ha-thai-2026-06-18",
       "title": "OpenAI hires Ha Thai to lead communications for devices",
