@@ -1,9 +1,148 @@
 {
-  "generatedAt": "2026-06-19T09:15:00.000Z",
-  "nextRefreshAt": "2026-06-18T23:50:00.000Z",
+  "generatedAt": "2026-06-20T07:20:00.000Z",
+  "nextRefreshAt": "2026-06-20T23:50:00.000Z",
   "summaryEngine": "chat-curated",
   "curated": true,
   "items": [
+    {
+      "id": "curated-lemonde-palantir-france-dgsi-contract-2026-06-19",
+      "title": "Palantir pushes back after France names DGSI replacement",
+      "summary": "Le Monde reported that Palantir objected to France's announcement that domestic firm ChapsVision will replace its software for the DGSI, while Palantir says the transition may take months or years and its current contract remains in force.",
+      "fullSummary": "Le Monde reported that Palantir executives criticized the way French Prime Minister Sebastien Lecornu announced that ChapsVision would replace Palantir's software at France's domestic intelligence agency, the DGSI. Palantir says it learned of the move through the public announcement, that the replacement may take months or years, and that its renewed contract continues while the transition proceeds. The company also argued that the June Anthropic export-control dispute should not be used to imply a remote shutoff risk for its DGSI deployment, which it says runs on a closed French-controlled network.",
+      "keyFacts": [
+        "Published June 19, 2026 at 20:00 UTC",
+        "France selected ChapsVision to replace Palantir for DGSI software",
+        "Palantir says the transition could take months or years",
+        "The company says the DGSI deployment runs on a closed network controlled by French authorities"
+      ],
+      "url": "https://www.lemonde.fr/en/economy/article/2026/06/19/palantir-objects-to-france-ending-domestic-security-contract-you-can-t-do-this-on-instagram-this-is-a-very-serious-matter_6754679_19.html",
+      "sourceName": "Le Monde",
+      "relatedSources": [
+        "Le Monde",
+        "Palantir",
+        "ChapsVision",
+        "DGSI"
+      ],
+      "lane": "policy-safety",
+      "publishedAt": "2026-06-19T20:00:40.000Z",
+      "importance": 565,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-20T07:20:00.000Z",
+      "whyItMatters": "The Palantir dispute shows how the Anthropic export-control shock is spilling into government procurement and making sovereign AI infrastructure a practical security question."
+    },
+    {
+      "id": "curated-businessinsider-john-jumper-anthropic-2026-06-19",
+      "title": "AlphaFold pioneer John Jumper leaves DeepMind for Anthropic",
+      "summary": "Business Insider reported that John Jumper, the Nobel-winning AlphaFold researcher, is leaving Google DeepMind to join Anthropic after nearly a decade at Google.",
+      "fullSummary": "Business Insider reported that John Jumper, who shared the 2024 Nobel Prize in Chemistry with Google DeepMind CEO Demis Hassabis for AlphaFold, is leaving Google DeepMind to join Anthropic. Jumper worked at Google for nearly a decade and helped lead the AlphaFold work that produced a large public resource of protein structure predictions. He has not yet said what role he will take at Anthropic, and said he plans to take time to recharge first. The move adds to the flow of senior AI and science talent from large labs into frontier AI startups.",
+      "keyFacts": [
+        "Published June 19, 2026 at 18:33 UTC",
+        "John Jumper co-led AlphaFold at Google DeepMind",
+        "Jumper shared the 2024 Nobel Prize in Chemistry with Demis Hassabis",
+        "He is leaving Google DeepMind to join Anthropic"
+      ],
+      "url": "https://www.businessinsider.com/alphafold-john-jumper-leaves-google-deepmind-anthropic-demis-hassabis-nobel-2026-6",
+      "sourceName": "Business Insider",
+      "relatedSources": [
+        "Business Insider",
+        "Google DeepMind",
+        "Anthropic",
+        "AlphaFold"
+      ],
+      "lane": "health-science",
+      "publishedAt": "2026-06-19T18:33:39.000Z",
+      "importance": 548,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-20T07:20:00.000Z",
+      "whyItMatters": "Anthropic gaining one of AlphaFold's central researchers matters because frontier labs are competing not just for model engineers, but for people who can turn AI into scientific infrastructure."
+    },
+    {
+      "id": "curated-techcrunch-reliance-jio-ai-every-call-app-home-2026-06-19",
+      "title": "Reliance pitches AI for every Jio call, app, and home",
+      "summary": "TechCrunch reported that Mukesh Ambani's Reliance unveiled AI services for Jio calls, the MyJio app, connected-home displays, healthcare, education, agriculture, and small businesses.",
+      "fullSummary": "TechCrunch reported that Reliance Industries is positioning itself as a national AI champion in India with a suite of Jio AI services. The company announced Jio Call Agent, which can join calls to transcribe, summarize, and perform tasks such as booking cabs or making reservations, and said it expects to launch the service later this year for Jio's more than 500 million users. Reliance also introduced an AI-powered MyJio app, a TeleFrame home display, and AI services for healthcare, education, agriculture, and small businesses. The rollout follows Reliance's broader AI infrastructure plans and partnerships with Google, Meta, and Nvidia.",
+      "keyFacts": [
+        "Published June 19, 2026 at 15:23 UTC",
+        "Jio Call Agent is designed to work directly inside phone calls",
+        "Reliance says Jio has more than 500 million users",
+        "The company also announced AI services for health, education, agriculture, and small businesses"
+      ],
+      "url": "https://techcrunch.com/2026/06/19/billionaire-ambani-wants-ai-in-every-call-app-and-home/",
+      "sourceName": "TechCrunch",
+      "relatedSources": [
+        "TechCrunch",
+        "Reliance Industries",
+        "Jio",
+        "Mukesh Ambani"
+      ],
+      "lane": "regional",
+      "publishedAt": "2026-06-19T15:23:00.000Z",
+      "importance": 552,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-20T07:20:00.000Z",
+      "whyItMatters": "Reliance has the distribution to make AI a default telecom and app-layer feature in India, which changes the regional AI adoption story from pilots to mass-market infrastructure."
+    },
+    {
+      "id": "curated-ai-news-sap-google-cloud-agentic-commerce-2026-06-19",
+      "title": "SAP and Google Cloud build agentic commerce plumbing",
+      "summary": "AI News reported that SAP and Google Cloud are expanding their partnership around agentic commerce, connecting SAP customer data, BigQuery, Gemini models, and the Universal Commerce Protocol.",
+      "fullSummary": "AI News reported that SAP and Google Cloud are deploying an agentic commerce architecture meant to let AI agents operate across marketing, customer experience, inventory, payments, and post-sale support. SAP Commerce Cloud is adopting the Universal Commerce Protocol so agents can interact with commerce platforms, while SAP Engagement Cloud connects with Google BigQuery through Business Data Cloud Connect. The companies also plan to use Gemini models for shopping assistants, localized campaign generation, and Rich Communication Services messaging. The stated goal is to make AI recommendations and transactions aware of live inventory, customer context, and backend fulfillment constraints.",
+      "keyFacts": [
+        "Published June 19, 2026",
+        "SAP Commerce Cloud is adopting the Universal Commerce Protocol",
+        "SAP and Google Cloud are linking SAP Business Data Cloud Connect with BigQuery",
+        "Gemini models will support shopping assistants and campaign generation"
+      ],
+      "url": "https://www.artificialintelligence-news.com/news/sap-and-google-cloud-deploy-agentic-commerce-architecture/",
+      "sourceName": "AI News",
+      "relatedSources": [
+        "AI News",
+        "SAP",
+        "Google Cloud",
+        "Gemini"
+      ],
+      "lane": "products-adoption",
+      "publishedAt": "2026-06-19T12:00:00.000Z",
+      "importance": 538,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-20T07:20:00.000Z",
+      "whyItMatters": "Agentic commerce only works if agents can see inventory, payments, and customer context together, so this is a plumbing story rather than just another shopping assistant launch."
+    },
+    {
+      "id": "curated-itpro-uk-ai-talent-shortage-2026-06-19",
+      "title": "Report warns the UK could leave half its AI roles unfilled",
+      "summary": "ITPro reported that research from Native Teams and Robert Walters projects UK AI demand near 300,000 roles by 2028, against domestic supply of about 137,000.",
+      "fullSummary": "ITPro reported that new research from Native Teams and Robert Walters projects a severe UK AI talent shortage by 2028. The report estimates demand could reach nearly 300,000 AI roles, while domestic supply may be only about 137,000. The researchers argue that companies are increasingly turning to cross-border hiring as payroll, compliance, and remote-work infrastructure mature. They also frame AI talent availability as a bottleneck for turning AI investment into measurable productivity rather than just a hiring issue.",
+      "keyFacts": [
+        "Published June 19, 2026",
+        "The report projects nearly 300,000 UK AI roles by 2028",
+        "Estimated domestic supply is about 137,000 roles",
+        "The researchers say cross-border hiring could lift UK productivity growth"
+      ],
+      "url": "https://www.itpro.com/technology/artificial-intelligence/uk-faces-huge-ai-talent-shortage",
+      "sourceName": "ITPro",
+      "relatedSources": [
+        "ITPro",
+        "Native Teams",
+        "Robert Walters"
+      ],
+      "lane": "products-adoption",
+      "publishedAt": "2026-06-19T09:00:00.000Z",
+      "importance": 515,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-20T07:20:00.000Z",
+      "whyItMatters": "The AI adoption bottleneck is increasingly about people and operating capacity, not only model access or cloud spend."
+    },
     {
       "id": "curated-techcrunch-asml-euv-china-claim-2026-06-19",
       "title": "U.S. says ASML's top chip tool may be in China; ASML denies it",
@@ -479,6 +618,34 @@
       "whyItMatters": "Rare-disease diagnosis is a concrete medical workflow where AI could help clinicians, but only if evidence quality and oversight are handled carefully."
     },
     {
+      "id": "curated-ai-news-microsoft-openai-models-china-2026-06-18",
+      "title": "Microsoft offers OpenAI models in China without OpenAI",
+      "summary": "AI News reported that Microsoft is selling access to OpenAI models in China through its local Azure structure, even as OpenAI and Anthropic do not directly offer their frontier models there.",
+      "fullSummary": "AI News reported that Microsoft is making OpenAI models available in China through its local Azure setup, creating an indirect route for Chinese enterprise customers even though OpenAI and Anthropic do not directly sell their frontier models in the country. The story frames the arrangement as a practical example of how cloud partnerships, local operating structures, and model-access restrictions are producing uneven global AI availability. It also connects the issue to the broader post-Anthropic debate over whether countries and enterprises can rely on foreign-controlled model supply chains.",
+      "keyFacts": [
+        "Published June 18, 2026",
+        "Microsoft is offering OpenAI model access through its China Azure structure",
+        "OpenAI and Anthropic do not directly offer their frontier models in China",
+        "The story links model distribution to AI sovereignty and access-control risk"
+      ],
+      "url": "https://www.artificialintelligence-news.com/news/microsoft-sells-openai-models-china/",
+      "sourceName": "AI News",
+      "relatedSources": [
+        "AI News",
+        "Microsoft",
+        "OpenAI",
+        "Anthropic"
+      ],
+      "lane": "regional",
+      "publishedAt": "2026-06-18T12:00:00.000Z",
+      "importance": 540,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-20T07:20:00.000Z",
+      "whyItMatters": "Model access is becoming a cloud-channel and jurisdiction problem, not just a question of which lab built the model."
+    },
+    {
       "id": "curated-ft-accenture-ai-threat-shares-2026-06-18",
       "title": "Accenture shares slide as investors weigh AI threat",
       "summary": "The Financial Times reported that Accenture shares fell to their lowest level since 2017 after weaker bookings and guidance renewed concern that AI will disrupt traditional consulting and outsourcing.",
@@ -504,6 +671,33 @@
       "summaryEngine": "chat-curated",
       "curatedAt": "2026-06-19T09:15:00.000Z",
       "whyItMatters": "AI disruption is now showing up in public-market pressure on consulting business models, not just in speculative workforce forecasts."
+    },
+    {
+      "id": "curated-ai-news-hsbc-google-cloud-ai-partnership-2026-06-18",
+      "title": "HSBC expands its AI banking work with Google Cloud",
+      "summary": "AI News reported that HSBC is expanding its Google Cloud AI partnership, adding more data and AI capabilities for banking operations and customer-facing workflows.",
+      "fullSummary": "AI News reported that HSBC is expanding its partnership with Google Cloud around AI banking. The coverage describes the effort as part of HSBC's push to use cloud data platforms and generative AI in operational and customer-facing banking workflows. The story matters because large regulated banks are moving AI from isolated experiments toward platform partnerships that must satisfy data, compliance, and reliability constraints.",
+      "keyFacts": [
+        "Published June 18, 2026",
+        "HSBC is expanding an AI banking partnership with Google Cloud",
+        "The work is tied to data and generative-AI capabilities",
+        "The deployment sits in a highly regulated financial-services context"
+      ],
+      "url": "https://www.artificialintelligence-news.com/news/hsbc-google-cloud-ai-partnership/",
+      "sourceName": "AI News",
+      "relatedSources": [
+        "AI News",
+        "HSBC",
+        "Google Cloud"
+      ],
+      "lane": "products-adoption",
+      "publishedAt": "2026-06-18T11:00:00.000Z",
+      "importance": 514,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-20T07:20:00.000Z",
+      "whyItMatters": "Bank AI partnerships show where enterprise adoption has to meet stricter governance, data-control, and compliance requirements than consumer AI rollouts."
     },
     {
       "id": "curated-axios-openai-devices-ha-thai-2026-06-18",
@@ -532,6 +726,33 @@
       "summaryEngine": "chat-curated",
       "curatedAt": "2026-06-18T21:50:00.000Z",
       "whyItMatters": "OpenAI's hardware effort is moving from abstract design speculation toward operating-company structure, with senior communications talent now attached to the devices group."
+    },
+    {
+      "id": "curated-itpro-kaseya-open-ai-platform-2026-06-18",
+      "title": "Kaseya shifts toward an open AI platform for autonomous IT",
+      "summary": "ITPro reported that Kaseya is moving from acquisition-led expansion toward a unified data layer, open APIs, and AI automation for managed service providers.",
+      "fullSummary": "ITPro reported that Kaseya is trying to unify its product portfolio around a common data layer, open APIs, and AI-driven automation. CEO Rania Succar and CTO Pratik Wadher framed the move as a shift away from simply adding acquired products and toward a platform that can automate ticket triage, remediation, reporting, onboarding, and other IT operations. The company is also expanding API access for larger managed service providers that want to build their own integrations and analytics on top of the platform. Partners welcomed the direction while warning that execution will take time.",
+      "keyFacts": [
+        "Published June 18, 2026 at 14:28 UTC",
+        "Kaseya is building a common data layer across its portfolio",
+        "The platform is intended to support AI agents for IT operations",
+        "The company is expanding API access for larger MSPs"
+      ],
+      "url": "https://www.itpro.com/technology/artificial-intelligence/kaseya-unveils-open-ai-platform-as-it-shifts-focus-from-acquisitions-to-integration",
+      "sourceName": "ITPro",
+      "relatedSources": [
+        "ITPro",
+        "Kaseya",
+        "ChannelPro"
+      ],
+      "lane": "products-adoption",
+      "publishedAt": "2026-06-18T14:28:24.000Z",
+      "importance": 500,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-20T07:20:00.000Z",
+      "whyItMatters": "Autonomous IT depends on clean portfolio data and usable APIs, so Kaseya's shift is a useful test of whether older software rollups can become credible AI platforms."
     },
     {
       "id": "curated-et-ifc-sify-data-centers-371m-2026-06-18",
@@ -14473,5 +14694,5 @@
     }
   ],
   "errors": [],
-  "totalItems": 442
+  "totalItems": 527
 }
