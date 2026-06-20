@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-20T07:20:00.000Z",
+  "generatedAt": "2026-06-20T08:45:00.000Z",
   "nextRefreshAt": "2026-06-20T23:50:00.000Z",
   "summaryEngine": "chat-curated",
   "curated": true,
@@ -61,6 +61,36 @@
       "whyItMatters": "Anthropic gaining one of AlphaFold's central researchers matters because frontier labs are competing not just for model engineers, but for people who can turn AI into scientific infrastructure."
     },
     {
+      "id": "curated-register-tensordyne-log-math-ai-chip-2026-06-19",
+      "title": "Tensordyne bets on log math to challenge Nvidia AI systems",
+      "summary": "The Register reported that AI infrastructure startup Tensordyne has taped out its Napier accelerator on TSMC 3nm and says its logarithm-based math approach can deliver higher throughput and better tokens-per-watt than Nvidia Blackwell systems.",
+      "fullSummary": "The Register reported that Tensordyne has taped out its first commercial AI accelerator, Napier, with fabrication under way on TSMC 3nm. The startup, working with Juniper Networks and Broadcom, says its hardware uses logarithm-based approximations and correction circuitry to make matrix-heavy AI workloads more power-efficient. Tensordyne claims its rack systems could deliver up to 17 times more tokens per watt and 13 times higher throughput than Nvidia Blackwell systems, though the chip is not expected to ship until 2027 and software support remains a major risk.",
+      "keyFacts": [
+        "Published June 19, 2026 at 16:30 UTC",
+        "Napier is being fabricated on TSMC 3nm",
+        "Tensordyne says its TDN72 rack system uses 72 Napier accelerators",
+        "The company claims up to 17x more tokens per watt than Nvidia Blackwell systems"
+      ],
+      "url": "https://www.theregister.com/systems/2026/06/19/tensordyne-makes-a-big-bet-on-log-math-to-beat-nvidia/5258662",
+      "sourceName": "The Register",
+      "relatedSources": [
+        "The Register",
+        "Tensordyne",
+        "TSMC",
+        "Nvidia",
+        "Juniper Networks",
+        "Broadcom"
+      ],
+      "lane": "infrastructure",
+      "publishedAt": "2026-06-19T16:30:00.000Z",
+      "importance": 552,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-20T08:45:00.000Z",
+      "whyItMatters": "AI chip coverage should not only track Nvidia supply; Tensordyne is a concrete example of startups trying to change the math and power profile of inference hardware."
+    },
+    {
       "id": "curated-techcrunch-reliance-jio-ai-every-call-app-home-2026-06-19",
       "title": "Reliance pitches AI for every Jio call, app, and home",
       "summary": "TechCrunch reported that Mukesh Ambani's Reliance unveiled AI services for Jio calls, the MyJio app, connected-home displays, healthcare, education, agriculture, and small businesses.",
@@ -87,6 +117,93 @@
       "summaryEngine": "chat-curated",
       "curatedAt": "2026-06-20T07:20:00.000Z",
       "whyItMatters": "Reliance has the distribution to make AI a default telecom and app-layer feature in India, which changes the regional AI adoption story from pilots to mass-market infrastructure."
+    },
+    {
+      "id": "curated-register-vercel-eve-passport-agent-framework-2026-06-19",
+      "title": "Vercel launches eve agent framework and Passport controls",
+      "summary": "The Register reported that Vercel introduced eve, an Apache-licensed open source agent framework, and Passport, an enterprise control layer for AI-built employee apps.",
+      "fullSummary": "The Register reported that Vercel used its Ship event in London to introduce eve, an open source framework for building and deploying agents with TypeScript and Markdown. Eve agents are structured as directories containing instructions, tools, authentication, model providers, schedules, and channels, with sandboxed isolated VMs by default and a testing tool for evaluation. Vercel also introduced Passport, a control layer meant to bring employee-created AI apps under enterprise governance as companies deal with shadow AI.",
+      "keyFacts": [
+        "Published June 19, 2026 at 13:35 UTC",
+        "Eve is open source under the Apache 2.0 license",
+        "Agents can run locally with npx eve dev and deploy with vercel deploy",
+        "Passport is aimed at enterprise control of AI-created internal apps"
+      ],
+      "url": "https://www.theregister.com/devops/2026/06/19/vercel-debuts-eve-open-source-agent-framework-tries-to-fix-shadow-ai-with-passport/5258726",
+      "sourceName": "The Register",
+      "relatedSources": [
+        "The Register",
+        "Vercel",
+        "eve",
+        "Passport"
+      ],
+      "lane": "products-adoption",
+      "publishedAt": "2026-06-19T13:35:00.000Z",
+      "importance": 536,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-20T08:45:00.000Z",
+      "whyItMatters": "Agent tooling is moving from demos into governed developer platforms; Vercel is trying to own both the build loop and the enterprise controls around it."
+    },
+    {
+      "id": "curated-techcrunch-smartbird-allbirds-ai-infrastructure-2026-06-19",
+      "title": "Allbirds becomes Smartbird and pitches sovereign AI infrastructure",
+      "summary": "TechCrunch reported that Allbirds has completed its pivot into Smartbird, sold its shoe business, and is now pursuing managed AI infrastructure under new CEO Nadia Carlsten.",
+      "fullSummary": "TechCrunch reported that Allbirds sold its shoe business for $43 million, raised another $100 million from the stock market, and relaunched as Smartbird, an AI infrastructure company led by former AWS and DCAI executive Nadia Carlsten. Smartbird plans to serve customers that want direct control over servers running their models, often because of data sovereignty or business-model constraints, rather than competing directly with hyperscalers or neoclouds on raw scale or price. Carlsten said the company is now recruiting a leadership team and expects compute clusters for several customers by year-end.",
+      "keyFacts": [
+        "Published June 19, 2026 at 13:00 UTC",
+        "Allbirds sold its shoe business for $43 million",
+        "The company raised another $100 million from the stock market",
+        "Smartbird is targeting managed AI infrastructure for customers that need control and data sovereignty"
+      ],
+      "url": "https://techcrunch.com/2026/06/19/the-ceo-of-allbirds-new-ai-biz-has-a-plan-but-no-employees/",
+      "sourceName": "TechCrunch",
+      "relatedSources": [
+        "TechCrunch",
+        "Smartbird",
+        "Allbirds",
+        "Nadia Carlsten",
+        "DCAI"
+      ],
+      "lane": "infrastructure",
+      "publishedAt": "2026-06-19T13:00:00.000Z",
+      "importance": 522,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-20T08:45:00.000Z",
+      "whyItMatters": "The Smartbird pivot shows how strong the AI infrastructure narrative has become, with even non-tech public companies trying to reposition around sovereign compute demand."
+    },
+    {
+      "id": "curated-register-home-office-ai-age-guesser-rights-groups-2026-06-19",
+      "title": "Rights groups press UK to drop AI age checks for asylum seekers",
+      "summary": "The Register reported that 62 rights groups urged the UK Home Office to halt planned facial age estimation for asylum-seeking children, arguing the AI technology is biased, inaccurate, and unreliable around the 16-to-18 boundary.",
+      "fullSummary": "The Register reported that more than 60 organizations, including Amnesty International, Human Rights Watch, Liberty, the Electronic Frontier Foundation, Foxglove, and the Open Rights Group, sent an open letter asking the UK government to stop deployment of AI-powered facial age estimation for asylum seekers. The groups said the technology varies by ethnicity and skin tone, performs worst near the age boundary where it would be used, and could wrongly classify children as adults. The Home Office says the system would support, not replace, human decision-making, with rollout slated from 2027.",
+      "keyFacts": [
+        "Published June 19, 2026 at 12:02 UTC",
+        "62 rights groups signed the open letter",
+        "The planned rollout is slated for 2027",
+        "Campaigners cite an error margin of roughly 2.5 years near the 16-to-18 age boundary"
+      ],
+      "url": "https://www.theregister.com/security/2026/06/19/rights-groups-brand-home-offices-ai-age-guesser-for-asylum-seekers-as-biased-and-inaccurate/5258892",
+      "sourceName": "The Register",
+      "relatedSources": [
+        "The Register",
+        "UK Home Office",
+        "Foxglove",
+        "Amnesty International",
+        "Human Rights Watch",
+        "Electronic Frontier Foundation"
+      ],
+      "lane": "policy-safety",
+      "publishedAt": "2026-06-19T12:02:00.000Z",
+      "importance": 555,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-20T08:45:00.000Z",
+      "whyItMatters": "This is a live example of AI being applied to high-stakes public-sector decisions where error rates and demographic bias directly affect legal protection."
     },
     {
       "id": "curated-ai-news-sap-google-cloud-agentic-commerce-2026-06-19",
@@ -313,6 +430,36 @@
       "whyItMatters": "Investor attention is moving deeper into inference infrastructure, where cost and routing may matter as much as frontier-model access."
     },
     {
+      "id": "curated-techcrunch-openai-shazeer-ball-policy-hires-2026-06-18",
+      "title": "OpenAI adds Noam Shazeer and Dean Ball before IPO push",
+      "summary": "TechCrunch reported that OpenAI is bringing in Google DeepMind veteran Noam Shazeer and former White House AI policy official Dean Ball as it prepares for a public-market debut.",
+      "fullSummary": "TechCrunch reported that OpenAI is adding two high-profile hires ahead of its expected IPO path: Noam Shazeer, the former Google and Character.AI researcher credited as a co-author of the Transformer paper, and Dean Ball, a former White House AI policy official. Ball said he will lead a Strategic Futures team reporting to Chief Strategy Officer Jason Kwon and focused on frontier AI policy, catastrophic risk, recursive self-improvement, labor market impact, and relationships among labs, governments, and society. The moves come as Anthropic faces renewed U.S. government pressure over model export controls.",
+      "keyFacts": [
+        "Published June 18, 2026 at 19:59 UTC",
+        "Noam Shazeer co-authored the 2017 Transformer paper",
+        "Dean Ball said he will join OpenAI on July 6",
+        "Ball will lead a new Strategic Futures team focused on frontier AI policy"
+      ],
+      "url": "https://techcrunch.com/2026/06/18/openai-is-bringing-on-some-big-guns-in-the-lead-up-to-its-ipo/",
+      "sourceName": "TechCrunch",
+      "relatedSources": [
+        "TechCrunch",
+        "OpenAI",
+        "Noam Shazeer",
+        "Dean Ball",
+        "Google DeepMind",
+        "Character.AI"
+      ],
+      "lane": "policy-safety",
+      "publishedAt": "2026-06-18T19:59:00.000Z",
+      "importance": 545,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-20T08:45:00.000Z",
+      "whyItMatters": "OpenAI is staffing both technical credibility and policy influence before a public-market push, which matters as frontier labs compete through talent, governance, and government relationships."
+    },
+    {
       "id": "curated-ft-uk-police-ai-chatbot-convictions-2026-06-18",
       "title": "UK rape convictions reviewed after detective allegedly used AI chatbot for paperwork",
       "summary": "The Financial Times reported that several UK rape convictions are under review after a Derbyshire detective allegedly used biased AI prompts to prepare legal paperwork.",
@@ -480,6 +627,35 @@
       "summaryEngine": "chat-curated",
       "curatedAt": "2026-06-19T09:15:00.000Z",
       "whyItMatters": "AI policy fights are becoming electoral fights, with worker and labor groups trying to counterbalance industry-funded campaigns."
+    },
+    {
+      "id": "curated-register-ai-nose-smell-language-model-2026-06-18",
+      "title": "AI Nose study will test breathprints for emergency diagnosis",
+      "summary": "The Register reported that Ainos and National Taiwan University will study whether an AI Nose and Smell Language Model can analyze breath VOCs to help distinguish causes of shortness of breath.",
+      "fullSummary": "The Register reported that Ainos, an AI and biotech company, is working with National Taiwan University on a year-long study starting in July to test whether its Smell AI platform can help diagnose patients by analyzing volatile organic compounds in exhaled breath. The study will focus on people with dyspnea, a common emergency-department symptom that can reflect conditions such as acute COPD exacerbation or acute decompensated heart failure. Ainos says its AI Nose module uses MEMS sensors and a proprietary Smell Language Model to classify scent patterns.",
+      "keyFacts": [
+        "Published June 18, 2026 at 13:45 UTC",
+        "The research program is scheduled to start in July",
+        "The study targets patients presenting with dyspnea",
+        "The platform analyzes VOC-based breathprints using MEMS sensors and a Smell Language Model"
+      ],
+      "url": "https://www.theregister.com/ai-and-ml/2026/06/18/ai-nose-uses-smell-language-model-to-sniff-out-signs-of-disease/5258190",
+      "sourceName": "The Register",
+      "relatedSources": [
+        "The Register",
+        "Ainos",
+        "National Taiwan University",
+        "AI Nose",
+        "Smell Language Model"
+      ],
+      "lane": "health-science",
+      "publishedAt": "2026-06-18T13:45:00.000Z",
+      "importance": 520,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-20T08:45:00.000Z",
+      "whyItMatters": "Healthcare AI is not only chatbots and image models; sensor-plus-model systems like breath analysis could change triage if they survive clinical validation."
     },
     {
       "id": "curated-ai-news-retail-computer-vision-productivity-2026-06-18",
@@ -780,6 +956,119 @@
       "summaryEngine": "chat-curated",
       "curatedAt": "2026-06-18T21:50:00.000Z",
       "whyItMatters": "India's AI infrastructure buildout is attracting development-finance capital, not just hyperscaler and pension-fund money, which broadens the pool funding compute capacity."
+    },
+    {
+      "id": "curated-register-estonia-ai-agent-digital-ids-2026-06-18",
+      "title": "Estonia plans digital identities for AI agents",
+      "summary": "The Register reported that Estonia plans to create digital identities for AI agents so they can act on behalf of people in ways that are verifiable, authorized, and auditable.",
+      "fullSummary": "The Register reported that Estonia plans to allow AI agents to receive their own digital identity codes, backed by the Eesti.ai advisory board. The proposal is meant to let agents perform digital tasks for people while making it clear who they represent, what authority they have, and who is responsible for their actions. Prime Minister Kristen Michal said AI will increasingly compile reports, prepare declarations, and interact with information systems, making permissions and accountability necessary as agentic systems become more common.",
+      "keyFacts": [
+        "Published June 18, 2026 at 00:12 UTC",
+        "The initiative is backed by Estonia's Eesti.ai advisory board",
+        "The plan would give AI agents digital identity codes",
+        "Estonia says the goal is verified delegation, rights limits, and accountability"
+      ],
+      "url": "https://www.theregister.com/ai-and-ml/2026/06/18/estonia-intends-to-recognize-ai-agents-with-digital-ids/5258087",
+      "sourceName": "The Register",
+      "relatedSources": [
+        "The Register",
+        "Estonia",
+        "Eesti.ai",
+        "Kristen Michal"
+      ],
+      "lane": "policy-safety",
+      "publishedAt": "2026-06-18T00:12:00.000Z",
+      "importance": 532,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-20T08:45:00.000Z",
+      "whyItMatters": "Agent identity is becoming a policy and infrastructure problem; Estonia is treating delegation and accountability as first-class requirements rather than afterthoughts."
+    },
+    {
+      "id": "curated-openai-ai-chemist-chan-lam-reaction-2026-06-17",
+      "title": "OpenAI says GPT-5.4 helped improve a medicinal chemistry reaction",
+      "summary": "OpenAI reported that GPT-5.4, connected to Molecule.one's Maria AI and lab system, found a TEMPO-based additive strategy that improved a challenging Chan-Lam coupling for most tested substrates.",
+      "fullSummary": "OpenAI reported that it connected GPT-5.4 to Molecule.one's Maria, an agentic chemistry AI integrated with a high-throughput lab, and asked the system to improve an important reaction class. The best proposal focused on primary sulfonamide Chan-Lam coupling and identified TEMPO and related mild oxidants as useful additives. Across two experimental cycles, measured yields improved for 88% of boronic acids and 83% of sulfonamides tested, with mean yield rising from 16.6% to 25.2%. Human chemists repeated representative reactions at bench scale and saw higher yields for 11 of 14 substrate pairs.",
+      "keyFacts": [
+        "Published June 17, 2026",
+        "Maria Lab ran 10,080 reactions for the OAI-M1-03 proposal",
+        "Mean yield rose from 16.6% to 25.2% under optimized conditions",
+        "Bench-scale validation improved yield for 11 of 14 substrate pairs"
+      ],
+      "url": "https://openai.com/index/ai-chemist-improves-reaction/",
+      "sourceName": "OpenAI",
+      "relatedSources": [
+        "OpenAI",
+        "Molecule.one",
+        "Maria",
+        "GPT-5.4",
+        "TEMPO"
+      ],
+      "lane": "health-science",
+      "publishedAt": "2026-06-17T12:00:00.000Z",
+      "importance": 562,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-20T08:45:00.000Z",
+      "whyItMatters": "This is a concrete lab-validated result from an AI-assisted research loop, which is much more meaningful than another benchmark-only science claim."
+    },
+    {
+      "id": "curated-itpro-databricks-genie-one-ai-coworker-2026-06-17",
+      "title": "Databricks launches Genie One AI coworker for business teams",
+      "summary": "ITPro reported that Databricks launched Genie One, an AI coworker for marketing, finance, sales, and other business teams that can answer questions, automate work, and act on governed enterprise data.",
+      "fullSummary": "ITPro reported that Databricks has launched Genie One, an AI coworker available on web, iOS, and Android for teams such as marketing, finance, and sales. Genie One uses structured and unstructured company data to answer questions, automate work, schedule tasks, create skills, monitor alerts, and take action through MCP tools. The product is based on Genie Ontology, a self-improving context layer that extracts and updates business knowledge from Databricks, AI tools, and connected workplace apps, and it connects to more than 50 apps and data systems including Google Drive, Jira, Slack, Confluence, and SharePoint.",
+      "keyFacts": [
+        "Published June 17, 2026",
+        "Genie One is available on web, iOS, and Android",
+        "It connects to more than 50 apps and data systems",
+        "Databricks says Foot Locker is using Genie Agents for executive and business-team insights"
+      ],
+      "url": "https://www.itpro.com/technology/artificial-intelligence/databricks-launches-ai-co-worker-genie-one",
+      "sourceName": "ITPro",
+      "relatedSources": [
+        "ITPro",
+        "Databricks",
+        "Genie One",
+        "Foot Locker"
+      ],
+      "lane": "products-adoption",
+      "publishedAt": "2026-06-17T11:35:30.000Z",
+      "importance": 526,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-20T08:45:00.000Z",
+      "whyItMatters": "Databricks is turning its data platform into a business-user agent surface, showing how enterprise AI is shifting from chat over documents to governed actions over company systems."
+    },
+    {
+      "id": "curated-openai-lifescibench-life-science-eval-2026-06-17",
+      "title": "OpenAI introduces LifeSciBench for applied life-science work",
+      "summary": "OpenAI introduced LifeSciBench, an expert-written and expert-reviewed benchmark for realistic life-science research tasks across workflows such as evidence handling, experimental design, validation, translation, and scientific communication.",
+      "fullSummary": "OpenAI introduced LifeSciBench, a benchmark meant to evaluate whether AI systems can help with the messy, multi-step work of life-science research rather than only answering clean biology questions. The benchmark includes 750 expert-authored tasks, 1,062 task artifacts, 19,020 rubric criteria, 173 scientist contributors, and 453 expert reviewers. Tasks span seven workflows and seven biological domains, with many requiring models to interpret figures, PDFs, tables, sequence files, molecular structures, or conflicting evidence.",
+      "keyFacts": [
+        "Published June 17, 2026",
+        "LifeSciBench includes 750 expert-authored tasks",
+        "The benchmark includes 1,062 task artifacts and 19,020 rubric criteria",
+        "Tasks span seven workflows and seven biological domains"
+      ],
+      "url": "https://openai.com/index/introducing-life-sci-bench/",
+      "sourceName": "OpenAI",
+      "relatedSources": [
+        "OpenAI",
+        "LifeSciBench",
+        "life sciences",
+        "drug discovery"
+      ],
+      "lane": "health-science",
+      "publishedAt": "2026-06-17T11:00:00.000Z",
+      "importance": 535,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-20T08:45:00.000Z",
+      "whyItMatters": "LifeSciBench matters because it pushes AI evaluation toward the actual judgment-heavy tasks scientists do, not just leaderboard-style biology recall."
     },
     {
       "id": "curated-toi-yotta-6b-ai-infrastructure-expansion-2026-06-17",
@@ -14694,5 +14983,5 @@
     }
   ],
   "errors": [],
-  "totalItems": 527
+  "totalItems": 537
 }
