@@ -1,9 +1,38 @@
 {
-  "generatedAt": "2026-06-20T07:50:00.000Z",
-  "nextRefreshAt": "2026-06-20T23:50:00.000Z",
+  "generatedAt": "2026-06-20T13:20:00.000Z",
+  "nextRefreshAt": "2026-06-21T00:20:00.000Z",
   "summaryEngine": "chat-curated",
   "curated": true,
   "items": [
+    {
+      "id": "curated-ft-anthropic-export-ban-risk-language-2026-06-20",
+      "title": "FT asks whether Anthropic talked itself into an export ban",
+      "summary": "Financial Times analysis found Anthropic used risk and regulation language far more often than OpenAI this year, feeding criticism that its own safety messaging helped trigger the U.S. ban on foreign access to Mythos and Fable.",
+      "fullSummary": "Financial Times analysed Anthropic and OpenAI communications and found Anthropic used risk, regulation, and restriction language much more frequently in 2026. The comparison has become politically charged after Washington barred foreign nationals from using Anthropic's latest Mythos and Fable models. Critics including Yann LeCun and former U.S. AI tsar David Sacks argue Anthropic's warnings helped create the conditions for the ban, while the article notes Anthropic has long tried to position itself as the industry's conscience. The dispute is now an early test of how the U.S. government will oversee frontier AI models.",
+      "keyFacts": [
+        "Published June 20, 2026 at 11:00 UTC",
+        "FT found Anthropic used risk-related language far more often than OpenAI in 2026 communications",
+        "The analysis follows a U.S. ban on foreign access to Anthropic's Mythos and Fable models",
+        "Industry critics argue Anthropic's safety messaging may have contributed to the crackdown"
+      ],
+      "url": "https://www.ft.com/content/16ace46c-aeac-40c9-8598-3c01fa4481cb",
+      "sourceName": "Financial Times",
+      "relatedSources": [
+        "Financial Times",
+        "Anthropic",
+        "OpenAI",
+        "Mythos",
+        "Fable"
+      ],
+      "lane": "policy-safety",
+      "publishedAt": "2026-06-20T11:00:09.000Z",
+      "importance": 574,
+      "sourceConfidence": "high",
+      "filterCategory": "pushback",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-20T13:20:00.000Z",
+      "whyItMatters": "The Anthropic dispute is turning safety messaging into a regulatory and commercial risk, which matters for every frontier lab deciding how loudly to warn about its own models."
+    },
     {
       "id": "curated-ft-ai-financial-advice-caution-2026-06-20",
       "title": "FT warns AI financial advice can sound right and still be wrong",
@@ -27,7 +56,7 @@
       "publishedAt": "2026-06-20T04:00:38.000Z",
       "importance": 555,
       "sourceConfidence": "high",
-      "filterCategory": "general",
+      "filterCategory": "pushback",
       "summaryEngine": "chat-curated",
       "curatedAt": "2026-06-20T07:50:00.000Z",
       "whyItMatters": "Consumer AI risk is moving from abstract hallucination stories into money decisions, where one confident but context-free answer can create real tax or investment damage."
@@ -55,7 +84,7 @@
       "publishedAt": "2026-06-20T00:30:00.000Z",
       "importance": 548,
       "sourceConfidence": "high",
-      "filterCategory": "general",
+      "filterCategory": "pushback",
       "summaryEngine": "chat-curated",
       "curatedAt": "2026-06-20T07:50:00.000Z",
       "whyItMatters": "This is the kind of regional deployment risk the feed was undercounting: AI wearables are leaving demos and entering public services before the privacy model is settled."
@@ -88,6 +117,35 @@
       "whyItMatters": "It broadens the feed beyond model launches: governments and internet registries are starting to use AI as core security infrastructure."
     },
     {
+      "id": "curated-techcrunch-mythos-export-controls-history-2026-06-19",
+      "title": "TechCrunch compares Mythos export controls to the Crypto Wars",
+      "summary": "TechCrunch argued that U.S. export controls on Anthropic's Mythos and Fable models echo earlier attempts to contain encryption and spyware, where restrictions often failed or pushed activity elsewhere.",
+      "fullSummary": "TechCrunch reported that the White House ordered Anthropic to restrict exports of Fable and Mythos to foreign users and foreign nationals inside the U.S., forcing the company to pull access within roughly 90 minutes. The article compares the move with earlier export-control fights over PGP encryption, spyware, and the Wassenaar Arrangement, arguing that governments have struggled to contain dual-use software by restricting distribution. It frames the Anthropic standoff as a precedent-setting test for whether frontier AI models will become subject to licensing-like controls for foreign customers.",
+      "keyFacts": [
+        "Published June 19, 2026 at 22:40 UTC",
+        "The White House ordered Anthropic to restrict export of Fable and Mythos",
+        "TechCrunch compares the move with PGP, spyware, and Wassenaar export-control history",
+        "The article argues software export controls have a mixed track record"
+      ],
+      "url": "https://techcrunch.com/2026/06/19/encryption-spyware-and-now-mythos-history-shows-why-cyber-export-control-doesnt-work/",
+      "sourceName": "TechCrunch",
+      "relatedSources": [
+        "TechCrunch",
+        "Anthropic",
+        "White House",
+        "Mythos",
+        "Fable"
+      ],
+      "lane": "policy-safety",
+      "publishedAt": "2026-06-19T22:40:00.000Z",
+      "importance": 562,
+      "sourceConfidence": "high",
+      "filterCategory": "pushback",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-20T13:20:00.000Z",
+      "whyItMatters": "If model access starts to look like export-controlled software, frontier AI competition becomes a compliance and geopolitics problem as much as a technical one."
+    },
+    {
       "id": "curated-lemonde-palantir-france-dgsi-contract-2026-06-19",
       "title": "Palantir pushes back after France names DGSI replacement",
       "summary": "Le Monde reported that Palantir objected to France's announcement that domestic firm ChapsVision will replace its software for the DGSI, while Palantir says the transition may take months or years and its current contract remains in force.",
@@ -110,7 +168,7 @@
       "publishedAt": "2026-06-19T20:00:40.000Z",
       "importance": 565,
       "sourceConfidence": "high",
-      "filterCategory": "general",
+      "filterCategory": "pushback",
       "summaryEngine": "chat-curated",
       "curatedAt": "2026-06-20T07:20:00.000Z",
       "whyItMatters": "The Palantir dispute shows how the Anthropic export-control shock is spilling into government procurement and making sovereign AI infrastructure a practical security question."
@@ -223,7 +281,7 @@
       "publishedAt": "2026-06-19T14:59:22.000Z",
       "importance": 558,
       "sourceConfidence": "high",
-      "filterCategory": "general",
+      "filterCategory": "pushback",
       "summaryEngine": "chat-curated",
       "curatedAt": "2026-06-20T07:50:00.000Z",
       "whyItMatters": "School AI policy is shifting from guidance to hard restrictions, and Norway is tying the AI debate directly to reading, writing, math, and classroom-device rules."
@@ -308,7 +366,7 @@
       "publishedAt": "2026-06-19T13:00:00.000Z",
       "importance": 522,
       "sourceConfidence": "high",
-      "filterCategory": "general",
+      "filterCategory": "funding",
       "summaryEngine": "chat-curated",
       "curatedAt": "2026-06-20T08:45:00.000Z",
       "whyItMatters": "The Smartbird pivot shows how strong the AI infrastructure narrative has become, with even non-tech public companies trying to reposition around sovereign compute demand."
@@ -338,7 +396,7 @@
       "publishedAt": "2026-06-19T12:02:00.000Z",
       "importance": 555,
       "sourceConfidence": "high",
-      "filterCategory": "general",
+      "filterCategory": "pushback",
       "summaryEngine": "chat-curated",
       "curatedAt": "2026-06-20T08:45:00.000Z",
       "whyItMatters": "This is a live example of AI being applied to high-stakes public-sector decisions where error rates and demographic bias directly affect legal protection."
@@ -421,7 +479,7 @@
       "publishedAt": "2026-06-19T08:47:20.000Z",
       "importance": 545,
       "sourceConfidence": "high",
-      "filterCategory": "general",
+      "filterCategory": "funding",
       "summaryEngine": "chat-curated",
       "curatedAt": "2026-06-20T07:50:00.000Z",
       "whyItMatters": "This is another sign that AI competition is increasingly a power-and-capacity race, not just a model-quality race."
@@ -449,7 +507,7 @@
       "publishedAt": "2026-06-19T07:59:00.000Z",
       "importance": 570,
       "sourceConfidence": "high",
-      "filterCategory": "general",
+      "filterCategory": "pushback",
       "summaryEngine": "chat-curated",
       "curatedAt": "2026-06-19T09:15:00.000Z",
       "whyItMatters": "Advanced-chip export controls are moving from abstract rules to disputes over the physical supply chain that underpins frontier AI compute."
@@ -566,6 +624,85 @@
       "summaryEngine": "chat-curated",
       "curatedAt": "2026-06-19T09:15:00.000Z",
       "whyItMatters": "AI-native tooling is being pulled into incumbent software platforms, especially where AI-generated code creates new monitoring and reliability needs."
+    },
+    {
+      "id": "curated-arxiv-ledgeragent-policy-tool-calling-2026-06-19",
+      "title": "LedgerAgent proposes structured state for policy-adherent agents",
+      "summary": "A June 19 arXiv paper proposes LedgerAgent, a structured-state approach for tool-calling agents that need to follow policy constraints while acting across workflows.",
+      "fullSummary": "The arXiv cs.AI listing for June 19 included LedgerAgent: Structured State for Policy-Adherent Tool-Calling Agents. The work focuses on maintaining explicit state for agents that use tools while needing to comply with policies. It fits the current agent-safety and agent-orchestration thread because many enterprise deployments are running into governance and reliability issues once agents leave simple chat flows.",
+      "keyFacts": [
+        "Listed on arXiv cs.AI on June 19, 2026",
+        "The paper is arXiv:2606.20529",
+        "The subjects are Artificial Intelligence and Computation and Language",
+        "The title focuses on policy-adherent tool-calling agents"
+      ],
+      "url": "https://arxiv.org/abs/2606.20529",
+      "sourceName": "arXiv",
+      "relatedSources": [
+        "arXiv",
+        "LedgerAgent"
+      ],
+      "lane": "papers",
+      "publishedAt": "2026-06-19T00:00:00.000Z",
+      "importance": 510,
+      "sourceConfidence": "high",
+      "filterCategory": "papers",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-20T13:20:00.000Z",
+      "whyItMatters": "Agent governance is moving from policy docs to runtime architecture, and explicit state is one possible control point."
+    },
+    {
+      "id": "curated-arxiv-multi-lcb-livecodebench-languages-2026-06-19",
+      "title": "Multi-LCB extends LiveCodeBench across programming languages",
+      "summary": "A June 19 arXiv paper introduces Multi-LCB, extending LiveCodeBench-style coding evaluation to multiple programming languages.",
+      "fullSummary": "The arXiv cs.AI listing for June 19 included Multi-LCB: Extending LiveCodeBench to Multiple Programming Languages. The paper is marked for ICLR 2026 and focuses on broadening coding-agent evaluation beyond a single programming-language setting. That makes it relevant as coding models and software agents become a major frontier-model adoption lane.",
+      "keyFacts": [
+        "Listed on arXiv cs.AI on June 19, 2026",
+        "The paper is arXiv:2606.20517",
+        "The subjects are Artificial Intelligence and Programming Languages",
+        "The listing notes ICLR 2026"
+      ],
+      "url": "https://arxiv.org/abs/2606.20517",
+      "sourceName": "arXiv",
+      "relatedSources": [
+        "arXiv",
+        "LiveCodeBench",
+        "Multi-LCB"
+      ],
+      "lane": "papers",
+      "publishedAt": "2026-06-19T00:00:00.000Z",
+      "importance": 508,
+      "sourceConfidence": "high",
+      "filterCategory": "papers",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-20T13:20:00.000Z",
+      "whyItMatters": "Coding benchmarks shape model claims, and multilingual coverage matters as coding agents move into more varied enterprise stacks."
+    },
+    {
+      "id": "curated-arxiv-safety-aligned-mixed-compliance-2026-06-19",
+      "title": "Paper probes what safety-aligned LLMs learn from mixed compliance",
+      "summary": "A June 19 arXiv paper studies what safety-aligned large language models learn when trained on mixed compliance demonstrations.",
+      "fullSummary": "The arXiv cs.AI listing for June 19 included What Do Safety-Aligned LLMs Learn From Mixed Compliance Demonstrations? The paper sits directly in the model-safety evaluation lane, looking at how aligned models absorb demonstrations that mix compliance behavior. The result is useful context for the current policy and export-control debate because safety claims increasingly depend on subtle training and evaluation behavior.",
+      "keyFacts": [
+        "Listed on arXiv cs.AI on June 19, 2026",
+        "The paper is arXiv:2606.20508",
+        "The subjects are Artificial Intelligence and Machine Learning",
+        "The topic is safety-aligned LLM behavior under mixed compliance demonstrations"
+      ],
+      "url": "https://arxiv.org/abs/2606.20508",
+      "sourceName": "arXiv",
+      "relatedSources": [
+        "arXiv",
+        "LLM safety"
+      ],
+      "lane": "papers",
+      "publishedAt": "2026-06-19T00:00:00.000Z",
+      "importance": 506,
+      "sourceConfidence": "high",
+      "filterCategory": "papers",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-20T13:20:00.000Z",
+      "whyItMatters": "Safety alignment is being debated in public policy, but the underlying behavior still depends on technical training details that can be hard to measure."
     },
     {
       "id": "curated-techcrunch-baseten-1-5b-raise-2026-06-18",
@@ -15149,5 +15286,5 @@
     }
   ],
   "errors": [],
-  "totalItems": 543
+  "totalItems": 548
 }
