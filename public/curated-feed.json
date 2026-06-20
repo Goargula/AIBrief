@@ -1,9 +1,92 @@
 {
-  "generatedAt": "2026-06-20T08:45:00.000Z",
+  "generatedAt": "2026-06-20T07:50:00.000Z",
   "nextRefreshAt": "2026-06-20T23:50:00.000Z",
   "summaryEngine": "chat-curated",
   "curated": true,
   "items": [
+    {
+      "id": "curated-ft-ai-financial-advice-caution-2026-06-20",
+      "title": "FT warns AI financial advice can sound right and still be wrong",
+      "summary": "Financial Times reported that consumers are increasingly using chatbots for personal finance, but advisers and AI-ethics specialists warn that plausible answers can miss tax rules, risk tolerance, privacy concerns, and regulated-advice duties.",
+      "fullSummary": "Financial Times reported on the growing use of AI tools for personal financial guidance, citing Lloyds data that 28 million UK adults used AI for personal finance in 2025 and a Fidelity study showing especially high use among younger retail investors. Experts told the FT that chatbots can help with basic financial literacy but may give costly advice when they lack context about tax position, account type, time horizon, or risk tolerance. The article also highlights accountability and privacy gaps because mainstream AI tools are not regulated financial advisers and user conversations may expose sensitive financial data.",
+      "keyFacts": [
+        "Published June 20, 2026 at 04:00 UTC",
+        "Lloyds data cited by FT said 28 million UK adults used AI for personal finance in 2025",
+        "Fidelity found higher use among retail investors aged 18 to 34",
+        "Experts warned about tax, risk, accountability, and privacy limitations"
+      ],
+      "url": "https://www.ft.com/content/8e84e72d-6098-4378-80c1-2053ac1a8365",
+      "sourceName": "Financial Times",
+      "relatedSources": [
+        "Financial Times",
+        "Lloyds Banking Group",
+        "Fidelity International",
+        "FCA"
+      ],
+      "lane": "policy-safety",
+      "publishedAt": "2026-06-20T04:00:38.000Z",
+      "importance": 555,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-20T07:50:00.000Z",
+      "whyItMatters": "Consumer AI risk is moving from abstract hallucination stories into money decisions, where one confident but context-free answer can create real tax or investment damage."
+    },
+    {
+      "id": "curated-et-meta-ai-glasses-privacy-gujarat-2026-06-20",
+      "title": "Meta's Gujarat AI-glasses pilot draws privacy warnings",
+      "summary": "The Economic Times reported that privacy experts are warning Meta's proposed Gujarat pilot for Ray-Ban Meta AI glasses could expose visually impaired users and bystanders to always-on camera data risks under India's privacy law.",
+      "fullSummary": "The Economic Times reported that privacy law experts are raising concerns about Meta's proposed pilot with the Gujarat government, which would use Ray-Ban Meta AI glasses to assist visually impaired citizens. The concerns focus on always-on wearable cameras, bystander consent, possible data misuse, and whether safeguards are strong enough before a public-sector deployment. The story matters because AI wearables are moving from consumer gadgets into government-backed accessibility programs, where privacy rules and consent models are much harder to manage.",
+      "keyFacts": [
+        "Published June 20, 2026 at 00:30 UTC",
+        "The pilot would use Ray-Ban Meta AI glasses to assist visually impaired citizens in Gujarat",
+        "Privacy experts warned about risks to users and bystanders from always-on cameras",
+        "The scrutiny centers on safeguards under India's data protection framework"
+      ],
+      "url": "https://m.economictimes.com/tech/artificial-intelligence/meta-ai-glasses-pilot-faces-privacy-scrutiny/articleshow/131863963.cms",
+      "sourceName": "The Economic Times",
+      "relatedSources": [
+        "The Economic Times",
+        "Meta",
+        "Gujarat government",
+        "Ray-Ban Meta"
+      ],
+      "lane": "policy-safety",
+      "publishedAt": "2026-06-20T00:30:00.000Z",
+      "importance": 548,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-20T07:50:00.000Z",
+      "whyItMatters": "This is the kind of regional deployment risk the feed was undercounting: AI wearables are leaving demos and entering public services before the privacy model is settled."
+    },
+    {
+      "id": "curated-et-nixi-ai-domain-security-2026-06-20",
+      "title": "Nixi launches AI portal to police .in domain abuse",
+      "summary": "India's National Internet Exchange launched an AI-powered platform for .in domain security, aiming to detect suspicious sites and tighten monitoring across the country's national domain namespace.",
+      "fullSummary": "The Economic Times reported that the National Internet Exchange of India launched an AI-powered platform to strengthen .in domain security and detect suspicious websites. The effort pairs AI monitoring with new operational portals and KYC-linked domain-registration controls. It adds a cybersecurity and internet-governance angle to the day's AI coverage, showing national infrastructure bodies using AI to police abuse rather than only private companies deploying it for productivity.",
+      "keyFacts": [
+        "Published June 20, 2026 at 00:30 UTC",
+        "Nixi launched an AI-powered platform for .in domain security",
+        "The system is intended to detect suspicious websites under India's national domain",
+        "The rollout is tied to domain-registration security and user-data protection"
+      ],
+      "url": "https://m.economictimes.com/tech/artificial-intelligence/nixi-launches-ai-portal-for-in-domains/articleshow/131866208.cms",
+      "sourceName": "The Economic Times",
+      "relatedSources": [
+        "The Economic Times",
+        "Nixi",
+        ".in domains"
+      ],
+      "lane": "policy-safety",
+      "publishedAt": "2026-06-20T00:30:00.000Z",
+      "importance": 520,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-20T07:50:00.000Z",
+      "whyItMatters": "It broadens the feed beyond model launches: governments and internet registries are starting to use AI as core security infrastructure."
+    },
     {
       "id": "curated-lemonde-palantir-france-dgsi-contract-2026-06-19",
       "title": "Palantir pushes back after France names DGSI replacement",
@@ -117,6 +200,61 @@
       "summaryEngine": "chat-curated",
       "curatedAt": "2026-06-20T07:20:00.000Z",
       "whyItMatters": "Reliance has the distribution to make AI a default telecom and app-layer feature in India, which changes the regional AI adoption story from pilots to mass-market infrastructure."
+    },
+    {
+      "id": "curated-et-norway-school-ai-restrictions-2026-06-19",
+      "title": "Norway nearly bans generative AI for elementary students",
+      "summary": "Reuters, via The Economic Times, reported that Norway will impose a near ban on generative AI for pupils aged 6 to 13 and restrict older students' use under teacher supervision from the new school year.",
+      "fullSummary": "Reuters, carried by The Economic Times, reported that Norway is imposing strict rules on generative AI in schools after a decline in education test scores and concerns that young students could skip core learning steps. Pupils aged 6 to 13 generally will not use AI, students aged 14 to 16 can use tools cautiously under teacher supervision, and upper-secondary students will learn appropriate use. The government also plans to fund more books in classrooms, reversing some of the tablet-led shift that began after Norway adopted computers and iPads in schools.",
+      "keyFacts": [
+        "Published June 19, 2026 at 14:59 UTC",
+        "Norway plans a near ban on generative AI for pupils aged 6 to 13",
+        "Lower-secondary students can use AI cautiously under teacher supervision",
+        "The rules are set to begin with the new school year in late August"
+      ],
+      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/norway-imposes-near-ban-on-ai-in-elementary-school/articleshow/131861649.cms",
+      "sourceName": "The Economic Times",
+      "relatedSources": [
+        "Reuters",
+        "The Economic Times",
+        "Norway government"
+      ],
+      "lane": "policy-safety",
+      "publishedAt": "2026-06-19T14:59:22.000Z",
+      "importance": 558,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-20T07:50:00.000Z",
+      "whyItMatters": "School AI policy is shifting from guidance to hard restrictions, and Norway is tying the AI debate directly to reading, writing, math, and classroom-device rules."
+    },
+    {
+      "id": "curated-verge-amazon-mgm-drops-openai-film-2026-06-19",
+      "title": "Amazon MGM drops Sam Altman film about OpenAI turmoil",
+      "summary": "The Verge reported that Amazon MGM has dropped Artificial, Luca Guadagnino's film about the week Sam Altman was fired and rehired at OpenAI, while the studio looks for another distributor.",
+      "fullSummary": "The Verge reported that Amazon MGM has dropped Artificial, a Luca Guadagnino film about the five-day 2023 OpenAI board crisis that ended with Sam Altman's return as CEO. The project reportedly stars Andrew Garfield as Altman and includes portrayals of Mira Murati, Elon Musk, and Ilya Sutskever. The studio said the film would be better served by a different distributor and is working with the filmmakers to find a new home. The item is a softer culture story, but it still sits inside the OpenAI/Amazon relationship because Amazon has deep AI ties and investment exposure.",
+      "keyFacts": [
+        "Published June 19, 2026 at 14:15 UTC",
+        "Amazon MGM dropped Artificial, a film about OpenAI's 2023 leadership crisis",
+        "The film was directed by Luca Guadagnino and stars Andrew Garfield as Sam Altman",
+        "The studio said it is working to find the project a new home"
+      ],
+      "url": "https://www.theverge.com/ai-artificial-intelligence/952906/sam-altman-film-artificial-openai-amazon-mgm-dropped",
+      "sourceName": "The Verge",
+      "relatedSources": [
+        "The Verge",
+        "Amazon MGM",
+        "OpenAI",
+        "Sam Altman"
+      ],
+      "lane": "products-adoption",
+      "publishedAt": "2026-06-19T14:15:29.000Z",
+      "importance": 488,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-20T07:50:00.000Z",
+      "whyItMatters": "It is not a core model or policy story, but it shows how the OpenAI board crisis has become mainstream media material while Amazon's AI relationship sits in the background."
     },
     {
       "id": "curated-register-vercel-eve-passport-agent-framework-2026-06-19",
@@ -259,6 +397,34 @@
       "summaryEngine": "chat-curated",
       "curatedAt": "2026-06-20T07:20:00.000Z",
       "whyItMatters": "The AI adoption bottleneck is increasingly about people and operating capacity, not only model access or cloud spend."
+    },
+    {
+      "id": "curated-et-meta-crusoe-ai-compute-deals-2026-06-19",
+      "title": "Meta signs new Crusoe compute deals for AI buildout",
+      "summary": "Reuters, via The Economic Times, reported that Meta signed new agreements to buy AI computing capacity from Crusoe data centers in Texas and Missouri, adding roughly 1.6 gigawatts of contracted capacity.",
+      "fullSummary": "Reuters, carried by The Economic Times, reported that Meta has secured new agreements for AI computing capacity from data-center developer Crusoe. The reported contracts cover sites in Childress, Texas, and Warrenton, Missouri, with roughly 1.6 gigawatts of combined capacity. The amount Meta will spend and the delivery timeline were not immediately clear. The report fits the broader AI infrastructure story: Meta and other large technology companies are locking up power and data-center supply to support increasingly expensive agent and model roadmaps.",
+      "keyFacts": [
+        "Published June 19, 2026 at 08:47 UTC",
+        "Meta reportedly signed new AI compute capacity agreements with Crusoe",
+        "The sites are in Childress, Texas, and Warrenton, Missouri",
+        "The combined capacity is reported at roughly 1.6 gigawatts"
+      ],
+      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/meta-signs-new-ai-computing-deals-with-data-center-firm-crusoe-report/articleshow/131853751.cms",
+      "sourceName": "The Economic Times",
+      "relatedSources": [
+        "Reuters",
+        "The Economic Times",
+        "Meta",
+        "Crusoe"
+      ],
+      "lane": "infrastructure",
+      "publishedAt": "2026-06-19T08:47:20.000Z",
+      "importance": 545,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-20T07:50:00.000Z",
+      "whyItMatters": "This is another sign that AI competition is increasingly a power-and-capacity race, not just a model-quality race."
     },
     {
       "id": "curated-techcrunch-asml-euv-china-claim-2026-06-19",
@@ -14983,5 +15149,5 @@
     }
   ],
   "errors": [],
-  "totalItems": 537
+  "totalItems": 543
 }
