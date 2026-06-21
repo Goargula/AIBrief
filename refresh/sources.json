@@ -114,6 +114,22 @@
       "categories": ["funding", "general", "pushback"]
     },
     {
+      "id": "business-insider-ai",
+      "name": "Business Insider AI and Robotics",
+      "group": "broad-business",
+      "url": "https://www.businessinsider.com/s?q=artificial%20intelligence%20robotics",
+      "fallbackDomain": "businessinsider.com",
+      "categories": ["funding", "general", "pushback"]
+    },
+    {
+      "id": "investors-business-daily-ai",
+      "name": "Investor's Business Daily AI and Healthcare",
+      "group": "broad-business",
+      "url": "https://www.investors.com/news/",
+      "fallbackDomain": "investors.com",
+      "categories": ["funding", "general"]
+    },
+    {
       "id": "wsj-ai",
       "name": "Wall Street Journal AI",
       "group": "broad-business",
@@ -136,6 +152,30 @@
       "url": "https://timesofindia.indiatimes.com/technology/tech-news",
       "fallbackDomain": "timesofindia.indiatimes.com",
       "categories": ["funding", "general"]
+    },
+    {
+      "id": "timesofindia-education-ai",
+      "name": "Times of India Education AI",
+      "group": "regional-business",
+      "url": "https://timesofindia.indiatimes.com/education/news",
+      "fallbackDomain": "timesofindia.indiatimes.com",
+      "categories": ["models", "papers", "general"]
+    },
+    {
+      "id": "maharashtra-times-education",
+      "name": "Maharashtra Times Education",
+      "group": "regional-business",
+      "url": "https://maharashtratimes.com/career/career-news",
+      "fallbackDomain": "maharashtratimes.com",
+      "categories": ["general", "pushback"]
+    },
+    {
+      "id": "tv9-hindi-tech",
+      "name": "TV9 Hindi Technology",
+      "group": "regional-business",
+      "url": "https://www.tv9hindi.com/technology",
+      "fallbackDomain": "tv9hindi.com",
+      "categories": ["general", "pushback"]
     },
     {
       "id": "ifc-press",

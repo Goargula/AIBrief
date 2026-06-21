@@ -1,9 +1,269 @@
 {
-  "generatedAt": "2026-06-21T09:05:00.000Z",
-  "nextRefreshAt": "2026-06-21T20:05:00.000Z",
+  "generatedAt": "2026-06-21T10:45:00.000Z",
+  "nextRefreshAt": "2026-06-21T21:45:00.000Z",
   "summaryEngine": "chat-curated",
   "curated": true,
   "items": [
+    {
+      "id": "curated-toi-rukmini-vasanth-deepfake-arrests-2026-06-21",
+      "title": "Bengaluru police arrest three in Rukmini Vasanth deepfake case",
+      "summary": "The Times of India reported that Bengaluru cybercrime police arrested three people accused of creating and circulating AI-generated fake content involving actor Rukmini Vasanth.",
+      "fullSummary": "The Times of India reported a new enforcement step in the Rukmini Vasanth deepfake case: Bengaluru cybercrime police arrested three people accused of creating and spreading AI-generated fake images and videos involving the actor. Police also seized digital evidence and said the investigation is widening. The case follows Vasanth's public response to fake images that circulated online and her team's earlier legal and cybercrime action. It is a concrete India deepfake-enforcement story rather than a general warning: police action is now following celebrity-targeted synthetic-media abuse.",
+      "keyFacts": [
+        "Published June 21, 2026 at 08:35 IST",
+        "Bengaluru cybercrime police arrested three people",
+        "The case involves AI-generated fake content targeting actor Rukmini Vasanth",
+        "Police seized digital evidence and said the investigation is expanding"
+      ],
+      "url": "https://timesofindia.indiatimes.com/entertainment/kannada/movies/news/rukmini-vasanth-deepfake-case-three-arrested-in-bengaluru-over-ai-generated-fake-content-investigation-widens/articleshow/131885521.cms",
+      "sourceName": "The Times of India",
+      "relatedSources": [
+        "The Times of India",
+        "Bengaluru Cyber Crime Police",
+        "Rukmini Vasanth"
+      ],
+      "lane": "policy-safety",
+      "publishedAt": "2026-06-21T03:05:14.000Z",
+      "importance": 584,
+      "sourceConfidence": "high",
+      "filterCategory": "pushback",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-21T10:30:00.000Z",
+      "whyItMatters": "Deepfake policy becomes real only when victims can move from takedown complaints to investigation and arrests, and this case shows Indian cyber police beginning to treat synthetic-media abuse as actionable harm."
+    },
+    {
+      "id": "curated-maharashtra-google-ai-teacher-training-2026-06-20",
+      "title": "Maharashtra and Google will train 400,000 teachers in AI",
+      "summary": "Maharashtra Times reported that Maharashtra's school education department signed an MoU with Google for Education to train more than 400,000 teachers in AI and digital skills over 18 months.",
+      "fullSummary": "Maharashtra Times reported that Maharashtra's school education department signed a memorandum of understanding with Google for Education to train more than 400,000 teachers in AI and digital skills over the next 18 months. The program will use the Google AI Educator Series and begin with master trainers, who will then train teachers across the state. Education minister Dadaji Bhuse said the program will be offered free by Google and is meant to prepare teachers for classrooms serving technology-native students. The article also notes the practical question raised by teacher groups: training teachers only works if schools also have the digital infrastructure to use those skills.",
+      "keyFacts": [
+        "Published June 20, 2026 at 11:40 IST",
+        "Maharashtra school education department signed an MoU with Google for Education",
+        "More than 400,000 teachers are expected to receive AI and digital-skills training",
+        "The rollout is planned over 18 months through master trainers",
+        "Maharashtra Times reported Google will run the program free of cost to the state government"
+      ],
+      "url": "https://maharashtratimes.com/career/career-news/maharashtra-teachers-google-ai-training-mou-school-education-department-generation-alpha-digital-skills/articleshow/131871261.cms",
+      "sourceName": "Maharashtra Times",
+      "relatedSources": [
+        "Maharashtra Times",
+        "Maharashtra School Education Department",
+        "Google for Education"
+      ],
+      "lane": "products-adoption",
+      "publishedAt": "2026-06-20T06:10:36.000Z",
+      "importance": 580,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-21T10:30:00.000Z",
+      "whyItMatters": "Teacher-training deals are how AI policy reaches classrooms: this is a large state-level implementation story, and its success depends as much on school infrastructure as on the training itself."
+    },
+    {
+      "id": "curated-businessinsider-amazon-labor-balancing-ai-2026-06-18",
+      "title": "Amazon tests AI system for moving warehouse workers in real time",
+      "summary": "Business Insider reported that Amazon is piloting Full Facility Load Balancing, a system that recommends worker reassignments every few minutes in robotics-enabled warehouses.",
+      "fullSummary": "Business Insider reported that Amazon is piloting a system called Full Facility Load Balancing, or FFLB, inside robotics-enabled warehouses. Internal planning documents reviewed by BI say the system forecasts package volumes and workload signals, recalculates staffing needs about every three minutes, and recommends moving workers between roles. The documents modeled roughly $193 million in annual labor-cost recovery and nearly 7 million labor hours, though Amazon said those numbers were hypothetical and not guaranteed savings. The story matters because Amazon's warehouse AI is moving beyond package automation into labor allocation, with managers still described as decision-makers but software increasingly shaping where people work.",
+      "keyFacts": [
+        "Published June 18, 2026 at 09:00 UTC",
+        "The system is called Full Facility Load Balancing, or FFLB",
+        "Business Insider says it can recalculate staffing recommendations roughly every three minutes",
+        "Internal estimates modeled $193 million in annual labor-cost recovery and nearly 7 million labor hours",
+        "Amazon said the estimates were hypothetical and managers remain decision-makers"
+      ],
+      "url": "https://www.businessinsider.com/amazon-warehouse-automation-moving-workers-labor-hours-robots-2026-6",
+      "sourceName": "Business Insider",
+      "relatedSources": [
+        "Business Insider",
+        "Amazon",
+        "Full Facility Load Balancing"
+      ],
+      "lane": "products-adoption",
+      "publishedAt": "2026-06-18T09:00:02.000Z",
+      "importance": 571,
+      "sourceConfidence": "high",
+      "filterCategory": "pushback",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-21T10:30:00.000Z",
+      "whyItMatters": "This is the labor side of warehouse AI: once software starts recommending where workers should move minute by minute, automation affects supervision and staffing even before jobs disappear outright."
+    },
+    {
+      "id": "curated-et-preity-zinta-deepfake-lawsuit-2026-06-18",
+      "title": "Bombay High Court allows Preity Zinta deepfake suit to proceed",
+      "summary": "The Economic Times reported that the Bombay High Court allowed Preity Zinta to file a suit against social media, internet, and AI-image firms over alleged deepfake and personality-rights violations.",
+      "fullSummary": "The Economic Times reported that the Bombay High Court allowed actor and entrepreneur Preity Zinta to file a suit against more than a dozen companies, including social platforms, internet firms, and AI image-generation websites. Zinta alleges that AI-generated deepfake videos and other digital content violated her personality rights and copyrights and damaged her goodwill. The respondents named in the report include Google, X, Meta, Cloudflare, Character Technologies, and others. The order is procedural, but it is still important because it lets a celebrity deepfake and personality-rights dispute move forward against a broad set of online intermediaries and AI-linked services.",
+      "keyFacts": [
+        "Published June 18, 2026 at 09:40 IST",
+        "The Bombay High Court allowed the suit filing under a procedural jurisdiction requirement",
+        "The case alleges deepfake, personality-rights, and copyright harms",
+        "Respondents named in the report include Google, X, Meta, Cloudflare, and Character Technologies"
+      ],
+      "url": "https://economictimes.indiatimes.com/news/india/bombay-hc-admits-preity-zinta-plea-against-social-media-ai-firms-in-deepfake-dispute/articleshow/131817134.cms",
+      "sourceName": "The Economic Times",
+      "relatedSources": [
+        "The Economic Times",
+        "Bombay High Court",
+        "Preity Zinta",
+        "Google",
+        "X",
+        "Meta"
+      ],
+      "lane": "policy-safety",
+      "publishedAt": "2026-06-18T04:10:00.000Z",
+      "importance": 568,
+      "sourceConfidence": "high",
+      "filterCategory": "pushback",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-21T10:30:00.000Z",
+      "whyItMatters": "Deepfake cases are becoming platform-liability and personality-rights fights, and this one tests how far Indian courts will let claims reach across AI tools and social distribution layers."
+    },
+    {
+      "id": "curated-toi-bharatgen-indian-language-ai-models-2026-06-17",
+      "title": "IIT Bombay launches BharatGen for Indian-language AI",
+      "summary": "The Times of India reported that IIT Bombay launched BharatGen, a homegrown AI initiative for text, speech, and document models across India's 22 scheduled languages.",
+      "fullSummary": "The Times of India reported that IIT Bombay launched BharatGen, a homegrown AI platform meant to make models work across India's linguistic diversity. The initiative is backed by the IndiaAI Mission and the Department of Science and Technology, and involves a consortium of nine academic institutions with more than 60 researchers, engineers, and linguists. Its model stack includes Param2 for reasoning, coding, and tool use, Shrutam2 for speech-to-text, Sooktam2 for text-to-speech and zero-shot voice cloning, and Patram for document vision. The article frames BharatGen as infrastructure for governance, education, healthcare, insurance, finance, and cultural preservation rather than a single chatbot launch.",
+      "keyFacts": [
+        "Published June 17, 2026 at 15:37 IST",
+        "IIT Bombay introduced BharatGen during Bharat Innovates 2026 in Nice, France",
+        "The initiative is backed by the IndiaAI Mission and the Department of Science and Technology",
+        "The model stack targets all 22 scheduled Indian languages across text, speech, and document use cases",
+        "The consortium includes nine academic institutions and more than 60 researchers, engineers, and linguists"
+      ],
+      "url": "https://timesofindia.indiatimes.com/education/news/from-hindi-to-tamil-ai-learns-indias-voice-iit-bombay-launches-bharatgen-a-model-built-for-the-nations-languages-and-people/articleshow/131794831.cms",
+      "sourceName": "The Times of India",
+      "relatedSources": [
+        "The Times of India",
+        "IIT Bombay",
+        "IndiaAI Mission",
+        "Department of Science and Technology"
+      ],
+      "lane": "models",
+      "publishedAt": "2026-06-17T10:07:00.000Z",
+      "importance": 566,
+      "sourceConfidence": "high",
+      "filterCategory": "models",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-21T10:45:00.000Z",
+      "whyItMatters": "India-language model work is easy to miss in English-language AI feeds, but BharatGen is the kind of national model stack that can shape public services, education, and healthcare access if it works beyond demos."
+    },
+    {
+      "id": "curated-businessinsider-genesis-eno-nonhumanoid-robot-2026-06-16",
+      "title": "Genesis AI argues useful robots do not need to look human",
+      "summary": "Business Insider profiled Genesis AI's Eno, a wheeled two-arm general-purpose robot meant for industrial deployments before homes, as the startup pushes a non-humanoid alternative to Figure AI and Tesla-style robots.",
+      "fullSummary": "Business Insider got an early look at Eno, the first robot from Genesis AI, a robotics startup founded in 2025 and backed by Eclipse, Khosla Ventures, and Eric Schmidt. Eno has two arms and human-like manipulation cues, but uses wheels instead of legs and has no head, reflecting CEO Zhou Xian's view that general-purpose robots should be useful and calm rather than anthropomorphic. Genesis says Eno runs on its GENE robotics model, will begin with manufacturers, logistics companies, and laboratories, and could eventually move into homes after safety and corner-case challenges are solved. The company is also building wireless gloves to collect high-quality manipulation data from skilled workers instead of relying only on teleoperation.",
+      "keyFacts": [
+        "Published June 16, 2026 at 13:00 UTC",
+        "Genesis AI introduced Eno, a wheeled robot with two arms and no head",
+        "The startup has raised $105 million from Eclipse, Khosla Ventures, and Eric Schmidt",
+        "Genesis plans small-scale customer deployments beginning with manufacturers, logistics companies, and labs",
+        "The company is building wireless gloves to collect robot-training data from skilled workers"
+      ],
+      "url": "https://www.businessinsider.com/genesis-ai-unveils-robot-with-no-head-or-legs-2026-6",
+      "sourceName": "Business Insider",
+      "relatedSources": [
+        "Business Insider",
+        "Genesis AI",
+        "Eno",
+        "Eclipse",
+        "Khosla Ventures",
+        "Eric Schmidt"
+      ],
+      "lane": "physical-ai",
+      "publishedAt": "2026-06-16T13:00:01.000Z",
+      "importance": 563,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-21T10:30:00.000Z",
+      "whyItMatters": "Physical AI is splitting between humanoid spectacle and practical machines; Genesis is a useful counterexample because it optimizes for deployment, data collection, and safety rather than a human silhouette."
+    },
+    {
+      "id": "curated-ibd-unitedhealth-ai-investment-2026-06-04",
+      "title": "UnitedHealth plans $1.5B AI push with expected two-for-one return",
+      "summary": "Investor's Business Daily reported that Morgan Stanley highlighted UnitedHealth's planned $1.5 billion AI investment in 2026, with the company expecting a conservative two-for-one return.",
+      "fullSummary": "Investor's Business Daily reported that UnitedHealth Group shares rose after analyst upgrades tied partly to moderating medical-cost trends and AI efficiency expectations. Morgan Stanley analyst Erin Wright highlighted UnitedHealth's broad AI deployment across administrative and clinical operations and said the company plans to invest $1.5 billion in AI initiatives in 2026. The report says UnitedHealth conservatively expects a two-for-one return, with many projects paying back over 12 to 18 months. The story is not a product launch, but it is a concrete healthcare-AI budget signal: one of the largest U.S. insurers is framing AI as an earnings and operating-efficiency lever.",
+      "keyFacts": [
+        "Published June 4, 2026 at 13:53 UTC",
+        "Investor's Business Daily cited Morgan Stanley analyst Erin Wright",
+        "UnitedHealth plans $1.5 billion in AI initiatives in 2026",
+        "The company expects a conservative two-for-one return on investment",
+        "IBD said the AI work spans administrative and clinical operations"
+      ],
+      "url": "https://www.investors.com/news/unh-stock-cvs-sp-500-health-insurers-flash-buy-signals-utilization-ai/",
+      "sourceName": "Investor's Business Daily",
+      "relatedSources": [
+        "Investor's Business Daily",
+        "UnitedHealth Group",
+        "Morgan Stanley",
+        "BofA"
+      ],
+      "lane": "health-science",
+      "publishedAt": "2026-06-04T13:53:00.000Z",
+      "importance": 548,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-21T10:30:00.000Z",
+      "whyItMatters": "Healthcare AI is moving from pilots to budget lines; the important number here is not hype but a large insurer tying AI spend to explicit ROI and earnings expectations."
+    },
+    {
+      "id": "curated-businessinsider-figure-humanoid-warehouse-livestream-2026-05-15",
+      "title": "Figure AI turns a package-sorting robot into a 24-hour livestream test",
+      "summary": "Business Insider reported that Figure AI livestreamed humanoid robots sorting packages for long shifts, reaching more than 30,000 packages after 24 hours while experts cautioned the demo was still narrow.",
+      "fullSummary": "Business Insider reported that Figure AI turned a package-sorting demo into a viral livestream, with CEO Brett Adcock aiming to show the company's humanoids could complete an eight-hour stretch of autonomous labor. The stream continued beyond that mark, and by 24 hours the robots had sorted more than 30,000 packages, with backup robots charging in the background. Figure and its investors framed the demo as evidence that humanoids are nearing warehouse usefulness. Outside experts were more cautious: the task was narrow, the robots showed pauses and occasional errors, and Ohio State engineering dean Ayanna Howard said they were still far from being fully autonomous logistics-center workers.",
+      "keyFacts": [
+        "Published May 15, 2026 at 09:03 UTC",
+        "Figure AI livestreamed humanoids sorting packages at its San Jose headquarters",
+        "The robots sorted more than 30,000 packages by the 24-hour mark",
+        "Figure said the work was autonomous and near human package-sorting speed",
+        "Experts quoted by Business Insider cautioned the demo was narrow and not yet logistics-center-ready"
+      ],
+      "url": "https://www.businessinsider.com/figure-ai-turned-a-humanoid-sorting-packages-must-see-tv-2026-5",
+      "sourceName": "Business Insider",
+      "relatedSources": [
+        "Business Insider",
+        "Figure AI",
+        "Brett Adcock",
+        "Agility Robotics"
+      ],
+      "lane": "physical-ai",
+      "publishedAt": "2026-05-15T09:03:49.000Z",
+      "importance": 542,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-21T10:30:00.000Z",
+      "whyItMatters": "Humanoid robotics claims need proof over time, and Figure's livestream is a useful signal because it shows both progress toward long-shift autonomy and the gap between demo reliability and warehouse deployment."
+    },
+    {
+      "id": "curated-tv9-vastav-ai-deepfake-detector-2025-03-13",
+      "title": "Vastav AI offers India-built deepfake checks for images, video, and audio",
+      "summary": "TV9 Hindi reported on Vastav, a deepfake detection system from Zero Defend Security that checks AI-generated photos, videos, and audio using confidence scores, heatmaps, metadata, and reports.",
+      "fullSummary": "TV9 Hindi reported on Vastav, a deepfake detection system developed by Zero Defend Security. The system is described as checking AI-generated photos, videos, and audio, then producing reports that use confidence scores, heatmaps, and metadata insights to show why content may be fake. The report says Vastav was recognized at CID Karnataka's CIDECODE hackathon and claims up to 99% accuracy. That accuracy claim should be treated as vendor-reported until independently benchmarked, but the product is still worth tracking because India's deepfake harm stories increasingly need practical forensic tools for police, media, and government users.",
+      "keyFacts": [
+        "Published March 13, 2025 at 10:37 IST",
+        "Vastav was developed by Zero Defend Security",
+        "The system checks images, videos, and audio for signs of AI generation or manipulation",
+        "TV9 Hindi says it uses confidence scores, heatmaps, metadata insights, and detailed reports",
+        "The reported 99% accuracy is vendor-framed and needs independent benchmarking"
+      ],
+      "url": "https://www.tv9hindi.com/technology/deepfake-detection-system-has-arrived-it-will-catch-ai-generated-photo-and-video-3167870.html",
+      "sourceName": "TV9 Hindi",
+      "relatedSources": [
+        "TV9 Hindi",
+        "Zero Defend Security",
+        "Vastav AI",
+        "CID Karnataka"
+      ],
+      "lane": "policy-safety",
+      "publishedAt": "2025-03-13T05:07:00.000Z",
+      "importance": 438,
+      "sourceConfidence": "medium",
+      "filterCategory": "pushback",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-21T10:30:00.000Z",
+      "whyItMatters": "As deepfake cases move from celebrity harm to police work and evidence handling, detection tools matter, but their claimed accuracy needs independent testing before becoming trusted infrastructure."
+    },
     {
       "id": "curated-guardian-lloyds-ai-hiring-drive-2026-06-20",
       "title": "Lloyds hires 300 AI experts for agentic banking push",

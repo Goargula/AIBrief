@@ -29,7 +29,12 @@ For each audit:
 5. Record important exclusions and mark the audit complete.
 
 Run a 30-day catch-up for workforce restructurings, scaled deployments,
-fraud/loss figures, and empirical adoption reports.
+fraud/loss figures, and empirical adoption reports. Include vertical adoption
+misses that broad AI pages often bury: education and teacher-training programs,
+public-sector AI upskilling, healthcare insurer AI budgets or ROI claims,
+physical-AI labor automation, regional-language AI education coverage,
+India-specific language-model releases, and synthetic-media enforcement or
+deepfake-detection tools that local-language technology pages may surface first.
 
 ## Broad Freshness Surfaces
 
