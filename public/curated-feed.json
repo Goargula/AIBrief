@@ -1,9 +1,162 @@
 {
-  "generatedAt": "2026-06-21T08:15:00.000Z",
-  "nextRefreshAt": "2026-06-21T19:15:00.000Z",
+  "generatedAt": "2026-06-21T09:05:00.000Z",
+  "nextRefreshAt": "2026-06-21T20:05:00.000Z",
   "summaryEngine": "chat-curated",
   "curated": true,
   "items": [
+    {
+      "id": "curated-guardian-lloyds-ai-hiring-drive-2026-06-20",
+      "title": "Lloyds hires 300 AI experts for agentic banking push",
+      "summary": "The Guardian reported that Lloyds Banking Group is hiring 300 AI specialists for agentic AI work across fraud prevention, personal finance, HR document search, and customer-facing banking tools.",
+      "fullSummary": "The Guardian reported that Lloyds Banking Group has launched a recruitment drive for 300 technology specialists to work on agentic AI by September. The new hires will join a 1,000-person AI team that also includes retrained Lloyds staff. Lloyds said the work will cover scam and fraud detection, internal HR document search, and more personalized online banking features that let customers ask plain-language questions about spending, savings, and investments. The bank said generative AI added 50 million pounds to its balance sheet last year and expects a 100 million pound benefit this year, while also acknowledging that broader AI adoption could reshape roles and lead to job cuts.",
+      "keyFacts": [
+        "Published June 20, 2026 at 11:00 UTC",
+        "Lloyds plans to hire 300 AI specialists by September",
+        "The recruits will join a 1,000-person AI team that includes retrained Lloyds staff",
+        "Lloyds said generative AI contributed 50 million pounds last year and expects 100 million pounds this year",
+        "KPMG data cited by The Guardian said only 47% of UK bank executives had tested AI disruption resilience"
+      ],
+      "url": "https://www.theguardian.com/business/2026/jun/20/lloyds-banking-group-ai-recruitment-drive-300-tech-experts",
+      "sourceName": "The Guardian",
+      "relatedSources": [
+        "The Guardian",
+        "Lloyds Banking Group",
+        "KPMG",
+        "Anthropic Claude",
+        "Google Gemini"
+      ],
+      "lane": "products-adoption",
+      "publishedAt": "2026-06-20T11:00:03.000Z",
+      "importance": 574,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-21T08:45:00.000Z",
+      "whyItMatters": "This is a concrete enterprise AI adoption signal: Lloyds is tying agentic AI to measurable financial gains, hiring, fraud prevention, customer advice, and operational-resilience risk."
+    },
+    {
+      "id": "curated-ft-chatbot-personal-life-dependence-2026-06-20",
+      "title": "FT questions why people turn to chatbots for personal advice",
+      "summary": "The Financial Times published an essay on people using chatbots for relationship and personal guidance, warning that emotionally useful AI conversations can also encourage dependence.",
+      "fullSummary": "The Financial Times published an essay by Enuma Okoro about the growing practice of asking chatbots for help with personal and relationship problems. Okoro describes trying a chatbot herself and finding the advice superficially sensible but unsettling because of how quickly the interaction could become emotionally compelling. The piece connects chatbot companionship to broader loneliness and argues that human conversation, friendship, and reflective solitude provide forms of support that machines cannot replace. It is not a product launch, but it is a useful reader-facing pushback item because consumer AI is increasingly being used as a personal confidant rather than just a work assistant.",
+      "keyFacts": [
+        "Published June 20, 2026 at 04:00 UTC",
+        "The essay discusses people using chatbots for personal relationship advice",
+        "The author warns that helpful-seeming chatbot exchanges can create dependence",
+        "The piece frames chatbot advice as part of a wider loneliness and human-connection problem"
+      ],
+      "url": "https://www.ft.com/content/471e1de6-3818-4b5f-8897-85bdb7eae905",
+      "sourceName": "Financial Times",
+      "relatedSources": [
+        "Financial Times",
+        "Enuma Okoro",
+        "Chatbots",
+        "Vivek Murthy"
+      ],
+      "lane": "policy-safety",
+      "publishedAt": "2026-06-20T04:00:29.000Z",
+      "importance": 565,
+      "sourceConfidence": "high",
+      "filterCategory": "pushback",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-21T08:45:00.000Z",
+      "whyItMatters": "As chatbots move into emotional and relationship advice, the risk is not only wrong answers but quietly replacing human support with a system optimized to keep talking."
+    },
+    {
+      "id": "curated-ft-ai-cost-monster-enterprise-usage-2026-06-19",
+      "title": "FT says companies are reining in AI use as costs bite",
+      "summary": "The Financial Times reported that Amazon, Walmart, Cisco, Uber, Meta, and smaller companies are adding caps or cost controls as AI agents drive up token and compute bills.",
+      "fullSummary": "The Financial Times reported that companies that rushed AI tools into employee workflows are beginning to rein in usage as costs rise. Amazon, Walmart, Cisco, Uber, and Meta have introduced caps, discouraged wasteful use, or steered employees toward cheaper models. The article says the shift is sharper as workers move from chatbots to agentic workflows, which require more compute and expose companies to token-based billing. Uber reportedly capped individual AI tool spending after exhausting its 2026 AI budget early, while Workato said its spend jumped sevenfold when Anthropic moved it to token-based pricing. The story turns AI adoption into a budget-governance issue rather than only a productivity narrative.",
+      "keyFacts": [
+        "Published June 19, 2026 at 04:00 UTC",
+        "FT says Amazon, Walmart, Cisco, Uber, and Meta are adding AI usage controls",
+        "Uber reportedly capped employees at $1,500 in monthly token spending on individual AI tools",
+        "Workato said its spend rose sevenfold after a token-pricing change",
+        "The article links the cost pressure to agentic AI's heavier compute requirements"
+      ],
+      "url": "https://www.ft.com/content/1d37cc08-e0aa-45a4-a45d-4ad282529314",
+      "sourceName": "Financial Times",
+      "relatedSources": [
+        "Financial Times",
+        "Amazon",
+        "Walmart",
+        "Cisco",
+        "Uber",
+        "Meta",
+        "Workato",
+        "Anthropic",
+        "OpenAI"
+      ],
+      "lane": "products-adoption",
+      "publishedAt": "2026-06-19T04:00:11.000Z",
+      "importance": 569,
+      "sourceConfidence": "high",
+      "filterCategory": "pushback",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-21T08:45:00.000Z",
+      "whyItMatters": "Enterprise AI enthusiasm is starting to meet CFO controls, and agent costs may shape adoption as much as model quality or benchmark performance."
+    },
+    {
+      "id": "curated-openai-enterprise-spend-controls-2026-06-18",
+      "title": "OpenAI gives enterprise admins more AI spend controls",
+      "summary": "OpenAI introduced new ChatGPT Enterprise usage analytics and spend controls so admins can track credit usage across users, products, and models and set more granular limits.",
+      "fullSummary": "OpenAI announced new usage analytics and updated spend controls for ChatGPT Enterprise. The Global Admin Console now gives admins a more granular view of credit consumption across users, products, and models, including ChatGPT and Codex usage, with data also available through the Cost API. OpenAI also added default workspace limits, group-level limits, and individual overrides so teams can manage power users without raising limits for everyone. The update matters because enterprise AI adoption is quickly moving from access and experimentation to budget governance, user-level controls, and evidence that AI spend maps to useful work.",
+      "keyFacts": [
+        "Published June 18, 2026",
+        "OpenAI added credit usage analytics for ChatGPT Enterprise admins",
+        "Admins can break down credit spend by user, product, and model",
+        "The data is also available through OpenAI's unified Cost API",
+        "Updated spend controls include workspace defaults, group limits, and individual overrides"
+      ],
+      "url": "https://openai.com/index/chatgpt-enterprise-spend-controls/",
+      "sourceName": "OpenAI",
+      "relatedSources": [
+        "OpenAI",
+        "ChatGPT Enterprise",
+        "Codex",
+        "Cost API",
+        "Zipline"
+      ],
+      "lane": "products-adoption",
+      "publishedAt": "2026-06-18T12:00:00.000Z",
+      "importance": 561,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-21T09:05:00.000Z",
+      "whyItMatters": "This is the platform-side answer to rising enterprise AI costs: once usage is broad, admins need controls that distinguish valuable work from waste before budgets get locked down."
+    },
+    {
+      "id": "curated-itpro-ai-rollout-sabotage-2026-06-18",
+      "title": "ITPro reports employees are sabotaging some AI rollouts",
+      "summary": "ITPro reported that research from Writer and Workplace Intelligence found 29% of surveyed employees had sabotaged workplace AI rollouts by refusing tools, bypassing guidance, or misusing systems.",
+      "fullSummary": "ITPro reported on research from Writer and Workplace Intelligence showing employee resistance to AI rollouts. The survey found that 29% of 1,200 employees in the UK, US, and Europe said they had engaged in some form of AI sabotage, including refusing training, ignoring guidelines, bypassing approved tools, or using unauthorized tools in risky ways. Resistance was higher among Gen Z respondents. Experts quoted by ITPro said leaders need to explain where AI will be used, how work will be evaluated, and how governance protects rather than blocks employees. The story adds a workforce-governance angle to AI adoption: poor rollout design can create shadow AI, data leakage, and active resistance.",
+      "keyFacts": [
+        "Published June 18, 2026 at 07:00 UTC",
+        "Writer and Workplace Intelligence surveyed 1,200 employees in the UK, US, and Europe",
+        "29% said they had engaged in some form of AI rollout sabotage",
+        "Reported behaviors included refusing training, ignoring guidelines, and using unauthorized tools",
+        "The article frames sabotage as a sign of bad incentives, poor communication, and weak governance"
+      ],
+      "url": "https://www.itpro.com/technology/artificial-intelligence/how-to-prevent-employees-from-sabotaging-ai-rollouts",
+      "sourceName": "ITPro",
+      "relatedSources": [
+        "ITPro",
+        "Writer",
+        "Workplace Intelligence",
+        "CultureAI",
+        "Future Processing",
+        "Ten10"
+      ],
+      "lane": "policy-safety",
+      "publishedAt": "2026-06-18T07:00:00.000Z",
+      "importance": 559,
+      "sourceConfidence": "high",
+      "filterCategory": "pushback",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-21T08:45:00.000Z",
+      "whyItMatters": "AI adoption can fail from the inside when workers do not trust the rollout, making governance, incentives, and tool quality part of the technical deployment problem."
+    },
     {
       "id": "curated-techcrunch-signal-ai-chatbots-not-friends-2026-06-20",
       "title": "Signal warns AI chatbots are not your friends",
