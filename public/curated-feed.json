@@ -1,9 +1,189 @@
 {
-  "generatedAt": "2026-06-20T13:20:00.000Z",
-  "nextRefreshAt": "2026-06-21T00:20:00.000Z",
+  "generatedAt": "2026-06-21T08:15:00.000Z",
+  "nextRefreshAt": "2026-06-21T19:15:00.000Z",
   "summaryEngine": "chat-curated",
   "curated": true,
   "items": [
+    {
+      "id": "curated-techcrunch-signal-ai-chatbots-not-friends-2026-06-20",
+      "title": "Signal warns AI chatbots are not your friends",
+      "summary": "TechCrunch reported that Signal president Meredith Whittaker warned against treating AI chatbots as conscious companions or giving agents broad access to private apps, payments, calendars, and messages.",
+      "fullSummary": "TechCrunch reported that Signal president Meredith Whittaker pushed back on the idea that AI chatbots should be treated like friends or sentient interlocutors. In a Bloomberg interview cited by TechCrunch, she said she uses AI only lightly and avoids outsourcing her own thinking and writing to systems that average what is already online. Whittaker also warned that agentic scenarios such as letting Copilot handle family gift shopping would require access to payments, browser data, private messages, home addresses, calendars, and messaging privileges. In Signal's context, she argued, that level of cross-app access would amount to a backdoor.",
+      "keyFacts": [
+        "Published June 20, 2026 at 20:32 UTC",
+        "Whittaker warned users not to treat AI chatbots as friends or sentient beings",
+        "She raised privacy concerns about agents that can access payments, calendars, browsers, and private chats",
+        "The comments came in a broader Bloomberg interview about Signal, privacy, and AI policy"
+      ],
+      "url": "https://techcrunch.com/2026/06/20/signals-meredith-whittaker-wants-you-to-remember-that-ai-chatbots-are-not-your-friends/",
+      "sourceName": "TechCrunch",
+      "relatedSources": [
+        "TechCrunch",
+        "Signal",
+        "Meredith Whittaker",
+        "Bloomberg",
+        "Microsoft Copilot"
+      ],
+      "lane": "policy-safety",
+      "publishedAt": "2026-06-20T20:32:00.000Z",
+      "importance": 579,
+      "sourceConfidence": "high",
+      "filterCategory": "pushback",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-21T08:15:00.000Z",
+      "whyItMatters": "Agentic AI becomes much riskier when assistants need access to private chats, payments, and calendars, so Signal's warning is a concrete privacy check on the consumer-agent pitch."
+    },
+    {
+      "id": "curated-techcrunch-in-the-weights-ai-vanity-search-2026-06-20",
+      "title": "In the Weights turns model recall into an AI vanity search",
+      "summary": "TechCrunch covered In the Weights, a new site from former OpenAI-acquired Global Illumination founders that scores how strongly different AI models appear to remember a person without web search.",
+      "fullSummary": "TechCrunch reported on In the Weights, a new AI-centric vanity-search tool created by Thomas Dimson and Joey Flynn after they left OpenAI. The site queries multiple models, including GPT, Claude, Gemini, Grok, and Llama variants, to see how well they can recall a person's identity without using web search. It clusters the models' answers, assigns a strength score, and highlights hallucinated or conflicting descriptions. The tool is playful, but the underlying idea is serious: as more people are discovered through AI answers rather than search results, model memory, training-data prominence, and hallucinated identity claims become a new reputation surface.",
+      "keyFacts": [
+        "Published June 20, 2026 at 19:41 UTC",
+        "The site was built by Thomas Dimson and Joey Flynn, formerly of Global Illumination and OpenAI",
+        "It queries several AI model families to score how strongly they recall a person",
+        "The results expose both model memorization and hallucinated identity descriptions"
+      ],
+      "url": "https://techcrunch.com/2026/06/20/in-the-weights-is-your-new-ai-centric-vanity-search/",
+      "sourceName": "TechCrunch",
+      "relatedSources": [
+        "TechCrunch",
+        "In the Weights",
+        "OpenAI",
+        "Global Illumination",
+        "Claude",
+        "Gemini",
+        "Grok",
+        "Llama"
+      ],
+      "lane": "products-adoption",
+      "publishedAt": "2026-06-20T19:41:00.000Z",
+      "importance": 576,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-21T08:15:00.000Z",
+      "whyItMatters": "The project makes a fuzzy problem visible: people and companies are starting to care not just how they rank in search, but how models remember or misremember them."
+    },
+    {
+      "id": "curated-verge-atlantic-music-training-dataset-search-2026-06-20",
+      "title": "The Atlantic makes AI music-training datasets searchable",
+      "summary": "The Verge reported that The Atlantic's AI Watchdog made four music datasets searchable, exposing millions of tracks that have been available for AI training even where licensing or platform terms may be contested.",
+      "fullSummary": "The Verge reported that Atlantic reporter Alex Reisner uncovered four music datasets used for AI training and made them searchable through The Atlantic's AI Watchdog project. Two of the datasets contain roughly 12 million and 9 million tracks, while two smaller sets still include more than 100,000 songs each. The article says Google and Stability have acknowledged using some of the datasets in research papers, and notes that several datasets are distributed as lists of links to music on platforms such as YouTube and Spotify. That makes the discovery more than a cataloging exercise: it shows how training data can be public enough for researchers to find, but legally and commercially contested when audio is downloaded or transformed for model training.",
+      "keyFacts": [
+        "Published June 20, 2026 at 18:46 UTC",
+        "The Atlantic made four AI music-training datasets searchable",
+        "Two datasets reportedly contain about 12 million and 9 million tracks",
+        "The Verge says Google and Stability have acknowledged using some of the datasets in research papers"
+      ],
+      "url": "https://www.theverge.com/ai-artificial-intelligence/953183/the-atlantic-searchable-database-music-ai-training-data",
+      "sourceName": "The Verge",
+      "relatedSources": [
+        "The Verge",
+        "The Atlantic",
+        "AI Watchdog",
+        "Google",
+        "Stability",
+        "Free Music Archive"
+      ],
+      "lane": "research",
+      "publishedAt": "2026-06-20T18:46:00.000Z",
+      "importance": 577,
+      "sourceConfidence": "high",
+      "filterCategory": "papers",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-21T08:15:00.000Z",
+      "whyItMatters": "Training-data transparency is becoming inspectable by outsiders, and music datasets are a live test of how copyright, platform terms, and research practice collide."
+    },
+    {
+      "id": "curated-wired-siri-ai-hands-on-2026-06-20",
+      "title": "WIRED tests Siri AI as a real-world phone assistant",
+      "summary": "WIRED tested Apple's new Siri AI in San Francisco, finding a more conversational, personalized assistant with useful app and camera context, but also rough edges in location, photo retrieval, and message drafting.",
+      "fullSummary": "WIRED spent a day using the developer-beta version of Apple's revamped Siri AI around San Francisco. The article describes Siri as more conversational, more deeply integrated into iPhone search, camera, messages, maps, and personal data, and able to continue follow-up conversations in a dedicated app. WIRED found useful moments, such as finding photos, suggesting nearby places, drafting a message, and answering questions with context. It also found early-beta problems: indexing took more than a week, a visual query confused a location, and message drafting produced literal or wrong details. The hands-on is a practical counterweight to keynote claims because it tests whether Apple's agentic assistant helps in messy everyday situations.",
+      "keyFacts": [
+        "Published June 20, 2026 at 10:00 UTC",
+        "WIRED tested Siri AI on an iPhone during a San Francisco route",
+        "The assistant uses personal context from messages, photos, emails, search, and the camera",
+        "The beta showed useful personalization alongside location and drafting mistakes"
+      ],
+      "url": "https://www.wired.com/story/siri-ai-hands-on-iphone/",
+      "sourceName": "WIRED",
+      "relatedSources": [
+        "WIRED",
+        "Apple",
+        "Siri AI",
+        "Apple Intelligence",
+        "Google"
+      ],
+      "lane": "products-adoption",
+      "publishedAt": "2026-06-20T10:00:00.000Z",
+      "importance": 572,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-21T08:15:00.000Z",
+      "whyItMatters": "Apple's AI comeback will be judged less by benchmark claims than by whether Siri can act reliably across personal context, apps, and real-world tasks."
+    },
+    {
+      "id": "curated-tomshardware-zai-fable-class-model-claim-2026-06-19",
+      "title": "Z.ai says China can reach Fable 5-class models before 2027",
+      "summary": "Tom's Hardware reported that Z.ai founder Jie Tang told Elon Musk a Chinese Fable 5-class AI model would arrive sooner than Musk's Q1 2027 estimate, pointing to Z.ai's recent GLM-5.2 benchmark claims.",
+      "fullSummary": "Tom's Hardware reported that Jie Tang, founder of Chinese AI lab Z.ai, responded to Elon Musk's prediction that China could produce a Fable 5-class model by Q1 2027 by saying it would not take that long. The article ties the claim to Z.ai's June 16 GLM-5.2 release, which the company says benchmarks close to Anthropic's Opus 4.7 and 4.8 and ahead of OpenAI GPT-5.5 and Google's Gemini 3.1 Pro. The story should be treated as a medium-confidence signal because the strongest performance claims are company-provided, but it still matters: U.S. restrictions on Anthropic's Fable and Mythos have turned frontier-model access into a geopolitical race, and Chinese labs are using that moment to argue they can close the gap.",
+      "keyFacts": [
+        "Published June 19, 2026",
+        "Z.ai founder Jie Tang said a Chinese Fable 5-class model would not take until Q1 2027",
+        "Z.ai released GLM-5.2 on June 16, 2026",
+        "The benchmark comparisons are company-stated and should be watched for independent verification"
+      ],
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/elon-musk-says-that-china-will-have-a-fable-5-class-ai-model-probably-q1-next-year-ceo-of-chinese-anthropic-rival-says-it-wont-take-that-long",
+      "sourceName": "Tom's Hardware",
+      "relatedSources": [
+        "Tom's Hardware",
+        "Z.ai",
+        "Zhipu AI",
+        "GLM-5.2",
+        "Anthropic",
+        "Fable 5",
+        "Elon Musk"
+      ],
+      "lane": "models",
+      "publishedAt": "2026-06-19T12:00:00.000Z",
+      "importance": 568,
+      "sourceConfidence": "medium",
+      "filterCategory": "models",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-21T08:15:00.000Z",
+      "whyItMatters": "If Chinese labs can approach restricted U.S. frontier models quickly, export controls may shift demand and prestige rather than simply preserving a capability gap."
+    },
+    {
+      "id": "curated-wired-amazon-workers-data-center-retaliation-2026-06-18",
+      "title": "Amazon workers allege retaliation after data-center activism",
+      "summary": "WIRED reported that three Amazon software engineers filed a Seattle civil-rights complaint after they were placed under internal investigation for publicly supporting data-center regulation.",
+      "fullSummary": "WIRED reported that three Amazon software engineers say they are under internal investigation after speaking publicly in favor of Seattle rules on data centers. The workers filed a complaint with Seattle's Office for Civil Rights, arguing that Amazon is illegally intimidating or retaliating against them for political speech. Amazon told WIRED it was reviewing whether the employees appeared to speak as company representatives, while the workers say they clearly spoke personally and as members of Amazon Employees for Climate Justice. The story sits at the intersection of AI infrastructure, worker speech, and local data-center politics: AI buildout is no longer only a siting or power-grid fight, but also an internal labor and corporate-governance issue.",
+      "keyFacts": [
+        "Published June 18, 2026 at 16:03 UTC",
+        "Three Amazon software engineers filed a complaint with Seattle's Office for Civil Rights",
+        "They had publicly supported local regulation of data centers",
+        "Amazon said it was examining whether the workers appeared to speak for the company"
+      ],
+      "url": "https://www.wired.com/story/amazon-workers-under-internal-investigation-after-speaking-out-about-data-centers/",
+      "sourceName": "WIRED",
+      "relatedSources": [
+        "WIRED",
+        "Amazon",
+        "Seattle",
+        "Amazon Employees for Climate Justice",
+        "Data centers"
+      ],
+      "lane": "infrastructure",
+      "publishedAt": "2026-06-18T16:03:00.000Z",
+      "importance": 564,
+      "sourceConfidence": "high",
+      "filterCategory": "pushback",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-21T08:15:00.000Z",
+      "whyItMatters": "Data-center backlash is now reaching inside Big Tech workforces, making AI infrastructure a labor, speech, and local-democracy story as well as a power-grid story."
+    },
     {
       "id": "curated-ft-anthropic-export-ban-risk-language-2026-06-20",
       "title": "FT asks whether Anthropic talked itself into an export ban",
