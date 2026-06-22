@@ -1,9 +1,35 @@
 {
-  "generatedAt": "2026-06-22T08:24:00.000Z",
-  "nextRefreshAt": "2026-06-22T19:24:00.000Z",
+  "generatedAt": "2026-06-22T09:05:00.000Z",
+  "nextRefreshAt": "2026-06-22T20:05:00.000Z",
   "summaryEngine": "chat-curated",
   "curated": true,
   "items": [
+    {
+      "id": "curated-et-china-green-power-ai-projects-hurdles-2026-06-22",
+      "title": "China's green-power push for AI projects runs into reliability hurdles",
+      "summary": "Economic Times reported that China's effort to pair AI data-center growth with green power is running into reliability and integration challenges as compute infrastructure becomes a strategic priority.",
+      "fullSummary": "Economic Times reported that China is trying to strengthen the link between computing infrastructure and power networks as AI-focused data centers become a strategic priority. The story says Beijing's 2026 government work report called for stronger integration between compute and power supply networks, but experts warn that reliable electricity for AI projects is harder to guarantee when renewable supply is variable and data-center demand keeps rising. The result is a familiar infrastructure tension: governments want cleaner AI growth, but operators still need firm, high-availability power for training and inference workloads.",
+      "keyFacts": [
+        "Published June 22, 2026 at 12:39 IST",
+        "China's 2026 government work report called for stronger integration between computing infrastructure and power supply networks",
+        "Experts cited by ET said reliable electricity for AI-focused data centers remains a hurdle",
+        "The story links AI infrastructure growth to grid planning and green-power reliability"
+      ],
+      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/chinas-push-for-green-power-use-in-ai-projects-faces-hurdles-experts-say/articleshow/131903329.cms",
+      "sourceName": "Economic Times",
+      "relatedSources": [
+        "Economic Times",
+        "China government work report"
+      ],
+      "lane": "infrastructure",
+      "publishedAt": "2026-06-22T07:09:00.000Z",
+      "importance": 594,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-22T09:05:00.000Z",
+      "whyItMatters": "AI infrastructure stories are no longer only about chips and land; power reliability is becoming a bottleneck that can decide where large-scale compute actually gets built."
+    },
     {
       "id": "curated-ft-jd-com-robots-delivery-workers-warning-2026-06-22",
       "title": "JD.com boss says delivery robots will eventually replace 700,000 workers",
@@ -31,6 +57,61 @@
       "summaryEngine": "chat-curated",
       "curatedAt": "2026-06-22T08:24:00.000Z",
       "whyItMatters": "This is a concrete labor-displacement signal from a major platform operator, not a generic automation forecast: JD.com is already pairing robot pilots with mass retraining plans."
+    },
+    {
+      "id": "curated-toi-musk-ai-exceeds-human-intelligence-2026-06-22",
+      "title": "Elon Musk says AI may exceed all human intelligence in four or five years",
+      "summary": "Times of India reported that Elon Musk predicted AI will probably exceed the sum of all human intelligence in four or five years, tying the claim to his broader views on automation, abundance, jobs, and Tesla's Optimus robot.",
+      "fullSummary": "Times of India reported that Elon Musk wrote on X on June 22 that AI will probably exceed the sum of all human intelligence in four or five years. The article frames the remark as broader than a claim about individual expert performance: Musk was comparing machine intelligence with humanity's total intellectual capacity. TOI also connected the prediction to Musk's repeated comments about machine-powered abundance, automation, future income models, and Tesla's Optimus humanoid robot program. The piece does not present the forecast as settled science, but it is a notable public timeline claim from one of the most visible AI-company and robotics executives.",
+      "keyFacts": [
+        "Published June 22, 2026 at 11:02 IST",
+        "Musk wrote that AI probably exceeds the sum of all human intelligence in 4 or 5 years",
+        "The article links the prediction to Musk comments about automation, abundance, and Optimus",
+        "The claim renews debate over AI timelines, jobs, and social planning"
+      ],
+      "url": "https://timesofindia.indiatimes.com/technology/tech-news/ai-probably-exceeds-human-intelligence-in-4-or-5-years-elon-musks-bold-prediction-sparks-debate-over-the-future-of-ai/articleshow/131901638.cms",
+      "sourceName": "Times of India",
+      "relatedSources": [
+        "Times of India",
+        "Elon Musk",
+        "Tesla",
+        "xAI"
+      ],
+      "lane": "policy-safety",
+      "publishedAt": "2026-06-22T05:32:00.000Z",
+      "importance": 593,
+      "sourceConfidence": "high",
+      "filterCategory": "pushback",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-22T09:05:00.000Z",
+      "whyItMatters": "The importance is not that the timeline is guaranteed; it is that a major AI and robotics operator is publicly pushing a very short superintelligence timeline while also planning around automation and humanoid robots."
+    },
+    {
+      "id": "curated-et-sk-hynix-ai-memory-valuation-samsung-2026-06-22",
+      "title": "SK Hynix briefly overtakes Samsung as AI memory demand lifts valuation",
+      "summary": "Economic Times reported that SK Hynix briefly became South Korea's most valuable company as AI data-center demand boosted memory-chip expectations and pushed its shares up more than 340% this year.",
+      "fullSummary": "Economic Times reported that SK Hynix briefly surpassed Samsung Electronics as South Korea's most valuable company. The move was driven by demand for memory chips used in AI data-center construction, with ET saying SK Hynix shares have risen more than 340% this year. The article presents the valuation shift as a sign of how AI infrastructure spending is reshaping old semiconductor hierarchies: Samsung remains a giant, but SK Hynix is being rewarded for its position in high-bandwidth memory and AI-linked supply chains.",
+      "keyFacts": [
+        "Published June 22, 2026 at 10:58 IST",
+        "SK Hynix briefly surpassed Samsung Electronics as South Korea's most valuable company",
+        "ET said SK Hynix shares have risen more than 340% this year",
+        "The driver was booming demand for memory chips used in AI data centers"
+      ],
+      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/sk-hynix-dethrones-samsung-electronics-as-south-koreas-most-valuable-company/articleshow/131901768.cms",
+      "sourceName": "Economic Times",
+      "relatedSources": [
+        "Economic Times",
+        "SK Hynix",
+        "Samsung Electronics"
+      ],
+      "lane": "infrastructure",
+      "publishedAt": "2026-06-22T05:28:00.000Z",
+      "importance": 592,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-22T09:05:00.000Z",
+      "whyItMatters": "This shows the AI buildout changing market leadership inside the semiconductor supply chain, with memory suppliers gaining strategic weight alongside GPU makers."
     },
     {
       "id": "curated-ft-bain-vibecoding-private-equity-diligence-2026-06-22",
@@ -62,6 +143,33 @@
       "whyItMatters": "AI coding is now changing how investors value software companies, because defensibility can be tested by quickly building working replicas instead of only reading product demos."
     },
     {
+      "id": "curated-toi-ai-stock-valuations-dangerous-sign-2026-06-22",
+      "title": "AI-stock valuations flash warning as cheap multiples may signal demand doubts",
+      "summary": "Times of India reported that Sevens Report Research founder Tom Essaye warned low forward price-to-earnings ratios for several AI stocks may reflect investor doubts about whether AI earnings and data-center demand will materialize.",
+      "fullSummary": "Times of India reported that Sevens Report Research founder Tom Essaye warned that relatively cheap valuations for several AI-linked stocks may not be a simple buying opportunity. Citing a Business Insider report, the article says low forward price-to-earnings ratios could reflect market fears that the data-center boom may slow and that expected AI earnings may not arrive. The comparison point was the S&P 500's forward P/E of 21.5, with the article noting that growth stocks usually command richer multiples when investors believe earnings will expand quickly.",
+      "keyFacts": [
+        "Published June 22, 2026 at 08:38 IST",
+        "Sevens Report Research founder Tom Essaye warned that cheap AI-stock valuations may be a dangerous signal",
+        "The article said low forward P/E ratios could reflect doubts about data-center demand and future earnings",
+        "TOI cited Business Insider and compared the concern with the S&P 500 forward P/E of 21.5"
+      ],
+      "url": "https://timesofindia.indiatimes.com/technology/tech-news/market-research-company-warn-of-ai-stocks-selling-cheap-say-they-point-to-a-dangerous-sign/articleshow/131900405.cms",
+      "sourceName": "Times of India",
+      "relatedSources": [
+        "Times of India",
+        "Sevens Report Research",
+        "Business Insider"
+      ],
+      "lane": "policy-safety",
+      "publishedAt": "2026-06-22T03:08:00.000Z",
+      "importance": 585,
+      "sourceConfidence": "high",
+      "filterCategory": "pushback",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-22T09:05:00.000Z",
+      "whyItMatters": "The AI bubble debate is moving from abstract skepticism to valuation signals, especially around whether data-center spending can support expected earnings."
+    },
+    {
       "id": "curated-toi-replika-founder-ai-job-loss-warning-2026-06-22",
       "title": "Replika founder warns AI job-loss fears are justified",
       "summary": "The Times of India reported that Replika and Wabi founder Eugenia Kuyda warned tech executives that AI is already making junior roles harder to justify and could trigger wider social unrest if the industry does not create new paths for workers.",
@@ -88,6 +196,87 @@
       "summaryEngine": "chat-curated",
       "curatedAt": "2026-06-22T08:06:21.000Z",
       "whyItMatters": "This is a sharper version of the AI labor debate because it comes from a chatbot founder saying the entry-level hiring problem is already real, not just a future macroeconomic risk."
+    },
+    {
+      "id": "curated-et-coursera-cto-ai-learning-still-matters-2026-06-22",
+      "title": "Coursera CTO says AI makes practical learning harder to prove but more important",
+      "summary": "Economic Times reported that Coursera CTO Mustafa Furniturewala said education platforms must convince people learning still matters in the AI era by helping users turn information into practical skills.",
+      "fullSummary": "Economic Times reported that Coursera CTO Mustafa Furniturewala sees a new problem for education platforms: AI has made information easy to access, so platforms have to prove the value of structured learning. Furniturewala said Coursera is focusing on helping people translate information into practical, real-world skills rather than simply adding more content. He also argued that India can play a major role in AI innovation and upskilling through application layers and ecosystems, even without owning the leading frontier models. The piece is an adoption story about how AI is changing the education business model and workforce-training demand.",
+      "keyFacts": [
+        "Published June 22, 2026 at 06:00 IST",
+        "Coursera CTO Mustafa Furniturewala said the challenge is convincing people that learning still matters",
+        "He said the focus should be translating information into real-world skills",
+        "The article frames India as a major AI upskilling and application-layer market"
+      ],
+      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/with-ai-challenge-is-convincing-people-that-learning-still-matters-coursera-cto/articleshow/131897015.cms",
+      "sourceName": "Economic Times",
+      "relatedSources": [
+        "Economic Times",
+        "Coursera",
+        "Mustafa Furniturewala"
+      ],
+      "lane": "products-adoption",
+      "publishedAt": "2026-06-22T00:30:00.000Z",
+      "importance": 591,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-22T09:05:00.000Z",
+      "whyItMatters": "The education angle matters because AI is not only changing jobs; it is changing whether workers believe formal upskilling is worth paying for at all."
+    },
+    {
+      "id": "curated-et-india-ai-startups-hiring-surge-2026-06-22",
+      "title": "India AI startups fuel talent war as hiring outpaces broader tech market",
+      "summary": "Economic Times reported that Indian AI startups are hiring aggressively across engineering, product, and customer-facing roles as companies move from experiments to larger deployments.",
+      "fullSummary": "Economic Times reported that India's AI startup ecosystem is hiring aggressively even as the broader technology job market remains cautious. The article says demand for generative AI and automation is driving recruitment across engineering, product, and customer-facing roles as startups shift from experiments to scaled deployments. ET also notes that the surge is worsening the shortage of experienced AI talent and pushing up compensation for senior AI professionals and leadership roles. This is a regional workforce story: AI is removing some junior roles in one part of the market while creating a hiring boom for scarce AI skills in another.",
+      "keyFacts": [
+        "Published June 22, 2026 at 06:00 IST",
+        "Indian AI startups are hiring despite broader caution in the technology job market",
+        "Demand is strongest across engineering, product, and customer-facing AI roles",
+        "ET reported that compensation pressure is rising for experienced AI professionals and leadership roles"
+      ],
+      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/ai-startups-fuel-talent-war-as-hiring-surges-across-india/articleshow/131897020.cms",
+      "sourceName": "Economic Times",
+      "relatedSources": [
+        "Economic Times",
+        "Indian AI startups"
+      ],
+      "lane": "regional",
+      "publishedAt": "2026-06-22T00:30:00.000Z",
+      "importance": 590,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-22T09:05:00.000Z",
+      "whyItMatters": "It adds the missing labor-market counterpoint: AI is not just a layoff story in India, it is also creating a concentrated hiring market for scarce deployment talent."
+    },
+    {
+      "id": "curated-ibm-wimbledon-ai-fan-experience-match-chat-2026-06-22",
+      "title": "Wimbledon uses IBM AI features to deepen digital fan experience",
+      "summary": "IBM's Wimbledon case study says the tournament is using AI to drive fan engagement through Match Chat, Live Likelihood to Win, Key Moments, watsonx Orchestrate, watsonx.data, and a rebuilt app and website.",
+      "fullSummary": "IBM's Wimbledon case study says the All England Lawn Tennis Club is using AI to drive fan engagement and transform digital operations. IBM describes a redesigned Wimbledon app and website that support AI-powered features including Match Chat, an assistant for match-specific questions; Live Likelihood to Win, which gives point-by-point win projections with AI-powered analysis; and Key Moments, which identifies turning points in a match. IBM also says Wimbledon uses watsonx Orchestrate to control and scale agentic AI, watsonx.data to manage data across hybrid-cloud infrastructure, and IBM Bob to help build and manage the platform code. The page frames the work as part of a five-year digital transformation rather than a one-off tournament feature.",
+      "keyFacts": [
+        "IBM page inspected June 22, 2026; the source page does not expose a precise publication timestamp",
+        "Wimbledon uses AI-powered Match Chat, Live Likelihood to Win, and Key Moments features",
+        "IBM says Wimbledon uses watsonx Orchestrate, watsonx.data, hybrid cloud, and IBM Bob in the platform stack",
+        "The work is described as part of a five-year digital transformation with the All England Lawn Tennis Club"
+      ],
+      "url": "https://www.ibm.com/sports/wimbledon",
+      "sourceName": "IBM",
+      "relatedSources": [
+        "IBM",
+        "Wimbledon",
+        "All England Lawn Tennis Club",
+        "watsonx"
+      ],
+      "lane": "products-adoption",
+      "publishedAt": "2026-06-22T00:00:00.000Z",
+      "importance": 584,
+      "sourceConfidence": "medium",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-22T09:05:00.000Z",
+      "whyItMatters": "This is a real deployment of consumer-facing AI in a high-stakes live sports product, where usefulness depends on trusted event data and fast in-match context rather than generic chat."
     },
     {
       "id": "curated-businessinsider-zai-glm-5-2-open-model-2026-06-21",
@@ -205,6 +394,32 @@
       "whyItMatters": "Apple's most important AI adoption may come through invisible workflow changes inside default apps, because that reaches far more users than a standalone chatbot experience."
     },
     {
+      "id": "curated-toi-delhivery-ai-native-mapping-suite-2026-06-21",
+      "title": "Delhivery launches AI-native mapping suite for logistics operations",
+      "summary": "Times of India reported that Delhivery launched Delhivery Maps, an AI-native mapping suite built on commercial logistics telemetry, marking the company's move into geospatial infrastructure.",
+      "fullSummary": "Times of India reported that Delhivery launched Delhivery Maps, which it describes as India's first AI-native mapping suite built on commercial logistics telemetry. The launch coincides with Delhivery's 15-year anniversary and marks its entry into geospatial infrastructure. The product is aimed at logistics, delivery, and supply-chain use cases where generic maps often miss commercial routing realities. It is a practical AI adoption story because the value comes from Delhivery's operational data, not from a generic chatbot layer.",
+      "keyFacts": [
+        "Published June 21, 2026 at 20:10 IST",
+        "Delhivery launched Delhivery Maps on its 15-year anniversary",
+        "The company describes it as an AI-native mapping suite built on commercial logistics telemetry",
+        "The launch moves Delhivery into geospatial infrastructure for logistics and supply chains"
+      ],
+      "url": "https://timesofindia.indiatimes.com/technology/tech-news/delhivery-launches-ai-native-mapping-suite-delhivery-maps/articleshow/131892507.cms",
+      "sourceName": "Times of India",
+      "relatedSources": [
+        "Times of India",
+        "Delhivery"
+      ],
+      "lane": "products-adoption",
+      "publishedAt": "2026-06-21T14:40:00.000Z",
+      "importance": 589,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-22T09:05:00.000Z",
+      "whyItMatters": "This is a concrete India-specific AI product launch where the moat is operational logistics telemetry, not just a wrapper around a general model."
+    },
+    {
       "id": "curated-openai-samsung-chatgpt-codex-deployment-2026-06-21",
       "title": "Samsung deploys ChatGPT and Codex across major employee groups",
       "summary": "OpenAI announced that Samsung Electronics is making ChatGPT Enterprise and Codex available to all employees in Korea and to Device eXperience employees worldwide.",
@@ -290,6 +505,57 @@
       "whyItMatters": "Enterprise AI adoption is shifting from access to governance: the next bottleneck is whether companies can turn individual experiments into coordinated workflows that actually improve performance."
     },
     {
+      "id": "curated-et-unitedhealth-3b-ai-bots-doctors-2026-06-21",
+      "title": "UnitedHealth says $3B AI push has bots calling doctors",
+      "summary": "Economic Times reported that UnitedHealth plans to invest $3 billion in AI across 2026 and 2027 and says it is seeing a two-to-one return as bots automate manual processes including calls to doctors.",
+      "fullSummary": "Economic Times reported that UnitedHealth plans to invest $3 billion in AI over 2026 and 2027. Executives said the company is seeing a two-to-one return from AI work that automates manual processes and makes employees more efficient, including bots that call doctors. The insurer says the technology can reduce patient friction while lowering costs, though healthcare automation remains sensitive because the same systems can affect access, approvals, and clinician workflows. This materially updates the healthcare AI budget story by giving a larger two-year spending figure and a specific operational use case.",
+      "keyFacts": [
+        "Published June 21, 2026 at 12:19 IST",
+        "UnitedHealth plans to invest $3 billion in AI over 2026 and 2027",
+        "Executives said the company is seeing a two-to-one return",
+        "The article says bots are being used to call doctors and automate manual processes"
+      ],
+      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/unitedhealths-3-billion-ai-push-has-bots-calling-doctors/articleshow/131887092.cms",
+      "sourceName": "Economic Times",
+      "relatedSources": [
+        "Economic Times",
+        "UnitedHealth"
+      ],
+      "lane": "health-science",
+      "publishedAt": "2026-06-21T06:49:00.000Z",
+      "importance": 588,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-22T09:05:00.000Z",
+      "whyItMatters": "Healthcare AI is moving from pilots to budgeted operational automation, and UnitedHealth gives a rare spending number tied to claimed ROI."
+    },
+    {
+      "id": "curated-guardian-ai-generated-influencers-product-promotion-2026-06-21",
+      "title": "Guardian finds brands using AI-generated influencers to promote products",
+      "summary": "The Guardian reported that brands are using AI-generated influencers and customer-like personas to promote products on social media, prompting calls for clearer disclosure.",
+      "fullSummary": "The Guardian reported that brands are using AI-generated influencers and customer-like personas to promote products on social media. Its investigation found AI content that appears to show genuine customers, raising transparency concerns from critics who argue viewers need clearer disclosure when a person, testimonial, or lifestyle scene is synthetic. The story extends the AI-influencer issue beyond novelty accounts into advertising and consumer trust: if synthetic promoters look like ordinary customers, audiences may struggle to tell whether a recommendation is real, paid, or generated.",
+      "keyFacts": [
+        "Published June 21, 2026 at 16:00 AEST",
+        "The Guardian investigation found AI-generated promotional content that can appear to show genuine customers",
+        "The article prompted calls for greater transparency around synthetic influencers and ads",
+        "The story sits at the intersection of AI media, advertising, and consumer protection"
+      ],
+      "url": "https://www.theguardian.com/technology/2026/jun/21/brands-using-ai-generated-influencers-to-promote-products-on-social-media",
+      "sourceName": "The Guardian",
+      "relatedSources": [
+        "The Guardian"
+      ],
+      "lane": "policy-safety",
+      "publishedAt": "2026-06-21T06:00:00.000Z",
+      "importance": 587,
+      "sourceConfidence": "high",
+      "filterCategory": "pushback",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-22T09:05:00.000Z",
+      "whyItMatters": "This is the consumer-facing version of the synthetic-media problem: people may be sold products by realistic AI personas that look like ordinary customers."
+    },
+    {
       "id": "curated-tomshardware-china-space-ai-data-centers-2026-06-20",
       "title": "China coordinates industry push for orbiting AI data centers",
       "summary": "Tom's Hardware reported that China approved a Space Computing Industry Innovation Center to coordinate satellite makers, chip firms, rocket companies, and AI developers around space-based compute.",
@@ -344,6 +610,32 @@
       "summaryEngine": "chat-curated",
       "curatedAt": "2026-06-21T10:30:00.000Z",
       "whyItMatters": "Deepfake policy becomes real only when victims can move from takedown complaints to investigation and arrests, and this case shows Indian cyber police beginning to treat synthetic-media abuse as actionable harm."
+    },
+    {
+      "id": "curated-et-india-data-centre-pipeline-ai-demand-2026-06-20",
+      "title": "India's data-centre pipeline reaches 8.33GW as AI demand reshapes infrastructure",
+      "summary": "Economic Times reported that India's data-centre development pipeline has reached 8.33GW, more than five times current live capacity, as AI adoption, cloud demand, and data-localisation needs reshape infrastructure planning.",
+      "fullSummary": "Economic Times reported that India's data-centre sector has a development pipeline of 8.33GW across major markets, citing Knight Frank India. That is more than five times the country's current live capacity of 1.6GW. The article says the buildout is being driven by accelerating AI adoption, cloud computing growth, and data-localisation requirements. The figure is important because it puts a concrete capacity number on India's AI infrastructure race: data centers are becoming a power, real-estate, and policy story as much as a cloud story.",
+      "keyFacts": [
+        "Published June 20, 2026 at 15:35 IST",
+        "Knight Frank India estimated an 8.33GW data-centre development pipeline across major Indian markets",
+        "ET said current live data-centre capacity is about 1.6GW",
+        "The report ties future supply to AI adoption, cloud growth, and data-localisation demand"
+      ],
+      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/indias-data-centre-pipeline-hits-8-33-gw-as-ai-demand-reshapes-digital-infra-knight-frank-india/articleshow/131873929.cms",
+      "sourceName": "Economic Times",
+      "relatedSources": [
+        "Economic Times",
+        "Knight Frank India"
+      ],
+      "lane": "infrastructure",
+      "publishedAt": "2026-06-20T10:05:00.000Z",
+      "importance": 586,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-22T09:05:00.000Z",
+      "whyItMatters": "This gives the India AI infrastructure buildout a hard scale marker, showing how compute demand is already translating into gigawatt-level real-estate and power planning."
     },
     {
       "id": "curated-maharashtra-google-ai-teacher-training-2026-06-20",
