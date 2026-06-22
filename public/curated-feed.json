@@ -1,9 +1,66 @@
 {
-  "generatedAt": "2026-06-22T08:06:21.000Z",
-  "nextRefreshAt": "2026-06-22T19:06:21.000Z",
+  "generatedAt": "2026-06-22T08:24:00.000Z",
+  "nextRefreshAt": "2026-06-22T19:24:00.000Z",
   "summaryEngine": "chat-curated",
   "curated": true,
   "items": [
+    {
+      "id": "curated-ft-jd-com-robots-delivery-workers-warning-2026-06-22",
+      "title": "JD.com boss says delivery robots will eventually replace 700,000 workers",
+      "summary": "Financial Times reported that JD.com founder Richard Liu warned the company's 700,000 couriers will eventually be replaced by robots, while saying the company is retraining workers for robot maintenance and repair roles.",
+      "fullSummary": "Financial Times reported that JD.com founder and chair Richard Liu told the APEC CEO forum in Shenzhen that the company's 700,000 delivery workers will eventually be replaced by robots. Liu said JD.com has signed contracts with about 120 schools to retrain couriers for roles such as robot repair and maintenance, while pilot delivery-robot projects are already running in Shenzhen. The article places the warning inside China's wider labor strain: gig workers are expected to reach 320 million this year, youth unemployment remains high, and Beijing is prioritizing robotics as part of its next five-year plan. Liu said technology should make work more interesting rather than take away people's right to work, but the comments underline how quickly physical automation is moving from demos into workforce planning.",
+      "keyFacts": [
+        "Published June 22, 2026 at 06:34 UTC",
+        "JD.com founder Richard Liu said robots will eventually replace the company's 700,000 couriers",
+        "JD.com has contracts with about 120 schools to retrain couriers for robot maintenance roles",
+        "FT reported that China's gig-worker population is expected to reach 320 million this year"
+      ],
+      "url": "https://www.ft.com/content/465635e2-633b-4311-afe5-9b3bff8c9240",
+      "sourceName": "Financial Times",
+      "relatedSources": [
+        "Financial Times",
+        "JD.com",
+        "APEC CEO Forum",
+        "International Federation of Robotics"
+      ],
+      "lane": "policy-safety",
+      "publishedAt": "2026-06-22T06:34:14.000Z",
+      "importance": 597,
+      "sourceConfidence": "high",
+      "filterCategory": "pushback",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-22T08:24:00.000Z",
+      "whyItMatters": "This is a concrete labor-displacement signal from a major platform operator, not a generic automation forecast: JD.com is already pairing robot pilots with mass retraining plans."
+    },
+    {
+      "id": "curated-ft-bain-vibecoding-private-equity-diligence-2026-06-22",
+      "title": "Bain uses vibecoded AI replicas to test software takeover targets",
+      "summary": "Financial Times reported that Bain is using AI-generated software replicas to help private equity buyers judge whether acquisition targets have defensible products as generative coding lowers software-building costs.",
+      "fullSummary": "Financial Times reported that Bain & Company is using 'vibecoding' in private-equity due diligence, rapidly recreating pieces of acquisition targets' software with generative AI. The replicas help buyers test how hard a product is to copy, whether the target's code is truly defensible, and how the product might evolve as AI reduces software development costs. Bain said staff have created hundreds of rough prototypes, expanding a practice that began with a specialist engineering group in 2023 into work used by regular consultants. The article also notes that public software valuations have fallen as investors price in AI disruption, while private-equity tech deal value dropped sharply in the first quarter of 2026.",
+      "keyFacts": [
+        "Published June 22, 2026 at 04:00 UTC",
+        "Bain is using generative AI to recreate pieces of software acquisition targets",
+        "The practice helps investors judge whether target software is defensible",
+        "FT cited KPMG data showing private equity-led tech, telecom, and media deal value fell 69% quarter over quarter in Q1 2026"
+      ],
+      "url": "https://www.ft.com/content/e5bac4d1-b1f8-43a4-bd54-b182d5357af0",
+      "sourceName": "Financial Times",
+      "relatedSources": [
+        "Financial Times",
+        "Bain & Company",
+        "KPMG",
+        "Salesforce",
+        "ServiceNow"
+      ],
+      "lane": "products-adoption",
+      "publishedAt": "2026-06-22T04:00:07.000Z",
+      "importance": 596,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-22T08:24:00.000Z",
+      "whyItMatters": "AI coding is now changing how investors value software companies, because defensibility can be tested by quickly building working replicas instead of only reading product demos."
+    },
     {
       "id": "curated-toi-replika-founder-ai-job-loss-warning-2026-06-22",
       "title": "Replika founder warns AI job-loss fears are justified",
@@ -174,6 +231,35 @@
       "summaryEngine": "chat-curated",
       "curatedAt": "2026-06-22T08:06:21.000Z",
       "whyItMatters": "Large enterprise rollouts are the adoption proof point that matters after model launches, and Samsung gives OpenAI a manufacturing-scale customer for both ChatGPT and Codex."
+    },
+    {
+      "id": "curated-atlantic-ai-cancer-progress-slowdown-essay-2026-06-21",
+      "title": "AI professor argues cancer promise does not justify rushing frontier AI",
+      "summary": "The Atlantic published an essay by UC Berkeley computer scientist Emma Pierson arguing that AI may help cancer research but is unlikely to cure cancer soon enough to outweigh the broader risks of rushing frontier systems.",
+      "fullSummary": "The Atlantic published an essay by UC Berkeley assistant professor Emma Pierson, who writes from the unusual position of both researching AI and carrying a mutation that raises her cancer risk. Pierson argues that AI will help biomedical research, but cancer progress is constrained by clinical trials, finite biological data, and ethical limits on experimentation in ways that chess, coding, and other digital domains are not. She contrasts that reality with Dario Amodei's claims about AI compressing decades of scientific progress, then uses Anthropic's Fable 5 rollout and shutdown as evidence that institutions are not ready for increasingly powerful models. Her conclusion is not anti-science: she says she would personally wait longer for AI-aided medical gains if slowing deployment gives society more time to handle labor, inequality, surveillance, warfare, and meaning-related risks.",
+      "keyFacts": [
+        "Published June 21, 2026 at 08:00 ET",
+        "The author is UC Berkeley computer scientist Emma Pierson",
+        "The essay argues cancer research cannot move at the speed of digital AI benchmarks",
+        "It cites Anthropic's Fable 5 rollout as evidence that institutions are not ready for rapid frontier-model deployment"
+      ],
+      "url": "https://www.theatlantic.com/technology/2026/06/ai-cancer-progress/687654/",
+      "sourceName": "The Atlantic",
+      "relatedSources": [
+        "The Atlantic",
+        "Emma Pierson",
+        "UC Berkeley",
+        "Anthropic",
+        "Dario Amodei"
+      ],
+      "lane": "policy-safety",
+      "publishedAt": "2026-06-21T12:00:00.000Z",
+      "importance": 595,
+      "sourceConfidence": "high",
+      "filterCategory": "pushback",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-22T08:24:00.000Z",
+      "whyItMatters": "This is a more nuanced AI-safety argument because it comes from an AI researcher with direct personal stakes in AI-assisted cancer progress, not from a detached technology critic."
     },
     {
       "id": "curated-businessinsider-ai-sprawl-enterprise-tools-2026-06-21",
