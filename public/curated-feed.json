@@ -1,9 +1,237 @@
 {
-  "generatedAt": "2026-06-21T10:45:00.000Z",
-  "nextRefreshAt": "2026-06-21T21:45:00.000Z",
+  "generatedAt": "2026-06-22T08:06:21.000Z",
+  "nextRefreshAt": "2026-06-22T19:06:21.000Z",
   "summaryEngine": "chat-curated",
   "curated": true,
   "items": [
+    {
+      "id": "curated-toi-replika-founder-ai-job-loss-warning-2026-06-22",
+      "title": "Replika founder warns AI job-loss fears are justified",
+      "summary": "The Times of India reported that Replika and Wabi founder Eugenia Kuyda warned tech executives that AI is already making junior roles harder to justify and could trigger wider social unrest if the industry does not create new paths for workers.",
+      "fullSummary": "The Times of India reported comments from Eugenia Kuyda, founder of Replika and Wabi, arguing that fears about AI-driven job losses are not overblown. Kuyda said junior roles are already disappearing because training inexperienced workers has become too expensive for startups when AI can handle more entry-level work. She warned that the industry needs a more credible answer than assuming new jobs will naturally appear, because widespread displacement could lead to public protests. At the same time, she framed AI tools as potentially expanding who can build software and products if companies actively create new opportunities around them.",
+      "keyFacts": [
+        "Published June 22, 2026 at 07:37 IST",
+        "Eugenia Kuyda founded Replika and the AI mini-app platform Wabi",
+        "She said fears about AI eliminating human jobs are justified",
+        "Kuyda warned that junior roles are already becoming harder for startups to support"
+      ],
+      "url": "https://timesofindia.indiatimes.com/technology/tech-news/ai-chatbot-founder-has-a-message-for-all-tech-executives-warning-of-job-losses-youre-right-but-you-need-to-create-/articleshow/131890257.cms",
+      "sourceName": "The Times of India",
+      "relatedSources": [
+        "The Times of India",
+        "Replika",
+        "Wabi",
+        "Platformer"
+      ],
+      "lane": "policy-safety",
+      "publishedAt": "2026-06-22T02:07:00.000Z",
+      "importance": 594,
+      "sourceConfidence": "high",
+      "filterCategory": "pushback",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-22T08:06:21.000Z",
+      "whyItMatters": "This is a sharper version of the AI labor debate because it comes from a chatbot founder saying the entry-level hiring problem is already real, not just a future macroeconomic risk."
+    },
+    {
+      "id": "curated-businessinsider-zai-glm-5-2-open-model-2026-06-21",
+      "title": "Z.ai's GLM-5.2 open model draws Silicon Valley attention",
+      "summary": "Business Insider reported that GLM-5.2, a new open-source Chinese model from z.ai, is gaining attention for coding and agentic workflows, with a claimed 1 million-token context window.",
+      "fullSummary": "Business Insider reported that z.ai's GLM-5.2 has become a new focus of Silicon Valley attention because it is an open-source Chinese model aimed at long coding tasks and agentic workflows. The company says the model supports a 1 million-token context window, putting it in the same broad context-length conversation as leading closed systems. Developers and investors cited in the article said the model feels unusually strong for day-to-day coding use. The story also links the release to the larger U.S.-China AI race: open models from China continue to pressure closed American frontier labs by giving users more control over deployment and customization.",
+      "keyFacts": [
+        "Published June 21, 2026 at 19:52 UTC",
+        "GLM-5.2 is an open-source model from z.ai",
+        "The model is positioned for coding and agentic workflows",
+        "Business Insider reported a claimed 1 million-token context window"
+      ],
+      "url": "https://www.businessinsider.com/what-is-glm-5-2-chinese-ai-coding-model-2026-6",
+      "sourceName": "Business Insider",
+      "relatedSources": [
+        "Business Insider",
+        "z.ai",
+        "Vercel",
+        "Anthropic"
+      ],
+      "lane": "models",
+      "publishedAt": "2026-06-21T19:52:34.022Z",
+      "importance": 593,
+      "sourceConfidence": "high",
+      "filterCategory": "models",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-22T08:06:21.000Z",
+      "whyItMatters": "Open Chinese models are no longer just price pressure; if GLM-5.2 is good enough for daily coding workflows, it changes the competitive pressure on closed frontier labs."
+    },
+    {
+      "id": "curated-pitchfork-sza-ai-training-data-backlash-2026-06-21",
+      "title": "SZA and producers object to music in AI training datasets",
+      "summary": "Pitchfork reported that SZA, Kenneth Blume, and other musicians objected after The Atlantic's search tool showed their songs appearing in datasets used by AI music developers.",
+      "fullSummary": "Pitchfork reported that SZA, producer Kenneth Blume, and other musicians criticized the use of their songs in datasets associated with AI music generation. Their reactions followed The Atlantic's launch of a search tool built by researcher Alex Reisner that lets artists look for their music in datasets available to AI developers. SZA said the tool showed 238 of her songs, including possibly unreleased tracks, while Blume criticized AI music companies for building products on working musicians' output. The article notes that the datasets cover more than 21 million songs and that lawsuits against AI music companies such as Suno and Udio remain active.",
+      "keyFacts": [
+        "Published June 21, 2026 at 17:42 UTC",
+        "The Atlantic tool searches datasets used by AI music developers",
+        "SZA said 238 of her songs appeared in the data",
+        "Pitchfork reported criticism from SZA, Kenneth Blume, and other musicians"
+      ],
+      "url": "https://pitchfork.com/news/sza-kenneth-blume-decry-use-of-their-songs-in-ai-training-data-sets",
+      "sourceName": "Pitchfork",
+      "relatedSources": [
+        "Pitchfork",
+        "The Atlantic",
+        "SZA",
+        "Kenneth Blume",
+        "Suno",
+        "Udio"
+      ],
+      "lane": "policy-safety",
+      "publishedAt": "2026-06-21T17:42:30.000Z",
+      "importance": 592,
+      "sourceConfidence": "high",
+      "filterCategory": "pushback",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-22T08:06:21.000Z",
+      "whyItMatters": "The training-data fight is moving from lawsuits and labels to individual artists checking their own catalogs, which makes the AI music backlash more visible and harder to dismiss as abstract copyright policy."
+    },
+    {
+      "id": "curated-techcrunch-anthropic-crackdown-beneficiaries-2026-06-21",
+      "title": "TechCrunch asks who benefits from the Anthropic crackdown",
+      "summary": "TechCrunch's Equity team examined whether the U.S. government's forced suspension of Anthropic's Fable 5 and Mythos 5 models could help rivals, strengthen Anthropic's brand, or deepen uncertainty around AI export controls.",
+      "fullSummary": "TechCrunch reported on the latest Equity podcast discussion about the Trump administration's order forcing Anthropic to suspend access to Fable 5 and Mythos 5. The discussion questioned whether the move reflects a unique security risk, a poor relationship between Anthropic and the administration, or a regulatory environment where frontier labs face unpredictable political pressure. The article also notes that security experts have warned the order could remove advanced cyber-defense capabilities from U.S. defenders. TechCrunch framed the episode as a broader signal for AI companies: rival labs may benefit in the short term, but arbitrary export-control pressure makes the market harder for everyone to plan around.",
+      "keyFacts": [
+        "Published June 21, 2026 at 08:28 PDT",
+        "The discussion focused on the U.S. directive against Anthropic's Fable 5 and Mythos 5",
+        "TechCrunch cited concerns from cybersecurity experts about losing defensive access",
+        "The piece examined whether rivals or Anthropic's own brand could benefit"
+      ],
+      "url": "https://techcrunch.com/2026/06/21/when-the-trump-administration-cracks-down-on-anthropic-who-benefits/",
+      "sourceName": "TechCrunch",
+      "relatedSources": [
+        "TechCrunch",
+        "Anthropic",
+        "Trump administration",
+        "Fable 5",
+        "Mythos 5"
+      ],
+      "lane": "policy-safety",
+      "publishedAt": "2026-06-21T15:28:00.000Z",
+      "importance": 591,
+      "sourceConfidence": "high",
+      "filterCategory": "pushback",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-22T08:06:21.000Z",
+      "whyItMatters": "The Anthropic fight is becoming a market-structure story: export controls, cybersecurity access, and brand trust are now tangled together in the frontier-model race."
+    },
+    {
+      "id": "curated-techcrunch-ios-27-practical-ai-features-2026-06-21",
+      "title": "TechCrunch details iOS 27's practical Apple Intelligence features",
+      "summary": "TechCrunch reported that Apple is embedding AI across iOS 27 with features such as receipt-based bill splitting, agentic password updates, message suggestions, call context, and other low-friction app improvements.",
+      "fullSummary": "TechCrunch reported that Apple's iOS 27 AI strategy extends beyond the redesigned Siri into smaller features built into everyday apps. The article highlights Apple Intelligence features such as splitting restaurant bills from a receipt photo, identifying weak or compromised passwords and updating them agentically, suggesting one-tap actions in Messages, and using call or app context to reduce manual work. TechCrunch frames the approach as less dramatic than a chatbot launch but more aligned with how Apple tends to introduce AI: features appear inside existing workflows rather than asking users to change habits. The developer beta is already live, with public beta and general release expected later in 2026.",
+      "keyFacts": [
+        "Published June 21, 2026 at 07:40 PDT",
+        "The features are part of iOS 27 and Apple Intelligence",
+        "Examples include bill splitting, password updates, and Messages suggestions",
+        "The developer beta is live ahead of wider release later in 2026"
+      ],
+      "url": "https://techcrunch.com/2026/06/21/beyond-siri-here-are-the-practical-ai-features-coming-to-your-iphone-in-ios-27/",
+      "sourceName": "TechCrunch",
+      "relatedSources": [
+        "TechCrunch",
+        "Apple",
+        "Apple Intelligence",
+        "iOS 27"
+      ],
+      "lane": "products-adoption",
+      "publishedAt": "2026-06-21T14:40:00.000Z",
+      "importance": 590,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-22T08:06:21.000Z",
+      "whyItMatters": "Apple's most important AI adoption may come through invisible workflow changes inside default apps, because that reaches far more users than a standalone chatbot experience."
+    },
+    {
+      "id": "curated-openai-samsung-chatgpt-codex-deployment-2026-06-21",
+      "title": "Samsung deploys ChatGPT and Codex across major employee groups",
+      "summary": "OpenAI announced that Samsung Electronics is making ChatGPT Enterprise and Codex available to all employees in Korea and to Device eXperience employees worldwide.",
+      "fullSummary": "OpenAI announced one of its largest enterprise deployments to date: Samsung Electronics will make ChatGPT Enterprise and Codex available to all employees in Korea and to all Device eXperience division employees worldwide. Samsung plans to use the tools across software development, product work, manufacturing, marketing, corporate functions, and other knowledge workflows. OpenAI said Codex now has more than 5 million weekly users and that weekly active users in Korea have grown nearly 800% since February 1, 2026. The announcement also expands the OpenAI-Samsung relationship from AI infrastructure and memory supply into workforce adoption.",
+      "keyFacts": [
+        "Published June 21, 2026",
+        "ChatGPT Enterprise and Codex will be available to all Samsung Electronics employees in Korea",
+        "The deployment also covers Device eXperience employees worldwide",
+        "OpenAI said Codex has more than 5 million weekly users"
+      ],
+      "url": "https://openai.com/index/samsung-electronics-chatgpt-codex-deployment/",
+      "sourceName": "OpenAI",
+      "relatedSources": [
+        "OpenAI",
+        "Samsung Electronics",
+        "ChatGPT Enterprise",
+        "Codex"
+      ],
+      "lane": "products-adoption",
+      "publishedAt": "2026-06-21T12:00:00.000Z",
+      "importance": 589,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-22T08:06:21.000Z",
+      "whyItMatters": "Large enterprise rollouts are the adoption proof point that matters after model launches, and Samsung gives OpenAI a manufacturing-scale customer for both ChatGPT and Codex."
+    },
+    {
+      "id": "curated-businessinsider-ai-sprawl-enterprise-tools-2026-06-21",
+      "title": "Business Insider warns companies are entering the age of AI sprawl",
+      "summary": "Business Insider reported that pressure to use AI tools is creating duplicated work, unmanaged costs, shadow workflows, and weaker collaboration inside companies.",
+      "fullSummary": "Business Insider reported that companies are starting to face 'AI sprawl' as workers use many disconnected AI tools without a shared operating model. The story cites a Glean Work AI Institute survey of 6,000 digital workers in the U.S., U.K., and Australia: 77% of AI users use multiple programs weekly, one-third use four or more tools, and 60% repeat the same prompts across tools when the first output is not good enough. Workers say they save time, but only 13% said those savings have significantly improved company performance. The article argues that the problem is not AI usefulness itself, but unmanaged adoption: companies are paying for duplicate token usage, fragmented experiments, and isolated work that does not compound across teams.",
+      "keyFacts": [
+        "Published June 21, 2026 at 08:19 UTC",
+        "Business Insider described unmanaged workplace AI use as AI sprawl",
+        "Glean's survey covered 6,000 digital workers in the U.S., U.K., and Australia",
+        "Only 13% of surveyed AI users said time savings significantly improved company performance"
+      ],
+      "url": "https://www.businessinsider.com/welcome-age-ai-sprawl-too-many-tools-2026-6",
+      "sourceName": "Business Insider",
+      "relatedSources": [
+        "Business Insider",
+        "Glean Work AI Institute",
+        "BetterUp Labs",
+        "Travelport"
+      ],
+      "lane": "products-adoption",
+      "publishedAt": "2026-06-21T08:19:01.000Z",
+      "importance": 588,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-22T08:06:21.000Z",
+      "whyItMatters": "Enterprise AI adoption is shifting from access to governance: the next bottleneck is whether companies can turn individual experiments into coordinated workflows that actually improve performance."
+    },
+    {
+      "id": "curated-tomshardware-china-space-ai-data-centers-2026-06-20",
+      "title": "China coordinates industry push for orbiting AI data centers",
+      "summary": "Tom's Hardware reported that China approved a Space Computing Industry Innovation Center to coordinate satellite makers, chip firms, rocket companies, and AI developers around space-based compute.",
+      "fullSummary": "Tom's Hardware reported that China approved the Space Computing Industry Innovation Center in early June, bringing together rocket and satellite manufacturers, semiconductor fabs, and AI companies to work on a space computing network. The center is expected to focus on space-native chips, high-performance satellite computing payloads, satellite standards, low-power space-based AI models, space-ground networking, and tokenized computing-power services. The article frames the move against Elon Musk's AI1 satellite plans and other orbital data-center proposals from U.S. firms. China's approach is notable because it is state-coordinated across multiple industrial players rather than a single vertically integrated company trying to own the full stack.",
+      "keyFacts": [
+        "Published June 20, 2026",
+        "China approved the Space Computing Industry Innovation Center in early June",
+        "The center spans satellites, chips, rockets, AI models, and space-ground networking",
+        "Tom's Hardware compared the approach with SpaceX and Blue Origin space-compute plans"
+      ],
+      "url": "https://www.tomshardware.com/tech-industry/data-centers/china-unifies-tech-sector-to-build-grid-free-orbiting-satellite-ai-data-centers-challenging-elon-musks-spacex-beijings-forced-chip-and-satellite-alliance-announced-a-week-before-musks-ai1-reveal",
+      "sourceName": "Tom's Hardware",
+      "relatedSources": [
+        "Tom's Hardware",
+        "Beijing government",
+        "SemiAnalysis",
+        "SpaceX",
+        "Blue Origin"
+      ],
+      "lane": "infrastructure",
+      "publishedAt": "2026-06-20T16:00:00.000Z",
+      "importance": 587,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-22T08:06:21.000Z",
+      "whyItMatters": "AI infrastructure competition is moving beyond ground data centers; China's coordinated space-compute effort shows that power, cooling, and national industrial strategy are becoming part of the AI race."
+    },
     {
       "id": "curated-toi-rukmini-vasanth-deepfake-arrests-2026-06-21",
       "title": "Bengaluru police arrest three in Rukmini Vasanth deepfake case",
