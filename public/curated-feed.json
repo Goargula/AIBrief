@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-23T09:00:00.000Z",
-  "nextRefreshAt": "2026-06-23T20:00:00.000Z",
+  "generatedAt": "2026-06-23T09:30:00.000Z",
+  "nextRefreshAt": "2026-06-23T20:30:00.000Z",
   "summaryEngine": "chat-curated",
   "curated": true,
   "items": [
@@ -16780,6 +16780,33 @@
       "sourceConfidence": "high",
       "summaryEngine": "chat-curated",
       "filterCategory": "funding"
+    },
+    {
+      "id": "curated-et-magicpin-vera-small-retailers-2026-04-06",
+      "title": "Magicpin launches Vera AI assistant for small retailers",
+      "summary": "Economic Times reported that Magicpin launched Vera, an AI assistant for neighbourhood retailers, and committed $1 million to build its AI stack.",
+      "fullSummary": "Economic Times reported that Magicpin introduced Vera, an AI-powered assistant for small retailers in India, and committed $1 million to build the underlying AI stack. Magicpin said Vera helps merchants manage their online presence by optimizing Google listings, auto-responding to reviews, improving content, and boosting visibility across traditional and AI-led search platforms such as ChatGPT. The company said more than 100,000 retailers joined during the trial phase, with early results showing 1.5-2x visibility gains and up to 3x more customer actions.",
+      "keyFacts": [
+        "Published April 6, 2026 at 14:42 IST",
+        "Magicpin launched Vera for neighbourhood retailers",
+        "The company committed $1 million to build its AI stack",
+        "More than 100,000 retailers joined during the trial phase",
+        "Magicpin reported 1.5-2x higher visibility and up to 3x more customer actions in early results"
+      ],
+      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/magicpin-launches-ai-assistant-vera-commits-1-million-to-build-ai-stack/articleshow/130055645.cms",
+      "sourceName": "Economic Times",
+      "relatedSources": [
+        "Economic Times",
+        "Magicpin"
+      ],
+      "lane": "products-adoption",
+      "publishedAt": "2026-04-06T09:12:00.000Z",
+      "importance": 121,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-23T09:30:00.000Z",
+      "whyItMatters": "This is a practical India SMB-AI adoption story: the product targets listings, reviews, AI search visibility, and customer actions for small retailers, not just a generic chatbot."
     },
     {
       "id": "curated-rocket-ai-consulting-reports-2026-04-06",
