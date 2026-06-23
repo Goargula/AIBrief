@@ -1,9 +1,391 @@
 {
-  "generatedAt": "2026-06-22T09:05:00.000Z",
-  "nextRefreshAt": "2026-06-22T20:05:00.000Z",
+  "generatedAt": "2026-06-23T09:00:00.000Z",
+  "nextRefreshAt": "2026-06-23T20:00:00.000Z",
   "summaryEngine": "chat-curated",
   "curated": true,
   "items": [
+    {
+      "id": "curated-et-ai-token-consumption-scrutiny-2026-06-23",
+      "title": "Enterprises start measuring AI tokens by outcomes, not volume",
+      "summary": "Economic Times reported that companies are scrutinizing AI token consumption more closely as generative-AI bills grow and pilot projects move into production.",
+      "fullSummary": "Economic Times reported that businesses are moving beyond simple token counts and asking whether AI usage is producing measurable outcomes. The story says firms are introducing dashboards, approval workflows, cheaper model options, and cost-per-outcome tracking so that generative-AI spend does not expand unchecked. The shift reflects a broader operational phase for enterprise AI: usage is no longer only an experimentation metric, it is becoming a controllable cost line tied to business value.",
+      "keyFacts": [
+        "Published June 23, 2026 at 13:53 IST",
+        "Companies are tracking token consumption as AI workloads scale",
+        "The story highlights cost-per-outcome measurement and usage controls",
+        "Enterprises are exploring cheaper models and tool consolidation to manage AI bills"
+      ],
+      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/as-ai-adoption-grows-token-consumption-comes-under-close-scrutiny/articleshow/131920077.cms",
+      "sourceName": "Economic Times",
+      "relatedSources": [
+        "Economic Times"
+      ],
+      "lane": "products-adoption",
+      "publishedAt": "2026-06-23T08:23:18.000Z",
+      "importance": 607,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-23T09:00:00.000Z",
+      "whyItMatters": "AI adoption is moving from novelty to budget discipline; token economics now shape which models, agents, and workflows companies can afford to run at scale."
+    },
+    {
+      "id": "curated-et-ai-spin-offs-indian-unicorns-2026-06-23",
+      "title": "Indian tech unicorns turn internal AI tools into spin-off businesses",
+      "summary": "Economic Times reported that Indian companies including NoBroker, Moglix, Apna, and Practo are converting internal AI systems into standalone platforms for outside customers.",
+      "fullSummary": "Economic Times reported that several Indian tech unicorns are trying to turn the AI tools they built for their own operations into new external businesses. The story compares the pattern to earlier infrastructure spin-offs such as AWS and Slack, with companies using accumulated data and domain workflows to sell AI-enabled products to enterprises. The move points to a second-order effect of AI adoption in India: internal automation can become a product line when it is trained on enough sector-specific experience.",
+      "keyFacts": [
+        "Published June 23, 2026 at 14:02 IST",
+        "Economic Times named NoBroker, Moglix, Apna, and Practo as examples",
+        "The report frames internal AI tools as possible standalone businesses",
+        "The story connects domain data and workflow expertise to new AI revenue streams"
+      ],
+      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/a-new-bunch-of-ai-spin-offs-ripe-for-the-picking/articleshow/131918917.cms",
+      "sourceName": "Economic Times",
+      "relatedSources": [
+        "Economic Times",
+        "NoBroker",
+        "Moglix",
+        "Apna",
+        "Practo"
+      ],
+      "lane": "regional",
+      "publishedAt": "2026-06-23T08:32:25.000Z",
+      "importance": 606,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-23T09:00:00.000Z",
+      "whyItMatters": "India's AI story is not only model launches and data centers; domain-heavy companies are trying to productize practical automation built inside their own businesses."
+    },
+    {
+      "id": "curated-et-baseten-13b-blackbird-2026-06-23",
+      "title": "Baseten reaches $13B valuation as Blackbird makes record AI bet",
+      "summary": "Economic Times reported that AI infrastructure startup Baseten hit a $13 billion valuation in a round led by Sands Capital and Wellington Management, with Blackbird making its largest investment.",
+      "fullSummary": "Economic Times reported that Baseten has reached a $13 billion valuation after a new funding round led by U.S. investors Sands Capital and Wellington Management. Australian venture firm Blackbird said it made its biggest-ever investment in the company, though it did not disclose the amount. Baseten sits in the AI infrastructure layer, helping companies deploy and run model workloads, and the valuation shows investor appetite remains strong for tools that lower inference and deployment friction.",
+      "keyFacts": [
+        "Published June 23, 2026 at 09:12 IST",
+        "Baseten reached a reported $13 billion valuation",
+        "Sands Capital and Wellington Management led the round",
+        "Blackbird said it made its largest-ever investment"
+      ],
+      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/ai-startup-baseten-hits-13-billion-valuation-as-australias-blackbird-makes-record-bet/articleshow/131923620.cms",
+      "sourceName": "Economic Times",
+      "relatedSources": [
+        "Economic Times",
+        "Baseten",
+        "Blackbird",
+        "Sands Capital",
+        "Wellington Management"
+      ],
+      "lane": "funding",
+      "publishedAt": "2026-06-23T03:42:45.000Z",
+      "importance": 605,
+      "sourceConfidence": "high",
+      "filterCategory": "funding",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-23T09:00:00.000Z",
+      "whyItMatters": "Inference and deployment infrastructure remains one of the hottest funding lanes because enterprises need cheaper and more reliable ways to run AI systems after training."
+    },
+    {
+      "id": "curated-et-qualcomm-modular-deal-2026-06-23",
+      "title": "Qualcomm nears deal for AI chip startup Modular",
+      "summary": "Economic Times reported that Qualcomm is nearing a deal for AI chip startup Modular as it looks beyond smartphones toward data-center and autonomous-vehicle processors.",
+      "fullSummary": "Economic Times reported that Qualcomm is close to a deal for Modular, an AI chip startup, as the mobile-chip supplier tries to expand in higher-growth markets. The story says Qualcomm has been working to reduce its reliance on the volatile handset market by moving into data-center processors and autonomous-vehicle chips. A Modular deal would fit the broader AI hardware consolidation pattern, where incumbents buy architecture and compiler talent to compete for inference and accelerator workloads.",
+      "keyFacts": [
+        "Published June 23, 2026 at 08:27 IST",
+        "Economic Times reported Qualcomm is nearing a deal for Modular",
+        "The story links the talks to Qualcomm's push into data-center and autonomous-vehicle chips",
+        "Modular is positioned in the AI chip and software stack"
+      ],
+      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/qualcomm-nearing-deal-for-ai-chip-startup-modular-report/articleshow/131923579.cms",
+      "sourceName": "Economic Times",
+      "relatedSources": [
+        "Economic Times",
+        "Qualcomm",
+        "Modular"
+      ],
+      "lane": "funding",
+      "publishedAt": "2026-06-23T02:57:46.000Z",
+      "importance": 604,
+      "sourceConfidence": "high",
+      "filterCategory": "funding",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-23T09:00:00.000Z",
+      "whyItMatters": "AI chip competition is pulling mobile, cloud, and automotive suppliers into the same market, making acquisitions a shortcut to scarce accelerator and compiler expertise."
+    },
+    {
+      "id": "curated-techcrunch-ai-layoffs-running-list-2026-06-23",
+      "title": "TechCrunch tracks 2026 layoffs where employers cited AI",
+      "summary": "TechCrunch launched a running list of major 2026 tech layoffs in which companies explicitly cited AI, showing how automation claims are being used to explain workforce cuts.",
+      "fullSummary": "TechCrunch published a running list of major tech layoffs in 2026 where employers cited AI as a factor. The list is meant to separate broad labor-market anxiety from cases where companies themselves connect workforce reductions to automation, efficiency, or AI-led restructuring. The framing matters because AI job-loss claims are often vague; tracking the named employers and their stated reasons gives readers a clearer evidence base for how companies are actually using AI in labor decisions.",
+      "keyFacts": [
+        "Published June 22, 2026 at 18:27 PDT",
+        "The story tracks major tech layoffs in 2026 where employers cited AI",
+        "TechCrunch positioned the list as a running tracker",
+        "The item focuses on company-stated AI rationales rather than general speculation"
+      ],
+      "url": "https://techcrunch.com/2026/06/22/the-running-list-major-tech-layoffs-in-2026-where-employers-cited-ai/",
+      "sourceName": "TechCrunch",
+      "relatedSources": [
+        "TechCrunch"
+      ],
+      "lane": "policy-safety",
+      "publishedAt": "2026-06-23T01:27:55.000Z",
+      "importance": 603,
+      "sourceConfidence": "high",
+      "filterCategory": "pushback",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-23T09:00:00.000Z",
+      "whyItMatters": "A named tracker makes workforce impact easier to audit; it moves the AI-layoffs debate from anecdotes toward documented company disclosures."
+    },
+    {
+      "id": "curated-openai-daybreak-codex-security-2026-06-22",
+      "title": "OpenAI launches Daybreak, Codex Security, and Patch the Planet",
+      "summary": "OpenAI introduced Daybreak, an expanded cybersecurity effort that includes Codex Security, GPT-5.5-Cyber, partner access, and a Patch the Planet initiative for open-source maintainers.",
+      "fullSummary": "OpenAI announced Daybreak, a package of cybersecurity tools and partnerships aimed at moving AI-assisted security from vulnerability discovery toward patching. The company said Codex Security can scan codebases, validate findings, generate remediation evidence, and help produce patches, while GPT-5.5-Cyber is being released in limited form to trusted defenders. OpenAI also introduced Patch the Planet with Trail of Bits, HackerOne, Calif, and maintainers, saying more than 30 open-source projects are participating and that early work has already produced patches and reusable testing workflows.",
+      "keyFacts": [
+        "Published June 22, 2026",
+        "OpenAI announced Daybreak as a cyber-defense initiative",
+        "Codex Security is being updated for defensive security workflows",
+        "GPT-5.5-Cyber reached 85.6% on CyberGym in OpenAI's single-model evaluation",
+        "Patch the Planet has more than 30 initial open-source project participants"
+      ],
+      "url": "https://openai.com/index/daybreak-securing-the-world/",
+      "sourceName": "OpenAI",
+      "relatedSources": [
+        "OpenAI",
+        "Trail of Bits",
+        "HackerOne",
+        "Calif"
+      ],
+      "lane": "products-adoption",
+      "publishedAt": "2026-06-22T17:00:00.000Z",
+      "importance": 602,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-23T09:00:00.000Z",
+      "whyItMatters": "The announcement shows frontier labs trying to make advanced cyber models useful to defenders while managing the same dual-use risks that make these systems sensitive."
+    },
+    {
+      "id": "curated-techcrunch-groq-650m-raise-2026-06-22",
+      "title": "Groq confirms $650M raise after Nvidia's $20B staff deal",
+      "summary": "TechCrunch reported that AI chipmaker Groq confirmed a $650 million raise and is restaffing after Nvidia's $20 billion not-acqui-hire deal reshaped the company.",
+      "fullSummary": "TechCrunch reported that Groq confirmed a $650 million raise and is rebuilding its team after Nvidia's $20 billion not-acqui-hire deal affected the AI chipmaker's staffing. The story keeps Groq in the center of the AI-inference race, where specialized chips and systems are competing with Nvidia's dominant GPU stack. The financing is also notable because the market is still rewarding companies that can plausibly lower inference costs or diversify AI hardware supply.",
+      "keyFacts": [
+        "Published June 22, 2026 at 13:13 PDT",
+        "Groq confirmed a $650 million raise",
+        "The story follows Nvidia's reported $20 billion not-acqui-hire deal",
+        "Groq is positioned in AI inference hardware"
+      ],
+      "url": "https://techcrunch.com/2026/06/22/ai-chipmaker-groq-confirms-650m-raise-re-staffs-after-nvidias-20b-not-acqui-hire-deal/",
+      "sourceName": "TechCrunch",
+      "relatedSources": [
+        "TechCrunch",
+        "Groq",
+        "Nvidia"
+      ],
+      "lane": "funding",
+      "publishedAt": "2026-06-22T20:13:58.000Z",
+      "importance": 601,
+      "sourceConfidence": "high",
+      "filterCategory": "funding",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-23T09:00:00.000Z",
+      "whyItMatters": "Inference hardware is one of the few places investors can still bet directly on reducing the cost and concentration of AI compute."
+    },
+    {
+      "id": "curated-techcrunch-nvidia-water-cooling-2026-06-22",
+      "title": "Nvidia's warm-water cooling claims leave AI power footprint unresolved",
+      "summary": "TechCrunch reported that Nvidia's new warm-water data-center cooling design may reduce on-site water use, but does not solve the broader water footprint tied to power generation and chip manufacturing.",
+      "fullSummary": "TechCrunch reported that Nvidia announced a warm-water cooling system that can cut or nearly eliminate water use inside a data center by recirculating coolant in a closed loop. The article cautions that the claim addresses only part of AI's water footprint, because electricity generation and chip manufacturing can double or triple the total water tied to a facility. The story argues that AI data centers still depend heavily on power sources whose water use sits outside the facility boundary Nvidia is measuring.",
+      "keyFacts": [
+        "Published June 22, 2026 at 13:08 PDT",
+        "Nvidia says its warm-water cooling system can sharply reduce on-site water use",
+        "TechCrunch notes power generation and chip manufacturing remain outside that measurement boundary",
+        "The story cites fossil-fuel power and hydropower as major sources of indirect water consumption"
+      ],
+      "url": "https://techcrunch.com/2026/06/22/nvidia-wants-to-cut-data-center-water-use-but-thats-not-the-same-as-fixing-ais-water-problem/",
+      "sourceName": "TechCrunch",
+      "relatedSources": [
+        "TechCrunch",
+        "Nvidia"
+      ],
+      "lane": "infrastructure",
+      "publishedAt": "2026-06-22T20:08:15.000Z",
+      "importance": 600,
+      "sourceConfidence": "high",
+      "filterCategory": "pushback",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-23T09:00:00.000Z",
+      "whyItMatters": "AI infrastructure sustainability claims increasingly turn on accounting boundaries; reducing water inside the building does not necessarily reduce the full compute footprint."
+    },
+    {
+      "id": "curated-techcrunch-deepmind-a24-75m-2026-06-22",
+      "title": "Google DeepMind puts $75M into A24 AI filmmaking partnership",
+      "summary": "TechCrunch reported that Google DeepMind invested $75 million in A24 and framed the deal as a partnership to build AI tools for filmmakers with artist feedback.",
+      "fullSummary": "TechCrunch reported that Google DeepMind announced a $75 million investment in indie film studio A24 as part of a partnership to develop AI tools for filmmaking. DeepMind said it wants to work with artists from the beginning so tools support creative workflows rather than being imposed after the fact. The deal lands in a sensitive area for Hollywood, where studios are exploring AI production tools while artists and unions remain wary of automation, likeness rights, and creative control.",
+      "keyFacts": [
+        "Published June 22, 2026 at 11:49 PDT",
+        "Google DeepMind announced a $75 million investment in A24",
+        "The partnership is aimed at AI tools for filmmaking",
+        "DeepMind said artists will provide feedback and guidance"
+      ],
+      "url": "https://techcrunch.com/2026/06/22/google-deepmind-bets-75m-on-ais-future-in-hollywood-with-a24-deal/",
+      "sourceName": "TechCrunch",
+      "relatedSources": [
+        "TechCrunch",
+        "Google DeepMind",
+        "A24"
+      ],
+      "lane": "products-adoption",
+      "publishedAt": "2026-06-22T18:49:44.000Z",
+      "importance": 599,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-23T09:00:00.000Z",
+      "whyItMatters": "Media partnerships are becoming a proving ground for whether AI tools can be adopted with creative consent instead of only through cost-cutting pressure."
+    },
+    {
+      "id": "curated-techcrunch-alexa-plus-india-hindi-2026-06-22",
+      "title": "Amazon tests Alexa+ in India with Hindi support",
+      "summary": "TechCrunch reported that Amazon is testing Alexa+ in India with Hindi support, expanding its generative-AI assistant push into a major multilingual market.",
+      "fullSummary": "TechCrunch reported that Amazon is testing Alexa+ in India with support for Hindi. The rollout matters because voice assistants depend heavily on language coverage, accents, and local use cases, and India is a large market where multilingual support can decide whether consumer AI assistants become practical. The test also shows Amazon continuing to reposition Alexa from a command-based smart-home assistant toward a more capable generative-AI service.",
+      "keyFacts": [
+        "Published June 22, 2026 at 10:31 PDT",
+        "Amazon is testing Alexa+ in India",
+        "The test includes Hindi support",
+        "The story is part of Amazon's broader generative-AI assistant rollout"
+      ],
+      "url": "https://techcrunch.com/2026/06/22/amazon-is-testing-alexa-in-india-with-hindi-support/",
+      "sourceName": "TechCrunch",
+      "relatedSources": [
+        "TechCrunch",
+        "Amazon"
+      ],
+      "lane": "regional",
+      "publishedAt": "2026-06-22T17:31:29.000Z",
+      "importance": 598,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-23T09:00:00.000Z",
+      "whyItMatters": "Localized assistant support is a practical adoption test: AI products need regional languages and everyday utility before they can reach mass consumer use."
+    },
+    {
+      "id": "curated-techcrunch-spacex-reflection-ai-compute-2026-06-22",
+      "title": "SpaceX signs compute deal with open-source lab Reflection AI",
+      "summary": "TechCrunch reported that SpaceX inked a compute deal with Reflection AI, an open-source AI lab, adding another example of compute access becoming a strategic AI bargaining chip.",
+      "fullSummary": "TechCrunch reported that SpaceX signed a compute deal with Reflection AI, an open-source AI lab. The story sits at the intersection of infrastructure and model development: access to large compute clusters is becoming a core constraint for labs that want to train or serve competitive systems. For SpaceX, the deal also shows how companies with major compute footprints can become important AI infrastructure partners even when AI is not their original business.",
+      "keyFacts": [
+        "Published June 22, 2026 at 09:51 PDT",
+        "SpaceX signed a compute deal with Reflection AI",
+        "Reflection AI is described as an open-source AI lab",
+        "The deal highlights compute access as a strategic resource"
+      ],
+      "url": "https://techcrunch.com/2026/06/22/spacex-inks-compute-deal-with-reflection-ai-an-open-source-ai-lab/",
+      "sourceName": "TechCrunch",
+      "relatedSources": [
+        "TechCrunch",
+        "SpaceX",
+        "Reflection AI"
+      ],
+      "lane": "infrastructure",
+      "publishedAt": "2026-06-22T16:51:29.000Z",
+      "importance": 597,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-23T09:00:00.000Z",
+      "whyItMatters": "The story shows compute access spreading beyond traditional cloud contracts, with infrastructure-rich companies becoming partners for model labs."
+    },
+    {
+      "id": "curated-uniteai-robotcom-r-noid-humanoid-2026-06-22",
+      "title": "Robot.com launches R-noid for repetitive workplace tasks",
+      "summary": "Unite.AI reported that Robot.com launched R-noid, a wheeled humanoid robot designed for logistics, hospitality, healthcare, food service, and manufacturing work.",
+      "fullSummary": "Unite.AI reported that Robot.com, formerly known as Kiwibot, launched R-noid, a humanoid platform aimed at repetitive, labor-intensive workplace tasks. The robot uses a humanoid upper body on a wheeled base, dual seven-degree-of-freedom arms, and an articulated torso, prioritizing stability and deployment speed over fully bipedal walking. Robot.com says its broader fleet has completed more than 2.5 million real-world tasks and that R-noid will draw on FieldAI, Physical Intelligence, and Nvidia technologies for autonomy, manipulation, and simulation.",
+      "keyFacts": [
+        "Published June 22, 2026",
+        "R-noid targets logistics, hospitality, healthcare, food service, and manufacturing tasks",
+        "The robot uses a wheeled base, dual seven-degree-of-freedom arms, and an articulated torso",
+        "Robot.com says its existing fleet has completed more than 2.5 million real-world tasks",
+        "The launch uses partnerships with FieldAI, Physical Intelligence, and Nvidia technology"
+      ],
+      "url": "https://www.unite.ai/robot-com-enters-the-humanoid-robotics-race-with-the-launch-of-r-noid/",
+      "sourceName": "Unite.AI",
+      "relatedSources": [
+        "Unite.AI",
+        "Robot.com",
+        "FieldAI",
+        "Physical Intelligence",
+        "Nvidia"
+      ],
+      "lane": "physical-ai",
+      "publishedAt": "2026-06-22T12:00:00.000Z",
+      "importance": 596,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-23T09:00:00.000Z",
+      "whyItMatters": "Humanoid robotics is shifting from demos toward specific workplace economics, and R-noid is another test of whether practical deployment beats spectacle."
+    },
+    {
+      "id": "curated-guardian-five-eyes-ai-cyber-warning-2026-06-22",
+      "title": "Five Eyes warns advanced AI cyberattacks may be months away",
+      "summary": "The Guardian reported that Five Eyes cybersecurity agencies warned leaders to act now because frontier AI could transform offensive and defensive cyber capabilities within months.",
+      "fullSummary": "The Guardian reported that signals agencies from Australia, the U.S., the U.K., New Zealand, and Canada issued a rare joint warning about AI-enabled cyber risk. The statement said frontier models could exceed current expectations and change both offensive and defensive cyber capabilities on a timeline of months, not years. The warning follows U.S. restrictions on foreign nationals using Anthropic's Fable model and frames cyber resilience as a business and leadership responsibility rather than only a technical issue.",
+      "keyFacts": [
+        "Published June 22, 2026 at 09:00 EDT",
+        "Five Eyes agencies issued a rare joint warning on AI-enabled cyber threats",
+        "The statement said the timeline is measured in months, not years",
+        "The warning followed U.S. restrictions involving Anthropic's Fable model",
+        "The agencies called cyber resilience a leadership and business risk"
+      ],
+      "url": "https://www.theguardian.com/technology/2026/jun/22/anthropic-claude-fable-ai-model-artificial-intelligence-national-security",
+      "sourceName": "The Guardian",
+      "relatedSources": [
+        "The Guardian",
+        "Five Eyes",
+        "Anthropic"
+      ],
+      "lane": "policy-safety",
+      "publishedAt": "2026-06-22T13:00:00.000Z",
+      "importance": 596,
+      "sourceConfidence": "high",
+      "filterCategory": "pushback",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-23T09:00:00.000Z",
+      "whyItMatters": "This is a policy and security signal from governments, not just lab marketing: agencies are telling executives to prepare for AI-enabled cyber risk as an immediate operating threat."
+    },
+    {
+      "id": "curated-verge-getty-openai-licensed-images-2026-06-22",
+      "title": "ChatGPT adds licensed Getty Images in OpenAI search",
+      "summary": "The Verge reported that OpenAI and Getty Images signed a multi-year agreement to show Getty's licensed pictures in ChatGPT responses and search results.",
+      "fullSummary": "The Verge reported that OpenAI and Getty Images signed a multi-year agreement that will bring Getty's licensed pictures into ChatGPT responses and search results. The deal follows Getty's earlier licensing arrangement with Perplexity and comes as image libraries look for ways to participate in AI distribution without giving up control over training rights. For OpenAI, the partnership adds licensed visual content to search experiences; for Getty, it offers a route to monetization in a market that has been pressuring traditional stock-photo businesses.",
+      "keyFacts": [
+        "Published June 22, 2026",
+        "OpenAI and Getty Images signed a multi-year agreement",
+        "Getty images will appear in ChatGPT responses and search results",
+        "The story notes Getty has a similar deal with Perplexity"
+      ],
+      "url": "https://www.theverge.com/ai-artificial-intelligence/953421/chatgpt-adds-licensed-pictures-from-getty-images",
+      "sourceName": "The Verge",
+      "relatedSources": [
+        "The Verge",
+        "OpenAI",
+        "Getty Images"
+      ],
+      "lane": "products-adoption",
+      "publishedAt": "2026-06-22T15:30:00.000Z",
+      "importance": 595,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-23T09:00:00.000Z",
+      "whyItMatters": "Licensing deals like this are becoming the practical middle ground between AI search products and media owners that want compensation, attribution, and limits on training use."
+    },
     {
       "id": "curated-et-china-green-power-ai-projects-hurdles-2026-06-22",
       "title": "China's green-power push for AI projects runs into reliability hurdles",
