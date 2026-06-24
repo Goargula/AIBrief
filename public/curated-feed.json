@@ -1,9 +1,369 @@
 {
-  "generatedAt": "2026-06-23T09:30:00.000Z",
-  "nextRefreshAt": "2026-06-23T20:30:00.000Z",
+  "generatedAt": "2026-06-24T15:25:00.000Z",
+  "nextRefreshAt": "2026-06-25T02:25:00.000Z",
   "summaryEngine": "chat-curated",
   "curated": true,
   "items": [
+    {
+      "id": "curated-techcrunch-openai-broadcom-jalapeno-chip-2026-06-24",
+      "title": "OpenAI unveils its first custom inference chip with Broadcom",
+      "summary": "TechCrunch reported that OpenAI introduced Jalapeno, a custom inference processor developed with Broadcom to lower serving costs and reduce dependence on Nvidia GPUs.",
+      "fullSummary": "TechCrunch reported that OpenAI has unveiled Jalapeno, its first custom inference processor, built in collaboration with Broadcom. The chip is still being tested, but OpenAI says early results show better performance per watt than current alternatives. The processor is aimed at inference workloads such as real-time coding models and other user-facing AI tasks, while more compute-heavy training work is still likely to rely on Nvidia hardware. The move pushes OpenAI deeper into the full-stack infrastructure race: models, products, data centers, and now the silicon underneath them.",
+      "keyFacts": [
+        "Published June 24, 2026 at 07:54 PDT",
+        "Jalapeno is OpenAI's first custom inference processor",
+        "The chip was developed with Broadcom",
+        "OpenAI says early testing shows better performance per watt than current alternatives"
+      ],
+      "url": "https://techcrunch.com/2026/06/24/openai-unveils-its-first-custom-chip-built-by-broadcom/",
+      "sourceName": "TechCrunch",
+      "relatedSources": [
+        "TechCrunch",
+        "OpenAI",
+        "Broadcom"
+      ],
+      "lane": "infrastructure",
+      "publishedAt": "2026-06-24T14:54:00.000Z",
+      "importance": 620,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-24T15:25:00.000Z",
+      "whyItMatters": "Inference cost is one of the biggest constraints on AI products; OpenAI designing its own chip changes the economics and supplier leverage behind ChatGPT, Codex, and future agents."
+    },
+    {
+      "id": "curated-et-justai-17m-base10-series-a-2026-06-24",
+      "title": "JustAI raises $17M for AI-driven marketing tools",
+      "summary": "Economic Times reported that marketing platform JustAI raised more than $17 million in a Series A round led by Base10, with Y Combinator and Peak XV Partners participating.",
+      "fullSummary": "Economic Times reported that JustAI, an AI-powered marketing platform, has raised more than $17 million in Series A funding. The round was led by U.S.-based Base10, with existing investors Y Combinator and Peak XV Partners also participating. The company is part of a wider wave of AI marketing infrastructure companies trying to automate campaign creation, optimization, and customer targeting as brands shift from broad segmentation toward more adaptive software workflows.",
+      "keyFacts": [
+        "Published June 24, 2026",
+        "JustAI raised over $17 million in Series A funding",
+        "Base10 led the round",
+        "Y Combinator and Peak XV Partners also participated"
+      ],
+      "url": "https://m.economictimes.com/tech/funding/marketing-platform-justai-raises-17-million-led-base10/articleshow/131968605.cms",
+      "sourceName": "Economic Times",
+      "relatedSources": [
+        "Economic Times",
+        "JustAI",
+        "Base10",
+        "Y Combinator",
+        "Peak XV Partners"
+      ],
+      "lane": "funding",
+      "publishedAt": "2026-06-24T12:13:10.000Z",
+      "importance": 619,
+      "sourceConfidence": "high",
+      "filterCategory": "funding",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-24T15:25:00.000Z",
+      "whyItMatters": "Marketing remains one of the clearest enterprise AI battlegrounds, and this round shows investors still backing workflow-specific AI companies rather than only frontier-model labs."
+    },
+    {
+      "id": "curated-guardian-meta-pauses-employee-ai-tracker-2026-06-24",
+      "title": "Meta pauses employee activity tracker used for AI training",
+      "summary": "The Guardian reported that Meta paused a program that tracked employee keystrokes, mouse clicks, and screen content for AI training after a staff petition and privacy concerns.",
+      "fullSummary": "The Guardian reported that Meta has paused its Model Capability Initiative, a program that collected employee computer-use data for AI training. More than 1,600 workers signed a petition objecting to the collection of keystrokes, mouse clicks, and screen content, warning about consent and workplace privacy. Wired had reported that internal MCI data included prompts, transcriptions, private conversations, and performance information accessible inside the company. Meta said it had designed privacy safeguards and had no indication of improper access, but paused the program while it investigates.",
+      "keyFacts": [
+        "Published June 24, 2026 at 21:38 AEST",
+        "More than 1,600 Meta workers signed a petition against the tool",
+        "The program collected computer-use data to train AI models",
+        "Meta said it paused the program while it investigates"
+      ],
+      "url": "https://www.theguardian.com/technology/2026/jun/24/meta-pauses-employee-tracker-for-ai-training-amid-privacy-concerns",
+      "sourceName": "The Guardian",
+      "relatedSources": [
+        "The Guardian",
+        "Meta",
+        "Wired"
+      ],
+      "lane": "policy-safety",
+      "publishedAt": "2026-06-24T11:38:00.000Z",
+      "importance": 618,
+      "sourceConfidence": "high",
+      "filterCategory": "pushback",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-24T15:25:00.000Z",
+      "whyItMatters": "The story shows the privacy fight moving inside AI labs and platforms: companies want richer work data for agents, but employees are pushing back on surveillance-like collection."
+    },
+    {
+      "id": "curated-ft-whatsapp-kunal-shah-ai-payments-push-2026-06-24",
+      "title": "Meta taps CRED founder Kunal Shah to lead WhatsApp's AI and payments push",
+      "summary": "Financial Times reported that Meta appointed CRED founder Kunal Shah to run WhatsApp and will invest $900 million in CRED as it tries to expand payments and AI services.",
+      "fullSummary": "Financial Times reported that Meta has selected Indian entrepreneur Kunal Shah, founder of CRED, as WhatsApp's new chief executive. The report says Meta will also invest $900 million for roughly a 20% stake in CRED, valuing the fintech company at about $4.5 billion. Shah is expected to step away from CRED management while bringing fintech and emerging-market experience to WhatsApp, where India remains a massive user base and payments adoption has lagged rivals. The move is being framed as part of Meta's push to make WhatsApp more useful for transactions and AI-powered services.",
+      "keyFacts": [
+        "Published June 24, 2026 at 10:00 UTC",
+        "Kunal Shah is set to lead WhatsApp",
+        "Meta will invest $900 million for about 20% of CRED",
+        "The move is tied to WhatsApp's payments and AI ambitions"
+      ],
+      "url": "https://www.ft.com/content/442bdba8-6f7e-4ddf-a99b-a8ba102d247f",
+      "sourceName": "Financial Times",
+      "relatedSources": [
+        "Financial Times",
+        "Meta",
+        "WhatsApp",
+        "CRED"
+      ],
+      "lane": "regional",
+      "publishedAt": "2026-06-24T10:00:07.000Z",
+      "importance": 617,
+      "sourceConfidence": "medium",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-24T15:25:00.000Z",
+      "whyItMatters": "WhatsApp is one of the largest consumer distribution surfaces for AI assistants, payments, and business messaging; leadership and capital moving through India can shape how those services scale."
+    },
+    {
+      "id": "curated-techcrunch-moengage-aampe-ai-agents-2026-06-23",
+      "title": "MoEngage acquires Aampe to push one-AI-agent-per-customer marketing",
+      "summary": "TechCrunch reported that India's MoEngage acquired San Francisco startup Aampe in an all-cash deal to add customer-level AI agents to its marketing platform.",
+      "fullSummary": "TechCrunch reported that Indian customer-engagement company MoEngage has acquired San Francisco-based Aampe in an all-cash transaction worth tens of millions of dollars, according to a source familiar with the deal. Aampe builds software that assigns a dedicated AI agent to each customer, letting brands personalize messages based on individual behavior rather than broad campaign segments. MoEngage says the acquisition should help it compete against Salesforce and Adobe marketing platforms, and about 20 Aampe employees will join the company. Aampe had raised about $28 million and counted Swiggy, Grab, and Taxfix among users of its technology.",
+      "keyFacts": [
+        "Published June 23, 2026 at 16:30 PDT",
+        "MoEngage acquired Aampe in an all-cash deal",
+        "Aampe assigns AI agents to individual customers for personalized messaging",
+        "About 20 Aampe employees will join MoEngage"
+      ],
+      "url": "https://techcrunch.com/2026/06/23/indias-moengage-bets-marketings-future-on-millions-of-ai-agents/",
+      "sourceName": "TechCrunch",
+      "relatedSources": [
+        "TechCrunch",
+        "MoEngage",
+        "Aampe",
+        "Salesforce",
+        "Adobe"
+      ],
+      "lane": "funding",
+      "publishedAt": "2026-06-23T23:30:00.000Z",
+      "importance": 616,
+      "sourceConfidence": "high",
+      "filterCategory": "funding",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-24T15:25:00.000Z",
+      "whyItMatters": "This is a concrete example of agentic AI moving into operating software: personalization is shifting from campaign rules to autonomous customer-level decision systems."
+    },
+    {
+      "id": "curated-techcrunch-claude-tag-slack-enterprise-agent-2026-06-23",
+      "title": "Anthropic launches Claude Tag as a Slack-native enterprise agent",
+      "summary": "TechCrunch reported that Anthropic introduced Claude Tag, an always-on Slack agent that can retain channel context, work through assigned tasks, and act as a shared AI teammate.",
+      "fullSummary": "TechCrunch reported that Anthropic is introducing Claude Tag, a Slack-native enterprise AI service available in beta for Claude Enterprise and Team customers. Claude Tag lets users mention @Claude inside a channel, but adds persistent channel context, scoped memory, admin-controlled access, and the ability to gather facts from approved organizational tools. The system can work through assigned tasks in stages, post progress back into threads, and use an ambient mode to surface reminders or relevant updates. Anthropic is positioning it as a move from one-off chat help toward shared workplace agents that understand team context.",
+      "keyFacts": [
+        "Published June 23, 2026 at 10:00 PDT",
+        "Claude Tag is available in beta for Claude Enterprise and Team customers",
+        "The service adds persistent channel context and scoped memory",
+        "Administrators define which tools, channels, and information Claude can access"
+      ],
+      "url": "https://techcrunch.com/2026/06/23/anthropics-claude-tag-is-learning-your-company-one-slack-message-at-a-time/",
+      "sourceName": "TechCrunch",
+      "relatedSources": [
+        "TechCrunch",
+        "Anthropic",
+        "Slack"
+      ],
+      "lane": "products-adoption",
+      "publishedAt": "2026-06-23T17:00:00.000Z",
+      "importance": 615,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-24T15:25:00.000Z",
+      "whyItMatters": "Enterprise agents need shared memory, permissions, and visibility to become useful in real work; Claude Tag is a high-profile test of that model inside Slack."
+    },
+    {
+      "id": "curated-businessinsider-superhuman-gptzero-acquisition-2026-06-23",
+      "title": "Superhuman buys GPTZero to fold AI detection into productivity tools",
+      "summary": "Business Insider reported that Superhuman, formerly Grammarly, is acquiring AI-detection startup GPTZero and will bring its 30 employees into a new authenticity team.",
+      "fullSummary": "Business Insider reported that Superhuman is acquiring GPTZero, the AI-detection company cofounded by Edward Tian and Alex Cui. GPTZero says it has more than 19 million registered users and $30 million in annual recurring revenue, while PitchBook values it above $88 million. The financial terms were not disclosed, but GPTZero's 30 employees will join Superhuman, with Tian and Cui leading an authenticity-focused team. Superhuman plans to keep GPTZero running as a standalone product while also integrating its detection and authorship tools into Grammarly and Superhuman Go.",
+      "keyFacts": [
+        "Published June 23, 2026 at 13:30 UTC",
+        "Superhuman is acquiring GPTZero",
+        "GPTZero reports over 19 million registered users and $30 million in ARR",
+        "GPTZero's 30 employees will join Superhuman"
+      ],
+      "url": "https://www.businessinsider.com/superhuman-acquires-gptzero-ai-authenticity-tools-2026-6",
+      "sourceName": "Business Insider",
+      "relatedSources": [
+        "Business Insider",
+        "Superhuman",
+        "GPTZero",
+        "Grammarly"
+      ],
+      "lane": "products-adoption",
+      "publishedAt": "2026-06-23T13:30:01.000Z",
+      "importance": 614,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-24T15:25:00.000Z",
+      "whyItMatters": "AI detection is moving from education point tools into mainstream writing and productivity suites, where provenance and authorship features can become default workflow infrastructure."
+    },
+    {
+      "id": "curated-et-french-midsized-ai-adoption-survey-2026-06-23",
+      "title": "French mid-sized firms adopt generative AI faster than they see gains",
+      "summary": "Economic Times, citing Reuters, reported that 77% of surveyed French mid-sized companies use generative AI, but only 17% of users report time savings so far.",
+      "fullSummary": "Economic Times, citing Reuters, reported that generative AI use is spreading quickly among French mid-sized firms, according to a Bpifrance barometer of 534 company heads. The survey found that 77% of respondents use generative AI, but only 17% of users report time savings from the technology. Regular users were more likely to report gains than occasional users, and 78% of companies expected generative AI to improve productivity over time. The same survey shows a gap between AI adoption headlines and measurable operating returns, especially as broader demand weakness weighs on business confidence.",
+      "keyFacts": [
+        "Published June 23, 2026 at 18:49 IST",
+        "Bpifrance surveyed 534 French mid-sized company heads",
+        "77% said their firms use generative AI",
+        "Only 17% of users reported time savings so far"
+      ],
+      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/french-mid-sized-firms-adopt-ai-but-see-few-gains-survey-shows/articleshow/131939280.cms",
+      "sourceName": "Economic Times",
+      "relatedSources": [
+        "Economic Times",
+        "Reuters",
+        "Bpifrance"
+      ],
+      "lane": "products-adoption",
+      "publishedAt": "2026-06-23T13:19:02.000Z",
+      "importance": 613,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-24T15:25:00.000Z",
+      "whyItMatters": "The adoption-vs-ROI gap is now visible in mid-market data, not just anecdotes from large enterprises, which matters for judging whether AI spending is translating into productivity."
+    },
+    {
+      "id": "curated-techcrunch-fika-jobs-ai-interview-agents-2026-06-23",
+      "title": "Fika Jobs raises $4M for AI-agent candidate interviews",
+      "summary": "TechCrunch reported that Stockholm startup Fika Jobs raised a $4 million pre-seed round for a hiring platform where AI agents interview candidates and produce video-first profiles.",
+      "fullSummary": "TechCrunch reported that Fika Jobs has raised $4 million in pre-seed funding to build a video-first hiring platform. Candidates connect a LinkedIn profile, receive AI-generated interview questions, complete an approximately 10-minute video interview with an AI agent, and then get short clips organized into a profile employers can browse. The round was led by Luminar Ventures, with participation from Alliance VC and King cofounders Sebastian Knutsson and Riccardo Zacconi. The story also notes the bias risk of video-first hiring, because employers can see race, age, gender, appearance, and accent earlier than in a resume-only process.",
+      "keyFacts": [
+        "Published June 23, 2026 at 06:00 PDT",
+        "Fika Jobs raised $4 million in pre-seed funding",
+        "The platform uses AI agents to run short video interviews",
+        "Luminar Ventures led the round"
+      ],
+      "url": "https://techcrunch.com/2026/06/23/fika-jobs-raises-4m-to-build-a-video-first-hiring-platform-where-ai-agents-interview-candidates/",
+      "sourceName": "TechCrunch",
+      "relatedSources": [
+        "TechCrunch",
+        "Fika Jobs",
+        "Luminar Ventures",
+        "Alliance VC"
+      ],
+      "lane": "funding",
+      "publishedAt": "2026-06-23T13:00:00.000Z",
+      "importance": 612,
+      "sourceConfidence": "high",
+      "filterCategory": "funding",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-24T15:25:00.000Z",
+      "whyItMatters": "Recruiting is one of the most sensitive agentic-AI markets: automation may improve discovery, but video-first screening also raises fairness and discrimination questions."
+    },
+    {
+      "id": "curated-ai-news-omio-openai-codex-product-development-2026-06-23",
+      "title": "Omio says OpenAI and Codex cut some product builds to 20% of prior effort",
+      "summary": "AI News reported that travel platform Omio integrated OpenAI models and Codex into engineering workflows, saying some product work now takes about one-fifth of the previous technical effort.",
+      "fullSummary": "AI News reported that Omio has integrated OpenAI models across engineering and travel-product workflows. The company says engineers use Codex across research, architecture planning, coding, testing, code review, and maintenance, while internal connectors link proprietary data environments to developer tools. Omio CTO Tomas Vocetka said the technical effort for specific products is now roughly 20% of previous levels, with projects that once needed multiple developers for a quarter sometimes reduced to one engineer for about a month. The article also says Omio grounds conversational travel booking in live transport, pricing, and availability data, with humans retaining accountability for deployed code and business outcomes.",
+      "keyFacts": [
+        "Published June 23, 2026",
+        "Omio uses Codex across the software development lifecycle",
+        "The company says some product work now takes about 20% of prior technical effort",
+        "Omio grounds AI travel booking in live transport inventory and pricing data"
+      ],
+      "url": "https://www.artificialintelligence-news.com/news/omio-scales-travel-product-development-using-openai-models/",
+      "sourceName": "AI News",
+      "relatedSources": [
+        "AI News",
+        "Omio",
+        "OpenAI",
+        "Codex"
+      ],
+      "lane": "products-adoption",
+      "publishedAt": "2026-06-23T12:30:00.000Z",
+      "importance": 610,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-24T15:25:00.000Z",
+      "whyItMatters": "This is the kind of operational result AI buyers look for: not a demo, but a company claiming measurable compression in engineering effort and delivery timelines."
+    },
+    {
+      "id": "curated-et-sakana-fugu-multiagent-system-2026-06-23",
+      "title": "Sakana launches Fugu as a multi-agent AI system",
+      "summary": "Economic Times reported that Sakana AI launched Fugu, a multi-agent orchestration system that coordinates specialized models for coding, reasoning, and research tasks.",
+      "fullSummary": "Economic Times reported that Tokyo-based Sakana AI has launched Fugu, a multi-agent AI system that presents itself as a single model while dynamically selecting and coordinating specialized models behind the scenes. The article says Fugu is designed to break down prompts, route subtasks across a pool of frontier models, and optimize performance across coding, reasoning, research, and other complex workloads. The system builds on research papers called TRINITY and Conductor, presented at ICLR 2026. Sakana is led by David Ha and Llion Jones, and previously raised a roughly $135 million Series B at a $2.65 billion valuation.",
+      "keyFacts": [
+        "Published June 23, 2026 at 17:08 IST",
+        "Sakana Fugu is described as a multi-agent orchestration system",
+        "The system can coordinate specialized models for different subtasks",
+        "It builds on TRINITY and Conductor research presented at ICLR 2026"
+      ],
+      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/is-sakana-fugu-really-better-than-anthropics-fable-5-and-mythos-preview/articleshow/131935813.cms",
+      "sourceName": "Economic Times",
+      "relatedSources": [
+        "Economic Times",
+        "Sakana AI",
+        "ICLR"
+      ],
+      "lane": "models",
+      "publishedAt": "2026-06-23T11:38:24.000Z",
+      "importance": 611,
+      "sourceConfidence": "high",
+      "filterCategory": "models",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-24T15:25:00.000Z",
+      "whyItMatters": "Fugu points to a different model competition: not just bigger single models, but orchestration layers that choose and coordinate multiple specialized systems."
+    },
+    {
+      "id": "curated-verge-rsl-human-consent-registry-launch-2026-06-23",
+      "title": "Human Consent Registry opens for AI likeness permissions",
+      "summary": "The Verge reported that RSL Media opened access to a Human Consent Registry where people can set machine-readable terms for AI use of their likeness, voice, and creative attributes.",
+      "fullSummary": "The Verge reported that RSL Media, the nonprofit cofounded by Cate Blanchett, is opening access to the Human Consent Registry. The registry lets people set terms for how AI systems may use their name, image, voice, movement, characters, marks, and eventually creative works. The public registry describes consent signals such as prohibited, permitted with terms, and permitted, translating those choices into machine-readable declarations. The launch builds on RSL Media's earlier Human Consent Standard and reflects growing pressure for AI companies to respect identity and likeness rights before generating or training on personal attributes.",
+      "keyFacts": [
+        "Reported June 23, 2026 by The Verge",
+        "RSL Media opened access to the Human Consent Registry",
+        "The registry covers AI use of likeness, voice, movement, and other identity attributes",
+        "Consent signals include prohibited, permitted with terms, and permitted"
+      ],
+      "url": "https://registry.rslmedia.org/",
+      "sourceName": "RSL Media",
+      "relatedSources": [
+        "The Verge",
+        "RSL Media"
+      ],
+      "lane": "policy-safety",
+      "publishedAt": "2026-06-23T12:00:00.000Z",
+      "importance": 610,
+      "sourceConfidence": "medium",
+      "filterCategory": "pushback",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-24T15:25:00.000Z",
+      "whyItMatters": "Likeness licensing is becoming a product layer, not just a lawsuit category; registries like this could give AI systems a practical way to check consent before use."
+    },
+    {
+      "id": "curated-et-chatgpt-one-billion-users-sensor-tower-2026-06-23",
+      "title": "ChatGPT reaches 1B users faster than any major consumer app",
+      "summary": "Economic Times reported that ChatGPT reached 1 billion users in May 2026, citing Sensor Tower data, even as Gemini and Claude gain market share.",
+      "fullSummary": "Economic Times reported that ChatGPT reached 1 billion users in May 2026, citing Sensor Tower data. The article compares the milestone with ChatGPT's original breakout, when it reached 1 million users in five days after launching in November 2022. It says no other major app has reached 1 billion users as quickly, while also noting that Google Gemini and Anthropic Claude are gaining market share. The milestone underlines how AI assistants have moved from novelty to a mass consumer software category in under four years.",
+      "keyFacts": [
+        "Published June 23, 2026 at 11:20 IST",
+        "Sensor Tower data says ChatGPT reached 1 billion users in May 2026",
+        "Economic Times says no major app has reached that mark as quickly",
+        "The report notes Gemini and Claude are gaining market share"
+      ],
+      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/a-billion-prompts-later-chatgpt-rewrites-the-record-books/articleshow/131926645.cms",
+      "sourceName": "Economic Times",
+      "relatedSources": [
+        "Economic Times",
+        "Sensor Tower",
+        "OpenAI",
+        "Google",
+        "Anthropic"
+      ],
+      "lane": "products-adoption",
+      "publishedAt": "2026-06-23T05:50:04.000Z",
+      "importance": 609,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-24T15:25:00.000Z",
+      "whyItMatters": "A billion-user AI assistant changes the market baseline: AI is no longer only a developer or enterprise story, it is now a default consumer software habit."
+    },
     {
       "id": "curated-et-ai-token-consumption-scrutiny-2026-06-23",
       "title": "Enterprises start measuring AI tokens by outcomes, not volume",
