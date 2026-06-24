@@ -1,9 +1,37 @@
 {
-  "generatedAt": "2026-06-24T15:25:00.000Z",
-  "nextRefreshAt": "2026-06-25T02:25:00.000Z",
+  "generatedAt": "2026-06-24T16:05:00.000Z",
+  "nextRefreshAt": "2026-06-25T03:05:00.000Z",
   "summaryEngine": "chat-curated",
   "curated": true,
   "items": [
+    {
+      "id": "curated-et-ornn-33m-compute-marketplace-2026-06-24",
+      "title": "Ornn raises $33M for an AI compute marketplace",
+      "summary": "Economic Times reported that compute marketplace Ornn raised $33 million in a round led by a16z crypto, with Galaxy Ventures and others participating.",
+      "fullSummary": "Economic Times reported that Ornn, a compute marketplace founded by MIT graduates, raised $33 million in funding led by a16z crypto. Galaxy Ventures and other investors also participated. The company wants to make AI compute capacity trade more transparently by letting data centers and cloud providers buy and sell capacity in a market-like system. The round will support hiring and platform development as AI infrastructure buyers keep looking for more flexible access to GPUs and other compute resources.",
+      "keyFacts": [
+        "Published June 24, 2026 at 20:44 IST",
+        "Ornn raised $33 million",
+        "a16z crypto led the round",
+        "Galaxy Ventures and others participated"
+      ],
+      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/a16z-crypto-leads-33-million-bet-on-compute-marketplace-ornn/articleshow/131971839.cms",
+      "sourceName": "Economic Times",
+      "relatedSources": [
+        "Economic Times",
+        "Ornn",
+        "a16z crypto",
+        "Galaxy Ventures"
+      ],
+      "lane": "infrastructure",
+      "publishedAt": "2026-06-24T15:14:50.000Z",
+      "importance": 621,
+      "sourceConfidence": "high",
+      "filterCategory": "funding",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-24T16:05:00.000Z",
+      "whyItMatters": "The compute market is becoming a financing and logistics problem, not just a chip-design problem; marketplaces like Ornn point to how AI teams may buy scarce capacity outside the largest cloud contracts."
+    },
     {
       "id": "curated-techcrunch-openai-broadcom-jalapeno-chip-2026-06-24",
       "title": "OpenAI unveils its first custom inference chip with Broadcom",
@@ -30,6 +58,60 @@
       "summaryEngine": "chat-curated",
       "curatedAt": "2026-06-24T15:25:00.000Z",
       "whyItMatters": "Inference cost is one of the biggest constraints on AI products; OpenAI designing its own chip changes the economics and supplier leverage behind ChatGPT, Codex, and future agents."
+    },
+    {
+      "id": "curated-et-360-yitian-tulong-mythos-2026-06-24",
+      "title": "China's 360 launches AI cyber tools to rival Anthropic Mythos",
+      "summary": "Economic Times reported that China's 360 Security Technology launched Yitian Tulong, a vulnerability-detection system positioned against U.S. AI cyber tools such as Anthropic's Mythos.",
+      "fullSummary": "Economic Times, citing Reuters, reported that China's 360 Security Technology has launched Yitian Tulong, a set of AI vulnerability-detection tools meant to compete with systems such as Anthropic's Mythos. Founder Zhou Hongyi framed the release as a national-security issue and argued that China needs comparable AI cyber capabilities rather than relying on one-way transparency from U.S. labs. The company says its Tulongfeng tool can identify software flaws to help reduce cyber risk.",
+      "keyFacts": [
+        "Published June 24, 2026 at 19:03 IST",
+        "360 Security Technology launched Yitian Tulong",
+        "The tools are positioned against U.S. AI cyber systems such as Anthropic Mythos",
+        "The company says Tulongfeng identifies software flaws"
+      ],
+      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/chinas-360-says-it-has-developed-tools-to-match-anthropics-mythos/articleshow/131970205.cms",
+      "sourceName": "Economic Times",
+      "relatedSources": [
+        "Economic Times",
+        "Reuters",
+        "360 Security Technology",
+        "Anthropic"
+      ],
+      "lane": "models",
+      "publishedAt": "2026-06-24T13:33:05.000Z",
+      "importance": 620,
+      "sourceConfidence": "high",
+      "filterCategory": "models",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-24T16:05:00.000Z",
+      "whyItMatters": "AI cyber models are becoming a geopolitical capability race; a Chinese Mythos-style system makes model access, export controls, and vulnerability discovery more strategically sensitive."
+    },
+    {
+      "id": "curated-siliconangle-coval-28m-voice-agents-2026-06-24",
+      "title": "Coval raises $28M as enterprises push voice agents into production",
+      "summary": "SiliconANGLE reported that Coval raised $28 million to support enterprise voice-agent deployments as companies move from pilots toward production systems.",
+      "fullSummary": "SiliconANGLE reported that Coval raised $28 million as enterprises increase production use of voice agents. The company builds infrastructure for testing, evaluating, and operating AI voice systems, an area where reliability and measurement become more important once agents handle real customer or employee interactions. The funding reflects a broader shift from demo voice bots toward monitored production workflows where companies need performance checks, regression testing, and deployment controls.",
+      "keyFacts": [
+        "Published June 24, 2026 at 09:00 ET",
+        "Coval raised $28 million",
+        "The company focuses on enterprise voice-agent production workflows",
+        "The round was reported by SiliconANGLE"
+      ],
+      "url": "https://siliconangle.com/2026/06/24/coval-raises-28m-enterprises-push-voice-agents-production/",
+      "sourceName": "SiliconANGLE",
+      "relatedSources": [
+        "SiliconANGLE",
+        "Coval"
+      ],
+      "lane": "funding",
+      "publishedAt": "2026-06-24T13:00:52.000Z",
+      "importance": 619,
+      "sourceConfidence": "high",
+      "filterCategory": "funding",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-24T16:05:00.000Z",
+      "whyItMatters": "Voice agents are a high-risk production surface because mistakes reach customers immediately; evaluation and deployment tooling is becoming a real enterprise budget line."
     },
     {
       "id": "curated-et-justai-17m-base10-series-a-2026-06-24",
@@ -88,6 +170,34 @@
       "whyItMatters": "The story shows the privacy fight moving inside AI labs and platforms: companies want richer work data for agents, but employees are pushing back on surveillance-like collection."
     },
     {
+      "id": "curated-et-bytedance-doubao-paid-subscriptions-2026-06-24",
+      "title": "ByteDance adds paid subscriptions to China's biggest AI chatbot",
+      "summary": "Economic Times reported that ByteDance launched paid subscriptions for Doubao, its AI chatbot with more than 300 million monthly users.",
+      "fullSummary": "Economic Times reported that ByteDance has started charging for premium versions of Doubao, described as China's largest AI chatbot with more than 300 million monthly users. The paid professional version adds features such as file organization and website development. The move gives ByteDance a clearer monetization path for one of China's largest consumer AI surfaces and puts more pressure on rival chatbot providers to show that usage can convert into revenue.",
+      "keyFacts": [
+        "Published June 24, 2026 at 16:05 IST",
+        "ByteDance launched paid Doubao subscriptions",
+        "Doubao has more than 300 million monthly users",
+        "The professional version adds file organization and website-development features"
+      ],
+      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/bytedance-rolls-out-paid-subscriptions-for-chinas-largest-ai-chatbot/articleshow/131964930.cms",
+      "sourceName": "Economic Times",
+      "relatedSources": [
+        "Economic Times",
+        "AFP",
+        "ByteDance",
+        "Doubao"
+      ],
+      "lane": "products-adoption",
+      "publishedAt": "2026-06-24T10:35:03.000Z",
+      "importance": 616,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-24T16:05:00.000Z",
+      "whyItMatters": "China consumer AI has massive usage but still needs durable revenue; Doubao paid tiers are a signal that chatbot monetization is moving beyond free acquisition."
+    },
+    {
       "id": "curated-ft-whatsapp-kunal-shah-ai-payments-push-2026-06-24",
       "title": "Meta taps CRED founder Kunal Shah to lead WhatsApp's AI and payments push",
       "summary": "Financial Times reported that Meta appointed CRED founder Kunal Shah to run WhatsApp and will invest $900 million in CRED as it tries to expand payments and AI services.",
@@ -114,6 +224,196 @@
       "summaryEngine": "chat-curated",
       "curatedAt": "2026-06-24T15:25:00.000Z",
       "whyItMatters": "WhatsApp is one of the largest consumer distribution surfaces for AI assistants, payments, and business messaging; leadership and capital moving through India can shape how those services scale."
+    },
+    {
+      "id": "curated-marktechpost-nous-hermes-learn-skills-2026-06-24",
+      "title": "Nous adds /learn so Hermes Agent can capture workflows as skills",
+      "summary": "MarkTechPost reported that Nous Research added a /learn feature to Hermes Agent that turns folders, documents, conversations, and pasted notes into reusable SKILL.md workflows.",
+      "fullSummary": "MarkTechPost reported that Nous Research has added /learn to the Hermes Agent skills system. The feature can create reusable SKILL.md files from directories, documentation URLs, conversations, and pasted notes without hand-writing the skill file. The release is part of a broader move toward agents that can capture operational knowledge and reuse it across tasks, rather than depending only on ad hoc prompts or one-off tool calls.",
+      "keyFacts": [
+        "Published June 24, 2026 at 09:21 UTC",
+        "Nous Research added /learn to Hermes Agent",
+        "The feature creates reusable SKILL.md workflows",
+        "Inputs can include directories, document URLs, conversations, and pasted notes"
+      ],
+      "url": "https://www.marktechpost.com/2026/06/24/nous-research-adds-learn-to-hermes-agents-skills-system-capturing-workflows-as-slash-commands-without-hand-writing-skill-md/",
+      "sourceName": "MarkTechPost",
+      "relatedSources": [
+        "MarkTechPost",
+        "Nous Research",
+        "Hermes Agent"
+      ],
+      "lane": "products-adoption",
+      "publishedAt": "2026-06-24T09:21:49.000Z",
+      "importance": 615,
+      "sourceConfidence": "medium",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-24T16:05:00.000Z",
+      "whyItMatters": "Agents get more useful when they can turn repeated work into reusable procedures; automatic skill capture is a step toward durable agent memory and workflow reuse."
+    },
+    {
+      "id": "curated-marktechpost-dflash-blackwell-throughput-2026-06-24",
+      "title": "DFlash claims up to 15x faster LLM inference on Nvidia Blackwell",
+      "summary": "MarkTechPost reported that DFlash uses block diffusion drafting and KV injection to improve LLM inference throughput on Nvidia Blackwell systems by up to 15x.",
+      "fullSummary": "MarkTechPost reported that DFlash is a speculative-decoding approach that drafts whole token blocks in parallel for LLM inference. The method uses block diffusion drafting and KV injection and is reported to deliver up to 15x higher throughput on Nvidia Blackwell. The work targets the inference bottleneck that matters most for interactive AI products: lowering latency and cost while serving more tokens on the same hardware.",
+      "keyFacts": [
+        "Published June 24, 2026 at 07:21 UTC",
+        "DFlash uses block diffusion drafting and KV injection",
+        "The reported benchmark is up to 15x higher throughput on Nvidia Blackwell",
+        "The technique targets LLM inference acceleration"
+      ],
+      "url": "https://www.marktechpost.com/2026/06/24/dflash-speculative-decoding-drafts-whole-token-blocks-in-parallel-for-up-to-15x-higher-throughput-on-nvidia-blackwell/",
+      "sourceName": "MarkTechPost",
+      "relatedSources": [
+        "MarkTechPost",
+        "DFlash",
+        "Nvidia"
+      ],
+      "lane": "infrastructure",
+      "publishedAt": "2026-06-24T07:21:10.000Z",
+      "importance": 614,
+      "sourceConfidence": "medium",
+      "filterCategory": "models",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-24T16:05:00.000Z",
+      "whyItMatters": "Inference throughput is where AI products either become affordable or stay constrained; large speedups on current accelerator platforms can matter as much as new model releases."
+    },
+    {
+      "id": "curated-et-india-ai-ready-jpmorgan-2026-06-24",
+      "title": "J.P. Morgan ranks India among the top AI-ready nations",
+      "summary": "Economic Times reported that J.P. Morgan ranked India among the top AI-ready countries, behind only the U.S. and China, while noting India remains one of the least concentrated equity markets.",
+      "fullSummary": "Economic Times reported that a J.P. Morgan analysis ranks India among the top countries for AI readiness, trailing only the United States and China. The report also says India remains one of the least concentrated equity markets globally. The finding frames India as a large AI adoption and investment market rather than only a services-export base, especially as capital markets and enterprises look for exposure beyond a small group of U.S. megacaps.",
+      "keyFacts": [
+        "Published June 24, 2026 at 12:12 IST",
+        "J.P. Morgan ranked India among the top AI-ready nations",
+        "The U.S. and China ranked ahead of India",
+        "The report also described India as one of the least concentrated equity markets"
+      ],
+      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/india-among-top-ai-ready-nations-one-of-worlds-least-concentrated-equity-markets-j-p-morgan/articleshow/131957569.cms",
+      "sourceName": "Economic Times",
+      "relatedSources": [
+        "Economic Times",
+        "ANI",
+        "J.P. Morgan"
+      ],
+      "lane": "regional",
+      "publishedAt": "2026-06-24T06:42:42.000Z",
+      "importance": 613,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-24T16:05:00.000Z",
+      "whyItMatters": "India-specific AI readiness affects where enterprises, startups, and investors expect adoption to compound outside the U.S.-China frontier-model race."
+    },
+    {
+      "id": "curated-et-agentic-commerce-shopping-report-2026-06-24",
+      "title": "Report says generative AI is moving shopping toward AI-led purchases",
+      "summary": "Economic Times reported that generative AI is moving from shopping discovery toward transaction completion, with younger shoppers leading product research and purchase use cases.",
+      "fullSummary": "Economic Times reported on a new view of generative AI in shopping, where AI tools are moving from product discovery toward completing purchases. The report says Gen Z and younger shoppers are already using AI for product research and that retailers such as Amazon and Walmart are adapting to a more agentic commerce environment. The article frames the next phase as a dual front door: people can shop through stores and websites, or through AI agents that guide and complete transactions.",
+      "keyFacts": [
+        "Published June 24, 2026 at 11:31 IST",
+        "The report says generative AI is expanding from shopping discovery to purchases",
+        "Gen Z shoppers are described as leading early behavior changes",
+        "Amazon and Walmart are named as companies adapting to AI-led shopping"
+      ],
+      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/generative-ai-expanding-role-in-shopping-to-enable-ai-led-purchases-report/articleshow/131956258.cms",
+      "sourceName": "Economic Times",
+      "relatedSources": [
+        "Economic Times",
+        "ANI",
+        "Amazon",
+        "Walmart"
+      ],
+      "lane": "products-adoption",
+      "publishedAt": "2026-06-24T06:01:53.000Z",
+      "importance": 612,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-24T16:05:00.000Z",
+      "whyItMatters": "Commerce is one of the clearest places where agents can turn advice into transactions, which changes product discovery, advertising, and retailer control of the customer journey."
+    },
+    {
+      "id": "curated-et-us-china-ai-cost-gap-jpmorgan-2026-06-24",
+      "title": "J.P. Morgan says China is closing the AI gap with cheaper models",
+      "summary": "Economic Times reported that J.P. Morgan sees the U.S. still leading in AI, while Chinese companies narrow the gap with lower-cost systems for enterprise use.",
+      "fullSummary": "Economic Times reported that J.P. Morgan still sees the United States as the global AI leader but says China is rapidly closing the gap with cost-efficient models. The report argues that Chinese companies are gaining ground in corporate environments by offering lower operating costs than many U.S. alternatives. It also notes that frontier U.S. systems remain important, but that enterprise buyers may increasingly weigh cost and deployment efficiency alongside raw model capability.",
+      "keyFacts": [
+        "Published June 24, 2026 at 10:53 IST",
+        "J.P. Morgan says the U.S. remains the AI leader",
+        "The report says China is narrowing the gap with cheaper models",
+        "Lower enterprise operating costs are a central part of the argument"
+      ],
+      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/us-remains-global-leader-in-ai-but-china-rapidly-closing-gap-with-cheaper-models-jp-morgan/articleshow/131955990.cms",
+      "sourceName": "Economic Times",
+      "relatedSources": [
+        "Economic Times",
+        "ANI",
+        "J.P. Morgan"
+      ],
+      "lane": "models",
+      "publishedAt": "2026-06-24T05:23:23.000Z",
+      "importance": 611,
+      "sourceConfidence": "high",
+      "filterCategory": "models",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-24T16:05:00.000Z",
+      "whyItMatters": "Model competition is increasingly about cost-performance, not only benchmark leadership; cheaper Chinese systems can shift enterprise buying even if U.S. labs keep the frontier lead."
+    },
+    {
+      "id": "curated-et-meta-ai-government-reviews-2026-06-24",
+      "title": "U.S. presses Meta to submit AI models for government review",
+      "summary": "Economic Times reported that the Trump administration is pressing Meta to agree to voluntary AI model reviews as national-security concerns rise.",
+      "fullSummary": "Economic Times, citing Reuters, reported that the Trump administration is pressing Meta to voluntarily submit its AI models for government review. The report says Meta is the only major U.S. AI developer that has not reached an agreement to share models with the federal government for review. The request comes amid rising national-security concerns around powerful AI systems and follows similar voluntary-review arrangements with other major developers.",
+      "keyFacts": [
+        "Published June 24, 2026 at 09:15 IST",
+        "The Trump administration is pressing Meta for voluntary AI model reviews",
+        "The report says Meta has not reached a review-sharing agreement with the federal government",
+        "The issue is tied to national-security concerns around AI models"
+      ],
+      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/us-presses-meta-to-agree-to-ai-reviews-as-security-concerns-rise-report/articleshow/131954168.cms",
+      "sourceName": "Economic Times",
+      "relatedSources": [
+        "Economic Times",
+        "Reuters",
+        "Meta",
+        "U.S. government"
+      ],
+      "lane": "policy-safety",
+      "publishedAt": "2026-06-24T03:45:45.000Z",
+      "importance": 610,
+      "sourceConfidence": "high",
+      "filterCategory": "pushback",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-24T16:05:00.000Z",
+      "whyItMatters": "Voluntary model review is becoming a practical governance lever; Meta resisting or delaying it would matter for how evenly AI oversight applies across major U.S. developers."
+    },
+    {
+      "id": "curated-marktechpost-mistral-ocr-4-2026-06-23",
+      "title": "Mistral OCR 4 adds citation-ready structure for RAG and agents",
+      "summary": "MarkTechPost reported that Mistral OCR 4 adds bounding boxes, block classification, confidence scores, and 170-language support for RAG, agentic, and enterprise search pipelines.",
+      "fullSummary": "MarkTechPost reported that Mistral OCR 4 has been released with citation-ready structured output for retrieval-augmented generation, agents, and enterprise search. The release adds bounding boxes, block classification, confidence scores, and support for 170 languages, with single-container deployment. The update targets one of the less glamorous but important parts of enterprise AI: turning messy documents into trustworthy structured inputs that downstream agents can cite and reason over.",
+      "keyFacts": [
+        "Published June 23, 2026 at 23:43 UTC",
+        "Mistral OCR 4 adds bounding boxes and block classification",
+        "The release supports 170 languages",
+        "It is aimed at RAG, agentic workflows, and enterprise search"
+      ],
+      "url": "https://www.marktechpost.com/2026/06/23/mistral-ocr-4/",
+      "sourceName": "MarkTechPost",
+      "relatedSources": [
+        "MarkTechPost",
+        "Mistral"
+      ],
+      "lane": "models",
+      "publishedAt": "2026-06-23T23:43:43.000Z",
+      "importance": 609,
+      "sourceConfidence": "medium",
+      "filterCategory": "models",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-24T16:05:00.000Z",
+      "whyItMatters": "Document understanding is a bottleneck for practical enterprise agents; better structured OCR improves whether AI systems can cite, search, and act on real business files."
     },
     {
       "id": "curated-techcrunch-moengage-aampe-ai-agents-2026-06-23",
@@ -143,6 +443,32 @@
       "summaryEngine": "chat-curated",
       "curatedAt": "2026-06-24T15:25:00.000Z",
       "whyItMatters": "This is a concrete example of agentic AI moving into operating software: personalization is shifting from campaign rules to autonomous customer-level decision systems."
+    },
+    {
+      "id": "curated-marktechpost-datalab-lift-9b-pdf-json-2026-06-23",
+      "title": "Datalab releases lift, a 9B open-weights vision model for PDFs",
+      "summary": "MarkTechPost reported that Datalab released lift, a 9B open-weights vision model that extracts schema-matching JSON from PDFs with reported 90.2% field accuracy.",
+      "fullSummary": "MarkTechPost reported that Datalab has released lift, a 9B open-weights vision model for extracting structured data from PDFs. The model is designed to output schema-matching JSON and is reported to reach 90.2% field accuracy. The release matters for teams building document-heavy AI workflows because PDF extraction remains a common failure point in enterprise automation, compliance, research, and financial operations.",
+      "keyFacts": [
+        "Published June 23, 2026 at 19:35 UTC",
+        "Datalab released lift as a 9B open-weights vision model",
+        "The model extracts schema-matching JSON from PDFs",
+        "MarkTechPost reports 90.2% field accuracy"
+      ],
+      "url": "https://www.marktechpost.com/2026/06/23/datalab-releases-lift-a-9b-open-weights-vision-model-that-extracts-structured-json-from-pdfs-using-schemas/",
+      "sourceName": "MarkTechPost",
+      "relatedSources": [
+        "MarkTechPost",
+        "Datalab"
+      ],
+      "lane": "models",
+      "publishedAt": "2026-06-23T19:35:33.000Z",
+      "importance": 608,
+      "sourceConfidence": "medium",
+      "filterCategory": "models",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-24T16:05:00.000Z",
+      "whyItMatters": "Open document models can lower the cost of building specialized enterprise extraction workflows, especially where proprietary OCR systems are expensive or hard to adapt."
     },
     {
       "id": "curated-techcrunch-claude-tag-slack-enterprise-agent-2026-06-23",
@@ -475,6 +801,32 @@
       "whyItMatters": "AI chip competition is pulling mobile, cloud, and automotive suppliers into the same market, making acquisitions a shortcut to scarce accelerator and compiler expertise."
     },
     {
+      "id": "curated-et-oracle-21000-ai-workforce-shrink-2026-06-23",
+      "title": "Oracle workforce shrinks by 21,000 amid rapid AI adoption",
+      "summary": "Economic Times reported that Oracle cut about 21,000 employees, roughly 13% of its workforce, with the company citing factors including AI adoption and strategic shifts.",
+      "fullSummary": "Economic Times reported that Oracle disclosed a workforce reduction of about 21,000 employees, or roughly 13% of its total headcount. The article says the company linked the adjustments to factors including management and product changes, performance issues, strategic shifts, acquisitions, and rapid AI adoption across operations. The story is a concrete example of large enterprise software companies reshaping staffing while investing heavily in AI infrastructure and automation.",
+      "keyFacts": [
+        "Published June 23, 2026 at 07:42 IST",
+        "Oracle reduced headcount by about 21,000 employees",
+        "The reduction was roughly 13% of the workforce",
+        "AI adoption was listed among the factors behind the workforce changes"
+      ],
+      "url": "https://m.economictimes.com/tech/technology/oracle-workforce-shrinks-by-about-21000-employees-amid-ai-adoption/articleshow/131923049.cms",
+      "sourceName": "Economic Times",
+      "relatedSources": [
+        "Economic Times",
+        "Oracle"
+      ],
+      "lane": "workforce",
+      "publishedAt": "2026-06-23T02:12:43.000Z",
+      "importance": 607,
+      "sourceConfidence": "high",
+      "filterCategory": "pushback",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-24T16:05:00.000Z",
+      "whyItMatters": "This is the kind of operational AI impact the feed should catch: not a model launch, but a large workforce change tied to automation and strategic AI adoption."
+    },
+    {
       "id": "curated-techcrunch-ai-layoffs-running-list-2026-06-23",
       "title": "TechCrunch tracks 2026 layoffs where employers cited AI",
       "summary": "TechCrunch launched a running list of major 2026 tech layoffs in which companies explicitly cited AI, showing how automation claims are being used to explain workforce cuts.",
@@ -498,6 +850,32 @@
       "summaryEngine": "chat-curated",
       "curatedAt": "2026-06-23T09:00:00.000Z",
       "whyItMatters": "A named tracker makes workforce impact easier to audit; it moves the AI-layoffs debate from anecdotes toward documented company disclosures."
+    },
+    {
+      "id": "curated-techcrunch-openai-patch-the-planet-2026-06-23",
+      "title": "OpenAI launches Patch the Planet for open-source security bugs",
+      "summary": "TechCrunch reported that OpenAI launched a new initiative to help open-source maintainers find and patch software bugs as AI increases security-report volume.",
+      "fullSummary": "TechCrunch reported that OpenAI has launched an initiative to help open-source projects find and patch security bugs. The effort is aimed at maintainers facing more vulnerability reports as AI-assisted bug hunting expands. OpenAI is positioning the program as a way to use AI defensively for open-source security, helping projects validate reports, generate patches, and reduce the maintenance burden created by both real issues and low-quality AI-generated reports.",
+      "keyFacts": [
+        "Published June 23, 2026 at 00:11 UTC",
+        "OpenAI launched a program for open-source bug finding and patching",
+        "The effort targets the burden on open-source maintainers",
+        "The initiative is tied to AI-assisted security workflows"
+      ],
+      "url": "https://techcrunch.com/2026/06/22/openai-launches-new-initiative-to-help-find-and-patch-open-source-bugs/",
+      "sourceName": "TechCrunch",
+      "relatedSources": [
+        "TechCrunch",
+        "OpenAI"
+      ],
+      "lane": "policy-safety",
+      "publishedAt": "2026-06-23T00:11:31.000Z",
+      "importance": 606,
+      "sourceConfidence": "high",
+      "filterCategory": "pushback",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-24T16:05:00.000Z",
+      "whyItMatters": "AI is changing software security on both sides: it can flood maintainers with reports, but also help patch real flaws if programs are designed around maintainer needs."
     },
     {
       "id": "curated-openai-daybreak-codex-security-2026-06-22",
