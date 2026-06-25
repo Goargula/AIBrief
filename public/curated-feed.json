@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-25T09:15:00.000Z",
-  "nextRefreshAt": "2026-06-25T20:15:00.000Z",
+  "generatedAt": "2026-06-25T10:55:00.000Z",
+  "nextRefreshAt": "2026-06-25T21:55:00.000Z",
   "summaryEngine": "chat-curated",
   "curated": true,
   "items": [
@@ -117,6 +117,174 @@
       "summaryEngine": "chat-curated",
       "curatedAt": "2026-06-25T09:15:00.000Z",
       "whyItMatters": "The AI coding story is not only productivity; team structure, mentoring, morale, and cost control are becoming product and management problems too."
+    },
+    {
+      "id": "curated-techcrunch-europe-asml-match-act-pushback-2026-06-25",
+      "title": "Europe pushes back on Washington's chip-war bill",
+      "summary": "TechCrunch reported that Dutch Trade Minister Sjoerd Sjoerdsma visited Washington to oppose the MATCH Act, warning that tighter U.S. chip-equipment curbs could hit ASML and the Netherlands hard.",
+      "fullSummary": "TechCrunch reported that Dutch Trade Minister Sjoerd Sjoerdsma visited Washington to meet Commerce Secretary Howard Lutnick and members of Congress about the MATCH Act. The bill would bar Chinese chipmakers from accessing Western semiconductor equipment and would extend restrictions to ASML's older deep ultraviolet immersion machines, not only the advanced EUV tools already blocked from China. ASML is Europe's most valuable company and a central supplier for advanced AI-chip manufacturing. China accounts for 19% of ASML's net system sales, so the dispute is about both AI supply-chain security and European economic exposure to U.S. export-control policy.",
+      "keyFacts": [
+        "Published June 24, 2026 at 17:08 PDT",
+        "The MATCH Act would restrict Chinese access to Western semiconductor equipment",
+        "China accounts for 19% of ASML's net system sales",
+        "ASML is the only maker of the most advanced EUV lithography machines"
+      ],
+      "url": "https://techcrunch.com/2026/06/24/europe-is-pushing-back-on-washingtons-chip-war/",
+      "sourceName": "TechCrunch",
+      "relatedSources": [
+        "TechCrunch",
+        "ASML",
+        "MATCH Act",
+        "Bloomberg"
+      ],
+      "lane": "policy-safety",
+      "publishedAt": "2026-06-25T00:08:00.000Z",
+      "importance": 636,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-25T10:55:00.000Z",
+      "whyItMatters": "AI-chip policy is becoming a trade conflict with allies too; ASML's exposure shows how U.S. controls can reshape Europe's semiconductor economics."
+    },
+    {
+      "id": "curated-techcrunch-cerebras-stock-margin-ai-capacity-2026-06-24",
+      "title": "Cerebras shares fall as investors question AI-chip margin outlook",
+      "summary": "TechCrunch reported that Cerebras shares dropped almost 20% after its first post-IPO earnings, despite revenue beating expectations, because investors focused on lower expected gross margins.",
+      "fullSummary": "TechCrunch reported that Cerebras shares dropped almost 20% after the AI-chip company gave its first earnings report since going public. The company beat revenue expectations, but investors focused on guidance for full-year gross margin of 38% to 41%, below the 47% margin reported in the first quarter. CEO Andrew Feldman told CNBC that the margin outlook was misunderstood, saying Cerebras is temporarily renting back some of its own systems from a large customer to make capacity available sooner while it builds out its own data-center footprint. Revenue reached $193 million, up 94% year over year, while net loss narrowed to $14 million.",
+      "keyFacts": [
+        "Published June 24, 2026 at 15:41 PDT",
+        "Cerebras shares dropped almost 20%",
+        "Quarterly revenue reached $193 million, up 94% year over year",
+        "Full-year core gross-margin guidance was 38% to 41%"
+      ],
+      "url": "https://techcrunch.com/2026/06/24/cerebras-stock-plunges-after-earnings-as-ceo-says-margin-outlook-was-misunderstood/",
+      "sourceName": "TechCrunch",
+      "relatedSources": [
+        "TechCrunch",
+        "Cerebras",
+        "CNBC"
+      ],
+      "lane": "infrastructure",
+      "publishedAt": "2026-06-24T22:41:00.000Z",
+      "importance": 632,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-25T10:55:00.000Z",
+      "whyItMatters": "Public-market AI infrastructure companies are being judged on capacity economics and margins, not only demand for accelerators."
+    },
+    {
+      "id": "curated-techcrunch-google-ai-researcher-exodus-2026-06-24",
+      "title": "Google loses more top AI researchers to Anthropic and OpenAI",
+      "summary": "TechCrunch reported that Jonas Adler and Alexander Pritzel are leaving Google for Anthropic, following recent departures by Noam Shazeer and AlphaFold researcher John Jumper.",
+      "fullSummary": "TechCrunch reported that top AI researchers Jonas Adler and Alexander Pritzel are leaving Google for Anthropic, citing Bloomberg. Adler and Pritzel played key roles in Gemini, and their departures follow Noam Shazeer's move from Google to OpenAI and Google DeepMind director John Jumper's move to Anthropic. The article frames the exits as part of a broader talent fight as OpenAI and Anthropic prepare for public-market scrutiny and can offer equity upside to senior researchers. Google remains one of the world's strongest AI labs, but repeated departures from Gemini and DeepMind teams are a competitive signal worth tracking.",
+      "keyFacts": [
+        "Published June 24, 2026 at 14:42 PDT",
+        "Jonas Adler and Alexander Pritzel are reportedly leaving Google for Anthropic",
+        "Noam Shazeer recently left Google for OpenAI",
+        "John Jumper recently left Google for Anthropic"
+      ],
+      "url": "https://techcrunch.com/2026/06/24/ai-researchers-continue-to-leave-google-for-its-rivals/",
+      "sourceName": "TechCrunch",
+      "relatedSources": [
+        "TechCrunch",
+        "Bloomberg",
+        "Google",
+        "Anthropic",
+        "OpenAI"
+      ],
+      "lane": "models",
+      "publishedAt": "2026-06-24T21:42:00.000Z",
+      "importance": 631,
+      "sourceConfidence": "medium",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-25T10:55:00.000Z",
+      "whyItMatters": "Frontier-model competition is also a talent market; researcher migration can change lab velocity before it shows up in product launches."
+    },
+    {
+      "id": "curated-techcrunch-micron-memory-chip-crunch-earnings-2026-06-24",
+      "title": "Micron surges as AI memory-chip crunch lifts earnings",
+      "summary": "TechCrunch reported that Micron shares jumped after quarterly revenue quadrupled and profit rose sharply, with AI-driven memory demand still squeezing supply.",
+      "fullSummary": "TechCrunch reported that the AI boom is feeding a memory-chip shortage and boosting Micron, the largest U.S. computer-memory chip maker. The company reported third-quarter earnings after markets closed Wednesday, sending shares up more than 13%. Revenue quadrupled year over year to $41.45 billion, while profit rose from $1.88 billion to $28.2 billion. Micron also forecast fourth-quarter revenue of $49 billion to $51 billion. The report notes that demand for AI servers and memory components is pushing prices higher across the supply chain and that Micron recently agreed to supply Anthropic with memory and storage chips while also participating in Anthropic's Series H round.",
+      "keyFacts": [
+        "Published June 24, 2026 at 14:30 PDT",
+        "Micron shares rose more than 13% after earnings",
+        "Quarterly revenue reached $41.45 billion",
+        "Profit rose to $28.2 billion from $1.88 billion a year earlier"
+      ],
+      "url": "https://techcrunch.com/2026/06/24/the-memory-chip-crunch-is-paying-off-for-this-u-s-company/",
+      "sourceName": "TechCrunch",
+      "relatedSources": [
+        "TechCrunch",
+        "Micron",
+        "Anthropic",
+        "IDC"
+      ],
+      "lane": "infrastructure",
+      "publishedAt": "2026-06-24T21:30:00.000Z",
+      "importance": 635,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-25T10:55:00.000Z",
+      "whyItMatters": "The AI buildout is now visible in memory-supply economics, not just GPU demand; Micron is a direct signal for the broader infrastructure bottleneck."
+    },
+    {
+      "id": "curated-techcrunch-facebook-ai-companion-creators-2026-06-24",
+      "title": "Facebook rolls out a standalone AI companion app for creators",
+      "summary": "TechCrunch reported that Facebook is turning Creator Studio into a standalone AI companion app for creators, with personalized recommendations and AI-assisted comment workflows.",
+      "fullSummary": "TechCrunch reported that Facebook is reimagining Creator Studio as a standalone AI companion app for creators. The app is being tested with select creators and includes Facebook's AI creator assistant, which gives personalized recommendations based on content style, performance, audience engagement, and goals. Creators can ask conversational questions such as when to post or what people are saying in comments, and the app can surface important comments and draft replies in the creator's tone for review before posting. The launch is part of Meta's broader push to use AI to keep creators active on Facebook while competing with TikTok, YouTube, and third-party AI tools.",
+      "keyFacts": [
+        "Published June 24, 2026 at 10:16 PDT",
+        "Facebook is testing the standalone app with select creators",
+        "The assistant gives recommendations based on content style, performance, audience engagement, and goals",
+        "The app includes an AI-powered comment tool that drafts replies for creator approval"
+      ],
+      "url": "https://techcrunch.com/2026/06/24/facebook-rolls-out-an-ai-companion-app-for-creators/",
+      "sourceName": "TechCrunch",
+      "relatedSources": [
+        "TechCrunch",
+        "Meta",
+        "Facebook"
+      ],
+      "lane": "products-adoption",
+      "publishedAt": "2026-06-24T17:16:00.000Z",
+      "importance": 629,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-25T10:55:00.000Z",
+      "whyItMatters": "Creator tools are one of the clearest consumer AI adoption surfaces because the assistant is tied to daily workflow, distribution, and measurable engagement."
+    },
+    {
+      "id": "curated-techcrunch-figma-code-layers-ai-update-2026-06-24",
+      "title": "Figma adds code layers, animations, and more AI agent features",
+      "summary": "TechCrunch reported that Figma added code layers, animation support, AI-generated shader effects, custom AI skills, and prompt-built plugins to its collaborative canvas.",
+      "fullSummary": "TechCrunch reported that Figma introduced a product update adding code layers, support for motion and shaders, and more AI features. Code layers let teams clone repositories and extract flows from code into design layers for testing on the collaborative canvas. Figma is also adding animation, transition, and 3D transform support, plus AI-generated shader effects and fills. Its AI assistant is gaining repeatable skills that users can create with text prompts, with connections to tools such as Notion, Granola, Excel, and GitHub. The company is also adding prompt-based custom plugin creation, such as layout generators and vector path tracers.",
+      "keyFacts": [
+        "Published June 24, 2026 at 09:15 PDT",
+        "Figma added code layers to the collaborative canvas",
+        "The update adds animation, transition, and 3D transform support",
+        "Users can create repeatable AI skills and custom plugins with prompts"
+      ],
+      "url": "https://techcrunch.com/2026/06/24/figma-adds-code-layers-support-for-animations-more-ai-features-in-new-update/",
+      "sourceName": "TechCrunch",
+      "relatedSources": [
+        "TechCrunch",
+        "Figma",
+        "GitHub",
+        "Codex",
+        "Claude Code"
+      ],
+      "lane": "products-adoption",
+      "publishedAt": "2026-06-24T16:15:00.000Z",
+      "importance": 628,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-25T10:55:00.000Z",
+      "whyItMatters": "Design tools are becoming agent workspaces too; Figma is pulling code, motion, plugins, and AI skills into one collaborative surface."
     },
     {
       "id": "curated-businessinsider-agility-robotics-spac-2026-06-24",
