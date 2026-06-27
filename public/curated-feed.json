@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-27T09:05:00.000Z",
-  "nextRefreshAt": "2026-06-27T20:05:00.000Z",
+  "generatedAt": "2026-06-27T09:35:00.000Z",
+  "nextRefreshAt": "2026-06-27T20:35:00.000Z",
   "summaryEngine": "chat-curated",
   "curated": true,
   "items": [
@@ -82,6 +82,33 @@
       "summaryEngine": "chat-curated",
       "curatedAt": "2026-06-27T09:05:00.000Z",
       "whyItMatters": "Frontier AI releases are becoming subject to security review before broad rollout, which changes launch strategy for labs and customers."
+    },
+    {
+      "id": "curated-techcrunch-anthropic-mythos-100-orgs-2026-06-26",
+      "title": "Anthropic Mythos clears use by more than 100 U.S. organizations",
+      "summary": "TechCrunch reported that the Trump administration released Anthropic's Mythos model for use by more than 100 U.S. companies and agencies after a security review, widening access after the earlier restrictions.",
+      "fullSummary": "TechCrunch reported that the Trump administration released Anthropic's Mythos model for use by more than 100 U.S. companies and agencies after a security review, widening access after the earlier restrictions.",
+      "keyFacts": [
+        "Published June 26, 2026",
+        "More than 100 U.S. companies and agencies were covered",
+        "The story followed a government security review",
+        "The decision widened Mythos access after earlier limits"
+      ],
+      "url": "https://techcrunch.com/2026/06/26/trump-admin-releases-anthropic-mythos-to-be-used-by-more-than-100-us-companies-agencies/",
+      "sourceName": "TechCrunch",
+      "relatedSources": [
+        "TechCrunch",
+        "Anthropic",
+        "U.S. government"
+      ],
+      "lane": "policy-safety",
+      "publishedAt": "2026-06-26T20:00:00.000Z",
+      "importance": 748,
+      "sourceConfidence": "high",
+      "filterCategory": "pushback",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-27T09:35:00.000Z",
+      "whyItMatters": "The access decision shows how model availability is becoming a policy-controlled deployment question for both public and private buyers."
     },
     {
       "id": "curated-openai-gpt-56-sol-preview-2026-06-26",
@@ -194,6 +221,61 @@
       "whyItMatters": "Computer-use models are the practical bridge from AI answering questions to AI operating real software."
     },
     {
+      "id": "curated-unite-truefoundry-seldon-acquisition-2026-06-26",
+      "title": "TrueFoundry buys Seldon to combine MLOps and agentic AI infrastructure",
+      "summary": "Unite.AI reported that TrueFoundry acquired Seldon AI, bringing together two Kubernetes-native enterprise AI infrastructure platforms.",
+      "fullSummary": "Unite.AI reported that TrueFoundry acquired Seldon AI, bringing together two Kubernetes-native enterprise AI infrastructure platforms.",
+      "keyFacts": [
+        "Published June 26, 2026",
+        "TrueFoundry acquired Seldon AI",
+        "Both companies focus on enterprise AI infrastructure",
+        "The platforms are Kubernetes-native"
+      ],
+      "url": "https://www.unite.ai/truefoundry-acquires-seldon-ai-to-unify-enterprise-mlops-and-agentic-ai/",
+      "sourceName": "Unite.AI",
+      "relatedSources": [
+        "Unite.AI",
+        "TrueFoundry",
+        "Seldon AI"
+      ],
+      "lane": "infrastructure",
+      "publishedAt": "2026-06-26T15:29:51.000Z",
+      "importance": 706,
+      "sourceConfidence": "high",
+      "filterCategory": "funding",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-27T09:35:00.000Z",
+      "whyItMatters": "MLOps and agent infrastructure are consolidating as companies try to standardize production AI deployment."
+    },
+    {
+      "id": "curated-et-italy-pax-silica-ai-supply-chain-2026-06-26",
+      "title": "Italy joins U.S.-led Pax Silica AI supply-chain initiative",
+      "summary": "Economic Times reported that Italy will join the U.S.-led Pax Silica initiative to secure AI supply chains, despite recent political friction between Rome and Washington.",
+      "fullSummary": "Economic Times reported that Italy will join the U.S.-led Pax Silica initiative to secure AI supply chains, despite recent political friction between Rome and Washington.",
+      "keyFacts": [
+        "Published June 26, 2026 at 19:48 IST",
+        "Italy is set to join the Pax Silica initiative",
+        "The effort focuses on AI supply-chain security",
+        "The move follows similar commitments from the European Commission and the Netherlands"
+      ],
+      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/italy-to-join-us-led-pax-silica-ai-initiative-despite-trump-spat/articleshow/132018431.cms",
+      "sourceName": "Economic Times",
+      "relatedSources": [
+        "Economic Times",
+        "Italy",
+        "Pax Silica",
+        "U.S. government"
+      ],
+      "lane": "policy-safety",
+      "publishedAt": "2026-06-26T14:18:00.000Z",
+      "importance": 698,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-27T09:35:00.000Z",
+      "whyItMatters": "AI supply-chain diplomacy is turning into a bloc-building exercise across allies."
+    },
+    {
       "id": "curated-et-ukraine-domestic-ai-compute-kyivstar-2026-06-26",
       "title": "Ukraine plans domestic AI computing capacity with Kyivstar",
       "summary": "Economic Times reported that Ukraine is leaning on domestic AI computing capacity, with Kyivstar and local infrastructure becoming part of the country's wartime technology resilience strategy.",
@@ -220,6 +302,32 @@
       "whyItMatters": "AI compute is becoming part of national resilience planning, especially where geopolitical and physical infrastructure risks are high."
     },
     {
+      "id": "curated-ai-news-sap-commerce-data-personalisation-2026-06-26",
+      "title": "SAP restructures commerce data for AI personalization",
+      "summary": "AI News reported that SAP is aligning fragmented commerce data structures so AI personalization can operate at the execution layer rather than only in analytics dashboards.",
+      "fullSummary": "AI News reported that SAP is aligning fragmented commerce data structures so AI personalization can operate at the execution layer rather than only in analytics dashboards.",
+      "keyFacts": [
+        "Published June 26, 2026",
+        "SAP is aligning commerce data for AI personalization",
+        "The work targets operational execution layers",
+        "The story focuses on enterprise commerce data structures"
+      ],
+      "url": "https://www.artificialintelligence-news.com/news/sap-aligns-commerce-data-for-ai-personalisation/",
+      "sourceName": "AI News",
+      "relatedSources": [
+        "AI News",
+        "SAP"
+      ],
+      "lane": "products-adoption",
+      "publishedAt": "2026-06-26T12:55:48.000Z",
+      "importance": 680,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-27T09:35:00.000Z",
+      "whyItMatters": "Enterprise AI often fails on data fragmentation before it fails on model quality."
+    },
+    {
       "id": "curated-et-nasscom-ai-consultants-tech-services-2026-06-26",
       "title": "India's tech services sector remains key in the AI era, Nasscom says",
       "summary": "Economic Times reported that Nasscom's U.S. CEO Forum urged Indian tech services companies to shift from delivery shops toward AI consulting and transformation partners.",
@@ -244,6 +352,85 @@
       "summaryEngine": "chat-curated",
       "curatedAt": "2026-06-27T09:05:00.000Z",
       "whyItMatters": "The AI transition for services firms is as much a business-model question as a tooling question."
+    },
+    {
+      "id": "curated-bi-rbc-enterprise-ai-spending-openai-leads-2026-06-26",
+      "title": "RBC says enterprise AI spending is growing with OpenAI in front",
+      "summary": "Business Insider reported on RBC analysis showing enterprise AI spending growth and OpenAI leadership, adding a buyer-side signal to the AI adoption story.",
+      "fullSummary": "Business Insider reported on RBC analysis showing enterprise AI spending growth and OpenAI leadership, adding a buyer-side signal to the AI adoption story.",
+      "keyFacts": [
+        "Published June 26, 2026",
+        "RBC analysis found enterprise AI spending growth",
+        "OpenAI was described as leading the category",
+        "The story focuses on buyer behavior rather than model launches"
+      ],
+      "url": "https://www.businessinsider.com/enterprise-ai-spending-grows-openai-leads-rbc-reveals-2026-6",
+      "sourceName": "Business Insider",
+      "relatedSources": [
+        "Business Insider",
+        "RBC",
+        "OpenAI"
+      ],
+      "lane": "products-adoption",
+      "publishedAt": "2026-06-26T12:00:00.000Z",
+      "importance": 692,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-27T09:35:00.000Z",
+      "whyItMatters": "Enterprise AI spend is the harder signal behind adoption claims, especially when it identifies who buyers are paying."
+    },
+    {
+      "id": "curated-bi-anthropic-technical-salaries-2026-06-26",
+      "title": "Anthropic technical salaries show the price of frontier AI talent",
+      "summary": "Business Insider reported Anthropic salary data for technical staff in 2026, highlighting how expensive frontier-model talent remains.",
+      "fullSummary": "Business Insider reported Anthropic salary data for technical staff in 2026, highlighting how expensive frontier-model talent remains.",
+      "keyFacts": [
+        "Published June 26, 2026",
+        "Business Insider reviewed Anthropic technical salary data",
+        "The story focused on 2026 compensation",
+        "The figures illustrate competition for AI talent"
+      ],
+      "url": "https://www.businessinsider.com/anthropic-salaries-revealed-how-much-technical-staff-make-in-2026-2026-6",
+      "sourceName": "Business Insider",
+      "relatedSources": [
+        "Business Insider",
+        "Anthropic"
+      ],
+      "lane": "workforce",
+      "publishedAt": "2026-06-26T12:00:00.000Z",
+      "importance": 668,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-27T09:35:00.000Z",
+      "whyItMatters": "Talent cost remains a structural advantage for the richest labs and a constraint for everyone else."
+    },
+    {
+      "id": "curated-et-china-ai-chip-ipo-rebound-2026-06-26",
+      "title": "Chinese AI and chip firms drive an onshore IPO rebound",
+      "summary": "Economic Times reported that Chinese AI and chip companies are driving the strongest local tech IPO year since 2023, with more than $3.1 billion raised and nearly 50 firms seeking listings.",
+      "fullSummary": "Economic Times reported that Chinese AI and chip companies are driving the strongest local tech IPO year since 2023, with more than $3.1 billion raised and nearly 50 firms seeking listings.",
+      "keyFacts": [
+        "Published June 26, 2026 at 14:08 IST",
+        "Chinese tech IPOs are having their strongest year since 2023",
+        "AI and chip firms are central to the rebound",
+        "More than $3.1 billion has been raised this year"
+      ],
+      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/chinese-ai-chip-firms-are-driving-an-onshore-ipo-rebound/articleshow/132011411.cms",
+      "sourceName": "Economic Times",
+      "relatedSources": [
+        "Economic Times",
+        "China"
+      ],
+      "lane": "funding",
+      "publishedAt": "2026-06-26T08:38:00.000Z",
+      "importance": 704,
+      "sourceConfidence": "high",
+      "filterCategory": "funding",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-27T09:35:00.000Z",
+      "whyItMatters": "China's AI self-reliance push is now visible in public-market exits, not just state plans and lab announcements."
     },
     {
       "id": "curated-et-south-korea-ai-chip-stocks-cerebras-2026-06-26",
@@ -321,6 +508,220 @@
       "summaryEngine": "chat-curated",
       "curatedAt": "2026-06-27T09:05:00.000Z",
       "whyItMatters": "Many production AI systems are becoming multi-model systems, but this work questions when that complexity really buys reliability."
+    },
+    {
+      "id": "curated-techcrunch-patronus-50m-agent-testing-2026-06-25",
+      "title": "Patronus raises $50M to stress-test AI agents",
+      "summary": "TechCrunch reported that Patronus AI raised $50 million to build digital worlds for evaluating and stress-testing AI agents, with demand driven by companies trying to deploy agents without losing control.",
+      "fullSummary": "TechCrunch reported that Patronus AI raised $50 million to build digital worlds for evaluating and stress-testing AI agents, with demand driven by companies trying to deploy agents without losing control.",
+      "keyFacts": [
+        "Published June 25, 2026",
+        "Patronus AI raised $50 million",
+        "The company was founded by former Meta AI researchers",
+        "Its product creates test environments for AI agents"
+      ],
+      "url": "https://techcrunch.com/2026/06/25/patronus-ai-lands-50m-to-build-digital-worlds-that-stress-test-ai-agents/",
+      "sourceName": "TechCrunch",
+      "relatedSources": [
+        "TechCrunch",
+        "Patronus AI",
+        "Meta AI"
+      ],
+      "lane": "funding",
+      "publishedAt": "2026-06-25T20:19:25.000Z",
+      "importance": 720,
+      "sourceConfidence": "high",
+      "filterCategory": "funding",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-27T09:35:00.000Z",
+      "whyItMatters": "Agent testing is becoming a funded category because enterprises need proof that autonomous workflows will fail safely."
+    },
+    {
+      "id": "curated-techcrunch-general-intuition-23b-game-trained-agents-2026-06-25",
+      "title": "General Intuition bets $2.3B that games can train real-world agents",
+      "summary": "TechCrunch reported that General Intuition raised $320 million and reached a $2.3 billion valuation by training AI on millions of hours of gameplay, betting that action data can teach agents real-world intuition.",
+      "fullSummary": "TechCrunch reported that General Intuition raised $320 million and reached a $2.3 billion valuation by training AI on millions of hours of gameplay, betting that action data can teach agents real-world intuition.",
+      "keyFacts": [
+        "Published June 25, 2026",
+        "General Intuition raised $320 million",
+        "The reported valuation was $2.3 billion",
+        "The company trains AI on gameplay action data"
+      ],
+      "url": "https://techcrunch.com/2026/06/25/general-intuitions-2-3b-bet-that-video-games-can-train-ai-agents-for-the-real-world/",
+      "sourceName": "TechCrunch",
+      "relatedSources": [
+        "TechCrunch",
+        "General Intuition"
+      ],
+      "lane": "models",
+      "publishedAt": "2026-06-25T16:55:00.000Z",
+      "importance": 718,
+      "sourceConfidence": "high",
+      "filterCategory": "funding",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-27T09:35:00.000Z",
+      "whyItMatters": "The round shows investor appetite for embodied and action-trained AI, not just text-model scaling."
+    },
+    {
+      "id": "curated-techcrunch-un0-ai-power-efficiency-2026-06-25",
+      "title": "Databricks' former AI chief targets a 1,000x AI power cut",
+      "summary": "TechCrunch reported that a startup led by Databricks' former AI chief is building Un-0, an image-generation system meant to show how alternative AI architectures could sharply reduce power use.",
+      "fullSummary": "TechCrunch reported that a startup led by Databricks' former AI chief is building Un-0, an image-generation system meant to show how alternative AI architectures could sharply reduce power use.",
+      "keyFacts": [
+        "Published June 25, 2026",
+        "The company is led by Databricks' former AI chief",
+        "Un-0 targets image generation",
+        "The claimed ambition is a major reduction in AI power use"
+      ],
+      "url": "https://techcrunch.com/2026/06/25/databricks-former-ai-chief-thinks-he-can-cut-ais-power-bill-by-1000x/",
+      "sourceName": "TechCrunch",
+      "relatedSources": [
+        "TechCrunch",
+        "Databricks"
+      ],
+      "lane": "infrastructure",
+      "publishedAt": "2026-06-25T16:48:11.000Z",
+      "importance": 710,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-27T09:35:00.000Z",
+      "whyItMatters": "Power cost is one of the hard limits on AI deployment, so architecture-level efficiency claims are strategically important."
+    },
+    {
+      "id": "curated-techcrunch-netris-15m-neocloud-networking-2026-06-25",
+      "title": "Netris raises $15M to speed up AI neocloud launches",
+      "summary": "TechCrunch reported that Netris raised a $15 million Series A from Andreessen Horowitz to help AI neocloud operators bring network infrastructure online faster.",
+      "fullSummary": "TechCrunch reported that Netris raised a $15 million Series A from Andreessen Horowitz to help AI neocloud operators bring network infrastructure online faster.",
+      "keyFacts": [
+        "Published June 25, 2026",
+        "Netris raised a $15 million Series A",
+        "Andreessen Horowitz backed the round",
+        "The software runs on network switches for neocloud operators"
+      ],
+      "url": "https://techcrunch.com/2026/06/25/netris-raises-15m-series-a-from-a16z-to-help-ai-neoclouds-go-live-faster/",
+      "sourceName": "TechCrunch",
+      "relatedSources": [
+        "TechCrunch",
+        "Netris",
+        "Andreessen Horowitz"
+      ],
+      "lane": "infrastructure",
+      "publishedAt": "2026-06-25T14:55:38.000Z",
+      "importance": 690,
+      "sourceConfidence": "high",
+      "filterCategory": "funding",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-27T09:35:00.000Z",
+      "whyItMatters": "AI compute bottlenecks increasingly include networking and deployment speed, not only GPU supply."
+    },
+    {
+      "id": "curated-techcrunch-adobe-topaz-acquisition-2026-06-25",
+      "title": "Adobe buys Topaz Labs to fold AI enhancement into creative tools",
+      "summary": "TechCrunch reported that Adobe acquired Topaz Labs, the maker of AI image and video enhancement tools, and plans to integrate those capabilities across its creative apps.",
+      "fullSummary": "TechCrunch reported that Adobe acquired Topaz Labs, the maker of AI image and video enhancement tools, and plans to integrate those capabilities across its creative apps.",
+      "keyFacts": [
+        "Published June 25, 2026",
+        "Adobe acquired Topaz Labs",
+        "Topaz makes AI image and video enhancement tools",
+        "Adobe plans to integrate the tools across its apps"
+      ],
+      "url": "https://techcrunch.com/2026/06/25/adobe-acquires-image-and-video-enhancement-tool-maker-topaz-labs/",
+      "sourceName": "TechCrunch",
+      "relatedSources": [
+        "TechCrunch",
+        "Adobe",
+        "Topaz Labs"
+      ],
+      "lane": "products-adoption",
+      "publishedAt": "2026-06-25T13:30:00.000Z",
+      "importance": 704,
+      "sourceConfidence": "high",
+      "filterCategory": "funding",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-27T09:35:00.000Z",
+      "whyItMatters": "Creative AI is consolidating into incumbent workflows where professionals already edit images and video."
+    },
+    {
+      "id": "curated-techcrunch-amazon-india-13b-ai-infra-2026-06-25",
+      "title": "Amazon commits another $13B to India AI infrastructure",
+      "summary": "TechCrunch reported that Amazon is making a fresh $13 billion AI infrastructure investment in India as global cloud providers race to expand compute capacity in the country.",
+      "fullSummary": "TechCrunch reported that Amazon is making a fresh $13 billion AI infrastructure investment in India as global cloud providers race to expand compute capacity in the country.",
+      "keyFacts": [
+        "Published June 25, 2026",
+        "Amazon announced a fresh $13 billion India investment",
+        "The spend is tied to AI infrastructure",
+        "The move adds to global cloud investment in India"
+      ],
+      "url": "https://techcrunch.com/2026/06/25/amazon-ups-india-bet-with-fresh-13b-ai-infrastructure-investment/",
+      "sourceName": "TechCrunch",
+      "relatedSources": [
+        "TechCrunch",
+        "Amazon",
+        "AWS",
+        "India"
+      ],
+      "lane": "infrastructure",
+      "publishedAt": "2026-06-25T12:00:38.000Z",
+      "importance": 742,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-27T09:35:00.000Z",
+      "whyItMatters": "India's AI market is becoming a compute buildout story, not only an adoption story."
+    },
+    {
+      "id": "curated-bi-raise-us-ai-worker-transition-2026-06-25",
+      "title": "OpenAI and Anthropic back Raise US worker-transition effort",
+      "summary": "Business Insider reported that major tech companies are behind Raise US, a new group aimed at helping workers adapt as AI changes jobs.",
+      "fullSummary": "Business Insider reported that major tech companies are behind Raise US, a new group aimed at helping workers adapt as AI changes jobs.",
+      "keyFacts": [
+        "Published June 25, 2026",
+        "Raise US is backed by large tech companies",
+        "OpenAI and Anthropic supporters were cited",
+        "The group focuses on worker transition as AI changes jobs"
+      ],
+      "url": "https://www.businessinsider.com/raise-us-ai-workers-supporters-openai-anthropic-2026-6",
+      "sourceName": "Business Insider",
+      "relatedSources": [
+        "Business Insider",
+        "Raise US",
+        "OpenAI",
+        "Anthropic"
+      ],
+      "lane": "workforce",
+      "publishedAt": "2026-06-25T12:00:00.000Z",
+      "importance": 690,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-27T09:35:00.000Z",
+      "whyItMatters": "AI labor disruption is now producing organized transition efforts backed by the companies building the technology."
+    },
+    {
+      "id": "curated-unite-ai-trade-compliance-risk-2026-06-25",
+      "title": "AI reshapes trade compliance as forced-labor enforcement tightens",
+      "summary": "Unite.AI reported that AI is changing global trade-compliance work as companies face more pressure to monitor forced-labor and supply-chain enforcement risk.",
+      "fullSummary": "Unite.AI reported that AI is changing global trade-compliance work as companies face more pressure to monitor forced-labor and supply-chain enforcement risk.",
+      "keyFacts": [
+        "Published June 25, 2026",
+        "The story focuses on AI in trade compliance",
+        "Forced-labor enforcement is a key driver",
+        "The risk spans supply chains and global operations"
+      ],
+      "url": "https://www.unite.ai/ai-reshaping-global-trade-compliance-forced-labor-enforcement/",
+      "sourceName": "Unite.AI",
+      "relatedSources": [
+        "Unite.AI"
+      ],
+      "lane": "products-adoption",
+      "publishedAt": "2026-06-25T10:57:18.000Z",
+      "importance": 662,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-27T09:35:00.000Z",
+      "whyItMatters": "Compliance is a concrete enterprise AI use case where errors can carry legal and supply-chain consequences."
     },
     {
       "id": "curated-businessinsider-tech-jobs-ai-resilience-2026-06-25",
@@ -437,6 +838,33 @@
       "whyItMatters": "The AI coding story is not only productivity; team structure, mentoring, morale, and cost control are becoming product and management problems too."
     },
     {
+      "id": "curated-unite-exl-imerit-310m-acquisition-2026-06-25",
+      "title": "EXL agrees to buy iMerit for up to $310M",
+      "summary": "Unite.AI reported that EXL will acquire AI data specialist iMerit in a deal worth up to $310 million to expand enterprise AI and foundation-model capabilities.",
+      "fullSummary": "Unite.AI reported that EXL will acquire AI data specialist iMerit in a deal worth up to $310 million to expand enterprise AI and foundation-model capabilities.",
+      "keyFacts": [
+        "Published June 25, 2026",
+        "EXL agreed to acquire iMerit",
+        "The transaction is valued at up to $310 million",
+        "iMerit specializes in AI data work"
+      ],
+      "url": "https://www.unite.ai/exl-to-acquire-imerit-in-up-to-310-million-deal-to-expand-enterprise-ai-and-foundation-model-capabilities/",
+      "sourceName": "Unite.AI",
+      "relatedSources": [
+        "Unite.AI",
+        "EXL",
+        "iMerit"
+      ],
+      "lane": "funding",
+      "publishedAt": "2026-06-25T00:48:21.000Z",
+      "importance": 700,
+      "sourceConfidence": "high",
+      "filterCategory": "funding",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-27T09:35:00.000Z",
+      "whyItMatters": "Data operations remain strategic infrastructure for enterprise AI, even as attention moves to agents and models."
+    },
+    {
       "id": "curated-techcrunch-europe-asml-match-act-pushback-2026-06-25",
       "title": "Europe pushes back on Washington's chip-war bill",
       "summary": "TechCrunch reported that Dutch Trade Minister Sjoerd Sjoerdsma visited Washington to oppose the MATCH Act, warning that tighter U.S. chip-equipment curbs could hit ASML and the Netherlands hard.",
@@ -465,6 +893,35 @@
       "whyItMatters": "AI-chip policy is becoming a trade conflict with allies too; ASML's exposure shows how U.S. controls can reshape Europe's semiconductor economics."
     },
     {
+      "id": "curated-techcrunch-vishal-sikka-ai-services-startup-2026-06-24",
+      "title": "Former Infosys chief launches AI startup to challenge IT services",
+      "summary": "TechCrunch reported that former Infosys CEO Vishal Sikka is building a startup backed by Mayfield and Aramco Ventures to challenge the traditional IT services model with AI.",
+      "fullSummary": "TechCrunch reported that former Infosys CEO Vishal Sikka is building a startup backed by Mayfield and Aramco Ventures to challenge the traditional IT services model with AI.",
+      "keyFacts": [
+        "Published June 24, 2026",
+        "Vishal Sikka previously led Infosys",
+        "The startup is backed by Mayfield and Aramco Ventures",
+        "The company brings together SAP, Infosys, and VianAI veterans"
+      ],
+      "url": "https://techcrunch.com/2026/06/24/former-infosys-chief-has-a-new-startup-that-wants-to-challenge-the-it-services-world/",
+      "sourceName": "TechCrunch",
+      "relatedSources": [
+        "TechCrunch",
+        "Vishal Sikka",
+        "Infosys",
+        "Mayfield",
+        "Aramco Ventures"
+      ],
+      "lane": "regional",
+      "publishedAt": "2026-06-24T23:26:52.000Z",
+      "importance": 690,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-27T09:35:00.000Z",
+      "whyItMatters": "AI is pressuring the services model from both incumbents and founder-led challengers with deep enterprise experience."
+    },
+    {
       "id": "curated-techcrunch-cerebras-stock-margin-ai-capacity-2026-06-24",
       "title": "Cerebras shares fall as investors question AI-chip margin outlook",
       "summary": "TechCrunch reported that Cerebras shares dropped almost 20% after its first post-IPO earnings, despite revenue beating expectations, because investors focused on lower expected gross margins.",
@@ -490,6 +947,32 @@
       "summaryEngine": "chat-curated",
       "curatedAt": "2026-06-25T10:55:00.000Z",
       "whyItMatters": "Public-market AI infrastructure companies are being judged on capacity economics and margins, not only demand for accelerators."
+    },
+    {
+      "id": "curated-unite-spacelift-ai-readiness-gap-2026-06-24",
+      "title": "Spacelift report finds an AI readiness gap in infrastructure governance",
+      "summary": "Unite.AI reported that Spacelift's AI Readiness Gap report finds organizations adopting AI faster than their infrastructure governance practices can keep up.",
+      "fullSummary": "Unite.AI reported that Spacelift's AI Readiness Gap report finds organizations adopting AI faster than their infrastructure governance practices can keep up.",
+      "keyFacts": [
+        "Published June 24, 2026",
+        "The report comes from Spacelift",
+        "It focuses on AI adoption and infrastructure governance",
+        "The finding is a gap between AI usage and operational readiness"
+      ],
+      "url": "https://www.unite.ai/spacelifts-the-ai-readiness-gap-report-reveals-a-growing-divide-between-ai-adoption-and-infrastructure-governance/",
+      "sourceName": "Unite.AI",
+      "relatedSources": [
+        "Unite.AI",
+        "Spacelift"
+      ],
+      "lane": "products-adoption",
+      "publishedAt": "2026-06-24T22:38:44.000Z",
+      "importance": 660,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-27T09:35:00.000Z",
+      "whyItMatters": "AI adoption creates operational debt when infrastructure controls do not mature at the same speed."
     },
     {
       "id": "curated-techcrunch-google-ai-researcher-exodus-2026-06-24",
@@ -579,6 +1062,31 @@
       "summaryEngine": "chat-curated",
       "curatedAt": "2026-06-25T09:15:00.000Z",
       "whyItMatters": "Humanoid robotics is moving from demos to capital-market scrutiny; a public listing would give investors a clearer pure-play bet on physical AI deployment."
+    },
+    {
+      "id": "curated-techcrunch-enterprise-ai-budget-rationing-2026-06-24",
+      "title": "Companies ration AI usage as small tasks burn through budgets",
+      "summary": "TechCrunch reported that companies are trying to stop employees from exhausting AI budgets on small tasks, marking a shift from broad experimentation toward token rationing and cost control.",
+      "fullSummary": "TechCrunch reported that companies are trying to stop employees from exhausting AI budgets on small tasks, marking a shift from broad experimentation toward token rationing and cost control.",
+      "keyFacts": [
+        "Published June 24, 2026",
+        "The story describes companies limiting AI usage",
+        "The pressure comes from small tasks consuming AI budgets",
+        "TechCrunch called it a move from tokenmaxxing to token rationing"
+      ],
+      "url": "https://techcrunch.com/2026/06/24/companies-are-scrambling-to-stop-employees-from-maxing-out-ai-budgets-with-small-tasks/",
+      "sourceName": "TechCrunch",
+      "relatedSources": [
+        "TechCrunch"
+      ],
+      "lane": "products-adoption",
+      "publishedAt": "2026-06-24T20:09:45.000Z",
+      "importance": 704,
+      "sourceConfidence": "high",
+      "filterCategory": "pushback",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-27T09:35:00.000Z",
+      "whyItMatters": "AI ROI is becoming a daily operating constraint as companies move from pilots to usage governance."
     },
     {
       "id": "curated-wsj-mirendil-ai-for-ai-science-seed-2026-06-24",
@@ -865,6 +1373,32 @@
       "whyItMatters": "AI cyber models are becoming a geopolitical capability race; a Chinese Mythos-style system makes model access, export controls, and vulnerability discovery more strategically sensitive."
     },
     {
+      "id": "curated-unite-seltz-125m-agent-search-seed-2026-06-24",
+      "title": "Seltz raises $12.5M for search infrastructure built for AI agents",
+      "summary": "Unite.AI reported that Seltz raised a $12.5 million seed round to build a search infrastructure layer for autonomous AI agents.",
+      "fullSummary": "Unite.AI reported that Seltz raised a $12.5 million seed round to build a search infrastructure layer for autonomous AI agents.",
+      "keyFacts": [
+        "Published June 24, 2026",
+        "Seltz raised $12.5 million",
+        "The company is building search infrastructure for AI agents",
+        "The thesis is that the web was designed for humans, not machines"
+      ],
+      "url": "https://www.unite.ai/seltz-raises-12-5-million-seed-round-to-build-a-new-search-infrastructure-layer-for-ai-agents/",
+      "sourceName": "Unite.AI",
+      "relatedSources": [
+        "Unite.AI",
+        "Seltz"
+      ],
+      "lane": "funding",
+      "publishedAt": "2026-06-24T13:22:56.000Z",
+      "importance": 682,
+      "sourceConfidence": "high",
+      "filterCategory": "funding",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-27T09:35:00.000Z",
+      "whyItMatters": "If agents become active web users, search and retrieval infrastructure will need to change around them."
+    },
+    {
       "id": "curated-siliconangle-coval-28m-voice-agents-2026-06-24",
       "title": "Coval raises $28M as enterprises push voice agents into production",
       "summary": "SiliconANGLE reported that Coval raised $28 million to support enterprise voice-agent deployments as companies move from pilots toward production systems.",
@@ -1001,6 +1535,33 @@
       "summaryEngine": "chat-curated",
       "curatedAt": "2026-06-24T15:25:00.000Z",
       "whyItMatters": "WhatsApp is one of the largest consumer distribution surfaces for AI assistants, payments, and business messaging; leadership and capital moving through India can shape how those services scale."
+    },
+    {
+      "id": "curated-ai-news-samsung-chatgpt-codex-access-2026-06-24",
+      "title": "Samsung opens ChatGPT Enterprise and Codex access after earlier restrictions",
+      "summary": "AI News reported that Samsung is giving employees access to ChatGPT Enterprise and Codex three years after restricting AI tools over data-security concerns.",
+      "fullSummary": "AI News reported that Samsung is giving employees access to ChatGPT Enterprise and Codex three years after restricting AI tools over data-security concerns.",
+      "keyFacts": [
+        "Published June 24, 2026",
+        "Samsung is opening ChatGPT Enterprise and Codex access",
+        "The move follows earlier restrictions over data security",
+        "The story concerns employee AI use inside a major hardware company"
+      ],
+      "url": "https://www.artificialintelligence-news.com/news/samsung-chatgpt-enterprise-codex-employee-ai-use/",
+      "sourceName": "AI News",
+      "relatedSources": [
+        "AI News",
+        "Samsung",
+        "OpenAI"
+      ],
+      "lane": "products-adoption",
+      "publishedAt": "2026-06-24T10:00:00.000Z",
+      "importance": 692,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-27T09:35:00.000Z",
+      "whyItMatters": "A company that once restricted generative AI is now formalizing access, which reflects the enterprise shift from bans to governed adoption."
     },
     {
       "id": "curated-marktechpost-nous-hermes-learn-skills-2026-06-24",
@@ -1758,6 +2319,33 @@
       "summaryEngine": "chat-curated",
       "curatedAt": "2026-06-23T09:00:00.000Z",
       "whyItMatters": "Localized assistant support is a practical adoption test: AI products need regional languages and everyday utility before they can reach mass consumer use."
+    },
+    {
+      "id": "curated-unite-prosper-ai-30m-patient-journey-2026-06-22",
+      "title": "Prosper AI raises $30M for AI across the patient journey",
+      "summary": "Unite.AI reported that Prosper AI raised a $30 million Series A led by Andreessen Horowitz to expand AI across healthcare workflows and the patient journey.",
+      "fullSummary": "Unite.AI reported that Prosper AI raised a $30 million Series A led by Andreessen Horowitz to expand AI across healthcare workflows and the patient journey.",
+      "keyFacts": [
+        "Published June 22, 2026",
+        "Prosper AI raised a $30 million Series A",
+        "Andreessen Horowitz led the round",
+        "The company focuses on patient-journey workflows"
+      ],
+      "url": "https://www.unite.ai/prosper-ai-raises-30-million-series-a-to-expand-ai-across-the-entire-patient-journey/",
+      "sourceName": "Unite.AI",
+      "relatedSources": [
+        "Unite.AI",
+        "Prosper AI",
+        "Andreessen Horowitz"
+      ],
+      "lane": "health-science",
+      "publishedAt": "2026-06-22T17:15:06.000Z",
+      "importance": 674,
+      "sourceConfidence": "high",
+      "filterCategory": "funding",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-27T09:35:00.000Z",
+      "whyItMatters": "Healthcare AI funding is moving toward operational workflows that span the full patient lifecycle."
     },
     {
       "id": "curated-openai-daybreak-codex-security-2026-06-22",
@@ -3732,6 +4320,57 @@
       "whyItMatters": "Community resistance to AI data centers is now intersecting with employee speech and labor rights inside the companies building that infrastructure."
     },
     {
+      "id": "curated-ai-news-retail-computer-vision-productivity-2026-06-18",
+      "title": "Retail computer vision deployments show productivity gains",
+      "summary": "AI News reported that retailers are using computer vision to automate shelf tracking and protect margins, giving the feed a concrete physical-world adoption example.",
+      "fullSummary": "AI News reported that retailers are using computer vision to automate shelf tracking and protect margins, giving the feed a concrete physical-world adoption example.",
+      "keyFacts": [
+        "Published June 18, 2026",
+        "The deployments use computer vision in retail",
+        "The focus is shelf tracking and productivity",
+        "The story connects AI to physical-store operations"
+      ],
+      "url": "https://www.artificialintelligence-news.com/news/computer-vision-deployments-drive-retail-productivity-gains/",
+      "sourceName": "AI News",
+      "relatedSources": [
+        "AI News"
+      ],
+      "lane": "products-adoption",
+      "publishedAt": "2026-06-18T15:57:46.000Z",
+      "importance": 660,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-27T09:35:00.000Z",
+      "whyItMatters": "AI adoption is not only chat interfaces; computer vision is quietly changing store operations and margin management."
+    },
+    {
+      "id": "curated-unite-boolsi-6m-ai-custom-silicon-2026-06-18",
+      "title": "BoolSi raises $6M to turn software into custom silicon with AI",
+      "summary": "Unite.AI reported that BoolSi raised $6 million to use AI to translate software into custom silicon, aiming to make hardware acceleration easier for teams without chip-design expertise.",
+      "fullSummary": "Unite.AI reported that BoolSi raised $6 million to use AI to translate software into custom silicon, aiming to make hardware acceleration easier for teams without chip-design expertise.",
+      "keyFacts": [
+        "Published June 18, 2026",
+        "BoolSi raised $6 million",
+        "The company uses AI for custom silicon generation",
+        "The goal is easier access to hardware acceleration"
+      ],
+      "url": "https://www.unite.ai/boolsi-raises-6m-to-transform-software-into-custom-silicon-using-ai/",
+      "sourceName": "Unite.AI",
+      "relatedSources": [
+        "Unite.AI",
+        "BoolSi"
+      ],
+      "lane": "infrastructure",
+      "publishedAt": "2026-06-18T15:42:09.000Z",
+      "importance": 662,
+      "sourceConfidence": "high",
+      "filterCategory": "funding",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-27T09:35:00.000Z",
+      "whyItMatters": "AI infrastructure pressure is reviving interest in custom silicon, but the tooling has to become easier to use."
+    },
+    {
       "id": "curated-axios-dean-ball-openai-strategic-futures-2026-06-18",
       "title": "Dean Ball joins OpenAI to lead Strategic Futures",
       "summary": "Axios reported that AI policy scholar Dean Ball is joining OpenAI to lead a new Strategic Futures unit focused on frontier AI policy and internal governance.",
@@ -4009,36 +4648,6 @@
       "whyItMatters": "Healthcare AI is not only chatbots and image models; sensor-plus-model systems like breath analysis could change triage if they survive clinical validation."
     },
     {
-      "id": "curated-ai-news-retail-computer-vision-productivity-2026-06-18",
-      "title": "Retail computer-vision deployments show productivity gains",
-      "summary": "AI News reported that retailers are scaling computer-vision systems for shelf tracking, pricing accuracy, and fulfillment after a study put operational losses at $196.4 billion in 2026.",
-      "fullSummary": "AI News reported that computer-vision deployments are gaining traction in retail as operators try to fix shelf availability, pricing, and in-store execution problems. The article cites a Coresight Research study with Simbe and RELEX estimating that operational shortfalls consume 6.4% of gross sales and will cost hardware, mass merchandise, and grocery retailers $196.4 billion in 2026. It says full-scale store-intelligence deployments now cover 60% of enterprise footprints, up 18 percentage points year over year, while BJ's Wholesale Club reported a 40% year-over-year improvement in picking efficiency after deploying shelf-digitization tools.",
-      "keyFacts": [
-        "Published June 18, 2026",
-        "Operational shortfalls are estimated at $196.4 billion in 2026",
-        "Full-scale deployments cover 60% of enterprise footprints",
-        "BJ's reported a 40% year-over-year picking-efficiency improvement"
-      ],
-      "url": "https://www.artificialintelligence-news.com/news/computer-vision-deployments-drive-retail-productivity-gains/",
-      "sourceName": "AI News",
-      "relatedSources": [
-        "AI News",
-        "Coresight Research",
-        "Simbe",
-        "RELEX Solutions",
-        "BJ's Wholesale Club",
-        "Albertsons"
-      ],
-      "lane": "products-adoption",
-      "publishedAt": "2026-06-18T13:30:00.000Z",
-      "importance": 538,
-      "sourceConfidence": "high",
-      "filterCategory": "general",
-      "summaryEngine": "chat-curated",
-      "curatedAt": "2026-06-19T09:15:00.000Z",
-      "whyItMatters": "This is a concrete deployment story with measured operational impact, not just another generic AI retail pilot."
-    },
-    {
       "id": "curated-axios-deepmind-ai-control-roadmap-2026-06-18",
       "title": "DeepMind publishes AI-control roadmap for autonomous agents",
       "summary": "Axios reported that Google DeepMind released an AI Control Roadmap that borrows from cybersecurity to monitor and contain increasingly autonomous agents.",
@@ -4203,34 +4812,6 @@
       "whyItMatters": "The same AI buildout that looks like a national compute race becomes a local fight over water, electricity reliability, tax incentives, and cooling choices."
     },
     {
-      "id": "curated-ai-news-microsoft-openai-models-china-2026-06-18",
-      "title": "Microsoft offers OpenAI models in China without OpenAI",
-      "summary": "AI News reported that Microsoft is selling access to OpenAI models in China through its local Azure structure, even as OpenAI and Anthropic do not directly offer their frontier models there.",
-      "fullSummary": "AI News reported that Microsoft is making OpenAI models available in China through its local Azure setup, creating an indirect route for Chinese enterprise customers even though OpenAI and Anthropic do not directly sell their frontier models in the country. The story frames the arrangement as a practical example of how cloud partnerships, local operating structures, and model-access restrictions are producing uneven global AI availability. It also connects the issue to the broader post-Anthropic debate over whether countries and enterprises can rely on foreign-controlled model supply chains.",
-      "keyFacts": [
-        "Published June 18, 2026",
-        "Microsoft is offering OpenAI model access through its China Azure structure",
-        "OpenAI and Anthropic do not directly offer their frontier models in China",
-        "The story links model distribution to AI sovereignty and access-control risk"
-      ],
-      "url": "https://www.artificialintelligence-news.com/news/microsoft-sells-openai-models-china/",
-      "sourceName": "AI News",
-      "relatedSources": [
-        "AI News",
-        "Microsoft",
-        "OpenAI",
-        "Anthropic"
-      ],
-      "lane": "regional",
-      "publishedAt": "2026-06-18T12:00:00.000Z",
-      "importance": 540,
-      "sourceConfidence": "high",
-      "filterCategory": "general",
-      "summaryEngine": "chat-curated",
-      "curatedAt": "2026-06-20T07:20:00.000Z",
-      "whyItMatters": "Model access is becoming a cloud-channel and jurisdiction problem, not just a question of which lab built the model."
-    },
-    {
       "id": "curated-ft-accenture-ai-threat-shares-2026-06-18",
       "title": "Accenture shares slide as investors weigh AI threat",
       "summary": "The Financial Times reported that Accenture shares fell to their lowest level since 2017 after weaker bookings and guidance renewed concern that AI will disrupt traditional consulting and outsourcing.",
@@ -4389,6 +4970,35 @@
       "summaryEngine": "chat-curated",
       "curatedAt": "2026-06-21T10:30:00.000Z",
       "whyItMatters": "This is the labor side of warehouse AI: once software starts recommending where workers should move minute by minute, automation affects supervision and staffing even before jobs disappear outright."
+    },
+    {
+      "id": "curated-ai-news-microsoft-openai-models-china-2026-06-18",
+      "title": "Microsoft sells OpenAI models in China while OpenAI and Anthropic stay out",
+      "summary": "AI News reported that Microsoft sells OpenAI models in China through Azure, with ByteDance spending heavily, even as OpenAI and Anthropic avoid direct China availability.",
+      "fullSummary": "AI News reported that Microsoft sells OpenAI models in China through Azure, with ByteDance spending heavily, even as OpenAI and Anthropic avoid direct China availability.",
+      "keyFacts": [
+        "Published June 18, 2026",
+        "Microsoft sells OpenAI models in China through Azure",
+        "ByteDance was cited as a major customer",
+        "OpenAI and Anthropic do not directly offer their models there"
+      ],
+      "url": "https://www.artificialintelligence-news.com/news/microsoft-sells-openai-models-china/",
+      "sourceName": "AI News",
+      "relatedSources": [
+        "AI News",
+        "Microsoft",
+        "OpenAI",
+        "ByteDance",
+        "Anthropic"
+      ],
+      "lane": "policy-safety",
+      "publishedAt": "2026-06-18T09:00:00.000Z",
+      "importance": 688,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-27T09:35:00.000Z",
+      "whyItMatters": "Model access in China is being shaped by cloud distribution, not just by lab-level policy."
     },
     {
       "id": "curated-itpro-ai-rollout-sabotage-2026-06-18",
@@ -4827,6 +5437,32 @@
       "whyItMatters": "Robotics progress may be limited less by model architecture than by the availability of real manipulation data at useful scale."
     },
     {
+      "id": "curated-unite-odyssey-310m-world-models-2026-06-17",
+      "title": "Odyssey raises $310M for AI world models",
+      "summary": "Unite.AI reported that Odyssey raised a $310 million Series B at a $1.45 billion valuation to advance world models beyond language.",
+      "fullSummary": "Unite.AI reported that Odyssey raised a $310 million Series B at a $1.45 billion valuation to advance world models beyond language.",
+      "keyFacts": [
+        "Published June 17, 2026",
+        "Odyssey raised $310 million",
+        "The valuation was reported at $1.45 billion",
+        "The company focuses on AI world models"
+      ],
+      "url": "https://www.unite.ai/odyssey-raises-310-million-series-b-at-1-45-billion-valuation-to-advance-ai-world-models/",
+      "sourceName": "Unite.AI",
+      "relatedSources": [
+        "Unite.AI",
+        "Odyssey"
+      ],
+      "lane": "models",
+      "publishedAt": "2026-06-17T14:34:55.000Z",
+      "importance": 670,
+      "sourceConfidence": "high",
+      "filterCategory": "funding",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-27T09:35:00.000Z",
+      "whyItMatters": "World models are becoming a serious funding lane as AI labs move beyond text-only systems."
+    },
+    {
       "id": "curated-techcrunch-pramaana-27m-formal-verification-ai-2026-06-17",
       "title": "Pramaana Labs raises $27M for formal verification in AI",
       "summary": "TechCrunch reported that Pramaana Labs raised a $27 million seed round led by Khosla Ventures to bring formal methods to enterprise AI reliability.",
@@ -5017,6 +5653,32 @@
       "summaryEngine": "chat-curated",
       "curatedAt": "2026-06-18T06:30:00.000Z",
       "whyItMatters": "AI shopping is moving from search boxes into guided discovery and ad tooling, where the winning products will influence both consumer behavior and advertiser workflows."
+    },
+    {
+      "id": "curated-ai-news-google-cloud-council-planning-2026-06-17",
+      "title": "Google Cloud automates council planning operations with generative AI",
+      "summary": "AI News reported that government ministries are deploying Google Cloud generative AI across municipal agencies to automate council planning operations.",
+      "fullSummary": "AI News reported that government ministries are deploying Google Cloud generative AI across municipal agencies to automate council planning operations.",
+      "keyFacts": [
+        "Published June 17, 2026",
+        "The deployments involve Google Cloud generative AI",
+        "The use case is council planning operations",
+        "The buyers are government and municipal agencies"
+      ],
+      "url": "https://www.artificialintelligence-news.com/news/google-cloud-generative-ai-automates-council-planning-operations/",
+      "sourceName": "AI News",
+      "relatedSources": [
+        "AI News",
+        "Google Cloud"
+      ],
+      "lane": "products-adoption",
+      "publishedAt": "2026-06-17T10:59:42.000Z",
+      "importance": 660,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-27T09:35:00.000Z",
+      "whyItMatters": "Public-sector AI is moving from strategy documents into specific back-office workflows."
     },
     {
       "id": "curated-toi-bharatgen-indian-language-ai-models-2026-06-17",
@@ -7955,6 +8617,33 @@
       "curatedAt": "2026-06-12T07:15:00.000Z"
     },
     {
+      "id": "curated-ai-news-visa-chatgpt-agent-payments-2026-06-11",
+      "title": "Visa links ChatGPT to retail purchasing for AI agents",
+      "summary": "AI News reported that Visa connected payment infrastructure to ChatGPT so AI agents can recommend retail products and execute purchases.",
+      "fullSummary": "AI News reported that Visa connected payment infrastructure to ChatGPT so AI agents can recommend retail products and execute purchases.",
+      "keyFacts": [
+        "Published June 11, 2026",
+        "Visa linked payment infrastructure to ChatGPT",
+        "The use case is AI-agent retail purchasing",
+        "The story concerns payments for conversational commerce"
+      ],
+      "url": "https://www.artificialintelligence-news.com/news/visa-chatgpt-integration-enables-ai-agent-retail-purchasing/",
+      "sourceName": "AI News",
+      "relatedSources": [
+        "AI News",
+        "Visa",
+        "OpenAI"
+      ],
+      "lane": "products-adoption",
+      "publishedAt": "2026-06-11T11:08:17.000Z",
+      "importance": 668,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-27T09:35:00.000Z",
+      "whyItMatters": "Agentic commerce needs payment rails before it can move beyond recommendations into transactions."
+    },
+    {
       "id": "curated-amd-venice-vera-rack-performance-claim-2026-06-11",
       "title": "AMD claims Zen 6 Venice can beat Nvidia Vera by 3.3x per rack",
       "summary": "AMD published modeled rack-level estimates claiming its 256-core EPYC Venice CPU outperforms Nvidia Vera by 3.3 times under a 100kW power budget.",
@@ -10301,6 +10990,33 @@
       "sourceConfidence": "medium",
       "filterCategory": "funding",
       "summaryEngine": "chat-curated"
+    },
+    {
+      "id": "curated-ai-news-c3-shell-predictive-maintenance-agents-2026-06-05",
+      "title": "Shell uses C3 AI agents for predictive maintenance",
+      "summary": "AI News reported that Shell will use C3 AI agents to move from anomaly detection toward more automated predictive maintenance.",
+      "fullSummary": "AI News reported that Shell will use C3 AI agents to move from anomaly detection toward more automated predictive maintenance.",
+      "keyFacts": [
+        "Published June 5, 2026",
+        "Shell will use C3 AI agents",
+        "The use case is predictive maintenance",
+        "The goal is to move beyond basic anomaly detection"
+      ],
+      "url": "https://www.artificialintelligence-news.com/news/how-c3-ai-agents-will-automate-predictive-maintenance-for-shell/",
+      "sourceName": "AI News",
+      "relatedSources": [
+        "AI News",
+        "Shell",
+        "C3 AI"
+      ],
+      "lane": "products-adoption",
+      "publishedAt": "2026-06-05T11:34:09.000Z",
+      "importance": 662,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-27T09:35:00.000Z",
+      "whyItMatters": "Industrial AI value often shows up in maintenance and uptime, where automation has direct operational stakes."
     },
     {
       "id": "curated-wellspan-philips-ai-healthcare-alliance-2026-06-05",
@@ -18408,5 +19124,5 @@
     }
   ],
   "errors": [],
-  "totalItems": 660
+  "totalItems": 687
 }
