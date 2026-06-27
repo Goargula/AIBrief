@@ -1,9 +1,327 @@
 {
-  "generatedAt": "2026-06-25T10:55:00.000Z",
-  "nextRefreshAt": "2026-06-25T21:55:00.000Z",
+  "generatedAt": "2026-06-27T09:05:00.000Z",
+  "nextRefreshAt": "2026-06-27T20:05:00.000Z",
   "summaryEngine": "chat-curated",
   "curated": true,
   "items": [
+    {
+      "id": "curated-et-companies-pull-back-ai-collaboration-report-2026-06-27",
+      "title": "Companies pull back on AI when collaboration is weak, report says",
+      "summary": "Economic Times reported that companies are retreating from some AI initiatives when quality, engagement, and human-AI collaboration are weak, while better-designed workflows are still showing gains.",
+      "fullSummary": "Economic Times reported on a study arguing that many companies are pulling back from AI initiatives because quality and employee engagement problems are limiting results. The report does not say AI adoption is collapsing; it draws a sharper line between teams with cohesive human-AI workflows and teams that bolt AI onto existing processes without enough review and collaboration. That makes this a practical enterprise-adoption story rather than another generic AI hype warning.",
+      "keyFacts": [
+        "Published June 27, 2026 at 14:24 IST",
+        "The report says some companies are pivoting away from weak AI initiatives",
+        "Poor human-AI collaboration and quality issues were highlighted",
+        "Organizations with stronger workflows were reported to see better results"
+      ],
+      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/companies-pull-back-on-ai-as-weak-workplace-collaboration-hurts-results-report/articleshow/132031472.cms",
+      "sourceName": "Economic Times",
+      "relatedSources": [
+        "Economic Times"
+      ],
+      "lane": "products-adoption",
+      "publishedAt": "2026-06-27T08:54:00.000Z",
+      "importance": 750,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-27T09:05:00.000Z",
+      "whyItMatters": "The enterprise AI story is shifting from adoption counts to whether workflows are redesigned well enough to produce measurable value."
+    },
+    {
+      "id": "curated-et-hive-verified-health-intelligence-2026-06-27",
+      "title": "Chennai epidemiologist launches HIVE for verified health intelligence",
+      "summary": "Economic Times reported that HIVE, an AI health-intelligence platform from a Chennai-based epidemiologist, combines evidence sources with clinical judgement for doctors and frontline workers.",
+      "fullSummary": "Economic Times reported that a Chennai-based epidemiologist launched HIVE, an AI-powered platform for verified health intelligence. The platform is positioned for doctors and frontline workers, combining multiple evidence sources with the treating doctor's clinical judgement instead of simply generating answers from public web content. It adds a practical healthcare-AI item to the feed because the product is focused on explainability and clinical context rather than generic chatbot advice.",
+      "keyFacts": [
+        "Published June 27, 2026 at 11:31 IST",
+        "HIVE is aimed at doctors and frontline workers",
+        "The platform combines evidence sources with clinical judgement",
+        "The story frames the tool around transparent, explainable healthcare intelligence"
+      ],
+      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/ai-platform-developed-to-support-doctors-frontline-workers-with-verified-health-intelligence/articleshow/132029565.cms",
+      "sourceName": "Economic Times",
+      "relatedSources": [
+        "Economic Times",
+        "HIVE"
+      ],
+      "lane": "health-science",
+      "publishedAt": "2026-06-27T06:01:00.000Z",
+      "importance": 720,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-27T09:05:00.000Z",
+      "whyItMatters": "Healthcare AI is moving toward evidence-backed clinical support, where explainability and human judgement matter more than fluent answers."
+    },
+    {
+      "id": "curated-et-openai-anthropic-cybersecurity-review-2026-06-27",
+      "title": "OpenAI and Anthropic limit new models during cybersecurity review",
+      "summary": "Economic Times reported that OpenAI and Anthropic limited access to new frontier models while U.S. officials reviewed cybersecurity risks, with GPT-5.6 Sol and Anthropic Mythos both tied to controlled release decisions.",
+      "fullSummary": "Economic Times reported that OpenAI and Anthropic limited access to new AI models during a cybersecurity review requested by the Trump administration. The story says OpenAI's GPT-5.6 Sol is being released only to selected partners, while Anthropic's Mythos 5 received partial approval after concerns about misuse. The episode shows how frontier-model launches can now be slowed or narrowed by government security review before broader release.",
+      "keyFacts": [
+        "Published June 27, 2026 at 07:11 IST",
+        "OpenAI and Anthropic were asked to limit access to new models",
+        "GPT-5.6 Sol and Mythos 5 were named in the report",
+        "The review centered on cybersecurity and misuse risk"
+      ],
+      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/openai-launches-limited-release-of-new-model-in-us-only/articleshow/132021613.cms",
+      "sourceName": "Economic Times",
+      "relatedSources": [
+        "Economic Times",
+        "OpenAI",
+        "Anthropic",
+        "U.S. government"
+      ],
+      "lane": "policy-safety",
+      "publishedAt": "2026-06-27T01:41:00.000Z",
+      "importance": 760,
+      "sourceConfidence": "high",
+      "filterCategory": "pushback",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-27T09:05:00.000Z",
+      "whyItMatters": "Frontier AI releases are becoming subject to security review before broad rollout, which changes launch strategy for labs and customers."
+    },
+    {
+      "id": "curated-openai-gpt-56-sol-preview-2026-06-26",
+      "title": "OpenAI previews GPT-5.6 Sol under a limited government test",
+      "summary": "OpenAI opened a limited preview of GPT-5.6 Sol, with early access framed around public-sector evaluation, safety testing, and cost-cutting government-service experiments.",
+      "fullSummary": "OpenAI previewed GPT-5.6 Sol as a limited release rather than a broad consumer launch. Coverage from OpenAI and business press framed the rollout around U.S. government testing, safety review, and experiments that could reduce public-service costs. The launch keeps OpenAI in the frontier-model cycle while also showing how new high-end models may increasingly enter through controlled institutional channels before general availability.",
+      "keyFacts": [
+        "Published June 26, 2026",
+        "GPT-5.6 Sol is being previewed with limited access",
+        "The first use cases center on government evaluation and public-service workflows",
+        "The rollout overlaps with scrutiny of frontier-model access and safety controls"
+      ],
+      "url": "https://openai.com/index/previewing-gpt-5-6-sol/",
+      "sourceName": "OpenAI + Business Insider",
+      "relatedSources": [
+        "OpenAI",
+        "Business Insider",
+        "TechCrunch",
+        "The Verge",
+        "Economic Times"
+      ],
+      "lane": "models",
+      "publishedAt": "2026-06-26T18:00:00.000Z",
+      "importance": 755,
+      "sourceConfidence": "high",
+      "filterCategory": "models",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-27T09:05:00.000Z",
+      "whyItMatters": "The frontier-model launch path is shifting toward controlled institutional pilots, especially where government risk and cost claims are involved."
+    },
+    {
+      "id": "curated-techcrunch-openai-uber-india-chief-2026-06-26",
+      "title": "OpenAI hires Uber India chief to lead its biggest non-U.S. market",
+      "summary": "TechCrunch reported that OpenAI hired Uber India and South Asia president Prabhjeet Singh to lead India, a sign that distribution and policy work in India are becoming strategic for the company.",
+      "fullSummary": "TechCrunch reported that OpenAI hired Prabhjeet Singh, Uber's India and South Asia president, to lead its India operations. India is already one of OpenAI's largest markets outside the United States, and the appointment points to a more serious local push across consumer adoption, enterprise partnerships, and government relationships. The move also shows that AI labs are hiring market operators, not only researchers, as they compete for international growth.",
+      "keyFacts": [
+        "Published June 26, 2026",
+        "Prabhjeet Singh previously led Uber India and South Asia",
+        "India is one of OpenAI's largest markets outside the United States",
+        "The role covers a market where adoption, policy, and partnerships overlap"
+      ],
+      "url": "https://techcrunch.com/2026/06/26/openai-poaches-uber-india-chief-to-lead-its-biggest-market-outside-the-u-s/",
+      "sourceName": "TechCrunch",
+      "relatedSources": [
+        "TechCrunch",
+        "OpenAI",
+        "Uber"
+      ],
+      "lane": "regional",
+      "publishedAt": "2026-06-26T16:57:29.000Z",
+      "importance": 735,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-27T09:05:00.000Z",
+      "whyItMatters": "India is moving from being a user-growth story for AI labs to a market that needs dedicated leadership and local execution."
+    },
+    {
+      "id": "curated-et-ai-supply-chain-single-point-failures-2026-06-26",
+      "title": "U.S. official warns of single-point failures in AI supply chains",
+      "summary": "Economic Times reported that a U.S. official called for de-risking single-point failures in global AI supply chains, with India-U.S. cooperation and the Pax Silica initiative framed as part of the response.",
+      "fullSummary": "Economic Times reported that a high-ranking U.S. official warned about single-point failures in global AI supply chains. The story tied the warning to India-U.S. cooperation, semiconductor fabrication, critical minerals, and the Pax Silica initiative. It is an infrastructure story more than a funding story: AI resilience increasingly depends on where chips, materials, and compute supply chains can break.",
+      "keyFacts": [
+        "Published June 26, 2026 at 21:54 IST",
+        "A U.S. official warned about single-point failures in AI supply chains",
+        "The story referenced India-U.S. cooperation and Pax Silica",
+        "Semiconductor fabrication and critical minerals were part of the supply-chain context"
+      ],
+      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/need-to-de-risk-single-point-failures-in-global-ai-supply-chains-us-official/articleshow/132020488.cms",
+      "sourceName": "Economic Times",
+      "relatedSources": [
+        "Economic Times",
+        "Pax Silica",
+        "U.S. government",
+        "India"
+      ],
+      "lane": "infrastructure",
+      "publishedAt": "2026-06-26T16:24:00.000Z",
+      "importance": 710,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-27T09:05:00.000Z",
+      "whyItMatters": "AI supply-chain risk is becoming a policy issue, not just a hardware procurement issue."
+    },
+    {
+      "id": "curated-google-gemini-35-flash-computer-use-2026-06-26",
+      "title": "Google gives Gemini 3.5 Flash computer-use abilities",
+      "summary": "Google introduced computer-use capabilities for Gemini 3.5 Flash, letting the model operate interfaces and complete multi-step digital tasks under developer controls.",
+      "fullSummary": "Google introduced computer-use abilities for Gemini 3.5 Flash, giving developers a model that can operate software interfaces and carry out multi-step tasks across screens. The release is part of the broader shift from chatbots toward agents that can take actions in existing tools. Google framed the feature with controls and safeguards, reflecting the tension between useful automation and the risk of agents making mistakes in live environments.",
+      "keyFacts": [
+        "Published June 26, 2026",
+        "The feature targets Gemini 3.5 Flash",
+        "It lets AI agents interact with computer interfaces",
+        "Google positioned the release around developer controls and safer task automation"
+      ],
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-computer-use-gemini-3-5-flash/?utm_campaign=gdm&utm_content=&utm_medium=referral&utm_source=deepmind.google",
+      "sourceName": "Google",
+      "relatedSources": [
+        "Google",
+        "Google DeepMind"
+      ],
+      "lane": "models",
+      "publishedAt": "2026-06-26T16:00:00.000Z",
+      "importance": 730,
+      "sourceConfidence": "high",
+      "filterCategory": "models",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-27T09:05:00.000Z",
+      "whyItMatters": "Computer-use models are the practical bridge from AI answering questions to AI operating real software."
+    },
+    {
+      "id": "curated-et-ukraine-domestic-ai-compute-kyivstar-2026-06-26",
+      "title": "Ukraine plans domestic AI computing capacity with Kyivstar",
+      "summary": "Economic Times reported that Ukraine is leaning on domestic AI computing capacity, with Kyivstar and local infrastructure becoming part of the country's wartime technology resilience strategy.",
+      "fullSummary": "Economic Times reported that Ukraine is turning to domestic AI computing capacity as the war makes technology resilience a strategic concern. The story points to Kyivstar and local compute resources as part of a push to reduce dependence on fragile external infrastructure. For AI, the lesson is that compute is increasingly being treated as national resilience infrastructure, not just a cloud budget line.",
+      "keyFacts": [
+        "Published June 26, 2026",
+        "Ukraine is emphasizing domestic AI compute capacity",
+        "Kyivstar is part of the reported infrastructure context",
+        "The driver is wartime resilience and reduced dependency risk"
+      ],
+      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/ukraine-plans-domestic-ai-computing-capacity-with-kyivstar/articleshow/132018357.cms",
+      "sourceName": "Economic Times",
+      "relatedSources": [
+        "Economic Times",
+        "Kyivstar"
+      ],
+      "lane": "infrastructure",
+      "publishedAt": "2026-06-26T13:54:00.000Z",
+      "importance": 700,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-27T09:05:00.000Z",
+      "whyItMatters": "AI compute is becoming part of national resilience planning, especially where geopolitical and physical infrastructure risks are high."
+    },
+    {
+      "id": "curated-et-nasscom-ai-consultants-tech-services-2026-06-26",
+      "title": "India's tech services sector remains key in the AI era, Nasscom says",
+      "summary": "Economic Times reported that Nasscom's U.S. CEO Forum urged Indian tech services companies to shift from delivery shops toward AI consulting and transformation partners.",
+      "fullSummary": "Economic Times reported that Nasscom's U.S. CEO Forum warned Indian technology-services companies that AI will force a change in how they sell and deliver work. The message was that services firms need to act more like AI consultants and transformation partners, not only outsourcing vendors. That shift matters for India's IT sector because AI threatens some labor-arbitrage models while creating demand for advisory, integration, and change-management work.",
+      "keyFacts": [
+        "Published June 26, 2026",
+        "The comments came through Nasscom's U.S. CEO Forum",
+        "Indian tech services firms were urged to move toward AI consulting",
+        "The story connects AI adoption with the future services-labor model"
+      ],
+      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/indias-tech-services-sector-to-remain-key-to-global-enterprises-in-ai-era-nasscom-us-ceo-forum/articleshow/132016336.cms",
+      "sourceName": "Economic Times",
+      "relatedSources": [
+        "Economic Times",
+        "Nasscom"
+      ],
+      "lane": "workforce",
+      "publishedAt": "2026-06-26T12:41:00.000Z",
+      "importance": 700,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-27T09:05:00.000Z",
+      "whyItMatters": "The AI transition for services firms is as much a business-model question as a tooling question."
+    },
+    {
+      "id": "curated-et-south-korea-ai-chip-stocks-cerebras-2026-06-26",
+      "title": "South Korea AI-chip favorites slide again as Kospi falls",
+      "summary": "Economic Times reported that South Korean AI-chip stocks fell after Cerebras shelved its planned Seoul market debut, showing how tightly local AI equity stories are tied to global chip sentiment.",
+      "fullSummary": "Economic Times reported that South Korean AI-chip stocks slid after Cerebras shelved a planned Seoul debut. The reaction shows how public-market enthusiasm around AI infrastructure can spill across regions, especially when investors use one company's delay as a signal for the broader chip cycle. It also underscores that the AI hardware boom is now a capital-markets story, not just an engineering race.",
+      "keyFacts": [
+        "Published June 26, 2026",
+        "South Korean AI-chip shares fell after the Cerebras development",
+        "Cerebras reportedly shelved a planned Seoul debut",
+        "The move affected sentiment around AI hardware exposure"
+      ],
+      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/south-koreas-favourite-ai-stocks-slide-again-drag-kospi-index-down-8/articleshow/132012720.cms",
+      "sourceName": "Economic Times",
+      "relatedSources": [
+        "Economic Times",
+        "Cerebras"
+      ],
+      "lane": "infrastructure",
+      "publishedAt": "2026-06-26T06:30:00.000Z",
+      "importance": 685,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-27T09:05:00.000Z",
+      "whyItMatters": "AI infrastructure sentiment is now moving regional stock baskets, not only private startup valuations."
+    },
+    {
+      "id": "curated-arxiv-resume-screening-prompt-injection-2026-06-26",
+      "title": "Researchers show prompt injection can manipulate AI resume screening",
+      "summary": "A June 26 arXiv paper tested prompt injection against large-language-model resume screening, including single and multi-injection settings, highlighting a concrete HR automation risk.",
+      "fullSummary": "A June 26 arXiv submission examined prompt injection in automated resume screening systems that use large language models. The paper looks at both single and multi-injection settings, making the risk more concrete than a generic warning about AI in hiring. The practical issue is that applicants may be able to influence automated evaluators through hidden or adversarial instructions unless hiring systems are designed and audited for that threat model.",
+      "keyFacts": [
+        "Submitted June 26, 2026",
+        "The paper studies prompt injection in automated resume screening",
+        "It covers single and multi-injection settings",
+        "The work was listed under Artificial Intelligence on arXiv"
+      ],
+      "url": "https://arxiv.org/abs/2606.27287",
+      "sourceName": "arXiv",
+      "relatedSources": [
+        "arXiv",
+        "ACL Findings 2026"
+      ],
+      "lane": "research",
+      "publishedAt": "2026-06-26T00:00:00.000Z",
+      "importance": 680,
+      "sourceConfidence": "medium",
+      "filterCategory": "papers",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-27T09:05:00.000Z",
+      "whyItMatters": "Hiring is a high-stakes AI workflow, and prompt injection turns model reliability into a fairness and security problem."
+    },
+    {
+      "id": "curated-arxiv-cofailure-frontier-model-mixtures-2026-06-26",
+      "title": "New benchmark asks when combining frontier models actually helps",
+      "summary": "An arXiv paper tested routing, voting, and mixture-of-agents across 67 frontier models, arguing that shared failure modes can cap the benefits of combining models.",
+      "fullSummary": "A June 26 arXiv paper studied when combining language models actually improves results. The work evaluated routing, voting, and mixture-of-agents methods across 67 frontier models and focused on the idea of a co-failure ceiling: if models fail on the same examples, adding more models may not help much. That is directly relevant for enterprises building multi-model agent stacks and assuming diversity alone will improve reliability.",
+      "keyFacts": [
+        "Submitted June 26, 2026",
+        "The study covers routing, voting, and mixture-of-agents methods",
+        "It evaluates 67 frontier models",
+        "The core claim is that shared failure modes limit ensemble gains"
+      ],
+      "url": "https://arxiv.org/abs/2606.27288",
+      "sourceName": "arXiv",
+      "relatedSources": [
+        "arXiv"
+      ],
+      "lane": "research",
+      "publishedAt": "2026-06-26T00:00:00.000Z",
+      "importance": 675,
+      "sourceConfidence": "medium",
+      "filterCategory": "papers",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-27T09:05:00.000Z",
+      "whyItMatters": "Many production AI systems are becoming multi-model systems, but this work questions when that complexity really buys reliability."
+    },
     {
       "id": "curated-businessinsider-tech-jobs-ai-resilience-2026-06-25",
       "title": "Tech job postings rise despite the AI jobs panic",
@@ -231,62 +549,6 @@
       "whyItMatters": "The AI buildout is now visible in memory-supply economics, not just GPU demand; Micron is a direct signal for the broader infrastructure bottleneck."
     },
     {
-      "id": "curated-techcrunch-facebook-ai-companion-creators-2026-06-24",
-      "title": "Facebook rolls out a standalone AI companion app for creators",
-      "summary": "TechCrunch reported that Facebook is turning Creator Studio into a standalone AI companion app for creators, with personalized recommendations and AI-assisted comment workflows.",
-      "fullSummary": "TechCrunch reported that Facebook is reimagining Creator Studio as a standalone AI companion app for creators. The app is being tested with select creators and includes Facebook's AI creator assistant, which gives personalized recommendations based on content style, performance, audience engagement, and goals. Creators can ask conversational questions such as when to post or what people are saying in comments, and the app can surface important comments and draft replies in the creator's tone for review before posting. The launch is part of Meta's broader push to use AI to keep creators active on Facebook while competing with TikTok, YouTube, and third-party AI tools.",
-      "keyFacts": [
-        "Published June 24, 2026 at 10:16 PDT",
-        "Facebook is testing the standalone app with select creators",
-        "The assistant gives recommendations based on content style, performance, audience engagement, and goals",
-        "The app includes an AI-powered comment tool that drafts replies for creator approval"
-      ],
-      "url": "https://techcrunch.com/2026/06/24/facebook-rolls-out-an-ai-companion-app-for-creators/",
-      "sourceName": "TechCrunch",
-      "relatedSources": [
-        "TechCrunch",
-        "Meta",
-        "Facebook"
-      ],
-      "lane": "products-adoption",
-      "publishedAt": "2026-06-24T17:16:00.000Z",
-      "importance": 629,
-      "sourceConfidence": "high",
-      "filterCategory": "general",
-      "summaryEngine": "chat-curated",
-      "curatedAt": "2026-06-25T10:55:00.000Z",
-      "whyItMatters": "Creator tools are one of the clearest consumer AI adoption surfaces because the assistant is tied to daily workflow, distribution, and measurable engagement."
-    },
-    {
-      "id": "curated-techcrunch-figma-code-layers-ai-update-2026-06-24",
-      "title": "Figma adds code layers, animations, and more AI agent features",
-      "summary": "TechCrunch reported that Figma added code layers, animation support, AI-generated shader effects, custom AI skills, and prompt-built plugins to its collaborative canvas.",
-      "fullSummary": "TechCrunch reported that Figma introduced a product update adding code layers, support for motion and shaders, and more AI features. Code layers let teams clone repositories and extract flows from code into design layers for testing on the collaborative canvas. Figma is also adding animation, transition, and 3D transform support, plus AI-generated shader effects and fills. Its AI assistant is gaining repeatable skills that users can create with text prompts, with connections to tools such as Notion, Granola, Excel, and GitHub. The company is also adding prompt-based custom plugin creation, such as layout generators and vector path tracers.",
-      "keyFacts": [
-        "Published June 24, 2026 at 09:15 PDT",
-        "Figma added code layers to the collaborative canvas",
-        "The update adds animation, transition, and 3D transform support",
-        "Users can create repeatable AI skills and custom plugins with prompts"
-      ],
-      "url": "https://techcrunch.com/2026/06/24/figma-adds-code-layers-support-for-animations-more-ai-features-in-new-update/",
-      "sourceName": "TechCrunch",
-      "relatedSources": [
-        "TechCrunch",
-        "Figma",
-        "GitHub",
-        "Codex",
-        "Claude Code"
-      ],
-      "lane": "products-adoption",
-      "publishedAt": "2026-06-24T16:15:00.000Z",
-      "importance": 628,
-      "sourceConfidence": "high",
-      "filterCategory": "general",
-      "summaryEngine": "chat-curated",
-      "curatedAt": "2026-06-25T10:55:00.000Z",
-      "whyItMatters": "Design tools are becoming agent workspaces too; Figma is pulling code, motion, plugins, and AI skills into one collaborative surface."
-    },
-    {
       "id": "curated-businessinsider-agility-robotics-spac-2026-06-24",
       "title": "Agility Robotics plans a $2.5B SPAC listing for humanoid warehouse robots",
       "summary": "Business Insider reported that Agility Robotics plans to go public through a Churchill Capital Corp XI SPAC deal valuing the humanoid robot maker at about $2.5 billion.",
@@ -317,6 +579,35 @@
       "summaryEngine": "chat-curated",
       "curatedAt": "2026-06-25T09:15:00.000Z",
       "whyItMatters": "Humanoid robotics is moving from demos to capital-market scrutiny; a public listing would give investors a clearer pure-play bet on physical AI deployment."
+    },
+    {
+      "id": "curated-wsj-mirendil-ai-for-ai-science-seed-2026-06-24",
+      "title": "Anthropic veterans raise $200M for Mirendil, an AI-for-science startup",
+      "summary": "The Wall Street Journal reported that Mirendil, founded by former Google and Anthropic researchers, raised $200 million to build tools that help scientists develop specialized AI models.",
+      "fullSummary": "The Wall Street Journal reported that Mirendil, a startup founded by former Google and Anthropic researchers Behnam Neyshabur and Harsh Mehta, raised $200 million in seed funding at a $1 billion valuation. The company wants to help scientists build specialized AI models for fields such as medicine and materials science, partly by using AI to accelerate AI research itself. The size of the seed round shows how aggressively investors are backing AI-for-science companies that claim they can compound research progress.",
+      "keyFacts": [
+        "Published June 24, 2026",
+        "Mirendil raised $200 million in seed funding",
+        "The reported valuation was $1 billion",
+        "The founders previously worked at Google and Anthropic"
+      ],
+      "url": "https://www.wsj.com/tech/ai/anthropic-veterans-startup-seeks-to-help-scientists-develop-their-own-ai-09e2f3e5",
+      "sourceName": "Wall Street Journal",
+      "relatedSources": [
+        "Wall Street Journal",
+        "Mirendil",
+        "Andreessen Horowitz",
+        "Kleiner Perkins",
+        "Nvidia"
+      ],
+      "lane": "funding",
+      "publishedAt": "2026-06-24T19:02:00.000Z",
+      "importance": 665,
+      "sourceConfidence": "high",
+      "filterCategory": "funding",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-27T09:05:00.000Z",
+      "whyItMatters": "A $200 million seed round for AI-for-science shows investors are funding tools that might accelerate model development itself."
     },
     {
       "id": "curated-businessinsider-google-gemini-3-5-pro-delay-2026-06-24",
@@ -376,6 +667,33 @@
       "whyItMatters": "Executives are starting to split AI workforce risk into displacement, role redesign, and hiring strategy; that distinction matters more than blanket optimism or panic."
     },
     {
+      "id": "curated-techcrunch-facebook-ai-companion-creators-2026-06-24",
+      "title": "Facebook rolls out a standalone AI companion app for creators",
+      "summary": "TechCrunch reported that Facebook is turning Creator Studio into a standalone AI companion app for creators, with personalized recommendations and AI-assisted comment workflows.",
+      "fullSummary": "TechCrunch reported that Facebook is reimagining Creator Studio as a standalone AI companion app for creators. The app is being tested with select creators and includes Facebook's AI creator assistant, which gives personalized recommendations based on content style, performance, audience engagement, and goals. Creators can ask conversational questions such as when to post or what people are saying in comments, and the app can surface important comments and draft replies in the creator's tone for review before posting. The launch is part of Meta's broader push to use AI to keep creators active on Facebook while competing with TikTok, YouTube, and third-party AI tools.",
+      "keyFacts": [
+        "Published June 24, 2026 at 10:16 PDT",
+        "Facebook is testing the standalone app with select creators",
+        "The assistant gives recommendations based on content style, performance, audience engagement, and goals",
+        "The app includes an AI-powered comment tool that drafts replies for creator approval"
+      ],
+      "url": "https://techcrunch.com/2026/06/24/facebook-rolls-out-an-ai-companion-app-for-creators/",
+      "sourceName": "TechCrunch",
+      "relatedSources": [
+        "TechCrunch",
+        "Meta",
+        "Facebook"
+      ],
+      "lane": "products-adoption",
+      "publishedAt": "2026-06-24T17:16:00.000Z",
+      "importance": 629,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-25T10:55:00.000Z",
+      "whyItMatters": "Creator tools are one of the clearest consumer AI adoption surfaces because the assistant is tied to daily workflow, distribution, and measurable engagement."
+    },
+    {
       "id": "curated-businessinsider-slash-80k-ai-token-overspend-2026-06-24",
       "title": "Slash says an employee burned $80K in AI tokens on a shooter game",
       "summary": "Business Insider reported that fintech company Slash said an employee spent about $80,000 in AI coding tokens building a simple Brainrot Shooter game, underscoring why firms are adding AI spending controls.",
@@ -403,6 +721,35 @@
       "summaryEngine": "chat-curated",
       "curatedAt": "2026-06-25T09:15:00.000Z",
       "whyItMatters": "Token bills are becoming a governance issue; the next AI adoption bottleneck may be budget controls as much as model quality."
+    },
+    {
+      "id": "curated-techcrunch-figma-code-layers-ai-update-2026-06-24",
+      "title": "Figma adds code layers, animations, and more AI agent features",
+      "summary": "TechCrunch reported that Figma added code layers, animation support, AI-generated shader effects, custom AI skills, and prompt-built plugins to its collaborative canvas.",
+      "fullSummary": "TechCrunch reported that Figma introduced a product update adding code layers, support for motion and shaders, and more AI features. Code layers let teams clone repositories and extract flows from code into design layers for testing on the collaborative canvas. Figma is also adding animation, transition, and 3D transform support, plus AI-generated shader effects and fills. Its AI assistant is gaining repeatable skills that users can create with text prompts, with connections to tools such as Notion, Granola, Excel, and GitHub. The company is also adding prompt-based custom plugin creation, such as layout generators and vector path tracers.",
+      "keyFacts": [
+        "Published June 24, 2026 at 09:15 PDT",
+        "Figma added code layers to the collaborative canvas",
+        "The update adds animation, transition, and 3D transform support",
+        "Users can create repeatable AI skills and custom plugins with prompts"
+      ],
+      "url": "https://techcrunch.com/2026/06/24/figma-adds-code-layers-support-for-animations-more-ai-features-in-new-update/",
+      "sourceName": "TechCrunch",
+      "relatedSources": [
+        "TechCrunch",
+        "Figma",
+        "GitHub",
+        "Codex",
+        "Claude Code"
+      ],
+      "lane": "products-adoption",
+      "publishedAt": "2026-06-24T16:15:00.000Z",
+      "importance": 628,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-25T10:55:00.000Z",
+      "whyItMatters": "Design tools are becoming agent workspaces too; Figma is pulling code, motion, plugins, and AI skills into one collaborative surface."
     },
     {
       "id": "curated-et-hang-ten-systems-32m-seed-2026-06-24",
@@ -18061,5 +18408,5 @@
     }
   ],
   "errors": [],
-  "totalItems": 548
+  "totalItems": 660
 }
