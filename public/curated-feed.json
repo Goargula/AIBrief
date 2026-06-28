@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-28T10:40:00.000Z",
+  "generatedAt": "2026-06-28T11:20:00.000Z",
   "nextRefreshAt": "2026-06-27T20:35:00.000Z",
   "summaryEngine": "chat-curated",
   "curated": true,
@@ -108,6 +108,58 @@
       "whyItMatters": "Export controls are becoming a product-positioning tool for regional AI labs, not just a policy backdrop."
     },
     {
+      "id": "curated-unite-buildots-ai-intelligence-lab-construction-2026-06-27",
+      "title": "Buildots launches AI intelligence lab for construction decision-making",
+      "summary": "Unite.AI reported that Buildots launched an AI-powered intelligence lab aimed at turning construction-site data into operational decisions for project teams.",
+      "fullSummary": "Unite.AI reported that Buildots launched an AI-powered intelligence lab for construction, a sector where project data is abundant but often hard to translate into timely decisions. The announcement is not just another generic AI platform launch: construction is a high-friction industry where delays, change orders, and site visibility problems have real cost. The story adds a vertical-adoption example outside the usual software and finance lanes.",
+      "keyFacts": [
+        "Published June 27, 2026",
+        "Buildots launched an AI-powered intelligence lab for construction",
+        "The focus is turning construction data into operational decisions",
+        "The story broadens enterprise AI coverage into a physical-industry workflow"
+      ],
+      "url": "https://www.unite.ai/buildots-launches-ai-powered-intelligence-lab-to-bring-data-driven-decision-making-to-construction/",
+      "sourceName": "Unite.AI",
+      "relatedSources": [
+        "Unite.AI",
+        "Buildots"
+      ],
+      "lane": "products-adoption",
+      "publishedAt": "2026-06-27T12:00:00.000Z",
+      "importance": 675,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-28T11:20:00.000Z",
+      "whyItMatters": "Important AI adoption is not only happening in software; construction is a useful test of whether AI can improve messy real-world operations."
+    },
+    {
+      "id": "curated-register-nasa-ai-medic-astronauts-2026-06-27",
+      "title": "NASA tests an AI medical assistant for deep-space missions",
+      "summary": "The Register reported that NASA is testing an AI medic concept for astronauts who may be too far from Earth for real-time medical support.",
+      "fullSummary": "The Register reported that NASA is testing an AI medical assistant for missions where astronauts cannot depend on live consultation from Earth. The point is practical: as crews travel farther away, communication delays make basic triage and treatment support harder. NASA is exploring whether AI can help astronauts handle medical decisions when a doctor is not immediately reachable, while still keeping the system inside a high-stakes safety frame.",
+      "keyFacts": [
+        "Published June 27, 2026 at 09:20 UTC",
+        "NASA is testing an AI medic for missions with long communication delays",
+        "The use case is astronaut medical support when Earth-based doctors are not immediately reachable",
+        "The story sits at the intersection of healthcare AI, autonomy, and space operations"
+      ],
+      "url": "https://www.theregister.com/ai-and-ml/2026/06/27/nasa-tests-ai-medic-for-astronauts-too-far-from-earth-to-call-a-doctor/5262828",
+      "sourceName": "The Register",
+      "relatedSources": [
+        "The Register",
+        "NASA"
+      ],
+      "lane": "health-science",
+      "publishedAt": "2026-06-27T09:20:00.000Z",
+      "importance": 705,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-28T11:20:00.000Z",
+      "whyItMatters": "Space medicine is an extreme test case for AI decision support: useful autonomy has to work when escalation to a human expert is slow."
+    },
+    {
       "id": "curated-et-companies-pull-back-ai-collaboration-report-2026-06-27",
       "title": "Companies pull back on AI when collaboration is weak, report says",
       "summary": "Economic Times reported that companies are retreating from some AI initiatives when quality, engagement, and human-AI collaboration are weak, while better-designed workflows are still showing gains.",
@@ -131,6 +183,31 @@
       "summaryEngine": "chat-curated",
       "curatedAt": "2026-06-27T09:05:00.000Z",
       "whyItMatters": "The enterprise AI story is shifting from adoption counts to whether workflows are redesigned well enough to produce measurable value."
+    },
+    {
+      "id": "curated-register-ai-hidden-vulnerabilities-security-teams-2026-06-27",
+      "title": "Security teams brace for AI-discovered vulnerability surge",
+      "summary": "The Register reported that AI tools are surfacing previously hidden vulnerabilities, raising pressure on security teams already dealing with faster exploit cycles.",
+      "fullSummary": "The Register reported that security teams may face a messy period as AI systems help uncover more vulnerabilities that were previously hard to find. That does not automatically mean every bug becomes a crisis, but it does shift the volume and speed of discovery. For defenders, the operational question is whether patching, triage, and exposure management can keep up with AI-assisted vulnerability discovery.",
+      "keyFacts": [
+        "Published June 27, 2026 at 06:59 UTC",
+        "The article focuses on AI-assisted discovery of previously hidden vulnerabilities",
+        "Security teams face more pressure to prioritize, patch, and verify exposure",
+        "The story connects AI capability gains to concrete defensive workload"
+      ],
+      "url": "https://www.theregister.com/security/2026/06/27/its-looking-like-a-hot-messy-summer-for-security-teams-as-ai-finds-countless-previously-hidden-vulns/5260478",
+      "sourceName": "The Register",
+      "relatedSources": [
+        "The Register"
+      ],
+      "lane": "policy-safety",
+      "publishedAt": "2026-06-27T06:59:00.000Z",
+      "importance": 700,
+      "sourceConfidence": "high",
+      "filterCategory": "pushback",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-28T11:20:00.000Z",
+      "whyItMatters": "AI-assisted security research can improve defense, but it also compresses the timeline for attackers and patch teams."
     },
     {
       "id": "curated-et-hive-verified-health-intelligence-2026-06-27",
@@ -212,6 +289,32 @@
       "summaryEngine": "chat-curated",
       "curatedAt": "2026-06-27T09:35:00.000Z",
       "whyItMatters": "The access decision shows how model availability is becoming a policy-controlled deployment question for both public and private buyers."
+    },
+    {
+      "id": "curated-register-google-ai-regulation-own-terms-2026-06-26",
+      "title": "Google backs AI regulation while arguing for room to keep building",
+      "summary": "The Register covered Google asking for AI rules that preserve its ability to keep developing and deploying systems, showing how major labs are trying to shape regulation before it hardens.",
+      "fullSummary": "The Register reported that Google is publicly supporting AI regulation, but with a clear preference for rules that do not block its current development path. The company is positioning itself as pro-rules while arguing that regulation should preserve innovation and deployment flexibility. The useful signal is not that Google wants no oversight; it is that large AI firms are now negotiating the boundaries of oversight in public.",
+      "keyFacts": [
+        "Published June 26, 2026 at 19:50 UTC",
+        "Google is calling for AI regulation that still allows continued development",
+        "The story frames the request as rules on terms acceptable to major AI companies",
+        "It adds to the policy fight over who defines practical AI oversight"
+      ],
+      "url": "https://www.theregister.com/ai-and-ml/2026/06/26/google-wants-ai-regulation-but-on-its-own-terms/5263276",
+      "sourceName": "The Register",
+      "relatedSources": [
+        "The Register",
+        "Google"
+      ],
+      "lane": "policy-safety",
+      "publishedAt": "2026-06-26T19:50:06.000Z",
+      "importance": 675,
+      "sourceConfidence": "high",
+      "filterCategory": "pushback",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-28T11:20:00.000Z",
+      "whyItMatters": "The next phase of AI regulation will be shaped by firms that say they want rules but disagree over how constraining those rules should be."
     },
     {
       "id": "curated-openai-gpt-56-sol-preview-2026-06-26",
@@ -324,6 +427,32 @@
       "whyItMatters": "Computer-use models are the practical bridge from AI answering questions to AI operating real software."
     },
     {
+      "id": "curated-register-amazon-q-flaw-booby-trapped-repos-2026-06-26",
+      "title": "Amazon Q flaw let malicious repos run commands and steal cloud credentials",
+      "summary": "The Register reported that researchers found an Amazon Q issue where booby-trapped Git repositories could execute code and swipe cloud credentials through AI coding-assistant behavior.",
+      "fullSummary": "The Register reported that researchers found an Amazon Q vulnerability involving malicious Git repositories and project configuration files. The issue matters because AI coding assistants increasingly inspect and act on local project context, creating new ways for untrusted repositories to trigger commands or expose credentials. It is a concrete example of prompt and toolchain risk moving from theory into developer infrastructure.",
+      "keyFacts": [
+        "Published June 26, 2026 at 15:34 UTC",
+        "Researchers warned that malicious Git repos could abuse AI coding-assistant behavior",
+        "The reported risk included command execution and cloud credential theft",
+        "The issue highlights the trust boundary between project files and agentic developer tools"
+      ],
+      "url": "https://www.theregister.com/cyber-crime/2026/06/26/amazon-q-flaw-let-booby-trapped-git-repos-execute-code-swipe-cloud-creds/5263202",
+      "sourceName": "The Register",
+      "relatedSources": [
+        "The Register",
+        "Amazon Q"
+      ],
+      "lane": "policy-safety",
+      "publishedAt": "2026-06-26T15:34:00.000Z",
+      "importance": 735,
+      "sourceConfidence": "high",
+      "filterCategory": "pushback",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-28T11:20:00.000Z",
+      "whyItMatters": "Developer agents expand what project files can influence, so repo-level trust becomes a real security boundary."
+    },
+    {
       "id": "curated-unite-truefoundry-seldon-acquisition-2026-06-26",
       "title": "TrueFoundry buys Seldon to combine MLOps and agentic AI infrastructure",
       "summary": "Unite.AI reported that TrueFoundry acquired Seldon AI, bringing together two Kubernetes-native enterprise AI infrastructure platforms.",
@@ -403,6 +532,32 @@
       "summaryEngine": "chat-curated",
       "curatedAt": "2026-06-27T09:05:00.000Z",
       "whyItMatters": "AI compute is becoming part of national resilience planning, especially where geopolitical and physical infrastructure risks are high."
+    },
+    {
+      "id": "curated-register-notion-kills-gmail-client-ai-agents-2026-06-26",
+      "title": "Notion shuts its Gmail client as AI agents take over email work",
+      "summary": "The Register reported that Notion is killing its Gmail client after more than half of users shifted toward bots handling email workflows.",
+      "fullSummary": "The Register reported that Notion is shutting down its Gmail client because user behavior has moved toward AI agents handling inbox work. The story is a small but telling product-market signal: email clients may not just add AI features; some workflows may be reabsorbed into broader workspace agents. It also shows how quickly AI usage data can change a product roadmap.",
+      "keyFacts": [
+        "Published June 26, 2026 at 13:01 UTC",
+        "Notion is shutting down its Gmail client",
+        "The company said more than half of users now let bots handle email",
+        "The shift points to workspace agents replacing some standalone app experiences"
+      ],
+      "url": "https://www.theregister.com/ai-and-ml/2026/06/26/notion-kills-its-gmail-client-after-ai-agents-keep-humans-from-troubling-inbox/5263024",
+      "sourceName": "The Register",
+      "relatedSources": [
+        "The Register",
+        "Notion"
+      ],
+      "lane": "products-adoption",
+      "publishedAt": "2026-06-26T13:01:16.000Z",
+      "importance": 675,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-28T11:20:00.000Z",
+      "whyItMatters": "This is a concrete product signal that agent workflows can replace entire app surfaces, not just decorate them."
     },
     {
       "id": "curated-ai-news-sap-commerce-data-personalisation-2026-06-26",
@@ -640,6 +795,32 @@
       "whyItMatters": "Agent testing is becoming a funded category because enterprises need proof that autonomous workflows will fail safely."
     },
     {
+      "id": "curated-register-openai-979-percent-employees-agents-2026-06-25",
+      "title": "OpenAI says nearly all employees now use agents internally",
+      "summary": "The Register reported that OpenAI says 97.9% of its employees are using agents, with Codex framed as useful beyond software developers.",
+      "fullSummary": "The Register reported that OpenAI says 97.9% of its employees are now using agents internally. The company is presenting Codex and related tools as workplace surfaces beyond programming, not only developer automation. The number is self-reported, but it is still a useful adoption marker from one of the companies setting the agent narrative.",
+      "keyFacts": [
+        "Published June 25, 2026 at 19:58 UTC",
+        "OpenAI says 97.9% of employees are using agents",
+        "The company is pitching Codex as useful outside developer-only work",
+        "The figure is an internal-adoption claim rather than an independent productivity study"
+      ],
+      "url": "https://www.theregister.com/ai-and-ml/2026/06/25/openai-says-979-percent-of-its-employees-are-now-using-agents/5262499",
+      "sourceName": "The Register",
+      "relatedSources": [
+        "The Register",
+        "OpenAI"
+      ],
+      "lane": "products-adoption",
+      "publishedAt": "2026-06-25T19:58:23.000Z",
+      "importance": 690,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-28T11:20:00.000Z",
+      "whyItMatters": "Internal agent adoption at OpenAI is a useful signal for how AI labs expect general workplace software to change."
+    },
+    {
       "id": "curated-techcrunch-general-intuition-23b-game-trained-agents-2026-06-25",
       "title": "General Intuition bets $2.3B that games can train real-world agents",
       "summary": "TechCrunch reported that General Intuition raised $320 million and reached a $2.3 billion valuation by training AI on millions of hours of gameplay, betting that action data can teach agents real-world intuition.",
@@ -717,6 +898,32 @@
       "summaryEngine": "chat-curated",
       "curatedAt": "2026-06-27T09:35:00.000Z",
       "whyItMatters": "AI compute bottlenecks increasingly include networking and deployment speed, not only GPU supply."
+    },
+    {
+      "id": "curated-register-amazon-india-ai-cloud-infrastructure-13b-2026-06-25",
+      "title": "Amazon commits another $13B to India AI and cloud infrastructure",
+      "summary": "The Register reported that Amazon is adding $13 billion to its India AI and cloud infrastructure investment, focused on Mumbai and Hyderabad data center expansion.",
+      "fullSummary": "The Register reported that Amazon is putting another $13 billion into India cloud and AI infrastructure, including data center expansion in Mumbai and Hyderabad. The investment is part of a broader multiyear commitment and keeps India inside the physical buildout story behind AI adoption. It also adds to the regional compute race rather than only the U.S. hyperscaler narrative.",
+      "keyFacts": [
+        "Published June 25, 2026 at 13:31 UTC",
+        "Amazon is adding $13 billion for India AI and cloud infrastructure",
+        "The expansion is focused on Mumbai and Hyderabad data centers",
+        "The pledge sits within a broader $48 billion five-year investment plan"
+      ],
+      "url": "https://www.theregister.com/paas-and-iaas/2026/06/25/amazon-pours-another-13b-into-indias-ai-and-cloud-infrastructure/5262067",
+      "sourceName": "The Register",
+      "relatedSources": [
+        "The Register",
+        "Amazon"
+      ],
+      "lane": "infrastructure",
+      "publishedAt": "2026-06-25T13:31:00.000Z",
+      "importance": 725,
+      "sourceConfidence": "high",
+      "filterCategory": "funding",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-28T11:20:00.000Z",
+      "whyItMatters": "India is becoming a larger part of the AI infrastructure map, and hyperscaler capex is one of the clearest signals."
     },
     {
       "id": "curated-techcrunch-adobe-topaz-acquisition-2026-06-25",
@@ -852,6 +1059,32 @@
       "summaryEngine": "chat-curated",
       "curatedAt": "2026-06-27T09:35:00.000Z",
       "whyItMatters": "Compliance is a concrete enterprise AI use case where errors can carry legal and supply-chain consequences."
+    },
+    {
+      "id": "curated-register-elastic-workforce-ai-automation-2026-06-25",
+      "title": "Elastic cuts workforce 7% as AI automation changes engineering work",
+      "summary": "The Register reported that Elastic is reducing its workforce by about 7%, with its CEO saying AI automation is enabling leaner teams as engineering is reorganized.",
+      "fullSummary": "The Register reported that Elastic is cutting about 7% of its workforce while reorganizing engineering into three areas. The company framed AI automation as part of the reason it can run with leaner teams. This is not just a generic layoff story; it is a concrete example of a software company tying workforce structure directly to AI-enabled productivity claims.",
+      "keyFacts": [
+        "Published June 25, 2026 at 10:55 UTC",
+        "Elastic is reducing its workforce by about 7%",
+        "The CEO said automation is enabling leaner teams",
+        "Engineering is being reorganized into three core areas"
+      ],
+      "url": "https://www.theregister.com/databases/2026/06/25/elastic-stretches-workforce-7-thinner-as-ai-does-more-of-the-heavy-lifting/5261993",
+      "sourceName": "The Register",
+      "relatedSources": [
+        "The Register",
+        "Elastic"
+      ],
+      "lane": "products-adoption",
+      "publishedAt": "2026-06-25T10:55:00.000Z",
+      "importance": 700,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-28T11:20:00.000Z",
+      "whyItMatters": "AI workforce effects are moving from forecasts into company restructurings with named headcount impacts."
     },
     {
       "id": "curated-arxiv-capability-frontier-benchmarks-miss-performance-2026-06-25",
@@ -1075,6 +1308,32 @@
       "summaryEngine": "chat-curated",
       "curatedAt": "2026-06-27T09:35:00.000Z",
       "whyItMatters": "AI is pressuring the services model from both incumbents and founder-led challengers with deep enterprise experience."
+    },
+    {
+      "id": "curated-register-spacelift-ai-infrastructure-incidents-2026-06-24",
+      "title": "Spacelift survey says AI is already causing infrastructure incidents",
+      "summary": "The Register reported on Spacelift survey findings that 93% of organizations saw infrastructure incidents attributable to AI, highlighting a governance gap around AI-assisted infrastructure work.",
+      "fullSummary": "The Register reported that companies are adopting AI in infrastructure workflows faster than they are building controls around it. The article cited Spacelift findings that 93% of organizations reported infrastructure incidents attributable to AI. It is a useful operational-risk story because it turns AI adoption into failures, governance, and change-management questions rather than only productivity upside.",
+      "keyFacts": [
+        "Published June 24, 2026 at 22:55 UTC",
+        "The article cites Spacelift findings on AI-related infrastructure incidents",
+        "93% of organizations reportedly saw infrastructure incidents attributable to AI",
+        "The story focuses on governance gaps around AI-assisted infrastructure work"
+      ],
+      "url": "https://www.theregister.com/devops/2026/06/24/companies-are-not-looking-before-theyre-leaping-into-the-ai-playpen/5261819",
+      "sourceName": "The Register + Spacelift",
+      "relatedSources": [
+        "The Register",
+        "Spacelift"
+      ],
+      "lane": "products-adoption",
+      "publishedAt": "2026-06-24T22:55:50.000Z",
+      "importance": 705,
+      "sourceConfidence": "high",
+      "filterCategory": "pushback",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-28T11:20:00.000Z",
+      "whyItMatters": "Operational AI failures are now measurable enough to show up as infrastructure incidents, not just abstract risk."
     },
     {
       "id": "curated-techcrunch-cerebras-stock-margin-ai-capacity-2026-06-24",
@@ -1473,6 +1732,31 @@
       "whyItMatters": "The compute market is becoming a financing and logistics problem, not just a chip-design problem; marketplaces like Ornn point to how AI teams may buy scarce capacity outside the largest cloud contracts."
     },
     {
+      "id": "curated-register-medical-ai-training-data-leakage-2026-06-24",
+      "title": "Study warns medical diagnosis AIs can reveal training-data membership",
+      "summary": "The Register reported on research showing medical diagnosis AI systems can be tricked into revealing whether a patient record was in their training data.",
+      "fullSummary": "The Register reported that medical diagnosis AI systems can be vulnerable to membership-inference attacks, where an attacker tries to determine whether specific patient data was used in training. That matters because medical records are unusually sensitive and model training can blur the boundary between useful learning and privacy exposure. The story adds a privacy-risk counterweight to the healthcare AI deployment rush.",
+      "keyFacts": [
+        "Published June 24, 2026 at 15:01 UTC",
+        "The article covers research on medical diagnosis AI systems",
+        "The reported attack can infer whether specific patient data appeared in training",
+        "The issue connects healthcare AI performance with patient-data privacy risk"
+      ],
+      "url": "https://www.theregister.com/ai-and-ml/2026/06/24/medical-diagnosis-ais-can-be-tricked-into-telling-whose-data-trained-them/5261501",
+      "sourceName": "The Register",
+      "relatedSources": [
+        "The Register"
+      ],
+      "lane": "health-science",
+      "publishedAt": "2026-06-24T15:01:00.000Z",
+      "importance": 690,
+      "sourceConfidence": "high",
+      "filterCategory": "papers",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-28T11:20:00.000Z",
+      "whyItMatters": "Healthcare AI needs privacy guarantees as much as accuracy claims, especially when models are trained on sensitive patient data."
+    },
+    {
       "id": "curated-techcrunch-openai-broadcom-jalapeno-chip-2026-06-24",
       "title": "OpenAI unveils its first custom inference chip with Broadcom",
       "summary": "TechCrunch reported that OpenAI introduced Jalapeno, a custom inference processor developed with Broadcom to lower serving costs and reduce dependence on Nvidia GPUs.",
@@ -1552,6 +1836,32 @@
       "summaryEngine": "chat-curated",
       "curatedAt": "2026-06-27T09:35:00.000Z",
       "whyItMatters": "If agents become active web users, search and retrieval infrastructure will need to change around them."
+    },
+    {
+      "id": "curated-register-ai-coding-agent-costs-gartner-2026-06-24",
+      "title": "Gartner warns AI coding agents can run up five-figure monthly bills",
+      "summary": "The Register reported that consumption pricing and weak cost controls can make AI coding agents more expensive than the developers using them.",
+      "fullSummary": "The Register reported on Gartner warnings that AI coding agents can drive monthly bills into five figures when usage is priced by consumption and cost controls are weak. The story is a practical complement to broader enterprise AI budget stories: developer agents can look cheap at the seat level but become expensive once long-running, tool-using workflows scale. That makes governance and spend controls part of the developer-productivity equation.",
+      "keyFacts": [
+        "Published June 24, 2026 at 13:04 UTC",
+        "The article cites Gartner warnings about AI coding-agent costs",
+        "Consumption pricing and limited controls can push monthly bills into five figures",
+        "The risk grows as agentic workflows run longer and use more tools"
+      ],
+      "url": "https://www.theregister.com/ai-and-ml/2026/06/24/ai-coding-agents-could-soon-cost-more-than-the-developers-using-them/5260864",
+      "sourceName": "The Register",
+      "relatedSources": [
+        "The Register",
+        "Gartner"
+      ],
+      "lane": "products-adoption",
+      "publishedAt": "2026-06-24T13:04:00.000Z",
+      "importance": 690,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-28T11:20:00.000Z",
+      "whyItMatters": "AI coding tools are shifting from seat-pricing decisions to usage-governance decisions for engineering leaders."
     },
     {
       "id": "curated-siliconangle-coval-28m-voice-agents-2026-06-24",
