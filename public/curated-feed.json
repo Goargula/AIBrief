@@ -1,9 +1,112 @@
 {
-  "generatedAt": "2026-06-27T09:35:00.000Z",
+  "generatedAt": "2026-06-28T10:40:00.000Z",
   "nextRefreshAt": "2026-06-27T20:35:00.000Z",
   "summaryEngine": "chat-curated",
   "curated": true,
   "items": [
+    {
+      "id": "curated-techcrunch-softbank-orbital-data-center-skepticism-2026-06-27",
+      "title": "SoftBank's Son questions orbital data centers as an AI compute fix",
+      "summary": "TechCrunch reported that SoftBank CEO Masayoshi Son pushed back on Elon Musk-style orbital data center hype, arguing that space-based compute would take too long to matter for the current AI infrastructure crunch.",
+      "fullSummary": "TechCrunch covered SoftBank CEO Masayoshi Son questioning whether orbital data centers can solve the near-term AI compute shortage. The piece frames the idea as part of the wider neo-cloud rush, but notes the obvious trade-off: building and replacing satellite data centers would be expensive, slow, and closely tied to SpaceX's own launch economics. The useful point is not that space compute is impossible, but that AI infrastructure claims now need timelines, capex, and incentive checks.",
+      "keyFacts": [
+        "Published June 27, 2026 at 1:42 PM PDT",
+        "Masayoshi Son argued orbital data centers would take too long to solve current AI compute pressure",
+        "The discussion tied space-based compute to neo-cloud economics and SpaceX incentives",
+        "The article also referenced Groq funding and OpenAI custom-chip plans as part of the same compute race"
+      ],
+      "url": "https://techcrunch.com/2026/06/27/softbanks-ceo-isnt-the-only-one-with-questions-about-elon-musks-orbital-data-center-hype/",
+      "sourceName": "TechCrunch",
+      "relatedSources": [
+        "TechCrunch"
+      ],
+      "lane": "infrastructure",
+      "publishedAt": "2026-06-27T20:42:00.000Z",
+      "importance": 735,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-28T10:40:00.000Z",
+      "whyItMatters": "AI infrastructure narratives are getting more speculative; this story is a useful sanity check on whether proposed compute fixes match the actual deployment window."
+    },
+    {
+      "id": "curated-techcrunch-apple-vision-pro-exec-openai-2026-06-27",
+      "title": "Apple Vision Pro hardware executive reportedly leaves for OpenAI",
+      "summary": "TechCrunch reported that Paul Meade, the Apple vice president overseeing Vision Pro and smart-glasses work, is leaving for OpenAI as the ChatGPT maker builds a hardware team around former Apple designers.",
+      "fullSummary": "TechCrunch reported, citing Bloomberg, that Paul Meade is leaving Apple for OpenAI. Meade oversaw Vision Pro and reportedly led Apple's AI-powered smart-glasses work, putting the move directly inside the race to define post-phone AI hardware. The story also fits Apple's internal hardware shake-up and OpenAI's broader push with Jony Ive and former Apple design talent.",
+      "keyFacts": [
+        "Published June 27, 2026 at 9:45 AM PDT",
+        "Paul Meade reportedly oversaw Vision Pro and smart-glasses work at Apple",
+        "He is expected to join OpenAI's hardware team",
+        "OpenAI is already working with former Apple design chief Jony Ive on an AI device"
+      ],
+      "url": "https://techcrunch.com/2026/06/27/apple-vision-pro-exec-is-reportedly-leaving-for-openai/",
+      "sourceName": "TechCrunch",
+      "relatedSources": [
+        "TechCrunch",
+        "Bloomberg"
+      ],
+      "lane": "products-adoption",
+      "publishedAt": "2026-06-27T16:45:00.000Z",
+      "importance": 720,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-28T10:40:00.000Z",
+      "whyItMatters": "The AI device race is now as much about hardware leadership and industrial design talent as it is about model capability."
+    },
+    {
+      "id": "curated-techcrunch-founder-cancer-ai-second-opinions-2026-06-27",
+      "title": "Founder uses AI to navigate cancer diagnosis and second opinions",
+      "summary": "TechCrunch profiled Conno Christou, who used AI tools while gathering specialist opinions after a rare lymphoma diagnosis, showing both the promise and limits of AI-assisted patient research.",
+      "fullSummary": "TechCrunch profiled Conno Christou, a founder who discovered an aggressive lymphoma after routine health tracking had shown no warning signs. After receiving conflicting medical advice, he used AI tools as part of a broader push to understand his pathology, compare treatment options, and organize questions for specialists. The story is strongest as a patient-agency case study: AI did not replace oncologists, but it helped a technically fluent patient navigate uncertainty and ask sharper questions.",
+      "keyFacts": [
+        "Published June 27, 2026 at 7:00 AM PDT",
+        "Christou was diagnosed with a rare aggressive non-Hodgkin lymphoma",
+        "He received conflicting recommendations on chemotherapy intensity",
+        "AI tools were used alongside human specialist opinions, not as a standalone diagnosis"
+      ],
+      "url": "https://techcrunch.com/2026/06/27/the-fittest-founder-in-the-room-got-cancer-heres-how-he-used-ai-to-fight-back/",
+      "sourceName": "TechCrunch",
+      "relatedSources": [
+        "TechCrunch"
+      ],
+      "lane": "health-science",
+      "publishedAt": "2026-06-27T14:00:00.000Z",
+      "importance": 700,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-28T10:40:00.000Z",
+      "whyItMatters": "Healthcare AI coverage often jumps to hospital deployments; this is a concrete example of how patients are already using AI between appointments."
+    },
+    {
+      "id": "curated-techcrunch-asian-mythos-like-models-export-ban-2026-06-27",
+      "title": "Asian AI startups pitch Mythos-like models as export controls bite",
+      "summary": "TechCrunch reported that China's 360 and Japan's Sakana AI are using the Anthropic Mythos/Fable export-control standoff to position new frontier-style models for Asian customers.",
+      "fullSummary": "TechCrunch reported that Chinese cybersecurity firm 360 unveiled Tulongfeng while Japan's Sakana AI launched Fugu, both positioned against the backdrop of U.S. restrictions on Anthropic's Mythos and Fable models. Sakana stressed that Fugu had been in development before the ban, but the timing has made export-control resilience part of the product story. The result is a regional-model story, not just another Anthropic update.",
+      "keyFacts": [
+        "Published June 27, 2026 at 5:00 AM PDT",
+        "China's 360 reportedly unveiled Tulongfeng",
+        "Sakana AI launched Fugu for Japanese businesses and government agencies",
+        "Both launches are being read against the Anthropic Mythos and Fable access restrictions"
+      ],
+      "url": "https://techcrunch.com/2026/06/27/asian-ai-startups-launch-mythos-like-models-as-anthropics-export-ban-drags-on/",
+      "sourceName": "TechCrunch",
+      "relatedSources": [
+        "TechCrunch",
+        "Sakana AI",
+        "Reuters"
+      ],
+      "lane": "models",
+      "publishedAt": "2026-06-27T12:00:00.000Z",
+      "importance": 760,
+      "sourceConfidence": "high",
+      "filterCategory": "models",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-28T10:40:00.000Z",
+      "whyItMatters": "Export controls are becoming a product-positioning tool for regional AI labs, not just a policy backdrop."
+    },
     {
       "id": "curated-et-companies-pull-back-ai-collaboration-report-2026-06-27",
       "title": "Companies pull back on AI when collaboration is weak, report says",
@@ -671,6 +774,33 @@
       "whyItMatters": "India's AI market is becoming a compute buildout story, not only an adoption story."
     },
     {
+      "id": "curated-elevenlabs-synthid-audio-watermarking-2026-06-25",
+      "title": "ElevenLabs adds SynthID watermarks to AI-generated audio",
+      "summary": "ElevenLabs said it is embedding Google DeepMind SynthID watermarks into text-to-speech generations for free users and plans to expand the system across all generated audio.",
+      "fullSummary": "ElevenLabs announced that it has started adding Google DeepMind SynthID watermarks to text-to-speech outputs from free users, with broader audio coverage planned over the coming weeks. The company says the marks are inaudible, survive common edits such as trimming and compression, and can be detected through its audio detector. It is a practical provenance move for synthetic audio, especially as voice cloning and deepfake risks keep growing.",
+      "keyFacts": [
+        "Published June 25, 2026 and updated June 26, 2026",
+        "SynthID is being added first to free-user text-to-speech generations",
+        "ElevenLabs plans to expand coverage to all generated audio over the coming weeks",
+        "The company says the watermarks can be checked with its free audio detector"
+      ],
+      "url": "https://elevenlabs.io/blog/synthid",
+      "sourceName": "ElevenLabs + The Verge",
+      "relatedSources": [
+        "ElevenLabs",
+        "The Verge",
+        "Google DeepMind"
+      ],
+      "lane": "policy-safety",
+      "publishedAt": "2026-06-25T12:00:00.000Z",
+      "importance": 690,
+      "sourceConfidence": "high",
+      "filterCategory": "pushback",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-28T10:40:00.000Z",
+      "whyItMatters": "Audio provenance is moving from policy talk into default platform infrastructure, which matters for scams, impersonation, and media trust."
+    },
+    {
       "id": "curated-bi-raise-us-ai-worker-transition-2026-06-25",
       "title": "OpenAI and Anthropic back Raise US worker-transition effort",
       "summary": "Business Insider reported that major tech companies are behind Raise US, a new group aimed at helping workers adapt as AI changes jobs.",
@@ -722,6 +852,31 @@
       "summaryEngine": "chat-curated",
       "curatedAt": "2026-06-27T09:35:00.000Z",
       "whyItMatters": "Compliance is a concrete enterprise AI use case where errors can carry legal and supply-chain consequences."
+    },
+    {
+      "id": "curated-arxiv-capability-frontier-benchmarks-miss-performance-2026-06-25",
+      "title": "Researchers argue benchmarks miss much of collective model capability",
+      "summary": "An arXiv paper introduced a Capability Frontier method and argued that single-model, single-run benchmarks can substantially understate what LLM systems can do when models and generations are selected optimally.",
+      "fullSummary": "A new arXiv paper argues that common LLM benchmarks understate real-world capability because they usually score one model on one run. The authors introduce a Capability Frontier that compares performance across model choices and sampled generations at different cost levels. Across 21 LLMs and 16 benchmarks, they report large gains from correcting for single-model and single-run assumptions, including an 82% improvement in one comparison. The claim is not that every deployment has an oracle selector; it is that benchmark headlines can miss the capability available to systems that route across models.",
+      "keyFacts": [
+        "Submitted to arXiv on June 25, 2026",
+        "The paper studies 21 LLMs across 16 benchmarks",
+        "It models a Pareto frontier across model choices, generations, and cost",
+        "The authors report that single-run benchmark framing can understate collective model capability"
+      ],
+      "url": "https://arxiv.org/abs/2606.26836",
+      "sourceName": "arXiv",
+      "relatedSources": [
+        "arXiv"
+      ],
+      "lane": "papers",
+      "publishedAt": "2026-06-25T10:20:47.000Z",
+      "importance": 710,
+      "sourceConfidence": "high",
+      "filterCategory": "papers",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-28T10:40:00.000Z",
+      "whyItMatters": "If routing and sampling change effective capability, benchmark leaderboards may be understating what deployed AI systems can actually achieve."
     },
     {
       "id": "curated-businessinsider-tech-jobs-ai-resilience-2026-06-25",
@@ -3892,40 +4047,6 @@
       "summaryEngine": "chat-curated",
       "curatedAt": "2026-06-19T09:15:00.000Z",
       "whyItMatters": "OpenAI's enterprise push depends on execution and sales leadership, so another senior departure is part of the company's pre-IPO operating-risk story."
-    },
-    {
-      "id": "curated-ft-ai-cost-monster-enterprise-usage-2026-06-19",
-      "title": "FT says companies are reining in AI use as costs bite",
-      "summary": "The Financial Times reported that Amazon, Walmart, Cisco, Uber, Meta, and smaller companies are adding caps or cost controls as AI agents drive up token and compute bills.",
-      "fullSummary": "The Financial Times reported that companies that rushed AI tools into employee workflows are beginning to rein in usage as costs rise. Amazon, Walmart, Cisco, Uber, and Meta have introduced caps, discouraged wasteful use, or steered employees toward cheaper models. The article says the shift is sharper as workers move from chatbots to agentic workflows, which require more compute and expose companies to token-based billing. Uber reportedly capped individual AI tool spending after exhausting its 2026 AI budget early, while Workato said its spend jumped sevenfold when Anthropic moved it to token-based pricing. The story turns AI adoption into a budget-governance issue rather than only a productivity narrative.",
-      "keyFacts": [
-        "Published June 19, 2026 at 04:00 UTC",
-        "FT says Amazon, Walmart, Cisco, Uber, and Meta are adding AI usage controls",
-        "Uber reportedly capped employees at $1,500 in monthly token spending on individual AI tools",
-        "Workato said its spend rose sevenfold after a token-pricing change",
-        "The article links the cost pressure to agentic AI's heavier compute requirements"
-      ],
-      "url": "https://www.ft.com/content/1d37cc08-e0aa-45a4-a45d-4ad282529314",
-      "sourceName": "Financial Times",
-      "relatedSources": [
-        "Financial Times",
-        "Amazon",
-        "Walmart",
-        "Cisco",
-        "Uber",
-        "Meta",
-        "Workato",
-        "Anthropic",
-        "OpenAI"
-      ],
-      "lane": "products-adoption",
-      "publishedAt": "2026-06-19T04:00:11.000Z",
-      "importance": 569,
-      "sourceConfidence": "high",
-      "filterCategory": "pushback",
-      "summaryEngine": "chat-curated",
-      "curatedAt": "2026-06-21T08:45:00.000Z",
-      "whyItMatters": "Enterprise AI enthusiasm is starting to meet CFO controls, and agent costs may shape adoption as much as model quality or benchmark performance."
     },
     {
       "id": "curated-ft-ai-usage-cost-caps-2026-06-19",
