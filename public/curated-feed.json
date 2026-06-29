@@ -1,9 +1,192 @@
 {
-  "generatedAt": "2026-06-28T11:20:00.000Z",
-  "nextRefreshAt": "2026-06-27T20:35:00.000Z",
+  "generatedAt": "2026-06-29T13:55:00.000Z",
+  "nextRefreshAt": "2026-06-30T01:55:00.000Z",
   "summaryEngine": "chat-curated",
   "curated": true,
   "items": [
+    {
+      "id": "curated-ai-news-hp-openai-frontier-enterprise-workflows-2026-06-29",
+      "title": "HP brings OpenAI Frontier into enterprise workflows",
+      "summary": "AI News reported that HP is using OpenAI Frontier to accelerate enterprise workflows across documents, meetings, and internal knowledge work.",
+      "fullSummary": "AI News reported that HP is moving OpenAI Frontier deeper into enterprise workflows, with the pitch focused on document handling, meeting support, and internal knowledge work rather than a standalone chatbot. The important part is the distribution path: frontier models are being packaged into the ordinary work surfaces where large companies already spend time. That makes adoption easier, but it also raises the usual enterprise questions around governance, data access, and whether productivity claims show up in measurable outcomes.",
+      "keyFacts": [
+        "Published June 29, 2026 by AI News",
+        "HP is positioning OpenAI Frontier inside enterprise workflow products",
+        "The use cases center on documents, meetings, and workplace knowledge",
+        "The story is an enterprise-adoption signal rather than a new-model release"
+      ],
+      "url": "https://www.artificialintelligence-news.com/news/hp-accelerates-enterprise-workflows-openai-frontier/",
+      "sourceName": "AI News",
+      "relatedSources": [
+        "AI News",
+        "HP",
+        "OpenAI"
+      ],
+      "lane": "products-adoption",
+      "publishedAt": "2026-06-29T09:00:00.000Z",
+      "importance": 760,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-29T13:55:00.000Z",
+      "whyItMatters": "This is the practical side of frontier-model adoption: the winners may be the companies that package AI into daily enterprise workflows, not only the labs shipping models."
+    },
+    {
+      "id": "curated-ai-news-wimbledon-ibm-generative-ai-coverage-2026-06-29",
+      "title": "Wimbledon adds IBM generative AI tools to live match coverage",
+      "summary": "AI News reported that Wimbledon and IBM are using generative AI for live match coverage, fan summaries, and tournament storytelling.",
+      "fullSummary": "AI News reported that Wimbledon is expanding its IBM partnership with generative AI features for live match coverage and fan-facing tournament storytelling. The story is not about a new model benchmark; it is about AI becoming normal inside major live events, where summaries, highlights, and context need to be produced quickly at scale. Sports is a useful test bed because the data is structured, the audience is large, and mistakes are immediately visible.",
+      "keyFacts": [
+        "Published June 29, 2026 by AI News",
+        "Wimbledon and IBM are adding generative AI to match coverage",
+        "The tools target live summaries and fan-facing context",
+        "The deployment extends a long-running IBM sports technology partnership"
+      ],
+      "url": "https://www.artificialintelligence-news.com/news/wimbledon-ibm-ai-tools-live-match-coverage/",
+      "sourceName": "AI News",
+      "relatedSources": [
+        "AI News",
+        "IBM",
+        "Wimbledon"
+      ],
+      "lane": "products-adoption",
+      "publishedAt": "2026-06-29T08:30:00.000Z",
+      "importance": 735,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-29T13:55:00.000Z",
+      "whyItMatters": "Live sports is a visible proof point for whether AI can create useful real-time context without flattening the event into generic summaries."
+    },
+    {
+      "id": "curated-verge-prosecutors-chatgpt-logs-palisades-2026-06-29",
+      "title": "Prosecutors used ChatGPT logs as evidence in the Palisades fire trial",
+      "summary": "The Verge reported that prosecutors used ChatGPT logs in the Palisades fire trial, but the jury deadlocked after some jurors found the AI-chat evidence unpersuasive.",
+      "fullSummary": "The Verge reported that prosecutors used ChatGPT logs in the Palisades fire trial alongside phone-location data, security footage, and witness testimony. Prosecutors pointed to prompts and conversations about fire, anger, and blame, but the jury deadlocked 10-2 in favor of the defense and the judge declared a mistrial. The useful signal is not that AI logs automatically prove intent; it is that ordinary AI conversations are already entering criminal evidence, where jurors may read them very differently from prosecutors.",
+      "keyFacts": [
+        "Published June 28, 2026 by The Verge",
+        "Prosecutors introduced ChatGPT logs in the Palisades fire trial",
+        "The jury deadlocked 10-2 in favor of the defense, leading to a mistrial",
+        "A juror said the ChatGPT evidence did not prove criminal intent"
+      ],
+      "url": "https://www.theverge.com/ai-artificial-intelligence/958751/prosecutors-chatgpt-palisades-wildfire-arson-mistrial",
+      "sourceName": "The Verge",
+      "relatedSources": [
+        "The Verge",
+        "OpenAI"
+      ],
+      "lane": "policy-safety",
+      "publishedAt": "2026-06-28T20:05:00.000Z",
+      "importance": 775,
+      "sourceConfidence": "high",
+      "filterCategory": "pushback",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-29T13:55:00.000Z",
+      "whyItMatters": "People treat AI chats like disposable conversations, but courts may treat them like records, and juries may still reject them as proof of intent."
+    },
+    {
+      "id": "curated-ap-nvidia-chipsets-china-ai-factories-2026-06-28",
+      "title": "AP tracks Nvidia chipsets inside Chinese AI factories despite curbs",
+      "summary": "AP reported on Nvidia chipsets turning up in Chinese AI factories, underscoring how export controls and domestic alternatives are colliding in the AI hardware race.",
+      "fullSummary": "AP reported on Nvidia chipsets appearing inside Chinese AI factories despite U.S. restrictions and Huawei's domestic-chip push. The story is a useful policy-and-infrastructure signal: export controls do not simply stop demand, they reshape supply routes, substitution plans, and enforcement questions. It also adds context to China's AI hardware race, where domestic accelerators and restricted Nvidia parts are both part of the current buildout.",
+      "keyFacts": [
+        "Published June 28, 2026 by AP",
+        "The story focuses on Nvidia chipsets and Chinese AI factories",
+        "It connects U.S. restrictions, Huawei alternatives, and AI hardware demand",
+        "The issue is both an infrastructure and policy-enforcement story"
+      ],
+      "url": "https://apnews.com/article/ai-chips-nvidia-huawei-china-1ae6228c4928ddbb43f984e9b38f49dd",
+      "sourceName": "Associated Press",
+      "relatedSources": [
+        "Associated Press",
+        "Nvidia",
+        "Huawei"
+      ],
+      "lane": "infrastructure",
+      "publishedAt": "2026-06-28T12:00:00.000Z",
+      "importance": 780,
+      "sourceConfidence": "high",
+      "filterCategory": "pushback",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-29T13:55:00.000Z",
+      "whyItMatters": "The chip-control story is moving from policy statements into messy enforcement and substitution on factory floors."
+    },
+    {
+      "id": "curated-verge-suno-spark-music-ai-incubator-2026-06-28",
+      "title": "Suno launches Spark incubator with restrictive artist terms",
+      "summary": "The Verge reported that Suno launched Spark for independent artists, but the program's terms give Suno broad rights and include non-disparagement language.",
+      "fullSummary": "The Verge reported that Suno launched Spark, an incubator program for independent artists that offers grants, mentorship, and marketing support. The catch is in the terms: artists must make songs available for remixing, grant Suno broad rights to use and create derivative works, waive trial and class-action rights, and agree to positive-promotion/non-disparagement language. That makes Spark more than a creator-support program; it is part of the ongoing fight over whether AI music platforms can win artists over while keeping broad control over the underlying rights.",
+      "keyFacts": [
+        "Published June 28, 2026 by The Verge",
+        "Suno launched the Spark incubator for unsigned artists",
+        "Participants grant Suno broad rights and agree to restrictive terms",
+        "The program arrives while Suno faces artist criticism and litigation pressure"
+      ],
+      "url": "https://www.theverge.com/ai-artificial-intelligence/958801/suno-launches-spark-incubator-program-to-feed-independent-artists-to-its-ai-machine",
+      "sourceName": "The Verge",
+      "relatedSources": [
+        "The Verge",
+        "Suno"
+      ],
+      "lane": "policy-safety",
+      "publishedAt": "2026-06-28T10:00:00.000Z",
+      "importance": 720,
+      "sourceConfidence": "high",
+      "filterCategory": "pushback",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-29T13:55:00.000Z",
+      "whyItMatters": "Creator programs are becoming part of the AI music industry's legal and reputational strategy, and the terms matter as much as the grants."
+    },
+    {
+      "id": "curated-arxiv-agent-native-immune-system-2026-06-28",
+      "title": "Researchers propose an immune-system model for agent safety",
+      "summary": "A new arXiv paper, Agent-Native Immune System, proposes a layered defense model for detecting and responding to unsafe agent behavior.",
+      "fullSummary": "A new arXiv paper titled Agent-Native Immune System proposes a defense framework for AI agents that borrows the language of immune systems: monitoring, anomaly detection, containment, and adaptive response. The paper is relevant because agent safety is shifting from static model evaluation to runtime control. As agents get tool access, memory, and delegated tasks, the security layer has to watch behavior over time instead of only screening prompts at the front door.",
+      "keyFacts": [
+        "Listed on arXiv cs.AI recent on June 28, 2026",
+        "The paper focuses on runtime safety for AI agents",
+        "It frames defenses around immune-system-style detection and containment",
+        "The topic connects agentic AI with security and governance"
+      ],
+      "url": "https://arxiv.org/abs/2606.28270",
+      "sourceName": "arXiv",
+      "relatedSources": [
+        "arXiv"
+      ],
+      "lane": "papers",
+      "publishedAt": "2026-06-28T00:00:00.000Z",
+      "importance": 730,
+      "sourceConfidence": "medium",
+      "filterCategory": "papers",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-29T13:55:00.000Z",
+      "whyItMatters": "Agent safety needs runtime defenses; prompt filters alone are too thin once systems can act across tools and workflows."
+    },
+    {
+      "id": "curated-arxiv-tandem-rl-language-action-learning-2026-06-28",
+      "title": "Tandem reinforcement learning links language and action for agents",
+      "summary": "A new arXiv paper on Tandem Reinforcement Learning proposes a way to jointly train language and action policies for more capable agents.",
+      "fullSummary": "A new arXiv paper on Tandem Reinforcement Learning proposes a training approach for agents that links language reasoning with action policies. The paper is worth tracking because many agent failures come from the gap between saying the right plan and executing the right sequence of actions. Better joint training could matter for web agents, robotics, and tool-using systems where language is only part of the task.",
+      "keyFacts": [
+        "Listed on arXiv cs.AI recent on June 28, 2026",
+        "The paper studies tandem reinforcement learning for agents",
+        "It connects language reasoning with action-policy learning",
+        "The work is relevant to tool-using agents and embodied AI"
+      ],
+      "url": "https://arxiv.org/abs/2606.28166",
+      "sourceName": "arXiv",
+      "relatedSources": [
+        "arXiv"
+      ],
+      "lane": "papers",
+      "publishedAt": "2026-06-28T00:00:00.000Z",
+      "importance": 710,
+      "sourceConfidence": "medium",
+      "filterCategory": "papers",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-29T13:55:00.000Z",
+      "whyItMatters": "The agent race is increasingly about connecting reasoning to reliable action, not just making models sound more capable."
+    },
     {
       "id": "curated-techcrunch-softbank-orbital-data-center-skepticism-2026-06-27",
       "title": "SoftBank's Son questions orbital data centers as an AI compute fix",
@@ -19555,5 +19738,5 @@
     }
   ],
   "errors": [],
-  "totalItems": 687
+  "totalItems": 711
 }
