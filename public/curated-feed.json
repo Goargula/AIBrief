@@ -1,9 +1,298 @@
 {
-  "generatedAt": "2026-06-29T13:55:00.000Z",
-  "nextRefreshAt": "2026-06-30T01:55:00.000Z",
+  "generatedAt": "2026-06-29T15:20:00.000Z",
+  "nextRefreshAt": "2026-06-30T03:20:00.000Z",
   "summaryEngine": "chat-curated",
   "curated": true,
   "items": [
+    {
+      "id": "curated-techcrunch-omen-ai-water-data-centers-2026-06-29",
+      "title": "Omen AI pitches water-based optimization for data centers",
+      "summary": "TechCrunch reported on Omen AI, a startup trying to optimize data-center cooling and operations as AI workloads increase pressure on infrastructure.",
+      "fullSummary": "TechCrunch reported on Omen AI, whose pitch is that data-center optimization needs to account for water, cooling, and physical constraints as AI workloads grow. The story is useful because AI infrastructure is not only a chip-supply problem; cooling, power, and operational efficiency increasingly decide whether new capacity can be deployed economically. Omen is still an early company, so the claim to watch is whether it can move from optimization pitch to measurable savings in real facilities.",
+      "keyFacts": [
+        "Published June 29, 2026 by TechCrunch",
+        "Omen AI focuses on data-center optimization",
+        "The story connects AI demand with water and cooling constraints",
+        "The company is an infrastructure startup, not a model lab"
+      ],
+      "url": "https://techcrunch.com/2026/06/29/omen-ais-plan-to-optimize-data-centers-is-all-wet/",
+      "sourceName": "TechCrunch",
+      "relatedSources": [
+        "TechCrunch",
+        "Omen AI"
+      ],
+      "lane": "infrastructure",
+      "publishedAt": "2026-06-29T14:00:00.000Z",
+      "importance": 775,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-29T15:20:00.000Z",
+      "whyItMatters": "AI capacity is increasingly constrained by real estate, water, and power; optimization software is becoming part of the infrastructure stack."
+    },
+    {
+      "id": "curated-techcrunch-pocket-11m-ai-note-taking-devices-2026-06-29",
+      "title": "Pocket raises $11M for AI note-taking devices",
+      "summary": "TechCrunch reported that Pocket raised $11 million to build AI note-taking devices as demand grows for dedicated capture hardware.",
+      "fullSummary": "TechCrunch reported that Pocket raised $11 million for AI note-taking devices. The bet is that ambient capture and summarization may work better as dedicated hardware than as yet another phone app, especially for meetings, field work, and personal memory use cases. The risk is that hardware has to justify itself against increasingly capable phones and wearables, but the funding shows investors still see room for AI-native devices outside the major platform companies.",
+      "keyFacts": [
+        "Published June 29, 2026 by TechCrunch",
+        "Pocket raised $11 million",
+        "The company is building AI note-taking devices",
+        "The story is a consumer/workflow hardware bet"
+      ],
+      "url": "https://techcrunch.com/2026/06/29/pocket-raises-11m-in-bet-on-rising-demand-for-ai-note-taking-devices/",
+      "sourceName": "TechCrunch",
+      "relatedSources": [
+        "TechCrunch",
+        "Pocket"
+      ],
+      "lane": "funding",
+      "publishedAt": "2026-06-29T13:20:00.000Z",
+      "importance": 735,
+      "sourceConfidence": "high",
+      "filterCategory": "funding",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-29T15:20:00.000Z",
+      "whyItMatters": "AI hardware keeps testing whether capture-and-summary workflows deserve a dedicated device or will collapse back into phones and apps."
+    },
+    {
+      "id": "curated-et-tech-mahindra-perplexity-sales-ai-2026-06-29",
+      "title": "Tech Mahindra partners with Perplexity to boost sales work with AI",
+      "summary": "Economic Times reported that Tech Mahindra is collaborating with Perplexity to bring AI-assisted search and answer workflows into sales operations.",
+      "fullSummary": "Economic Times reported that Tech Mahindra is collaborating with Perplexity to improve sales workflows with AI. The story is a practical enterprise-adoption signal: services firms are not only selling AI transformation to clients, they are using AI search and answer engines inside their own revenue operations. The important question is whether these tools shorten research and proposal cycles without creating new accuracy or compliance risks.",
+      "keyFacts": [
+        "Published June 29, 2026 by Economic Times",
+        "Tech Mahindra is collaborating with Perplexity",
+        "The focus is AI support for sales workflows",
+        "The story adds to Indian IT-services AI adoption coverage"
+      ],
+      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/tech-mahindra-collaborates-with-perplexity-to-boost-sales-with-ai/articleshow/132070897.cms",
+      "sourceName": "Economic Times",
+      "relatedSources": [
+        "Economic Times",
+        "Tech Mahindra",
+        "Perplexity"
+      ],
+      "lane": "products-adoption",
+      "publishedAt": "2026-06-29T12:45:00.000Z",
+      "importance": 755,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-29T15:20:00.000Z",
+      "whyItMatters": "Services companies are becoming live examples of enterprise AI adoption, not just consultants advising everyone else to adopt it."
+    },
+    {
+      "id": "curated-et-ai-boom-rolling-bubbles-macquarie-2026-06-29",
+      "title": "Macquarie warns the AI boom may pop in rolling bubbles",
+      "summary": "Economic Times reported Macquarie's view that the AI boom is more likely to unwind through rolling sector bubbles than one sudden crash.",
+      "fullSummary": "Economic Times reported that Macquarie expects the AI boom to deflate in rolling bubbles rather than one clean market crash. The argument matters because AI exposure is now spread across chips, power, software, devices, data centers, and services. That means weak economics in one lane may not end the whole cycle, but it can still punish overbuilt or overvalued pockets of the market.",
+      "keyFacts": [
+        "Published June 29, 2026 by Economic Times",
+        "Macquarie described possible rolling AI bubbles",
+        "The story focuses on market risk across AI-linked sectors",
+        "It separates broad AI demand from overheated sub-segments"
+      ],
+      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/the-ai-boom-wont-burst-all-at-once-it-will-pop-in-rolling-bubbles-macquarie/articleshow/132072483.cms",
+      "sourceName": "Economic Times",
+      "relatedSources": [
+        "Economic Times",
+        "Macquarie"
+      ],
+      "lane": "infrastructure",
+      "publishedAt": "2026-06-29T12:20:00.000Z",
+      "importance": 750,
+      "sourceConfidence": "high",
+      "filterCategory": "pushback",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-29T15:20:00.000Z",
+      "whyItMatters": "AI risk is becoming segmented; investors and operators need to know which parts of the boom have real demand and which are just riding the label."
+    },
+    {
+      "id": "curated-et-korea-samsung-sk-hynix-576b-ai-chip-drive-2026-06-29",
+      "title": "South Korea lines up Samsung and SK Hynix for a $576B AI-chip drive",
+      "summary": "Economic Times reported that South Korea is mobilizing Samsung and SK Hynix around a $576 billion AI-chip push to strengthen national semiconductor leadership.",
+      "fullSummary": "Economic Times reported that South Korea is leaning on Samsung and SK Hynix for a $576 billion AI-chip drive. The strategic point is that AI infrastructure policy is now industrial policy: memory, packaging, manufacturing capacity, and export positioning all matter for who controls the AI stack. The story also explains why chip-market coverage increasingly belongs in the AI feed rather than only in semiconductor pages.",
+      "keyFacts": [
+        "Published June 29, 2026 by Economic Times",
+        "South Korea is linking its AI-chip plan to Samsung and SK Hynix",
+        "The reported drive is $576 billion",
+        "The story is tied to AI infrastructure and national semiconductor strategy"
+      ],
+      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/korea-taps-samsung-sk-hynix-in-576-billion-ai-chip-drive-to-cement-global-leadership/articleshow/132070207.cms",
+      "sourceName": "Economic Times",
+      "relatedSources": [
+        "Economic Times",
+        "Samsung",
+        "SK Hynix"
+      ],
+      "lane": "infrastructure",
+      "publishedAt": "2026-06-29T11:55:00.000Z",
+      "importance": 800,
+      "sourceConfidence": "high",
+      "filterCategory": "funding",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-29T15:20:00.000Z",
+      "whyItMatters": "The AI race is becoming a national semiconductor-capacity race, and memory leaders are now strategic infrastructure players."
+    },
+    {
+      "id": "curated-et-cheaper-ai-model-routing-costs-2026-06-29",
+      "title": "Cheaper AI models reshape enterprise model choices",
+      "summary": "Economic Times reported that rising AI bills are pushing companies to route more work to cheaper models instead of defaulting to the biggest frontier systems.",
+      "fullSummary": "Economic Times reported that cheaper AI options are changing how businesses choose models as usage bills climb. The practical shift is from prestige-model selection to workload matching: less expensive systems may be good enough for routine internal tasks, while frontier models are reserved for work where extra capability justifies the cost. This is one of the clearest signs that enterprise AI is moving from experimentation into procurement discipline.",
+      "keyFacts": [
+        "Published June 29, 2026 by Economic Times",
+        "The article focuses on cheaper AI models and rising usage bills",
+        "Companies are becoming more selective about when to use frontier systems",
+        "The story is about enterprise cost control and model routing"
+      ],
+      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/cheaper-ai-is-better-soaring-bills-are-reshaping-how-businesses-choose-models/articleshow/132069933.cms",
+      "sourceName": "Economic Times",
+      "relatedSources": [
+        "Economic Times"
+      ],
+      "lane": "products-adoption",
+      "publishedAt": "2026-06-29T11:30:00.000Z",
+      "importance": 770,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-29T15:20:00.000Z",
+      "whyItMatters": "The next AI platform battle may be decided by routing and unit economics as much as raw benchmark leadership."
+    },
+    {
+      "id": "curated-et-kpmg-ai-management-skill-2031-2026-06-29",
+      "title": "KPMG says AI management will become a core tech-executive skill",
+      "summary": "Economic Times reported a KPMG finding that 92% of tech executives see AI management as a vital work skill by 2031.",
+      "fullSummary": "Economic Times reported that 92% of tech executives in a KPMG-linked finding see AI management as a vital work skill by 2031. The story is less about another adoption percentage and more about the management layer forming around AI: choosing tools, governing usage, measuring outputs, and deciding where humans stay accountable. That is where many companies are now stuck after the first wave of pilots.",
+      "keyFacts": [
+        "Published June 29, 2026 by Economic Times",
+        "KPMG found 92% of tech executives see AI management as vital by 2031",
+        "The story focuses on management and governance skills",
+        "It adds to the enterprise adoption and workforce lane"
+      ],
+      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/92-of-tech-executives-see-ai-management-as-vital-work-skill-by-2031-kpmg/articleshow/132061694.cms",
+      "sourceName": "Economic Times",
+      "relatedSources": [
+        "Economic Times",
+        "KPMG"
+      ],
+      "lane": "products-adoption",
+      "publishedAt": "2026-06-29T10:45:00.000Z",
+      "importance": 730,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-29T15:20:00.000Z",
+      "whyItMatters": "AI adoption is creating a management discipline around governance, measurement, and accountability, not just a demand for prompt tricks."
+    },
+    {
+      "id": "curated-et-india-fine-china-ai-models-2026-06-29",
+      "title": "Indian firms weigh Chinese AI models as U.S. frontier access tightens",
+      "summary": "Economic Times reported that Indian companies are considering Chinese AI alternatives as U.S. frontier-model access and cost pressures reshape model sourcing.",
+      "fullSummary": "Economic Times reported that Indian companies are weighing Chinese AI models as alternatives to OpenAI and Anthropic systems, especially where cost and access matter. The story connects model economics with regional AI competition: if Chinese systems are cheap and capable enough, enterprise buyers may route more workloads to them even while geopolitical caution remains. That makes model choice a business-risk decision, not only a technical benchmark decision.",
+      "keyFacts": [
+        "Published June 29, 2026 by Economic Times",
+        "Indian firms are weighing Chinese AI alternatives",
+        "The article frames the move against U.S. frontier-model access and cost pressure",
+        "The story adds a regional angle to model competition"
+      ],
+      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/alternatives-to-openai-anthropic-with-us-prime-ai-off-the-table-india-opts-for-fine-china/articleshow/132057030.cms",
+      "sourceName": "Economic Times",
+      "relatedSources": [
+        "Economic Times",
+        "OpenAI",
+        "Anthropic"
+      ],
+      "lane": "regional",
+      "publishedAt": "2026-06-29T10:10:00.000Z",
+      "importance": 775,
+      "sourceConfidence": "high",
+      "filterCategory": "models",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-29T15:20:00.000Z",
+      "whyItMatters": "India is a price-sensitive enterprise market; lower-cost Chinese models could pressure U.S. labs even without winning every frontier benchmark."
+    },
+    {
+      "id": "curated-et-baidu-kunlunxin-50b-hk-ipo-2026-06-29",
+      "title": "Baidu AI-chip unit Kunlunxin targets $50B Hong Kong IPO",
+      "summary": "Economic Times reported that Baidu's Kunlunxin AI-chip unit is targeting a Hong Kong listing at a reported valuation near $50 billion.",
+      "fullSummary": "Economic Times reported that Baidu's AI-chip unit Kunlunxin is targeting a Hong Kong IPO, with the article pointing to a valuation near $50 billion. The listing would turn China's AI-chip push into a public-market story and give investors another way to price domestic alternatives to U.S. accelerator supply. It also shows how model competition, export controls, and chip financing are now tangled together.",
+      "keyFacts": [
+        "Published June 29, 2026 by Economic Times",
+        "Baidu's Kunlunxin AI-chip unit is targeting a Hong Kong IPO",
+        "The article cited a valuation near $50 billion",
+        "The story is tied to China's domestic AI accelerator strategy"
+      ],
+      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/baidus-ai-chip-unit-kunlunxin-targets-50-billion-hong-kong-ipo-report/articleshow/132057709.cms",
+      "sourceName": "Economic Times",
+      "relatedSources": [
+        "Economic Times",
+        "Baidu",
+        "Kunlunxin"
+      ],
+      "lane": "infrastructure",
+      "publishedAt": "2026-06-29T09:55:00.000Z",
+      "importance": 780,
+      "sourceConfidence": "high",
+      "filterCategory": "funding",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-29T15:20:00.000Z",
+      "whyItMatters": "China's AI-chip race is moving from lab capability into capital markets, where domestic accelerator companies can raise and signal strategic scale."
+    },
+    {
+      "id": "curated-et-firmus-nvidia-ai-access-deal-2026-06-29",
+      "title": "Australia's Firmus strikes AI access deal with Nvidia",
+      "summary": "Economic Times reported that Firmus Technologies struck an AI access deal with Nvidia, extending the sovereign and regional compute buildout story.",
+      "fullSummary": "Economic Times reported that Australia's Firmus Technologies struck an AI access deal with Nvidia. The story fits the wider regional compute buildout: companies outside the U.S. hyperscaler core are trying to secure access to advanced AI infrastructure through Nvidia-linked partnerships. Firmus has already appeared in the feed as part of the APAC AI-infrastructure lane, and this update shows the same regional compute story continuing.",
+      "keyFacts": [
+        "Published June 29, 2026 by Economic Times",
+        "Firmus Technologies struck an AI access deal with Nvidia",
+        "The story adds to Australia and APAC sovereign-compute coverage",
+        "The update is infrastructure-focused rather than consumer AI news"
+      ],
+      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/australias-firmus-technologies-strikes-ai-access-deal-with-nvidia/articleshow/132052795.cms",
+      "sourceName": "Economic Times",
+      "relatedSources": [
+        "Economic Times",
+        "Firmus Technologies",
+        "Nvidia"
+      ],
+      "lane": "infrastructure",
+      "publishedAt": "2026-06-29T09:35:00.000Z",
+      "importance": 745,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-29T15:20:00.000Z",
+      "whyItMatters": "Regional AI capacity depends on who can actually get Nvidia-linked compute, not only who announces national AI ambitions."
+    },
+    {
+      "id": "curated-et-iit-alumni-ai-training-migrant-workers-singapore-2026-06-29",
+      "title": "IIT alumni plan AI training for migrant workers in Singapore",
+      "summary": "Economic Times reported that IIT alumni will provide AI training to migrant workers in Singapore, adding a workforce-upskilling angle to regional AI adoption.",
+      "fullSummary": "Economic Times reported that IIT alumni are planning AI training for migrant workers in Singapore. The story shows AI literacy spreading into worker-training programs outside the usual white-collar software audience. The useful question is whether these programs produce practical job mobility and safer tool use, or remain symbolic upskilling announcements.",
+      "keyFacts": [
+        "Published June 29, 2026 by Economic Times",
+        "IIT alumni are linked to AI training for migrant workers in Singapore",
+        "The story is a regional workforce-upskilling item",
+        "It broadens AI adoption coverage beyond executives and developers"
+      ],
+      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/iit-alumni-to-provide-ai-training-to-migrant-workers-in-singapore/articleshow/132050667.cms",
+      "sourceName": "Economic Times",
+      "relatedSources": [
+        "Economic Times"
+      ],
+      "lane": "regional",
+      "publishedAt": "2026-06-29T09:10:00.000Z",
+      "importance": 700,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-29T15:20:00.000Z",
+      "whyItMatters": "AI upskilling is moving beyond corporate pilots; the test is whether it reaches workers who are usually downstream of automation decisions."
+    },
     {
       "id": "curated-ai-news-hp-openai-frontier-enterprise-workflows-2026-06-29",
       "title": "HP brings OpenAI Frontier into enterprise workflows",
@@ -30,6 +319,56 @@
       "summaryEngine": "chat-curated",
       "curatedAt": "2026-06-29T13:55:00.000Z",
       "whyItMatters": "This is the practical side of frontier-model adoption: the winners may be the companies that package AI into daily enterprise workflows, not only the labs shipping models."
+    },
+    {
+      "id": "curated-register-ai-vulns-human-stupidity-2026-06-29",
+      "title": "The Register says AI vulnerability hunting still cannot beat bad human security habits",
+      "summary": "The Register argued that AI can help find software vulnerabilities, but attackers still often succeed through basic human and operational security failures.",
+      "fullSummary": "The Register reported that AI may be good at finding security vulnerabilities, but it cannot beat human stupidity. The piece is a useful corrective to the idea that Mythos-like cyber models are the whole security story: many real-world compromises still start with poor configuration, weak process, exposed secrets, or users taking unsafe actions. The AI angle matters because better vulnerability discovery can raise patch pressure while leaving the oldest operational risks untouched.",
+      "keyFacts": [
+        "Published June 29, 2026 by The Register",
+        "The article discusses AI vulnerability discovery",
+        "It argues basic human and operational failures remain exploitable",
+        "The story connects AI security tooling with real-world security practice"
+      ],
+      "url": "https://www.theregister.com/security/2026/06/29/ai-may-be-good-at-finding-security-vulnerabilities-but-it-cant-beat-human-stupidity/5263262",
+      "sourceName": "The Register",
+      "relatedSources": [
+        "The Register"
+      ],
+      "lane": "policy-safety",
+      "publishedAt": "2026-06-29T08:55:00.000Z",
+      "importance": 740,
+      "sourceConfidence": "high",
+      "filterCategory": "pushback",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-29T15:20:00.000Z",
+      "whyItMatters": "AI security tools may find more bugs, but organizations still lose when basic process and configuration discipline fail."
+    },
+    {
+      "id": "curated-unite-agentic-ai-secops-context-crisis-2026-06-29",
+      "title": "Unite.AI says agentic AI creates a context crisis for security teams",
+      "summary": "Unite.AI argued that defending against agentic AI threats requires AI-assisted security operations that can preserve context across alerts and actions.",
+      "fullSummary": "Unite.AI argued that the rise of agentic AI is creating a context crisis for security operations. The core point is that attackers and defenders are both using automation, but defensive tools still struggle to connect alerts, identities, behaviors, and business context quickly enough. This is a medium-confidence expert piece rather than a hard-news report, but it captures a real shift: AI security is moving from isolated detection toward systems that can reason across workflows.",
+      "keyFacts": [
+        "Published June 29, 2026 by Unite.AI",
+        "The article focuses on agentic AI and security operations",
+        "It argues context is becoming the main defense bottleneck",
+        "The piece is expert analysis rather than a company funding announcement"
+      ],
+      "url": "https://www.unite.ai/agentic-ai-secops-transformation/",
+      "sourceName": "Unite.AI",
+      "relatedSources": [
+        "Unite.AI"
+      ],
+      "lane": "policy-safety",
+      "publishedAt": "2026-06-29T08:30:00.000Z",
+      "importance": 710,
+      "sourceConfidence": "medium",
+      "filterCategory": "pushback",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-29T15:20:00.000Z",
+      "whyItMatters": "Security teams need AI that preserves context, not just more automated alerts, as agents increase the speed of both attack and defense."
     },
     {
       "id": "curated-ai-news-wimbledon-ibm-generative-ai-coverage-2026-06-29",
@@ -59,6 +398,56 @@
       "whyItMatters": "Live sports is a visible proof point for whether AI can create useful real-time context without flattening the event into generic summaries."
     },
     {
+      "id": "curated-unite-ai-infrastructure-readiness-gap-2026-06-29",
+      "title": "Unite.AI asks whether enterprise infrastructure is ready for AI",
+      "summary": "Unite.AI highlighted an infrastructure-readiness gap as companies adopt AI faster than their IT operations and governance can safely support it.",
+      "fullSummary": "Unite.AI highlighted an AI infrastructure-readiness gap, arguing that companies are adopting AI faster than their IT operations, governance, and reliability practices can support it. The story overlaps with recent incident and cost-control coverage: AI systems create new workloads, permissions, data flows, and operational dependencies. The useful signal is that adoption bottlenecks are shifting from model access to whether the rest of the enterprise stack can handle AI safely.",
+      "keyFacts": [
+        "Published June 29, 2026 by Unite.AI",
+        "The article focuses on AI infrastructure readiness",
+        "It connects AI adoption with IT operations and governance gaps",
+        "The story is enterprise-risk analysis"
+      ],
+      "url": "https://www.unite.ai/agentic-ai-infrastructure-readiness-gap-it-operations/",
+      "sourceName": "Unite.AI",
+      "relatedSources": [
+        "Unite.AI"
+      ],
+      "lane": "infrastructure",
+      "publishedAt": "2026-06-29T08:00:00.000Z",
+      "importance": 715,
+      "sourceConfidence": "medium",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-29T15:20:00.000Z",
+      "whyItMatters": "AI projects fail when the surrounding infrastructure, permissions, and operations cannot keep up with model deployment."
+    },
+    {
+      "id": "curated-unite-mid-market-ai-payoff-gap-2026-06-29",
+      "title": "Unite.AI says AI is not yet paying off for many middle-market firms",
+      "summary": "Unite.AI reported on a middle-market AI adoption gap, arguing that many firms are adopting tools faster than they are seeing measurable payoff.",
+      "fullSummary": "Unite.AI reported on why AI is not yet paying off for many middle-market companies. The story matters because most AI coverage overweights hyperscalers and frontier labs, while the harder economic question is whether ordinary companies can turn AI tools into measurable productivity, margin, or customer-service gains. It also fits the broader pattern of companies moving from AI enthusiasm into outcome measurement.",
+      "keyFacts": [
+        "Published June 29, 2026 by Unite.AI",
+        "The article focuses on middle-market AI adoption",
+        "It argues payoff is lagging behind tool uptake",
+        "The story connects adoption with measurable business outcomes"
+      ],
+      "url": "https://www.unite.ai/cbiz-mid-market-pulse-report-ai-adoption-gap/",
+      "sourceName": "Unite.AI",
+      "relatedSources": [
+        "Unite.AI"
+      ],
+      "lane": "products-adoption",
+      "publishedAt": "2026-06-29T07:45:00.000Z",
+      "importance": 725,
+      "sourceConfidence": "medium",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-29T15:20:00.000Z",
+      "whyItMatters": "The economic test for AI is not whether big labs can sell tools, but whether ordinary firms can turn them into measurable gains."
+    },
+    {
       "id": "curated-verge-prosecutors-chatgpt-logs-palisades-2026-06-29",
       "title": "Prosecutors used ChatGPT logs as evidence in the Palisades fire trial",
       "summary": "The Verge reported that prosecutors used ChatGPT logs in the Palisades fire trial, but the jury deadlocked after some jurors found the AI-chat evidence unpersuasive.",
@@ -83,6 +472,137 @@
       "summaryEngine": "chat-curated",
       "curatedAt": "2026-06-29T13:55:00.000Z",
       "whyItMatters": "People treat AI chats like disposable conversations, but courts may treat them like records, and juries may still reject them as proof of intent."
+    },
+    {
+      "id": "curated-techcrunch-ford-gray-beard-engineers-ai-falls-short-2026-06-28",
+      "title": "Ford rehires engineers after AI falls short",
+      "summary": "TechCrunch reported that Ford rehired experienced engineers after AI tools fell short of what the company needed in vehicle-software work.",
+      "fullSummary": "TechCrunch reported that Ford rehired experienced ?gray beard? engineers after AI tools did not deliver enough of the vehicle-software work the company needed. The story is a useful counterweight to simple automation claims: software in cars has safety, integration, and hardware constraints that are harder than producing generic code suggestions. It also shows that AI adoption can produce reversals, not only layoffs, when model output does not match production requirements.",
+      "keyFacts": [
+        "Published June 28, 2026 by TechCrunch",
+        "Ford rehired experienced engineers",
+        "AI tools fell short for vehicle-software work",
+        "The story is a workforce and deployment-outcome signal"
+      ],
+      "url": "https://techcrunch.com/2026/06/28/ford-rehires-gray-beard-engineers-after-ai-falls-short/",
+      "sourceName": "TechCrunch",
+      "relatedSources": [
+        "TechCrunch",
+        "Ford"
+      ],
+      "lane": "workforce",
+      "publishedAt": "2026-06-28T19:05:00.000Z",
+      "importance": 800,
+      "sourceConfidence": "high",
+      "filterCategory": "pushback",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-29T15:20:00.000Z",
+      "whyItMatters": "This is a concrete reversal story: AI can change headcount plans, but it cannot erase domain expertise when production software has hard constraints."
+    },
+    {
+      "id": "curated-unite-tokenmaxxing-ai-cost-challenges-2026-06-28",
+      "title": "Unite.AI says 'tokenmaxxing' exposes AI cost-control problems",
+      "summary": "Unite.AI argued that heavy AI usage is creating token-cost pressure and forcing companies to manage model consumption more carefully.",
+      "fullSummary": "Unite.AI argued that 'tokenmaxxing' is exposing AI cost challenges as companies scale agent and chatbot usage. The specific term is catchy, but the underlying issue is practical: AI spend can grow quietly through small tasks, long contexts, repeated retries, and always-on agents. This ties directly to enterprise cost-routing stories, where companies need usage policies and model selection instead of assuming every task deserves the largest model.",
+      "keyFacts": [
+        "Published June 28, 2026 by Unite.AI",
+        "The article focuses on token consumption and AI costs",
+        "It describes cost pressure from heavy AI usage",
+        "The story complements enterprise model-routing coverage"
+      ],
+      "url": "https://www.unite.ai/tokenmaxxing-reveals-ai-cost-challenges/",
+      "sourceName": "Unite.AI",
+      "relatedSources": [
+        "Unite.AI"
+      ],
+      "lane": "products-adoption",
+      "publishedAt": "2026-06-28T17:20:00.000Z",
+      "importance": 710,
+      "sourceConfidence": "medium",
+      "filterCategory": "pushback",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-29T15:20:00.000Z",
+      "whyItMatters": "AI cost control is becoming an operating discipline, especially as agents multiply small, expensive model calls."
+    },
+    {
+      "id": "curated-unite-cheap-claude-agents-ending-2026-06-28",
+      "title": "Unite.AI says the cheap era of always-on Claude agents is ending",
+      "summary": "Unite.AI argued that always-on Claude agents are becoming more expensive to run, making agent economics a central enterprise concern.",
+      "fullSummary": "Unite.AI argued that the cheap era of always-on Claude agents is quietly ending. The story is analysis rather than a single company announcement, but it captures an important buyer concern: persistent agents can create ongoing inference costs that look small per action and large at scale. Companies evaluating agents need to price monitoring, retries, context windows, tool calls, and supervision, not just the headline model rate.",
+      "keyFacts": [
+        "Published June 28, 2026 by Unite.AI",
+        "The article focuses on the economics of always-on Claude agents",
+        "It argues persistent agents can become costly at scale",
+        "The story is an agent-economics analysis"
+      ],
+      "url": "https://www.unite.ai/the-cheap-era-of-always-on-claude-agents-is-quietly-ending/",
+      "sourceName": "Unite.AI",
+      "relatedSources": [
+        "Unite.AI",
+        "Anthropic"
+      ],
+      "lane": "products-adoption",
+      "publishedAt": "2026-06-28T16:30:00.000Z",
+      "importance": 705,
+      "sourceConfidence": "medium",
+      "filterCategory": "pushback",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-29T15:20:00.000Z",
+      "whyItMatters": "Agent deployments need real cost models; otherwise ?always on? becomes a budget leak rather than an automation strategy."
+    },
+    {
+      "id": "curated-ap-south-korea-518b-chip-hub-ai-demand-2026-06-28",
+      "title": "AP says Samsung and SK Hynix plan a $518B chip hub for AI demand",
+      "summary": "AP reported that Samsung Electronics and SK Hynix plan to invest a combined $518 billion in a new chipmaking hub to serve AI demand.",
+      "fullSummary": "AP reported that South Korean tech giants Samsung Electronics and SK Hynix plan to invest a combined $518 billion in a new computer-chip manufacturing hub. The project is framed around soaring AI demand, making it another sign that AI infrastructure has become a national manufacturing and industrial-policy issue. This AP story also independently supports the South Korea semiconductor lane surfaced by Economic Times.",
+      "keyFacts": [
+        "Published June 28, 2026 by AP",
+        "Samsung and SK Hynix plan a combined $518 billion chipmaking hub",
+        "The project is tied to soaring AI demand",
+        "The story independently supports the South Korea AI-chip infrastructure lane"
+      ],
+      "url": "https://apnews.com/article/korea-samsung-ai-hynix-chips-22352d95c7a821c5f4548b2d1a4ebde8",
+      "sourceName": "Associated Press",
+      "relatedSources": [
+        "Associated Press",
+        "Samsung",
+        "SK Hynix"
+      ],
+      "lane": "infrastructure",
+      "publishedAt": "2026-06-28T15:00:00.000Z",
+      "importance": 785,
+      "sourceConfidence": "high",
+      "filterCategory": "funding",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-29T15:20:00.000Z",
+      "whyItMatters": "Independent AP coverage confirms that AI demand is driving country-scale chip manufacturing commitments."
+    },
+    {
+      "id": "curated-ap-ai-dating-chatbot-cyrano-2026-06-28",
+      "title": "AP says AI chatbots are becoming dating assistants",
+      "summary": "AP reported that people are using AI chatbots as modern Cyranos for dating messages, raising questions about authenticity, disclosure, and emotional outsourcing.",
+      "fullSummary": "AP reported that AI chatbots are moving into dating, helping people draft messages, polish profiles, and communicate with potential partners. The story is consumer-facing, but it is a real adoption signal: AI is entering intimate social contexts where authenticity and consent matter. It also shows why ?AI assistant? design cannot be treated as one generic productivity category across every domain.",
+      "keyFacts": [
+        "Published June 28, 2026 by AP",
+        "People are using AI chatbots to help with dating communication",
+        "The story raises disclosure and authenticity questions",
+        "AP also published practical guidelines around AI dating advice"
+      ],
+      "url": "https://apnews.com/article/ai-chatbot-dating-chatgpt-claude-ded4fdb67b81e689681ebb486cfa4495",
+      "sourceName": "Associated Press",
+      "relatedSources": [
+        "Associated Press",
+        "ChatGPT",
+        "Claude"
+      ],
+      "lane": "products-adoption",
+      "publishedAt": "2026-06-28T13:30:00.000Z",
+      "importance": 715,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-29T15:20:00.000Z",
+      "whyItMatters": "AI assistants are moving into emotionally sensitive domains where convenience, authenticity, and disclosure collide."
     },
     {
       "id": "curated-ap-nvidia-chipsets-china-ai-factories-2026-06-28",
@@ -19738,5 +20258,5 @@
     }
   ],
   "errors": [],
-  "totalItems": 711
+  "totalItems": 731
 }
