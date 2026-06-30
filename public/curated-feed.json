@@ -1,9 +1,503 @@
 {
-  "generatedAt": "2026-06-29T15:20:00.000Z",
-  "nextRefreshAt": "2026-06-30T03:20:00.000Z",
+  "generatedAt": "2026-06-30T03:45:00.000Z",
+  "nextRefreshAt": "2026-06-30T15:45:00.000Z",
   "summaryEngine": "chat-curated",
   "curated": true,
   "items": [
+    {
+      "id": "curated-techcrunch-base44-base1-model-2026-06-30",
+      "title": "Base44 trains its own model for vibe coding",
+      "summary": "TechCrunch reports that Base44, now owned by Wix, is rolling out Base1, a custom model trained on tens of millions of platform interactions.",
+      "fullSummary": "TechCrunch reports that Base44, the vibe-coding platform Wix bought for $80 million, is rolling out its own model called Base1. The company says the model was trained on tens of millions of real user interactions from its app-building platform, giving it a more specialized feedback loop than a general frontier model. Founder Maor Shlomo frames the move as a way to improve latency, cost, efficiency, and long-term margins while making Base44 less dependent on outside model providers. The article also notes the competitive pressure from Lovable, Cursor, Claude Code, and frontier labs moving into app creation.",
+      "keyFacts": [
+        "Published June 29, 2026 by TechCrunch",
+        "Base44 was acquired by Wix for $80 million",
+        "Base1 was trained on tens of millions of platform interactions",
+        "The company says model ownership should improve cost, latency, and margins"
+      ],
+      "url": "https://techcrunch.com/2026/06/29/vibe-coding-platform-base44-launches-own-model-as-ai-startups-seek-defensibility/",
+      "sourceName": "TechCrunch",
+      "relatedSources": [
+        "TechCrunch",
+        "Base44",
+        "Wix"
+      ],
+      "lane": "models",
+      "publishedAt": "2026-06-30T02:28:00.000Z",
+      "importance": 880,
+      "sourceConfidence": "high",
+      "filterCategory": "models",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-30T03:45:00.000Z",
+      "whyItMatters": "Applied AI companies are starting to train vertical models from their own product data instead of treating frontier APIs as a permanent moat."
+    },
+    {
+      "id": "curated-et-homemade-ai-layer-it-services-2026-06-30",
+      "title": "Indian IT firms stack homemade AI layers over frontier models",
+      "summary": "Economic Times says large Indian IT services firms are building internal AI layers that sit above frontier models and automate more software-engineering work.",
+      "fullSummary": "Economic Times reports that Indian IT services companies are building their own AI layers on top of frontier models, internal tooling, and delivery data. The graphic-led story frames this as a shift from simple AI assistance toward firm-specific systems that can plan, code, test, document, and coordinate software work. The important detail is that the AI layer is not a single model release; it is a stack of orchestration, internal knowledge, code-generation workflows, and governance that large services firms can tune around their own delivery methods.",
+      "keyFacts": [
+        "Published June 30, 2026 by Economic Times",
+        "Focuses on Indian IT services companies",
+        "Describes firm-specific AI layers over frontier models",
+        "Connects AI agents with software delivery workflows"
+      ],
+      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/et-graphics-it-stacks-up-a-homemade-ai-layer/articleshow/132076088.cms",
+      "sourceName": "Economic Times",
+      "relatedSources": [
+        "Economic Times",
+        "Indian IT services"
+      ],
+      "lane": "enterprise",
+      "publishedAt": "2026-06-30T02:15:00.000Z",
+      "importance": 860,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-30T03:45:00.000Z",
+      "whyItMatters": "This is the clearest sign that Indian IT services are turning AI from a tool subscription into a delivery architecture."
+    },
+    {
+      "id": "curated-et-software-engineer-ai-workday-2026-06-30",
+      "title": "Economic Times traces the AI-shaped software engineer workday",
+      "summary": "Economic Times describes how prompts, code agents, review loops, and documentation automation are changing daily engineering work.",
+      "fullSummary": "Economic Times uses a day-in-the-life format to show how software engineers are working with AI across routine coding, debugging, documentation, review, and coordination tasks. The story is less about one product launch and more about operating rhythm: prompts become part of the workday, engineers supervise generated code, and managers start judging how teams combine human judgment with machine output. It also surfaces the tension around skill erosion, quality control, and whether junior engineers get enough room to learn when automation handles more first drafts.",
+      "keyFacts": [
+        "Published June 30, 2026 by Economic Times",
+        "Focuses on software-engineering work routines",
+        "Covers coding agents, prompts, reviews, and documentation",
+        "Frames AI as a workflow change rather than a single tool"
+      ],
+      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/along-came-an-alien-prompt-a-day-in-the-life-of-a-software-engineer/articleshow/132075876.cms",
+      "sourceName": "Economic Times",
+      "relatedSources": [
+        "Economic Times"
+      ],
+      "lane": "workforce",
+      "publishedAt": "2026-06-30T02:05:00.000Z",
+      "importance": 820,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-30T03:45:00.000Z",
+      "whyItMatters": "The workplace impact of AI is now showing up in the daily structure of engineering work, not only in layoffs or productivity claims."
+    },
+    {
+      "id": "curated-et-ai-agents-it-services-stocks-2026-06-30",
+      "title": "AI agents pressure Indian IT services stocks",
+      "summary": "Economic Times says agentic AI is weighing on IT services expectations as investors question how much labor and revenue can be automated.",
+      "fullSummary": "Economic Times reports that AI agents are becoming a sharper investor concern for Indian IT services companies. The story links agentic automation with worries that routine software delivery, support, testing, and back-office work could need fewer billed hours. It does not say the industry disappears; it argues the market is starting to price in a change from headcount-led revenue to outcome-led automation. That puts pressure on service providers to show how they will monetize AI instead of simply losing work to it.",
+      "keyFacts": [
+        "Published June 30, 2026 by Economic Times",
+        "Focuses on AI agents and Indian IT services",
+        "Connects automation expectations with stock-market pressure",
+        "Frames the issue as a revenue-model shift"
+      ],
+      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/et-graphics-ai-agents-stealing-its-lunch/articleshow/132076178.cms",
+      "sourceName": "Economic Times",
+      "relatedSources": [
+        "Economic Times",
+        "Indian IT services"
+      ],
+      "lane": "workforce",
+      "publishedAt": "2026-06-30T01:55:00.000Z",
+      "importance": 835,
+      "sourceConfidence": "high",
+      "filterCategory": "pushback",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-30T03:45:00.000Z",
+      "whyItMatters": "Agent automation is becoming a market-structure story for one of Indias biggest technology export sectors."
+    },
+    {
+      "id": "curated-arxiv-worldevolver-agent-planning-2026-06-30",
+      "title": "WorldEvolver paper targets self-evolving world models for agents",
+      "summary": "A new arXiv paper proposes Self-Evolving World Models for LLM Agent Planning, aimed at improving how agents model and plan inside environments.",
+      "fullSummary": "A June 30 arXiv paper titled Self-Evolving World Models for LLM Agent Planning proposes a way for language-model agents to improve their internal models of an environment over time. The paper sits in the agent-planning lane: instead of treating a language model as only a prompt-response system, it asks how an agent can maintain and update a world model that helps it choose actions. That matters for longer-running agents, where failures often come from poor state tracking, brittle assumptions, or not learning from prior interaction traces.",
+      "keyFacts": [
+        "Posted June 30, 2026 on arXiv",
+        "Focuses on LLM agent planning",
+        "Proposes self-evolving world models",
+        "Relevant to longer-running autonomous agents"
+      ],
+      "url": "https://arxiv.org/abs/2606.30639",
+      "sourceName": "arXiv",
+      "relatedSources": [
+        "arXiv"
+      ],
+      "lane": "research",
+      "publishedAt": "2026-06-30T00:00:00.000Z",
+      "importance": 790,
+      "sourceConfidence": "medium",
+      "filterCategory": "papers",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-30T03:45:00.000Z",
+      "whyItMatters": "Agent reliability depends heavily on planning and state tracking, so world-model research is directly tied to whether autonomous agents become useful outside demos."
+    },
+    {
+      "id": "curated-arxiv-entity-binding-tool-agents-2026-06-30",
+      "title": "Researchers identify entity-binding failures in tool-using agents",
+      "summary": "A new arXiv paper studies Entity Binding Failures in Tool-Augmented Agents, a failure mode where agents mix up the entities they are acting on.",
+      "fullSummary": "A June 30 arXiv paper titled Entity Binding Failures in Tool-Augmented Agents studies a practical agent-safety problem: agents can call the right tool but bind that action to the wrong person, file, account, system, or object. The paper is relevant because tool use turns language-model mistakes into operational mistakes. In agent workflows, entity confusion can mean sending information to the wrong target, changing the wrong record, or making a correct-looking call in the wrong context.",
+      "keyFacts": [
+        "Posted June 30, 2026 on arXiv",
+        "Focuses on tool-augmented agents",
+        "Studies entity-binding failures",
+        "Relevant to agent safety and workflow reliability"
+      ],
+      "url": "https://arxiv.org/abs/2606.30531",
+      "sourceName": "arXiv",
+      "relatedSources": [
+        "arXiv"
+      ],
+      "lane": "research",
+      "publishedAt": "2026-06-30T00:00:00.000Z",
+      "importance": 785,
+      "sourceConfidence": "medium",
+      "filterCategory": "papers",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-30T03:45:00.000Z",
+      "whyItMatters": "This is exactly the kind of low-level failure mode that decides whether agents can be trusted with real tools and records."
+    },
+    {
+      "id": "curated-arxiv-agent-loyalty-multiparty-2026-06-30",
+      "title": "New paper asks whose side an AI agent is on",
+      "summary": "An arXiv paper studies loyalty and conflict-of-interest problems when LLM agents operate around multiple principals.",
+      "fullSummary": "A June 30 arXiv paper titled Whose Side Is Your Agent On? studies a governance problem for LLM agents: what happens when an agent serves, represents, or affects multiple parties with competing interests. That question becomes practical as agents negotiate, schedule, buy, sell, summarize, and make recommendations across organizations. The paper adds to a growing body of work arguing that agent safety is not only about jailbreaks or hallucinations; it is also about incentives, delegation, and conflicts of interest.",
+      "keyFacts": [
+        "Posted June 30, 2026 on arXiv",
+        "Focuses on multi-party principal problems",
+        "Relevant to agent governance and delegation",
+        "Connects agent behavior with conflicts of interest"
+      ],
+      "url": "https://arxiv.org/abs/2606.30383",
+      "sourceName": "arXiv",
+      "relatedSources": [
+        "arXiv"
+      ],
+      "lane": "research",
+      "publishedAt": "2026-06-30T00:00:00.000Z",
+      "importance": 770,
+      "sourceConfidence": "medium",
+      "filterCategory": "papers",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-30T03:45:00.000Z",
+      "whyItMatters": "As agents move into commercial workflows, who they are optimizing for becomes a product, legal, and safety question."
+    },
+    {
+      "id": "curated-arxiv-data-centre-many-body-ai-2026-06-30",
+      "title": "Data-centre paper frames AI infrastructure as a many-body problem",
+      "summary": "A new arXiv paper, The Many-Body Problem of the Data Centre, examines how modern AI infrastructure behaves as a coupled system rather than isolated hardware.",
+      "fullSummary": "A June 30 arXiv paper titled The Many-Body Problem of the Data Centre looks at data centres as interacting systems whose behavior emerges from hardware, networking, cooling, scheduling, and workload choices. The paper belongs in the AI infrastructure lane because frontier-model demand is stressing not just chips but the whole physical and operational stack. Its core point is that capacity planning and reliability increasingly depend on system-level interactions, not only faster accelerators.",
+      "keyFacts": [
+        "Posted June 30, 2026 on arXiv",
+        "Focuses on data-centre systems",
+        "Connects AI workloads with infrastructure interactions",
+        "Relevant to compute, cooling, scheduling, and reliability"
+      ],
+      "url": "https://arxiv.org/abs/2606.30206",
+      "sourceName": "arXiv",
+      "relatedSources": [
+        "arXiv"
+      ],
+      "lane": "infrastructure",
+      "publishedAt": "2026-06-30T00:00:00.000Z",
+      "importance": 765,
+      "sourceConfidence": "medium",
+      "filterCategory": "papers",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-30T03:45:00.000Z",
+      "whyItMatters": "AI capacity bottlenecks are increasingly system-level problems involving chips, power, cooling, networking, and operations at once."
+    },
+    {
+      "id": "curated-google-gemini-personalized-images-free-us-2026-06-29",
+      "title": "Google makes Gemini personalized image generation free in the U.S.",
+      "summary": "Google is widening free U.S. access to Gemini personalized image generation, using connected Google apps and Photos when users opt in.",
+      "fullSummary": "Google says eligible U.S. users can now use personalized image generation in the Gemini app for free. The feature connects Personal Intelligence with Nano Banana and Google Photos, so Gemini can generate images that reflect a users tastes, lifestyle, and actual photos when the user grants permission. The setting remains opt-in and can be adjusted. TechCrunch notes that the capability was previously limited to paid Plus, Pro, and Ultra users and follows broader Gemini app updates such as Daily Brief, Gemini Omni access, and Gemini Spark.",
+      "keyFacts": [
+        "Published June 29, 2026 by Google and covered by TechCrunch",
+        "Free for eligible U.S. Gemini users",
+        "Uses Personal Intelligence, Nano Banana, and Google Photos",
+        "Requires user permission for connected Google app context"
+      ],
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/personal-intelligence-nano-banana-us-expansion/",
+      "sourceName": "Google + TechCrunch",
+      "relatedSources": [
+        "Google",
+        "TechCrunch",
+        "Gemini"
+      ],
+      "lane": "products",
+      "publishedAt": "2026-06-29T20:12:00.000Z",
+      "importance": 850,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-30T03:45:00.000Z",
+      "whyItMatters": "Personalized generation is moving from premium AI subscriptions into mainstream consumer distribution, with user data permissions at the center."
+    },
+    {
+      "id": "curated-verge-openai-codex-micro-hardware-2026-06-29",
+      "title": "OpenAI shows Codex Micro hardware for agent workflows",
+      "summary": "The Verge reports that OpenAI teased a Codex Micro device, pointing to a hardware layer around agentic coding workflows.",
+      "fullSummary": "The Verge reports that OpenAI has teased Codex Micro hardware, a small device tied to Codex-style agent workflows. The article is brief, but the signal is useful: OpenAI is not treating coding agents as only a web or IDE feature. Hardware experiments suggest the company is exploring ambient or dedicated interaction surfaces for supervising agents, starting work, and checking status away from a conventional development setup.",
+      "keyFacts": [
+        "Published June 29, 2026 by The Verge",
+        "OpenAI teased Codex Micro hardware",
+        "The device is tied to Codex agent workflows",
+        "The story points to hardware experiments around coding agents"
+      ],
+      "url": "https://www.theverge.com/ai-artificial-intelligence/959174/openai-codex-hardware-work-louder",
+      "sourceName": "The Verge",
+      "relatedSources": [
+        "The Verge",
+        "OpenAI",
+        "Codex"
+      ],
+      "lane": "products",
+      "publishedAt": "2026-06-29T20:26:00.000Z",
+      "importance": 790,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-30T03:45:00.000Z",
+      "whyItMatters": "Coding agents are starting to pull product design beyond the IDE, including dedicated devices and mobile supervision."
+    },
+    {
+      "id": "curated-verge-ai-health-data-bill-2026-06-29",
+      "title": "Lawmakers want to ban AI companies from selling health data",
+      "summary": "The Verge reports that U.S. lawmakers are updating the Health and Location Data Protection Act to cover sensitive information people reveal to AI chatbots.",
+      "fullSummary": "The Verge reports that Senator Elizabeth Warren and Representative Mary Gay Scanlon are preparing an updated Health and Location Data Protection Act for the AI era. The bill would ban companies from selling Americans sensitive health and location data to data brokers, including information people share with chatbots such as ChatGPT or Claude. The proposal expands a 2022 version that focused on data brokers and would task the FTC with rules and enforcement. The story matters because AI labs are pushing deeper into health products while U.S. privacy rules still leave many chatbot disclosures governed mainly by company policies.",
+      "keyFacts": [
+        "Published June 29, 2026 by The Verge",
+        "Senator Elizabeth Warren and Representative Mary Gay Scanlon are backing the updated bill",
+        "The bill covers health and location data entered into AI systems",
+        "The FTC would be tasked with rulemaking and enforcement"
+      ],
+      "url": "https://www.theverge.com/ai-artificial-intelligence/959033/health-location-data-protection-act-ai-warren-scanlon",
+      "sourceName": "The Verge",
+      "relatedSources": [
+        "The Verge",
+        "U.S. lawmakers"
+      ],
+      "lane": "policy-safety",
+      "publishedAt": "2026-06-29T19:02:00.000Z",
+      "importance": 855,
+      "sourceConfidence": "high",
+      "filterCategory": "pushback",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-30T03:45:00.000Z",
+      "whyItMatters": "AI chatbots are becoming a new health-data collection surface, and privacy law is starting to chase that behavior directly."
+    },
+    {
+      "id": "curated-techcrunch-anthropic-california-claude-discount-2026-06-29",
+      "title": "California gets discounted Claude access from Anthropic",
+      "summary": "TechCrunch reports that Anthropic and California Governor Gavin Newsom reached a deal giving state employees discounted Claude access.",
+      "fullSummary": "TechCrunch reports that Anthropic and California Governor Gavin Newsom reached an agreement allowing California government employees to use Claude at a discounted rate. The deal puts a frontier AI assistant into public-sector workflows without requiring each agency to negotiate separately. It also gives Anthropic a high-profile government deployment in its home state. The key questions now are procurement controls, data handling, training, and whether discounted access turns into measurable service improvements for residents.",
+      "keyFacts": [
+        "Published June 29, 2026 by TechCrunch",
+        "Anthropic and California reached a Claude access deal",
+        "State employees can use Claude at a discounted rate",
+        "The arrangement is a public-sector AI deployment"
+      ],
+      "url": "https://techcrunch.com/2026/06/29/anthropic-and-gov-newsom-forge-deal-allowing-california-government-to-use-claude-at-half-price/",
+      "sourceName": "TechCrunch",
+      "relatedSources": [
+        "TechCrunch",
+        "Anthropic",
+        "California Governor Gavin Newsom"
+      ],
+      "lane": "government",
+      "publishedAt": "2026-06-29T18:45:00.000Z",
+      "importance": 850,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-30T03:45:00.000Z",
+      "whyItMatters": "Government AI adoption is shifting from pilots and speeches into negotiated access deals with frontier labs."
+    },
+    {
+      "id": "curated-techcrunch-arena-100m-evals-business-2026-06-29",
+      "title": "Arena turns its AI leaderboard into a $100M business",
+      "summary": "TechCrunch reports that Arena, best known for crowdsourced AI model rankings, has reached $100M in annualized run-rate revenue from evaluations.",
+      "fullSummary": "TechCrunch reports that Arena, the AI leaderboard spun out of a UC Berkeley research project, has reached $100 million in annualized run-rate revenue eight months after launching its commercial service. Arena is known for crowdsourced model comparisons built from more than 10 million user evaluations. Its paid AI Evaluations product sells deeper performance analytics to model labs and enterprises. The story shows how post-training, benchmarking, and model-selection data are becoming a commercial market rather than only a public leaderboard.",
+      "keyFacts": [
+        "Published June 29, 2026 by TechCrunch",
+        "Arena says it reached $100 million in annualized run-rate revenue",
+        "The leaderboard draws from more than 10 million user evaluations",
+        "Arena sells evaluation analytics to model labs and enterprises"
+      ],
+      "url": "https://techcrunch.com/2026/06/29/arena-the-ai-leaderboard-everyone-uses-is-now-a-100m-business/",
+      "sourceName": "TechCrunch",
+      "relatedSources": [
+        "TechCrunch",
+        "Arena",
+        "UC Berkeley"
+      ],
+      "lane": "evaluation",
+      "publishedAt": "2026-06-29T17:39:00.000Z",
+      "importance": 870,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-30T03:45:00.000Z",
+      "whyItMatters": "Model evaluation is becoming its own AI infrastructure market, with labs and enterprises paying for ranking data, analytics, and post-training signals."
+    },
+    {
+      "id": "curated-axios-ai-security-hallucination-lawsuit-2026-06-29",
+      "title": "Lawsuit says AI hallucinations tainted a cybersecurity report",
+      "summary": "Axios reports that a lawsuit accuses an AI security company of publishing hallucinated findings in a cybersecurity context.",
+      "fullSummary": "Axios reports on a lawsuit alleging that AI-generated or AI-assisted cybersecurity findings included hallucinated claims. The dispute matters because cybersecurity is one of the areas where vendors are most aggressively adding AI to analysis, threat reports, and compliance workflows. If AI outputs are not traceable and verified, a wrong claim can harm companies, mislead customers, and create legal exposure. The story adds a concrete litigation example to the broader debate over when AI-generated analysis is good enough for high-stakes enterprise use.",
+      "keyFacts": [
+        "Published June 29, 2026 by Axios",
+        "The lawsuit concerns alleged hallucinated cybersecurity findings",
+        "The dispute involves AI use in security reporting",
+        "It highlights legal exposure from unverified AI analysis"
+      ],
+      "url": "https://www.axios.com/2026/06/29/palo-alto-networks-meeting-tv-ai-cyber-lawsuit",
+      "sourceName": "Axios",
+      "relatedSources": [
+        "Axios"
+      ],
+      "lane": "policy-safety",
+      "publishedAt": "2026-06-29T17:25:00.000Z",
+      "importance": 815,
+      "sourceConfidence": "medium",
+      "filterCategory": "pushback",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-30T03:45:00.000Z",
+      "whyItMatters": "Cybersecurity is a high-trust market; hallucinated reports create real legal and reputational risk, not just annoying model errors."
+    },
+    {
+      "id": "curated-techcrunch-cursor-mobile-coding-agent-2026-06-29",
+      "title": "Cursor launches mobile app for managing coding agents",
+      "summary": "TechCrunch reports that Cursor Mobile lets users start and supervise coding agents from a phone, following similar mobile moves from Anthropic and OpenAI.",
+      "fullSummary": "TechCrunch reports that Cursor has launched Cursor Mobile, an app for prompting and supervising coding agents from a phone. The app ties into Cursor 2.0s shift toward more independent coding agents and lets users spin up new agents or interact with agents started from the desktop client. The article frames this as part of a broader change in developer tools: some coding work is moving from direct editing on a large screen to oversight of remote agents through lightweight interfaces.",
+      "keyFacts": [
+        "Published June 29, 2026 by TechCrunch",
+        "Cursor Mobile lets users prompt coding agents from a phone",
+        "The app connects with Cursor 2.0 agent workflows",
+        "TechCrunch compares the move with Anthropic and OpenAI mobile coding tools"
+      ],
+      "url": "https://techcrunch.com/2026/06/29/cursor-now-has-a-mobile-app-for-guiding-your-coding-agent-on-the-go/",
+      "sourceName": "TechCrunch",
+      "relatedSources": [
+        "TechCrunch",
+        "Cursor"
+      ],
+      "lane": "developer-tools",
+      "publishedAt": "2026-06-29T17:03:00.000Z",
+      "importance": 835,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-30T03:45:00.000Z",
+      "whyItMatters": "AI coding is moving from writing code directly to supervising agents across devices and sessions."
+    },
+    {
+      "id": "curated-techcrunch-tidal-ai-music-demonetization-2026-06-29",
+      "title": "TIDAL cuts monetization for fully AI-generated music",
+      "summary": "TechCrunch reports that TIDAL will stop paying royalties on fully AI-generated tracks as streaming platforms tighten rules around synthetic music.",
+      "fullSummary": "TechCrunch reports that TIDAL is cracking down on AI music by cutting off monetization for fully AI-generated tracks. The move is part of a broader struggle across music streaming: platforms need to decide how to treat synthetic tracks, artist impersonation, royalty fraud, and low-effort uploads that can flood recommendation systems. TIDALs policy does not end AI use in music, but it draws a sharper line around what kind of AI-generated output can earn money on the platform.",
+      "keyFacts": [
+        "Published June 29, 2026 by TechCrunch",
+        "TIDAL is cutting monetization for fully AI-generated music",
+        "The story concerns streaming royalties and synthetic media",
+        "The Verge also surfaced the policy change"
+      ],
+      "url": "https://techcrunch.com/2026/06/29/tidal-cracks-down-on-ai-music-by-cutting-off-monetization/",
+      "sourceName": "TechCrunch",
+      "relatedSources": [
+        "TechCrunch",
+        "The Verge",
+        "TIDAL"
+      ],
+      "lane": "policy-safety",
+      "publishedAt": "2026-06-29T16:35:00.000Z",
+      "importance": 805,
+      "sourceConfidence": "high",
+      "filterCategory": "pushback",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-30T03:45:00.000Z",
+      "whyItMatters": "Streaming platforms are turning AI-content policy into money rules, which will shape how synthetic media is produced and distributed."
+    },
+    {
+      "id": "curated-techcrunch-proception-robot-hand-11m-2026-06-29",
+      "title": "Proception settles Tesla suit and raises $11M for robotic hands",
+      "summary": "TechCrunch reports that robotic-hand startup Proception settled a Tesla trade-secret lawsuit and announced an $11M raise.",
+      "fullSummary": "TechCrunch reports that Proception, a robotic-hand company, has settled a Tesla trade-secret lawsuit and announced an $11 million raise. The company is in the physical-AI lane, where dexterous manipulation is one of the harder remaining bottlenecks for humanoid and industrial robots. The legal settlement clears a distraction while the funding gives Proception more room to build hardware and control systems for robotic grasping.",
+      "keyFacts": [
+        "Published June 29, 2026 by TechCrunch",
+        "Proception settled a Tesla trade-secret lawsuit",
+        "The company announced an $11 million raise",
+        "The startup focuses on robotic hands and manipulation"
+      ],
+      "url": "https://techcrunch.com/2026/06/29/robot-hand-company-settles-tesla-trade-secret-suit-and-announces-11m-raise/",
+      "sourceName": "TechCrunch",
+      "relatedSources": [
+        "TechCrunch",
+        "Proception",
+        "Tesla"
+      ],
+      "lane": "robotics",
+      "publishedAt": "2026-06-29T14:40:00.000Z",
+      "importance": 810,
+      "sourceConfidence": "high",
+      "filterCategory": "funding",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-30T03:45:00.000Z",
+      "whyItMatters": "Robotic manipulation remains a major physical-AI bottleneck, and Proceptions raise keeps another dexterous-hardware player in the race."
+    },
+    {
+      "id": "curated-ai-news-xfusion-enterprise-ai-infrastructure-2026-06-29",
+      "title": "xFusion pitches edge-to-data-centre enterprise AI stack",
+      "summary": "AI News reports that xFusion is scaling enterprise AI infrastructure from edge workstations to liquid-cooled data centres.",
+      "fullSummary": "AI News reports that xFusion is positioning an enterprise AI infrastructure stack that spans edge workstations, servers, and liquid-cooled data-centre systems. The story focuses on the hardware and deployment side of AI adoption: companies need local inference, central training or fine-tuning capacity, and cooling approaches that can support dense accelerators. xFusion is not announcing a frontier model; it is selling the physical stack required to run AI workloads in enterprise settings.",
+      "keyFacts": [
+        "Published June 29, 2026 by AI News",
+        "xFusion is focused on enterprise AI infrastructure",
+        "The stack spans edge workstations and liquid-cooled data centres",
+        "The story sits in hardware and deployment rather than model release"
+      ],
+      "url": "https://www.artificialintelligence-news.com/news/xfusion-scales-enterprise-ai-edge-workstations-liquid-cooled-data-centres/",
+      "sourceName": "AI News",
+      "relatedSources": [
+        "AI News",
+        "xFusion"
+      ],
+      "lane": "infrastructure",
+      "publishedAt": "2026-06-29T07:45:00.000Z",
+      "importance": 780,
+      "sourceConfidence": "medium",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-30T03:45:00.000Z",
+      "whyItMatters": "Enterprise AI rollouts increasingly depend on deployable hardware, cooling, and edge capacity rather than only access to frontier models."
+    },
+    {
+      "id": "curated-axios-ai-model-access-fight-2026-06-29",
+      "title": "Axios says AI model access fight is splitting Trump tech allies",
+      "summary": "Axios reports that disputes over delayed or restricted AI model releases are creating tension among Trump-aligned technology figures.",
+      "fullSummary": "Axios reports that a fight over AI model access and release delays is dividing Trump-aligned technology allies. The dispute reflects a broader policy tension: some technologists want faster access to powerful models and fewer release bottlenecks, while others argue that security, export-control, and misuse concerns justify constraints. The story is notable because model-release policy is becoming a political fight inside the coalition that usually favors faster technology deployment.",
+      "keyFacts": [
+        "Published June 29, 2026 by Axios",
+        "Focuses on disputes over AI model access and release delays",
+        "Involves Trump-aligned technology figures",
+        "Connects frontier-model policy with political and security concerns"
+      ],
+      "url": "https://www.axios.com/2026/06/29/trump-ai-model-release-delays-tech-backlash",
+      "sourceName": "Axios",
+      "relatedSources": [
+        "Axios"
+      ],
+      "lane": "policy-safety",
+      "publishedAt": "2026-06-29T15:30:00.000Z",
+      "importance": 800,
+      "sourceConfidence": "medium",
+      "filterCategory": "pushback",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-30T03:45:00.000Z",
+      "whyItMatters": "Model-release decisions are no longer only lab governance questions; they are becoming visible political fights about access, security, and control."
+    },
     {
       "id": "curated-techcrunch-omen-ai-water-data-centers-2026-06-29",
       "title": "Omen AI pitches water-based optimization for data centers",
@@ -20258,5 +20752,6 @@
     }
   ],
   "errors": [],
-  "totalItems": 731
+  "totalItems": 731,
+  "lastRefresh": "2026-06-30T03:45:00.000Z"
 }
