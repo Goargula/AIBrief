@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-30T03:45:00.000Z",
-  "nextRefreshAt": "2026-06-30T15:45:00.000Z",
+  "generatedAt": "2026-06-30T05:00:00.000Z",
+  "nextRefreshAt": "2026-06-30T17:00:00.000Z",
   "summaryEngine": "chat-curated",
   "curated": true,
   "items": [
@@ -207,6 +207,37 @@
       "summaryEngine": "chat-curated",
       "curatedAt": "2026-06-30T03:45:00.000Z",
       "whyItMatters": "AI capacity bottlenecks are increasingly system-level problems involving chips, power, cooling, networking, and operations at once."
+    },
+    {
+      "id": "curated-techcrunch-8090-labs-135m-series-a-2026-06-29",
+      "title": "Chamath Palihapitiya's 8090 Labs raises $135M for AI coding",
+      "summary": "TechCrunch reports that 8090 Labs raised a $135 million Series A led by Salesforce Ventures and that Chamath Palihapitiya is taking the CEO role.",
+      "fullSummary": "TechCrunch reports that 8090 Labs, an AI coding startup founded inside Chamath Palihapitiya's Social Capital, raised a $135 million Series A led by Salesforce Ventures. Palihapitiya said on LinkedIn that 8090's first product, 8090 Workbench, was built by a small team and had already generated more than $10 million in ARR, while TechCrunch reports he is taking the CEO role. Economic Times also covered the round, noting Salesforce Ventures led it and that 8090 is positioning itself around AI-assisted software development. The story is a funding item, but it also belongs in the coding-agent lane because it shows major investors backing tools meant to compress software delivery work.",
+      "keyFacts": [
+        "Published June 29, 2026 by TechCrunch and Economic Times",
+        "8090 Labs raised a $135 million Series A",
+        "Salesforce Ventures led the round",
+        "Chamath Palihapitiya is taking the CEO role",
+        "The company says 8090 Workbench has more than $10 million in ARR"
+      ],
+      "url": "https://techcrunch.com/2026/06/29/chamath-palihapitiya-raises-135m-series-a-for-his-ai-coding-startup-takes-ceo-role/",
+      "sourceName": "TechCrunch + Economic Times",
+      "relatedSources": [
+        "TechCrunch",
+        "Economic Times",
+        "LinkedIn",
+        "8090 Labs",
+        "Salesforce Ventures",
+        "Social Capital"
+      ],
+      "lane": "developer-tools",
+      "publishedAt": "2026-06-29T20:55:00.000Z",
+      "importance": 875,
+      "sourceConfidence": "high",
+      "filterCategory": "funding",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-30T05:00:00.000Z",
+      "whyItMatters": "A $135 million Series A for an AI coding startup shows how much capital is still flowing into tools that promise to turn software work into supervised agent workflows."
     },
     {
       "id": "curated-google-gemini-personalized-images-free-us-2026-06-29",
