@@ -1,9 +1,42 @@
 {
-  "generatedAt": "2026-06-30T05:00:00.000Z",
-  "nextRefreshAt": "2026-06-30T17:00:00.000Z",
+  "generatedAt": "2026-06-30T05:10:00.000Z",
+  "nextRefreshAt": "2026-06-30T17:10:00.000Z",
   "summaryEngine": "chat-curated",
   "curated": true,
   "items": [
+    {
+      "id": "curated-ap-us-tech-ai-scam-industry-2026-06-30",
+      "title": "AP investigation links U.S. AI tech to global scam networks",
+      "summary": "AP and FRONTLINE report that technology from American companies, including AI tools and internet infrastructure, is helping industrialize global scam operations.",
+      "fullSummary": "An AP and FRONTLINE investigation reports that technology from American companies is helping power a more industrialized global scam industry. The story is not a generic cybercrime piece: AP tags artificial intelligence directly and says U.S. tech platforms and infrastructure are part of the stack used by scam compounds and fraud networks. Its schema description says watchdogs believe the companies have the technical capacity to do more but lack legal, regulatory, and business incentives to crack down. AP also cites the Federal Trade Commission's estimate that scams cost Americans nearly $200 billion in 2024.",
+      "keyFacts": [
+        "Published June 30, 2026 by Associated Press",
+        "Based on an AP and FRONTLINE investigation",
+        "AP tags the story under artificial intelligence, internet, and information technology",
+        "The article says U.S. technologies are helping industrialize global scam operations",
+        "AP cites FTC estimates of nearly $200 billion in U.S. scam losses in 2024"
+      ],
+      "url": "https://apnews.com/article/scams-fraud-technology-ai-impostor-scam-phishing-12f549d5203abd38857c4e2f2fb1c986",
+      "sourceName": "Associated Press",
+      "relatedSources": [
+        "Associated Press",
+        "FRONTLINE",
+        "FTC",
+        "OpenAI",
+        "Meta",
+        "Alphabet",
+        "Oracle",
+        "SpaceX"
+      ],
+      "lane": "security",
+      "publishedAt": "2026-06-30T04:15:22.000Z",
+      "importance": 890,
+      "sourceConfidence": "high",
+      "filterCategory": "pushback",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-30T05:10:00.000Z",
+      "whyItMatters": "AI misuse risk is now tied to the commercial infrastructure behind fraud at global scale, not just to one-off deepfakes or phishing prompts."
+    },
     {
       "id": "curated-techcrunch-base44-base1-model-2026-06-30",
       "title": "Base44 trains its own model for vibe coding",
@@ -107,6 +140,33 @@
       "summaryEngine": "chat-curated",
       "curatedAt": "2026-06-30T03:45:00.000Z",
       "whyItMatters": "Agent automation is becoming a market-structure story for one of Indias biggest technology export sectors."
+    },
+    {
+      "id": "curated-et-kapture-cx-10m-ai-capabilities-2026-06-30",
+      "title": "Kapture CX raises $10M to expand AI customer-service tools",
+      "summary": "Economic Times reports that Kapture CX raised $10 million led by Bajaj Finserv Ventures to deepen its AI capabilities and expand globally.",
+      "fullSummary": "Economic Times reports that customer-experience software company Kapture CX raised $10 million led by Bajaj Finserv Ventures. The article says the fresh capital will be used to deepen Kapture's AI capabilities and expand its enterprise customer base across North America, the Middle East, and Southeast Asia. The useful signal is smaller than 8090's round but still relevant: vertical SaaS vendors are raising growth capital by tying customer-service expansion directly to AI deployment rather than experimentation.",
+      "keyFacts": [
+        "Published June 30, 2026 by Economic Times",
+        "Kapture CX raised $10 million",
+        "Bajaj Finserv Ventures led the round",
+        "The company plans to deepen AI capabilities and expand in North America, the Middle East, and Southeast Asia"
+      ],
+      "url": "https://economictimes.indiatimes.com/tech/funding/kapture-cx-raises-10-million-led-by-bajaj-finserv-ventures/articleshow/132077023.cms",
+      "sourceName": "Economic Times",
+      "relatedSources": [
+        "Economic Times",
+        "Kapture CX",
+        "Bajaj Finserv Ventures"
+      ],
+      "lane": "funding",
+      "publishedAt": "2026-06-30T01:23:57.000Z",
+      "importance": 735,
+      "sourceConfidence": "high",
+      "filterCategory": "funding",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-30T05:10:00.000Z",
+      "whyItMatters": "Customer-service AI is moving from pilots into funded vertical software expansion, especially for vendors selling into global enterprise support teams."
     },
     {
       "id": "curated-arxiv-worldevolver-agent-planning-2026-06-30",
@@ -971,6 +1031,37 @@
       "summaryEngine": "chat-curated",
       "curatedAt": "2026-06-29T15:20:00.000Z",
       "whyItMatters": "The economic test for AI is not whether big labs can sell tools, but whether ordinary firms can turn them into measurable gains."
+    },
+    {
+      "id": "curated-et-rocket-ai-startup-40m-50m-talks-2026-06-29",
+      "title": "AI startup Rocket is in talks to raise $40M-$50M",
+      "summary": "Economic Times reports that Indian AI app-building startup Rocket is in talks to raise $40 million to $50 million from investors including 360 ONE Asset.",
+      "fullSummary": "Economic Times reports that Rocket, an AI startup focused on app-building and product-development tooling, is in talks to raise $40 million to $50 million. The story says a completed round at the current terms would sharply re-rate the company less than a year after it raised $15 million from Salesforce Ventures, Accel, and Together Fund at a roughly $60 million valuation. ET says the new capital would deepen Rocket's AI capabilities, expand product development, and grow its global go-to-market presence.",
+      "keyFacts": [
+        "Published June 29, 2026 by Economic Times",
+        "Rocket is in talks to raise $40 million to $50 million",
+        "Potential investors include 360 ONE Asset",
+        "Rocket previously raised $15 million from Salesforce Ventures, Accel, and Together Fund",
+        "The capital would support AI capabilities, product development, and global go-to-market expansion"
+      ],
+      "url": "https://economictimes.indiatimes.com/tech/funding/ai-startup-rocket-in-talks-to-raise-40-50-million-sources/articleshow/132055768.cms",
+      "sourceName": "Economic Times",
+      "relatedSources": [
+        "Economic Times",
+        "Rocket",
+        "360 ONE Asset",
+        "Salesforce Ventures",
+        "Accel",
+        "Together Fund"
+      ],
+      "lane": "funding",
+      "publishedAt": "2026-06-29T00:30:00.000Z",
+      "importance": 765,
+      "sourceConfidence": "medium",
+      "filterCategory": "funding",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-30T05:10:00.000Z",
+      "whyItMatters": "A second Indian AI app-building fundraise shows investors are still backing startups that promise to compress software planning and implementation work."
     },
     {
       "id": "curated-verge-prosecutors-chatgpt-logs-palisades-2026-06-29",

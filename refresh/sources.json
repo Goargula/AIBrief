@@ -42,6 +42,14 @@
       "categories": ["models", "funding", "general", "pushback"]
     },
     {
+      "id": "techcrunch-startups",
+      "name": "TechCrunch Startups and Funding",
+      "group": "technology",
+      "url": "https://techcrunch.com/category/startups/",
+      "fallbackDomain": "techcrunch.com",
+      "categories": ["funding", "general"]
+    },
+    {
       "id": "the-verge-ai",
       "name": "The Verge AI",
       "group": "technology",
@@ -142,6 +150,14 @@
       "name": "Economic Times AI and IT services",
       "group": "regional-business",
       "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence",
+      "fallbackDomain": "economictimes.indiatimes.com",
+      "categories": ["funding", "general"]
+    },
+    {
+      "id": "economictimes-tech-funding",
+      "name": "Economic Times Tech Funding",
+      "group": "regional-business",
+      "url": "https://economictimes.indiatimes.com/tech/funding",
       "fallbackDomain": "economictimes.indiatimes.com",
       "categories": ["funding", "general"]
     },
