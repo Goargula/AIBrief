@@ -101,7 +101,7 @@
       "id": "fortune-ai",
       "name": "Fortune AI",
       "group": "broad-business",
-      "url": "https://fortune.com/tag/artificial-intelligence/",
+      "url": "https://fortune.com/tag/ai/",
       "fallbackDomain": "fortune.com",
       "categories": ["funding", "general", "pushback"]
     },
@@ -125,7 +125,7 @@
       "id": "business-insider-ai",
       "name": "Business Insider AI and Robotics",
       "group": "broad-business",
-      "url": "https://www.businessinsider.com/s?q=artificial%20intelligence%20robotics",
+      "url": "https://www.businessinsider.com/category/artificial-intelligence",
       "fallbackDomain": "businessinsider.com",
       "categories": ["funding", "general", "pushback"]
     },
@@ -179,9 +179,9 @@
     },
     {
       "id": "maharashtra-times-education",
-      "name": "Maharashtra Times Education",
+      "name": "Maharashtra Times AI Topic",
       "group": "regional-business",
-      "url": "https://maharashtratimes.com/career/career-news",
+      "url": "https://maharashtratimes.com/topic/ai/news",
       "fallbackDomain": "maharashtratimes.com",
       "categories": ["general", "pushback"]
     },
@@ -221,7 +221,7 @@
       "id": "business-wire-ai",
       "name": "Business Wire AI",
       "group": "announcement-wire",
-      "url": "https://www.businesswire.com/newsroom/subject/artificial-intelligence",
+      "url": "https://www.businesswire.com/newsroom?search=artificial%20intelligence",
       "fallbackDomain": "businesswire.com",
       "categories": ["funding", "general"]
     },
@@ -229,7 +229,7 @@
       "id": "pr-newswire-ai",
       "name": "PR Newswire AI",
       "group": "announcement-wire",
-      "url": "https://www.prnewswire.com/news-releases/artificial-intelligence-latest-news/artificial-intelligence-latest-news-list/",
+      "url": "https://www.prnewswire.com/search/news/?keyword=artificial%20intelligence",
       "fallbackDomain": "prnewswire.com",
       "categories": ["funding", "general"]
     },
