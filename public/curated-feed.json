@@ -1,9 +1,416 @@
 {
-  "generatedAt": "2026-06-30T05:10:00.000Z",
-  "nextRefreshAt": "2026-06-30T17:10:00.000Z",
+  "generatedAt": "2026-07-01T04:00:00.000Z",
+  "nextRefreshAt": "2026-07-01T16:00:00.000Z",
   "summaryEngine": "chat-curated",
   "curated": true,
   "items": [
+    {
+      "id": "curated-techcrunch-vint-cerf-agent-standards-2026-07-01",
+      "title": "Vint Cerf says agentic AI will need formal interoperability standards",
+      "summary": "TechCrunch reports that Vint Cerf is retiring from Google and used an Open Frontier panel to warn that multi-agent AI systems will need precise standards, not loose natural-language handshakes.",
+      "fullSummary": "TechCrunch reports that Vint Cerf, Google's chief internet evangelist and a co-designer of TCP/IP, will step down next week. Speaking at the Open Frontier conference, Cerf connected the history of internet protocols to the next wave of agentic AI. He argued that autonomous agents from different providers will need composable standards and precise interoperability rules, because relying on natural-language exchanges between agents could introduce ambiguity and failure modes.",
+      "keyFacts": [
+        "Published June 30, 2026 by TechCrunch",
+        "Cerf is stepping down as Google's chief internet evangelist",
+        "The remarks came during an Open Frontier conference panel",
+        "Cerf said multi-agent AI will force composability and standardization",
+        "He warned that natural language may be too ambiguous for inter-agent agreements"
+      ],
+      "url": "https://techcrunch.com/2026/06/30/the-father-of-the-internet-is-finally-retiring/",
+      "sourceName": "TechCrunch",
+      "relatedSources": [
+        "TechCrunch",
+        "Google",
+        "Open Frontier",
+        "Laude Institute"
+      ],
+      "lane": "agents",
+      "publishedAt": "2026-07-01T03:15:00.000Z",
+      "importance": 850,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-01T04:00:00.000Z",
+      "whyItMatters": "Agent-to-agent standards are becoming infrastructure, and Cerf is framing the problem through the same protocol discipline that made the internet durable."
+    },
+    {
+      "id": "curated-techcrunch-anthropic-mythos-fable-restrictions-lifted-2026-07-01",
+      "title": "U.S. drops export restrictions on Anthropic's Mythos and Fable models",
+      "summary": "TechCrunch says the U.S. government lifted license restrictions on Anthropic's Mythos and Fable models after weeks of shutdown talks, letting the company begin restoring public access.",
+      "fullSummary": "TechCrunch reports that the U.S. government lifted a license requirement that had cut off broad access to Anthropic's Mythos and Fable models. Anthropic said it would begin restoring access on July 1 after agreeing to work with the Commerce Department on security-risk detection, government protocols, future releases, and malicious-activity reporting. The reversal follows the June 12 export-control move that forced Anthropic to end public access to the models and left the industry with uncertain rules for frontier model launches.",
+      "keyFacts": [
+        "Published June 30, 2026 by TechCrunch",
+        "The restriction had covered Anthropic's Mythos and Fable models",
+        "Anthropic said access restoration would begin July 1",
+        "Commerce Secretary Howard Lutnick said Anthropic agreed to new security cooperation",
+        "The episode followed a June 12 export-control directive"
+      ],
+      "url": "https://techcrunch.com/2026/06/30/trump-drops-restrictions-on-anthropics-mythos-and-fable-models/",
+      "sourceName": "TechCrunch",
+      "relatedSources": [
+        "TechCrunch",
+        "Anthropic",
+        "U.S. Department of Commerce",
+        "The Verge",
+        "Axios",
+        "Wall Street Journal"
+      ],
+      "lane": "policy",
+      "publishedAt": "2026-07-01T02:16:00.000Z",
+      "importance": 960,
+      "sourceConfidence": "high",
+      "filterCategory": "pushback",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-01T04:00:00.000Z",
+      "whyItMatters": "The reversal turns a one-company access fight into a live test of how the U.S. will police frontier model releases without freezing its own labs out of global markets."
+    },
+    {
+      "id": "curated-verge-notebooklm-short-video-overviews-2026-06-30",
+      "title": "Google adds short AI video summaries to NotebookLM",
+      "summary": "The Verge reports that NotebookLM can now turn uploaded sources into 60-second vertical video overviews for Google AI Ultra and Pro subscribers.",
+      "fullSummary": "The Verge reports that Google is adding Short Video Overviews to NotebookLM. The feature lets users generate 60-second vertical clips from uploaded sources, combining AI-generated visuals and narration. It is rolling out first in English for Google AI Ultra and Pro subscribers on web and mobile, with free-user access planned later. The feature expands NotebookLM beyond audio and long-form video summaries into a format closer to short social video.",
+      "keyFacts": [
+        "Published June 30, 2026 by The Verge",
+        "NotebookLM can generate 60-second vertical videos from uploaded sources",
+        "The rollout starts with Google AI Ultra and Pro subscribers",
+        "The clips use AI-generated imagery and narration",
+        "Google says free users will get access later"
+      ],
+      "url": "https://www.theverge.com/tech/959778/google-notebooklm-ai-clips",
+      "sourceName": "The Verge",
+      "relatedSources": [
+        "The Verge",
+        "Google",
+        "NotebookLM"
+      ],
+      "lane": "products",
+      "publishedAt": "2026-06-30T19:24:51.000Z",
+      "importance": 805,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-01T04:00:00.000Z",
+      "whyItMatters": "NotebookLM is moving from research assistant into generated learning media, a sign that AI summarization is shifting from text and audio into lightweight video products."
+    },
+    {
+      "id": "curated-techcrunch-openclaw-mobile-agents-2026-06-30",
+      "title": "OpenClaw brings its open-source AI agents to iOS and Android",
+      "summary": "TechCrunch reports that OpenClaw launched mobile apps that let users pair phones with its Gateway layer and run open-source agents from iOS or Android.",
+      "fullSummary": "TechCrunch reports that OpenClaw is now available on iOS and Android. The mobile apps connect to OpenClaw Gateway, a routing layer that links user requests to agents and the tools or skills those agents use. OpenClaw gained attention earlier in 2026 through agent demonstrations and the MoltBook stunt, and the mobile launch puts its open-source automation system into a more everyday device context.",
+      "keyFacts": [
+        "Published June 30, 2026 by TechCrunch",
+        "OpenClaw announced iOS and Android apps",
+        "The apps pair with OpenClaw Gateway",
+        "Users can route phone requests to OpenClaw agents and tools",
+        "OpenClaw's creator Peter Steinberger joined OpenAI earlier in 2026"
+      ],
+      "url": "https://techcrunch.com/2026/06/30/openclaw-is-finally-available-on-android-and-ios/",
+      "sourceName": "TechCrunch",
+      "relatedSources": [
+        "TechCrunch",
+        "OpenClaw",
+        "OpenAI"
+      ],
+      "lane": "agents",
+      "publishedAt": "2026-06-30T21:53:00.000Z",
+      "importance": 810,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-01T04:00:00.000Z",
+      "whyItMatters": "Agent platforms are becoming mobile-native, which changes them from desktop automation experiments into tools that can follow users through daily workflows."
+    },
+    {
+      "id": "curated-techcrunch-google-nano-banana-2-lite-2026-06-30",
+      "title": "Google releases Nano Banana 2 Lite for faster low-cost image generation",
+      "summary": "TechCrunch reports that Google released Nano Banana 2 Lite, a faster and cheaper image-generation model for high-volume creative workflows.",
+      "fullSummary": "TechCrunch reports that Google released Nano Banana 2 Lite, a lower-latency and lower-cost version of its in-house AI image and video generation line. Google says the model can produce images in about four seconds and costs $0.034 per 1,000 images. The model is available through Google AI Studio, the Gemini API, and Google's Gemini Enterprise Agent Platform. Google also announced wider availability of Gemini Omni Flash and a demo called Omni Product Studio for turning static product images into e-commerce videos.",
+      "keyFacts": [
+        "Published June 30, 2026 by TechCrunch",
+        "Nano Banana 2 Lite is optimized for speed and high-volume workflows",
+        "Google says it can generate images in about four seconds",
+        "Google lists pricing at $0.034 per 1,000 images",
+        "The model is available through AI Studio, the Gemini API, and Gemini Enterprise Agent Platform"
+      ],
+      "url": "https://techcrunch.com/2026/06/30/google-introduces-a-faster-cheaper-image-generator-with-nano-banana-2-lite/",
+      "sourceName": "TechCrunch",
+      "relatedSources": [
+        "TechCrunch",
+        "Google",
+        "Gemini API",
+        "Google AI Studio"
+      ],
+      "lane": "models",
+      "publishedAt": "2026-06-30T19:02:00.000Z",
+      "importance": 870,
+      "sourceConfidence": "high",
+      "filterCategory": "models",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-01T04:00:00.000Z",
+      "whyItMatters": "Google is pushing generative media toward commodity pricing, making image creation economics as important as raw model quality for enterprise adoption."
+    },
+    {
+      "id": "curated-techcrunch-etched-5b-ai-chip-sales-2026-06-30",
+      "title": "Etched says its AI chip systems have booked $1B in orders",
+      "summary": "TechCrunch reports that AI-chip startup Etched has booked $1 billion in contract orders, raised $800 million total, and reached a $5 billion post-money valuation.",
+      "fullSummary": "TechCrunch reports that Etched issued a progress update after TSMC successfully manufactured its chip earlier in 2026. The startup says it has booked $1 billion in contract orders for full systems powered by its inference chips and is testing those systems with customers. Etched also disclosed $800 million in total funding, including a previously unannounced $500 million round closed in December at a $5 billion post-money valuation. Its systems target faster, cheaper, and more power-efficient frontier-model inference.",
+      "keyFacts": [
+        "Published June 30, 2026 by TechCrunch",
+        "Etched says it booked $1 billion in contract orders",
+        "The company disclosed $800 million in total funding",
+        "Its latest round valued the company at $5 billion post-money",
+        "The chip systems target frontier-model inference workloads"
+      ],
+      "url": "https://techcrunch.com/2026/06/30/nvidia-competitor-etched-hits-5b-valuation-1b-in-sales-for-ai-chip/",
+      "sourceName": "TechCrunch",
+      "relatedSources": [
+        "TechCrunch",
+        "Etched",
+        "TSMC",
+        "Jane Street",
+        "Two Sigma",
+        "Ribbit Capital"
+      ],
+      "lane": "chips",
+      "publishedAt": "2026-06-30T18:13:00.000Z",
+      "importance": 910,
+      "sourceConfidence": "high",
+      "filterCategory": "funding",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-01T04:00:00.000Z",
+      "whyItMatters": "Inference cost is now a core AI bottleneck, and Etched is showing that customers and investors are willing to back specialized alternatives to general-purpose GPUs."
+    },
+    {
+      "id": "curated-techcrunch-anthropic-claude-sonnet-5-2026-06-30",
+      "title": "Anthropic launches Claude Sonnet 5 for cheaper agent workflows",
+      "summary": "TechCrunch reports that Anthropic released Claude Sonnet 5, a mid-tier model positioned as a lower-cost way to run agentic coding and knowledge-work tasks.",
+      "fullSummary": "TechCrunch reports that Anthropic launched Claude Sonnet 5, a more agentic version of its midsize model. Anthropic says Sonnet 5 can plan, use tools such as browsers and terminals, and run autonomously at a level that recently required larger models. It is becoming the default for Claude free and Pro plans and is available across subscriptions. Anthropic priced it below Opus 4.8 and positioned it as a way for users to balance cost and capability for coding, tool use, and knowledge work.",
+      "keyFacts": [
+        "Published June 30, 2026 by TechCrunch",
+        "Claude Sonnet 5 is Anthropic's new midsize model",
+        "Anthropic says it improves reasoning, tool use, coding, and knowledge work",
+        "It becomes the default model for free and Pro Claude plans",
+        "Introductory API pricing is lower than Claude Opus 4.8"
+      ],
+      "url": "https://techcrunch.com/2026/06/30/anthropic-launches-claude-sonnet-5-as-a-cheaper-way-to-run-agents/",
+      "sourceName": "TechCrunch",
+      "relatedSources": [
+        "TechCrunch",
+        "Anthropic",
+        "Claude"
+      ],
+      "lane": "models",
+      "publishedAt": "2026-06-30T18:00:00.000Z",
+      "importance": 925,
+      "sourceConfidence": "high",
+      "filterCategory": "models",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-01T04:00:00.000Z",
+      "whyItMatters": "Agentic performance is moving down the price curve, so model competition is increasingly about reliable autonomy per dollar rather than only peak benchmark scores."
+    },
+    {
+      "id": "curated-arxiv-axdafny-agentic-verified-code-2026-06-30",
+      "title": "AxDafny paper tests agentic code generation against formal verification",
+      "summary": "A new arXiv paper introduces AxDafny, a verifier-guided repair framework for generating Dafny code and proof artifacts, and reports strong gains over a GPT-5.5 baseline.",
+      "fullSummary": "An arXiv paper introduces AxDafny, a framework for agentic code generation in Dafny where the system must produce both executable code and proof artifacts that pass verification. The authors also introduce LiveCodeBench-Pro-Dafny, a 250-problem benchmark translated into Dafny with formal specifications and verifier-based evaluation. They report that AxDafny substantially improves verification success over baseline GPT-5.5 performance and reaches 92.7% verification success on DafnyBench.",
+      "keyFacts": [
+        "Submitted June 30, 2026 to arXiv",
+        "The paper studies agentic verified code generation in Dafny",
+        "It introduces AxDafny and LiveCodeBench-Pro-Dafny",
+        "The benchmark includes 250 programming problems with formal specifications",
+        "AxDafny reports 92.7% verification success on DafnyBench"
+      ],
+      "url": "https://arxiv.org/abs/2606.32007",
+      "sourceName": "arXiv",
+      "relatedSources": [
+        "arXiv",
+        "Dafny",
+        "LiveCodeBench-Pro-Dafny"
+      ],
+      "lane": "papers",
+      "publishedAt": "2026-06-30T17:39:43.000Z",
+      "importance": 835,
+      "sourceConfidence": "high",
+      "filterCategory": "papers",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-01T04:00:00.000Z",
+      "whyItMatters": "Formal verification is one of the cleanest ways to measure whether coding agents actually produce correct programs, not just plausible patches."
+    },
+    {
+      "id": "curated-techcrunch-anthropic-claude-science-workbench-2026-06-30",
+      "title": "Anthropic launches Claude Science as a research workbench",
+      "summary": "TechCrunch reports that Anthropic introduced Claude Science, a scientific research workbench with database connections, specialist assistants, fact checking, and reproducible figure generation.",
+      "fullSummary": "TechCrunch reports that Anthropic introduced Claude Science, an AI workbench for computational research. Anthropic says the product is not a new biology model; it uses existing Claude models inside a dedicated environment for science workflows. The system connects to more than 60 scientific databases, includes toolkits for fields such as genomics, protein structure, and chemistry, can create specialist sub-assistants, and includes a fact-checking assistant for citations and calculations. It also generates figures alongside the code and environment used to create them.",
+      "keyFacts": [
+        "Published June 30, 2026 by TechCrunch",
+        "Claude Science is a workflow product, not a new model",
+        "Anthropic says it connects to more than 60 scientific databases",
+        "The workbench supports genomics, protein structure, and chemistry toolkits",
+        "It includes citation and calculation checks plus reproducible figure metadata"
+      ],
+      "url": "https://techcrunch.com/2026/06/30/anthropics-claude-science-bets-on-workflow-not-a-new-model-to-win-over-scientists/",
+      "sourceName": "TechCrunch",
+      "relatedSources": [
+        "TechCrunch",
+        "Anthropic",
+        "Allen Institute",
+        "UCSF Brain Tumor Center"
+      ],
+      "lane": "health-science",
+      "publishedAt": "2026-06-30T17:00:00.000Z",
+      "importance": 875,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-01T04:00:00.000Z",
+      "whyItMatters": "Frontier labs are packaging models into vertical operating layers, and science is becoming a proving ground for workflow depth, reproducibility, and domain-specific trust."
+    },
+    {
+      "id": "curated-arxiv-mars-multimodal-refusal-safety-2026-06-30",
+      "title": "MARS paper uses text refusal directions to improve multimodal model safety",
+      "summary": "A new arXiv paper proposes Modality-Agnostic Refusal Steering, a training-free method for transferring textual refusal directions into image and video safety controls.",
+      "fullSummary": "An arXiv paper examines whether refusal directions extracted from an LLM backbone can improve safety in multimodal models. The authors introduce Modality-Agnostic Refusal Steering, or MARS, a training-free approach that uses activation steering, re-centering, adaptive strength selection, and layer choice to improve safety without collecting unsafe multimodal training data. Evaluations across five multimodal models found consistent safety gains while preserving utility.",
+      "keyFacts": [
+        "Submitted June 30, 2026 to arXiv",
+        "The paper studies safety steering for multimodal LLMs",
+        "It introduces Modality-Agnostic Refusal Steering",
+        "The method is training-free and avoids unsafe multimodal safety data collection",
+        "The authors report consistent gains across safety, utility, and video-jailbreak benchmarks"
+      ],
+      "url": "https://arxiv.org/abs/2606.31876",
+      "sourceName": "arXiv",
+      "relatedSources": [
+        "arXiv",
+        "MARS",
+        "Multimodal LLMs"
+      ],
+      "lane": "papers",
+      "publishedAt": "2026-06-30T15:57:50.000Z",
+      "importance": 825,
+      "sourceConfidence": "high",
+      "filterCategory": "papers",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-01T04:00:00.000Z",
+      "whyItMatters": "Multimodal jailbreak defense is harder to train directly, so reusable activation-level safety methods could matter as image and video agents spread."
+    },
+    {
+      "id": "curated-techcrunch-amazon-1b-fde-ai-org-2026-06-30",
+      "title": "AWS commits $1B to forward-deployed AI engineers",
+      "summary": "TechCrunch reports that AWS launched a $1 billion internal organization of AI-focused forward-deployed engineers to help customers build and operate agentic systems.",
+      "fullSummary": "TechCrunch reports that Amazon Web Services launched a new internal organization for AI-focused forward-deployed engineers. AWS says the team will embed engineers inside customer organizations to build purpose-built agents, transfer AI skills, and help customers become self-sufficient. Amazon is committing $1 billion in internal resources to the effort. The move follows similar forward-deployed AI efforts from OpenAI and Anthropic, which were paired with private-equity partners.",
+      "keyFacts": [
+        "Published June 30, 2026 by TechCrunch",
+        "AWS launched an AI-focused forward-deployed engineering organization",
+        "The team will embed with customers to deploy agentic systems",
+        "Amazon says it is committing $1 billion in internal resources",
+        "The model follows recent OpenAI and Anthropic FDE efforts"
+      ],
+      "url": "https://techcrunch.com/2026/06/30/amazon-launches-new-1-billion-fde-org-following-openai-and-anthropic/",
+      "sourceName": "TechCrunch",
+      "relatedSources": [
+        "TechCrunch",
+        "Amazon Web Services",
+        "OpenAI",
+        "Anthropic",
+        "Palantir"
+      ],
+      "lane": "enterprise",
+      "publishedAt": "2026-06-30T15:00:00.000Z",
+      "importance": 890,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-01T04:00:00.000Z",
+      "whyItMatters": "The biggest cloud providers are treating AI deployment as labor-intensive systems integration, not just API consumption, which changes how enterprise AI budgets will be spent."
+    },
+    {
+      "id": "curated-arxiv-protopilot-biological-protocol-agents-2026-06-30",
+      "title": "ProtoPilot paper shows self-evolving agents for wet-lab protocols",
+      "summary": "A new arXiv paper presents ProtoPilot, a multi-agent system for turning biological protocols into executable lab workflows with validation and feedback-guided revision.",
+      "fullSummary": "An arXiv paper introduces ProtoPilot, a self-evolving multi-agent system for automated biological protocol generation and execution. The system spans protocol design, SOP expansion, SDK-compliant code generation, device-level checks, and feedback-guided revision. The authors evaluated it on 294 synthetic-biology and molecular-biology tasks derived from 98 protocols, reporting a 90.2% Top@3 expert-preference rate, an 89.5% protocol-to-code gate pass rate, and an 88.24% Opentrons pass rate.",
+      "keyFacts": [
+        "Submitted June 30, 2026 to arXiv",
+        "The paper introduces ProtoPilot for autonomous wet-lab automation",
+        "The benchmark covers 294 biology tasks from 98 protocols",
+        "The system generates protocols, SOPs, SDK-compliant code, and revisions from feedback",
+        "The authors report an 88.24% Opentrons pass rate"
+      ],
+      "url": "https://arxiv.org/abs/2606.31763",
+      "sourceName": "arXiv",
+      "relatedSources": [
+        "arXiv",
+        "ProtoPilot",
+        "Opentrons"
+      ],
+      "lane": "papers",
+      "publishedAt": "2026-06-30T14:51:13.000Z",
+      "importance": 845,
+      "sourceConfidence": "high",
+      "filterCategory": "papers",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-01T04:00:00.000Z",
+      "whyItMatters": "Wet-lab automation is where agent mistakes become physical errors, so protocol-to-code validation is a serious test for AI-for-science claims."
+    },
+    {
+      "id": "curated-techcrunch-okx-ai-agent-marketplace-2026-06-30",
+      "title": "OKX launches marketplace for AI agents to hire and pay each other",
+      "summary": "TechCrunch reports that OKX launched OKX AI, a developer marketplace where AI agents can discover services, settle payments, and build on-chain reputations.",
+      "fullSummary": "TechCrunch reports that crypto exchange OKX launched OKX AI, a marketplace for AI agents. The platform lets agents hire one another, settle payments autonomously, and build portable on-chain reputations. The launch follows a closed beta with 50 AI service providers and uses OKX's existing work on wallets, stablecoin payments, and persistent identities for agents. Early builders include CertiK, CoinAnk, and GenLayer, and OKX is aiming the marketplace first at crypto developers and solo entrepreneurs.",
+      "keyFacts": [
+        "Published June 30, 2026 by TechCrunch",
+        "OKX AI opened to developers after a closed beta",
+        "The marketplace supports agent discovery, payments, and on-chain reputation",
+        "Early partners include CertiK, CoinAnk, and GenLayer",
+        "OKX says developers can access it through Onchain OS"
+      ],
+      "url": "https://techcrunch.com/2026/06/30/crypto-exchange-okx-wants-ai-agents-to-hire-and-pay-each-other/",
+      "sourceName": "TechCrunch",
+      "relatedSources": [
+        "TechCrunch",
+        "OKX",
+        "CertiK",
+        "CoinAnk",
+        "GenLayer"
+      ],
+      "lane": "agents",
+      "publishedAt": "2026-06-30T09:00:00.000Z",
+      "importance": 840,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-01T04:00:00.000Z",
+      "whyItMatters": "If agents start buying services from other agents, payment, identity, trust, and dispute resolution become core AI infrastructure rather than crypto side quests."
+    },
+    {
+      "id": "curated-techcrunch-ai-jobs-ramp-revelio-report-2026-06-30",
+      "title": "Ramp and Revelio data complicates the AI job-loss narrative",
+      "summary": "TechCrunch reports that a Ramp and Revelio Labs analysis found high-intensity AI adopters growing headcount faster, even as broader AI job-loss fears continue.",
+      "fullSummary": "TechCrunch reports on a Ramp and Revelio Labs analysis that compared AI spending and workforce records across nearly 22,000 companies. The report found that companies making sustained, high-intensity AI investments grew headcount faster, including in entry-level roles, than companies with lighter or less durable AI adoption. The authors caution that the findings do not prove AI universally creates jobs and may reflect fast-growing, tech-forward companies, but the data complicates claims that AI adoption always maps directly to broad job cuts.",
+      "keyFacts": [
+        "Published June 29, 2026 by TechCrunch",
+        "The analysis used Ramp spending data and Revelio Labs workforce data",
+        "The dataset covered nearly 22,000 companies",
+        "High-intensity AI adopters reportedly grew headcount faster",
+        "The authors caution that the results do not prove AI universally creates jobs"
+      ],
+      "url": "https://techcrunch.com/2026/06/29/the-ai-jobs-debate-just-got-messier/",
+      "sourceName": "TechCrunch",
+      "relatedSources": [
+        "TechCrunch",
+        "Ramp",
+        "Revelio Labs",
+        "Goldman Sachs",
+        "BCG"
+      ],
+      "lane": "workforce",
+      "publishedAt": "2026-06-30T04:01:00.000Z",
+      "importance": 820,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-01T04:00:00.000Z",
+      "whyItMatters": "The jobs debate needs firm-level evidence, and this report separates sustained AI investment from one-off tool adoption instead of treating every company the same."
+    },
     {
       "id": "curated-ap-us-tech-ai-scam-industry-2026-06-30",
       "title": "AP investigation links U.S. AI tech to global scam networks",
@@ -15686,36 +16093,6 @@
       "filterCategory": "funding"
     },
     {
-      "id": "curated-irb-barcelona-ai-designed-cell-selective-molecules-2026-06-02",
-      "title": "IRB Barcelona uses generative AI to design cell-selective molecules",
-      "summary": "Researchers reported AI-designed chemical entities that target desired cell effects without starting from a predefined protein target.",
-      "fullSummary": "A new IRB Barcelona study points to a more phenotypic style of AI drug discovery. EurekAlert reported that Patrick Aloy's Structural Bioinformatics and Network Biology lab developed a computational framework that designs molecules based on the biological effect researchers want in specific cell types, rather than starting with a known protein target. The team tested more than 11,000 chemical compounds across eight cell models, including six pancreatic-cancer lines and two controls, then used the data to train predictive models and guide a generative AI system. Several AI-designed molecules experimentally matched the intended selective activity, and the work was published in Communications Chemistry. This is early-stage compound discovery, not a validated therapy. Its significance is methodological: AI is being used to propose structurally novel molecules around desired cellular behavior when the target biology is poorly characterized.",
-      "keyFacts": [
-        "June 2, 2026",
-        "IRB Barcelona",
-        "Communications Chemistry",
-        "Patrick Aloy",
-        "11,000+ chemical compounds",
-        "Eight cell models",
-        "Six pancreatic-cancer lines",
-        "Phenotypic discovery",
-        "DOI 10.1038/s42004-026-02071-x"
-      ],
-      "url": "https://www.eurekalert.org/news-releases/1130545",
-      "sourceName": "EurekAlert / IRB Barcelona",
-      "relatedSources": [
-        "EurekAlert",
-        "IRB Barcelona",
-        "Communications Chemistry"
-      ],
-      "lane": "research",
-      "publishedAt": "2026-06-02T08:00:00.000Z",
-      "importance": 271,
-      "sourceConfidence": "high",
-      "summaryEngine": "chat-curated",
-      "filterCategory": "papers"
-    },
-    {
       "id": "curated-nyb-ai-vecura-2-agentic-molecular-discovery-2026-06-02",
       "title": "NYB.AI launches Vecura 2.0 for agentic molecular discovery",
       "summary": "Singapore startup NYB.AI launched Vecura 2.0, an agentic platform for molecular discovery that coordinates models, biological data, scientific tools, and GPU workflows with NVIDIA support.",
@@ -17662,37 +18039,6 @@
       "filterCategory": "pushback"
     },
     {
-      "id": "curated-ai-ultrasound-carotid-primary-care-2026-05-27",
-      "title": "AI-assisted ultrasound helps Shanghai GPs spot carotid plaque",
-      "summary": "A Shanghai primary-care study found trained general practitioners using AI-enhanced point-of-care ultrasound detected carotid plaque with 87% sensitivity and 91% specificity.",
-      "fullSummary": "This is the kind of quiet healthcare-AI study that should not get lost under model releases. An Annals of Family Medicine tip sheet on EurekAlert describes a study where seven general practitioners across four Shanghai community health centers received about five weeks of training, then screened 169 older adults at high risk for atherosclerotic cardiovascular disease using AI-enhanced point-of-care ultrasound. Compared with expert ultrasonologists, the GPs correctly identified plaque when present 87% of the time and correctly cleared patients without plaque 91% of the time. The result suggests AI-assisted imaging plus structured training could extend carotid plaque screening into community care. The caveats are important: this is a small study, performance varied by GP, and misses clustered at the carotid bifurcation. Watch larger validation and real-world workflow results.",
-      "keyFacts": [
-        "Annals of Family Medicine",
-        "EurekAlert",
-        "May 27, 2026",
-        "Shanghai",
-        "Zhongshan Hospital",
-        "Fudan University",
-        "7 general practitioners",
-        "169 older adults",
-        "87% sensitivity",
-        "91% specificity",
-        "AI-enhanced POCUS"
-      ],
-      "url": "https://www.eurekalert.org/news-releases/1129094",
-      "sourceName": "EurekAlert / Annals of Family Medicine",
-      "relatedSources": [
-        "EurekAlert",
-        "Annals of Family Medicine"
-      ],
-      "lane": "papers",
-      "publishedAt": "2026-05-27T14:00:00.000Z",
-      "importance": 146,
-      "sourceConfidence": "high",
-      "summaryEngine": "chat-curated",
-      "filterCategory": "papers"
-    },
-    {
       "id": "curated-torqueagi-nvidia-deere-dexterity-2026-05-27",
       "title": "TorqueAGI links with Nvidia, John Deere, and Dexterity for physical AI",
       "summary": "TorqueAGI announced collaborations with Nvidia, John Deere, and Dexterity to move foundation models for enterprise robots into agriculture and logistics deployments.",
@@ -18251,49 +18597,6 @@
       "lane": "news",
       "publishedAt": "2026-05-26T14:55:00.000Z",
       "importance": 124,
-      "sourceConfidence": "high",
-      "summaryEngine": "chat-curated",
-      "filterCategory": "general"
-    },
-    {
-      "id": "curated-swri-ai-ebola-bundibugyo-drug-candidates-2026-05-26",
-      "title": "SwRI uses AI to find Ebola Bundibugyo antiviral candidates",
-      "summary": "Southwest Research Institute says its GAMES AI model identified nearly two dozen antiviral candidates for Bundibugyo Ebola, which Texas Biomed will test in a BSL-4 lab.",
-      "fullSummary": "This was a real miss because it is exactly the kind of practical AI application the feed should catch. Southwest Research Institute and Texas Biomed announced on May 26 that SwRI used AI tools to identify nearly two dozen antiviral compounds that could potentially treat Bundibugyo virus, a rare Ebola species involved in the current DRC outbreak. The SwRI-developed GAMES language model prioritized precursors used to synthesize 18 novel analogs for screening against Bundibugyo, and Texas Biomed will test the compounds in its Biosafety Level 4 laboratory. WHO says there is no licensed vaccine or specific therapeutic against Bundibugyo virus, though supportive care is lifesaving, so even early candidate discovery is notable. The caveat is critical: these are pilot compounds for lab screening, not approved drugs or validated treatments. Watch test results, animal data, and whether any candidate moves toward emergency evaluation.",
-      "keyFacts": [
-        "Southwest Research Institute",
-        "Texas Biomed",
-        "May 26, 2026",
-        "Bundibugyo Ebola virus",
-        "nearly two dozen antiviral candidates",
-        "18 novel analogs",
-        "GAMES language model",
-        "BSL-4 laboratory",
-        "DRC outbreak",
-        "no approved Bundibugyo-specific therapeutics"
-      ],
-      "url": "https://www.eurekalert.org/news-releases/1129665",
-      "sourceName": "EurekAlert / SwRI",
-      "relatedSources": [
-        "EurekAlert",
-        "Southwest Research Institute",
-        "WHO"
-      ],
-      "relatedLinks": [
-        {
-          "title": "SwRI, Texas Biomed to test antiviral compounds for Ebola virus",
-          "url": "https://www.eurekalert.org/news-releases/1129665",
-          "sourceName": "EurekAlert"
-        },
-        {
-          "title": "WHO disease outbreak news on Bundibugyo Ebola",
-          "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON602",
-          "sourceName": "WHO"
-        }
-      ],
-      "lane": "news",
-      "publishedAt": "2026-05-26T12:00:00.000Z",
-      "importance": 156,
       "sourceConfidence": "high",
       "summaryEngine": "chat-curated",
       "filterCategory": "general"
