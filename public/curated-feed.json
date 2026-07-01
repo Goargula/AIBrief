@@ -1,9 +1,85 @@
 {
-  "generatedAt": "2026-07-01T04:00:00.000Z",
-  "nextRefreshAt": "2026-07-01T16:00:00.000Z",
+  "generatedAt": "2026-07-01T08:52:00.000Z",
+  "nextRefreshAt": "2026-07-01T20:52:00.000Z",
   "summaryEngine": "chat-curated",
   "curated": true,
   "items": [
+    {
+      "id": "curated-ft-apple-siri-ai-eu-talks-2026-07-01",
+      "title": "Apple and EU hold talks over Siri AI rollout",
+      "summary": "Financial Times reported that Apple CEO Tim Cook and EU tech chief Henna Virkkunen held constructive talks about how Apple could launch its redesigned Siri AI in Europe without breaching Digital Markets Act rules.",
+      "fullSummary": "Financial Times reported that Apple CEO Tim Cook and EU tech chief Henna Virkkunen held talks on Tuesday about the stalled European rollout of Apple's redesigned Siri AI. The discussion centered on how Apple could launch the assistant while avoiding fines under the EU Digital Markets Act. The Verge noted the update as part of the continuing impasse that has left European users waiting for the new Apple Intelligence version of Siri.",
+      "keyFacts": [
+        "Tim Cook and Henna Virkkunen discussed Apple's Siri AI rollout in Europe",
+        "The talks focused on Digital Markets Act compliance and potential fines",
+        "The redesigned Siri remains delayed for European users"
+      ],
+      "url": "https://www.ft.com/content/807d25c3-f4ac-4402-b815-3aa91018237d",
+      "sourceName": "Financial Times",
+      "relatedSources": [
+        "The Verge",
+        "Apple",
+        "European Commission"
+      ],
+      "lane": "policy",
+      "publishedAt": "2026-07-01T07:45:00.000Z",
+      "importance": 895,
+      "sourceConfidence": "medium",
+      "filterCategory": "pushback",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-01T08:52:00.000Z",
+      "whyItMatters": "Apple's AI rollout is now a regulatory execution story, not just a product delay, and Europe is the largest unresolved test of its on-device-plus-cloud assistant strategy."
+    },
+    {
+      "id": "curated-google-interactions-api-ga-agents-2026-07-01",
+      "title": "Google makes Interactions API the default surface for Gemini agents",
+      "summary": "Google said its Interactions API is generally available and is now the primary way developers should work with Gemini models and agents, adding managed agents, background execution, richer tool use, media generation, and paid-tier history retrieval.",
+      "fullSummary": "Google announced general availability for the Interactions API and positioned it as the primary interface for Gemini models and agents. The release gives the API a stable schema and adds managed agents, background execution, tool-combination improvements, Deep Research upgrades, media generation support, Flex and Priority tiers, and 55-day interaction retention on paid plans. Google says its AI Studio, Gemini API documentation, and ecosystem partners will shift toward Interactions API as the default path for new agentic applications.",
+      "keyFacts": [
+        "Interactions API reached general availability",
+        "Google says documentation now defaults to the API for Gemini models and agents",
+        "New capabilities include managed agents, background execution, tool improvements, and media generation"
+      ],
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/interactions-api-general-availability/",
+      "sourceName": "Google",
+      "relatedSources": [
+        "Google AI Studio",
+        "Google DeepMind"
+      ],
+      "lane": "developer-tools",
+      "publishedAt": "2026-07-01T06:30:00.000Z",
+      "importance": 910,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-01T08:52:00.000Z",
+      "whyItMatters": "This is Google turning agent workflows into a formal developer platform, which affects how builders structure state, tools, background jobs, and long-running Gemini applications."
+    },
+    {
+      "id": "curated-google-amie-disease-management-nature-2026-07-01",
+      "title": "Google AMIE research moves from diagnosis to disease management",
+      "summary": "Google said new Nature research shows its AMIE medical AI moving beyond diagnosis into long-term disease management, matching clinicians overall while scoring higher on plan precision and guideline alignment in a blinded study.",
+      "fullSummary": "Google reported new Nature research on the Articulate Medical Intelligence Explorer, or AMIE, focused on disease management rather than one-off diagnosis. The system uses Gemini long-context capabilities, a patient dialogue agent, and a management reasoning agent that can cross-reference clinical guidelines and drug formularies. In a blinded study with patient actors, specialist physicians compared AMIE with 21 primary care doctors; Google says AMIE matched clinicians overall and scored higher on plan preciseness and guideline alignment. Google is also exploring clinical settings and a nationwide study for real-world virtual care.",
+      "keyFacts": [
+        "The AMIE work was published in Nature",
+        "The study compared AMIE with 21 primary care doctors",
+        "Google says AMIE matched clinicians overall and scored higher on plan precision and guideline alignment"
+      ],
+      "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/amie-for-disease-management-in-nature/",
+      "sourceName": "Google Research",
+      "relatedSources": [
+        "Nature",
+        "Google DeepMind"
+      ],
+      "lane": "health",
+      "publishedAt": "2026-07-01T05:30:00.000Z",
+      "importance": 930,
+      "sourceConfidence": "high",
+      "filterCategory": "papers",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-01T08:52:00.000Z",
+      "whyItMatters": "Medical AI is shifting from chat-style triage toward longitudinal care planning, where guideline alignment, drug context, and clinician oversight become the real deployment questions."
+    },
     {
       "id": "curated-techcrunch-vint-cerf-agent-standards-2026-07-01",
       "title": "Vint Cerf says agentic AI will need formal interoperability standards",
@@ -65,32 +141,55 @@
       "whyItMatters": "The reversal turns a one-company access fight into a live test of how the U.S. will police frontier model releases without freezing its own labs out of global markets."
     },
     {
-      "id": "curated-verge-notebooklm-short-video-overviews-2026-06-30",
-      "title": "Google adds short AI video summaries to NotebookLM",
-      "summary": "The Verge reports that NotebookLM can now turn uploaded sources into 60-second vertical video overviews for Google AI Ultra and Pro subscribers.",
-      "fullSummary": "The Verge reports that Google is adding Short Video Overviews to NotebookLM. The feature lets users generate 60-second vertical clips from uploaded sources, combining AI-generated visuals and narration. It is rolling out first in English for Google AI Ultra and Pro subscribers on web and mobile, with free-user access planned later. The feature expands NotebookLM beyond audio and long-form video summaries into a format closer to short social video.",
+      "id": "curated-techcrunch-wayve-employee-tender-2026-07-01",
+      "title": "Wayve launches $85M employee tender at $8.5B valuation",
+      "summary": "TechCrunch reported that autonomous-driving AI startup Wayve is letting employees sell vested equity through an $85 million tender offer at its latest $8.5 billion valuation.",
+      "fullSummary": "TechCrunch reported that U.K.-based self-driving startup Wayve is running an $85 million employee tender offer led by existing and new investors. The transaction uses the company's $8.5 billion valuation, set in February during its $1.2 billion Series D backed by Eclipse, Balderton, SoftBank Vision Fund 2, Microsoft, Nvidia, Uber, and others. Wayve says its end-to-end neural driving system is aimed at a general-purpose AI driver, and the company has more than doubled headcount to 1,200 employees while preparing Uber robotaxi pilots and Nissan driver-assist integrations.",
       "keyFacts": [
-        "Published June 30, 2026 by The Verge",
-        "NotebookLM can generate 60-second vertical videos from uploaded sources",
-        "The rollout starts with Google AI Ultra and Pro subscribers",
-        "The clips use AI-generated imagery and narration",
-        "Google says free users will get access later"
+        "Wayve is running an $85 million employee tender offer",
+        "The tender uses Wayve's latest $8.5 billion valuation",
+        "Wayve has doubled headcount to 1,200 and is targeting Uber and Nissan deployments"
       ],
-      "url": "https://www.theverge.com/tech/959778/google-notebooklm-ai-clips",
-      "sourceName": "The Verge",
+      "url": "https://techcrunch.com/2026/06/30/wayve-launches-85m-employee-tender-offer-at-8-5b-valuation/",
+      "sourceName": "TechCrunch",
+      "relatedSources": [
+        "Wayve",
+        "Uber",
+        "Nissan"
+      ],
+      "lane": "funding",
+      "publishedAt": "2026-07-01T02:04:00.000Z",
+      "importance": 875,
+      "sourceConfidence": "high",
+      "filterCategory": "funding",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-01T08:52:00.000Z",
+      "whyItMatters": "AI tender offers are becoming retention tools, and Wayve shows how autonomous-driving startups are still attracting investor demand despite long deployment timelines."
+    },
+    {
+      "id": "curated-google-gemini-spark-macos-connected-apps-2026-07-01",
+      "title": "Google brings Gemini Spark agents to macOS and connected apps",
+      "summary": "Google is rolling out Gemini Spark to the Gemini macOS app, adding desktop-file automation, remote task execution, new connected apps, custom MCP support, and real-time topic tracking.",
+      "fullSummary": "Google said Gemini Spark is coming to the Gemini macOS app so users can automate tasks across desktop files and Google Workspace, such as sorting downloads or turning invoices into a budget spreadsheet. The company also previewed remote task execution from a phone, expanded connected apps to Google Tasks, Keep, Canva, Dropbox, Instacart, OpenTable, and Zillow Rentals, and added custom Model Context Protocol support. Spark is also getting real-time topic tracking across blogs, news sites, social media, finance, shopping, weather, sports, and email.",
+      "keyFacts": [
+        "Gemini Spark for macOS is launching in beta for Google AI Ultra subscribers in the U.S.",
+        "Spark is adding Tasks, Keep, Canva, Dropbox, Instacart, OpenTable, and Zillow Rentals integrations",
+        "Google is adding custom MCP support and real-time topic tracking"
+      ],
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-spark-updates-june-2026/",
+      "sourceName": "Google",
       "relatedSources": [
         "The Verge",
-        "Google",
-        "NotebookLM"
+        "Google DeepMind"
       ],
-      "lane": "products",
-      "publishedAt": "2026-06-30T19:24:51.000Z",
-      "importance": 805,
+      "lane": "agents",
+      "publishedAt": "2026-07-01T00:04:00.000Z",
+      "importance": 870,
       "sourceConfidence": "high",
       "filterCategory": "general",
       "summaryEngine": "chat-curated",
-      "curatedAt": "2026-07-01T04:00:00.000Z",
-      "whyItMatters": "NotebookLM is moving from research assistant into generated learning media, a sign that AI summarization is shifting from text and audio into lightweight video products."
+      "curatedAt": "2026-07-01T08:52:00.000Z",
+      "whyItMatters": "Spark is one of the clearest consumer tests of background agents moving from web demos into files, apps, permissions, and recurring tasks on a personal computer."
     },
     {
       "id": "curated-techcrunch-openclaw-mobile-agents-2026-06-30",
@@ -119,6 +218,60 @@
       "summaryEngine": "chat-curated",
       "curatedAt": "2026-07-01T04:00:00.000Z",
       "whyItMatters": "Agent platforms are becoming mobile-native, which changes them from desktop automation experiments into tools that can follow users through daily workflows."
+    },
+    {
+      "id": "curated-techcrunch-equilibre-quant-hedge-fund-ai-2026-06-30",
+      "title": "DeepMind alumni apply poker AI techniques to quant trading",
+      "summary": "TechCrunch reported that EquiLibre Technologies, founded by three former DeepMind researchers who built a poker AI, is valued at $500 million after applying reinforcement learning agents to quant trading.",
+      "fullSummary": "TechCrunch reported that Prague-based EquiLibre Technologies, founded by three former DeepMind researchers behind a poker-playing AI, has raised a Series A at a $500 million valuation. The company applies reinforcement learning to trading and says its algorithms, used with Tower Research Capital, trade billions in daily volume across the S&P 500 and Nasdaq with no negative months since inception. The round was led by Creandum, which called it the largest single investment the firm has made into one company, while EquiLibre plans to scale compute infrastructure in Central and Eastern Europe.",
+      "keyFacts": [
+        "EquiLibre was founded by former DeepMind researchers tied to DeepStack poker AI",
+        "The startup is valued at $500 million after a Series A led by Creandum",
+        "Its agents are trading billions in daily volume with Tower Research Capital"
+      ],
+      "url": "https://techcrunch.com/2026/06/30/the-deepmind-trio-who-built-a-poker-ai-are-now-making-money-for-quant-hedge-funds/",
+      "sourceName": "TechCrunch",
+      "relatedSources": [
+        "EquiLibre Technologies",
+        "Creandum",
+        "Tower Research Capital"
+      ],
+      "lane": "funding",
+      "publishedAt": "2026-06-30T20:33:00.000Z",
+      "importance": 865,
+      "sourceConfidence": "high",
+      "filterCategory": "funding",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-01T08:52:00.000Z",
+      "whyItMatters": "The story shows reinforcement learning moving from game benchmarks into high-stakes markets, where performance claims, compute efficiency, and risk controls will be tested with real capital."
+    },
+    {
+      "id": "curated-verge-notebooklm-short-video-overviews-2026-06-30",
+      "title": "Google adds short AI video summaries to NotebookLM",
+      "summary": "The Verge reports that NotebookLM can now turn uploaded sources into 60-second vertical video overviews for Google AI Ultra and Pro subscribers.",
+      "fullSummary": "The Verge reports that Google is adding Short Video Overviews to NotebookLM. The feature lets users generate 60-second vertical clips from uploaded sources, combining AI-generated visuals and narration. It is rolling out first in English for Google AI Ultra and Pro subscribers on web and mobile, with free-user access planned later. The feature expands NotebookLM beyond audio and long-form video summaries into a format closer to short social video.",
+      "keyFacts": [
+        "Published June 30, 2026 by The Verge",
+        "NotebookLM can generate 60-second vertical videos from uploaded sources",
+        "The rollout starts with Google AI Ultra and Pro subscribers",
+        "The clips use AI-generated imagery and narration",
+        "Google says free users will get access later"
+      ],
+      "url": "https://www.theverge.com/tech/959778/google-notebooklm-ai-clips",
+      "sourceName": "The Verge",
+      "relatedSources": [
+        "The Verge",
+        "Google",
+        "NotebookLM"
+      ],
+      "lane": "products",
+      "publishedAt": "2026-06-30T19:24:51.000Z",
+      "importance": 805,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-01T04:00:00.000Z",
+      "whyItMatters": "NotebookLM is moving from research assistant into generated learning media, a sign that AI summarization is shifting from text and audio into lightweight video products."
     },
     {
       "id": "curated-techcrunch-google-nano-banana-2-lite-2026-06-30",
@@ -209,6 +362,31 @@
       "whyItMatters": "Agentic performance is moving down the price curve, so model competition is increasingly about reliable autonomy per dollar rather than only peak benchmark scores."
     },
     {
+      "id": "curated-techcrunch-acti-agentic-keyboard-2026-06-30",
+      "title": "Acti launches an agentic keyboard for iOS and Android",
+      "summary": "TechCrunch reported that Singapore-based Acti launched an AI keyboard for iOS and Android that can take actions inside everyday apps using Gemini-powered skills and a local-first context model.",
+      "fullSummary": "TechCrunch reported that Acti, a Singapore startup, launched an agentic keyboard for iOS and Android. The product sits inside messaging, email, social, and other apps so users can invoke AI help without switching to a separate chatbot. Acti uses Google Gemini models and includes Skills, programmable shortcuts for multistep actions such as translating a message or sharing a meeting link. The company says personal context stays on-device by default and is not accessed or stored unless a user explicitly invokes a feature requiring external processing.",
+      "keyFacts": [
+        "Acti launched an AI keyboard on iOS and Android",
+        "The keyboard can trigger multistep Skills inside existing apps",
+        "Acti says it uses a local-first model for user context"
+      ],
+      "url": "https://techcrunch.com/2026/06/30/acti-puts-ai-agents-directly-into-your-smartphone-keyboard/",
+      "sourceName": "TechCrunch",
+      "relatedSources": [
+        "Acti",
+        "Google Gemini"
+      ],
+      "lane": "agents",
+      "publishedAt": "2026-06-30T17:52:00.000Z",
+      "importance": 835,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-01T08:52:00.000Z",
+      "whyItMatters": "If agents move into keyboards, the battleground shifts from standalone chat apps to input layers that see intent before any platform assistant does."
+    },
+    {
       "id": "curated-arxiv-axdafny-agentic-verified-code-2026-06-30",
       "title": "AxDafny paper tests agentic code generation against formal verification",
       "summary": "A new arXiv paper introduces AxDafny, a verifier-guided repair framework for generating Dafny code and proof artifacts, and reports strong gains over a GPT-5.5 baseline.",
@@ -294,6 +472,31 @@
       "whyItMatters": "Multimodal jailbreak defense is harder to train directly, so reusable activation-level safety methods could matter as image and video agents spread."
     },
     {
+      "id": "curated-techcrunch-x-hosted-mcp-server-2026-06-30",
+      "title": "X launches hosted MCP server for AI tools",
+      "summary": "TechCrunch reported that X now offers a hosted Model Context Protocol server so Claude, Cursor, Grok Build, and other compatible AI tools can connect to X through a user's own account permissions.",
+      "fullSummary": "TechCrunch reported that X launched a hosted Model Context Protocol server for AI assistants and compatible developer tools. The service lets tools such as Claude, Cursor, and Grok Build communicate with the X API using a user's own account permissions, removing the need for developers to host their own MCP server. X said the hosted MCP does not support Write API endpoints, so it cannot be used for autonomous posting, and the company said its existing API rules still apply to spammy behavior.",
+      "keyFacts": [
+        "X launched a hosted MCP server for AI-compatible tools",
+        "The server connects through user account permissions",
+        "X told TechCrunch the MCP does not provide Write API access"
+      ],
+      "url": "https://techcrunch.com/2026/06/30/x-now-offers-an-mcp-server-to-make-its-platform-easier-for-ai-tools-to-use/",
+      "sourceName": "TechCrunch",
+      "relatedSources": [
+        "X",
+        "Model Context Protocol"
+      ],
+      "lane": "developer-tools",
+      "publishedAt": "2026-06-30T15:08:00.000Z",
+      "importance": 835,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-01T08:52:00.000Z",
+      "whyItMatters": "Official MCP endpoints are turning major platforms into tool surfaces for agents, but X also shows why write permissions and spam controls are now part of AI integration design."
+    },
+    {
       "id": "curated-techcrunch-amazon-1b-fde-ai-org-2026-06-30",
       "title": "AWS commits $1B to forward-deployed AI engineers",
       "summary": "TechCrunch reports that AWS launched a $1 billion internal organization of AI-focused forward-deployed engineers to help customers build and operate agentic systems.",
@@ -352,6 +555,30 @@
       "whyItMatters": "Wet-lab automation is where agent mistakes become physical errors, so protocol-to-code validation is a serious test for AI-for-science claims."
     },
     {
+      "id": "curated-techcrunch-proton-lumo-2-upgrade-2026-06-30",
+      "title": "Proton upgrades privacy-focused Lumo chatbot",
+      "summary": "TechCrunch reported that Proton released Lumo 2.0 with image recognition, image generation, Projects memory, faster responses, and a thinking mode while retaining privacy-focused positioning.",
+      "fullSummary": "TechCrunch reported that Proton released Lumo 2.0, an upgrade to its privacy-focused public AI chatbot. The update adds image recognition and generation, document-focused Projects with user-controlled persistent memory, faster responses, and a new thinking mode for more complex questions. Proton says Lumo uses zero-access encryption architecture, does not retain server-side session logs, and does not use customer data for AI training or third-party sharing.",
+      "keyFacts": [
+        "Lumo 2.0 adds image recognition and image generation",
+        "Projects now include user-controlled persistent memory",
+        "Proton says Lumo does not use customer data for AI training"
+      ],
+      "url": "https://techcrunch.com/2026/06/30/lumo-protons-privacy-focused-ai-chatbot-gets-an-upgrade/",
+      "sourceName": "TechCrunch",
+      "relatedSources": [
+        "Proton"
+      ],
+      "lane": "products",
+      "publishedAt": "2026-06-30T14:00:00.000Z",
+      "importance": 820,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-01T08:52:00.000Z",
+      "whyItMatters": "Lumo is Proton's attempt to make privacy a differentiator in the chatbot market as rivals compete on multimodal features and memory."
+    },
+    {
       "id": "curated-techcrunch-okx-ai-agent-marketplace-2026-06-30",
       "title": "OKX launches marketplace for AI agents to hire and pay each other",
       "summary": "TechCrunch reports that OKX launched OKX AI, a developer marketplace where AI agents can discover services, settle payments, and build on-chain reputations.",
@@ -380,36 +607,6 @@
       "summaryEngine": "chat-curated",
       "curatedAt": "2026-07-01T04:00:00.000Z",
       "whyItMatters": "If agents start buying services from other agents, payment, identity, trust, and dispute resolution become core AI infrastructure rather than crypto side quests."
-    },
-    {
-      "id": "curated-techcrunch-ai-jobs-ramp-revelio-report-2026-06-30",
-      "title": "Ramp and Revelio data complicates the AI job-loss narrative",
-      "summary": "TechCrunch reports that a Ramp and Revelio Labs analysis found high-intensity AI adopters growing headcount faster, even as broader AI job-loss fears continue.",
-      "fullSummary": "TechCrunch reports on a Ramp and Revelio Labs analysis that compared AI spending and workforce records across nearly 22,000 companies. The report found that companies making sustained, high-intensity AI investments grew headcount faster, including in entry-level roles, than companies with lighter or less durable AI adoption. The authors caution that the findings do not prove AI universally creates jobs and may reflect fast-growing, tech-forward companies, but the data complicates claims that AI adoption always maps directly to broad job cuts.",
-      "keyFacts": [
-        "Published June 29, 2026 by TechCrunch",
-        "The analysis used Ramp spending data and Revelio Labs workforce data",
-        "The dataset covered nearly 22,000 companies",
-        "High-intensity AI adopters reportedly grew headcount faster",
-        "The authors caution that the results do not prove AI universally creates jobs"
-      ],
-      "url": "https://techcrunch.com/2026/06/29/the-ai-jobs-debate-just-got-messier/",
-      "sourceName": "TechCrunch",
-      "relatedSources": [
-        "TechCrunch",
-        "Ramp",
-        "Revelio Labs",
-        "Goldman Sachs",
-        "BCG"
-      ],
-      "lane": "workforce",
-      "publishedAt": "2026-06-30T04:01:00.000Z",
-      "importance": 820,
-      "sourceConfidence": "high",
-      "filterCategory": "general",
-      "summaryEngine": "chat-curated",
-      "curatedAt": "2026-07-01T04:00:00.000Z",
-      "whyItMatters": "The jobs debate needs firm-level evidence, and this report separates sustained AI investment from one-off tool adoption instead of treating every company the same."
     },
     {
       "id": "curated-ap-us-tech-ai-scam-industry-2026-06-30",
@@ -443,6 +640,36 @@
       "summaryEngine": "chat-curated",
       "curatedAt": "2026-06-30T05:10:00.000Z",
       "whyItMatters": "AI misuse risk is now tied to the commercial infrastructure behind fraud at global scale, not just to one-off deepfakes or phishing prompts."
+    },
+    {
+      "id": "curated-techcrunch-ai-jobs-ramp-revelio-report-2026-06-30",
+      "title": "Ramp and Revelio data complicates the AI job-loss narrative",
+      "summary": "TechCrunch reports that a Ramp and Revelio Labs analysis found high-intensity AI adopters growing headcount faster, even as broader AI job-loss fears continue.",
+      "fullSummary": "TechCrunch reports on a Ramp and Revelio Labs analysis that compared AI spending and workforce records across nearly 22,000 companies. The report found that companies making sustained, high-intensity AI investments grew headcount faster, including in entry-level roles, than companies with lighter or less durable AI adoption. The authors caution that the findings do not prove AI universally creates jobs and may reflect fast-growing, tech-forward companies, but the data complicates claims that AI adoption always maps directly to broad job cuts.",
+      "keyFacts": [
+        "Published June 29, 2026 by TechCrunch",
+        "The analysis used Ramp spending data and Revelio Labs workforce data",
+        "The dataset covered nearly 22,000 companies",
+        "High-intensity AI adopters reportedly grew headcount faster",
+        "The authors caution that the results do not prove AI universally creates jobs"
+      ],
+      "url": "https://techcrunch.com/2026/06/29/the-ai-jobs-debate-just-got-messier/",
+      "sourceName": "TechCrunch",
+      "relatedSources": [
+        "TechCrunch",
+        "Ramp",
+        "Revelio Labs",
+        "Goldman Sachs",
+        "BCG"
+      ],
+      "lane": "workforce",
+      "publishedAt": "2026-06-30T04:01:00.000Z",
+      "importance": 820,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-01T04:00:00.000Z",
+      "whyItMatters": "The jobs debate needs firm-level evidence, and this report separates sustained AI investment from one-off tool adoption instead of treating every company the same."
     },
     {
       "id": "curated-techcrunch-base44-base1-model-2026-06-30",
@@ -707,33 +934,6 @@
       "whyItMatters": "A $135 million Series A for an AI coding startup shows how much capital is still flowing into tools that promise to turn software work into supervised agent workflows."
     },
     {
-      "id": "curated-google-gemini-personalized-images-free-us-2026-06-29",
-      "title": "Google makes Gemini personalized image generation free in the U.S.",
-      "summary": "Google is widening free U.S. access to Gemini personalized image generation, using connected Google apps and Photos when users opt in.",
-      "fullSummary": "Google says eligible U.S. users can now use personalized image generation in the Gemini app for free. The feature connects Personal Intelligence with Nano Banana and Google Photos, so Gemini can generate images that reflect a users tastes, lifestyle, and actual photos when the user grants permission. The setting remains opt-in and can be adjusted. TechCrunch notes that the capability was previously limited to paid Plus, Pro, and Ultra users and follows broader Gemini app updates such as Daily Brief, Gemini Omni access, and Gemini Spark.",
-      "keyFacts": [
-        "Published June 29, 2026 by Google and covered by TechCrunch",
-        "Free for eligible U.S. Gemini users",
-        "Uses Personal Intelligence, Nano Banana, and Google Photos",
-        "Requires user permission for connected Google app context"
-      ],
-      "url": "https://blog.google/innovation-and-ai/products/gemini-app/personal-intelligence-nano-banana-us-expansion/",
-      "sourceName": "Google + TechCrunch",
-      "relatedSources": [
-        "Google",
-        "TechCrunch",
-        "Gemini"
-      ],
-      "lane": "products",
-      "publishedAt": "2026-06-29T20:12:00.000Z",
-      "importance": 850,
-      "sourceConfidence": "high",
-      "filterCategory": "general",
-      "summaryEngine": "chat-curated",
-      "curatedAt": "2026-06-30T03:45:00.000Z",
-      "whyItMatters": "Personalized generation is moving from premium AI subscriptions into mainstream consumer distribution, with user data permissions at the center."
-    },
-    {
       "id": "curated-verge-openai-codex-micro-hardware-2026-06-29",
       "title": "OpenAI shows Codex Micro hardware for agent workflows",
       "summary": "The Verge reports that OpenAI teased a Codex Micro device, pointing to a hardware layer around agentic coding workflows.",
@@ -759,6 +959,33 @@
       "summaryEngine": "chat-curated",
       "curatedAt": "2026-06-30T03:45:00.000Z",
       "whyItMatters": "Coding agents are starting to pull product design beyond the IDE, including dedicated devices and mobile supervision."
+    },
+    {
+      "id": "curated-google-gemini-personalized-images-free-us-2026-06-29",
+      "title": "Google makes Gemini personalized image generation free in the U.S.",
+      "summary": "Google is widening free U.S. access to Gemini personalized image generation, using connected Google apps and Photos when users opt in.",
+      "fullSummary": "Google says eligible U.S. users can now use personalized image generation in the Gemini app for free. The feature connects Personal Intelligence with Nano Banana and Google Photos, so Gemini can generate images that reflect a users tastes, lifestyle, and actual photos when the user grants permission. The setting remains opt-in and can be adjusted. TechCrunch notes that the capability was previously limited to paid Plus, Pro, and Ultra users and follows broader Gemini app updates such as Daily Brief, Gemini Omni access, and Gemini Spark.",
+      "keyFacts": [
+        "Published June 29, 2026 by Google and covered by TechCrunch",
+        "Free for eligible U.S. Gemini users",
+        "Uses Personal Intelligence, Nano Banana, and Google Photos",
+        "Requires user permission for connected Google app context"
+      ],
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/personal-intelligence-nano-banana-us-expansion/",
+      "sourceName": "Google + TechCrunch",
+      "relatedSources": [
+        "Google",
+        "TechCrunch",
+        "Gemini"
+      ],
+      "lane": "products",
+      "publishedAt": "2026-06-29T20:12:00.000Z",
+      "importance": 850,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-30T03:45:00.000Z",
+      "whyItMatters": "Personalized generation is moving from premium AI subscriptions into mainstream consumer distribution, with user data permissions at the center."
     },
     {
       "id": "curated-verge-ai-health-data-bill-2026-06-29",
@@ -919,6 +1146,31 @@
       "whyItMatters": "Streaming platforms are turning AI-content policy into money rules, which will shape how synthetic media is produced and distributed."
     },
     {
+      "id": "curated-axios-ai-model-access-fight-2026-06-29",
+      "title": "Axios says AI model access fight is splitting Trump tech allies",
+      "summary": "Axios reports that disputes over delayed or restricted AI model releases are creating tension among Trump-aligned technology figures.",
+      "fullSummary": "Axios reports that a fight over AI model access and release delays is dividing Trump-aligned technology allies. The dispute reflects a broader policy tension: some technologists want faster access to powerful models and fewer release bottlenecks, while others argue that security, export-control, and misuse concerns justify constraints. The story is notable because model-release policy is becoming a political fight inside the coalition that usually favors faster technology deployment.",
+      "keyFacts": [
+        "Published June 29, 2026 by Axios",
+        "Focuses on disputes over AI model access and release delays",
+        "Involves Trump-aligned technology figures",
+        "Connects frontier-model policy with political and security concerns"
+      ],
+      "url": "https://www.axios.com/2026/06/29/trump-ai-model-release-delays-tech-backlash",
+      "sourceName": "Axios",
+      "relatedSources": [
+        "Axios"
+      ],
+      "lane": "policy-safety",
+      "publishedAt": "2026-06-29T15:30:00.000Z",
+      "importance": 800,
+      "sourceConfidence": "medium",
+      "filterCategory": "pushback",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-30T03:45:00.000Z",
+      "whyItMatters": "Model-release decisions are no longer only lab governance questions; they are becoming visible political fights about access, security, and control."
+    },
+    {
       "id": "curated-techcrunch-proception-robot-hand-11m-2026-06-29",
       "title": "Proception settles Tesla suit and raises $11M for robotic hands",
       "summary": "TechCrunch reports that robotic-hand startup Proception settled a Tesla trade-secret lawsuit and announced an $11M raise.",
@@ -944,57 +1196,6 @@
       "summaryEngine": "chat-curated",
       "curatedAt": "2026-06-30T03:45:00.000Z",
       "whyItMatters": "Robotic manipulation remains a major physical-AI bottleneck, and Proceptions raise keeps another dexterous-hardware player in the race."
-    },
-    {
-      "id": "curated-ai-news-xfusion-enterprise-ai-infrastructure-2026-06-29",
-      "title": "xFusion pitches edge-to-data-centre enterprise AI stack",
-      "summary": "AI News reports that xFusion is scaling enterprise AI infrastructure from edge workstations to liquid-cooled data centres.",
-      "fullSummary": "AI News reports that xFusion is positioning an enterprise AI infrastructure stack that spans edge workstations, servers, and liquid-cooled data-centre systems. The story focuses on the hardware and deployment side of AI adoption: companies need local inference, central training or fine-tuning capacity, and cooling approaches that can support dense accelerators. xFusion is not announcing a frontier model; it is selling the physical stack required to run AI workloads in enterprise settings.",
-      "keyFacts": [
-        "Published June 29, 2026 by AI News",
-        "xFusion is focused on enterprise AI infrastructure",
-        "The stack spans edge workstations and liquid-cooled data centres",
-        "The story sits in hardware and deployment rather than model release"
-      ],
-      "url": "https://www.artificialintelligence-news.com/news/xfusion-scales-enterprise-ai-edge-workstations-liquid-cooled-data-centres/",
-      "sourceName": "AI News",
-      "relatedSources": [
-        "AI News",
-        "xFusion"
-      ],
-      "lane": "infrastructure",
-      "publishedAt": "2026-06-29T07:45:00.000Z",
-      "importance": 780,
-      "sourceConfidence": "medium",
-      "filterCategory": "general",
-      "summaryEngine": "chat-curated",
-      "curatedAt": "2026-06-30T03:45:00.000Z",
-      "whyItMatters": "Enterprise AI rollouts increasingly depend on deployable hardware, cooling, and edge capacity rather than only access to frontier models."
-    },
-    {
-      "id": "curated-axios-ai-model-access-fight-2026-06-29",
-      "title": "Axios says AI model access fight is splitting Trump tech allies",
-      "summary": "Axios reports that disputes over delayed or restricted AI model releases are creating tension among Trump-aligned technology figures.",
-      "fullSummary": "Axios reports that a fight over AI model access and release delays is dividing Trump-aligned technology allies. The dispute reflects a broader policy tension: some technologists want faster access to powerful models and fewer release bottlenecks, while others argue that security, export-control, and misuse concerns justify constraints. The story is notable because model-release policy is becoming a political fight inside the coalition that usually favors faster technology deployment.",
-      "keyFacts": [
-        "Published June 29, 2026 by Axios",
-        "Focuses on disputes over AI model access and release delays",
-        "Involves Trump-aligned technology figures",
-        "Connects frontier-model policy with political and security concerns"
-      ],
-      "url": "https://www.axios.com/2026/06/29/trump-ai-model-release-delays-tech-backlash",
-      "sourceName": "Axios",
-      "relatedSources": [
-        "Axios"
-      ],
-      "lane": "policy-safety",
-      "publishedAt": "2026-06-29T15:30:00.000Z",
-      "importance": 800,
-      "sourceConfidence": "medium",
-      "filterCategory": "pushback",
-      "summaryEngine": "chat-curated",
-      "curatedAt": "2026-06-30T03:45:00.000Z",
-      "whyItMatters": "Model-release decisions are no longer only lab governance questions; they are becoming visible political fights about access, security, and control."
     },
     {
       "id": "curated-techcrunch-omen-ai-water-data-centers-2026-06-29",
@@ -1338,31 +1539,6 @@
       "whyItMatters": "AI security tools may find more bugs, but organizations still lose when basic process and configuration discipline fail."
     },
     {
-      "id": "curated-unite-agentic-ai-secops-context-crisis-2026-06-29",
-      "title": "Unite.AI says agentic AI creates a context crisis for security teams",
-      "summary": "Unite.AI argued that defending against agentic AI threats requires AI-assisted security operations that can preserve context across alerts and actions.",
-      "fullSummary": "Unite.AI argued that the rise of agentic AI is creating a context crisis for security operations. The core point is that attackers and defenders are both using automation, but defensive tools still struggle to connect alerts, identities, behaviors, and business context quickly enough. This is a medium-confidence expert piece rather than a hard-news report, but it captures a real shift: AI security is moving from isolated detection toward systems that can reason across workflows.",
-      "keyFacts": [
-        "Published June 29, 2026 by Unite.AI",
-        "The article focuses on agentic AI and security operations",
-        "It argues context is becoming the main defense bottleneck",
-        "The piece is expert analysis rather than a company funding announcement"
-      ],
-      "url": "https://www.unite.ai/agentic-ai-secops-transformation/",
-      "sourceName": "Unite.AI",
-      "relatedSources": [
-        "Unite.AI"
-      ],
-      "lane": "policy-safety",
-      "publishedAt": "2026-06-29T08:30:00.000Z",
-      "importance": 710,
-      "sourceConfidence": "medium",
-      "filterCategory": "pushback",
-      "summaryEngine": "chat-curated",
-      "curatedAt": "2026-06-29T15:20:00.000Z",
-      "whyItMatters": "Security teams need AI that preserves context, not just more automated alerts, as agents increase the speed of both attack and defense."
-    },
-    {
       "id": "curated-ai-news-wimbledon-ibm-generative-ai-coverage-2026-06-29",
       "title": "Wimbledon adds IBM generative AI tools to live match coverage",
       "summary": "AI News reported that Wimbledon and IBM are using generative AI for live match coverage, fan summaries, and tournament storytelling.",
@@ -1390,6 +1566,31 @@
       "whyItMatters": "Live sports is a visible proof point for whether AI can create useful real-time context without flattening the event into generic summaries."
     },
     {
+      "id": "curated-unite-agentic-ai-secops-context-crisis-2026-06-29",
+      "title": "Unite.AI says agentic AI creates a context crisis for security teams",
+      "summary": "Unite.AI argued that defending against agentic AI threats requires AI-assisted security operations that can preserve context across alerts and actions.",
+      "fullSummary": "Unite.AI argued that the rise of agentic AI is creating a context crisis for security operations. The core point is that attackers and defenders are both using automation, but defensive tools still struggle to connect alerts, identities, behaviors, and business context quickly enough. This is a medium-confidence expert piece rather than a hard-news report, but it captures a real shift: AI security is moving from isolated detection toward systems that can reason across workflows.",
+      "keyFacts": [
+        "Published June 29, 2026 by Unite.AI",
+        "The article focuses on agentic AI and security operations",
+        "It argues context is becoming the main defense bottleneck",
+        "The piece is expert analysis rather than a company funding announcement"
+      ],
+      "url": "https://www.unite.ai/agentic-ai-secops-transformation/",
+      "sourceName": "Unite.AI",
+      "relatedSources": [
+        "Unite.AI"
+      ],
+      "lane": "policy-safety",
+      "publishedAt": "2026-06-29T08:30:00.000Z",
+      "importance": 710,
+      "sourceConfidence": "medium",
+      "filterCategory": "pushback",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-29T15:20:00.000Z",
+      "whyItMatters": "Security teams need AI that preserves context, not just more automated alerts, as agents increase the speed of both attack and defense."
+    },
+    {
       "id": "curated-unite-ai-infrastructure-readiness-gap-2026-06-29",
       "title": "Unite.AI asks whether enterprise infrastructure is ready for AI",
       "summary": "Unite.AI highlighted an infrastructure-readiness gap as companies adopt AI faster than their IT operations and governance can safely support it.",
@@ -1413,6 +1614,32 @@
       "summaryEngine": "chat-curated",
       "curatedAt": "2026-06-29T15:20:00.000Z",
       "whyItMatters": "AI projects fail when the surrounding infrastructure, permissions, and operations cannot keep up with model deployment."
+    },
+    {
+      "id": "curated-ai-news-xfusion-enterprise-ai-infrastructure-2026-06-29",
+      "title": "xFusion pitches edge-to-data-centre enterprise AI stack",
+      "summary": "AI News reports that xFusion is scaling enterprise AI infrastructure from edge workstations to liquid-cooled data centres.",
+      "fullSummary": "AI News reports that xFusion is positioning an enterprise AI infrastructure stack that spans edge workstations, servers, and liquid-cooled data-centre systems. The story focuses on the hardware and deployment side of AI adoption: companies need local inference, central training or fine-tuning capacity, and cooling approaches that can support dense accelerators. xFusion is not announcing a frontier model; it is selling the physical stack required to run AI workloads in enterprise settings.",
+      "keyFacts": [
+        "Published June 29, 2026 by AI News",
+        "xFusion is focused on enterprise AI infrastructure",
+        "The stack spans edge workstations and liquid-cooled data centres",
+        "The story sits in hardware and deployment rather than model release"
+      ],
+      "url": "https://www.artificialintelligence-news.com/news/xfusion-scales-enterprise-ai-edge-workstations-liquid-cooled-data-centres/",
+      "sourceName": "AI News",
+      "relatedSources": [
+        "AI News",
+        "xFusion"
+      ],
+      "lane": "infrastructure",
+      "publishedAt": "2026-06-29T07:45:00.000Z",
+      "importance": 780,
+      "sourceConfidence": "medium",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-30T03:45:00.000Z",
+      "whyItMatters": "Enterprise AI rollouts increasingly depend on deployable hardware, cooling, and edge capacity rather than only access to frontier models."
     },
     {
       "id": "curated-unite-mid-market-ai-payoff-gap-2026-06-29",
@@ -1653,6 +1880,31 @@
       "summaryEngine": "chat-curated",
       "curatedAt": "2026-06-29T13:55:00.000Z",
       "whyItMatters": "The chip-control story is moving from policy statements into messy enforcement and substitution on factory floors."
+    },
+    {
+      "id": "curated-tomshardware-claude-code-clean-repo-malware-2026-06-28",
+      "title": "Mozilla 0din shows how clean-looking repos can trick coding agents into malware",
+      "summary": "Tom's Hardware reported on Mozilla 0din research showing how Claude Code-style agents can be led through a clean-looking GitHub repository into running a reverse shell via indirect setup steps and DNS TXT records.",
+      "fullSummary": "Tom's Hardware reported on Mozilla 0din research demonstrating a supply-chain attack pattern against AI coding agents. The scenario starts with a clean-looking GitHub repository that instructs an agent such as Claude Code to initialize a Python environment. A fake Axiom setup path leads the agent through ordinary-looking commands, then a shell script retrieves encoded data from DNS TXT records and opens a reverse shell. The article says each individual step can look harmless to scanning tools, which makes agent execution discipline and sandboxing critical for developers using autonomous coding assistants.",
+      "keyFacts": [
+        "Mozilla 0din demonstrated an indirect attack against AI coding agents",
+        "The attack uses a clean-looking repository and setup instructions",
+        "The payload is delivered via DNS TXT records before opening a reverse shell"
+      ],
+      "url": "https://www.tomshardware.com/tech-industry/cyber-security/ai-coding-agents-can-be-tricked-into-installing-malware-via-clean-github-repositories-mozillas-0din-team-shows-how-claude-code-can-be-exploited-by-its-own-helpfulness",
+      "sourceName": "Tom's Hardware",
+      "relatedSources": [
+        "Mozilla 0din",
+        "Claude Code"
+      ],
+      "lane": "security",
+      "publishedAt": "2026-06-28T11:30:00.000Z",
+      "importance": 850,
+      "sourceConfidence": "high",
+      "filterCategory": "pushback",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-01T08:52:00.000Z",
+      "whyItMatters": "Agent security depends on what tools actually execute, and this attack shows why clean repository appearance is not enough when assistants can chain setup steps automatically."
     },
     {
       "id": "curated-verge-suno-spark-music-ai-incubator-2026-06-28",
@@ -2707,33 +2959,6 @@
       "whyItMatters": "India's AI market is becoming a compute buildout story, not only an adoption story."
     },
     {
-      "id": "curated-elevenlabs-synthid-audio-watermarking-2026-06-25",
-      "title": "ElevenLabs adds SynthID watermarks to AI-generated audio",
-      "summary": "ElevenLabs said it is embedding Google DeepMind SynthID watermarks into text-to-speech generations for free users and plans to expand the system across all generated audio.",
-      "fullSummary": "ElevenLabs announced that it has started adding Google DeepMind SynthID watermarks to text-to-speech outputs from free users, with broader audio coverage planned over the coming weeks. The company says the marks are inaudible, survive common edits such as trimming and compression, and can be detected through its audio detector. It is a practical provenance move for synthetic audio, especially as voice cloning and deepfake risks keep growing.",
-      "keyFacts": [
-        "Published June 25, 2026 and updated June 26, 2026",
-        "SynthID is being added first to free-user text-to-speech generations",
-        "ElevenLabs plans to expand coverage to all generated audio over the coming weeks",
-        "The company says the watermarks can be checked with its free audio detector"
-      ],
-      "url": "https://elevenlabs.io/blog/synthid",
-      "sourceName": "ElevenLabs + The Verge",
-      "relatedSources": [
-        "ElevenLabs",
-        "The Verge",
-        "Google DeepMind"
-      ],
-      "lane": "policy-safety",
-      "publishedAt": "2026-06-25T12:00:00.000Z",
-      "importance": 690,
-      "sourceConfidence": "high",
-      "filterCategory": "pushback",
-      "summaryEngine": "chat-curated",
-      "curatedAt": "2026-06-28T10:40:00.000Z",
-      "whyItMatters": "Audio provenance is moving from policy talk into default platform infrastructure, which matters for scams, impersonation, and media trust."
-    },
-    {
       "id": "curated-bi-raise-us-ai-worker-transition-2026-06-25",
       "title": "OpenAI and Anthropic back Raise US worker-transition effort",
       "summary": "Business Insider reported that major tech companies are behind Raise US, a new group aimed at helping workers adapt as AI changes jobs.",
@@ -2760,6 +2985,33 @@
       "summaryEngine": "chat-curated",
       "curatedAt": "2026-06-27T09:35:00.000Z",
       "whyItMatters": "AI labor disruption is now producing organized transition efforts backed by the companies building the technology."
+    },
+    {
+      "id": "curated-elevenlabs-synthid-audio-watermarking-2026-06-25",
+      "title": "ElevenLabs adds SynthID watermarks to AI-generated audio",
+      "summary": "ElevenLabs said it is embedding Google DeepMind SynthID watermarks into text-to-speech generations for free users and plans to expand the system across all generated audio.",
+      "fullSummary": "ElevenLabs announced that it has started adding Google DeepMind SynthID watermarks to text-to-speech outputs from free users, with broader audio coverage planned over the coming weeks. The company says the marks are inaudible, survive common edits such as trimming and compression, and can be detected through its audio detector. It is a practical provenance move for synthetic audio, especially as voice cloning and deepfake risks keep growing.",
+      "keyFacts": [
+        "Published June 25, 2026 and updated June 26, 2026",
+        "SynthID is being added first to free-user text-to-speech generations",
+        "ElevenLabs plans to expand coverage to all generated audio over the coming weeks",
+        "The company says the watermarks can be checked with its free audio detector"
+      ],
+      "url": "https://elevenlabs.io/blog/synthid",
+      "sourceName": "ElevenLabs + The Verge",
+      "relatedSources": [
+        "ElevenLabs",
+        "The Verge",
+        "Google DeepMind"
+      ],
+      "lane": "policy-safety",
+      "publishedAt": "2026-06-25T12:00:00.000Z",
+      "importance": 690,
+      "sourceConfidence": "high",
+      "filterCategory": "pushback",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-06-28T10:40:00.000Z",
+      "whyItMatters": "Audio provenance is moving from policy talk into default platform infrastructure, which matters for scams, impersonation, and media trust."
     },
     {
       "id": "curated-unite-ai-trade-compliance-risk-2026-06-25",
@@ -11493,31 +11745,6 @@
       "summaryEngine": "chat-curated"
     },
     {
-      "id": "curated-seattle-year-long-ai-datacenter-ban-2026-06-10",
-      "title": "Seattle enacts a year-long ban on new AI data centers",
-      "summary": "Seattle approved a one-year moratorium on new data centers, giving the city time to assess their electricity, water, labor, and community impacts.",
-      "fullSummary": "Seattle has enacted a one-year moratorium on new data-center construction after residents and technology workers raised concerns about the scale of proposed AI infrastructure. Five planned facilities could have required electricity equal to roughly one-third of the city's average daily demand, according to reporting on the council debate. The pause gives officials time to study energy and water use, noise, labor standards, utility costs, and community benefits before writing permanent rules. The decision is an important local test of whether cities can slow AI infrastructure development even as national policy pushes for faster construction. It also shows that data-center opposition is moving from protests into binding land-use policy.",
-      "keyFacts": [
-        "June 10, 2026",
-        "Seattle",
-        "One-year moratorium",
-        "Five proposed data centers"
-      ],
-      "url": "https://www.theverge.com/ai-artificial-intelligence/945809/amazon-employees-seattle-data-center-moratorium",
-      "sourceName": "The Verge",
-      "relatedSources": [
-        "Seattle City Council",
-        "The Verge",
-        "Amazon Employees for Climate Justice"
-      ],
-      "lane": "policy",
-      "publishedAt": "2026-06-10T05:15:00.000Z",
-      "importance": 387,
-      "sourceConfidence": "high",
-      "filterCategory": "pushback",
-      "summaryEngine": "chat-curated"
-    },
-    {
       "id": "curated-beacon-software-225m-ai-rollup-series-c-2026-06-10",
       "title": "Beacon raises $225M to turn small software firms into an AI portfolio",
       "summary": "Beacon Software raised a $225 million Series C for an AI-enabled roll-up that has already acquired more than 30 niche software companies and reports over 50% EBITDA growth across the portfolio.",
@@ -11543,6 +11770,31 @@
       "importance": 387,
       "sourceConfidence": "high",
       "filterCategory": "funding",
+      "summaryEngine": "chat-curated"
+    },
+    {
+      "id": "curated-seattle-year-long-ai-datacenter-ban-2026-06-10",
+      "title": "Seattle enacts a year-long ban on new AI data centers",
+      "summary": "Seattle approved a one-year moratorium on new data centers, giving the city time to assess their electricity, water, labor, and community impacts.",
+      "fullSummary": "Seattle has enacted a one-year moratorium on new data-center construction after residents and technology workers raised concerns about the scale of proposed AI infrastructure. Five planned facilities could have required electricity equal to roughly one-third of the city's average daily demand, according to reporting on the council debate. The pause gives officials time to study energy and water use, noise, labor standards, utility costs, and community benefits before writing permanent rules. The decision is an important local test of whether cities can slow AI infrastructure development even as national policy pushes for faster construction. It also shows that data-center opposition is moving from protests into binding land-use policy.",
+      "keyFacts": [
+        "June 10, 2026",
+        "Seattle",
+        "One-year moratorium",
+        "Five proposed data centers"
+      ],
+      "url": "https://www.theverge.com/ai-artificial-intelligence/945809/amazon-employees-seattle-data-center-moratorium",
+      "sourceName": "The Verge",
+      "relatedSources": [
+        "Seattle City Council",
+        "The Verge",
+        "Amazon Employees for Climate Justice"
+      ],
+      "lane": "policy",
+      "publishedAt": "2026-06-10T05:15:00.000Z",
+      "importance": 387,
+      "sourceConfidence": "high",
+      "filterCategory": "pushback",
       "summaryEngine": "chat-curated"
     },
     {
@@ -16093,6 +16345,36 @@
       "filterCategory": "funding"
     },
     {
+      "id": "curated-irb-barcelona-ai-designed-cell-selective-molecules-2026-06-02",
+      "title": "IRB Barcelona uses generative AI to design cell-selective molecules",
+      "summary": "Researchers reported AI-designed chemical entities that target desired cell effects without starting from a predefined protein target.",
+      "fullSummary": "A new IRB Barcelona study points to a more phenotypic style of AI drug discovery. EurekAlert reported that Patrick Aloy's Structural Bioinformatics and Network Biology lab developed a computational framework that designs molecules based on the biological effect researchers want in specific cell types, rather than starting with a known protein target. The team tested more than 11,000 chemical compounds across eight cell models, including six pancreatic-cancer lines and two controls, then used the data to train predictive models and guide a generative AI system. Several AI-designed molecules experimentally matched the intended selective activity, and the work was published in Communications Chemistry. This is early-stage compound discovery, not a validated therapy. Its significance is methodological: AI is being used to propose structurally novel molecules around desired cellular behavior when the target biology is poorly characterized.",
+      "keyFacts": [
+        "June 2, 2026",
+        "IRB Barcelona",
+        "Communications Chemistry",
+        "Patrick Aloy",
+        "11,000+ chemical compounds",
+        "Eight cell models",
+        "Six pancreatic-cancer lines",
+        "Phenotypic discovery",
+        "DOI 10.1038/s42004-026-02071-x"
+      ],
+      "url": "https://www.eurekalert.org/news-releases/1130545",
+      "sourceName": "EurekAlert / IRB Barcelona",
+      "relatedSources": [
+        "EurekAlert",
+        "IRB Barcelona",
+        "Communications Chemistry"
+      ],
+      "lane": "research",
+      "publishedAt": "2026-06-02T08:00:00.000Z",
+      "importance": 271,
+      "sourceConfidence": "high",
+      "summaryEngine": "chat-curated",
+      "filterCategory": "papers"
+    },
+    {
       "id": "curated-nyb-ai-vecura-2-agentic-molecular-discovery-2026-06-02",
       "title": "NYB.AI launches Vecura 2.0 for agentic molecular discovery",
       "summary": "Singapore startup NYB.AI launched Vecura 2.0, an agentic platform for molecular discovery that coordinates models, biological data, scientific tools, and GPU workflows with NVIDIA support.",
@@ -18039,6 +18321,37 @@
       "filterCategory": "pushback"
     },
     {
+      "id": "curated-ai-ultrasound-carotid-primary-care-2026-05-27",
+      "title": "AI-assisted ultrasound helps Shanghai GPs spot carotid plaque",
+      "summary": "A Shanghai primary-care study found trained general practitioners using AI-enhanced point-of-care ultrasound detected carotid plaque with 87% sensitivity and 91% specificity.",
+      "fullSummary": "This is the kind of quiet healthcare-AI study that should not get lost under model releases. An Annals of Family Medicine tip sheet on EurekAlert describes a study where seven general practitioners across four Shanghai community health centers received about five weeks of training, then screened 169 older adults at high risk for atherosclerotic cardiovascular disease using AI-enhanced point-of-care ultrasound. Compared with expert ultrasonologists, the GPs correctly identified plaque when present 87% of the time and correctly cleared patients without plaque 91% of the time. The result suggests AI-assisted imaging plus structured training could extend carotid plaque screening into community care. The caveats are important: this is a small study, performance varied by GP, and misses clustered at the carotid bifurcation. Watch larger validation and real-world workflow results.",
+      "keyFacts": [
+        "Annals of Family Medicine",
+        "EurekAlert",
+        "May 27, 2026",
+        "Shanghai",
+        "Zhongshan Hospital",
+        "Fudan University",
+        "7 general practitioners",
+        "169 older adults",
+        "87% sensitivity",
+        "91% specificity",
+        "AI-enhanced POCUS"
+      ],
+      "url": "https://www.eurekalert.org/news-releases/1129094",
+      "sourceName": "EurekAlert / Annals of Family Medicine",
+      "relatedSources": [
+        "EurekAlert",
+        "Annals of Family Medicine"
+      ],
+      "lane": "papers",
+      "publishedAt": "2026-05-27T14:00:00.000Z",
+      "importance": 146,
+      "sourceConfidence": "high",
+      "summaryEngine": "chat-curated",
+      "filterCategory": "papers"
+    },
+    {
       "id": "curated-torqueagi-nvidia-deere-dexterity-2026-05-27",
       "title": "TorqueAGI links with Nvidia, John Deere, and Dexterity for physical AI",
       "summary": "TorqueAGI announced collaborations with Nvidia, John Deere, and Dexterity to move foundation models for enterprise robots into agriculture and logistics deployments.",
@@ -18597,6 +18910,49 @@
       "lane": "news",
       "publishedAt": "2026-05-26T14:55:00.000Z",
       "importance": 124,
+      "sourceConfidence": "high",
+      "summaryEngine": "chat-curated",
+      "filterCategory": "general"
+    },
+    {
+      "id": "curated-swri-ai-ebola-bundibugyo-drug-candidates-2026-05-26",
+      "title": "SwRI uses AI to find Ebola Bundibugyo antiviral candidates",
+      "summary": "Southwest Research Institute says its GAMES AI model identified nearly two dozen antiviral candidates for Bundibugyo Ebola, which Texas Biomed will test in a BSL-4 lab.",
+      "fullSummary": "This was a real miss because it is exactly the kind of practical AI application the feed should catch. Southwest Research Institute and Texas Biomed announced on May 26 that SwRI used AI tools to identify nearly two dozen antiviral compounds that could potentially treat Bundibugyo virus, a rare Ebola species involved in the current DRC outbreak. The SwRI-developed GAMES language model prioritized precursors used to synthesize 18 novel analogs for screening against Bundibugyo, and Texas Biomed will test the compounds in its Biosafety Level 4 laboratory. WHO says there is no licensed vaccine or specific therapeutic against Bundibugyo virus, though supportive care is lifesaving, so even early candidate discovery is notable. The caveat is critical: these are pilot compounds for lab screening, not approved drugs or validated treatments. Watch test results, animal data, and whether any candidate moves toward emergency evaluation.",
+      "keyFacts": [
+        "Southwest Research Institute",
+        "Texas Biomed",
+        "May 26, 2026",
+        "Bundibugyo Ebola virus",
+        "nearly two dozen antiviral candidates",
+        "18 novel analogs",
+        "GAMES language model",
+        "BSL-4 laboratory",
+        "DRC outbreak",
+        "no approved Bundibugyo-specific therapeutics"
+      ],
+      "url": "https://www.eurekalert.org/news-releases/1129665",
+      "sourceName": "EurekAlert / SwRI",
+      "relatedSources": [
+        "EurekAlert",
+        "Southwest Research Institute",
+        "WHO"
+      ],
+      "relatedLinks": [
+        {
+          "title": "SwRI, Texas Biomed to test antiviral compounds for Ebola virus",
+          "url": "https://www.eurekalert.org/news-releases/1129665",
+          "sourceName": "EurekAlert"
+        },
+        {
+          "title": "WHO disease outbreak news on Bundibugyo Ebola",
+          "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON602",
+          "sourceName": "WHO"
+        }
+      ],
+      "lane": "news",
+      "publishedAt": "2026-05-26T12:00:00.000Z",
+      "importance": 156,
       "sourceConfidence": "high",
       "summaryEngine": "chat-curated",
       "filterCategory": "general"
@@ -20205,36 +20561,6 @@
       "filterCategory": "general"
     },
     {
-      "id": "curated-hellbender-edge-ai-camera-2026-05-19",
-      "title": "Hellbender launches edge AI cameras for physical-world deployment",
-      "summary": "Hellbender raised $12.5M and launched on-edge AI camera systems meant to bring perception and decision-making into energy, logistics, agriculture, manufacturing, and healthcare.",
-      "fullSummary": "Hellbender is a good example of physical AI infrastructure below the hype layer. The Pittsburgh company raised a $12.5M seed round co-led by Magarac Venture Partners and Veredas Partners, with participation from Mana Ventures, Gaingels, Sum VC, and Active Angels Network. More interesting than the round is the product shift: Hellbender is moving from an engineering and AI hardware manufacturing arm into a commercial provider of edge AI platforms, including stereo and vine AI camera systems. The pitch is to let software teams deploy perception, reasoning, and decision-making directly in physical environments without building custom hardware stacks. Target industries include energy, logistics, agriculture, manufacturing, and healthcare. Watch whether secure, onshore, edge-native AI hardware becomes a procurement requirement as robotics and computer vision leave labs and move into facilities.",
-      "keyFacts": [
-        "Hellbender",
-        "$12.5M seed",
-        "May 19, 2026",
-        "Magarac Venture Partners",
-        "Veredas Partners",
-        "edge AI cameras",
-        "physical AI",
-        "agriculture",
-        "manufacturing",
-        "healthcare"
-      ],
-      "url": "https://www.prnewswire.com/news-releases/hellbender-secures-12-5m-seed-round-to-accelerate-domestic-manufacturing-of-physical-ai-and-launch-its-on-edge-camera-line-302775081.html",
-      "sourceName": "PR Newswire / Hellbender",
-      "relatedSources": [
-        "PR Newswire",
-        "Hellbender"
-      ],
-      "lane": "startups",
-      "publishedAt": "2026-05-19T12:00:00.000Z",
-      "importance": 138,
-      "sourceConfidence": "high",
-      "summaryEngine": "chat-curated",
-      "filterCategory": "funding"
-    },
-    {
       "id": "curated-google-co-scientist-nature-2026-05-19",
       "title": "Google DeepMind publishes Co-Scientist and opens Hypothesis Generation",
       "summary": "Google DeepMind published Co-Scientist research in Nature and is rolling out a Gemini-powered Hypothesis Generation tool for researchers.",
@@ -20263,6 +20589,36 @@
       "sourceConfidence": "high",
       "summaryEngine": "chat-curated",
       "filterCategory": "papers"
+    },
+    {
+      "id": "curated-hellbender-edge-ai-camera-2026-05-19",
+      "title": "Hellbender launches edge AI cameras for physical-world deployment",
+      "summary": "Hellbender raised $12.5M and launched on-edge AI camera systems meant to bring perception and decision-making into energy, logistics, agriculture, manufacturing, and healthcare.",
+      "fullSummary": "Hellbender is a good example of physical AI infrastructure below the hype layer. The Pittsburgh company raised a $12.5M seed round co-led by Magarac Venture Partners and Veredas Partners, with participation from Mana Ventures, Gaingels, Sum VC, and Active Angels Network. More interesting than the round is the product shift: Hellbender is moving from an engineering and AI hardware manufacturing arm into a commercial provider of edge AI platforms, including stereo and vine AI camera systems. The pitch is to let software teams deploy perception, reasoning, and decision-making directly in physical environments without building custom hardware stacks. Target industries include energy, logistics, agriculture, manufacturing, and healthcare. Watch whether secure, onshore, edge-native AI hardware becomes a procurement requirement as robotics and computer vision leave labs and move into facilities.",
+      "keyFacts": [
+        "Hellbender",
+        "$12.5M seed",
+        "May 19, 2026",
+        "Magarac Venture Partners",
+        "Veredas Partners",
+        "edge AI cameras",
+        "physical AI",
+        "agriculture",
+        "manufacturing",
+        "healthcare"
+      ],
+      "url": "https://www.prnewswire.com/news-releases/hellbender-secures-12-5m-seed-round-to-accelerate-domestic-manufacturing-of-physical-ai-and-launch-its-on-edge-camera-line-302775081.html",
+      "sourceName": "PR Newswire / Hellbender",
+      "relatedSources": [
+        "PR Newswire",
+        "Hellbender"
+      ],
+      "lane": "startups",
+      "publishedAt": "2026-05-19T12:00:00.000Z",
+      "importance": 138,
+      "sourceConfidence": "high",
+      "summaryEngine": "chat-curated",
+      "filterCategory": "funding"
     },
     {
       "id": "curated-openai-synthid-c2pa-provenance-2026-05-27",
@@ -21178,5 +21534,6 @@
   ],
   "errors": [],
   "totalItems": 731,
-  "lastRefresh": "2026-06-30T03:45:00.000Z"
+  "lastRefresh": "2026-06-30T03:45:00.000Z",
+  "count": 778
 }
