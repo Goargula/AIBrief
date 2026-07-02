@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-02T10:00:00.000Z",
-  "nextRefreshAt": "2026-07-02T22:00:00.000Z",
+  "generatedAt": "2026-07-02T10:45:31.000Z",
+  "nextRefreshAt": "2026-07-02T22:45:31.000Z",
   "summaryEngine": "chat-curated",
   "curated": true,
   "items": [
@@ -58,6 +58,32 @@
       "whyItMatters": "A voluntary standard could become the default release playbook for frontier models, shaping who gets access and how quickly new capabilities reach global users."
     },
     {
+      "id": "curated-techcrunch-neo-ai-office-suite-2026-07-02",
+      "title": "Bhavin Turakhia puts $30M into Neo, an AI alternative to office suites",
+      "summary": "TechCrunch reports that Indian tech entrepreneur Bhavin Turakhia is funding Neo with $30 million of his own money to build an AI-native alternative to Microsoft Office and Google Workspace.",
+      "fullSummary": "TechCrunch reports that Bhavin Turakhia is backing Neo with $30 million of personal capital as his fifth venture, aiming to challenge Microsoft Office and Google Workspace with an AI-native productivity suite. The company is positioning AI as the default layer across workplace documents, communication, and collaboration rather than as a bolt-on assistant. The effort adds another well-funded challenger to the enterprise productivity stack at a moment when incumbents are racing to fold agents into their existing apps.",
+      "keyFacts": [
+        "Bhavin Turakhia is putting $30 million of his own money into Neo",
+        "Neo is being positioned as an AI-native alternative to Microsoft Office and Google Workspace",
+        "The company is targeting enterprise productivity workflows rather than a single-point assistant"
+      ],
+      "url": "https://techcrunch.com/2026/07/01/indian-tech-tycoon-bets-30m-to-build-an-ai-alternative-to-microsoft-office/",
+      "sourceName": "TechCrunch",
+      "relatedSources": [
+        "Neo",
+        "Microsoft",
+        "Google Workspace"
+      ],
+      "lane": "products",
+      "publishedAt": "2026-07-02T05:30:00.000Z",
+      "importance": 945,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-02T10:30:31.000Z",
+      "whyItMatters": "Productivity suites are one of the largest enterprise software markets, so an AI-first entrant backed by a repeat founder is a useful signal on where agents may become default infrastructure."
+    },
+    {
       "id": "curated-wsj-takeda-insilico-ai-drug-discovery-2026-07-02",
       "title": "Takeda signs AI drug-discovery deal with Insilico worth up to $600M",
       "summary": "The Wall Street Journal reported that Takeda is partnering with Insilico Medicine in an AI drug-discovery collaboration with potential value up to $600 million.",
@@ -81,6 +107,546 @@
       "summaryEngine": "chat-curated",
       "curatedAt": "2026-07-02T10:00:00.000Z",
       "whyItMatters": "Large pharma is moving AI drug discovery from pilots into rights-bearing commercial deals, where model quality is tested against real pipelines and milestone economics."
+    },
+    {
+      "id": "curated-register-ubtech-u1-humanoid-robots-2026-07-02",
+      "title": "UBTECH launches U1 humanoid robots with emotion-aware LLM features",
+      "summary": "The Register reports that China's UBTECH has launched the UWORLD U1 humanoid robot, claiming 13,000 orders and emotion-aware LLM capabilities for companionship and services.",
+      "fullSummary": "The Register reports that UBTECH has launched the UWORLD U1, a full-size humanoid robot priced around $17,600 and marketed for companionship, hospitality, elder care, tourism, research, and education. UBTECH claims the robots use an emotion-aware LLM that can recognize more than 20 emotional states and that the company has taken more than 13,000 orders. The launch fits China's broader push to become a leader in humanoid robotics and physical AI.",
+      "keyFacts": [
+        "UBTECH launched the UWORLD U1 humanoid robot",
+        "The company claims more than 13,000 orders",
+        "The robot is marketed with emotion-aware LLM capabilities"
+      ],
+      "url": "https://www.theregister.com/ai-and-ml/2026/07/02/new-humanoid-robots-from-china-look-like-creepy-pop-star-action-figures-complete-with-slightly-dodgy-lip-synch/5265490",
+      "sourceName": "The Register",
+      "relatedSources": [
+        "UBTECH",
+        "China robotics"
+      ],
+      "lane": "robotics",
+      "publishedAt": "2026-07-02T03:35:00.000Z",
+      "importance": 925,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-02T10:30:31.000Z",
+      "whyItMatters": "Humanoid robotics is becoming a concrete commercial and national-strategy market, with LLM-based interaction now part of the product pitch."
+    },
+    {
+      "id": "curated-et-softbank-openai-stake-loan-2026-07-02",
+      "title": "SoftBank reopens talks for $10B loan backed by its OpenAI stake",
+      "summary": "The Economic Times, carrying Reuters, reports that SoftBank has resumed talks for a $10 billion loan backed by its OpenAI stake and is offering lenders additional repayment guarantees.",
+      "fullSummary": "The Economic Times, carrying Reuters, reports that SoftBank has reopened talks with lenders for a $10 billion margin loan backed by its OpenAI stake. To reassure banks, SoftBank is reportedly offering repayment guarantees that give lenders recourse beyond the private-company shares. The financing would support SoftBank's broader AI investment strategy, including more than $60 billion committed to OpenAI and related infrastructure projects.",
+      "keyFacts": [
+        "SoftBank is seeking a $10 billion loan backed by its OpenAI stake",
+        "The company is offering additional repayment guarantees to lenders",
+        "SoftBank has committed more than $60 billion to OpenAI and related AI infrastructure"
+      ],
+      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/softbank-renews-talks-for-10-billion-loan-against-openai-stake-adds-concessions/articleshow/132127234.cms",
+      "sourceName": "The Economic Times",
+      "relatedSources": [
+        "Reuters",
+        "SoftBank",
+        "OpenAI",
+        "Goldman Sachs",
+        "JPMorgan"
+      ],
+      "lane": "funding",
+      "publishedAt": "2026-07-02T02:17:22.000Z",
+      "importance": 940,
+      "sourceConfidence": "high",
+      "filterCategory": "funding",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-02T10:30:31.000Z",
+      "whyItMatters": "The financing details show how frontier-AI investment is being converted into collateral, debt, and bank risk rather than only venture headlines."
+    },
+    {
+      "id": "curated-ap-south-korea-ai-grief-videos-2026-07-02",
+      "title": "South Koreans turn to AI videos of deceased loved ones for grief rituals",
+      "summary": "AP reports that South Korean startups are creating AI video recreations of deceased relatives, offering comfort to some families while raising legal, ethical, and psychological questions.",
+      "fullSummary": "AP reports that South Koreans are increasingly using AI-generated videos to recreate deceased loved ones for memorial rituals and family gatherings. Seoul-based Vaice says it serves about 300 customers a month, often creating short videos from photos, voice samples, and family-written scripts. The practice can comfort grieving families, but experts warn that interactive griefbots and commercial likeness recreation need clearer rules around consent, dignity, and psychological risk.",
+      "keyFacts": [
+        "South Korean startups are producing AI videos of deceased relatives",
+        "Vaice says it serves about 300 customers a month",
+        "Experts warn about consent, dignity, and griefbot risks"
+      ],
+      "url": "https://apnews.com/article/8b64b797da8616bd57852396a4ba87ab",
+      "sourceName": "Associated Press",
+      "relatedSources": [
+        "Vaice",
+        "KAIST",
+        "South Korea"
+      ],
+      "lane": "society",
+      "publishedAt": "2026-07-02T01:26:50.000Z",
+      "importance": 920,
+      "sourceConfidence": "high",
+      "filterCategory": "pushback",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-02T10:30:31.000Z",
+      "whyItMatters": "Grief technology is moving from novelty to consumer service, forcing societies to decide who controls a person's likeness after death."
+    },
+    {
+      "id": "curated-register-oracle-ai-datacenter-risk-filing-2026-07-01",
+      "title": "Oracle warns investors about risks from its AI datacenter bet",
+      "summary": "The Register reports that Oracle's filing lays out risks tied to its heavy AI infrastructure commitments, including customer payment risk, leased datacenter capacity, and power constraints.",
+      "fullSummary": "The Register reports that Oracle's regulatory filing highlights multiple risks from its large AI infrastructure buildout, including long-term datacenter commitments, possible customer nonpayment, hard-to-repurpose leased capacity, and power-cost volatility. The story is closely tied to Oracle's AI infrastructure relationship with OpenAI and the broader Stargate-era datacenter boom. It is a reminder that AI cloud demand is not risk-free just because headline commitments are large.",
+      "keyFacts": [
+        "Oracle cited risks from AI datacenter and cloud infrastructure expansion",
+        "The filing warns about customer nonpayment and nonrenewal risk",
+        "Power availability and energy costs are also listed as constraints"
+      ],
+      "url": "https://www.theregister.com/ai-and-ml/2026/07/01/oracle-outlines-all-the-ways-it-could-lose-the-farm-it-bet-on-ai/5265438",
+      "sourceName": "The Register",
+      "relatedSources": [
+        "Oracle",
+        "OpenAI",
+        "Stargate"
+      ],
+      "lane": "infrastructure",
+      "publishedAt": "2026-07-01T23:23:00.000Z",
+      "importance": 940,
+      "sourceConfidence": "high",
+      "filterCategory": "pushback",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-02T10:30:31.000Z",
+      "whyItMatters": "The AI infrastructure boom depends on debt, power, and customers who can keep paying; Oracle's own risk language puts numbers behind that fragility."
+    },
+    {
+      "id": "curated-guardian-tripadvisor-ai-summaries-complaints-2026-07-01",
+      "title": "Guardian finds Tripadvisor AI summaries downplayed serious hotel complaints",
+      "summary": "The Guardian reports that a Which? investigation found Tripadvisor AI summaries softened serious hotel complaints, including food-safety and harassment reports.",
+      "fullSummary": "The Guardian reports that a Which? investigation found AI-generated Tripadvisor summaries downplayed serious complaints in hotel reviews. Examples included hotels linked to food-poisoning allegations or harassment complaints being summarized with positive language such as cleanliness or friendly service. Tripadvisor says the summaries are meant to supplement original reviews and that it is refining the system, but the report underscores how opinion summarization can flatten extreme negative evidence.",
+      "keyFacts": [
+        "Which? reviewed Tripadvisor AI summaries of hotel feedback",
+        "Some summaries downplayed food-safety, sanitation, water, and harassment complaints",
+        "Tripadvisor says users should still read underlying reviews and that it is refining the tool"
+      ],
+      "url": "https://www.theguardian.com/business/2026/jul/02/ai-summaries-tripadvisor-hotel-reviews-downplay-serious-complaints",
+      "sourceName": "The Guardian",
+      "relatedSources": [
+        "Tripadvisor",
+        "Which?"
+      ],
+      "lane": "consumer",
+      "publishedAt": "2026-07-01T23:01:01.000Z",
+      "importance": 930,
+      "sourceConfidence": "high",
+      "filterCategory": "pushback",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-02T10:30:31.000Z",
+      "whyItMatters": "AI summarization failures are not abstract when they affect travel safety decisions and hide the outlier complaints users most need to see."
+    },
+    {
+      "id": "curated-register-deepseek-browser-ransomware-checkpoint-2026-07-01",
+      "title": "Check Point says DeepSeek-generated code could become browser-only ransomware",
+      "summary": "The Register reports that Check Point researchers found DeepSeek-attributed code that could be turned into browser-native ransomware with limited effort.",
+      "fullSummary": "The Register reports that Check Point researchers analyzed a DeepSeek-attributed sample that attempted to build browser-native ransomware and data theft into a web application. The sample was incomplete, but researchers said it could be turned into a working attack with little effort and that DeepSeek V4 could reproduce similar functionality with careful prompting. The case shows how LLM-generated malware ideas can combine with legitimate browser permissions and social engineering.",
+      "keyFacts": [
+        "Check Point analyzed a DeepSeek-attributed browser-ransomware sample",
+        "Researchers said the incomplete sample could be made functional with little effort",
+        "The attack abuses browser file-access permissions and social engineering"
+      ],
+      "url": "https://www.theregister.com/security/2026/07/01/somebody-told-deepseek-to-build-in-browser-ransomware-and-it-gleefully-complied/5265311",
+      "sourceName": "The Register",
+      "relatedSources": [
+        "Check Point",
+        "DeepSeek",
+        "Browser security"
+      ],
+      "lane": "security",
+      "publishedAt": "2026-07-01T20:57:00.000Z",
+      "importance": 935,
+      "sourceConfidence": "high",
+      "filterCategory": "pushback",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-02T10:30:31.000Z",
+      "whyItMatters": "This is a concrete example of AI lowering the skill floor for attack development by translating known platform risks into plausible malware workflows."
+    },
+    {
+      "id": "curated-techcrunch-spacex-ai-device-prototype-2026-07-01",
+      "title": "SpaceX shows investors a handset-like AI device prototype",
+      "summary": "TechCrunch reports that SpaceX showed investors a sleek prototype for an AI device that appears handset-like and could integrate AI from xAI.",
+      "fullSummary": "TechCrunch reports that SpaceX showed investors a prototype AI device that sounds close to a handset and is designed to integrate xAI technology. The report frames the prototype as part of SpaceX's broader push into wireless services and consumer hardware adjacent to Starlink. Details remain thin, but the story matters because SpaceX, xAI, and wireless distribution could combine into a vertically integrated AI-device strategy.",
+      "keyFacts": [
+        "SpaceX reportedly showed investors a handset-like AI device prototype",
+        "The prototype is designed to integrate xAI technology",
+        "The device could extend SpaceX's wireless and Starlink consumer ambitions"
+      ],
+      "url": "https://techcrunch.com/2026/07/01/spacex-has-an-ai-device-prototype-and-it-sure-sounds-phone-ish/",
+      "sourceName": "TechCrunch",
+      "relatedSources": [
+        "SpaceX",
+        "xAI",
+        "The Wall Street Journal"
+      ],
+      "lane": "products",
+      "publishedAt": "2026-07-01T18:54:18.000Z",
+      "importance": 940,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-02T10:30:31.000Z",
+      "whyItMatters": "A SpaceX-branded AI device would put AI distribution, satellite connectivity, and Elon Musk's model company into one consumer-hardware stack."
+    },
+    {
+      "id": "curated-bi-retailers-ai-return-fraud-2026-07-01",
+      "title": "Retailers use AI to fight return fraud and speed reverse logistics",
+      "summary": "Business Insider reports that retailers and return-management firms are using AI to detect fraud, assess risk, and automate reverse-logistics decisions.",
+      "fullSummary": "Business Insider reports that retailers are turning to AI as return fraud rises in scale and sophistication. Companies such as Happy Returns, Narvar, Loop, Shopify, and Chargeflow are using AI to detect product swaps, label tampering, risky behavior patterns, and chargeback evidence. The article also notes that retailers still see human review as important, with only 45% of surveyed companies saying AI and machine learning are truly effective at preventing return fraud on their own.",
+      "keyFacts": [
+        "Retailers are using AI to detect return fraud and automate reverse logistics",
+        "Happy Returns, Narvar, Loop, Shopify, and Chargeflow are among the examples cited",
+        "Only 45% of surveyed companies said AI and ML are truly effective at preventing return fraud on their own"
+      ],
+      "url": "https://www.businessinsider.com/return-fraud-ai-retail-happy-returns-optoro-2026-6",
+      "sourceName": "Business Insider",
+      "relatedSources": [
+        "Happy Returns",
+        "Narvar",
+        "Loop",
+        "National Retail Federation"
+      ],
+      "lane": "products",
+      "publishedAt": "2026-07-01T18:33:11.075Z",
+      "importance": 900,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-02T10:30:31.000Z",
+      "whyItMatters": "Return fraud is a measurable operating cost, making it a useful test of whether retail AI delivers real savings instead of only better recommendations."
+    },
+    {
+      "id": "curated-techcrunch-cloudflare-ai-crawler-pay-publishers-2026-07-01",
+      "title": "Cloudflare pushes AI crawlers toward paid access to publishers",
+      "summary": "Cloudflare is changing crawler policy so publishers can distinguish search bots from AI training and agent crawlers, raising pressure on AI companies to pay for content access.",
+      "fullSummary": "TechCrunch reports that Cloudflare is giving AI companies until September 15 to separate search crawlers from crawlers used for training models and powering agents. Publishers will be able to block AI-oriented scraping by default unless they approve access or negotiate payment. The change escalates the fight over whether AI companies can keep treating the open web as free input while publishers lose referral traffic.",
+      "keyFacts": [
+        "Cloudflare wants AI firms to separate search crawlers from AI training and agent crawlers",
+        "Publishers can default-block AI crawlers unless they approve access",
+        "The deadline for crawler separation is September 15"
+      ],
+      "url": "https://techcrunch.com/2026/07/01/cloudflares-new-policy-pushes-ai-companies-to-pay-for-publishers-content/",
+      "sourceName": "TechCrunch",
+      "relatedSources": [
+        "Cloudflare",
+        "Publishers",
+        "AI crawlers"
+      ],
+      "lane": "policy",
+      "publishedAt": "2026-07-01T17:48:37.000Z",
+      "importance": 955,
+      "sourceConfidence": "high",
+      "filterCategory": "pushback",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-02T10:30:31.000Z",
+      "whyItMatters": "Crawler pricing and blocking rules are becoming the practical enforcement layer for the AI copyright and publisher-economics fight."
+    },
+    {
+      "id": "curated-unite-ai-aligned-series-b-ai-deal-workspace-2026-07-01",
+      "title": "Aligned raises $60M to expand its AI deal workspace for enterprise sales",
+      "summary": "Unite.AI reports that Aligned raised a $60 million Series B to expand an AI-powered workspace for complex enterprise sales and buyer collaboration.",
+      "fullSummary": "Unite.AI reports that Aligned raised a $60 million Series B to expand its AI deal workspace for enterprise sales teams. The platform is aimed at making complex B2B buying processes easier to coordinate across sellers, buyers, content, and approvals. The round adds to the wave of AI workflow startups targeting revenue teams rather than generic productivity.",
+      "keyFacts": [
+        "Aligned raised a $60 million Series B",
+        "The company builds an AI deal workspace for enterprise sales",
+        "The product targets buyer-seller coordination in complex B2B deals"
+      ],
+      "url": "https://www.unite.ai/aligned-raises-60m-series-b-to-expand-its-ai-deal-workspace-for-enterprise-sales/",
+      "sourceName": "Unite.AI",
+      "relatedSources": [
+        "Aligned",
+        "Enterprise sales"
+      ],
+      "lane": "funding",
+      "publishedAt": "2026-07-01T17:27:44.000Z",
+      "importance": 895,
+      "sourceConfidence": "high",
+      "filterCategory": "funding",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-02T10:30:31.000Z",
+      "whyItMatters": "AI workflow funding is spreading into specific go-to-market systems where software can own revenue process data, not just generate text."
+    },
+    {
+      "id": "curated-unite-ai-kurdish-conversational-ai-ki-2026-07-01",
+      "title": "OmniOps and Allai Newroz launch KI, a Kurdish conversational AI platform",
+      "summary": "Unite.AI reports that OmniOps and Allai Newroz Telecom launched KI, described as the first Kurdish conversational AI platform.",
+      "fullSummary": "Unite.AI reports that OmniOps and Allai Newroz Telecom have launched KI, a Kurdish conversational AI platform. The launch is notable because regional-language AI systems often receive less coverage than English-language frontier models, even though they determine who can use AI in daily life and local services. The partnership brings telecom distribution together with language-specific AI capability.",
+      "keyFacts": [
+        "OmniOps and Allai Newroz Telecom launched KI",
+        "KI is described as a Kurdish conversational AI platform",
+        "The launch targets a regional-language user base"
+      ],
+      "url": "https://www.unite.ai/omniops-and-allai-newroz-telecom-launch-ki-the-first-kurdish-conversational-ai-platform/",
+      "sourceName": "Unite.AI",
+      "relatedSources": [
+        "OmniOps",
+        "Allai Newroz Telecom"
+      ],
+      "lane": "models",
+      "publishedAt": "2026-07-01T17:15:43.000Z",
+      "importance": 870,
+      "sourceConfidence": "high",
+      "filterCategory": "models",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-02T10:30:31.000Z",
+      "whyItMatters": "Regional-language AI launches are crucial for inclusion because they move capability from benchmark languages into local communication and services."
+    },
+    {
+      "id": "curated-et-oxmiq-ai-chip-designs-sovereign-ai-2026-07-01",
+      "title": "OXMIQ raises $35M to license AI chip designs for sovereign AI",
+      "summary": "The Economic Times reports that OXMIQ raised $35 million to license AI chip designs that combine graphics, CPU, and tensor-engine blocks for customers building sovereign AI hardware.",
+      "fullSummary": "The Economic Times reports that OXMIQ raised $35 million to commercialize AI chip intellectual property for customers building sovereign AI hardware. The company says its design approach combines graphics chips, CPUs, and tensor engines into a single licensable IP block, with founder Raj Koduri positioning the startup as an Arm-like supplier for AI-era silicon. The financing adds another infrastructure story to the feed because countries and enterprises are looking for alternatives to buying finished accelerators from the dominant chip vendors.",
+      "keyFacts": [
+        "OXMIQ raised $35 million for AI chip-design licensing",
+        "The startup is building licensable IP blocks that combine graphics, CPU, and tensor-engine components",
+        "The company is targeting customers that want sovereign or customized AI hardware"
+      ],
+      "url": "https://economictimes.indiatimes.com/tech/funding/oxmiq-raises-35-million-to-license-ai-chip-designs-as-sovereign-ai-demand-grows/articleshow/132117806.cms",
+      "sourceName": "The Economic Times",
+      "relatedSources": [
+        "OXMIQ",
+        "Raj Koduri",
+        "MediaTek"
+      ],
+      "lane": "infrastructure",
+      "publishedAt": "2026-07-01T16:23:28.000Z",
+      "importance": 905,
+      "sourceConfidence": "high",
+      "filterCategory": "funding",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-02T10:45:31.000Z",
+      "whyItMatters": "AI supply-chain competition is moving below finished accelerators into licensable chip IP, which could shape who can build sovereign compute without depending on a single vendor stack."
+    },
+    {
+      "id": "curated-ai-news-retail-ai-personalisation-customer-insight-2026-07-01",
+      "title": "AI News says retail AI deployments now hinge on scalable customer-data infrastructure",
+      "summary": "AI News reports that retailers moving beyond pilots need infrastructure that can support real-time customer insight, personalization, and operational scale.",
+      "fullSummary": "AI News reports that retail AI deployments are increasingly defined by whether companies can turn customer data into reliable personalization and real-time insight at scale. The piece focuses on the infrastructure and deployment discipline needed to move AI from experiments into repeatable customer-facing workflows. It adds a practical adoption angle often missed by model-release coverage.",
+      "keyFacts": [
+        "The article focuses on retail AI deployment at scale",
+        "Customer insight and personalization are the core use cases",
+        "Infrastructure readiness is framed as the differentiator between pilots and production"
+      ],
+      "url": "https://www.artificialintelligence-news.com/news/deploying-retail-ai-to-scale-personalisation-customer-insight/",
+      "sourceName": "AI News",
+      "relatedSources": [
+        "Retail AI",
+        "Customer data platforms"
+      ],
+      "lane": "products",
+      "publishedAt": "2026-07-01T15:58:43.000Z",
+      "importance": 875,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-02T10:30:31.000Z",
+      "whyItMatters": "Retail is one of the clearest test beds for whether AI produces measurable customer and operations gains rather than demo-only automation."
+    },
+    {
+      "id": "curated-unite-ai-dawnguard-seed-cybersecurity-design-2026-07-01",
+      "title": "Dawnguard raises $3.3M for cybersecurity that shifts left into design",
+      "summary": "Unite.AI reports that Dawnguard raised $3.3 million to build cybersecurity tools focused on preventing design flaws before products reach production.",
+      "fullSummary": "Unite.AI reports that Dawnguard raised $3.3 million as it pushes a cybersecurity approach focused on design-time prevention rather than detection after deployment. The company is positioned around helping teams catch security problems earlier in product development. It is a smaller round, but it fits the larger trend of AI and automation being pulled into security architecture and engineering workflows.",
+      "keyFacts": [
+        "Dawnguard raised $3.3 million",
+        "The company focuses on design-stage cybersecurity",
+        "The product direction is prevention before production rather than only detection"
+      ],
+      "url": "https://www.unite.ai/dawnguard-raises-3-3m-as-cybersecurity-moves-from-detection-to-design/",
+      "sourceName": "Unite.AI",
+      "relatedSources": [
+        "Dawnguard",
+        "Cybersecurity"
+      ],
+      "lane": "funding",
+      "publishedAt": "2026-07-01T14:46:38.000Z",
+      "importance": 850,
+      "sourceConfidence": "high",
+      "filterCategory": "funding",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-02T10:30:31.000Z",
+      "whyItMatters": "Security teams are trying to move AI-assisted review earlier into product design, where small fixes can prevent expensive downstream vulnerabilities."
+    },
+    {
+      "id": "curated-techcrunch-venice-ai-series-a-unicorn-2026-07-01",
+      "title": "Venice AI reaches unicorn status with $65M Series A",
+      "summary": "TechCrunch reports that privacy-focused AI platform Venice AI raised a $65 million Series A at a $1 billion valuation while claiming profitability and annualized revenue above $70 million.",
+      "fullSummary": "TechCrunch reports that Venice AI raised $65 million in Series A funding at a $1 billion valuation. CEO Erik Voorhees said the privacy-first AI platform is already profitable and has crossed $70 million in annualized run-rate revenue. The round shows that investor demand extends beyond frontier labs to differentiated AI platforms built around privacy and user control.",
+      "keyFacts": [
+        "Venice AI raised $65 million in Series A funding",
+        "The round values the company at $1 billion",
+        "The company says it is profitable with annualized run-rate revenue above $70 million"
+      ],
+      "url": "https://techcrunch.com/2026/07/01/venice-ai-becomes-a-unicorn-with-65m-series-a-as-its-privacy-first-ai-platform-takes-off/",
+      "sourceName": "TechCrunch",
+      "relatedSources": [
+        "Venice AI",
+        "Unite.AI",
+        "Erik Voorhees"
+      ],
+      "lane": "funding",
+      "publishedAt": "2026-07-01T14:25:23.000Z",
+      "importance": 930,
+      "sourceConfidence": "high",
+      "filterCategory": "funding",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-02T10:30:31.000Z",
+      "whyItMatters": "A profitable privacy-first AI unicorn suggests there is still room for product positioning beyond raw model capability."
+    },
+    {
+      "id": "curated-unite-ai-deepkeep-inkject-image-prompt-attack-2026-07-01",
+      "title": "DeepKeep discloses InkJect, an image-hidden prompt attack",
+      "summary": "Unite.AI reports that DeepKeep uncovered InkJect, a new AI attack that hides malicious prompts inside images to manipulate multimodal systems.",
+      "fullSummary": "Unite.AI reports that DeepKeep uncovered InkJect, an attack technique that hides malicious prompts inside images. The disclosure matters because multimodal AI systems increasingly ingest screenshots, documents, and photos as instructions or context. Attacks that embed instructions in visual inputs expand the prompt-injection problem beyond text fields and chat windows.",
+      "keyFacts": [
+        "DeepKeep disclosed a technique called InkJect",
+        "The attack hides malicious prompts inside images",
+        "The target is multimodal AI systems that interpret visual inputs"
+      ],
+      "url": "https://www.unite.ai/deepkeep-uncovers-inkject-a-new-ai-attack-that-hides-malicious-prompts-inside-images/",
+      "sourceName": "Unite.AI",
+      "relatedSources": [
+        "DeepKeep",
+        "Multimodal security"
+      ],
+      "lane": "security",
+      "publishedAt": "2026-07-01T14:15:52.000Z",
+      "importance": 900,
+      "sourceConfidence": "high",
+      "filterCategory": "pushback",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-02T10:30:31.000Z",
+      "whyItMatters": "As agents consume images and documents, prompt injection becomes a multimodal security problem that ordinary text filters cannot solve alone."
+    },
+    {
+      "id": "curated-unite-ai-backboard-sovereign-ai-infrastructure-2026-07-01",
+      "title": "Backboard.io unveils enterprise AI infrastructure stack for sovereign deployment",
+      "summary": "Unite.AI reports that Backboard.io introduced an AI infrastructure stack focused on efficiency, enterprise control, and sovereign deployment.",
+      "fullSummary": "Unite.AI reports that Backboard.io unveiled an AI infrastructure stack aimed at efficiency, enterprise control, and sovereign deployment. The announcement reflects growing demand from organizations that want AI capability without surrendering operational control to a handful of centralized cloud and model providers. Sovereign and private deployment remain important buying criteria for regulated industries and governments.",
+      "keyFacts": [
+        "Backboard.io unveiled an AI infrastructure stack",
+        "The stack emphasizes efficiency, enterprise control, and sovereign deployment",
+        "The product targets organizations with control and deployment requirements"
+      ],
+      "url": "https://www.unite.ai/backboard-io-unveils-ai-infrastructure-stack-focused-on-efficiency-enterprise-control-and-sovereign-deployment/",
+      "sourceName": "Unite.AI",
+      "relatedSources": [
+        "Backboard.io",
+        "Sovereign AI"
+      ],
+      "lane": "infrastructure",
+      "publishedAt": "2026-07-01T14:02:46.000Z",
+      "importance": 860,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-02T10:30:31.000Z",
+      "whyItMatters": "Sovereign deployment is moving from policy slogan to product requirement as enterprises and governments demand control over AI infrastructure."
+    },
+    {
+      "id": "curated-techcrunch-meta-ai-compute-cloud-2026-07-01",
+      "title": "Meta reportedly plans to sell excess AI compute through a cloud business",
+      "summary": "TechCrunch reports that Meta is developing a cloud infrastructure business that would sell AI compute and model access, potentially putting it in more direct competition with AWS, Google Cloud, and Azure.",
+      "fullSummary": "TechCrunch reports that Meta is exploring ways to monetize excess AI compute by building a cloud infrastructure business. The reported plan would sell access to compute and possibly models, echoing similar efforts from other AI-heavy companies trying to turn capital-intensive infrastructure into revenue. If pursued, Meta would move from internal AI buildout into the cloud market dominated by Amazon, Microsoft, and Google.",
+      "keyFacts": [
+        "Meta is reportedly developing a cloud infrastructure business",
+        "The business could sell AI compute and model access",
+        "The move would compete with major cloud providers"
+      ],
+      "url": "https://techcrunch.com/2026/07/01/meta-like-spacex-looks-to-turn-excess-ai-compute-into-cash/",
+      "sourceName": "TechCrunch",
+      "relatedSources": [
+        "Meta",
+        "AWS",
+        "Google Cloud",
+        "Microsoft Azure"
+      ],
+      "lane": "infrastructure",
+      "publishedAt": "2026-07-01T13:43:07.000Z",
+      "importance": 930,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-02T10:30:31.000Z",
+      "whyItMatters": "The AI capex race increasingly depends on whether companies can monetize spare compute instead of treating infrastructure as a pure cost center."
+    },
+    {
+      "id": "curated-ai-news-japan-national-ai-robotics-model-2026-07-01",
+      "title": "Japan commissions national AI model to support 10 million robots by 2040",
+      "summary": "AI News reports that Japan is funding a national AI model intended to help power 10 million robots by 2040 as the country confronts labor shortages and elder-care demand.",
+      "fullSummary": "AI News reports that Japan has commissioned a national AI model for robotics as part of a plan to support 10 million robots by 2040. The initiative is tied to demographic pressure, labor shortages, and demand for care and industrial automation. The move shows physical AI becoming national industrial policy rather than only a startup or lab race.",
+      "keyFacts": [
+        "Japan is commissioning a national AI model for robotics",
+        "The target is to support 10 million robots by 2040",
+        "The initiative is connected to worker shortages and care needs"
+      ],
+      "url": "https://www.artificialintelligence-news.com/news/japan-ai-robots-2040-national-ai-model/",
+      "sourceName": "AI News",
+      "relatedSources": [
+        "Japan",
+        "Robotics policy",
+        "The Register"
+      ],
+      "lane": "robotics",
+      "publishedAt": "2026-07-01T11:00:00.000Z",
+      "importance": 930,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-02T10:30:31.000Z",
+      "whyItMatters": "National robotics models make embodied AI a sovereign-capability issue, especially for countries facing aging populations and shrinking workforces."
+    },
+    {
+      "id": "curated-bi-botsitting-ai-agents-2026-07-01",
+      "title": "AI strategist cuts back agents after botsitting outweighs automation gains",
+      "summary": "Business Insider reports that AI strategist Sol Rashidi fired half her AI agents after the work of monitoring and correcting them consumed too much time.",
+      "fullSummary": "Business Insider reports that AI strategist Sol Rashidi cut back roughly half of her AI agents after finding that supervising them required too much context correction and oversight. The story is anecdotal but useful because it captures a recurring operational failure mode: agents that look autonomous in demos can create new managerial work in production. It also points to why companies are hiring humans back into workflows that were supposed to be fully automated.",
+      "keyFacts": [
+        "Sol Rashidi said she fired half her AI agents after becoming a botsitter",
+        "The complaint was that constant correction consumed time better spent elsewhere",
+        "The article frames agent oversight as a practical adoption cost"
+      ],
+      "url": "https://www.businessinsider.com/botsitting-frustrating-ai-strategist-hires-humans-instead-2026-6",
+      "sourceName": "Business Insider",
+      "relatedSources": [
+        "Sol Rashidi",
+        "AI agents"
+      ],
+      "lane": "workforce",
+      "publishedAt": "2026-07-01T10:23:30.704Z",
+      "importance": 870,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-02T10:30:31.000Z",
+      "whyItMatters": "Agent adoption will be judged by net workflow load, and botsitting is a useful label for when automation quietly shifts work rather than removing it."
+    },
+    {
+      "id": "curated-ai-news-boe-agentic-ai-finance-rules-2026-07-01",
+      "title": "Bank of England reviews whether finance rules cover agentic AI",
+      "summary": "AI News reports that the Bank of England is reviewing whether existing financial rules adequately cover agentic AI systems used in payments, trading, cybersecurity, and operations.",
+      "fullSummary": "AI News reports that the Bank of England is examining whether the current regulatory regime is sufficient for agentic AI in finance. The review looks at systems that can take actions across payments, trading, cybersecurity, and back-office operations. It marks a shift from generic AI risk language toward the specific governance problem of autonomous agents in regulated financial markets.",
+      "keyFacts": [
+        "The Bank of England is reviewing agentic AI risks in finance",
+        "Areas include payments, trading, cybersecurity, and operations",
+        "The question is whether existing rules are enough for autonomous systems"
+      ],
+      "url": "https://www.artificialintelligence-news.com/news/bank-of-england-agentic-ai-finance-rules/",
+      "sourceName": "AI News",
+      "relatedSources": [
+        "Bank of England",
+        "Financial regulation"
+      ],
+      "lane": "policy",
+      "publishedAt": "2026-07-01T10:00:00.000Z",
+      "importance": 925,
+      "sourceConfidence": "high",
+      "filterCategory": "pushback",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-02T10:30:31.000Z",
+      "whyItMatters": "Finance regulators are moving from chatbot-era oversight to the harder question of how much autonomy AI agents should have in live markets and payment systems."
     },
     {
       "id": "curated-et-mankind-denovo-ai-drug-discovery-2026-07-01",
@@ -21741,5 +22307,5 @@
   "errors": [],
   "totalItems": 731,
   "lastRefresh": "2026-06-30T03:45:00.000Z",
-  "count": 778
+  "count": 808
 }
