@@ -1,9 +1,112 @@
 {
-  "generatedAt": "2026-07-01T08:52:00.000Z",
-  "nextRefreshAt": "2026-07-01T20:52:00.000Z",
+  "generatedAt": "2026-07-02T10:00:00.000Z",
+  "nextRefreshAt": "2026-07-02T22:00:00.000Z",
   "summaryEngine": "chat-curated",
   "curated": true,
   "items": [
+    {
+      "id": "curated-guardian-openai-us-government-5pct-stake-2026-07-02",
+      "title": "OpenAI explores giving the U.S. government a 5% stake",
+      "summary": "The Guardian reported, citing the Financial Times, that OpenAI is in early talks about giving the U.S. government a 5% stake as Sam Altman argues for sharing AI-driven wealth with the public.",
+      "fullSummary": "The Guardian reported that OpenAI is in early-stage discussions about giving the U.S. government a 5% equity stake in the ChatGPT developer. The proposal, attributed to Financial Times reporting, would use public ownership to improve relations with Washington and share AI-boom upside with citizens, potentially through an Alaska Permanent Fund-style vehicle. The talks are still conceptual, could require Congress, and may also ask other major AI developers such as Anthropic, Google, and Meta to consider similar public stakes.",
+      "keyFacts": [
+        "The talks concern a possible 5% U.S. government stake in OpenAI",
+        "The proposal is still conceptual and could require congressional action",
+        "Sam Altman has reportedly discussed public ownership with Trump administration officials and Senator Bernie Sanders"
+      ],
+      "url": "https://www.theguardian.com/technology/2026/jul/02/openai-stake-us-government-ai-sam-altman",
+      "sourceName": "The Guardian",
+      "relatedSources": [
+        "Financial Times",
+        "OpenAI",
+        "U.S. government"
+      ],
+      "lane": "policy",
+      "publishedAt": "2026-07-02T07:31:00.000Z",
+      "importance": 965,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-02T10:00:00.000Z",
+      "whyItMatters": "Public equity talks would turn frontier AI governance into a direct wealth-sharing and political-legitimacy issue, not just a safety or export-control debate."
+    },
+    {
+      "id": "curated-ft-white-house-ai-model-standards-2026-07-02",
+      "title": "White House accelerates voluntary standards for frontier AI releases",
+      "summary": "Financial Times reported that the White House is speeding talks with OpenAI, Anthropic, Google, and other AI companies on voluntary standards for advanced model releases after the Fable and GPT-5.6 access fights.",
+      "fullSummary": "Financial Times reported that U.S. officials are accelerating discussions with frontier AI companies on voluntary standards for advanced model releases. The work is expected to cover benchmarks, release timelines, and access rules for powerful systems, with the Center for AI Standards and Innovation and national-security agencies involved. The push follows the temporary Anthropic Fable restrictions and OpenAI's staggered GPT-5.6 rollout, making model-release governance a near-term operating constraint for the largest labs.",
+      "keyFacts": [
+        "The standards effort covers advanced model release benchmarks and access rules",
+        "OpenAI, Anthropic, Google, and other frontier labs are involved in talks",
+        "The effort follows recent U.S. intervention in Anthropic and OpenAI model launches"
+      ],
+      "url": "https://www.ft.com/content/0bb7e2f9-007b-4577-9c4a-858948ee969a",
+      "sourceName": "Financial Times",
+      "relatedSources": [
+        "OpenAI",
+        "Anthropic",
+        "Google",
+        "CAISI"
+      ],
+      "lane": "policy",
+      "publishedAt": "2026-07-02T06:00:00.000Z",
+      "importance": 950,
+      "sourceConfidence": "medium",
+      "filterCategory": "pushback",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-02T10:00:00.000Z",
+      "whyItMatters": "A voluntary standard could become the default release playbook for frontier models, shaping who gets access and how quickly new capabilities reach global users."
+    },
+    {
+      "id": "curated-wsj-takeda-insilico-ai-drug-discovery-2026-07-02",
+      "title": "Takeda signs AI drug-discovery deal with Insilico worth up to $600M",
+      "summary": "The Wall Street Journal reported that Takeda is partnering with Insilico Medicine in an AI drug-discovery collaboration with potential value up to $600 million.",
+      "fullSummary": "The Wall Street Journal reported that Takeda and Insilico Medicine formed an AI drug-discovery partnership with potential value up to $600 million. Insilico will use its Pharma.AI platform to identify and advance drug candidates across therapeutic areas, while Takeda receives exclusive global rights to develop, manufacture, and commercialize resulting medicines. The deal adds another large pharmaceutical company to the group using AI platforms for earlier target and candidate selection.",
+      "keyFacts": [
+        "The Takeda-Insilico partnership is worth up to $600 million",
+        "Insilico will use its Pharma.AI platform for drug-candidate work",
+        "Takeda gets exclusive global rights to develop and commercialize resulting drugs"
+      ],
+      "url": "https://www.wsj.com/tech/biotech/takeda-insilico-strike-ai-drug-discovery-deal-worth-up-to-600-million-e0891dfd",
+      "sourceName": "Wall Street Journal",
+      "relatedSources": [
+        "Takeda",
+        "Insilico Medicine"
+      ],
+      "lane": "health",
+      "publishedAt": "2026-07-02T04:30:00.000Z",
+      "importance": 900,
+      "sourceConfidence": "high",
+      "filterCategory": "funding",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-02T10:00:00.000Z",
+      "whyItMatters": "Large pharma is moving AI drug discovery from pilots into rights-bearing commercial deals, where model quality is tested against real pipelines and milestone economics."
+    },
+    {
+      "id": "curated-et-mankind-denovo-ai-drug-discovery-2026-07-01",
+      "title": "Mankind Pharma partners with Denovo Sciences on AI drug discovery",
+      "summary": "Economic Times reported that Mankind Pharma and Denovo Sciences launched an AI-driven drug discovery program focused on faster early discovery and better lead-candidate selection.",
+      "fullSummary": "Economic Times reported that Mankind Pharma partnered with Denovo Sciences to start an AI-driven drug discovery program. The companies say Denovo's platform will generate and evaluate molecular candidates while Mankind's R&D and clinical teams guide, validate, and refine the work through a human-in-the-loop process. The program is aimed at shortening early discovery timelines, improving lead quality, and filtering out weak candidates earlier in development.",
+      "keyFacts": [
+        "Mankind Pharma and Denovo Sciences announced the partnership on July 1",
+        "The program uses AI to generate and evaluate molecular candidates",
+        "Mankind says the goal is faster discovery cycles and stronger candidate selection"
+      ],
+      "url": "https://economictimes.indiatimes.com/industry/healthcare/biotech/pharmaceuticals/mankind-pharma-joins-hands-with-denovo-sciences-for-ai-powered-drug-discovery/articleshow/132109592.cms",
+      "sourceName": "Economic Times",
+      "relatedSources": [
+        "Mankind Pharma",
+        "Denovo Sciences"
+      ],
+      "lane": "health",
+      "publishedAt": "2026-07-01T08:07:00.000Z",
+      "importance": 835,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-02T10:00:00.000Z",
+      "whyItMatters": "The deal shows AI drug-discovery adoption broadening beyond global pharma into Indian R&D programs that still keep scientific review in the loop."
+    },
     {
       "id": "curated-ft-apple-siri-ai-eu-talks-2026-07-01",
       "title": "Apple and EU hold talks over Siri AI rollout",
@@ -577,6 +680,32 @@
       "summaryEngine": "chat-curated",
       "curatedAt": "2026-07-01T08:52:00.000Z",
       "whyItMatters": "Lumo is Proton's attempt to make privacy a differentiator in the chatbot market as rivals compete on multimodal features and memory."
+    },
+    {
+      "id": "curated-bi-apptronik-robot-park-humanoid-training-2026-06-30",
+      "title": "Apptronik opens Robot Park to train Apollo humanoids for real jobs",
+      "summary": "Business Insider reported that Apptronik opened a nearly 90,000-square-foot Austin Robot Park where Apollo humanoids practice warehouse and service tasks while generating training data.",
+      "fullSummary": "Business Insider reported that Apptronik has opened a nearly 90,000-square-foot Robot Park in Austin to train its Apollo humanoid robots. The robots practice tasks such as loading boxes and sorting objects, often with human operators guiding them so the company can collect real-world robotics data. Apptronik says the facility is meant to improve the AI models behind Apollo before broader factory, service, and home deployments; Mercedes is already using Apollo in factories, and Google DeepMind uses Apollo robots for Gemini Robotics work.",
+      "keyFacts": [
+        "Apptronik opened a nearly 90,000-square-foot Robot Park in Austin",
+        "Apollo robots practice warehouse-style tasks under human supervision",
+        "The company says the facility creates real-world data for robotics AI models"
+      ],
+      "url": "https://www.businessinsider.com/apptroniks-humanoid-robots-are-practicing-for-their-first-real-jobs-2026-6",
+      "sourceName": "Business Insider",
+      "relatedSources": [
+        "Apptronik",
+        "Google DeepMind",
+        "Mercedes"
+      ],
+      "lane": "physical-ai",
+      "publishedAt": "2026-06-30T12:00:01.234Z",
+      "importance": 865,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-02T10:00:00.000Z",
+      "whyItMatters": "Humanoid robotics is becoming a data-collection race, and Apptronik is building the physical equivalent of a training corpus for robots."
     },
     {
       "id": "curated-techcrunch-okx-ai-agent-marketplace-2026-06-30",
@@ -2641,6 +2770,33 @@
       "summaryEngine": "chat-curated",
       "curatedAt": "2026-06-27T09:35:00.000Z",
       "whyItMatters": "Talent cost remains a structural advantage for the richest labs and a constraint for everyone else."
+    },
+    {
+      "id": "curated-bi-fieldai-robotics-contracts-100m-2026-06-26",
+      "title": "FieldAI says robotics contracts and revenue have passed $100M",
+      "summary": "Business Insider reported that FieldAI has crossed $100 million in revenue and customer contracts for software that helps robots work in mines, construction sites, data centers, and defense environments.",
+      "fullSummary": "Business Insider reported that FieldAI has grown to more than $100 million in revenue and customer contracts across over 30 customers in Europe, Asia, and the U.S. The company builds Field Foundation Models, software intended to let different robots operate safely in complex environments such as mines, construction sites, data centers, and defense zones. FieldAI says its approach relies on physics and probability rather than collecting huge task-specific datasets before deployment, letting robots gather useful data while already working on customer sites.",
+      "keyFacts": [
+        "FieldAI says revenue and customer contracts have passed $100 million",
+        "The company has more than 30 customers across Europe, Asia, and the U.S.",
+        "Its software targets robots in mines, construction sites, data centers, and defense environments"
+      ],
+      "url": "https://www.businessinsider.com/robot-startup-fieldai-achieves-100-m-milestone-in-revenue-contracts-2026-6",
+      "sourceName": "Business Insider",
+      "relatedSources": [
+        "FieldAI",
+        "Khosla Ventures",
+        "Nvidia",
+        "Intel"
+      ],
+      "lane": "physical-ai",
+      "publishedAt": "2026-06-26T10:00:01.980Z",
+      "importance": 830,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-02T10:00:00.000Z",
+      "whyItMatters": "FieldAI is evidence that physical-AI companies can get beyond demos when they solve narrow deployment and navigation problems for paying industrial customers."
     },
     {
       "id": "curated-et-china-ai-chip-ipo-rebound-2026-06-26",
@@ -8385,6 +8541,31 @@
       "curatedAt": "2026-06-17T04:56:00.000Z"
     },
     {
+      "id": "curated-arxiv-fable-opus-red-team-study-2026-06-16",
+      "title": "Red-team paper finds sustained attacks still break frontier Anthropic models",
+      "summary": "A June arXiv study tested Anthropic Fable 5 and Opus 4.8 against automated jailbreak families and found that even hardened frontier models still produced harmful completions under sustained adaptive attacks.",
+      "fullSummary": "A June arXiv paper evaluated Anthropic Fable 5 and Opus 4.8 with automated jailbreak attacks across 7,826 harmful intents. The authors report that static obfuscation was mostly neutralized, but adaptive iterative attacks still produced panel-confirmed harmful completions: 702 for Fable 5 and 1,620 for Opus 4.8. The study argues that aggregate safety rates should not be treated as reassurance because persistent automated attackers can still find residual failure modes in hardened frontier models.",
+      "keyFacts": [
+        "The paper tested Fable 5 and Opus 4.8 across 7,826 harmful intents",
+        "Fable 5 produced 702 panel-confirmed harmful completions in the study",
+        "The authors found adaptive iterative attacks were more effective than static obfuscation"
+      ],
+      "url": "https://arxiv.org/abs/2606.18193",
+      "sourceName": "arXiv",
+      "relatedSources": [
+        "Anthropic",
+        "HackAgent"
+      ],
+      "lane": "research",
+      "publishedAt": "2026-06-16T17:23:58.000Z",
+      "importance": 805,
+      "sourceConfidence": "medium",
+      "filterCategory": "papers",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-02T10:00:00.000Z",
+      "whyItMatters": "This gives the Fable access fight a technical evidence layer: model-release policy depends on residual attack surfaces, not just benchmark headlines."
+    },
+    {
       "id": "curated-guardian-france-palantir-ai-sovereignty-2026-06-16",
       "title": "France moves from Palantir AI tools to domestic ChapsVision",
       "summary": "The Guardian reported that France's domestic intelligence service will replace Palantir AI data tools with ChapsVision to reduce strategic dependency.",
@@ -9422,6 +9603,31 @@
       "filterCategory": "pushback",
       "summaryEngine": "chat-curated",
       "curatedAt": "2026-06-16T08:19:38.601Z"
+    },
+    {
+      "id": "curated-arxiv-us-policy-china-open-ai-ecosystems-2026-06-14",
+      "title": "Paper argues U.S. controls helped accelerate China open AI ecosystems",
+      "summary": "A June arXiv paper argues that U.S. export and technology controls increased the strategic value of open AI systems in China, pushing local developers toward open-source model ecosystems.",
+      "fullSummary": "A June arXiv paper argues that U.S. policies intended to preserve AI leadership and control semiconductor chokepoints unintentionally increased the strategic value of open and locally adaptable AI systems in China. The authors find that after export-control shocks, China increasingly embedded open-source AI in national technology strategy and Chinese developers increased engagement with open model repositories more than U.S. developers did. The paper says these shifts have implications for commercial AI too, because Chinese-origin open models have diffused through research and open-source communities used by American firms.",
+      "keyFacts": [
+        "The paper studies U.S. export-control shocks and China's open AI ecosystem",
+        "It finds increased Chinese developer engagement with open model repositories",
+        "The authors argue containment policies can accelerate open innovation as a competitive response"
+      ],
+      "url": "https://arxiv.org/abs/2606.15999",
+      "sourceName": "arXiv",
+      "relatedSources": [
+        "China AI ecosystem",
+        "U.S. export controls"
+      ],
+      "lane": "research",
+      "publishedAt": "2026-06-14T19:55:20.000Z",
+      "importance": 790,
+      "sourceConfidence": "medium",
+      "filterCategory": "papers",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-02T10:00:00.000Z",
+      "whyItMatters": "The paper adds empirical weight to a key policy tradeoff: controls can slow access to chips while also making open model ecosystems more strategically valuable abroad."
     },
     {
       "id": "curated-china-mythos-access-report-2026-06-14",
