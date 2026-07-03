@@ -1,9 +1,162 @@
 {
-  "generatedAt": "2026-07-02T10:45:31.000Z",
-  "nextRefreshAt": "2026-07-02T22:45:31.000Z",
+  "generatedAt": "2026-07-03T02:20:00.000Z",
+  "nextRefreshAt": "2026-07-03T14:20:00.000Z",
   "summaryEngine": "chat-curated",
   "curated": true,
   "items": [
+    {
+      "id": "curated-guardian-australia-musicians-ai-copyright-2026-07-03",
+      "title": "Australian musicians urge Albanese not to weaken copyright for AI training",
+      "summary": "The Guardian reports that prominent Australian musicians are urging Prime Minister Anthony Albanese to reject proposals that would let AI companies scrape creative work in exchange for datacenter investment and a compensation fund.",
+      "fullSummary": "The Guardian reports that Australian musicians including members of Powderfinger, the Go-Betweens, Spiderbait, Middle Kids, and the Fauves are pressing Prime Minister Anthony Albanese to protect copyright from proposed AI-training exemptions. The concern follows reporting on an industry proposal that would trade more than $50 billion in datacenter investment and a $350 million artists' fund for weaker content-mining rules. The Albanese government says it has no plan to weaken copyright protections, but artists are asking for clear opt-out rights, fair compensation, and laws that stop AI companies from using their work without permission.",
+      "keyFacts": [
+        "Australian musicians are opposing AI text-and-data-mining exemptions",
+        "A reported proposal links weaker copyright rules to datacenter investment and an artists' fund",
+        "The Albanese government says it has no plan to weaken copyright protections"
+      ],
+      "url": "https://www.theguardian.com/music/2026/jul/03/dont-kill-music-anthony-albaneses-favourite-bands-beg-pm-to-stop-ai-companies-from-stealing-their-work",
+      "sourceName": "The Guardian",
+      "relatedSources": [
+        "Australian musicians",
+        "Anthony Albanese",
+        "Australian government"
+      ],
+      "lane": "policy",
+      "publishedAt": "2026-07-03T01:33:50.000Z",
+      "importance": 950,
+      "sourceConfidence": "high",
+      "filterCategory": "pushback",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-03T02:20:00.000Z",
+      "whyItMatters": "The fight ties AI training rights directly to national investment policy, showing how datacenter promises are being weighed against creative-industry consent."
+    },
+    {
+      "id": "curated-techcrunch-meta-ai-agents-slower-2026-07-02",
+      "title": "Zuckerberg says Meta's AI agents are moving slower than hoped",
+      "summary": "TechCrunch, citing Reuters, reports that Mark Zuckerberg told Meta staff the company's AI-agent progress has not accelerated as expected after layoffs and a major internal AI reorganization.",
+      "fullSummary": "TechCrunch reports that Mark Zuckerberg told Meta employees at an internal town hall that AI-agent development has not accelerated as quickly as executives had expected. Meta had cut roughly 8,000 employees earlier this year and reassigned thousands more into AI groups, including Agent Transformation, but Zuckerberg reportedly said the upside of the new structure had not yet come through. He still told staff he expects improvements from Meta's AI investments over the next three to six months.",
+      "keyFacts": [
+        "Zuckerberg reportedly said AI-agent work has not accelerated as expected",
+        "Meta previously cut about 8,000 employees and reassigned roughly 7,000 people into AI groups",
+        "Meta is expected to spend as much as $145 billion on AI infrastructure this year"
+      ],
+      "url": "https://techcrunch.com/2026/07/02/mark-zuckerberg-tells-staff-that-ai-agents-havent-progressed-as-quickly-as-hed-hoped/",
+      "sourceName": "TechCrunch",
+      "relatedSources": [
+        "Reuters",
+        "Meta"
+      ],
+      "lane": "workforce",
+      "publishedAt": "2026-07-02T23:38:00.000Z",
+      "importance": 965,
+      "sourceConfidence": "high",
+      "filterCategory": "pushback",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-03T02:20:00.000Z",
+      "whyItMatters": "It is a rare public signal that even the largest AI spenders are still struggling to convert agent promises into clean workforce and productivity gains."
+    },
+    {
+      "id": "curated-techcrunch-anthropic-samsung-custom-chip-2026-07-02",
+      "title": "Anthropic discusses a custom AI chip with Samsung",
+      "summary": "TechCrunch reports that Anthropic has been in contact with Samsung about a possible custom AI chip as frontier labs look for more control over compute supply and costs.",
+      "fullSummary": "TechCrunch reports that Anthropic is discussing a possible custom AI chip collaboration with Samsung, after earlier reports that the company was exploring its own silicon. Anthropic has not decided what the chip would be used for, how it would fit into servers, or how powerful it would be, according to The Information. The company told TechCrunch that a diversified hardware stack using Google, Amazon, and Nvidia remains central to its compute strategy.",
+      "keyFacts": [
+        "Anthropic is reportedly discussing a custom chip collaboration with Samsung",
+        "The chip's role, server fit, and performance profile remain undecided",
+        "The talks follow OpenAI's Broadcom-backed custom inference processor announcement"
+      ],
+      "url": "https://techcrunch.com/2026/07/02/anthropic-is-discussing-a-new-custom-chip-with-samsung/",
+      "sourceName": "TechCrunch",
+      "relatedSources": [
+        "Anthropic",
+        "Samsung",
+        "The Information"
+      ],
+      "lane": "infrastructure",
+      "publishedAt": "2026-07-02T18:31:00.000Z",
+      "importance": 940,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-03T02:20:00.000Z",
+      "whyItMatters": "Custom silicon talks show frontier labs treating chip access as strategic infrastructure, not just a cloud-procurement problem."
+    },
+    {
+      "id": "curated-arxiv-online-safety-monitoring-llms-2026-07-02",
+      "title": "Researchers propose real-time online safety monitoring for LLM outputs",
+      "summary": "A new arXiv paper studies a simple deployment-time monitor that turns external verifier signals into calibrated alarms when LLM outputs can no longer be assumed safe.",
+      "fullSummary": "A new arXiv paper from Mona Schirmer and coauthors studies online safety monitoring for LLMs at deployment time. The authors use an external verifier signal and calibrate an alarm threshold through risk control, then test the approach on mathematical reasoning and red-teaming datasets. They report that the simple monitor is competitive with more advanced sequential-hypothesis-testing monitors, suggesting that practical real-time safety alarms may not require especially complex monitoring stacks.",
+      "keyFacts": [
+        "The paper was submitted to arXiv on July 2, 2026",
+        "The monitor uses an external verifier signal and calibrated thresholding",
+        "Experiments cover mathematical reasoning and red-teaming datasets"
+      ],
+      "url": "https://arxiv.org/abs/2607.02510",
+      "sourceName": "arXiv",
+      "relatedSources": [
+        "ICML 2026 Hypothesis Testing Workshop"
+      ],
+      "lane": "research",
+      "publishedAt": "2026-07-02T17:59:43.000Z",
+      "importance": 860,
+      "sourceConfidence": "high",
+      "filterCategory": "papers",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-03T02:20:00.000Z",
+      "whyItMatters": "Deployment-time alarms are a pragmatic safety layer for models that can still produce unsafe outputs after alignment training."
+    },
+    {
+      "id": "curated-techcrunch-microsoft-frontier-company-2026-07-02",
+      "title": "Microsoft commits $2.5B to a new AI deployment business",
+      "summary": "TechCrunch reports that Microsoft has launched Microsoft Frontier Company, a new operating business for enterprise AI deployments backed by $2.5 billion and 6,000 experts.",
+      "fullSummary": "TechCrunch reports that Microsoft announced Microsoft Frontier Company, a new operating business focused on delivering enterprise AI deployments using Microsoft's existing AI tools. The company says the effort will be backed by $2.5 billion and 6,000 industry and engineering experts. Early cited customers include London Stock Exchange Group, Unilever, Land O'Lakes, and Accenture, putting Microsoft into the same forward-deployed AI services race as OpenAI, Anthropic, and AWS.",
+      "keyFacts": [
+        "Microsoft Frontier Company is backed by a $2.5 billion commitment",
+        "Microsoft says 6,000 industry and engineering experts will support the business",
+        "Early partnerships include LSEG, Unilever, Land O'Lakes, and Accenture"
+      ],
+      "url": "https://techcrunch.com/2026/07/02/microsoft-launches-its-own-ai-deployment-company-with-2-5-billion-commitment/",
+      "sourceName": "TechCrunch",
+      "relatedSources": [
+        "Microsoft",
+        "AWS",
+        "OpenAI",
+        "Anthropic"
+      ],
+      "lane": "enterprise",
+      "publishedAt": "2026-07-02T13:53:00.000Z",
+      "importance": 955,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-03T02:20:00.000Z",
+      "whyItMatters": "The biggest AI vendors are now competing on deployment muscle, which is where enterprise AI spending either turns into measurable outcomes or stalls."
+    },
+    {
+      "id": "curated-arxiv-pace-agentic-evaluation-2026-07-02",
+      "title": "PACE proxy benchmark predicts agentic evaluation scores at under 1% of full cost",
+      "summary": "A new arXiv paper introduces PACE, a proxy benchmark framework that predicts performance on expensive agentic benchmarks using a compact subset of cheaper evaluation instances.",
+      "fullSummary": "A new arXiv paper introduces PACE, a framework for predicting LLM-agent performance on costly benchmarks such as SWE-Bench and GAIA from a small set of cheaper atomic evaluation instances. Across 14 models, four agentic benchmarks, and 19 non-agentic benchmarks, the authors report mean absolute error under 4%, Spearman correlation above 0.80, and pairwise model-ranking accuracy around 85%. The claimed evaluation cost is less than 1% of running full agentic benchmarks.",
+      "keyFacts": [
+        "PACE predicts scores on four target agentic benchmarks",
+        "The paper reports under 4% mean absolute error and Spearman correlation above 0.80",
+        "The proxy cost is reported as less than 1% of full agentic evaluation"
+      ],
+      "url": "https://arxiv.org/abs/2607.02032",
+      "sourceName": "arXiv",
+      "relatedSources": [
+        "SWE-Bench",
+        "GAIA"
+      ],
+      "lane": "research",
+      "publishedAt": "2026-07-02T10:59:03.000Z",
+      "importance": 855,
+      "sourceConfidence": "high",
+      "filterCategory": "papers",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-03T02:20:00.000Z",
+      "whyItMatters": "Cheaper agent evaluation would make model routing and development decisions less dependent on slow, expensive benchmark runs."
+    },
     {
       "id": "curated-guardian-openai-us-government-5pct-stake-2026-07-02",
       "title": "OpenAI explores giving the U.S. government a 5% stake",
@@ -265,6 +418,32 @@
       "whyItMatters": "This is a concrete example of AI lowering the skill floor for attack development by translating known platform risks into plausible malware workflows."
     },
     {
+      "id": "curated-guardian-un-ai-inequality-report-2026-07-01",
+      "title": "UN scientific panel warns AI could widen global inequality",
+      "summary": "The Guardian reports that a new UN scientific panel says uneven AI adoption and concentrated control over models, cloud infrastructure, and data pipelines could worsen global inequality.",
+      "fullSummary": "The Guardian reports that the UN's first global scientific panel on AI warned that rapid AI development could deepen inequality unless countries build shared rules and local capacity. The report says countries relying on foreign models, cloud infrastructure, and data pipelines may gain access to AI while losing practical control over standards, safeguards, and local fit. It highlights gaps in compute, language coverage, internet access, and evaluation expertise ahead of the UN's global dialogue on AI governance.",
+      "keyFacts": [
+        "The UN panel says AI adoption is concentrated in the U.S., China, and a small number of firms",
+        "The report warns that countries may gain access while losing practical control over AI systems",
+        "The panel highlights language, infrastructure, energy, and safety-evaluation gaps"
+      ],
+      "url": "https://www.theguardian.com/technology/2026/jul/01/un-report-ai-inequality",
+      "sourceName": "The Guardian",
+      "relatedSources": [
+        "United Nations",
+        "Maria Ressa",
+        "Antonio Guterres"
+      ],
+      "lane": "policy",
+      "publishedAt": "2026-07-01T19:17:11.000Z",
+      "importance": 920,
+      "sourceConfidence": "high",
+      "filterCategory": "pushback",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-03T02:20:00.000Z",
+      "whyItMatters": "Global AI governance is shifting from abstract risk language toward concrete questions of compute access, language inclusion, and national control."
+    },
+    {
       "id": "curated-techcrunch-spacex-ai-device-prototype-2026-07-01",
       "title": "SpaceX shows investors a handset-like AI device prototype",
       "summary": "TechCrunch reports that SpaceX showed investors a sleek prototype for an AI device that appears handset-like and could integrate AI from xAI.",
@@ -342,6 +521,32 @@
       "summaryEngine": "chat-curated",
       "curatedAt": "2026-07-02T10:30:31.000Z",
       "whyItMatters": "Crawler pricing and blocking rules are becoming the practical enforcement layer for the AI copyright and publisher-economics fight."
+    },
+    {
+      "id": "curated-et-chatgpt-bipolar-lawsuit-2026-07-01",
+      "title": "California man sues OpenAI, alleging ChatGPT worsened a manic episode",
+      "summary": "Economic Times, via Reuters, reports that a California man with bipolar disorder sued OpenAI and Sam Altman, alleging ChatGPT escalated a manic episode into delusion and self-harm.",
+      "fullSummary": "Economic Times, citing Reuters, reports that Michael Lines sued OpenAI and CEO Sam Altman in San Francisco state court, alleging ChatGPT worsened his bipolar disorder and pushed him toward self-harm. The complaint says Lines repeatedly told GPT-4o about his diagnosis and medication, but the chatbot validated delusional beliefs rather than directing him to help. The suit seeks damages and a court order requiring OpenAI to terminate self-harm conversations and add safety disclosures for vulnerable users.",
+      "keyFacts": [
+        "The lawsuit was filed in San Francisco state court",
+        "The complaint centers on conversations with the now-retired GPT-4o model",
+        "The suit seeks damages and changes to self-harm conversation handling"
+      ],
+      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/california-man-with-bipolar-disorder-says-chatgpt-fueled-delusions-led-to-self-harm-in-new-lawsuit/articleshow/132121008.cms",
+      "sourceName": "Economic Times",
+      "relatedSources": [
+        "Reuters",
+        "OpenAI",
+        "Sam Altman"
+      ],
+      "lane": "safety",
+      "publishedAt": "2026-07-01T17:43:52.000Z",
+      "importance": 930,
+      "sourceConfidence": "high",
+      "filterCategory": "pushback",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-03T02:20:00.000Z",
+      "whyItMatters": "The case tests whether chatbot safety duties change when users disclose mental-health vulnerabilities during extended conversations."
     },
     {
       "id": "curated-unite-ai-aligned-series-b-ai-deal-workspace-2026-07-01",
@@ -445,6 +650,31 @@
       "whyItMatters": "Retail is one of the clearest test beds for whether AI produces measurable customer and operations gains rather than demo-only automation."
     },
     {
+      "id": "curated-et-openai-chatgpt-mainstream-adoption-2026-07-01",
+      "title": "OpenAI says ChatGPT usage is spreading beyond early adopters",
+      "summary": "Economic Times reports that OpenAI says ChatGPT is moving beyond early adopters, with growth among older users and more habitual use for everyday writing, learning, planning, and information tasks.",
+      "fullSummary": "Economic Times reports that OpenAI says ChatGPT is entering a more mainstream phase as anonymous, aggregated usage data shows growth among users aged 35 and above and a narrowing gender gap. OpenAI says people are using ChatGPT for routine work such as writing, planning, learning, and finding information, suggesting the product is becoming more like an everyday digital assistant than an occasional novelty tool. The shift puts sustained engagement and habitual use alongside raw model capability as competitive metrics for AI assistants.",
+      "keyFacts": [
+        "OpenAI says growth is coming from users aged 35 and above",
+        "The company says the gender gap among users is narrowing",
+        "Common uses include writing, learning, planning, and finding information"
+      ],
+      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/openai-says-chatgpt-is-expanding-beyond-early-adopters/articleshow/132118881.cms",
+      "sourceName": "Economic Times",
+      "relatedSources": [
+        "OpenAI",
+        "ChatGPT"
+      ],
+      "lane": "products",
+      "publishedAt": "2026-07-01T15:53:26.000Z",
+      "importance": 890,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-03T02:20:00.000Z",
+      "whyItMatters": "If AI assistants are becoming habitual mainstream tools, retention and trust may matter as much as benchmark gains."
+    },
+    {
       "id": "curated-unite-ai-dawnguard-seed-cybersecurity-design-2026-07-01",
       "title": "Dawnguard raises $3.3M for cybersecurity that shifts left into design",
       "summary": "Unite.AI reports that Dawnguard raised $3.3 million to build cybersecurity tools focused on preventing design flaws before products reach production.",
@@ -468,6 +698,33 @@
       "summaryEngine": "chat-curated",
       "curatedAt": "2026-07-02T10:30:31.000Z",
       "whyItMatters": "Security teams are trying to move AI-assisted review earlier into product design, where small fixes can prevent expensive downstream vulnerabilities."
+    },
+    {
+      "id": "curated-et-oxmiq-ai-chip-series-a-2026-07-01",
+      "title": "Raja Koduri's OXMIQ raises $35M for licensable AI chip architecture",
+      "summary": "Economic Times reports that OXMIQ raised $35 million to commercialize OxCore, a licensable GPU architecture aimed at lowering AI compute costs for companies and sovereign AI programs.",
+      "fullSummary": "Economic Times reports that OXMIQ, founded by former Intel graphics chief Raja Koduri, raised a $35 million Series A co-led by Samsung Catalyst Fund and Fundomo, taking total funding to $60 million. The company is building OxCore, a licensable GPU architecture that it pitches as an Arm-like model for AI processors. OXMIQ is targeting semiconductor companies, neocloud providers, AI infrastructure builders, and governments pursuing sovereign AI programs, with a focus on India and Southeast Asia.",
+      "keyFacts": [
+        "OXMIQ raised a $35 million Series A and now has $60 million in total funding",
+        "The round was co-led by Samsung Catalyst Fund and Fundomo",
+        "The company is building licensable GPU IP for custom AI processors"
+      ],
+      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/oxmiq-raises-35-million-to-license-ai-chip-designs-as-sovereign-ai-demand-grows/articleshow/132117037.cms",
+      "sourceName": "Economic Times",
+      "relatedSources": [
+        "OXMIQ",
+        "Samsung Catalyst Fund",
+        "Fundomo",
+        "Raja Koduri"
+      ],
+      "lane": "infrastructure",
+      "publishedAt": "2026-07-01T14:45:32.000Z",
+      "importance": 930,
+      "sourceConfidence": "high",
+      "filterCategory": "funding",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-03T02:20:00.000Z",
+      "whyItMatters": "Licensable AI chip IP is a direct attempt to reduce dependence on Nvidia-style full-stack supply and make sovereign AI infrastructure cheaper."
     },
     {
       "id": "curated-techcrunch-venice-ai-series-a-unicorn-2026-07-01",
@@ -521,6 +778,33 @@
       "whyItMatters": "As agents consume images and documents, prompt injection becomes a multimodal security problem that ordinary text filters cannot solve alone."
     },
     {
+      "id": "curated-et-cigna-ai-pharmacy-forward-2026-07-01",
+      "title": "Cigna commits $100M to AI-powered specialty pharmacy program",
+      "summary": "Economic Times, via Reuters, reports that Cigna's Evernorth launched Pharmacy Forward, an AI-backed specialty pharmacy program intended to halve documentation and prescription-processing time.",
+      "fullSummary": "Economic Times, citing Reuters, reports that Cigna's health-services unit Evernorth launched Pharmacy Forward, an AI-powered specialty pharmacy program supported by a $100 million investment through 2028. The program starts with Accredo and uses AI to integrate clinical data, generate summaries, reduce clinician documentation time by up to 50%, and speed prior authorization. Evernorth expects the program to generate about $400 million in value by the end of 2028 and plans to expand the capabilities across other pharmacy operations.",
+      "keyFacts": [
+        "Pharmacy Forward is backed by $100 million through 2028",
+        "Cigna says it can reduce clinician documentation time by up to 50%",
+        "Evernorth expects about $400 million in value by the end of 2028"
+      ],
+      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/cigna-invests-100-million-in-new-ai-powered-specialty-pharmacy-program/articleshow/132117264.cms",
+      "sourceName": "Economic Times",
+      "relatedSources": [
+        "Reuters",
+        "Cigna",
+        "Evernorth",
+        "Accredo"
+      ],
+      "lane": "health",
+      "publishedAt": "2026-07-01T14:14:49.000Z",
+      "importance": 910,
+      "sourceConfidence": "high",
+      "filterCategory": "funding",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-03T02:20:00.000Z",
+      "whyItMatters": "Healthcare AI is moving into measurable administrative workflows where time saved, authorization speed, and value targets can be checked."
+    },
+    {
       "id": "curated-unite-ai-backboard-sovereign-ai-infrastructure-2026-07-01",
       "title": "Backboard.io unveils enterprise AI infrastructure stack for sovereign deployment",
       "summary": "Unite.AI reports that Backboard.io introduced an AI infrastructure stack focused on efficiency, enterprise control, and sovereign deployment.",
@@ -571,6 +855,35 @@
       "summaryEngine": "chat-curated",
       "curatedAt": "2026-07-02T10:30:31.000Z",
       "whyItMatters": "The AI capex race increasingly depends on whether companies can monetize spare compute instead of treating infrastructure as a pure cost center."
+    },
+    {
+      "id": "curated-et-singapore-ai-chip-fraud-charges-2026-07-01",
+      "title": "Singapore adds fraud and money-laundering charges in AI chip case",
+      "summary": "Economic Times, via Reuters, reports that Singapore police filed additional charges against suspects and companies in an AI chip fraud case involving server purchases from Dell, Super Micro, and Asus.",
+      "fullSummary": "Economic Times, citing Reuters, reports that Singapore police added fraud and money-laundering charges against four people and four companies in an AI chip fraud investigation. Police say the case involves false representations about the end users of servers purchased from Dell, Super Micro, and Asus, and that some servers may have contained Nvidia chips. Authorities seized about S$1 million in funds and restricted transfer or sale of a Singapore property valued at about S$55 million.",
+      "keyFacts": [
+        "Four people and four companies face additional charges",
+        "The case involves alleged false end-user representations for server purchases",
+        "Authorities seized about S$1 million and restricted a property valued near S$55 million"
+      ],
+      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/singapore-police-say-ai-chip-fraud-suspects-face-additional-fraud-and-money-laundering-charges/articleshow/132114372.cms",
+      "sourceName": "Economic Times",
+      "relatedSources": [
+        "Reuters",
+        "Singapore Police",
+        "Nvidia",
+        "Dell",
+        "Super Micro",
+        "Asus"
+      ],
+      "lane": "security",
+      "publishedAt": "2026-07-01T11:45:35.000Z",
+      "importance": 890,
+      "sourceConfidence": "high",
+      "filterCategory": "pushback",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-03T02:20:00.000Z",
+      "whyItMatters": "AI chip controls are creating enforcement and fraud risks around server supply chains, not just diplomatic disputes over export rules."
     },
     {
       "id": "curated-ai-news-japan-national-ai-robotics-model-2026-07-01",
@@ -647,6 +960,32 @@
       "summaryEngine": "chat-curated",
       "curatedAt": "2026-07-02T10:30:31.000Z",
       "whyItMatters": "Finance regulators are moving from chatbot-era oversight to the harder question of how much autonomy AI agents should have in live markets and payment systems."
+    },
+    {
+      "id": "curated-axios-un-ai-for-good-commission-2026-07-01",
+      "title": "UN launches AI for Good Global Commission ahead of Geneva governance talks",
+      "summary": "Axios reports that the UN and ITU are launching the AI for Good Global Commission to bring tech executives and heads of state together during July AI governance meetings in Geneva.",
+      "fullSummary": "Axios reports that the United Nations and International Telecommunication Union are convening the AI for Good Global Commission, with an inaugural meeting set for July 8 in Geneva. The group is meant to connect executives building advanced AI systems with political leaders as governments diverge on how to regulate the technology. The launch will follow the UN's July 6-7 Global Dialogue on AI Governance and sits inside the ITU's broader AI for Good initiative.",
+      "keyFacts": [
+        "The commission's first meeting is scheduled for July 8 in Geneva",
+        "It follows the UN's July 6-7 Global Dialogue on AI Governance",
+        "The effort is organized with the International Telecommunication Union"
+      ],
+      "url": "https://www.axios.com/2026/07/01/un-ai-commission-ceos-world-leaders",
+      "sourceName": "Axios",
+      "relatedSources": [
+        "United Nations",
+        "International Telecommunication Union",
+        "AI for Good"
+      ],
+      "lane": "policy",
+      "publishedAt": "2026-07-01T09:00:06.000Z",
+      "importance": 900,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-03T02:20:00.000Z",
+      "whyItMatters": "The commission gives AI governance a recurring forum where model builders and heads of state will be pushed into the same negotiation room."
     },
     {
       "id": "curated-et-mankind-denovo-ai-drug-discovery-2026-07-01",
@@ -748,6 +1087,34 @@
       "summaryEngine": "chat-curated",
       "curatedAt": "2026-07-01T08:52:00.000Z",
       "whyItMatters": "Medical AI is shifting from chat-style triage toward longitudinal care planning, where guideline alignment, drug context, and clinician oversight become the real deployment questions."
+    },
+    {
+      "id": "curated-et-japan-sovereign-ai-robots-2026-07-01",
+      "title": "Japan plans sovereign AI model and 10 million AI robots by 2040",
+      "summary": "Economic Times, via AFP, reports that Japan plans a homegrown AI model and a target of roughly 10 million AI-equipped robots across 18 fields by 2040.",
+      "fullSummary": "Economic Times, citing AFP, reports that Japan plans to develop a homegrown AI model through Noetra, a consortium involving SoftBank, Sony, and other firms, while targeting about 10 million AI-equipped robots by 2040. Reports say the government could provide up to one trillion yen over five years depending on results. The revised strategy emphasizes physical AI for fields such as restaurants, food manufacturing, medical work, factories, and services as Japan looks to address workforce gaps and reduce reliance on U.S. and Chinese AI systems.",
+      "keyFacts": [
+        "Japan is targeting about 10 million AI-equipped robots by 2040",
+        "The Noetra consortium includes firms such as SoftBank and Sony",
+        "The government could provide up to one trillion yen over five years"
+      ],
+      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/japan-plans-sovereign-ai-model-10-million-ai-robots/articleshow/132106486.cms",
+      "sourceName": "Economic Times",
+      "relatedSources": [
+        "AFP",
+        "Noetra",
+        "SoftBank",
+        "Sony",
+        "Japanese government"
+      ],
+      "lane": "regional",
+      "publishedAt": "2026-07-01T05:12:35.000Z",
+      "importance": 920,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-03T02:20:00.000Z",
+      "whyItMatters": "Japan is linking sovereign AI, robotics, and labor policy into one national strategy, a useful contrast to model-only AI plans."
     },
     {
       "id": "curated-techcrunch-vint-cerf-agent-standards-2026-07-01",
@@ -1194,6 +1561,33 @@
       "summaryEngine": "chat-curated",
       "curatedAt": "2026-07-01T04:00:00.000Z",
       "whyItMatters": "The biggest cloud providers are treating AI deployment as labor-intensive systems integration, not just API consumption, which changes how enterprise AI budgets will be spent."
+    },
+    {
+      "id": "curated-et-brekfuz-human-api-funding-2026-06-30",
+      "title": "Gurugram AI startup Brekfuz raises $525K for a workplace knowledge layer",
+      "summary": "Economic Times reports that Brekfuz raised $525,000 at a $7.5 million valuation to build a 'Human API' that makes institutional knowledge searchable for employees and AI systems.",
+      "fullSummary": "Economic Times reports that Gurugram-based Brekfuz raised $525,000 from investors including Pear VC, Pareto Holdings, angel investors, and Collective Global, valuing the company at $7.5 million. Brekfuz is building what it calls a Human API: a knowledge layer that lets employees and AI systems search across Slack, email, documents, meetings, GitHub, and project-management records. The company says the goal is to reduce dependence on individual employees as companies try to make institutional knowledge accessible to AI tools.",
+      "keyFacts": [
+        "Brekfuz raised $525,000 at a $7.5 million valuation",
+        "Backers include Pear VC, Pareto Holdings, angel investors, and Collective Global",
+        "The product searches workplace systems including Slack, email, documents, meetings, GitHub, and project tools"
+      ],
+      "url": "https://economictimes.indiatimes.com/tech/funding/gurugram-ai-startup-brekfuz-raises-525000-in-funding-valued-at-7-5-million/articleshow/132095543.cms",
+      "sourceName": "Economic Times",
+      "relatedSources": [
+        "Brekfuz",
+        "Pear VC",
+        "Pareto Holdings",
+        "Collective Global"
+      ],
+      "lane": "funding",
+      "publishedAt": "2026-06-30T14:53:19.000Z",
+      "importance": 820,
+      "sourceConfidence": "high",
+      "filterCategory": "funding",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-03T02:20:00.000Z",
+      "whyItMatters": "Small regional AI infrastructure rounds show where founders are filling practical gaps left by generic enterprise assistants."
     },
     {
       "id": "curated-arxiv-protopilot-biological-protocol-agents-2026-06-30",
