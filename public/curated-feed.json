@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-03T02:20:00.000Z",
-  "nextRefreshAt": "2026-07-03T14:20:00.000Z",
+  "generatedAt": "2026-07-03T02:35:00.000Z",
+  "nextRefreshAt": "2026-07-03T14:35:00.000Z",
   "summaryEngine": "chat-curated",
   "curated": true,
   "items": [
@@ -54,6 +54,57 @@
       "summaryEngine": "chat-curated",
       "curatedAt": "2026-07-03T02:20:00.000Z",
       "whyItMatters": "It is a rare public signal that even the largest AI spenders are still struggling to convert agent promises into clean workforce and productivity gains."
+    },
+    {
+      "id": "curated-ft-qts-virginia-data-centre-cancelled-2026-07-02",
+      "title": "Blackstone's QTS cancels Virginia data center project after protests",
+      "summary": "Financial Times reports that Blackstone-owned QTS ended its Prince William Digital Gateway data center project in Virginia after protests and lawsuits over the planned site.",
+      "fullSummary": "Financial Times reports that QTS, the Blackstone-owned data center operator, has cancelled the Prince William Digital Gateway project in Virginia after sustained community opposition and lawsuits. The proposed campus had drawn criticism because of its location near a Civil War battlefield and because AI-driven data center expansion is already straining local politics, power planning, and public tolerance. The decision adds a concrete setback to the AI infrastructure boom, where hyperscalers and developers are racing to secure capacity while local communities push back on land, power, water, and tax impacts.",
+      "keyFacts": [
+        "QTS ended the Prince William Digital Gateway project in Virginia",
+        "Local opposition centered on the planned site's location and broader data center impacts",
+        "The cancellation comes as AI demand drives rapid U.S. data center expansion"
+      ],
+      "url": "https://www.ft.com/content/671fbc14-9cc5-4177-932b-b96ae32cb7d3",
+      "sourceName": "Financial Times",
+      "relatedSources": [
+        "QTS",
+        "Blackstone",
+        "Prince William County"
+      ],
+      "lane": "infrastructure",
+      "publishedAt": "2026-07-02T21:47:57.000Z",
+      "importance": 935,
+      "sourceConfidence": "medium",
+      "filterCategory": "pushback",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-03T02:35:00.000Z",
+      "whyItMatters": "AI infrastructure is now running into local consent limits, not just chip, power, or capital limits."
+    },
+    {
+      "id": "curated-techcrunch-jersey-mikes-ai-ipo-risk-hype-2026-07-02",
+      "title": "Jersey Mike's IPO filing shows how far AI risk language has spread",
+      "summary": "TechCrunch reports that Jersey Mike's mentioned artificial intelligence 22 times in its IPO documents, using AI risk language even though the company sells sandwiches rather than AI software.",
+      "fullSummary": "TechCrunch examined Jersey Mike's IPO filing and found that the sandwich chain mentioned artificial intelligence and AI 22 times. The company said it is beginning to use AI technologies and included AI in investor-risk language, even though the core business is franchise restaurants rather than AI products. The filing is a useful marker for how far public-market AI signaling has spread into non-technology companies as investors reward anything that can plausibly be tied to automation, data, or productivity.",
+      "keyFacts": [
+        "Jersey Mike's IPO filing mentioned AI or artificial intelligence 22 times",
+        "The company said it is beginning to use AI technologies in its business",
+        "TechCrunch framed the filing as evidence of broad AI hype in capital markets"
+      ],
+      "url": "https://techcrunch.com/2026/07/02/jersey-mikes-ipo-illustrates-how-bad-the-ai-hype-has-become/",
+      "sourceName": "TechCrunch",
+      "relatedSources": [
+        "Jersey Mike's",
+        "IPO market"
+      ],
+      "lane": "markets",
+      "publishedAt": "2026-07-02T20:11:00.000Z",
+      "importance": 910,
+      "sourceConfidence": "high",
+      "filterCategory": "pushback",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-03T02:35:00.000Z",
+      "whyItMatters": "When a sandwich-chain IPO leans on AI risk language, AI has become a market narrative that extends well beyond actual AI companies."
     },
     {
       "id": "curated-techcrunch-anthropic-samsung-custom-chip-2026-07-02",
@@ -131,6 +182,32 @@
       "summaryEngine": "chat-curated",
       "curatedAt": "2026-07-03T02:20:00.000Z",
       "whyItMatters": "The biggest AI vendors are now competing on deployment muscle, which is where enterprise AI spending either turns into measurable outcomes or stalls."
+    },
+    {
+      "id": "curated-ai-news-nvidia-bionemo-claude-science-2026-07-02",
+      "title": "NVIDIA BioNeMo tools plug into Anthropic's Claude Science workbench",
+      "summary": "AI News reports that Anthropic's Claude Science public beta integrates NVIDIA's BioNeMo Agent Toolkit so researchers can trigger accelerated life-sciences workflows through natural-language agents.",
+      "fullSummary": "AI News reports that Anthropic's Claude Science workbench now integrates the NVIDIA BioNeMo Agent Toolkit for computational life-sciences research. The setup lets scientists ask Claude to orchestrate genomic, protein-structure, molecular-design, and single-cell workflows using NVIDIA NIM microservices and accelerated BioNeMo tools. The article says BioNeMo is already used by 18 of the top 20 global pharmaceutical companies and highlights speedups such as genomic analysis moving from hours to minutes and single-cell preprocessing dropping from 52 minutes to 25 seconds.",
+      "keyFacts": [
+        "Claude Science is in public beta for scientific research workflows",
+        "The integration exposes NVIDIA BioNeMo Agent Toolkit capabilities to Claude Science",
+        "AI News says BioNeMo is used by 18 of the top 20 global pharmaceutical companies"
+      ],
+      "url": "https://www.artificialintelligence-news.com/news/nvidia-bionemo-accelerates-anthropic-claude-science/",
+      "sourceName": "AI News",
+      "relatedSources": [
+        "Anthropic",
+        "NVIDIA",
+        "BioNeMo"
+      ],
+      "lane": "health",
+      "publishedAt": "2026-07-02T12:00:00.000Z",
+      "importance": 905,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-03T02:35:00.000Z",
+      "whyItMatters": "Scientific agents only become useful when they can call real domain tools, and this ties Claude's workflow layer to production-grade biomedical compute."
     },
     {
       "id": "curated-arxiv-pace-agentic-evaluation-2026-07-02",
@@ -960,6 +1037,32 @@
       "summaryEngine": "chat-curated",
       "curatedAt": "2026-07-02T10:30:31.000Z",
       "whyItMatters": "Finance regulators are moving from chatbot-era oversight to the harder question of how much autonomy AI agents should have in live markets and payment systems."
+    },
+    {
+      "id": "curated-et-softbank-second-openai-tranche-2026-07-01",
+      "title": "SoftBank completes second $10B tranche of its $30B OpenAI commitment",
+      "summary": "Economic Times reports that SoftBank deployed another $10 billion into OpenAI through Vision Fund 2, completing the second tranche of its $30 billion commitment.",
+      "fullSummary": "Economic Times reports that SoftBank Group completed the second tranche of its OpenAI investment, deploying another $10 billion through Vision Fund 2. The investment is part of an additional $30 billion commitment announced in February, with SoftBank planning a final $10 billion tranche on October 1. The article says the latest tranche was funded through a bridge facility and comes as OpenAI weighs delaying a public listing while SoftBank's exposure to the ChatGPT maker remains one of its largest bets.",
+      "keyFacts": [
+        "SoftBank deployed another $10 billion into OpenAI through Vision Fund 2",
+        "The tranche is part of a $30 billion commitment announced in February",
+        "SoftBank plans to invest the final $10 billion tranche on October 1"
+      ],
+      "url": "https://economictimes.indiatimes.com/tech/funding/softbank-completes-second-10-billion-tranche-of-its-30-billion-openai-investment/articleshow/132111287.cms",
+      "sourceName": "Economic Times",
+      "relatedSources": [
+        "SoftBank",
+        "OpenAI",
+        "Vision Fund 2"
+      ],
+      "lane": "funding",
+      "publishedAt": "2026-07-01T09:39:00.000Z",
+      "importance": 925,
+      "sourceConfidence": "high",
+      "filterCategory": "funding",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-03T02:35:00.000Z",
+      "whyItMatters": "The tranche turns headline AI financing into actual deployed capital and keeps SoftBank deeply exposed to OpenAI's valuation path."
     },
     {
       "id": "curated-axios-un-ai-for-good-commission-2026-07-01",
