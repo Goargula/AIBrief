@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-05T13:43:14.110Z",
-  "nextRefreshAt": "2026-07-06T01:43:14.110Z",
+  "generatedAt": "2026-07-05T14:02:01.967Z",
+  "nextRefreshAt": "2026-07-06T02:02:01.967Z",
   "summaryEngine": "chat-curated",
   "curated": true,
   "items": [
@@ -31,6 +31,32 @@
       "whyItMatters": "AI infrastructure costs are becoming a utility-bill and permitting fight, not just a Big Tech capex story."
     },
     {
+      "id": "curated-et-small-business-ai-expansion-2026-07-05",
+      "title": "Economic Times says AI helped a small business launch and expand quickly",
+      "summary": "The Economic Times reports on a small-business case where AI tools helped a young company start faster, expand operations, and illustrate productivity questions watched by the Federal Reserve.",
+      "fullSummary": "The Economic Times reports that AI tools helped one small business get started and expand quickly, using the case to show why the technology is becoming central to U.S. economic debates. The story frames small-business AI adoption as a productivity, growth, inflation, and labor-demand question for policymakers rather than only a software trend. It adds a concrete operating example to the broader macro discussion about whether AI is changing the cost and speed of company formation.",
+      "keyFacts": [
+        "The story centers on a small business using AI to launch and expand faster",
+        "The Economic Times links the example to Federal Reserve productivity and labor-market questions",
+        "The article treats small-business AI adoption as an economic signal, not just a tooling story"
+      ],
+      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/for-one-small-business-ai-was-key-to-a-quick-start-and-expansion/articleshow/132193918.cms",
+      "sourceName": "The Economic Times",
+      "relatedSources": [
+        "Federal Reserve",
+        "small business",
+        "AI adoption"
+      ],
+      "lane": "small-business",
+      "publishedAt": "2026-07-05T10:19:38.000Z",
+      "importance": 830,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-05T14:02:01.967Z",
+      "whyItMatters": "Small-business adoption is where AI's productivity claims either turn into real economic leverage or stay as enterprise hype."
+    },
+    {
       "id": "curated-marktechpost-llamaindex-legal-kb-agentic-retrieval-2026-07-05",
       "title": "LlamaIndex ships legal-kb as an agentic retrieval reference app",
       "summary": "MarkTechPost reports that LlamaIndex published legal-kb, a public reference app showing agentic retrieval over Index v2 with retrieve, find, read, and grep tools.",
@@ -55,6 +81,32 @@
       "summaryEngine": "chat-curated",
       "curatedAt": "2026-07-05T13:43:14.110Z",
       "whyItMatters": "It is a concrete enterprise pattern for document agents that need to inspect, cite, and verify long files instead of returning a single RAG snippet."
+    },
+    {
+      "id": "curated-et-world-bank-emerging-markets-ai-ecosystems-2026-07-05",
+      "title": "World Bank says emerging-market AI investment needs local ecosystems",
+      "summary": "The Economic Times reports that a World Bank report warns emerging markets need digital infrastructure, talent, and local ecosystems to benefit from AI investment.",
+      "fullSummary": "The Economic Times reports that a World Bank report says emerging markets will not capture AI gains by importing models alone. The report argues that countries need local digital infrastructure, skilled workers, data systems, and ecosystem support so AI investment turns into domestic productivity rather than dependence on outside platforms. It frames AI as a development issue where policy and infrastructure matter as much as model access.",
+      "keyFacts": [
+        "The World Bank report focuses on emerging-market AI readiness",
+        "It says investment must go beyond imported models",
+        "Required foundations include infrastructure, talent, data, and local ecosystems"
+      ],
+      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/ai-investment-in-emerging-markets-must-go-beyond-models-to-ecosystems-report/articleshow/132192842.cms",
+      "sourceName": "The Economic Times",
+      "relatedSources": [
+        "World Bank",
+        "emerging markets",
+        "AI investment"
+      ],
+      "lane": "policy",
+      "publishedAt": "2026-07-05T08:19:45.000Z",
+      "importance": 850,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-05T14:02:01.967Z",
+      "whyItMatters": "The AI divide is increasingly about who can build local infrastructure and talent, not just who can call a frontier API."
     },
     {
       "id": "curated-et-orbital-space-data-centres-ai-2026-07-05",
@@ -159,6 +211,58 @@
       "summaryEngine": "chat-curated",
       "curatedAt": "2026-07-05T13:14:57.298Z",
       "whyItMatters": "Ambient clinical AI is moving faster than consent and medical-device rules, making healthcare a live test of AI governance."
+    },
+    {
+      "id": "curated-et-india-un-global-dialogue-ai-governance-2026-07-05",
+      "title": "India sends delegation to first UN Global Dialogue on AI Governance",
+      "summary": "The Economic Times reports that minister Kirti Vardhan Singh will lead India's delegation to Geneva for the first UN Global Dialogue on AI Governance.",
+      "fullSummary": "The Economic Times reports that India's Minister of State for External Affairs, Kirti Vardhan Singh, will lead the country's delegation to the first UN Global Dialogue on AI Governance in Geneva. The forum is set to review an independent scientific assessment of AI's capabilities and risks. The story adds India-specific diplomatic context to the global AI governance track.",
+      "keyFacts": [
+        "Kirti Vardhan Singh is leading India's delegation",
+        "The event is the first UN Global Dialogue on AI Governance",
+        "The forum will review an independent scientific assessment of AI"
+      ],
+      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/mos-kirti-vardhan-singh-to-lead-india-delegation-at-first-un-global-dialogue-on-ai-governance/articleshow/132192224.cms",
+      "sourceName": "The Economic Times",
+      "relatedSources": [
+        "United Nations",
+        "India",
+        "AI governance"
+      ],
+      "lane": "policy",
+      "publishedAt": "2026-07-04T19:10:40.000Z",
+      "importance": 820,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-05T14:02:01.967Z",
+      "whyItMatters": "India's role in UN AI governance matters because global rules are being shaped while national AI strategies are still forming."
+    },
+    {
+      "id": "curated-et-jefferies-ai-capex-market-pushback-2026-07-05",
+      "title": "Jefferies says AI capex cycle may end with market pushback",
+      "summary": "The Economic Times reports that Jefferies expects investor pressure for returns, rather than immediate spending cuts, to be the likely constraint on the AI capex boom.",
+      "fullSummary": "The Economic Times reports that Jefferies believes the AI capital-spending cycle is more likely to face market pushback than a sudden pullback from large technology companies. The brokerage points to investor impatience for returns and a wealth transfer toward North Asian hardware supply chains. The story adds a market-discipline angle to the AI infrastructure boom.",
+      "keyFacts": [
+        "Jefferies says market pressure may constrain AI capex before tech companies cut spending",
+        "The report points to investor impatience for visible returns",
+        "It highlights gains for Korean and Taiwanese AI supply-chain companies"
+      ],
+      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/ai-capex-cycle-likely-to-end-with-market-pushback-not-spending-cuts-jefferies/articleshow/132191852.cms",
+      "sourceName": "The Economic Times",
+      "relatedSources": [
+        "Jefferies",
+        "AI capex",
+        "North Asia"
+      ],
+      "lane": "infrastructure",
+      "publishedAt": "2026-07-04T18:43:31.000Z",
+      "importance": 860,
+      "sourceConfidence": "high",
+      "filterCategory": "pushback",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-05T14:02:01.967Z",
+      "whyItMatters": "The AI buildout can keep growing technically while still hitting a financial limit if investors stop accepting distant payoff stories."
     },
     {
       "id": "curated-techcrunch-midjourney-hollywood-ai-discovery-2026-07-04",
@@ -344,6 +448,32 @@
       "whyItMatters": "It captures a live strategy shift in frontier AI: from bigger reasoning modes toward infrastructure for autonomous agents."
     },
     {
+      "id": "curated-etcio-sap-tightens-spending-ai-investments-2026-07-04",
+      "title": "SAP tightens hiring and travel as AI investment rises",
+      "summary": "ET CIO reports that SAP is tightening hiring, travel, and third-party spending while protecting customer-facing work and key AI investments.",
+      "fullSummary": "ET CIO reports that SAP is tightening hiring, internal travel, and third-party spending as it funds larger AI investments, acquisitions, and infrastructure. The company is still protecting customer-facing roles and priority AI work. The story shows how enterprise AI spending is forcing tradeoffs inside large software companies rather than simply adding budget on top.",
+      "keyFacts": [
+        "SAP is tightening hiring, travel, and third-party spending",
+        "The company is preserving customer-facing work and key AI projects",
+        "The cost controls are tied to higher AI investment needs"
+      ],
+      "url": "https://cio.economictimes.indiatimes.com/news/investments/sap-tightens-hiring-travel-as-ai-investments-rise/132174212",
+      "sourceName": "ET CIO",
+      "relatedSources": [
+        "SAP",
+        "AI investment",
+        "enterprise software"
+      ],
+      "lane": "enterprise",
+      "publishedAt": "2026-07-04T03:41:17.000Z",
+      "importance": 830,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-05T14:02:01.967Z",
+      "whyItMatters": "AI spending is now large enough to force real budget tradeoffs inside major software companies."
+    },
+    {
       "id": "curated-guardian-ai-nudification-apps-children-2026-07-03",
       "title": "UK watchdogs warn parents about AI nudification apps",
       "summary": "The Guardian reports that the NCA and Internet Watch Foundation are warning parents that AI nudification tools are turning ordinary images of children into abuse material.",
@@ -368,6 +498,110 @@
       "summaryEngine": "chat-curated",
       "curatedAt": "2026-07-05T13:14:57.298Z",
       "whyItMatters": "This is a concrete abuse case where open image-generation capability is outpacing enforcement and parental awareness."
+    },
+    {
+      "id": "curated-guardian-uk-parents-child-images-ai-abuse-2026-07-03",
+      "title": "UK parents warned over child images amid AI sexual-abuse fears",
+      "summary": "The Guardian reports that UK parents are being warned about posting images of children online because of AI-enabled sexual-abuse risks.",
+      "fullSummary": "The Guardian reports that UK parents are being warned about posting images of children online amid fears that AI tools can be used for sexual abuse. The warning sits alongside broader concern about nudification apps and image misuse. It is a distinct safety and child-protection story from the same current Guardian AI coverage cluster.",
+      "keyFacts": [
+        "UK parents are being warned about posting children's images online",
+        "The concern is tied to AI-enabled sexual-abuse risks",
+        "The story is part of a wider watchdog focus on image misuse"
+      ],
+      "url": "https://www.theguardian.com/society/2026/jul/03/ai-sexual-abuse-fears-uk-parents-warned-posting-images-children-national-crime-agency",
+      "sourceName": "The Guardian",
+      "relatedSources": [
+        "UK parents",
+        "child safety",
+        "AI image abuse"
+      ],
+      "lane": "safety",
+      "publishedAt": "2026-07-03T17:22:59.000Z",
+      "importance": 840,
+      "sourceConfidence": "high",
+      "filterCategory": "pushback",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-05T14:02:01.967Z",
+      "whyItMatters": "AI image abuse is turning ordinary family posting into a child-safety and platform-governance issue."
+    },
+    {
+      "id": "curated-wired-deepmind-unionization-talks-2026-07-03",
+      "title": "WIRED says Google DeepMind unionization talks are off to a rocky start",
+      "summary": "WIRED reports that Google DeepMind employees voiced frustration in early unionization talks over executives' engagement with the effort.",
+      "fullSummary": "WIRED reports that Google DeepMind unionization talks are off to a rocky start. During negotiations, employees reportedly voiced frustration with what they saw as executives' unwillingness to engage meaningfully with unionization. The story adds labor and governance context from inside a major AI lab.",
+      "keyFacts": [
+        "The report covers early Google DeepMind unionization negotiations",
+        "Employees voiced frustration with executive engagement",
+        "The story places AI-lab labor organization inside the current governance debate"
+      ],
+      "url": "https://www.wired.com/story/google-deepmind-unionization-talks-are-off-to-a-rocky-start/",
+      "sourceName": "WIRED",
+      "relatedSources": [
+        "Google DeepMind",
+        "unionization",
+        "AI labor"
+      ],
+      "lane": "workforce",
+      "publishedAt": "2026-07-03T16:24:24.000Z",
+      "importance": 845,
+      "sourceConfidence": "high",
+      "filterCategory": "pushback",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-05T14:02:01.967Z",
+      "whyItMatters": "Labor relations inside frontier AI labs are becoming part of the governance story around who controls the technology."
+    },
+    {
+      "id": "curated-ft-trump-opposes-heavy-ai-regulation-2026-07-03",
+      "title": "FT says Trump will oppose heavy U.S. AI regulation",
+      "summary": "Financial Times reports that outgoing tech adviser Sriram Krishnan says President Trump opposes a centralized AI regulator as backlash grows.",
+      "fullSummary": "Financial Times reports that outgoing tech adviser Sriram Krishnan says President Trump will oppose heavy U.S. AI regulation and does not want a centralized AI regulator. The story lands as AI backlash grows and federal policy choices become more consequential for model labs and enterprise buyers. It adds a direct White House-policy signal to the feed.",
+      "keyFacts": [
+        "Sriram Krishnan told the FT that Trump opposes a centralized AI regulator",
+        "The remarks come as AI backlash grows",
+        "The story clarifies the administration's posture toward heavy AI rules"
+      ],
+      "url": "https://www.ft.com/content/5128e476-db8b-48ac-a8fb-0f16d0f5c2ed",
+      "sourceName": "Financial Times",
+      "relatedSources": [
+        "Sriram Krishnan",
+        "White House",
+        "AI regulation"
+      ],
+      "lane": "policy",
+      "publishedAt": "2026-07-03T14:32:49.000Z",
+      "importance": 875,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-05T14:02:01.967Z",
+      "whyItMatters": "A lighter federal-regulation stance would shape how quickly labs can release models and how much states or courts fill the gap."
+    },
+    {
+      "id": "curated-deepmind-a24-research-partnership-2026-07-03",
+      "title": "Google DeepMind and A24 announce AI research partnership",
+      "summary": "Google DeepMind announced a research partnership with A24, extending the lab's AI work into creative-production and media experimentation.",
+      "fullSummary": "Google DeepMind announced a first-of-its-kind research partnership with A24. The post positions the work as an AI research collaboration with a major creative studio. The story adds a primary-source creative-industry item to the feed's AI deployment coverage.",
+      "keyFacts": [
+        "Google DeepMind announced the partnership with A24",
+        "The collaboration is described as a research partnership",
+        "The work extends AI research into creative and media workflows"
+      ],
+      "url": "https://deepmind.google/blog/google-deepmind-and-a24-announce-first-of-its-kind-research-partnership/",
+      "sourceName": "Google DeepMind",
+      "relatedSources": [
+        "A24",
+        "Google DeepMind",
+        "creative AI"
+      ],
+      "lane": "media",
+      "publishedAt": "2026-07-03T14:25:43.000Z",
+      "importance": 805,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-05T14:02:01.967Z",
+      "whyItMatters": "Creative-industry partnerships show AI labs testing deployment paths beyond developer tools and enterprise copilots."
     },
     {
       "id": "curated-et-biren-tech-hong-kong-placement-2026-07-03",
@@ -501,6 +735,58 @@
       "whyItMatters": "Enterprise AI adoption is increasingly limited by unit economics and governance, not just model capability."
     },
     {
+      "id": "curated-etcio-ai-adoption-us-tech-finance-job-losses-2026-07-03",
+      "title": "ET CIO says AI adoption is driving monthly job losses in U.S. tech and finance",
+      "summary": "ET CIO reports that AI adoption in U.S. technology and finance is contributing to average monthly job losses of 28,000, raising workforce-planning concerns.",
+      "fullSummary": "ET CIO reports that AI adoption in U.S. technology and finance is contributing to average monthly job losses of 28,000. The story frames the shift as a workforce-planning problem for companies that are adopting AI while still needing skills, governance, and transition plans. It adds labor-market evidence to the feed's AI deployment coverage.",
+      "keyFacts": [
+        "The report cites 28,000 average monthly job losses in U.S. tech and finance",
+        "AI adoption is presented as one driver of the cuts",
+        "The story focuses on workforce planning and employment risk"
+      ],
+      "url": "https://cio.economictimes.indiatimes.com/news/artificial-intelligence/ai-adoption-drives-28000-monthly-job-losses-in-us-tech-and-finance/132155321",
+      "sourceName": "ET CIO",
+      "relatedSources": [
+        "U.S. technology sector",
+        "finance sector",
+        "AI adoption"
+      ],
+      "lane": "workforce",
+      "publishedAt": "2026-07-03T10:30:00.000Z",
+      "importance": 850,
+      "sourceConfidence": "high",
+      "filterCategory": "pushback",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-05T14:02:01.967Z",
+      "whyItMatters": "Workforce impact is moving from abstract debate to measurable layoff pressure in AI-heavy sectors."
+    },
+    {
+      "id": "curated-etcio-cars24-ai-era-org-overhaul-2026-07-03",
+      "title": "Cars24 scraps job titles in an AI-era organization overhaul",
+      "summary": "ET CIO reports that Cars24 has removed formal job titles and hierarchical ranks as part of an AI-era operating model shift.",
+      "fullSummary": "ET CIO reports that Indian used-car platform Cars24 has removed job titles and hierarchical ranks for employees, adopting a flatter designation model. The company is positioning the change as part of an AI-era organizational overhaul. The story is a concrete example of companies changing management structures around AI rather than only adding AI tools.",
+      "keyFacts": [
+        "Cars24 removed job titles and hierarchical ranks",
+        "The company moved employees to a flatter designation model",
+        "The overhaul is framed around AI-era operating changes"
+      ],
+      "url": "https://cio.economictimes.indiatimes.com/news/corporate-news/cars24-scraps-job-titles-and-hierarchy-in-ai-era-organisational-overhaul/132158405",
+      "sourceName": "ET CIO",
+      "relatedSources": [
+        "Cars24",
+        "AI-era work",
+        "organizational design"
+      ],
+      "lane": "workforce",
+      "publishedAt": "2026-07-03T10:02:31.000Z",
+      "importance": 805,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-05T14:02:01.967Z",
+      "whyItMatters": "AI adoption is starting to reshape org charts and management systems, not just the tools employees use."
+    },
+    {
       "id": "curated-marktechpost-nvidia-aspire-robotics-skills-2026-07-03",
       "title": "NVIDIA ASPIRE turns robot debugging into a reusable skill library",
       "summary": "MarkTechPost reports that NVIDIA introduced ASPIRE, a self-improving robotics framework that converts execution failures into reusable robot-control skills.",
@@ -525,6 +811,32 @@
       "summaryEngine": "chat-curated",
       "curatedAt": "2026-07-05T13:43:14.110Z",
       "whyItMatters": "Robotics agents only become useful if they learn from real execution failures, and reusable skills are a practical route beyond one-task demos."
+    },
+    {
+      "id": "curated-tv9-whatsapp-business-third-party-ai-cost-2026-07-03",
+      "title": "TV9 says WhatsApp Business users may pay more for third-party AI",
+      "summary": "TV9 Hindi reports that WhatsApp Business users relying on third-party AI tools could face higher costs under a new Meta move.",
+      "fullSummary": "TV9 Hindi reports that WhatsApp Business users who use third-party AI tools may face higher costs under a new WhatsApp move. The story points to Meta tightening control over how AI is used around business messaging. It adds a regional-language business-platform angle to AI adoption coverage.",
+      "keyFacts": [
+        "The story focuses on WhatsApp Business accounts using third-party AI",
+        "TV9 says those users could face higher costs",
+        "The move affects business messaging and platform AI control"
+      ],
+      "url": "https://www.tv9hindi.com/technology/whatsapp-business-users-if-using-third-party-ai-will-prove-costly-whatsapp-new-move-3839418.html",
+      "sourceName": "TV9 Hindi",
+      "relatedSources": [
+        "WhatsApp Business",
+        "Meta",
+        "third-party AI"
+      ],
+      "lane": "platforms",
+      "publishedAt": "2026-07-03T09:29:49.000Z",
+      "importance": 795,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-05T14:02:01.967Z",
+      "whyItMatters": "Platform control over AI integrations can change the economics for small businesses that rely on messaging channels."
     },
     {
       "id": "curated-businessinsider-blackstone-ai-meetings-2026-07-03",
@@ -604,6 +916,32 @@
       "whyItMatters": "Formal-proof agents are becoming a competitive model niche, with open licensing and long context making the tooling more practical for researchers."
     },
     {
+      "id": "curated-ft-anthropic-china-access-loopholes-2026-07-03",
+      "title": "FT says Anthropic is closing loopholes that allowed Chinese access to Claude",
+      "summary": "Financial Times reports that Anthropic is moving to close loopholes that let engineers in China access Claude despite restrictions.",
+      "fullSummary": "Financial Times reports that Anthropic is moving to close loopholes that allowed engineers in China to keep using Claude despite access restrictions. The story says engineers were still finding ways to use AI models even under stringent rules. It adds a concrete enforcement and export-control angle to the Anthropic model-access story.",
+      "keyFacts": [
+        "Anthropic is closing access loopholes for Claude",
+        "The FT says engineers in China were still finding ways to use restricted models",
+        "The issue connects model access, compliance, and export-control enforcement"
+      ],
+      "url": "https://www.ft.com/content/ad033063-60f9-4c0c-8d8a-9193a83e6f60",
+      "sourceName": "Financial Times",
+      "relatedSources": [
+        "Anthropic",
+        "Claude",
+        "China"
+      ],
+      "lane": "policy",
+      "publishedAt": "2026-07-03T04:00:37.000Z",
+      "importance": 865,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-05T14:02:01.967Z",
+      "whyItMatters": "Model-access controls only matter if labs can enforce them against workarounds in strategically sensitive markets."
+    },
+    {
       "id": "curated-wsj-kling-raises-2-8b-spinoff-2026-07-03",
       "title": "Kuaishou's Kling raises $2.8B ahead of planned spinoff",
       "summary": "The Wall Street Journal reports that Kuaishou's AI video unit Kling raised $2.8 billion as the company prepares a possible Hong Kong listing.",
@@ -629,6 +967,32 @@
       "summaryEngine": "chat-curated",
       "curatedAt": "2026-07-05T13:14:57.298Z",
       "whyItMatters": "Large AI video rounds show investors still assigning platform-level valuations to creative-model businesses despite uncertain monetization."
+    },
+    {
+      "id": "curated-register-mechanical-turk-stops-new-customers-2026-07-03",
+      "title": "Amazon's Mechanical Turk will stop accepting new customers",
+      "summary": "The Register reports that Amazon's Mechanical Turk will stop accepting new customers, a notable shift for the human-labeling and crowdsourcing infrastructure that helped feed earlier AI work.",
+      "fullSummary": "The Register reports that Amazon's Mechanical Turk will stop accepting new customers, with workers saying AWS is closing accounts. Mechanical Turk has long been part of the data-labeling and crowdsourcing infrastructure behind many AI and machine-learning workflows. Its retreat is a useful signal about how the economics of human-in-the-loop AI labor are changing.",
+      "keyFacts": [
+        "Mechanical Turk will stop accepting new customers",
+        "Workers told The Register that AWS is closing accounts",
+        "The platform has been a long-running crowdsourcing layer for AI data work"
+      ],
+      "url": "https://www.theregister.com/off-prem/2026/07/03/amazons-mechanical-turk-to-stop-accepting-new-customers-and-not-even-ai-can-save-it/5266274",
+      "sourceName": "The Register",
+      "relatedSources": [
+        "Amazon Mechanical Turk",
+        "AWS",
+        "crowdsourcing"
+      ],
+      "lane": "data",
+      "publishedAt": "2026-07-03T02:22:36.000Z",
+      "importance": 810,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-05T14:02:01.967Z",
+      "whyItMatters": "A long-running human-labeling layer fading from growth mode says something about how AI data work is being repriced."
     },
     {
       "id": "curated-guardian-australia-musicians-ai-copyright-2026-07-03",
@@ -708,6 +1072,58 @@
       "whyItMatters": "AI infrastructure is now running into local consent limits, not just chip, power, or capital limits."
     },
     {
+      "id": "curated-unite-ai-kela-midyear-ai-threat-report-2026-07-02",
+      "title": "KELA says AI is becoming both weapon and target in cyberattacks",
+      "summary": "Unite.AI reports that KELA's 2026 mid-year threat report finds AI is increasingly used by attackers while also becoming a target in sophisticated campaigns.",
+      "fullSummary": "Unite.AI reports that KELA's 2026 Mid-Year AI Threat Landscape Report finds artificial intelligence is no longer only helping cybercriminals work faster. The report says AI is becoming both a weapon used in attacks and a target for attackers. It adds threat-intelligence evidence to the broader agent and model-security discussion.",
+      "keyFacts": [
+        "KELA's report covers the 2026 mid-year AI threat landscape",
+        "The report says AI is being used by attackers and targeted by them",
+        "The focus is on sophisticated cybercrime and model-enabled attacks"
+      ],
+      "url": "https://www.unite.ai/kelas-2026-mid-year-ai-threat-landscape-report-ai-is-becoming-both-the-weapon-and-the-target/",
+      "sourceName": "Unite.AI",
+      "relatedSources": [
+        "KELA",
+        "AI threat landscape",
+        "cybersecurity"
+      ],
+      "lane": "security",
+      "publishedAt": "2026-07-02T20:34:53.000Z",
+      "importance": 835,
+      "sourceConfidence": "high",
+      "filterCategory": "pushback",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-05T14:02:01.967Z",
+      "whyItMatters": "Attackers and defenders are both reorganizing around AI, making threat intelligence a core part of model-risk coverage."
+    },
+    {
+      "id": "curated-register-ai-adoption-adds-people-2026-07-02",
+      "title": "The Register says firms adding AI are also adding people",
+      "summary": "The Register reports that companies adding more AI are also adding more people, complicating simple narratives about automation replacing headcount.",
+      "fullSummary": "The Register reports that companies adding more AI are also adding more people, even though that hiring does not always match business needs. The story complicates the idea that AI adoption immediately means smaller workforces. It adds a useful counterpoint to layoff and automation stories already in the feed.",
+      "keyFacts": [
+        "The story reports that companies adding AI are also adding staff",
+        "It says the additional hiring does not necessarily meet business needs",
+        "The finding complicates direct AI-replaces-workers narratives"
+      ],
+      "url": "https://www.theregister.com/ai-and-ml/2026/07/02/companies-that-add-more-ai-also-add-more-people/5266134",
+      "sourceName": "The Register",
+      "relatedSources": [
+        "AI adoption",
+        "workforce planning",
+        "enterprise hiring"
+      ],
+      "lane": "workforce",
+      "publishedAt": "2026-07-02T20:19:33.000Z",
+      "importance": 800,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-05T14:02:01.967Z",
+      "whyItMatters": "This keeps the workforce picture honest: AI can increase staffing complexity even when it promises automation."
+    },
+    {
       "id": "curated-techcrunch-jersey-mikes-ai-ipo-risk-hype-2026-07-02",
       "title": "Jersey Mike's IPO filing shows how far AI risk language has spread",
       "summary": "TechCrunch reports that Jersey Mike's mentioned artificial intelligence 22 times in its IPO documents, using AI risk language even though the company sells sandwiches rather than AI software.",
@@ -757,6 +1173,32 @@
       "summaryEngine": "chat-curated",
       "curatedAt": "2026-07-05T13:14:57.298Z",
       "whyItMatters": "The attack shows AI agents being used to automate the full intrusion chain, not just assist individual hacking steps."
+    },
+    {
+      "id": "curated-techcrunch-meta-pocket-vibe-coded-games-2026-07-02",
+      "title": "Meta quietly launches Pocket for vibe-coded mini games",
+      "summary": "TechCrunch reports that Meta quietly launched Pocket, an experimental AI app that lets users generate and share interactive mini games from text prompts.",
+      "fullSummary": "TechCrunch reports that Meta quietly launched Pocket, an experimental app for generating and sharing interactive mini games from text prompts. The product is another sign that big consumer platforms are testing AI creation tools outside traditional chat surfaces. It belongs as a product-lane miss from TechCrunch's current AI page.",
+      "keyFacts": [
+        "Pocket is an experimental Meta AI app",
+        "Users can generate interactive mini games from text prompts",
+        "The app also supports sharing generated games"
+      ],
+      "url": "https://techcrunch.com/2026/07/02/meta-quietly-launches-vibe-coded-gaming-app-pocket/",
+      "sourceName": "TechCrunch",
+      "relatedSources": [
+        "Meta",
+        "Pocket",
+        "vibe coding"
+      ],
+      "lane": "products",
+      "publishedAt": "2026-07-02T18:44:02.000Z",
+      "importance": 815,
+      "sourceConfidence": "high",
+      "filterCategory": "models",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-05T14:02:01.967Z",
+      "whyItMatters": "Meta is testing AI-native creation in consumer apps, which is different from simply adding a chatbot to an existing product."
     },
     {
       "id": "curated-techcrunch-anthropic-samsung-custom-chip-2026-07-02",
@@ -913,6 +1355,32 @@
       "whyItMatters": "The AI infrastructure market is attracting more capital providers even as neocloud margins and differentiation remain uncertain."
     },
     {
+      "id": "curated-aws-bedrock-ai-generated-phishing-2026-07-02",
+      "title": "AWS explains how Bedrock catches AI-generated phishing",
+      "summary": "AWS published a machine-learning blog post on detecting AI-generated phishing emails with Amazon Bedrock.",
+      "fullSummary": "AWS published a machine-learning post explaining how Amazon Bedrock can help catch AI-generated phishing emails. The post frames AI-generated social-engineering messages as a growing security problem for teams managing email systems. It adds a practical cloud-security implementation to the feed's AI threat coverage.",
+      "keyFacts": [
+        "AWS focuses on AI-generated phishing email detection",
+        "The post uses Amazon Bedrock in the defense workflow",
+        "The threat model is stronger social engineering created with generative AI"
+      ],
+      "url": "https://aws.amazon.com/blogs/machine-learning/how-amazon-bedrock-catches-ai-generated-phishing/",
+      "sourceName": "AWS Machine Learning Blog",
+      "relatedSources": [
+        "Amazon Bedrock",
+        "phishing",
+        "AI security"
+      ],
+      "lane": "security",
+      "publishedAt": "2026-07-02T17:55:41.000Z",
+      "importance": 810,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-05T14:02:01.967Z",
+      "whyItMatters": "Defending against AI-generated phishing is a practical enterprise use case where generative AI changes the threat model."
+    },
+    {
       "id": "curated-arxiv-coding-agent-steerability-constraints-2026-07-03",
       "title": "Paper says constraints can make coding-agent review scale better",
       "summary": "An arXiv paper argues that constraints, access controls, policies, and conventions can improve scalable oversight of coding agents.",
@@ -992,6 +1460,32 @@
       "whyItMatters": "The biggest AI vendors are now competing on deployment muscle, which is where enterprise AI spending either turns into measurable outcomes or stalls."
     },
     {
+      "id": "curated-mit-tech-review-ai-turbines-2026-07-02",
+      "title": "MIT Technology Review says AI is being taught to run with turbines",
+      "summary": "MIT Technology Review reports on work to teach AI systems to operate alongside turbines, showing industrial AI moving into energy operations.",
+      "fullSummary": "MIT Technology Review reports on efforts to teach AI to run with turbines, an industrial setting where model decisions must interact with physical systems. The story adds an energy and operations example to AI deployment coverage, showing AI moving into infrastructure control rather than only office workflows.",
+      "keyFacts": [
+        "The story covers AI applied to turbine operations",
+        "It focuses on industrial and energy-sector deployment",
+        "The setting requires AI to work with physical infrastructure"
+      ],
+      "url": "https://www.technologyreview.com/2026/07/02/1138433/teaching-ai-to-run-with-the-turbines/",
+      "sourceName": "MIT Technology Review",
+      "relatedSources": [
+        "turbines",
+        "industrial AI",
+        "energy operations"
+      ],
+      "lane": "industrial",
+      "publishedAt": "2026-07-02T12:51:44.000Z",
+      "importance": 810,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-05T14:02:01.967Z",
+      "whyItMatters": "Industrial AI needs reliability around physical systems, where bad model behavior has operational consequences."
+    },
+    {
       "id": "curated-ai-news-nvidia-bionemo-claude-science-2026-07-02",
       "title": "NVIDIA BioNeMo tools plug into Anthropic's Claude Science workbench",
       "summary": "AI News reports that Anthropic's Claude Science public beta integrates NVIDIA's BioNeMo Agent Toolkit so researchers can trigger accelerated life-sciences workflows through natural-language agents.",
@@ -1016,6 +1510,58 @@
       "summaryEngine": "chat-curated",
       "curatedAt": "2026-07-03T02:35:00.000Z",
       "whyItMatters": "Scientific agents only become useful when they can call real domain tools, and this ties Claude's workflow layer to production-grade biomedical compute."
+    },
+    {
+      "id": "curated-anthropic-fable-cyber-safeguards-jailbreak-framework-2026-07-02",
+      "title": "Anthropic details Fable 5 cyber safeguards and jailbreak scoring",
+      "summary": "Anthropic published more details on Fable 5's cyber safeguards and a draft framework for scoring jailbreak severity.",
+      "fullSummary": "Anthropic published more details on what is and is not blocked by its cyber classifiers for Fable 5 and described a first draft of a jailbreak severity framework. The post adds primary-source detail to the wider Fable and Mythos access dispute. It matters because model-release governance increasingly depends on concrete classifier behavior and shared jailbreak-risk language.",
+      "keyFacts": [
+        "Anthropic described Fable 5 cyber safeguards",
+        "The post explains what its cyber classifiers do and do not block",
+        "Anthropic also proposed a draft jailbreak severity framework"
+      ],
+      "url": "https://www.anthropic.com/news/fable-safeguards-jailbreak-framework",
+      "sourceName": "Anthropic",
+      "relatedSources": [
+        "Fable 5",
+        "jailbreaks",
+        "cyber safeguards"
+      ],
+      "lane": "safety",
+      "publishedAt": "2026-07-02T12:00:00.000Z",
+      "importance": 840,
+      "sourceConfidence": "high",
+      "filterCategory": "models",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-05T14:02:01.967Z",
+      "whyItMatters": "Cyber safeguards are becoming a model-release condition, so the exact classifier boundaries matter."
+    },
+    {
+      "id": "curated-ft-us-energy-regulator-data-centre-ultimatum-2026-07-02",
+      "title": "U.S. energy regulator gives grid operators a data-center ultimatum",
+      "summary": "Financial Times reports that FERC gave grid operators 60 days to justify or revise how they connect large loads such as AI data centers.",
+      "fullSummary": "Financial Times reports that the U.S. Federal Energy Regulatory Commission has given grid operators 60 days to justify or revise how they connect large loads, including AI data centers. If operators do not act, the regulator may make the decision for them. The story shows AI infrastructure pressure turning into formal grid-rule intervention.",
+      "keyFacts": [
+        "FERC gave grid operators 60 days to justify or revise large-load connection rules",
+        "AI data centers are a central driver of the pressure",
+        "The regulator may step in if operators do not respond"
+      ],
+      "url": "https://www.ft.com/content/5055a170-69d9-4eb6-ad93-be953bbad263",
+      "sourceName": "Financial Times",
+      "relatedSources": [
+        "FERC",
+        "AI data centers",
+        "grid operators"
+      ],
+      "lane": "infrastructure",
+      "publishedAt": "2026-07-02T11:00:03.000Z",
+      "importance": 860,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-05T14:02:01.967Z",
+      "whyItMatters": "AI data centers are now forcing grid regulators to make explicit rules for large-load connections."
     },
     {
       "id": "curated-arxiv-pace-agentic-evaluation-2026-07-02",
@@ -1199,6 +1745,58 @@
       "whyItMatters": "Large pharma is moving AI drug discovery from pilots into rights-bearing commercial deals, where model quality is tested against real pipelines and milestone economics."
     },
     {
+      "id": "curated-ft-eu-weaker-data-centre-climate-rules-2026-07-02",
+      "title": "EU weighs weaker data-center climate rules after Big Tech lobbying",
+      "summary": "Financial Times reports that EU drafts have dropped stricter renewable-energy certificate proposals for data centers after lobbying.",
+      "fullSummary": "Financial Times reports that the EU is weighing weaker data-center climate rules in what the paper describes as a win for Big Tech. Draft proposals have reportedly dropped stricter requirements around renewable-energy certificates after lobbying. The story adds a regulatory and climate dimension to AI infrastructure growth.",
+      "keyFacts": [
+        "The FT says EU drafts dropped stricter data-center renewable-energy certificate rules",
+        "The change followed lobbying by large technology companies",
+        "The issue is tied to the climate impact of AI data-center growth"
+      ],
+      "url": "https://www.ft.com/content/21358a9a-b93b-443c-8a68-6fed89c8b3a6",
+      "sourceName": "Financial Times",
+      "relatedSources": [
+        "European Union",
+        "Big Tech",
+        "data centers"
+      ],
+      "lane": "infrastructure",
+      "publishedAt": "2026-07-02T04:00:22.000Z",
+      "importance": 855,
+      "sourceConfidence": "high",
+      "filterCategory": "pushback",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-05T14:02:01.967Z",
+      "whyItMatters": "The climate cost of AI infrastructure is being negotiated in regulatory drafts, not just sustainability reports."
+    },
+    {
+      "id": "curated-ft-ai-workers-sue-bosses-tribunal-pressure-2026-07-02",
+      "title": "FT says AI is helping workers sue employers and straining tribunals",
+      "summary": "Financial Times reports that AI-assisted employment claims are adding pressure to an already overloaded tribunal system.",
+      "fullSummary": "Financial Times reports that AI is helping workers sue their employers, contributing to a flood of employment claims in an overloaded tribunal system. The article frames AI as a force multiplier for legal access and administrative burden. It adds a labor-law impact story to the feed's workforce and AI adoption coverage.",
+      "keyFacts": [
+        "AI tools are helping workers prepare employment claims",
+        "The FT says the tribunal system is already overloaded",
+        "The story focuses on legal-access gains and institutional strain"
+      ],
+      "url": "https://www.ft.com/content/f2b02e7d-c3ca-42d0-a575-ea1f62550900",
+      "sourceName": "Financial Times",
+      "relatedSources": [
+        "employment tribunals",
+        "AI legal tools",
+        "workers"
+      ],
+      "lane": "workforce",
+      "publishedAt": "2026-07-02T04:00:04.000Z",
+      "importance": 820,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-05T14:02:01.967Z",
+      "whyItMatters": "AI legal tools can expand worker access while also overwhelming institutions that were not built for automated claim volume."
+    },
+    {
       "id": "curated-register-ubtech-u1-humanoid-robots-2026-07-02",
       "title": "UBTECH launches U1 humanoid robots with emotion-aware LLM features",
       "summary": "The Register reports that China's UBTECH has launched the UWORLD U1 humanoid robot, claiming 13,000 orders and emotion-aware LLM capabilities for companionship and services.",
@@ -1222,6 +1820,32 @@
       "summaryEngine": "chat-curated",
       "curatedAt": "2026-07-02T10:30:31.000Z",
       "whyItMatters": "Humanoid robotics is becoming a concrete commercial and national-strategy market, with LLM-based interaction now part of the product pitch."
+    },
+    {
+      "id": "curated-nvidia-ai-compute-capital-partners-2026-07-02",
+      "title": "NVIDIA invites capital partners into AI factory buildout",
+      "summary": "NVIDIA says it is partnering with AI clouds to deploy large-scale, multi-tenant AI factories using revenue-sharing and credit-support economics.",
+      "fullSummary": "NVIDIA says it is inviting capital partners to help power the AI infrastructure buildout through large-scale, multi-tenant AI factories. The company describes partnerships with AI clouds and economics built around revenue sharing and credit support. The story gives primary-source context for the financing structures emerging around AI data-center demand.",
+      "keyFacts": [
+        "NVIDIA is working with AI clouds on multi-tenant AI factories",
+        "The model uses revenue-sharing and credit-support economics",
+        "The announcement targets the capital needs of large AI infrastructure buildouts"
+      ],
+      "url": "https://blogs.nvidia.com/blog/nvidia-unlocks-ai-compute-at-scale-capital-partners-to-power-ai-infrastructure-buildout/",
+      "sourceName": "NVIDIA",
+      "relatedSources": [
+        "NVIDIA",
+        "AI clouds",
+        "AI factories"
+      ],
+      "lane": "infrastructure",
+      "publishedAt": "2026-07-02T03:34:48.000Z",
+      "importance": 850,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-05T14:02:01.967Z",
+      "whyItMatters": "AI infrastructure financing is becoming as strategic as chips and models because the buildout requires new capital structures."
     },
     {
       "id": "curated-et-softbank-openai-stake-loan-2026-07-02",
@@ -1355,6 +1979,32 @@
       "whyItMatters": "This is a concrete example of AI lowering the skill floor for attack development by translating known platform risks into plausible malware workflows."
     },
     {
+      "id": "curated-register-godot-bans-vibe-coded-contributions-2026-07-01",
+      "title": "Godot bans vibe-coded contributions",
+      "summary": "The Register reports that Godot is banning vibe-coded contributions, showing open-source maintainers pushing back against low-quality AI-generated code.",
+      "fullSummary": "The Register reports that the Godot project is banning vibe-coded contributions. The move reflects a growing maintainer backlash against AI-generated code that arrives without enough understanding, testing, or ownership. It is a useful open-source governance story in the coding-agent adoption cycle.",
+      "keyFacts": [
+        "Godot is banning vibe-coded contributions",
+        "The policy targets low-quality AI-generated code submissions",
+        "The story reflects maintainer pushback against unreviewable AI coding output"
+      ],
+      "url": "https://www.theregister.com/ai-and-ml/2026/07/01/godot-says-bye-bye-ai-bans-vibe-coded-contributions/5265344",
+      "sourceName": "The Register",
+      "relatedSources": [
+        "Godot",
+        "open source",
+        "AI-generated code"
+      ],
+      "lane": "developer-tools",
+      "publishedAt": "2026-07-01T20:29:07.000Z",
+      "importance": 830,
+      "sourceConfidence": "high",
+      "filterCategory": "pushback",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-05T14:02:01.967Z",
+      "whyItMatters": "Open-source projects are becoming early test cases for how much AI-generated code maintainers are willing to absorb."
+    },
+    {
       "id": "curated-guardian-un-ai-inequality-report-2026-07-01",
       "title": "UN scientific panel warns AI could widen global inequality",
       "summary": "The Guardian reports that a new UN scientific panel says uneven AI adoption and concentrated control over models, cloud infrastructure, and data pipelines could worsen global inequality.",
@@ -1432,6 +2082,58 @@
       "summaryEngine": "chat-curated",
       "curatedAt": "2026-07-02T10:30:31.000Z",
       "whyItMatters": "Return fraud is a measurable operating cost, making it a useful test of whether retail AI delivers real savings instead of only better recommendations."
+    },
+    {
+      "id": "curated-wired-flare-ai-safety-reporting-site-2026-07-01",
+      "title": "Flare creates a public reporting path for AI safety failures",
+      "summary": "WIRED reports on Flare, a website where people can report harmful or dangerous AI behavior such as bomb-making help or personal-data leakage.",
+      "fullSummary": "WIRED reports on Flare, a public website for reporting AI systems behaving badly. The examples include chatbot behavior that could help build bombs or leak personal information. The story is a practical AI safety infrastructure item: a way to collect incident reports outside company-controlled channels.",
+      "keyFacts": [
+        "Flare lets users report harmful AI behavior",
+        "WIRED cites examples such as bomb-making help and personal-data leakage",
+        "The site creates an external reporting channel for AI safety failures"
+      ],
+      "url": "https://www.wired.com/story/flare-website-ai-flaw-reporting-safety/",
+      "sourceName": "WIRED",
+      "relatedSources": [
+        "Flare",
+        "AI safety",
+        "incident reporting"
+      ],
+      "lane": "safety",
+      "publishedAt": "2026-07-01T18:10:00.000Z",
+      "importance": 825,
+      "sourceConfidence": "high",
+      "filterCategory": "pushback",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-05T14:02:01.967Z",
+      "whyItMatters": "Public incident reporting can expose AI failures that company dashboards and model cards may never surface."
+    },
+    {
+      "id": "curated-aws-serverless-a2a-gateway-agent-discovery-2026-07-01",
+      "title": "AWS shows a serverless A2A gateway for agent discovery and access control",
+      "summary": "AWS published a serverless pattern for hosting multiple agents behind one domain with discovery, routing, and access control.",
+      "fullSummary": "AWS published a machine-learning post showing how to build a serverless A2A gateway for agent discovery, routing, and access control. The pattern hosts multiple agents behind a single domain using path-based routing while standard A2A clients continue to work. It is a concrete infrastructure story for multi-agent enterprise deployment.",
+      "keyFacts": [
+        "The pattern hosts multiple agents behind one domain",
+        "It supports discovery, routing, and access control",
+        "AWS says standard A2A clients can work without modification"
+      ],
+      "url": "https://aws.amazon.com/blogs/machine-learning/building-a-serverless-a2a-gateway-for-agent-discovery-routing-and-access-control/",
+      "sourceName": "AWS Machine Learning Blog",
+      "relatedSources": [
+        "AWS",
+        "A2A",
+        "agent infrastructure"
+      ],
+      "lane": "agents",
+      "publishedAt": "2026-07-01T18:07:06.000Z",
+      "importance": 805,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-05T14:02:01.967Z",
+      "whyItMatters": "Agent interoperability needs routing and access-control plumbing before multi-agent systems can be run safely in companies."
     },
     {
       "id": "curated-techcrunch-cloudflare-ai-crawler-pay-publishers-2026-07-01",
@@ -1534,6 +2236,32 @@
       "summaryEngine": "chat-curated",
       "curatedAt": "2026-07-02T10:30:31.000Z",
       "whyItMatters": "Regional-language AI launches are crucial for inclusion because they move capability from benchmark languages into local communication and services."
+    },
+    {
+      "id": "curated-businessinsider-tom-brown-anthropic-white-house-2026-07-01",
+      "title": "Business Insider profiles Anthropic's quiet White House negotiator",
+      "summary": "Business Insider reports that Anthropic cofounder Tom Brown helped mediate White House concerns over Fable and Mythos model access.",
+      "fullSummary": "Business Insider reports that Anthropic cofounder Tom Brown became a key mediator in the company's White House dispute over Fable and Mythos. The profile says Brown helped navigate government complaints even though his AI background is relatively brief. The story adds organizational context to the model-access policy fight covered elsewhere in the feed.",
+      "keyFacts": [
+        "Tom Brown is an Anthropic cofounder",
+        "Business Insider says he helped mediate White House concerns over Fable and Mythos",
+        "The story gives internal context on Anthropic's policy response"
+      ],
+      "url": "https://www.businessinsider.com/everything-we-know-about-tom-brown-anthropic-white-house-2026-7",
+      "sourceName": "Business Insider",
+      "relatedSources": [
+        "Anthropic",
+        "Tom Brown",
+        "White House"
+      ],
+      "lane": "policy",
+      "publishedAt": "2026-07-01T16:31:52.000Z",
+      "importance": 805,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-05T14:02:01.967Z",
+      "whyItMatters": "Anthropic's policy battles are being shaped by specific operators, not only public statements from the company."
     },
     {
       "id": "curated-et-oxmiq-ai-chip-designs-sovereign-ai-2026-07-01",
@@ -1662,6 +2390,32 @@
       "summaryEngine": "chat-curated",
       "curatedAt": "2026-07-03T02:20:00.000Z",
       "whyItMatters": "Licensable AI chip IP is a direct attempt to reduce dependence on Nvidia-style full-stack supply and make sovereign AI infrastructure cheaper."
+    },
+    {
+      "id": "curated-mit-tech-review-llm-groupthink-startup-2026-07-01",
+      "title": "MIT Technology Review says a startup is trying to break LLM groupthink",
+      "summary": "MIT Technology Review reports on a startup trying to get LLMs out of a groupthink groove, targeting a failure mode in model reasoning and diversity.",
+      "fullSummary": "MIT Technology Review reports that LLMs are stuck in a groupthink groove and profiles a startup trying to address it. The story focuses on a model-behavior problem: systems converging on similar patterns and reducing diversity in outputs or reasoning. It adds a model-quality and research-commercialization angle to the feed.",
+      "keyFacts": [
+        "MIT Technology Review frames LLM groupthink as a current model-behavior issue",
+        "The story profiles a startup trying to reduce that convergence",
+        "The problem touches reasoning quality and output diversity"
+      ],
+      "url": "https://www.technologyreview.com/2026/07/01/1140003/llms-are-stuck-in-a-groupthink-rut-this-startup-is-trying-to-get-them-out/",
+      "sourceName": "MIT Technology Review",
+      "relatedSources": [
+        "LLMs",
+        "model behavior",
+        "startup"
+      ],
+      "lane": "models",
+      "publishedAt": "2026-07-01T14:35:16.000Z",
+      "importance": 810,
+      "sourceConfidence": "high",
+      "filterCategory": "models",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-05T14:02:01.967Z",
+      "whyItMatters": "Model quality problems like convergence and groupthink affect how useful AI systems are for real decision-making."
     },
     {
       "id": "curated-techcrunch-venice-ai-series-a-unicorn-2026-07-01",
@@ -1897,6 +2651,32 @@
       "summaryEngine": "chat-curated",
       "curatedAt": "2026-07-02T10:30:31.000Z",
       "whyItMatters": "Finance regulators are moving from chatbot-era oversight to the harder question of how much autonomy AI agents should have in live markets and payment systems."
+    },
+    {
+      "id": "curated-wired-claude-front-gate-ticket-vulnerability-2026-07-01",
+      "title": "WIRED says Claude helped expose a festival-ticketing vulnerability",
+      "summary": "WIRED reports that a researcher used Claude Opus 4.7 to find a way into Front Gate's festival-ticketing system and issue tickets.",
+      "fullSummary": "WIRED reports that a researcher used Anthropic's Claude Opus 4.7 to identify a way into Front Gate's festival-ticketing system, which is used by major U.S. music festivals. The researcher could reportedly issue tickets through the vulnerability. The story is a concrete example of powerful coding agents aiding security research while raising dual-use concerns.",
+      "keyFacts": [
+        "The researcher used Claude Opus 4.7",
+        "The target was Front Gate's festival-ticketing system",
+        "The reported issue could allow tickets to be issued"
+      ],
+      "url": "https://www.wired.com/story/claude-helped-a-hacker-find-a-way-to-issue-tickets-to-almost-every-us-music-festival/",
+      "sourceName": "WIRED",
+      "relatedSources": [
+        "Claude Opus 4.7",
+        "Front Gate",
+        "security research"
+      ],
+      "lane": "security",
+      "publishedAt": "2026-07-01T10:00:00.000Z",
+      "importance": 855,
+      "sourceConfidence": "high",
+      "filterCategory": "pushback",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-05T14:02:01.967Z",
+      "whyItMatters": "Real security research with frontier models shows both the value and the dual-use risk of powerful coding agents."
     },
     {
       "id": "curated-et-softbank-second-openai-tranche-2026-07-01",
@@ -2300,6 +3080,32 @@
       "summaryEngine": "chat-curated",
       "curatedAt": "2026-07-01T04:00:00.000Z",
       "whyItMatters": "Google is pushing generative media toward commodity pricing, making image creation economics as important as raw model quality for enterprise adoption."
+    },
+    {
+      "id": "curated-unite-ai-flux-code-generation-visibility-gap-2026-06-30",
+      "title": "Flux says AI code velocity is outrunning enterprise visibility",
+      "summary": "Unite.AI reports that Flux's AI Code Generation Reality Check finds enterprise software teams are generating code faster than they can observe and govern it.",
+      "fullSummary": "Unite.AI reports that Flux's AI Code Generation Reality Check, based on Dimensional Research work, finds AI-generated code has moved into mainstream enterprise software development. The report argues that code velocity is outrunning visibility, creating governance and risk-management gaps as coding-agent adoption becomes a core enterprise concern.",
+      "keyFacts": [
+        "Flux's report is based on independent research by Dimensional Research",
+        "The report says AI-generated code is now mainstream in enterprise software work",
+        "Its central warning is that code velocity is outpacing visibility"
+      ],
+      "url": "https://www.unite.ai/fluxs-ai-code-generation-reality-check-finds-enterprise-code-velocity-is-outrunning-visibility/",
+      "sourceName": "Unite.AI",
+      "relatedSources": [
+        "Flux",
+        "Dimensional Research",
+        "AI-generated code"
+      ],
+      "lane": "enterprise",
+      "publishedAt": "2026-06-30T18:33:45.000Z",
+      "importance": 800,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-05T14:02:01.967Z",
+      "whyItMatters": "Enterprise coding gains are only durable if companies can still see, review, and govern what AI-generated code changes."
     },
     {
       "id": "curated-techcrunch-etched-5b-ai-chip-sales-2026-06-30",
@@ -23662,7 +24468,7 @@
     }
   ],
   "errors": [],
-  "totalItems": 860,
-  "lastRefresh": "2026-07-05T13:43:14.110Z",
-  "count": 860
+  "totalItems": 891,
+  "lastRefresh": "2026-07-05T14:02:01.967Z",
+  "count": 891
 }
