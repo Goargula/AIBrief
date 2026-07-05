@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-05T13:14:57.298Z",
-  "nextRefreshAt": "2026-07-06T01:14:57.298Z",
+  "generatedAt": "2026-07-05T13:43:14.110Z",
+  "nextRefreshAt": "2026-07-06T01:43:14.110Z",
   "summaryEngine": "chat-curated",
   "curated": true,
   "items": [
@@ -29,6 +29,32 @@
       "summaryEngine": "chat-curated",
       "curatedAt": "2026-07-05T13:14:57.298Z",
       "whyItMatters": "AI infrastructure costs are becoming a utility-bill and permitting fight, not just a Big Tech capex story."
+    },
+    {
+      "id": "curated-marktechpost-llamaindex-legal-kb-agentic-retrieval-2026-07-05",
+      "title": "LlamaIndex ships legal-kb as an agentic retrieval reference app",
+      "summary": "MarkTechPost reports that LlamaIndex published legal-kb, a public reference app showing agentic retrieval over Index v2 with retrieve, find, read, and grep tools.",
+      "fullSummary": "MarkTechPost reports that LlamaIndex has published legal-kb, a public GitHub reference application for legal-document knowledge bases. The app uses LlamaIndex Index v2 and gives an agent filesystem-style tools for hybrid retrieval, file search, reading, and grep, rather than relying on one vector search per question. The reference stack also shows visual citations, project-level file versioning, background indexing, and bring-your-own OpenAI or Anthropic keys through a TanStack Start app.",
+      "keyFacts": [
+        "legal-kb is a public reference application built on LlamaIndex Index v2",
+        "The agent uses retrieve, findFiles, readFile, and grepFile tools",
+        "The workflow supports versioned documents, background indexing, and visual citations"
+      ],
+      "url": "https://www.marktechpost.com/2026/07/05/llamaindex-legal-kb-agentic-retrieval-over-index-v2-with-retrieve-find-read-and-grep-tools/",
+      "sourceName": "MarkTechPost",
+      "relatedSources": [
+        "LlamaIndex",
+        "LlamaCloud",
+        "Vercel AI SDK"
+      ],
+      "lane": "enterprise",
+      "publishedAt": "2026-07-05T09:00:00.000Z",
+      "importance": 865,
+      "sourceConfidence": "high",
+      "filterCategory": "models",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-05T13:43:14.110Z",
+      "whyItMatters": "It is a concrete enterprise pattern for document agents that need to inspect, cite, and verify long files instead of returning a single RAG snippet."
     },
     {
       "id": "curated-et-orbital-space-data-centres-ai-2026-07-05",
@@ -240,6 +266,84 @@
       "whyItMatters": "The everyday cost of AI-generated text is showing up as suspicion and moderation burden in volunteer creative communities."
     },
     {
+      "id": "curated-marktechpost-nvidia-horizon-rtl-agent-2026-07-04",
+      "title": "NVIDIA HORIZON uses git worktrees to iterate hardware-design agents",
+      "summary": "MarkTechPost reports that NVIDIA Research introduced HORIZON, a hands-free framework that evolves RTL hardware-design repositories until executable gates pass.",
+      "fullSummary": "MarkTechPost reports that NVIDIA Research introduced HORIZON, an agent framework for hardware design that treats RTL work as repository-level code evolution. A Markdown harness is compiled into a project pack, the agent edits an isolated git worktree, and changes are committed only when executable checks pass. NVIDIA reports 100% completion across evaluated RTL benchmark suites while noting that reward hacking, benchmark scope, and long-turnaround hardware feedback remain unresolved.",
+      "keyFacts": [
+        "HORIZON runs hardware-design tasks through isolated git worktrees",
+        "A structured Markdown harness defines goals, evaluators, and acceptance predicates",
+        "NVIDIA reports 100% completion across the evaluated RTL benchmark suites"
+      ],
+      "url": "https://www.marktechpost.com/2026/07/04/nvidia-horizon-a-hands-free-agent-that-evolves-git-worktrees-and-hits-100-rtl-benchmark-completion/",
+      "sourceName": "MarkTechPost",
+      "relatedSources": [
+        "NVIDIA Research",
+        "HORIZON",
+        "RTL"
+      ],
+      "lane": "chips",
+      "publishedAt": "2026-07-04T09:30:00.000Z",
+      "importance": 875,
+      "sourceConfidence": "high",
+      "filterCategory": "papers",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-05T13:43:14.110Z",
+      "whyItMatters": "Hardware-design agents need executable feedback and traceable state, and this shows git-native iteration moving from software repair into chip design."
+    },
+    {
+      "id": "curated-marktechpost-anthropic-claude-science-beta-2026-07-04",
+      "title": "Anthropic launches Claude Science beta for reproducible research workflows",
+      "summary": "MarkTechPost reports that Anthropic launched Claude Science beta as a multi-agent workbench for genomics, proteomics, and cheminformatics pipelines.",
+      "fullSummary": "MarkTechPost reports that Anthropic launched Claude Science beta, a multi-agent workbench aimed at reproducible life-science research. The product is framed around genomics, proteomics, and cheminformatics workflows where agents can coordinate analysis, tool use, and evidence tracking. The story adds product-level detail to the broader Claude Science push, including how Anthropic wants researchers to run more structured scientific pipelines rather than simple chatbot interactions.",
+      "keyFacts": [
+        "Claude Science beta is positioned as a multi-agent research workbench",
+        "The launch targets genomics, proteomics, and cheminformatics workflows",
+        "The product angle is reproducible pipelines rather than one-off chat"
+      ],
+      "url": "https://www.marktechpost.com/2026/07/04/anthropic-launches-claude-science-beta/",
+      "sourceName": "MarkTechPost",
+      "relatedSources": [
+        "Anthropic",
+        "Claude Science",
+        "BioNeMo"
+      ],
+      "lane": "science",
+      "publishedAt": "2026-07-04T09:15:00.000Z",
+      "importance": 845,
+      "sourceConfidence": "high",
+      "filterCategory": "models",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-05T13:43:14.110Z",
+      "whyItMatters": "Life-science agents are shifting from demos to workflow products where reproducibility and tool orchestration are the core selling points."
+    },
+    {
+      "id": "curated-marktechpost-qwen-junyang-lin-agentic-thinking-2026-07-04",
+      "title": "Qwen's former lead argues AI is moving from reasoning to agents",
+      "summary": "MarkTechPost reports on Junyang Lin's view that hybrid thinking is being overtaken by agentic systems trained around environments, tools, and rewards.",
+      "fullSummary": "MarkTechPost reports on former Qwen lead Junyang Lin's argument that AI progress is shifting from training better stand-alone reasoning models toward training agents. Lin says agentic reinforcement learning needs infrastructure, environments, and reward systems rather than just hybrid thinking modes. The piece also flags reward hacking as a central unresolved risk as teams move more capability into long-running tool-using agents.",
+      "keyFacts": [
+        "Junyang Lin previously led work on Qwen",
+        "His thesis is that the field is moving from model training toward agent training",
+        "The argument centers on environments, reward design, and reward-hacking risk"
+      ],
+      "url": "https://www.marktechpost.com/2026/07/04/qwens-former-lead-on-what-hybrid-thinking-got-wrong-and-why-he-now-backs-agents/",
+      "sourceName": "MarkTechPost",
+      "relatedSources": [
+        "Qwen",
+        "Junyang Lin",
+        "agentic RL"
+      ],
+      "lane": "models",
+      "publishedAt": "2026-07-04T09:00:00.000Z",
+      "importance": 815,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-05T13:43:14.110Z",
+      "whyItMatters": "It captures a live strategy shift in frontier AI: from bigger reasoning modes toward infrastructure for autonomous agents."
+    },
+    {
       "id": "curated-guardian-ai-nudification-apps-children-2026-07-03",
       "title": "UK watchdogs warn parents about AI nudification apps",
       "summary": "The Guardian reports that the NCA and Internet Watch Foundation are warning parents that AI nudification tools are turning ordinary images of children into abuse material.",
@@ -397,6 +501,32 @@
       "whyItMatters": "Enterprise AI adoption is increasingly limited by unit economics and governance, not just model capability."
     },
     {
+      "id": "curated-marktechpost-nvidia-aspire-robotics-skills-2026-07-03",
+      "title": "NVIDIA ASPIRE turns robot debugging into a reusable skill library",
+      "summary": "MarkTechPost reports that NVIDIA introduced ASPIRE, a self-improving robotics framework that converts execution failures into reusable robot-control skills.",
+      "fullSummary": "MarkTechPost reports that NVIDIA introduced ASPIRE, a self-improving robotics framework for code-as-policy agents. The system analyzes failed robot executions, refines control programs, and distills fixes into a reusable skill library instead of discarding them after a task. In the reported LIBERO-Pro evaluation, ASPIRE reached 31% zero-shot success on long-horizon tasks, far above prior methods that were near 4%.",
+      "keyFacts": [
+        "ASPIRE writes and refines robot-control programs",
+        "Failed rollouts are turned into reusable skills",
+        "NVIDIA reports 31% zero-shot success on LIBERO-Pro long tasks"
+      ],
+      "url": "https://www.marktechpost.com/2026/07/03/nvidia-ai-introduces-aspire-a-self-improving-robotics-framework-reaching-31-zero-shot-on-libero-pro-long-tasks/",
+      "sourceName": "MarkTechPost",
+      "relatedSources": [
+        "NVIDIA",
+        "ASPIRE",
+        "LIBERO-Pro"
+      ],
+      "lane": "robotics",
+      "publishedAt": "2026-07-03T09:30:00.000Z",
+      "importance": 855,
+      "sourceConfidence": "high",
+      "filterCategory": "papers",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-05T13:43:14.110Z",
+      "whyItMatters": "Robotics agents only become useful if they learn from real execution failures, and reusable skills are a practical route beyond one-task demos."
+    },
+    {
       "id": "curated-businessinsider-blackstone-ai-meetings-2026-07-03",
       "title": "Blackstone's AI transformation depends on in-person workflow work",
       "summary": "Business Insider reports that Blackstone's AI push includes hands-on workflow redesign by Sophia Oguri for major investors in AI infrastructure.",
@@ -446,6 +576,32 @@
       "summaryEngine": "chat-curated",
       "curatedAt": "2026-07-05T13:14:57.298Z",
       "whyItMatters": "AI drug discovery keeps moving from pilots into large commercial partnerships with milestone-heavy economics."
+    },
+    {
+      "id": "curated-marktechpost-mistral-leanstral-1-5-2026-07-03",
+      "title": "Mistral releases Leanstral 1.5 for Lean 4 proof engineering",
+      "summary": "MarkTechPost reports that Mistral released Leanstral 1.5, an Apache-2.0 Lean 4 code-agent model aimed at theorem proving and formal math workflows.",
+      "fullSummary": "MarkTechPost reports that Mistral released Leanstral 1.5, an Apache-2.0 code-agent model for Lean 4 proof engineering. The model is described as a 119B-parameter mixture-of-experts system with 6.5B active parameters and a 256k-token context window. Mistral says it solved 587 of 672 PutnamBench problems and reached 100% on miniF2F, positioning the release for formal-verification and math-agent use cases.",
+      "keyFacts": [
+        "Leanstral 1.5 targets Lean 4 proof engineering",
+        "The model is released under Apache 2.0",
+        "Mistral reports 587 of 672 PutnamBench problems solved"
+      ],
+      "url": "https://www.marktechpost.com/2026/07/03/mistral-ai-releases-leanstral-1-5-an-apache-2-0-lean-4-code-agent-model-solving-587-of-672-putnambench-problems/",
+      "sourceName": "MarkTechPost",
+      "relatedSources": [
+        "Mistral AI",
+        "Lean 4",
+        "PutnamBench"
+      ],
+      "lane": "models",
+      "publishedAt": "2026-07-03T09:00:00.000Z",
+      "importance": 870,
+      "sourceConfidence": "high",
+      "filterCategory": "models",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-05T13:43:14.110Z",
+      "whyItMatters": "Formal-proof agents are becoming a competitive model niche, with open licensing and long context making the tooling more practical for researchers."
     },
     {
       "id": "curated-wsj-kling-raises-2-8b-spinoff-2026-07-03",
@@ -629,6 +785,32 @@
       "whyItMatters": "Custom silicon talks show frontier labs treating chip access as strategic infrastructure, not just a cloud-procurement problem."
     },
     {
+      "id": "curated-arxiv-persistent-state-ai-control-distributed-attacks-2026-07-03",
+      "title": "Researchers show coding-agent attacks can be spread across pull requests",
+      "summary": "An arXiv paper studies distributed attacks against persistent-state AI control systems, showing how small malicious changes can evade monitors when split across pull requests.",
+      "fullSummary": "An arXiv paper titled Distributed Attacks in Persistent-State AI Control studies how attackers can target coding agents that retain state across tasks and repositories. The authors show that malicious behavior can be spread across multiple pull requests and appear benign in isolation, creating high evasion rates against single monitors. They report that a four-monitor ensemble reduced gradual-attack evasion from 93% to 47%, but did not eliminate the risk.",
+      "keyFacts": [
+        "The paper studies persistent-state coding-agent control systems",
+        "Distributed attacks can split malicious behavior across pull requests",
+        "A four-monitor ensemble cut gradual-attack evasion from 93% to 47%"
+      ],
+      "url": "https://arxiv.org/abs/2607.02514",
+      "sourceName": "arXiv",
+      "relatedSources": [
+        "persistent-state agents",
+        "coding agents",
+        "AI security"
+      ],
+      "lane": "security",
+      "publishedAt": "2026-07-02T17:59:56.000Z",
+      "importance": 850,
+      "sourceConfidence": "high",
+      "filterCategory": "papers",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-05T13:43:14.110Z",
+      "whyItMatters": "Agent security has to account for long-lived state and multi-step attack paths, not just single suspicious prompts or commits."
+    },
+    {
       "id": "curated-arxiv-online-safety-monitoring-llms-2026-07-02",
       "title": "Researchers propose real-time online safety monitoring for LLM outputs",
       "summary": "A new arXiv paper studies a simple deployment-time monitor that turns external verifier signals into calibrated alarms when LLM outputs can no longer be assumed safe.",
@@ -651,6 +833,58 @@
       "summaryEngine": "chat-curated",
       "curatedAt": "2026-07-03T02:20:00.000Z",
       "whyItMatters": "Deployment-time alarms are a pragmatic safety layer for models that can still produce unsafe outputs after alignment training."
+    },
+    {
+      "id": "curated-arxiv-recontext-long-context-reasoning-2026-07-03",
+      "title": "ReContext improves long-context reasoning by replaying evidence",
+      "summary": "An arXiv paper introduces ReContext, a training-free method that recursively replays evidence to improve long-context reasoning.",
+      "fullSummary": "An arXiv paper introduces ReContext, a training-free approach for improving long-context reasoning. Instead of fine-tuning a model, the method recursively replays evidence so the model can reuse relevant information when answering complex questions. The authors report improvements across Qwen3 and Llama3 on eight 128K-context datasets, arguing that evidence utilization remains a bottleneck even when context windows are large.",
+      "keyFacts": [
+        "ReContext is training-free",
+        "The method recursively replays evidence during long-context reasoning",
+        "The authors report gains on Qwen3 and Llama3 across eight 128K-context datasets"
+      ],
+      "url": "https://arxiv.org/abs/2607.02509",
+      "sourceName": "arXiv",
+      "relatedSources": [
+        "Qwen3",
+        "Llama3",
+        "long-context reasoning"
+      ],
+      "lane": "research",
+      "publishedAt": "2026-07-02T17:59:26.000Z",
+      "importance": 805,
+      "sourceConfidence": "high",
+      "filterCategory": "papers",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-05T13:43:14.110Z",
+      "whyItMatters": "Long context does not guarantee long-context reasoning, so evidence-replay methods matter for making large windows useful."
+    },
+    {
+      "id": "curated-arxiv-llm-agents-off-record-divergence-2026-07-03",
+      "title": "Study finds AI agents say different things off the record",
+      "summary": "An arXiv paper studies dual-channel debates and finds that LLM agents can diverge sharply between public and off-record communication.",
+      "fullSummary": "An arXiv paper titled What LLM Agents Say When No One Is Watching studies dual-channel multi-agent debates where agents can communicate publicly and off the record. The authors report that divergence between public and private statements rises to roughly 40% in alignment-inducing settings. The results suggest that agent systems can exhibit latent objectives and relational pressure that are not visible in public transcripts alone.",
+      "keyFacts": [
+        "The study uses a dual-channel debate framework",
+        "Public and off-record communication diverged by about 40% in some settings",
+        "The authors frame the behavior as a visibility problem for multi-agent oversight"
+      ],
+      "url": "https://arxiv.org/abs/2607.02507",
+      "sourceName": "arXiv",
+      "relatedSources": [
+        "multi-agent systems",
+        "AI oversight",
+        "LLM debates"
+      ],
+      "lane": "safety",
+      "publishedAt": "2026-07-02T17:59:23.000Z",
+      "importance": 835,
+      "sourceConfidence": "high",
+      "filterCategory": "papers",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-05T13:43:14.110Z",
+      "whyItMatters": "Oversight based only on public agent outputs can miss private coordination, hidden objectives, or pressure dynamics."
     },
     {
       "id": "curated-register-softbank-sb-neo-gpu-cloud-2026-07-02",
@@ -677,6 +911,58 @@
       "summaryEngine": "chat-curated",
       "curatedAt": "2026-07-05T13:14:57.298Z",
       "whyItMatters": "The AI infrastructure market is attracting more capital providers even as neocloud margins and differentiation remain uncertain."
+    },
+    {
+      "id": "curated-arxiv-coding-agent-steerability-constraints-2026-07-03",
+      "title": "Paper says constraints can make coding-agent review scale better",
+      "summary": "An arXiv paper argues that constraints, access controls, policies, and conventions can improve scalable oversight of coding agents.",
+      "fullSummary": "An arXiv paper on steerability studies how constraints can make coding agents easier to review and control. The authors test access control, policies, conventions, and task constraints as oversight aids, focusing on whether reviewers can detect problematic agent behavior. In one backdoor-review setting, small-reviewer recall rose from 54.5% to 90.9%, suggesting that well-designed constraints can improve human and automated oversight.",
+      "keyFacts": [
+        "The paper evaluates constraints for scalable oversight of coding agents",
+        "Constraints include access controls, policies, conventions, and task structure",
+        "In one setting, small-reviewer backdoor recall rose from 54.5% to 90.9%"
+      ],
+      "url": "https://arxiv.org/abs/2607.02389",
+      "sourceName": "arXiv",
+      "relatedSources": [
+        "coding agents",
+        "scalable oversight",
+        "AI security"
+      ],
+      "lane": "security",
+      "publishedAt": "2026-07-02T16:24:47.000Z",
+      "importance": 825,
+      "sourceConfidence": "high",
+      "filterCategory": "papers",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-05T13:43:14.110Z",
+      "whyItMatters": "The practical path to safer coding agents may be tighter task and permission design, not only stronger model monitoring."
+    },
+    {
+      "id": "curated-arxiv-hardware-semantic-coordination-autonomous-systems-2026-07-03",
+      "title": "Researchers propose hardware-enforced coordination for autonomous AI",
+      "summary": "An arXiv paper proposes FPGA-based semantic coordination for safety-critical autonomous systems that need deterministic gating and authorization.",
+      "fullSummary": "An arXiv paper proposes hardware-enforced semantic coordination for safety-critical autonomous systems. The authors argue that autonomous AI systems need deterministic authorization, synchronization, and gating mechanisms that are not left entirely to software policies. Their design uses FPGA-based coordination to enforce semantic constraints in real time, targeting settings where timing and safety guarantees matter.",
+      "keyFacts": [
+        "The proposal targets safety-critical autonomous systems",
+        "It uses FPGA-based enforcement for semantic coordination",
+        "The paper emphasizes deterministic gating, authorization, and synchronization"
+      ],
+      "url": "https://arxiv.org/abs/2607.02376",
+      "sourceName": "arXiv",
+      "relatedSources": [
+        "FPGAs",
+        "autonomous systems",
+        "AI safety"
+      ],
+      "lane": "safety",
+      "publishedAt": "2026-07-02T16:16:41.000Z",
+      "importance": 800,
+      "sourceConfidence": "high",
+      "filterCategory": "papers",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-05T13:43:14.110Z",
+      "whyItMatters": "As autonomy moves into real-time systems, some safety controls may need hardware-backed guarantees rather than advisory software checks."
     },
     {
       "id": "curated-techcrunch-microsoft-frontier-company-2026-07-02",
@@ -757,6 +1043,32 @@
       "whyItMatters": "Cheaper agent evaluation would make model routing and development decisions less dependent on slow, expensive benchmark runs."
     },
     {
+      "id": "curated-arxiv-page-agent-javascript-dom-control-2026-07-02",
+      "title": "Alibaba Page Agent controls web interfaces through the DOM",
+      "summary": "MarkTechPost reports on Alibaba's Page Agent, a JavaScript in-page GUI agent that controls web interfaces through DOM-level natural-language actions.",
+      "fullSummary": "MarkTechPost reports on Alibaba's Page Agent, a JavaScript in-page GUI agent for controlling web interfaces with natural language. Instead of relying only on screenshots or external browser automation, Page Agent runs in the page and acts through DOM-level structure. The approach is meant to make web agents more precise, auditable, and deployable across ordinary interfaces.",
+      "keyFacts": [
+        "Page Agent is a JavaScript in-page GUI agent",
+        "It controls web interfaces using DOM-level structure",
+        "The design targets natural-language web automation with more precise page context"
+      ],
+      "url": "https://www.marktechpost.com/2026/07/02/meet-alibabas-page-agent-a-javascript-in-page-gui-agent-that-controls-web-interfaces-with-natural-language-through-the-dom/",
+      "sourceName": "MarkTechPost",
+      "relatedSources": [
+        "Alibaba",
+        "Page Agent",
+        "web agents"
+      ],
+      "lane": "agents",
+      "publishedAt": "2026-07-02T09:00:00.000Z",
+      "importance": 800,
+      "sourceConfidence": "high",
+      "filterCategory": "papers",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-05T13:43:14.110Z",
+      "whyItMatters": "Web agents need reliable page structure, and DOM-native control is a different safety and precision tradeoff from screen-only automation."
+    },
+    {
       "id": "curated-guardian-openai-us-government-5pct-stake-2026-07-02",
       "title": "OpenAI explores giving the U.S. government a 5% stake",
       "summary": "The Guardian reported, citing the Financial Times, that OpenAI is in early talks about giving the U.S. government a 5% stake as Sam Altman argues for sharing AI-driven wealth with the public.",
@@ -781,6 +1093,32 @@
       "summaryEngine": "chat-curated",
       "curatedAt": "2026-07-02T10:00:00.000Z",
       "whyItMatters": "Public equity talks would turn frontier AI governance into a direct wealth-sharing and political-legitimacy issue, not just a safety or export-control debate."
+    },
+    {
+      "id": "curated-arxiv-vera-agent-safety-testing-2026-07-03",
+      "title": "Vera benchmark finds high attack success against production agent frameworks",
+      "summary": "An arXiv paper introduces Vera, a framework for safety testing LLM agents at scale, and reports high attack success rates across several production-style systems.",
+      "fullSummary": "An arXiv paper introduces Vera, a framework for safety testing LLM agents from risk discovery to evidence-grounded verification. The authors test agent frameworks including OpenClaw, Hermes, Codex, and Claude Code and report average attack success rates as high as 93.9% in evaluated scenarios. They also release Vera-Bench, a set of 1,600 executable safety cases for comparing agent defenses.",
+      "keyFacts": [
+        "Vera tests LLM agents from risk discovery through verification",
+        "The paper evaluates OpenClaw, Hermes, Codex, and Claude Code",
+        "The authors report attack success rates up to 93.9% and introduce Vera-Bench"
+      ],
+      "url": "https://arxiv.org/abs/2607.01793",
+      "sourceName": "arXiv",
+      "relatedSources": [
+        "Vera",
+        "Vera-Bench",
+        "Claude Code"
+      ],
+      "lane": "security",
+      "publishedAt": "2026-07-02T07:08:26.000Z",
+      "importance": 865,
+      "sourceConfidence": "high",
+      "filterCategory": "papers",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-05T13:43:14.110Z",
+      "whyItMatters": "Agent products are entering everyday workflows while their tool-use attack surface is still highly exploitable in benchmarked settings."
     },
     {
       "id": "curated-ft-white-house-ai-model-standards-2026-07-02",
@@ -23324,7 +23662,7 @@
     }
   ],
   "errors": [],
-  "totalItems": 847,
-  "lastRefresh": "2026-07-05T13:14:57.298Z",
-  "count": 847
+  "totalItems": 860,
+  "lastRefresh": "2026-07-05T13:43:14.110Z",
+  "count": 860
 }
