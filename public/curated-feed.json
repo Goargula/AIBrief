@@ -1,9 +1,479 @@
 {
-  "generatedAt": "2026-07-03T02:35:00.000Z",
-  "nextRefreshAt": "2026-07-03T14:35:00.000Z",
+  "generatedAt": "2026-07-05T13:14:57.298Z",
+  "nextRefreshAt": "2026-07-06T01:14:57.298Z",
   "summaryEngine": "chat-curated",
   "curated": true,
   "items": [
+    {
+      "id": "curated-guardian-ratepayer-protection-act-datacenters-2026-07-05",
+      "title": "Critics say U.S. data-center bill would not shield ratepayers",
+      "summary": "The Guardian reports that consumer and environmental advocates say the Ratepayer Protection Act is too voluntary to stop AI data-center costs from being shifted to households.",
+      "fullSummary": "The Guardian reports that U.S. consumer and environmental advocates are warning that the Ratepayer Protection Act would not meaningfully protect ratepayers from AI data-center costs. The bill is framed around shielding households from electricity-price increases, but critics say its guidance for state utility commissions is largely voluntary while other provisions would speed data-center construction and grid connections. Advocates argue that electricity, water, pollution, and infrastructure costs need stronger controls before more AI data centers are fast-tracked.",
+      "keyFacts": [
+        "The bill moved through a House subcommittee but a full committee vote was delayed",
+        "Critics say state utility commissions could ignore the ratepayer guidance",
+        "Advocates are calling for slower data-center buildout and stronger consumer protections"
+      ],
+      "url": "https://www.theguardian.com/us-news/2026/jul/05/ratepayer-protection-act-datacenters",
+      "sourceName": "The Guardian",
+      "relatedSources": [
+        "U.S. Congress",
+        "Food and Water Watch",
+        "Center for Biological Diversity"
+      ],
+      "lane": "infrastructure",
+      "publishedAt": "2026-07-05T12:00:00.000Z",
+      "importance": 960,
+      "sourceConfidence": "high",
+      "filterCategory": "pushback",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-05T13:14:57.298Z",
+      "whyItMatters": "AI infrastructure costs are becoming a utility-bill and permitting fight, not just a Big Tech capex story."
+    },
+    {
+      "id": "curated-et-orbital-space-data-centres-ai-2026-07-05",
+      "title": "Orbital seeks FCC clearance for 100,000 AI data-center satellites",
+      "summary": "The Economic Times reports that Orbital plans space-based data centers for AI workloads and has filed for FCC clearance to operate up to 100,000 satellites.",
+      "fullSummary": "The Economic Times reports that U.S. startup Orbital wants to build space-based data centers for AI inference workloads. Founder Euwyn Poon said the company has filed with the FCC for clearance to place up to 100,000 satellites in low Earth orbit, targeting 10 gigawatts of compute capacity. Orbital plans a first data-center satellite launch next year and argues that cheaper Starship launches could make large-scale orbital compute practical later in the decade.",
+      "keyFacts": [
+        "Orbital is seeking FCC clearance for up to 100,000 low-Earth-orbit satellites",
+        "The company targets 10 gigawatts of AI compute capacity",
+        "Its first data-center satellite is planned for launch next year"
+      ],
+      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/orbital-plans-space-data-centres-to-power-ai-seeks-fcc-clearance-for-100000-satellites/articleshow/132186475.cms",
+      "sourceName": "The Economic Times",
+      "relatedSources": [
+        "Orbital",
+        "FCC",
+        "Starship"
+      ],
+      "lane": "infrastructure",
+      "publishedAt": "2026-07-05T03:56:58.000Z",
+      "importance": 940,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-05T13:14:57.298Z",
+      "whyItMatters": "The proposal shows how extreme the search for AI compute capacity has become as terrestrial power, cooling, and land constraints bite."
+    },
+    {
+      "id": "curated-guardian-nhs-ai-app-triage-2026-07-04",
+      "title": "NHS will use AI in its app to route patients to care",
+      "summary": "The Guardian reports that the NHS will add AI triage to its app, starting with 200,000 patients before a planned nationwide rollout by April 2028.",
+      "fullSummary": "The Guardian reports that the NHS will begin using AI in its app to help direct patients to the right care setting. The system will triage users and recommend whether they should seek a GP appointment, go to a pharmacy, or attend A&E. The first stage is expected to reach 200,000 patients over the next year, with nationwide availability planned by April 2028, though health leaders are warning about privacy, digital exclusion, and overstated productivity claims.",
+      "keyFacts": [
+        "The AI triage tool will start with 200,000 patients over the next year",
+        "A nationwide rollout is planned by April 2028",
+        "Health leaders want clearer safeguards around privacy, evidence, and digital access"
+      ],
+      "url": "https://www.theguardian.com/society/2026/jul/04/nhs-ai-app-patients-appropriate-services-health",
+      "sourceName": "The Guardian",
+      "relatedSources": [
+        "NHS",
+        "UK Department of Health",
+        "Health Foundation"
+      ],
+      "lane": "healthcare",
+      "publishedAt": "2026-07-04T21:30:08.000Z",
+      "importance": 950,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-05T13:14:57.298Z",
+      "whyItMatters": "This is a large public-sector AI deployment where the benefits depend as much on safeguards and access as on the model."
+    },
+    {
+      "id": "curated-techcrunch-google-declaration-ai-ad-2026-07-04",
+      "title": "Google's July 4 ad puts AI into the Declaration of Independence",
+      "summary": "TechCrunch reports that Google's July 4 commercial imagines the founders using Workspace and Gemini while drafting the Declaration of Independence, drawing a mixed reaction online.",
+      "fullSummary": "TechCrunch reports that Google released a July 4 commercial imagining the Declaration of Independence as a Google Workspace collaboration. The ad uses Gemini for meeting notes, visual ideation, and document-access jokes while avoiding the idea that AI would improve the actual text. The piece notes that the AI angle drew criticism on Bluesky even as YouTube and Instagram responses appeared more positive.",
+      "keyFacts": [
+        "The ad was published for the 250th anniversary of the Declaration of Independence",
+        "Gemini is shown taking meeting notes and helping with visual ideas",
+        "Some online critics called the AI framing tone-deaf"
+      ],
+      "url": "https://techcrunch.com/2026/07/04/new-google-commercial-imagines-a-declaration-of-independence-written-with-help-from-ai/",
+      "sourceName": "TechCrunch",
+      "relatedSources": [
+        "Google",
+        "Gemini",
+        "Google Workspace"
+      ],
+      "lane": "media",
+      "publishedAt": "2026-07-04T20:55:00.000Z",
+      "importance": 780,
+      "sourceConfidence": "high",
+      "filterCategory": "pushback",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-05T13:14:57.298Z",
+      "whyItMatters": "Consumer AI marketing is still colliding with cultural sensitivity, especially when ads imply AI belongs in high-stakes human writing."
+    },
+    {
+      "id": "curated-guardian-australia-ai-scribes-privacy-warning-2026-07-04",
+      "title": "Australia warns over doctors' fast-growing use of AI scribes",
+      "summary": "The Guardian reports that Australia's health department has flagged privacy, consent, safety, and Medicare-cost concerns as AI scribes spread through medical practices.",
+      "fullSummary": "The Guardian reports that Australia's federal health department is warning about the rapid rise of AI scribes in healthcare. Briefing documents say the tools have little oversight, may route patient data overseas, and are often marketed as outside medical-device regulation. The department also raised concerns about inconsistent patient consent, possible Medicare cost effects, and the risk that LLM errors could affect clinical records.",
+      "keyFacts": [
+        "A RACGP poll found GP use of AI scribes rose from 22% in August 2024 to 40% in November 2025",
+        "Australian officials warned about data security, consent, and regulatory gaps",
+        "The TGA is reviewing whether digital scribes need stronger oversight"
+      ],
+      "url": "https://www.theguardian.com/australia-news/2026/jul/05/doctors-ai-scribes-australia-government-privacy-warning",
+      "sourceName": "The Guardian",
+      "relatedSources": [
+        "Australian Department of Health",
+        "RACGP",
+        "Therapeutic Goods Administration"
+      ],
+      "lane": "healthcare",
+      "publishedAt": "2026-07-04T20:00:07.000Z",
+      "importance": 930,
+      "sourceConfidence": "high",
+      "filterCategory": "pushback",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-05T13:14:57.298Z",
+      "whyItMatters": "Ambient clinical AI is moving faster than consent and medical-device rules, making healthcare a live test of AI governance."
+    },
+    {
+      "id": "curated-techcrunch-midjourney-hollywood-ai-discovery-2026-07-04",
+      "title": "Midjourney pushes studios to disclose their own AI use",
+      "summary": "TechCrunch reports that Midjourney is trying to force Disney, Universal, and Warner Bros. to reveal more about their own AI usage in copyright litigation.",
+      "fullSummary": "TechCrunch reports that Midjourney is seeking broader discovery from Hollywood studios that sued it for copyright infringement. Disney, Universal, and Warner Bros. were ordered to provide information about consumer-facing generative AI outputs, but Midjourney now wants more internal AI-use records and prompts. The company argues those records could support its fair-use defense by showing whether studios themselves train or use generative tools on copyrighted content.",
+      "keyFacts": [
+        "Disney, Universal, and Warner Bros. have sued Midjourney over alleged infringement",
+        "Midjourney wants broader discovery into the studios' internal generative AI use",
+        "The studios' lawyer has described the request as a fishing expedition"
+      ],
+      "url": "https://techcrunch.com/2026/07/04/midjourney-wants-hollywood-studios-to-reveal-the-details-of-their-ai-usage/",
+      "sourceName": "TechCrunch",
+      "relatedSources": [
+        "Midjourney",
+        "Disney",
+        "Universal",
+        "Warner Bros."
+      ],
+      "lane": "legal",
+      "publishedAt": "2026-07-04T18:00:00.000Z",
+      "importance": 920,
+      "sourceConfidence": "high",
+      "filterCategory": "pushback",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-05T13:14:57.298Z",
+      "whyItMatters": "The fight could expose whether copyright plaintiffs are also using generative AI in ways that complicate their market-harm claims."
+    },
+    {
+      "id": "curated-techcrunch-alibaba-claude-code-ban-2026-07-04",
+      "title": "Alibaba reportedly bans workplace use of Claude Code",
+      "summary": "TechCrunch reports that Alibaba will ban employees from using Claude Code at work from July 10, citing high-risk software concerns and steering staff to Qoder.",
+      "fullSummary": "TechCrunch reports that Alibaba is banning employees from using Anthropic's Claude Code in workplace environments starting July 10. The move follows reports that Anthropic has been closing access loopholes for Chinese users and had experimented with covert code to identify unauthorized resellers. Alibaba reportedly classified Claude Code as high-risk software and is directing employees toward its own Qoder coding tool.",
+      "keyFacts": [
+        "The reported ban takes effect July 10",
+        "Alibaba is steering employees to its Qoder coding tool",
+        "Anthropic already prohibits Chinese companies from using its models"
+      ],
+      "url": "https://techcrunch.com/2026/07/04/alibaba-reportedly-bans-employees-from-using-claude-code/",
+      "sourceName": "TechCrunch",
+      "relatedSources": [
+        "Alibaba",
+        "Anthropic",
+        "Claude Code"
+      ],
+      "lane": "security",
+      "publishedAt": "2026-07-04T16:32:00.000Z",
+      "importance": 900,
+      "sourceConfidence": "high",
+      "filterCategory": "pushback",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-05T13:14:57.298Z",
+      "whyItMatters": "AI coding tools are becoming part of geopolitical access control and enterprise software-risk policy."
+    },
+    {
+      "id": "curated-guardian-openai-stargate-uk-site-questions-2026-07-04",
+      "title": "OpenAI's stalled Stargate UK plan faces site-visit questions",
+      "summary": "The Guardian reports that OpenAI does not appear to have visited a key Stargate UK site and that much of the touted investment may have been hypothetical.",
+      "fullSummary": "The Guardian reports that OpenAI's paused Stargate UK data-center plan is facing new questions. Freedom of information records suggest OpenAI and Nscale did not meet local authorities at the Cobalt Park site, while only Nvidia appears to have visited months after the announcement. The article also says GBP20 billion of the GBP30 billion investment figure presented by the UK government was potential rather than committed funding, raising concerns that the project was more announcement than executable plan.",
+      "keyFacts": [
+        "OpenAI paused the Stargate UK plan in April over energy and regulation concerns",
+        "FOI records showed no local-authority meetings by OpenAI or Nscale at the key site",
+        "Critics say GBP20 billion of the touted investment was hypothetical"
+      ],
+      "url": "https://www.theguardian.com/technology/2026/jul/04/openai-apparent-failure-visit-key-site-questions-stargate-uk-project",
+      "sourceName": "The Guardian",
+      "relatedSources": [
+        "OpenAI",
+        "Nscale",
+        "Nvidia",
+        "UK government"
+      ],
+      "lane": "infrastructure",
+      "publishedAt": "2026-07-04T12:00:12.000Z",
+      "importance": 955,
+      "sourceConfidence": "high",
+      "filterCategory": "pushback",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-05T13:14:57.298Z",
+      "whyItMatters": "National AI-infrastructure announcements are being stress-tested against real power, permitting, and committed-capital constraints."
+    },
+    {
+      "id": "curated-verge-fanfiction-ai-war-2026-07-04",
+      "title": "Fanfiction communities split over AI detection and authorship",
+      "summary": "The Verge reports that fanfiction readers and writers are fighting over generative AI use, detection tools, and whether suspected AI-written works should be policed.",
+      "fullSummary": "The Verge reports that fanfiction communities are in conflict over whether and how to detect generative AI in fanworks. Readers are trying to identify AI-written stories, but the tools and signals they rely on are unreliable and can wrongly accuse human writers. The dispute shows how AI authorship suspicion can damage trust in creative communities even when there is no clear technical way to prove a text's origin.",
+      "keyFacts": [
+        "Fanfiction readers are using informal methods and tools to spot suspected AI-written works",
+        "Detection remains unreliable and risks false accusations",
+        "The dispute is changing trust between writers, readers, and moderators"
+      ],
+      "url": "https://www.theverge.com/tech/960854/ai-fanfiction-ao3-claude-detector",
+      "sourceName": "The Verge",
+      "relatedSources": [
+        "Fanfiction communities",
+        "Generative AI detection"
+      ],
+      "lane": "culture",
+      "publishedAt": "2026-07-04T10:00:00.000Z",
+      "importance": 760,
+      "sourceConfidence": "high",
+      "filterCategory": "pushback",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-05T13:14:57.298Z",
+      "whyItMatters": "The everyday cost of AI-generated text is showing up as suspicion and moderation burden in volunteer creative communities."
+    },
+    {
+      "id": "curated-guardian-ai-nudification-apps-children-2026-07-03",
+      "title": "UK watchdogs warn parents about AI nudification apps",
+      "summary": "The Guardian reports that the NCA and Internet Watch Foundation are warning parents that AI nudification tools are turning ordinary images of children into abuse material.",
+      "fullSummary": "The Guardian reports that UK child-safety watchdogs are warning parents about the misuse of AI nudification apps. The National Crime Agency and Internet Watch Foundation say predators can turn ordinary photos of children into explicit AI-generated material without any contact with the victim. The IWF identified 8,029 realistic AI-generated child sexual abuse images and videos in 2025, and officials are urging both safer sharing practices and AI systems designed to block abuse.",
+      "keyFacts": [
+        "The IWF identified 8,029 realistic AI-generated CSAM images and videos in 2025",
+        "The NCA and IWF are urging parents to limit public sharing of children's photos",
+        "The UK is moving to restrict tools designed to generate child sexual abuse material"
+      ],
+      "url": "https://www.theguardian.com/society/2026/jul/03/ai-prey-watchdogs-telling-parents-protect-children-nudification-apps",
+      "sourceName": "The Guardian",
+      "relatedSources": [
+        "National Crime Agency",
+        "Internet Watch Foundation",
+        "UK government"
+      ],
+      "lane": "safety",
+      "publishedAt": "2026-07-03T17:30:00.000Z",
+      "importance": 965,
+      "sourceConfidence": "high",
+      "filterCategory": "pushback",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-05T13:14:57.298Z",
+      "whyItMatters": "This is a concrete abuse case where open image-generation capability is outpacing enforcement and parental awareness."
+    },
+    {
+      "id": "curated-et-biren-tech-hong-kong-placement-2026-07-03",
+      "title": "Biren Tech seeks up to $838M in Hong Kong placement",
+      "summary": "The Economic Times reports that Chinese AI chip designer Biren Tech plans to raise roughly $801 million to $838 million through a Hong Kong share placement.",
+      "fullSummary": "The Economic Times reports that Shanghai Biren Technology plans to raise about $801 million to $838 million through a Hong Kong share placement, citing a term sheet. The Chinese fabless chip designer is seeking capital amid intense competition in AI semiconductors. The article positions the planned placement as another sign of large funding needs among AI chip companies.",
+      "keyFacts": [
+        "Biren Tech is seeking roughly $801 million to $838 million",
+        "The fundraising would be through a Hong Kong share placement",
+        "Biren is a Chinese fabless semiconductor designer tied to AI chips"
+      ],
+      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/chinese-chip-firm-biren-tech-seeks-up-to-838-million-in-hong-kong-placement-term-sheet-shows/articleshow/132163691.cms",
+      "sourceName": "The Economic Times",
+      "relatedSources": [
+        "Biren Technology",
+        "Hong Kong market",
+        "Reuters"
+      ],
+      "lane": "chips",
+      "publishedAt": "2026-07-03T14:25:14.000Z",
+      "importance": 900,
+      "sourceConfidence": "high",
+      "filterCategory": "funding",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-05T13:14:57.298Z",
+      "whyItMatters": "China's AI chip companies still need large pools of capital as compute sovereignty and export controls reshape the market."
+    },
+    {
+      "id": "curated-verge-anthropic-develop-own-drugs-2026-07-03",
+      "title": "Anthropic says it wants to develop drugs in-house",
+      "summary": "The Verge reports that Anthropic is moving beyond AI tools for science by saying it wants to discover treatments itself, starting with neglected diseases.",
+      "fullSummary": "The Verge reports that Anthropic used its Claude Science launch to say it wants to develop drugs of its own. Head of life sciences Eric Kauderer-Abrams said the company will focus on neglected diseases, placing Anthropic in the unusual position of both selling AI tools to drugmakers and potentially becoming a drug developer. Experts told The Verge that AI can help across drug discovery, but real-world experiments, clinical trials, and regulatory approval remain long and expensive.",
+      "keyFacts": [
+        "Anthropic announced Claude Science as an AI workbench for scientists",
+        "The company says it wants to discover treatments for neglected diseases",
+        "No AI-designed drug has yet received FDA approval"
+      ],
+      "url": "https://www.theverge.com/ai-artificial-intelligence/961311/anthropic-claude-science-ai-drug-development",
+      "sourceName": "The Verge",
+      "relatedSources": [
+        "Anthropic",
+        "Claude Science",
+        "AI drug discovery"
+      ],
+      "lane": "healthcare",
+      "publishedAt": "2026-07-03T13:56:52.000Z",
+      "importance": 945,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-05T13:14:57.298Z",
+      "whyItMatters": "Frontier model labs are starting to move from selling science tooling into directly competing in scientific and biomedical markets."
+    },
+    {
+      "id": "curated-et-india-ai-hiring-outpaces-it-2026-07-03",
+      "title": "AI hiring rises in India while overall IT recruitment falls",
+      "summary": "The Economic Times reports that Indian AI roles rose 16% year over year in June while overall IT hiring declined 3%, according to Naukri's JobSpeak report.",
+      "fullSummary": "The Economic Times reports that AI hiring in India's IT sector outpaced overall technology recruitment in June. Naukri's JobSpeak report found AI roles rose 16% year over year while overall IT jobs fell 3%. The divergence comes as India's $315 billion IT services sector faces slower client spending and companies shift investment toward AI skills and agents.",
+      "keyFacts": [
+        "AI roles in India's IT sector rose 16% year over year in June",
+        "Overall IT hiring declined 3%",
+        "Naukri's report covered job listings from more than 150,000 firms"
+      ],
+      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/ai-hiring-outpaces-overall-it-recruitment-in-india-report/articleshow/132161120.cms",
+      "sourceName": "The Economic Times",
+      "relatedSources": [
+        "Naukri",
+        "Info Edge",
+        "Tata Consultancy Services"
+      ],
+      "lane": "workforce",
+      "publishedAt": "2026-07-03T12:16:36.000Z",
+      "importance": 880,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-05T13:14:57.298Z",
+      "whyItMatters": "India's IT labor market is showing the AI reallocation pattern directly: fewer broad IT roles, more specialized AI demand."
+    },
+    {
+      "id": "curated-verge-midjourney-medical-scanner-questions-2026-07-03",
+      "title": "Midjourney's medical scanner video leaves basic questions open",
+      "summary": "The Verge reports that Midjourney showed more of its ultrasound scanner but still has not answered expert questions about whether the system can work as promised.",
+      "fullSummary": "The Verge reports that Midjourney released a behind-the-scenes video of its planned ultrasound scanner, a dunk-tank-like device the company wants to deploy first as a wellness product. The video showed hardware and build details but did not resolve expert concerns about ultrasound physics, clinical evidence, or whether the system can produce the detailed images Midjourney has implied. The company says focusing on body composition may let it launch faster than a diagnostic medical device.",
+      "keyFacts": [
+        "Midjourney presented the scanner as a wellness product focused on body composition",
+        "Experts say the company has not shown evidence it can overcome ultrasound limits",
+        "A diagnostic medical device path would require FDA clearance and clinical trials"
+      ],
+      "url": "https://www.theverge.com/ai-artificial-intelligence/961265/midjourney-medical-ultrasound-scanner-behind-the-scenes-video",
+      "sourceName": "The Verge",
+      "relatedSources": [
+        "Midjourney",
+        "Medical imaging",
+        "FDA"
+      ],
+      "lane": "healthcare",
+      "publishedAt": "2026-07-03T11:49:10.000Z",
+      "importance": 900,
+      "sourceConfidence": "high",
+      "filterCategory": "pushback",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-05T13:14:57.298Z",
+      "whyItMatters": "The story tests how far an AI company can stretch into healthcare hardware before evidence and regulation catch up."
+    },
+    {
+      "id": "curated-register-ai-bills-usage-pricing-2026-07-03",
+      "title": "KPMG finds AI usage pricing is confusing executives",
+      "summary": "The Register reports that KPMG found nearly a third of senior leaders struggle to understand AI operating costs as vendors shift toward usage-based billing.",
+      "fullSummary": "The Register reports that KPMG found 29% of senior leaders struggle to understand and control AI operating costs at scale. The report comes as Anthropic, OpenAI, and GitHub move some services from flat-rate subscriptions toward usage-based pricing. KPMG also found that some organizations are rephasing AI deployments when costs outweigh expected value, making cost governance a bigger part of enterprise AI adoption.",
+      "keyFacts": [
+        "KPMG surveyed 2,145 senior leaders across 20 countries",
+        "29% reported difficulty understanding AI operating costs at scale",
+        "Nearly half of organizations rephased AI deployments when costs outweighed value"
+      ],
+      "url": "https://www.theregister.com/ai-and-ml/2026/07/03/ai-bills-are-baffling-the-c-suite-after-shift-to-usage-based-pricing/5266383",
+      "sourceName": "The Register",
+      "relatedSources": [
+        "KPMG",
+        "OpenAI",
+        "Anthropic",
+        "GitHub"
+      ],
+      "lane": "enterprise",
+      "publishedAt": "2026-07-03T11:35:00.000Z",
+      "importance": 885,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-05T13:14:57.298Z",
+      "whyItMatters": "Enterprise AI adoption is increasingly limited by unit economics and governance, not just model capability."
+    },
+    {
+      "id": "curated-businessinsider-blackstone-ai-meetings-2026-07-03",
+      "title": "Blackstone's AI transformation depends on in-person workflow work",
+      "summary": "Business Insider reports that Blackstone's AI push includes hands-on workflow redesign by Sophia Oguri for major investors in AI infrastructure.",
+      "fullSummary": "Business Insider reports that Sophia Oguri is helping Blackstone translate AI ambitions into changed workflows for major investors in AI infrastructure. The article frames the work as intensely human and meeting-heavy, not just a matter of deploying tools. It shows how large financial firms are trying to operationalize AI across teams while remaining deeply tied to people, process, and coordination.",
+      "keyFacts": [
+        "Business Insider profiled Sophia Oguri's AI-transformation work at Blackstone",
+        "The work focuses on redesigning workflows for major investors in AI infrastructure",
+        "The article emphasizes coordination and meetings as much as software deployment"
+      ],
+      "url": "https://www.businessinsider.com/ai-private-equity-investing-blackstone-applied-engineer-2026-7",
+      "sourceName": "Business Insider",
+      "relatedSources": [
+        "Blackstone",
+        "Sophia Oguri",
+        "AI infrastructure investors"
+      ],
+      "lane": "enterprise",
+      "publishedAt": "2026-07-03T09:12:01.258Z",
+      "importance": 780,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-05T13:14:57.298Z",
+      "whyItMatters": "The piece is a useful counterweight to tool hype: large-scale AI transformation still depends on slow process redesign."
+    },
+    {
+      "id": "curated-ai-news-takeda-insilico-drug-discovery-2026-07-03",
+      "title": "Takeda signs $600M AI drug-discovery deal with Insilico",
+      "summary": "AI News reports that Takeda has signed a potential $600 million AI drug-discovery partnership with Insilico Medicine.",
+      "fullSummary": "AI News reports that Takeda has signed a potential $600 million AI drug-discovery deal with Insilico Medicine. The partnership gives Takeda access to Insilico's AI platform for identifying and advancing therapeutic candidates, adding another major pharmaceutical company to the group using AI systems in discovery pipelines. The deal also extends the broader pattern of pharma firms using external AI platforms while they build internal scientific AI capabilities.",
+      "keyFacts": [
+        "Takeda signed a potential $600 million partnership with Insilico Medicine",
+        "The deal centers on AI-assisted drug discovery",
+        "It adds to a wave of pharma partnerships with AI-first discovery companies"
+      ],
+      "url": "https://www.artificialintelligence-news.com/news/takeda-insilico-ai-drug-discovery-deal/",
+      "sourceName": "AI News",
+      "relatedSources": [
+        "Takeda",
+        "Insilico Medicine"
+      ],
+      "lane": "healthcare",
+      "publishedAt": "2026-07-03T09:00:00.000Z",
+      "importance": 900,
+      "sourceConfidence": "high",
+      "filterCategory": "funding",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-05T13:14:57.298Z",
+      "whyItMatters": "AI drug discovery keeps moving from pilots into large commercial partnerships with milestone-heavy economics."
+    },
+    {
+      "id": "curated-wsj-kling-raises-2-8b-spinoff-2026-07-03",
+      "title": "Kuaishou's Kling raises $2.8B ahead of planned spinoff",
+      "summary": "The Wall Street Journal reports that Kuaishou's AI video unit Kling raised $2.8 billion as the company prepares a possible Hong Kong listing.",
+      "fullSummary": "The Wall Street Journal reports that Kuaishou's AI video unit Kling raised $2.8 billion from investors as part of a planned restructuring and potential Hong Kong listing. The round could still rise to $3 billion and values Kling at $18 billion. Kling makes AI video models for movies, ads, and social-media content, competing with tools from Google, Runway, and ByteDance.",
+      "keyFacts": [
+        "Kling raised 19.04 billion yuan, or about $2.8 billion",
+        "The round values the AI video unit at $18 billion",
+        "Kuaishou is preparing a possible spinoff and Hong Kong listing"
+      ],
+      "url": "https://www.wsj.com/tech/kling-raises-2-billion-amid-planned-spinoff-from-kuaishou-8fcd1571",
+      "sourceName": "Wall Street Journal",
+      "relatedSources": [
+        "Kuaishou",
+        "Kling",
+        "Tencent",
+        "CPE"
+      ],
+      "lane": "funding",
+      "publishedAt": "2026-07-03T02:43:00.000Z",
+      "importance": 955,
+      "sourceConfidence": "high",
+      "filterCategory": "funding",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-05T13:14:57.298Z",
+      "whyItMatters": "Large AI video rounds show investors still assigning platform-level valuations to creative-model businesses despite uncertain monetization."
+    },
     {
       "id": "curated-guardian-australia-musicians-ai-copyright-2026-07-03",
       "title": "Australian musicians urge Albanese not to weaken copyright for AI training",
@@ -107,6 +577,32 @@
       "whyItMatters": "When a sandwich-chain IPO leans on AI risk language, AI has become a market narrative that extends well beyond actual AI companies."
     },
     {
+      "id": "curated-register-agentic-ransomware-jadepuffer-2026-07-02",
+      "title": "Researchers document an end-to-end agentic ransomware attack",
+      "summary": "The Register reports that Sysdig researchers documented what they call the first end-to-end agentic ransomware infection driven by an LLM.",
+      "fullSummary": "The Register reports that Sysdig threat researchers documented what they describe as the first end-to-end agentic ransomware attack driven by an LLM. The incident, named JadePuffer, exploited an exposed Langflow instance, scanned for secrets, connected to a production MySQL and Nacos environment, created a backdoor administrator, encrypted configuration data, and generated a ransom note. Researchers warned that the attack lowered the skill floor for ransomware because the agent chained common weaknesses into a complete operation.",
+      "keyFacts": [
+        "Sysdig named the agentic intruder JadePuffer",
+        "The attack exploited CVE-2025-3248 in an exposed Langflow instance",
+        "The LLM-generated operation encrypted 1,342 Nacos service configuration items"
+      ],
+      "url": "https://www.theregister.com/security/2026/07/02/smooth-ai-criminal-drives-first-end-to-end-agentic-ransomware-attack/5266073",
+      "sourceName": "The Register",
+      "relatedSources": [
+        "Sysdig",
+        "Langflow",
+        "Nacos"
+      ],
+      "lane": "security",
+      "publishedAt": "2026-07-02T19:05:00.000Z",
+      "importance": 955,
+      "sourceConfidence": "high",
+      "filterCategory": "pushback",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-05T13:14:57.298Z",
+      "whyItMatters": "The attack shows AI agents being used to automate the full intrusion chain, not just assist individual hacking steps."
+    },
+    {
       "id": "curated-techcrunch-anthropic-samsung-custom-chip-2026-07-02",
       "title": "Anthropic discusses a custom AI chip with Samsung",
       "summary": "TechCrunch reports that Anthropic has been in contact with Samsung about a possible custom AI chip as frontier labs look for more control over compute supply and costs.",
@@ -155,6 +651,32 @@
       "summaryEngine": "chat-curated",
       "curatedAt": "2026-07-03T02:20:00.000Z",
       "whyItMatters": "Deployment-time alarms are a pragmatic safety layer for models that can still produce unsafe outputs after alignment training."
+    },
+    {
+      "id": "curated-register-softbank-sb-neo-gpu-cloud-2026-07-02",
+      "title": "SoftBank enters the U.S. rent-a-GPU market with SB Neo",
+      "summary": "The Register reports that SoftBank is creating SB Neo to offer U.S. AI training and inference infrastructure as the neocloud market expands.",
+      "fullSummary": "The Register reports that SoftBank is entering the U.S. neocloud market with a new company called SB Neo. The business will provide GPU cloud resources for AI training and inference, drawing on SoftBank's Infrinia AI Cloud OS and its Japanese beta service. SoftBank says it also plans gigawatt-scale AI data centers in Japan, while The Register notes that the economics of specialized GPU clouds remain fragile and capital-intensive.",
+      "keyFacts": [
+        "SB Neo is expected to begin operations in fiscal 2027",
+        "SoftBank Corp will own 51% and SoftBank Group will own 49%",
+        "The service will use SoftBank's Infrinia AI Cloud OS"
+      ],
+      "url": "https://www.theregister.com/ai-and-ml/2026/07/02/softbank-enters-the-rent-a-gpu-race-as-america-looks-for-support-for-ai-training/5265998",
+      "sourceName": "The Register",
+      "relatedSources": [
+        "SoftBank",
+        "SB Neo",
+        "Infrinia"
+      ],
+      "lane": "infrastructure",
+      "publishedAt": "2026-07-02T17:59:00.000Z",
+      "importance": 875,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-05T13:14:57.298Z",
+      "whyItMatters": "The AI infrastructure market is attracting more capital providers even as neocloud margins and differentiation remain uncertain."
     },
     {
       "id": "curated-techcrunch-microsoft-frontier-company-2026-07-02",
@@ -22802,7 +23324,7 @@
     }
   ],
   "errors": [],
-  "totalItems": 731,
-  "lastRefresh": "2026-06-30T03:45:00.000Z",
-  "count": 808
+  "totalItems": 847,
+  "lastRefresh": "2026-07-05T13:14:57.298Z",
+  "count": 847
 }
