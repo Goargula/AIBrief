@@ -1,9 +1,506 @@
 {
-  "generatedAt": "2026-07-05T14:02:01.967Z",
-  "nextRefreshAt": "2026-07-06T02:02:01.967Z",
+  "generatedAt": "2026-07-06T18:03:00.000Z",
+  "nextRefreshAt": "2026-07-07T06:03:00.000Z",
   "summaryEngine": "chat-curated",
   "curated": true,
   "items": [
+    {
+      "id": "curated-et-meta-watermelon-model-gpt55-2026-07-06",
+      "title": "Report says Meta's Watermelon model has reached GPT-5.5-level performance",
+      "summary": "Economic Times reports that Meta's next model, code-named Watermelon, has internally been described as matching GPT-5.5-level performance, including stronger coding and agent capabilities.",
+      "fullSummary": "Economic Times reports that Meta's upcoming AI model, code-named Watermelon, has reportedly reached performance levels comparable to OpenAI's GPT-5.5. The claim, attributed to Meta chief AI officer Alexandr Wang during an internal town hall, signals Meta's effort to regain credibility in frontier-model competition. The report follows months of pressure on Meta to improve coding, agentic capabilities, and internal AI infrastructure.",
+      "keyFacts": [
+        "The model is code-named Watermelon",
+        "The reported performance comparison is to OpenAI's GPT-5.5",
+        "Alexandr Wang reportedly discussed the model during an internal town hall"
+      ],
+      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/metas-next-model-watermelon-matches-gpt-5-5-performance-report/articleshow/132220285.cms",
+      "sourceName": "The Economic Times",
+      "relatedSources": [
+        "Meta",
+        "Alexandr Wang",
+        "OpenAI"
+      ],
+      "lane": "models",
+      "publishedAt": "2026-07-06T16:20:00.000Z",
+      "importance": 972,
+      "sourceConfidence": "medium",
+      "filterCategory": "models",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-06T18:03:00.000Z",
+      "whyItMatters": "If the internal benchmark claim holds, Meta's model race may be tightening again after months of doubts about its frontier position."
+    },
+    {
+      "id": "curated-microsoft-july-layoffs-ai-industry-shifts-2026-07-06",
+      "title": "Microsoft cuts 4,800 roles as AI reshapes its operating model",
+      "summary": "The Verge reports that Microsoft is laying off about 4,800 workers across sales and Xbox while leadership points to industry changes and AI's evolving impact.",
+      "fullSummary": "The Verge reports that Microsoft is cutting about 4,800 employees at the start of its new financial year, with reductions affecting commercial sales and Xbox. Microsoft says the roles are not being directly replaced by AI, but its people chief cited industry changes and AI's evolving impact as part of the restructuring context. The company also says it used voluntary retirement and redeployment efforts before the layoffs.",
+      "keyFacts": [
+        "The cuts amount to roughly 2.1% of Microsoft's workforce",
+        "Affected areas include commercial sales and Xbox",
+        "Microsoft says the roles are not directly being replaced by AI"
+      ],
+      "url": "https://www.theverge.com/news/961528/microsoft-layoffs-july-2026-sales-xbox",
+      "sourceName": "The Verge",
+      "relatedSources": [
+        "Microsoft",
+        "Xbox"
+      ],
+      "lane": "products-adoption",
+      "publishedAt": "2026-07-06T16:00:00.000Z",
+      "importance": 936,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-06T18:03:00.000Z",
+      "whyItMatters": "Large tech layoffs are increasingly being explained through AI-era operating changes even when companies avoid saying jobs are directly automated."
+    },
+    {
+      "id": "curated-bi-anthropic-terawulf-kentucky-datacenter-2026-07-06",
+      "title": "Anthropic signs 20-year Kentucky AI data-center lease",
+      "summary": "Business Insider reports that Anthropic has signed a 20-year lease with TeraWulf for a Kentucky AI infrastructure campus expected to support roughly 400 megawatts of computing capacity.",
+      "fullSummary": "Business Insider reports that Anthropic will anchor a new AI data-center campus in Hawesville, Kentucky under a 20-year lease with TeraWulf. The former industrial site is expected to generate about $19 billion of contracted revenue over the initial term and reach roughly 401 megawatts of capacity by early 2028. TeraWulf, which shifted from bitcoin mining into AI infrastructure, says the lease validates its power-sourcing and data-center strategy.",
+      "keyFacts": [
+        "The campus is planned for a 750-acre former Century Aluminum smelter site",
+        "TeraWulf says the lease is expected to produce about $19 billion in initial-term contracted revenue",
+        "The site is expected to begin partial operations in the second half of 2027"
+      ],
+      "url": "https://www.businessinsider.com/anthropic-terawulf-data-center-lease-hawesville-kentucky-2026-7",
+      "sourceName": "Business Insider",
+      "relatedSources": [
+        "Anthropic",
+        "TeraWulf",
+        "Hawesville, Kentucky"
+      ],
+      "lane": "infrastructure",
+      "publishedAt": "2026-07-06T15:00:00.000Z",
+      "importance": 982,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-06T18:03:00.000Z",
+      "whyItMatters": "The deal shows frontier labs locking in dedicated power and real estate years ahead of demand, turning model competition into long-duration infrastructure contracts."
+    },
+    {
+      "id": "curated-bi-atlas-world-cup-match-ball-2026-07-06",
+      "title": "Boston Dynamics' Atlas brings humanoid robotics to the World Cup",
+      "summary": "Business Insider reports that Boston Dynamics' Atlas delivered the match ball at the Brazil-Norway World Cup game, putting advanced humanoid robotics into a mainstream sporting moment.",
+      "fullSummary": "Business Insider reports that Boston Dynamics' Atlas humanoid robot appeared during the 2026 World Cup match between Brazil and Norway, delivering the match ball and imitating Erling Haaland's goal celebration. The article places the stunt in the wider humanoid-robot market, noting expectations for growth and upcoming home or factory deployments from companies including Boston Dynamics, Tesla, Weave, Sunday Robotics, and 1X. The event shows humanoids moving from lab demos into mass-market visibility.",
+      "keyFacts": [
+        "Atlas delivered the match ball during the Brazil-Norway World Cup game",
+        "Boston Dynamics is now owned by Hyundai and plans factory deployment for Atlas",
+        "Business Insider cites projections for humanoid robots to grow from a small market into tens of billions by 2030"
+      ],
+      "url": "https://www.businessinsider.com/humanoid-robot-world-cup-match-ball-norway-brazil-boston-dynamics-2026-7",
+      "sourceName": "Business Insider",
+      "relatedSources": [
+        "Boston Dynamics",
+        "Hyundai",
+        "World Cup 2026"
+      ],
+      "lane": "physical-ai",
+      "publishedAt": "2026-07-06T14:00:00.000Z",
+      "importance": 952,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-06T18:03:00.000Z",
+      "whyItMatters": "Public humanoid demos are becoming part of mainstream culture, helping normalize physical AI before broad commercial deployment."
+    },
+    {
+      "id": "curated-ibd-nvidia-kyber-delay-noise-2026-07-06",
+      "title": "Nvidia calls reported Kyber AI architecture delay noise",
+      "summary": "Investor's Business Daily reports that Nvidia dismissed a SemiAnalysis claim of major Kyber architecture delays, while analysts watched the implications for Rubin Ultra and co-packaged optics suppliers.",
+      "fullSummary": "Investor's Business Daily reports that Nvidia pushed back after SemiAnalysis claimed the company's next-generation Kyber AI-computing architecture had run into major delays. Kyber is expected to arrive with Rubin Ultra GPUs and change data-center server layouts to improve density and latency. Nvidia said its roadmap remains unchanged, while investors and suppliers watched whether any slippage would affect AI infrastructure timelines.",
+      "keyFacts": [
+        "SemiAnalysis claimed Kyber could be delayed by roughly 12 months",
+        "Nvidia dismissed the report and said its roadmap had not changed",
+        "Kyber is linked to Rubin Ultra systems and co-packaged optics demand"
+      ],
+      "url": "https://www.investors.com/news/technology/nvidia-stock-rumored-ai-computer-delay-called-noise/",
+      "sourceName": "Investor's Business Daily",
+      "relatedSources": [
+        "Nvidia",
+        "SemiAnalysis",
+        "Rubin Ultra"
+      ],
+      "lane": "infrastructure",
+      "publishedAt": "2026-07-06T13:30:00.000Z",
+      "importance": 962,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-06T18:03:00.000Z",
+      "whyItMatters": "AI infrastructure schedules depend on a small number of accelerator roadmaps, so even disputed delay reports can move supplier and capacity expectations."
+    },
+    {
+      "id": "curated-people-tilly-norwood-feature-film-debut-2026-07-06",
+      "title": "AI actor Tilly Norwood is set for a feature-film debut",
+      "summary": "People reports that AI-generated actor Tilly Norwood will star in Misaligned, reviving debate over synthetic performers, consent, and human creative labor.",
+      "fullSummary": "People reports that AI-generated actor Tilly Norwood is set to make a feature-film debut in Misaligned, a comedy-drama from Particle 6 and creator Eline van der Velden. The project follows earlier backlash to the synthetic performer from actors and SAG-AFTRA, which argued that AI-generated performers raise consent and labor concerns. Particle 6 says the film uses AI as part of human-guided storytelling rather than a replacement for creativity.",
+      "keyFacts": [
+        "The planned feature is called Misaligned",
+        "Tilly Norwood was created by Eline van der Velden and Particle 6",
+        "The synthetic actor has drawn criticism from SAG-AFTRA and human performers"
+      ],
+      "url": "https://people.com/ai-actress-tilly-norwood-to-make-feature-film-debut-12012414",
+      "sourceName": "People",
+      "relatedSources": [
+        "Particle 6",
+        "SAG-AFTRA",
+        "Eline van der Velden"
+      ],
+      "lane": "products-adoption",
+      "publishedAt": "2026-07-06T13:00:00.000Z",
+      "importance": 940,
+      "sourceConfidence": "high",
+      "filterCategory": "pushback",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-06T18:03:00.000Z",
+      "whyItMatters": "Synthetic performers are becoming real production assets, forcing entertainment labor fights to move from hypothetical to specific releases."
+    },
+    {
+      "id": "curated-axios-virginia-ai-workforce-exposure-2026-07-06",
+      "title": "Virginia report says higher-paying jobs face the most AI exposure",
+      "summary": "Axios reports that a Virginia Works analysis finds the state's best-paid knowledge jobs are most exposed to AI-driven task changes, prompting new training recommendations.",
+      "fullSummary": "Axios reports that a Virginia Works workforce study finds the state's highest-paying, knowledge-based jobs are more exposed to AI than manual, service, and trade roles. The report does not equate exposure with direct job loss, but says many white-collar tasks are likely to change through collaboration with AI tools. It recommends more training in communication, critical thinking, relationship building, adaptability, and practical AI use.",
+      "keyFacts": [
+        "The report comes from Virginia's workforce development agency",
+        "It says high-paying knowledge work is more exposed than manual and service work",
+        "Virginia Works is pointing workers toward AI training and Google-backed certifications"
+      ],
+      "url": "https://www.axios.com/local/richmond/2026/07/06/virginia-ai-workforce-report-high-paying-jobs-workplace-adoption-training",
+      "sourceName": "Axios",
+      "relatedSources": [
+        "Virginia Works",
+        "Google"
+      ],
+      "lane": "products-adoption",
+      "publishedAt": "2026-07-06T12:30:00.000Z",
+      "importance": 950,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-06T18:03:00.000Z",
+      "whyItMatters": "Local labor-market reports are turning AI exposure into concrete retraining policy rather than broad speculation about job loss."
+    },
+    {
+      "id": "curated-guardian-ai-surveillance-chilling-effects-2026-07-06",
+      "title": "AI surveillance warning says real-time tracking could chill democracy",
+      "summary": "Bruce Schneier and Jon Penney warn in The Guardian that AI-powered surveillance could combine facial recognition, databases, and personalized enforcement into a system that suppresses dissent and social experimentation.",
+      "fullSummary": "The Guardian publishes a warning from Bruce Schneier and Jon Penney that AI surveillance is becoming powerful enough to monitor public and private life at scale. They argue that real-time facial recognition, social-media monitoring, mass databases, and automated enforcement could make people self-censor and conform, weakening democratic change. The piece calls for bans on invasive identification systems, stronger privacy rules, AI regulation, and scrutiny of state-tech alliances.",
+      "keyFacts": [
+        "The article frames AI surveillance as a broad civil-liberties risk, not only a policing tool",
+        "It cites growing use of AI-enabled monitoring by governments and private platforms",
+        "Recommended responses include facial-recognition bans, privacy protections, and AI-use limits"
+      ],
+      "url": "https://www.theguardian.com/commentisfree/2026/jul/06/ai-surveillance-policy",
+      "sourceName": "The Guardian",
+      "relatedSources": [
+        "Bruce Schneier",
+        "Jon Penney",
+        "Department of Homeland Security"
+      ],
+      "lane": "policy-safety",
+      "publishedAt": "2026-07-06T12:00:00.000Z",
+      "importance": 988,
+      "sourceConfidence": "high",
+      "filterCategory": "pushback",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-06T18:03:00.000Z",
+      "whyItMatters": "The surveillance debate shows how AI's social risk can come from ordinary institutions adopting stronger monitoring, not only from frontier-model failures."
+    },
+    {
+      "id": "curated-toi-meta-gemini-capacity-rationing-2026-07-06",
+      "title": "Google reportedly rationed Gemini capacity for Meta",
+      "summary": "The Times of India, citing an FT report, says Google could not provide all the Gemini capacity Meta wanted, exposing Meta's reliance on a rival for internal AI workflows.",
+      "fullSummary": "The Times of India reports that Google declined to sell Meta all the Gemini AI computing capacity it requested, leaving some of Meta's internal AI work disrupted and delayed. The article says Meta had been using Gemini for coding, customer-service tools, advertising support, and safety workflows because it outperformed Meta's own models in some tasks. The capacity cap has pushed Meta toward lower token use and more reliance on internal tools.",
+      "keyFacts": [
+        "Google reportedly told Meta around March 2026 that it could not meet all requested Gemini capacity",
+        "Meta had used Gemini for coding, ads, customer support, and safety automation",
+        "The restriction coincided with Meta trying to improve its own AI models and internal assistants"
+      ],
+      "url": "https://timesofindia.indiatimes.com/technology/tech-news/weeks-before-metas-highest-paid-employee-alexander-wang-told-the-world-that-the-companys-ai-model-update-is-coming-google-sent-meta-a-message-we-cannot-/articleshow/132215347.cms",
+      "sourceName": "The Times of India",
+      "relatedSources": [
+        "Google",
+        "Meta",
+        "Gemini",
+        "Financial Times"
+      ],
+      "lane": "infrastructure",
+      "publishedAt": "2026-07-06T11:16:00.000Z",
+      "importance": 970,
+      "sourceConfidence": "medium",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-06T18:03:00.000Z",
+      "whyItMatters": "Even the largest AI builders can become dependent on rival model capacity, making inference access a strategic bottleneck."
+    },
+    {
+      "id": "curated-guardian-fca-ai-consumer-protection-2026-07-06",
+      "title": "UK review urges stronger FCA powers over AI in finance",
+      "summary": "The Guardian reports that the FCA's Mills review wants ministers to expand financial-regulator powers as AI reshapes consumer finance, fraud, cyber risk, and market concentration.",
+      "fullSummary": "The Guardian reports that a major FCA review led by Sheldon Mills is urging the UK government to strengthen the City regulator's authority as AI moves deeper into financial services. The review says AI could make advice and services more accessible, but also amplify fraud, cyber threats, consumer harm, and digital-market concentration. It recommends giving the FCA more power over critical technology providers, including AI firms and cloud providers, while also using AI internally for supervision.",
+      "keyFacts": [
+        "The review focuses on how AI could reshape retail financial services by 2030",
+        "It warns that AI-enabled finance can increase fraud, cyber, consumer-harm, and monopoly risks",
+        "Recommendations include stronger FCA powers over critical technology providers"
+      ],
+      "url": "https://www.theguardian.com/business/2026/jul/06/boost-city-regulators-powers-protect-uk-consumers-ai-cyber-crime-fraud-watchdog",
+      "sourceName": "The Guardian",
+      "relatedSources": [
+        "Financial Conduct Authority",
+        "Mills review"
+      ],
+      "lane": "policy-safety",
+      "publishedAt": "2026-07-06T11:11:00.000Z",
+      "importance": 990,
+      "sourceConfidence": "high",
+      "filterCategory": "pushback",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-06T18:03:00.000Z",
+      "whyItMatters": "AI governance is moving from abstract model rules into sector regulators that can directly shape finance, fraud controls, and cloud-provider oversight."
+    },
+    {
+      "id": "curated-wsj-un-killer-robots-ban-2026-07-06",
+      "title": "UN chief calls for international ban on lethal autonomous weapons",
+      "summary": "The Wall Street Journal reports that UN Secretary-General Antonio Guterres used a Geneva AI-governance speech to call for lethal autonomous weapons to be banned under international law.",
+      "fullSummary": "The Wall Street Journal reports that UN Secretary-General Antonio Guterres called for a global legal ban on lethal autonomous weapons, saying life-and-death targeting decisions should stay under human control. The speech places autonomous weapons back at the center of AI governance as frontier models become more relevant to cyber operations, surveillance, and military decision support. The issue also connects to earlier tensions over how AI labs' models can be used by defense agencies.",
+      "keyFacts": [
+        "Guterres spoke at a Geneva summit on artificial intelligence",
+        "He called lethal autonomous weapons morally unacceptable and said they should be banned by international law",
+        "The issue intersects with defense uses of frontier AI and human-control commitments"
+      ],
+      "url": "https://www.wsj.com/tech/ai/killer-robots-must-be-banned-u-n-secretary-general-says-00603020",
+      "sourceName": "The Wall Street Journal",
+      "relatedSources": [
+        "United Nations",
+        "Geneva AI summit",
+        "Anthropic"
+      ],
+      "lane": "policy-safety",
+      "publishedAt": "2026-07-06T10:30:00.000Z",
+      "importance": 986,
+      "sourceConfidence": "high",
+      "filterCategory": "pushback",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-06T18:03:00.000Z",
+      "whyItMatters": "Military autonomy is becoming a concrete AI treaty question, with the UN pushing for rules before deployment norms harden."
+    },
+    {
+      "id": "curated-toi-deepfake-dubai-crown-prince-scam-2026-07-06",
+      "title": "AI deepfake romance scam impersonates Dubai crown prince",
+      "summary": "The Times of India reports that scammers used AI-generated deepfake video calls to impersonate Dubai's crown prince and steal a Filipino worker's savings.",
+      "fullSummary": "The Times of India reports that a Filipino domestic worker lost about 100,000 Philippine pesos after scammers used AI-generated deepfake video calls and messages to impersonate Sheikh Hamdan bin Mohammed, Dubai's crown prince. The victim believed she was in a relationship with the prince and transferred her savings to the fraudsters. The case highlights how AI impersonation is making romance scams more convincing and harder for ordinary users to detect.",
+      "keyFacts": [
+        "The victim reportedly lost about 100,000 Philippine pesos",
+        "The scammers impersonated Dubai's crown prince using deepfake video calls",
+        "The case shows deepfake fraud moving into consumer dating and messaging contexts"
+      ],
+      "url": "https://timesofindia.indiatimes.com/technology/tech-news/woman-loses-a-years-savings-to-ai-deepfake-scam-on-dating-site-scammers-impersonated-dubais-crown-prince/articleshow/132213088.cms",
+      "sourceName": "The Times of India",
+      "relatedSources": [
+        "Dubai",
+        "AI deepfakes",
+        "romance scams"
+      ],
+      "lane": "policy-safety",
+      "publishedAt": "2026-07-06T10:10:00.000Z",
+      "importance": 944,
+      "sourceConfidence": "high",
+      "filterCategory": "pushback",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-06T18:03:00.000Z",
+      "whyItMatters": "Consumer deepfake scams show AI fraud risk spreading beyond high-profile politics and into everyday social trust."
+    },
+    {
+      "id": "curated-toi-mumbai-university-ai-study-materials-2026-07-06",
+      "title": "Mumbai University faces criticism over AI-aided study material",
+      "summary": "The Times of India reports that Mumbai University drew student criticism for using AI-based technology in distance-learning psychology material, prompting a committee review.",
+      "fullSummary": "The Times of India reports that Mumbai University's Centre for Distance and Online Education is facing criticism over AI-generated contributions to MA Psychology study material. The university says AI accounted for less than 10% of the material and was disclosed by the content developers, but students mocked and questioned the quality online. The university has formed a committee to verify and examine the content.",
+      "keyFacts": [
+        "The issue concerns MA Psychology material from Mumbai University's distance-learning center",
+        "The university says AI use was below 10% and explicitly disclosed",
+        "A committee has been formed to review the content"
+      ],
+      "url": "https://timesofindia.indiatimes.com/education/news/mumbai-university-draws-flak-for-using-ai-based-technologies-for-creating-study-material-content/articleshow/132213300.cms",
+      "sourceName": "The Times of India",
+      "relatedSources": [
+        "Mumbai University",
+        "Centre for Distance and Online Education"
+      ],
+      "lane": "regional",
+      "publishedAt": "2026-07-06T09:40:19.000Z",
+      "importance": 946,
+      "sourceConfidence": "high",
+      "filterCategory": "pushback",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-06T18:03:00.000Z",
+      "whyItMatters": "AI-in-education disputes are moving from policy promises into quality-control fights over actual course material."
+    },
+    {
+      "id": "curated-et-jefferies-ai-capex-malinvestment-2026-07-06",
+      "title": "Jefferies strategist warns hyperscaler AI capex could backfire",
+      "summary": "Economic Times reports that Jefferies' Christopher Wood is warning that Microsoft, Meta, Amazon, and Alphabet's AI spending could face market pushback and capital-destruction risk.",
+      "fullSummary": "Economic Times reports that Jefferies' Christopher Wood says the AI capex cycle could end through market pushback rather than voluntary spending cuts. Wood points to large bond issuance by major hyperscalers and argues that borrowed money is increasingly funding the buildout. His warning frames the AI infrastructure race as a potential malinvestment cycle if returns fail to match the scale of Microsoft, Meta, Amazon, and Alphabet's spending.",
+      "keyFacts": [
+        "Wood cited large 2026 bond issuance by the four major US hyperscalers",
+        "He warned that markets may challenge AI spending before companies cut it themselves",
+        "The note frames AI capex as a possible capital-destruction risk"
+      ],
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/jefferies-christopher-wood-warns-microsoft-meta-and-alphabet-ai-spending-may-backfire/articleshow/132210893.cms",
+      "sourceName": "The Economic Times",
+      "relatedSources": [
+        "Jefferies",
+        "Microsoft",
+        "Meta",
+        "Amazon",
+        "Alphabet"
+      ],
+      "lane": "infrastructure",
+      "publishedAt": "2026-07-06T09:20:00.000Z",
+      "importance": 966,
+      "sourceConfidence": "high",
+      "filterCategory": "pushback",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-06T18:03:00.000Z",
+      "whyItMatters": "Investor scrutiny of AI debt and capex is becoming a pressure point on the compute buildout behind frontier models."
+    },
+    {
+      "id": "curated-toi-openai-anthropic-nato-ai-access-2026-07-06",
+      "title": "NATO summit spotlights European dependence on US AI labs",
+      "summary": "The Times of India reports that OpenAI and Anthropic access restrictions are looming over NATO talks as European governments seek alternatives through firms such as Helsing and Mistral.",
+      "fullSummary": "The Times of India reports that NATO's Ankara summit is being shaped by European frustration over dependence on US frontier AI. The article says American control over advanced models from Anthropic and OpenAI gives Washington leverage over allies that want access for cyber defense and military planning. Europe is hedging through partnerships such as Helsing and Mistral, reflecting a broader push for sovereign defense AI.",
+      "keyFacts": [
+        "The NATO leaders' summit is scheduled for July 7-8 in Ankara",
+        "US restrictions on advanced OpenAI and Anthropic systems have frustrated European allies",
+        "European firms Helsing and Mistral are cited as part of the backup plan"
+      ],
+      "url": "https://timesofindia.indiatimes.com/technology/tech-news/anthropic-and-openai-enter-natos-annual-summit-as-europe-is-tired-of-america-asking-it-to-wait/articleshow/132205286.cms",
+      "sourceName": "The Times of India",
+      "relatedSources": [
+        "OpenAI",
+        "Anthropic",
+        "NATO",
+        "Mistral",
+        "Helsing"
+      ],
+      "lane": "policy-safety",
+      "publishedAt": "2026-07-06T08:40:00.000Z",
+      "importance": 978,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-06T18:03:00.000Z",
+      "whyItMatters": "Model access is becoming alliance leverage, pushing Europe to treat AI capability as defense infrastructure."
+    },
+    {
+      "id": "curated-thetimes-uk-startups-ai-funding-h1-2026",
+      "title": "UK startups reportedly raised $17B in first-half funding on AI boom",
+      "summary": "The Times reports that UK startups doubled first-half fundraising to $17 billion, with AI companies accounting for most of the total and several large rounds.",
+      "fullSummary": "The Times reports that UK startups raised $17 billion in the first half of 2026, double the comparable 2025 figure, according to Dealroom and HSBC Innovation Banking data. AI companies reportedly drew about $12.6 billion, close to three quarters of the total, with major rounds for companies such as Isomorphic Labs, Nscale, Wayve, and Ineffable Intelligence. The report also notes a continuing weakness in domestic scale-up capital, with many large rounds still dependent on non-UK investors.",
+      "keyFacts": [
+        "Dealroom and HSBC Innovation Banking data put UK first-half startup funding at $17 billion",
+        "AI companies reportedly attracted about $12.6 billion of that total",
+        "Large rounds included Isomorphic Labs, Nscale, Wayve, and Ineffable Intelligence"
+      ],
+      "url": "https://www.thetimes.com/business/companies-markets/article/uk-startups-raise-17bn-ai-boom-nn08xqqvd",
+      "sourceName": "The Times",
+      "relatedSources": [
+        "Dealroom",
+        "HSBC Innovation Banking",
+        "Isomorphic Labs",
+        "Nscale",
+        "Wayve"
+      ],
+      "lane": "funding",
+      "publishedAt": "2026-07-06T06:30:00.000Z",
+      "importance": 938,
+      "sourceConfidence": "high",
+      "filterCategory": "funding",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-06T18:03:00.000Z",
+      "whyItMatters": "The UK AI boom is producing real funding scale, but the investor mix shows why sovereign AI ambitions still depend on capital-market depth."
+    },
+    {
+      "id": "curated-guardian-china-robotic-hands-2026-07-06",
+      "title": "China's embodied-AI race focuses on dexterous robotic hands",
+      "summary": "The Guardian reports that Chinese startups are scaling dexterous robotic-hand production while the harder challenge shifts to AI control, teleoperation data, and manipulation skills.",
+      "fullSummary": "The Guardian reports that Chinese robotics companies are pushing hard into dexterous hands, a key bottleneck for useful humanoid robots. LinkerBot says it already produces thousands of hands per month and wants to expand, while Wuji Technology is using sensor gloves and teleoperation to gather manipulation data. The article argues that China's hardware supply chain is advancing quickly, but reliable AI control for nuanced physical tasks remains the harder problem.",
+      "keyFacts": [
+        "LinkerBot says it makes about 5,000 robotic hands per month and wants to double output",
+        "Wuji Technology uses a sensor glove to collect pressure, touch, and movement data",
+        "Experts say controlling the hands remains harder than manufacturing the hardware"
+      ],
+      "url": "https://www.theguardian.com/technology/ng-interactive/2026/jul/06/china-dextrous-robotic-hands-humanoid",
+      "sourceName": "The Guardian",
+      "relatedSources": [
+        "LinkerBot",
+        "Wuji Technology",
+        "University of Bristol"
+      ],
+      "lane": "physical-ai",
+      "publishedAt": "2026-07-06T06:00:00.000Z",
+      "importance": 960,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-06T18:03:00.000Z",
+      "whyItMatters": "Humanoid progress increasingly depends on embodied data and manipulation, not just language-model reasoning."
+    },
+    {
+      "id": "curated-ft-london-ai-sovereignty-2026-07-06",
+      "title": "FT says London is trying to turn AI momentum into sovereignty",
+      "summary": "The Financial Times examines London's push for AI sovereignty as UK founders, ex-DeepMind talent, and government funds try to reduce reliance on US tech giants.",
+      "fullSummary": "The Financial Times uses its July 6 briefing to examine whether London's AI boom can become durable UK-owned technology strength. The discussion points to government-backed sovereign AI funding, new London-based AI companies, and the long shadow of Google's DeepMind acquisition. It also notes the hard constraints: capital and incorporation still often flow through the US, while the strongest AI talent and infrastructure remain concentrated around American firms.",
+      "keyFacts": [
+        "The FT framed the story around the UK's effort to reduce dependence on US AI companies",
+        "London's AI scene includes well-funded startups and ex-DeepMind researchers",
+        "Funding sources, incorporation choices, and talent concentration remain obstacles"
+      ],
+      "url": "https://www.ft.com/content/e4f41bd8-54a2-48e2-a7bc-18a30eabb153",
+      "sourceName": "Financial Times",
+      "relatedSources": [
+        "DeepMind",
+        "UK sovereign AI fund",
+        "London AI startups"
+      ],
+      "lane": "regional",
+      "publishedAt": "2026-07-06T04:00:23.000Z",
+      "importance": 974,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-06T18:03:00.000Z",
+      "whyItMatters": "Sovereign AI is no longer just compute procurement; it is a question of ownership, talent, capital markets, and strategic dependence."
+    },
+    {
+      "id": "curated-guardian-cooper-hiroshima-ai-rules-2026-07-06",
+      "title": "Yvette Cooper warns AI needs global rules before a catastrophe",
+      "summary": "The Guardian reports that UK foreign secretary Yvette Cooper says governments should not wait for an AI equivalent of Hiroshima before agreeing international guardrails.",
+      "fullSummary": "The Guardian reports that Yvette Cooper is placing AI near the center of UK foreign policy, warning that governments need international rules before a major AI catastrophe forces action. Cooper argues that risks from hostile states, criminal groups, extremists, and uncontrolled development require cooperation among powers such as the US and China. Her comments frame AI as a diplomatic and security issue that could dominate foreign policy over the next two years.",
+      "keyFacts": [
+        "Cooper made the warning in a Guardian interview and Chatham House essay",
+        "She said AI will become a dominant foreign-policy issue over the next two years",
+        "The warning links AI governance to state-backed crime, terrorism, and geopolitical instability"
+      ],
+      "url": "https://www.theguardian.com/politics/2026/jul/05/ai-hiroshima-style-threat-humanity-global-rules-yvette-cooper",
+      "sourceName": "The Guardian",
+      "relatedSources": [
+        "Yvette Cooper",
+        "Chatham House",
+        "UK Foreign Office"
+      ],
+      "lane": "policy-safety",
+      "publishedAt": "2026-07-05T19:00:00.000Z",
+      "importance": 984,
+      "sourceConfidence": "high",
+      "filterCategory": "pushback",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-06T18:03:00.000Z",
+      "whyItMatters": "The story captures how frontier-AI risk is being folded into national-security diplomacy rather than staying inside tech-policy circles."
+    },
     {
       "id": "curated-guardian-ratepayer-protection-act-datacenters-2026-07-05",
       "title": "Critics say U.S. data-center bill would not shield ratepayers",
@@ -1431,6 +1928,32 @@
       "summaryEngine": "chat-curated",
       "curatedAt": "2026-07-05T13:43:14.110Z",
       "whyItMatters": "As autonomy moves into real-time systems, some safety controls may need hardware-backed guarantees rather than advisory software checks."
+    },
+    {
+      "id": "curated-tomshardware-openai-government-stake-proposal-2026-07-02",
+      "title": "Report says OpenAI floated a 5% US government stake",
+      "summary": "Tom's Hardware reports that OpenAI has discussed giving the US government a 5% stake as part of a broader public-fund idea for leading AI labs.",
+      "fullSummary": "Tom's Hardware reports that OpenAI has considered giving the US government a 5% stake in the company, days after Washington reportedly delayed GPT-5.6. The proposal is described as an early-stage idea in which leading US AI labs could contribute equity into an Alaska-style public fund. The story connects OpenAI's valuation, model-release oversight, and national AI governance into a possible ownership-based policy debate.",
+      "keyFacts": [
+        "The reported idea would give the US government a 5% OpenAI stake",
+        "Sam Altman has reportedly discussed a wider public-fund model for leading AI labs",
+        "The idea may require congressional approval and remains early-stage"
+      ],
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/openai-floats-5-percent-government-stake-days-after-washington-delayed-gpt-5-6",
+      "sourceName": "Tom's Hardware",
+      "relatedSources": [
+        "OpenAI",
+        "US government",
+        "Sam Altman"
+      ],
+      "lane": "policy-safety",
+      "publishedAt": "2026-07-02T14:00:00.000Z",
+      "importance": 934,
+      "sourceConfidence": "medium",
+      "filterCategory": "funding",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-06T18:03:00.000Z",
+      "whyItMatters": "A public equity stake would shift AI governance from regulation alone toward state participation in frontier-lab upside and control."
     },
     {
       "id": "curated-techcrunch-microsoft-frontier-company-2026-07-02",
