@@ -1,9 +1,33 @@
 {
-  "generatedAt": "2026-07-06T18:03:00.000Z",
-  "nextRefreshAt": "2026-07-07T06:03:00.000Z",
+  "generatedAt": "2026-07-06T18:25:14.569Z",
+  "nextRefreshAt": "2026-07-07T06:25:14.569Z",
   "summaryEngine": "chat-curated",
   "curated": true,
   "items": [
+    {
+      "id": "curated-techcrunch-google-ai-training-opt-out-2026-07-06",
+      "title": "TechCrunch explains how Google users are training its AI",
+      "summary": "TechCrunch reports that Google's products now feed AI training and personalization paths by default enough that users need to actively change settings if they want to limit the data flow.",
+      "fullSummary": "TechCrunch reports that Google users are effectively helping train and improve Google's AI systems through ordinary product use unless they adjust account and product settings. The article walks through where Google uses activity, search, and app data, and frames the opt-out steps as part of a broader shift in which consumer platforms treat routine usage as AI input. The practical takeaway is that AI data collection is now embedded in everyday search and app behavior, not confined to explicit chatbot prompts.",
+      "keyFacts": [
+        "The article was the top current item on TechCrunch's AI page during the named-source retry",
+        "It focuses on Google account and product settings that affect AI-related data use",
+        "The story treats consumer opt-out controls as a privacy and AI-training issue"
+      ],
+      "url": "https://techcrunch.com/2026/07/06/if-you-use-google-youre-training-its-ai-heres-how-to-opt-out/",
+      "sourceName": "TechCrunch",
+      "relatedSources": [
+        "Google"
+      ],
+      "lane": "policy-safety",
+      "publishedAt": "2026-07-06T17:10:00.000Z",
+      "importance": 991,
+      "sourceConfidence": "high",
+      "filterCategory": "pushback",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-06T18:25:14.569Z",
+      "whyItMatters": "AI training is becoming a default condition of using major consumer platforms, shifting privacy work onto users who know where to look."
+    },
     {
       "id": "curated-et-meta-watermelon-model-gpt55-2026-07-06",
       "title": "Report says Meta's Watermelon model has reached GPT-5.5-level performance",
@@ -80,6 +104,32 @@
       "summaryEngine": "chat-curated",
       "curatedAt": "2026-07-06T18:03:00.000Z",
       "whyItMatters": "The deal shows frontier labs locking in dedicated power and real estate years ahead of demand, turning model competition into long-duration infrastructure contracts."
+    },
+    {
+      "id": "curated-techcrunch-station-f-europe-ai-startups-2026-07-06",
+      "title": "Station F positions itself as a launchpad for Europe's AI startups",
+      "summary": "TechCrunch reports that Paris startup campus Station F is leaning harder into AI as Europe tries to turn technical talent and public support into globally competitive companies.",
+      "fullSummary": "TechCrunch reports that Station F is ramping up its role as a launchpad for Europe's AI startup ecosystem. The story places the Paris campus inside a wider European push to retain founders, attract capital, and create AI companies that can compete with US and Chinese rivals. It also connects the AI-startup boom to France's broader positioning around infrastructure, talent, and sovereign AI.",
+      "keyFacts": [
+        "The story was published on TechCrunch's current AI/startups surface on July 6",
+        "Station F is framed as a hub for European AI company formation",
+        "The article connects startup incubation to Europe's AI sovereignty push"
+      ],
+      "url": "https://techcrunch.com/2026/07/06/station-f-ramps-up-as-a-launchpad-for-europes-hottest-ai-startups/",
+      "sourceName": "TechCrunch",
+      "relatedSources": [
+        "Station F",
+        "France",
+        "European AI startups"
+      ],
+      "lane": "regional",
+      "publishedAt": "2026-07-06T14:30:00.000Z",
+      "importance": 976,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-06T18:25:14.569Z",
+      "whyItMatters": "Europe's AI position depends on whether its startup infrastructure can turn research and policy support into durable companies."
     },
     {
       "id": "curated-bi-atlas-world-cup-match-ball-2026-07-06",
@@ -183,6 +233,33 @@
       "summaryEngine": "chat-curated",
       "curatedAt": "2026-07-06T18:03:00.000Z",
       "whyItMatters": "Local labor-market reports are turning AI exposure into concrete retraining policy rather than broad speculation about job loss."
+    },
+    {
+      "id": "curated-ap-utah-ai-prescription-refill-2026-07-06",
+      "title": "Utah AI prescription-refill pilot triggers doctor safety concerns",
+      "summary": "AP reports that Utah's Doctronic pilot lets an AI chatbot handle some prescription refills under a regulatory sandbox, raising questions about medical licensing, FDA oversight, and patient safety.",
+      "fullSummary": "AP reports that a Utah program lets residents seek prescription refills through an AI chatbot called Doctronic, using a state regulatory sandbox that can waive ordinary rules for promising technology. Doctors, medical-board members, lawyers, and public-health experts are warning that prescription renewals can involve side effects, interactions, and changing medical histories that require clinical judgment. The company says human doctors currently review orders during the initial phase, but the program is intended to move toward more automation.",
+      "keyFacts": [
+        "Doctronic operates in Utah under a regulatory sandbox",
+        "The program can verify prescriptions through a national pharmacy database",
+        "Utah medical-board members have asked for the program to be halted over patient-safety concerns"
+      ],
+      "url": "https://apnews.com/article/ai-prescription-refill-utah-doctronic-fda-technology-cf94ce370c05f686e8792be8671a2ef0",
+      "sourceName": "Associated Press",
+      "relatedSources": [
+        "Doctronic",
+        "Utah AI Office",
+        "FDA",
+        "American Medical Association"
+      ],
+      "lane": "health-science",
+      "publishedAt": "2026-07-06T12:01:17.000Z",
+      "importance": 987,
+      "sourceConfidence": "high",
+      "filterCategory": "pushback",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-06T18:25:14.569Z",
+      "whyItMatters": "This is a concrete test of whether regulators will let AI perform medical tasks that historically required licensed clinicians."
     },
     {
       "id": "curated-guardian-ai-surveillance-chilling-effects-2026-07-06",
@@ -368,6 +445,32 @@
       "whyItMatters": "Investor scrutiny of AI debt and capex is becoming a pressure point on the compute buildout behind frontier models."
     },
     {
+      "id": "curated-ai-news-china-ai-companion-rules-2026-07-06",
+      "title": "China's AI companion rules force Doubao and Qwen feature shutdowns",
+      "summary": "AI News reports that China's new rules for anthropomorphic AI services have pushed ByteDance's Doubao and Alibaba's Qwen to shut down or disable emotionally persistent companion-agent features.",
+      "fullSummary": "AI News reports that China's AI companion rules take effect on July 15 and are already changing major consumer AI products. ByteDance's Doubao and Alibaba's Qwen have disabled or scheduled shutdowns for humanlike, user-created, or emotionally persistent agent features rather than risk non-compliance. The rules target AI services that simulate personality and sustained emotional interaction, requiring anti-addiction controls, minor protections, emergency intervention duties, security assessments, and app-store compliance checks.",
+      "keyFacts": [
+        "The rules are called the Interim Measures for the Administration of AI Anthropomorphic Interactive Services",
+        "Doubao said its agent function would go offline on July 15, while Qwen moved earlier for some humanlike agents",
+        "The framework requires safeguards for emotional dependence, minors, and security assessment filings"
+      ],
+      "url": "https://www.artificialintelligence-news.com/news/china-ai-companion-rules/",
+      "sourceName": "AI News",
+      "relatedSources": [
+        "Cyberspace Administration of China",
+        "ByteDance Doubao",
+        "Alibaba Qwen"
+      ],
+      "lane": "policy-safety",
+      "publishedAt": "2026-07-06T09:00:00.000Z",
+      "importance": 989,
+      "sourceConfidence": "high",
+      "filterCategory": "pushback",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-06T18:25:14.569Z",
+      "whyItMatters": "China is drawing an early regulatory line around emotionally persistent AI companions, a category other governments are still struggling to define."
+    },
+    {
       "id": "curated-toi-openai-anthropic-nato-ai-access-2026-07-06",
       "title": "NATO summit spotlights European dependence on US AI labs",
       "summary": "The Times of India reports that OpenAI and Anthropic access restrictions are looming over NATO talks as European governments seek alternatives through firms such as Helsing and Mistral.",
@@ -474,6 +577,31 @@
       "summaryEngine": "chat-curated",
       "curatedAt": "2026-07-06T18:03:00.000Z",
       "whyItMatters": "Sovereign AI is no longer just compute procurement; it is a question of ownership, talent, capital markets, and strategic dependence."
+    },
+    {
+      "id": "curated-verge-ai-schools-rich-families-2026-07-05",
+      "title": "Wealthy families are paying for AI-led private schooling",
+      "summary": "The Verge reports that companies such as Alpha School and Forge Prep are charging wealthy families for AI-tutored education models despite limited public evidence that the approach works.",
+      "fullSummary": "The Verge reports that some wealthy US families are turning to AI-driven private schools and tutoring programs as an alternative to conventional education. Companies including Alpha School and Forge Prep charge high fees for AI tutors and project-based workshops, presenting children as early users of education models that remain lightly proven. The article raises concerns about weak public performance evidence, curriculum transparency, and whether AI-guided classrooms can teach the judgment and social context that parents expect.",
+      "keyFacts": [
+        "The article cites programs such as Alpha School and Forge Prep",
+        "Some offerings can cost tens of thousands of dollars per year",
+        "The Verge notes limited public evidence that the AI-school model improves outcomes"
+      ],
+      "url": "https://www.theverge.com/ai-artificial-intelligence/961505/wealthy-ai-schools-alpha-forge-prep",
+      "sourceName": "The Verge",
+      "relatedSources": [
+        "Alpha School",
+        "Forge Prep"
+      ],
+      "lane": "products-adoption",
+      "publishedAt": "2026-07-05T22:30:54.000Z",
+      "importance": 953,
+      "sourceConfidence": "high",
+      "filterCategory": "pushback",
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-06T18:25:14.569Z",
+      "whyItMatters": "AI education is moving from classroom pilots into expensive private-school experiments before strong outcome evidence exists."
     },
     {
       "id": "curated-guardian-cooper-hiroshima-ai-rules-2026-07-06",
