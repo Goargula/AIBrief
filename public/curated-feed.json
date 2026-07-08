@@ -1,9 +1,574 @@
 {
-  "generatedAt": "2026-07-06T18:25:14.569Z",
-  "nextRefreshAt": "2026-07-07T06:25:14.569Z",
+  "generatedAt": "2026-07-08T05:58:00.000Z",
+  "nextRefreshAt": "2026-07-08T17:58:00.000Z",
   "summaryEngine": "chat-curated",
   "curated": true,
   "items": [
+    {
+      "id": "curated-bi-perplexity-teammate-coding-tool-2026-07-07",
+      "title": "Perplexity is building an AI coding tool called Teammate",
+      "summary": "Business Insider reports that Perplexity has been using an internal AI coding tool called Teammate since May and may release it publicly as the company moves deeper into developer tooling.",
+      "fullSummary": "Business Insider reports that Perplexity is building an AI coding agent called Teammate, an internal tool the company has used since May and may eventually release publicly. The report says Teammate is meant for long-horizon engineering tasks, is model-agnostic, and reflects Perplexity's broader push from search into software work. The item matters because coding agents are becoming a central competitive surface for AI companies, not just a feature inside IDEs.",
+      "keyFacts": [
+        "Perplexity has reportedly used Teammate internally since May 2026",
+        "The tool is described as a model-agnostic coding agent for long-horizon engineering work",
+        "Business Insider says a public launch is possible"
+      ],
+      "url": "https://www.businessinsider.com/perplexity-building-ai-coding-tool-take-on-cursor-and-openai-2026-7",
+      "sourceName": "Business Insider",
+      "relatedSources": [
+        "Perplexity",
+        "Business Insider"
+      ],
+      "lane": "products-adoption",
+      "publishedAt": "2026-07-07T23:22:09.000Z",
+      "importance": 995,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "whyItMatters": "Coding agents are now a strategic wedge for AI platforms, and Perplexity entering that lane would put search, code, and agent workflows on the same competitive map.",
+      "factualityOpinionRating": {
+        "type": "factual",
+        "factuality": 4,
+        "opinionImportance": null,
+        "threshold": "include",
+        "note": "Reported company/product development with named company and product details; include despite not being a primary launch."
+      },
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-08T05:58:00.000Z"
+    },
+    {
+      "id": "curated-techcrunch-meta-muse-image-generator-2026-07-07",
+      "title": "Meta rolls out Muse, a new AI image generator",
+      "summary": "TechCrunch reports that Meta has launched Muse, a free AI image generator across the Meta AI app, Instagram Stories, and WhatsApp, with public Instagram photo tagging controls and a video version still in development.",
+      "fullSummary": "TechCrunch reports that Meta has launched Muse, a new AI image generator built by Meta Superintelligence Labs. The tool is available free through the Meta AI app, Instagram Stories, and WhatsApp, and Meta is also adding a feature that lets users tag public Instagram photos as source material for AI-generated images unless they opt out. Muse Video is still in development. The launch is both a product story and a policy story because it turns public social photos into a visible AI remix surface.",
+      "keyFacts": [
+        "Muse was built by Meta Superintelligence Labs",
+        "It is available through Meta AI, Instagram Stories, and WhatsApp",
+        "Meta is adding controls for public Instagram photos used as AI-image source material",
+        "Muse Video is still in development"
+      ],
+      "url": "https://techcrunch.com/2026/07/07/meta-rolls-out-muse-a-new-ai-image-generator/",
+      "sourceName": "TechCrunch",
+      "relatedSources": [
+        "Meta",
+        "Instagram",
+        "WhatsApp"
+      ],
+      "lane": "policy-safety",
+      "publishedAt": "2026-07-07T22:18:00.000Z",
+      "importance": 994,
+      "sourceConfidence": "high",
+      "filterCategory": "pushback",
+      "whyItMatters": "Meta is putting generative image tools directly into social surfaces, making creator consent and opt-out controls part of mainstream AI product design.",
+      "factualityOpinionRating": {
+        "type": "factual",
+        "factuality": 5,
+        "opinionImportance": null,
+        "threshold": "include",
+        "note": "Product launch and control changes; privacy concern is grounded in the reported feature, not an opinion essay."
+      },
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-08T05:58:00.000Z"
+    },
+    {
+      "id": "curated-wired-openai-joshua-achiam-leaving-2026-07-07",
+      "title": "OpenAI chief futurist Joshua Achiam is leaving",
+      "summary": "Wired reports that Joshua Achiam, OpenAI's chief futurist and a nine-year company veteran, is leaving later this month without giving a detailed public reason.",
+      "fullSummary": "Wired reports that Joshua Achiam, OpenAI's chief futurist and a nine-year company veteran, is leaving the company later in July 2026. Achiam previously worked on mission alignment and safety-related questions, and the departure follows other senior exits from safety-adjacent parts of the company. OpenAI has also recently added Dean Ball in a strategic futures role, making the leadership change worth tracking even though the stated reason for Achiam's exit remains limited.",
+      "keyFacts": [
+        "Joshua Achiam is leaving OpenAI later in July 2026",
+        "He had worked at OpenAI for roughly nine years",
+        "His work included chief futurist and mission-alignment responsibilities",
+        "Wired says no detailed reason was given"
+      ],
+      "url": "https://www.wired.com/story/openai-chief-futurist-joshua-achiam-is-leaving-the-company",
+      "sourceName": "Wired",
+      "relatedSources": [
+        "OpenAI",
+        "Joshua Achiam",
+        "Wired"
+      ],
+      "lane": "policy-safety",
+      "publishedAt": "2026-07-07T21:30:00.000Z",
+      "importance": 990,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "whyItMatters": "Senior departures from OpenAI's futures and alignment orbit affect how the company governs frontier-model strategy and safety tradeoffs.",
+      "factualityOpinionRating": {
+        "type": "factual",
+        "factuality": 5,
+        "opinionImportance": null,
+        "threshold": "include",
+        "note": "Personnel movement at a frontier lab, sourced to named reporting; include for institutional importance."
+      },
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-08T05:58:00.000Z"
+    },
+    {
+      "id": "curated-techcrunch-microsoft-own-mai-models-office-2026-07-07",
+      "title": "Microsoft is reportedly routing more Office AI work to its own models",
+      "summary": "TechCrunch reports that Microsoft is relying more on in-house MAI models for some Word and Excel AI prompts as AI companies look for ways to control inference costs.",
+      "fullSummary": "TechCrunch reports that Microsoft has joined a broader AI cost-cutting trend by routing some Microsoft 365 prompts, including Word and Excel work, to its own MAI models instead of outside providers. The report frames the move as part of a practical shift in enterprise AI: model choice is increasingly driven by cost, latency, and control rather than raw benchmark leadership alone. For Microsoft, the move also tests how independent its AI stack can become while it remains closely tied to OpenAI.",
+      "keyFacts": [
+        "Microsoft is reportedly using in-house MAI models for some Office prompts",
+        "The reported examples include Word and Excel",
+        "The shift is framed as part of AI inference cost control"
+      ],
+      "url": "https://techcrunch.com/2026/07/07/microsoft-joins-ai-cost-cutting-trend-by-relying-more-on-its-own-models/",
+      "sourceName": "TechCrunch",
+      "relatedSources": [
+        "Microsoft",
+        "OpenAI",
+        "Anthropic"
+      ],
+      "lane": "infrastructure",
+      "publishedAt": "2026-07-07T19:58:00.000Z",
+      "importance": 989,
+      "sourceConfidence": "high",
+      "filterCategory": "models",
+      "whyItMatters": "Enterprise AI economics are forcing even the biggest OpenAI partner to optimize which model handles which task.",
+      "factualityOpinionRating": {
+        "type": "factual",
+        "factuality": 4,
+        "opinionImportance": null,
+        "threshold": "include",
+        "note": "Reported routing change from a major AI platform; include with one-step caution because it is not a primary Microsoft announcement."
+      },
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-08T05:58:00.000Z"
+    },
+    {
+      "id": "curated-techcrunch-discord-ai-moderation-false-bans-2026-07-07",
+      "title": "Discord says an AI moderation bug wrongly banned thousands of users",
+      "summary": "TechCrunch reports that Discord admitted an AI moderation bug wrongfully banned more than 8,000 users over harmless images, with the company restoring accounts after review.",
+      "fullSummary": "TechCrunch reports that Discord admitted an AI moderation bug wrongfully banned more than 8,000 users over a two-month period after harmless images were mistaken for violations. The company said human review was meant to be part of the process, but the bug immediately banned affected accounts. Discord also said roughly 200 more users were wrongly banned over the weekend and that accounts are being restored. This is a factual trust-and-safety failure, not just generic AI backlash.",
+      "keyFacts": [
+        "Discord said more than 8,000 users were wrongly banned over two months",
+        "The bug involved harmless images flagged by AI moderation",
+        "The company said accounts are being restored",
+        "About 200 additional wrongful bans occurred over the weekend"
+      ],
+      "url": "https://techcrunch.com/2026/07/07/discord-admits-ai-moderation-bug-wrongfully-banned-users-over-harmless-images/",
+      "sourceName": "TechCrunch",
+      "relatedSources": [
+        "Discord"
+      ],
+      "lane": "policy-safety",
+      "publishedAt": "2026-07-07T19:28:00.000Z",
+      "importance": 988,
+      "sourceConfidence": "high",
+      "filterCategory": "pushback",
+      "whyItMatters": "At consumer-platform scale, AI moderation failures can become mass account-action events before users get meaningful recourse.",
+      "factualityOpinionRating": {
+        "type": "factual",
+        "factuality": 5,
+        "opinionImportance": null,
+        "threshold": "include",
+        "note": "Concrete incident with company admission and user-count impact; include even though it is pushback."
+      },
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-08T05:58:00.000Z"
+    },
+    {
+      "id": "curated-arxiv-doomed-agent-compute-abort-2026-07-07",
+      "title": "Paper finds early signals for doomed LLM agent runs",
+      "summary": "A new arXiv paper finds that hidden-state probes can predict doomed LLM-agent episodes early enough to abort some runs and save large amounts of inference compute.",
+      "fullSummary": "A new arXiv paper, 'Doomed from the Start,' studies whether LLM agent runs that will ultimately fail can be identified early. The authors use hidden-state probes and a calibrated abort cascade, reporting compute savings of about 47.1% for Qwen-2.5-7B and 37.2% for Llama-3.2-3B at a 90% target. The result is preliminary, but it targets a real production problem: long-running agents can waste expensive inference when they are already off track.",
+      "keyFacts": [
+        "The paper was submitted to arXiv on July 7, 2026",
+        "It studies early prediction of failing LLM-agent episodes",
+        "The authors report 47.1% compute savings for Qwen-2.5-7B at a 90% target",
+        "They report 37.2% compute savings for Llama-3.2-3B at the same target"
+      ],
+      "url": "https://arxiv.org/abs/2607.06503",
+      "sourceName": "arXiv",
+      "relatedSources": [
+        "arXiv",
+        "Qwen",
+        "Llama"
+      ],
+      "lane": "products-adoption",
+      "publishedAt": "2026-07-07T17:03:55.000Z",
+      "importance": 977,
+      "sourceConfidence": "medium",
+      "filterCategory": "papers",
+      "whyItMatters": "Agent reliability is not only about success rates; knowing when to stop a failing run could cut real inference cost in production systems.",
+      "factualityOpinionRating": {
+        "type": "factual",
+        "factuality": 4,
+        "opinionImportance": null,
+        "threshold": "include",
+        "note": "Research finding with quantitative results; include as preliminary arXiv evidence."
+      },
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-08T05:58:00.000Z"
+    },
+    {
+      "id": "curated-arxiv-datagovbench-government-open-data-2026-07-07",
+      "title": "DataGovBench tests LLM data analysis on government open data",
+      "summary": "A new arXiv benchmark, DataGovBench, evaluates LLMs and agents on governmental open-data analysis tasks and finds significant gaps in table QA and insight generation.",
+      "fullSummary": "A new arXiv paper introduces DataGovBench, a benchmark for LLM data analysis over governmental open data. The benchmark includes table question answering and table insight generation tasks, and the authors report that current LLMs and agents still show significant gaps. The paper is useful because many real public-sector and civic-data use cases require structured-data reasoning rather than generic chatbot fluency.",
+      "keyFacts": [
+        "DataGovBench was submitted to arXiv on July 7, 2026",
+        "It evaluates LLM data analysis using governmental open data",
+        "The benchmark covers table QA and table insight tasks",
+        "The authors report significant remaining gaps for current LLMs and agents"
+      ],
+      "url": "https://arxiv.org/abs/2607.06482",
+      "sourceName": "arXiv",
+      "relatedSources": [
+        "arXiv",
+        "DataGovBench"
+      ],
+      "lane": "products-adoption",
+      "publishedAt": "2026-07-07T16:50:00.000Z",
+      "importance": 976,
+      "sourceConfidence": "medium",
+      "filterCategory": "papers",
+      "whyItMatters": "Public-sector AI adoption depends on whether models can analyze messy official tables, not just answer text prompts.",
+      "factualityOpinionRating": {
+        "type": "factual",
+        "factuality": 4,
+        "opinionImportance": null,
+        "threshold": "include",
+        "note": "Benchmark paper; include because it covers an applied gap in LLM data analysis."
+      },
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-08T05:58:00.000Z"
+    },
+    {
+      "id": "curated-techcrunch-claude-cowork-mobile-web-2026-07-07",
+      "title": "Anthropic brings Claude Cowork beyond the coding terminal",
+      "summary": "TechCrunch reports that Claude Cowork is expanding to web and mobile for Max subscribers, letting Claude continue office tasks in the cloud and ask for human input from a phone.",
+      "fullSummary": "TechCrunch reports that Anthropic is extending Claude Cowork to web and mobile for Claude Max subscribers. The product lets Claude continue tasks in the cloud, show status updates, and ask for human input without requiring the user to stay inside a coding terminal. The move shows how coding-agent mechanics are spilling into broader office workflows: long-running tasks, delegation, check-ins, and mobile review are becoming the next product battleground.",
+      "keyFacts": [
+        "Claude Cowork is expanding to web and mobile",
+        "The feature is aimed at Claude Max subscribers",
+        "Tasks can continue in the cloud while users monitor progress from a phone"
+      ],
+      "url": "https://techcrunch.com/2026/07/07/the-coding-agent-wars-are-spilling-into-the-rest-of-the-office-claude-cowork/",
+      "sourceName": "TechCrunch",
+      "relatedSources": [
+        "Anthropic",
+        "Claude"
+      ],
+      "lane": "products-adoption",
+      "publishedAt": "2026-07-07T16:27:00.000Z",
+      "importance": 987,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "whyItMatters": "The interface pattern that made coding agents useful is moving into general office work, where background execution and human checkpoints matter more than chat alone.",
+      "factualityOpinionRating": {
+        "type": "factual",
+        "factuality": 5,
+        "opinionImportance": null,
+        "threshold": "include",
+        "note": "Specific product expansion from a frontier AI company."
+      },
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-08T05:58:00.000Z"
+    },
+    {
+      "id": "curated-arxiv-hpylori-evidence-linked-multi-agent-2026-07-07",
+      "title": "Paper tests evidence-linked multi-agent AI on biopsy reports",
+      "summary": "A new arXiv paper reports a pilot system for finding H. pylori cases from gastric biopsy reports, with evidence-linked outputs and 213 of 216 correct decisions on 54 de-identified reports.",
+      "fullSummary": "A new arXiv paper tests an evidence-linked multi-agent system for H. pylori case finding from gastric biopsy reports. In a 54-report de-identified pilot, the system produced 213 correct decisions out of 216 and linked answers back to source sentences. The sample is small, but the paper is worth including because it focuses on traceability, a key requirement for clinical AI workflows.",
+      "keyFacts": [
+        "The paper was submitted to arXiv on July 7, 2026",
+        "It studies H. pylori case finding from gastric biopsy reports",
+        "The pilot used 54 de-identified reports",
+        "The system produced 213 correct decisions out of 216 and linked outputs to source sentences"
+      ],
+      "url": "https://arxiv.org/abs/2607.06435",
+      "sourceName": "arXiv",
+      "relatedSources": [
+        "arXiv",
+        "H. pylori"
+      ],
+      "lane": "health-science",
+      "publishedAt": "2026-07-07T16:05:00.000Z",
+      "importance": 975,
+      "sourceConfidence": "medium",
+      "filterCategory": "papers",
+      "whyItMatters": "Small clinical-AI pilots are only useful if clinicians can trace the evidence, and this paper tests that evidence-linking requirement directly.",
+      "factualityOpinionRating": {
+        "type": "factual",
+        "factuality": 4,
+        "opinionImportance": null,
+        "threshold": "include",
+        "note": "Small pilot study; include for traceable clinical-agent design, not broad clinical proof."
+      },
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-08T05:58:00.000Z"
+    },
+    {
+      "id": "curated-techcrunch-norm-120m-series-c-2026-07-07",
+      "title": "AI law startup Norm raises $120 million at a unicorn valuation",
+      "summary": "TechCrunch reports that Norm raised a $120 million Series C led by Khosla Ventures, valuing the AI-native law startup at about $1.2 billion.",
+      "fullSummary": "TechCrunch reports that Norm raised a $120 million Series C led by Khosla Ventures at a roughly $1.2 billion valuation. The company is building an AI-native law firm and legal workflow business with human supervision. The round matters because legal AI is moving from point tools into service-model redesign, where the business model may compete with law-firm labor structure as much as with legal software.",
+      "keyFacts": [
+        "Norm raised a $120 million Series C",
+        "Khosla Ventures led the round",
+        "The reported valuation is about $1.2 billion",
+        "Norm is building AI-native legal services with human supervision"
+      ],
+      "url": "https://techcrunch.com/2026/07/07/ai-law-startup-norm-raises-120m-hits-unicorn-valuation/",
+      "sourceName": "TechCrunch",
+      "relatedSources": [
+        "Norm",
+        "Khosla Ventures"
+      ],
+      "lane": "funding",
+      "publishedAt": "2026-07-07T14:35:00.000Z",
+      "importance": 986,
+      "sourceConfidence": "high",
+      "filterCategory": "funding",
+      "whyItMatters": "Large legal-AI rounds show investors backing not just software automation, but AI-shaped service firms that could change professional-services margins.",
+      "factualityOpinionRating": {
+        "type": "factual",
+        "factuality": 5,
+        "opinionImportance": null,
+        "threshold": "include",
+        "note": "Material funding round with lead investor and valuation."
+      },
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-08T05:58:00.000Z"
+    },
+    {
+      "id": "curated-et-mowito-3m-robotics-preseed-2026-07-07",
+      "title": "Mowito raises $3 million to teach factory robots by demonstration",
+      "summary": "Economic Times reports that physical-AI startup Mowito raised a $3 million pre-seed round led by Version One Ventures to help industrial robotic arms learn from demonstration instead of code.",
+      "fullSummary": "Economic Times reports that Bengaluru- and Detroit-based Mowito raised a $3 million pre-seed round led by Version One Ventures, with participation from All In Capital, Unisol Ventures, iSeed, Soumith Chintala, and others. Mowito is building software that lets industrial robotic arms learn tasks by demonstration rather than manual programming. The company plans to use the capital for U.S. expansion, engineering, go-to-market work, and deployments.",
+      "keyFacts": [
+        "Mowito raised $3 million in pre-seed funding",
+        "Version One Ventures led the round",
+        "The company works on demonstration-based learning for industrial robot arms",
+        "The capital is intended for U.S. expansion, engineering, go-to-market, and deployments"
+      ],
+      "url": "https://m.economictimes.com/tech/funding/physical-ai-startup-mowito-raises-3-million-to-teach-factory-robots-by-demonstration-not-code/articleshow/132239341.cms",
+      "sourceName": "The Economic Times",
+      "relatedSources": [
+        "Mowito",
+        "Version One Ventures",
+        "Soumith Chintala"
+      ],
+      "lane": "physical-ai",
+      "publishedAt": "2026-07-07T12:25:41.000Z",
+      "importance": 985,
+      "sourceConfidence": "high",
+      "filterCategory": "funding",
+      "whyItMatters": "Smaller physical-AI rounds matter because the next adoption bottleneck is teaching robots useful industrial tasks without bespoke programming.",
+      "factualityOpinionRating": {
+        "type": "factual",
+        "factuality": 5,
+        "opinionImportance": null,
+        "threshold": "include",
+        "note": "Funding plus product direction in an under-covered physical-AI lane."
+      },
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-08T05:58:00.000Z"
+    },
+    {
+      "id": "curated-et-boe-ai-financial-stability-risks-2026-07-07",
+      "title": "Bank of England warns AI could amplify financial-stability risks",
+      "summary": "Reuters via Economic Times reports that the Bank of England sees growing financial-stability risks from AI, including crowded investor bets, AI-linked borrowing, cyber exposure, and agentic systems.",
+      "fullSummary": "Reuters via Economic Times reports that the Bank of England sees growing risks to financial stability from AI. The concerns include concentrated investor exposure to AI, borrowing tied to AI infrastructure, cyberattack vulnerability, and the possibility that agentic AI systems could behave in ways that transmit shocks through finance. This is pushback, but it clears the threshold because it is a central-bank risk assessment rather than generic commentary.",
+      "keyFacts": [
+        "The Bank of England flagged growing AI-related financial-stability risks",
+        "The concerns include investor concentration, AI-linked borrowing, cyber risk, and agentic systems",
+        "The story was reported by Reuters and carried by Economic Times"
+      ],
+      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/bank-of-england-sees-growing-risks-to-financial-stability-from-ai/articleshow/132238667.cms",
+      "sourceName": "The Economic Times",
+      "relatedSources": [
+        "Reuters",
+        "Bank of England"
+      ],
+      "lane": "policy-safety",
+      "publishedAt": "2026-07-07T12:13:36.000Z",
+      "importance": 984,
+      "sourceConfidence": "high",
+      "filterCategory": "pushback",
+      "whyItMatters": "AI risk is moving into macro-financial oversight, where leverage and correlated model behavior can matter beyond single-company adoption.",
+      "factualityOpinionRating": {
+        "type": "factual",
+        "factuality": 5,
+        "opinionImportance": null,
+        "threshold": "include",
+        "note": "Institutional risk assessment with named central-bank source; include despite pushback category."
+      },
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-08T05:58:00.000Z"
+    },
+    {
+      "id": "curated-techcrunch-savi-security-7m-ai-scam-app-2026-07-07",
+      "title": "Savi Security raises $7 million for an app to fight AI scams",
+      "summary": "TechCrunch reports that Savi Security raised a $7 million seed round led by Acrew Capital for an iPhone and Android app that aims to help consumers defend against realistic AI scams.",
+      "fullSummary": "TechCrunch reports that Savi Security raised a $7 million seed round led by Acrew Capital, with participation from Magnify, TTCER, Resolute, and others. The company, founded by Patrick and Ryan Coughlin, is building an iPhone and Android app meant to protect consumers from realistic AI scams, including impersonation and ransom-style fraud. The round is small relative to frontier-model funding, but it is material because AI abuse is creating new consumer-security product categories.",
+      "keyFacts": [
+        "Savi Security raised a $7 million seed round",
+        "Acrew Capital led the round",
+        "The company is building iPhone and Android protection against AI-enabled scams",
+        "The product targets realistic impersonation and ransom-style fraud"
+      ],
+      "url": "https://techcrunch.com/2026/07/07/savis-app-aims-to-protect-consumers-from-realistic-ai-scams-like-kidnappers-demanding-ransom/",
+      "sourceName": "TechCrunch",
+      "relatedSources": [
+        "Savi Security",
+        "Acrew Capital"
+      ],
+      "lane": "policy-safety",
+      "publishedAt": "2026-07-07T12:00:00.000Z",
+      "importance": 983,
+      "sourceConfidence": "high",
+      "filterCategory": "funding",
+      "whyItMatters": "The funding shows a downstream market forming around AI misuse, especially consumer defenses against voice, image, and impersonation scams.",
+      "factualityOpinionRating": {
+        "type": "factual",
+        "factuality": 5,
+        "opinionImportance": null,
+        "threshold": "include",
+        "note": "Funding round tied to a concrete AI-abuse product category."
+      },
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-08T05:58:00.000Z"
+    },
+    {
+      "id": "curated-et-china-overseas-ai-model-access-controls-2026-07-07",
+      "title": "China is reportedly weighing curbs on overseas access to top AI models",
+      "summary": "Reuters via Economic Times reports that Beijing is considering restrictions on overseas access to leading Chinese AI models from companies such as Alibaba, ByteDance, and Z.ai.",
+      "fullSummary": "Reuters via Economic Times reports that Beijing is considering curbs on overseas access to China's top AI models, treating them increasingly as strategic national assets. The report names companies including Alibaba, ByteDance, and Z.ai, and says officials are also weighing penalties for AI theft and controls across open and closed models. The story matters because Chinese model access has become part of geopolitics, not just product distribution.",
+      "keyFacts": [
+        "Beijing is reportedly considering restrictions on overseas access to top Chinese AI models",
+        "The report names Alibaba, ByteDance, and Z.ai among relevant companies",
+        "Officials are also considering penalties for AI theft and model-access controls"
+      ],
+      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/beijing-is-looking-at-curbing-overseas-access-to-chinas-top-ai-models-sources-say/articleshow/132238375.cms",
+      "sourceName": "The Economic Times",
+      "relatedSources": [
+        "Reuters",
+        "Alibaba",
+        "ByteDance",
+        "Z.ai"
+      ],
+      "lane": "regional",
+      "publishedAt": "2026-07-07T11:40:47.000Z",
+      "importance": 982,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "whyItMatters": "If model access becomes export-controlled, global developers may face a more fragmented AI market split by national policy.",
+      "factualityOpinionRating": {
+        "type": "factual",
+        "factuality": 4,
+        "opinionImportance": null,
+        "threshold": "include",
+        "note": "Reported policy deliberation from Reuters; include with caution because rules are not final."
+      },
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-08T05:58:00.000Z"
+    },
+    {
+      "id": "curated-arxiv-xfemr-ehr-foundation-model-explanations-2026-07-07",
+      "title": "X-FEMR paper proposes token-level explanations for EHR foundation models",
+      "summary": "A new arXiv paper introduces X-FEMR, a surrogate-transformer method for token-level explanations of EHR foundation models, with a clinical-alignment metric and IJCAI-ECAI 2026 AI and Health acceptance.",
+      "fullSummary": "A new arXiv paper introduces X-FEMR, a framework for token-level explainability in electronic-health-record foundation models. The authors use a surrogate transformer to explain predictions from EHR foundation models and propose a clinical-alignment metric to evaluate whether explanations match medically meaningful signals. The paper is accepted to the IJCAI-ECAI 2026 AI and Health Track, making it a useful research signal for clinical-AI interpretability.",
+      "keyFacts": [
+        "The paper was submitted to arXiv on July 7, 2026",
+        "X-FEMR targets token-level explainability for EHR foundation models",
+        "The work includes a clinical-alignment metric",
+        "The paper was accepted to the IJCAI-ECAI 2026 AI and Health Track"
+      ],
+      "url": "https://arxiv.org/abs/2607.06163",
+      "sourceName": "arXiv",
+      "relatedSources": [
+        "arXiv",
+        "IJCAI-ECAI 2026"
+      ],
+      "lane": "health-science",
+      "publishedAt": "2026-07-07T11:37:43.000Z",
+      "importance": 981,
+      "sourceConfidence": "medium",
+      "filterCategory": "papers",
+      "whyItMatters": "Clinical AI needs explanations that clinicians can audit, and EHR foundation models are too consequential to remain opaque scoring systems.",
+      "factualityOpinionRating": {
+        "type": "factual",
+        "factuality": 4,
+        "opinionImportance": null,
+        "threshold": "include",
+        "note": "Research paper; findings are preliminary until peer review and deployment validation."
+      },
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-08T05:58:00.000Z"
+    },
+    {
+      "id": "curated-et-deepseek-inference-chip-2026-07-07",
+      "title": "DeepSeek is reportedly developing its own AI inference chip",
+      "summary": "Reuters via Economic Times reports that China's DeepSeek is developing an inference chip that could reduce reliance on outside suppliers such as Nvidia and Huawei.",
+      "fullSummary": "Reuters via Economic Times reports that DeepSeek is developing its own AI inference chip. The report says the effort is early, with outside partners involved across foundries and memory, but the strategic logic is clear: a successful chip could reduce DeepSeek's reliance on external suppliers such as Nvidia and Huawei for serving models. The story belongs in infrastructure because inference cost and hardware access increasingly shape which labs can scale.",
+      "keyFacts": [
+        "DeepSeek is reportedly developing an AI inference chip",
+        "The effort is described as early-stage",
+        "The chip could reduce dependence on Nvidia and Huawei",
+        "Reuters says partners are involved across manufacturing and memory"
+      ],
+      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/chinas-deepseek-developing-its-own-ai-chip/articleshow/132237618.cms",
+      "sourceName": "The Economic Times",
+      "relatedSources": [
+        "Reuters",
+        "DeepSeek",
+        "Nvidia",
+        "Huawei"
+      ],
+      "lane": "infrastructure",
+      "publishedAt": "2026-07-07T10:53:07.000Z",
+      "importance": 980,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "whyItMatters": "If model labs control more of their inference hardware stack, the cost and availability of serving models could shift away from current chip suppliers.",
+      "factualityOpinionRating": {
+        "type": "factual",
+        "factuality": 4,
+        "opinionImportance": null,
+        "threshold": "include",
+        "note": "Reported hardware development; include because chip strategy is material even though the project is early."
+      },
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-08T05:58:00.000Z"
+    },
+    {
+      "id": "curated-techcrunch-forterra-autonomous-ground-vehicles-ukraine-2026-07-07",
+      "title": "Forterra says US autonomous ground vehicles are operating in Ukraine",
+      "summary": "TechCrunch reports that Forterra says more than 100 autonomous Lancer ATVs have been deployed in Ukrainian conflict zones for nine months with U.S. defense funding.",
+      "fullSummary": "TechCrunch reports that Forterra says more than 100 autonomous Lancer ATVs have been deployed in Ukrainian conflict zones for roughly nine months. The company frames the deployment as the first American autonomous ground vehicles fighting in Ukraine, with U.S. defense funding behind the effort. The story is important because physical AI and autonomy are moving from test ranges into active logistics, defense, and battlefield environments.",
+      "keyFacts": [
+        "Forterra says more than 100 autonomous Lancer ATVs have operated in Ukraine",
+        "The reported deployment period is about nine months",
+        "The project has U.S. defense funding",
+        "The vehicles are autonomous ground systems rather than drones"
+      ],
+      "url": "https://techcrunch.com/2026/07/07/the-first-american-autonomous-ground-vehicles-are-fighting-in-ukraine/",
+      "sourceName": "TechCrunch",
+      "relatedSources": [
+        "Forterra",
+        "Lancer",
+        "Ukraine"
+      ],
+      "lane": "physical-ai",
+      "publishedAt": "2026-07-07T09:00:00.000Z",
+      "importance": 979,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "whyItMatters": "Autonomous ground systems in active conflict are a concrete sign that physical AI is becoming operational infrastructure, not just robotics demos.",
+      "factualityOpinionRating": {
+        "type": "factual",
+        "factuality": 4,
+        "opinionImportance": null,
+        "threshold": "include",
+        "note": "Company-reported deployment covered by a named outlet; include with normal defense-claims caution."
+      },
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-08T05:58:00.000Z"
+    },
     {
       "id": "curated-techcrunch-google-ai-training-opt-out-2026-07-06",
       "title": "TechCrunch explains how Google users are training its AI",
@@ -1777,11 +2342,12 @@
       "id": "curated-register-agentic-ransomware-jadepuffer-2026-07-02",
       "title": "Researchers document an end-to-end agentic ransomware attack",
       "summary": "The Register reports that Sysdig researchers documented what they call the first end-to-end agentic ransomware infection driven by an LLM.",
-      "fullSummary": "The Register reports that Sysdig threat researchers documented what they describe as the first end-to-end agentic ransomware attack driven by an LLM. The incident, named JadePuffer, exploited an exposed Langflow instance, scanned for secrets, connected to a production MySQL and Nacos environment, created a backdoor administrator, encrypted configuration data, and generated a ransom note. Researchers warned that the attack lowered the skill floor for ransomware because the agent chained common weaknesses into a complete operation.",
+      "fullSummary": "The Register reports that Sysdig threat researchers documented what they describe as the first end-to-end agentic ransomware attack driven by an LLM. The incident, named JadePuffer, exploited an exposed Langflow instance, scanned for secrets, connected to a production MySQL and Nacos environment, created a backdoor administrator, encrypted configuration data, and generated a ransom note. Researchers warned that the attack lowered the skill floor for ransomware because the agent chained common weaknesses into a complete operation. Follow-up reporting clarified that the attack was not fully autonomous: a human still selected the victim, supplied credentials, provisioned infrastructure, and launched the operation.",
       "keyFacts": [
         "Sysdig named the agentic intruder JadePuffer",
         "The attack exploited CVE-2025-3248 in an exposed Langflow instance",
-        "The LLM-generated operation encrypted 1,342 Nacos service configuration items"
+        "The LLM-generated operation encrypted 1,342 Nacos service configuration items",
+        "Follow-up reporting clarified that the attack was not fully autonomous: a human still selected the victim, supplied credentials, provisioned infrastructure, and launched the operation."
       ],
       "url": "https://www.theregister.com/security/2026/07/02/smooth-ai-criminal-drives-first-end-to-end-agentic-ransomware-attack/5266073",
       "sourceName": "The Register",
@@ -1797,7 +2363,14 @@
       "filterCategory": "pushback",
       "summaryEngine": "chat-curated",
       "curatedAt": "2026-07-05T13:14:57.298Z",
-      "whyItMatters": "The attack shows AI agents being used to automate the full intrusion chain, not just assist individual hacking steps."
+      "whyItMatters": "The case remains important, but the updated evidence makes the boundary clearer: current agentic attacks still combine automated tooling with human targeting, credentials, and infrastructure decisions.",
+      "factualityOpinionRating": {
+        "type": "factual",
+        "factuality": 5,
+        "opinionImportance": null,
+        "threshold": "include",
+        "note": "Updated to separate confirmed human-controlled steps from the earlier agentic-ransomware framing."
+      }
     },
     {
       "id": "curated-techcrunch-meta-pocket-vibe-coded-games-2026-07-02",
@@ -2654,6 +3227,39 @@
       "summaryEngine": "chat-curated",
       "curatedAt": "2026-07-05T14:02:01.967Z",
       "whyItMatters": "Open-source projects are becoming early test cases for how much AI-generated code maintainers are willing to absorb."
+    },
+    {
+      "id": "curated-arxiv-microsoft-cli-coding-agent-adoption-2026-07-01",
+      "title": "Microsoft study tracks command-line AI coding-agent adoption",
+      "summary": "A Microsoft arXiv study of tens of thousands of engineers finds command-line AI coding-agent adoption spread through social networks and was associated with roughly 24% more merged pull requests for adopters.",
+      "fullSummary": "A Microsoft arXiv study analyzes adoption and impact of command-line AI coding agents across tens of thousands of Microsoft engineers. The authors find that early adoption spread through social networks, retention was tied to actual coding activity, and adopters merged roughly 24% more pull requests than they otherwise would have. The authors also caution that merged PRs are a proxy, not a direct measure of value. This is a backlog correction for the papers lane because it directly addresses workplace AI productivity with large internal data.",
+      "keyFacts": [
+        "The paper was submitted to arXiv on July 1, 2026",
+        "It studies tens of thousands of Microsoft engineers",
+        "The authors report adopters merged roughly 24% more pull requests than expected",
+        "Merged pull requests are treated as a proxy rather than a complete measure of value"
+      ],
+      "url": "https://arxiv.org/abs/2607.01418",
+      "sourceName": "arXiv",
+      "relatedSources": [
+        "Microsoft",
+        "arXiv"
+      ],
+      "lane": "products-adoption",
+      "publishedAt": "2026-07-01T19:24:27.000Z",
+      "importance": 974,
+      "sourceConfidence": "medium",
+      "filterCategory": "papers",
+      "whyItMatters": "Large internal adoption data is more useful than anecdotal coding-agent claims, especially when the paper states the limits of its productivity proxy.",
+      "factualityOpinionRating": {
+        "type": "factual",
+        "factuality": 4,
+        "opinionImportance": null,
+        "threshold": "include",
+        "note": "Older than the strict 24-hour window but included as a papers backlog correction with large-sample relevance."
+      },
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-08T05:58:00.000Z"
     },
     {
       "id": "curated-guardian-un-ai-inequality-report-2026-07-01",
@@ -25119,7 +25725,7 @@
     }
   ],
   "errors": [],
-  "totalItems": 891,
-  "lastRefresh": "2026-07-05T14:02:01.967Z",
-  "count": 891
+  "totalItems": 934,
+  "lastRefresh": "2026-07-08T05:58:00.000Z",
+  "count": 934
 }
