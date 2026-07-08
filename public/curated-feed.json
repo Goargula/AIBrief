@@ -1,9 +1,108 @@
 {
-  "generatedAt": "2026-07-08T05:58:00.000Z",
-  "nextRefreshAt": "2026-07-08T17:58:00.000Z",
+  "generatedAt": "2026-07-08T06:15:00.000Z",
+  "nextRefreshAt": "2026-07-08T18:15:00.000Z",
   "summaryEngine": "chat-curated",
   "curated": true,
   "items": [
+    {
+      "id": "curated-et-openai-gpt56-us-approval-2026-07-08",
+      "title": "OpenAI gets US approval for broad GPT-5.6 rollout",
+      "summary": "Reuters via Economic Times reports that the U.S. Department of Commerce approved a broad GPT-5.6 rollout after additional government testing under Washington's frontier-AI oversight framework.",
+      "fullSummary": "Reuters via Economic Times reports that the U.S. Department of Commerce approved a broad launch of OpenAI's GPT-5.6 model after additional government testing under Washington's frontier-AI oversight framework. The report says OpenAI expects wider release this week after further testing and meetings with U.S. officials. The approval matters because GPT-5.6 was previously treated as a controlled frontier-model release rather than a normal product update.",
+      "keyFacts": [
+        "The U.S. Department of Commerce reportedly approved broad GPT-5.6 rollout",
+        "The approval followed additional government testing",
+        "OpenAI expects wider release this week, according to the report"
+      ],
+      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/openai-gets-us-approval-for-broad-gpt-5-6-rollout/articleshow/132253403.cms",
+      "sourceName": "The Economic Times",
+      "relatedSources": [
+        "Reuters",
+        "OpenAI",
+        "U.S. Department of Commerce"
+      ],
+      "lane": "models",
+      "publishedAt": "2026-07-08T04:09:03.000Z",
+      "importance": 999,
+      "sourceConfidence": "high",
+      "filterCategory": "models",
+      "whyItMatters": "Frontier-model releases are becoming a policy process as much as a product process, with government testing now shaping rollout timing.",
+      "factualityOpinionRating": {
+        "type": "factual",
+        "factuality": 4,
+        "opinionImportance": null,
+        "threshold": "include",
+        "note": "Reuters-carried report on a major model rollout approval; include with normal reported-story caution."
+      },
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-08T06:15:00.000Z"
+    },
+    {
+      "id": "curated-et-bc-openai-school-shooting-lawsuit-2026-07-08",
+      "title": "British Columbia prepares lawsuit against OpenAI after school shooting",
+      "summary": "AFP via Economic Times reports that British Columbia is preparing a lawsuit against OpenAI over alleged failure to report violent ChatGPT activity by the person who committed a mass school shooting.",
+      "fullSummary": "AFP via Economic Times reports that British Columbia is preparing a lawsuit against OpenAI over the company's alleged failure to report violent ChatGPT activity by the person who committed a mass school shooting in the province. The province said it is preparing a separate case in coordination with families and has retained lawyers in Canada and California. The story is a factual legal-development item, not generic AI backlash.",
+      "keyFacts": [
+        "British Columbia is preparing a lawsuit against OpenAI",
+        "The claim concerns alleged failure to report violent ChatGPT activity",
+        "The province says it is coordinating with families and lawyers in Canada and California"
+      ],
+      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/canada-province-preparing-lawsuit-against-openai-over-school-shooting/articleshow/132251918.cms",
+      "sourceName": "The Economic Times",
+      "relatedSources": [
+        "AFP",
+        "OpenAI",
+        "British Columbia"
+      ],
+      "lane": "policy-safety",
+      "publishedAt": "2026-07-08T02:28:59.000Z",
+      "importance": 998,
+      "sourceConfidence": "high",
+      "filterCategory": "pushback",
+      "whyItMatters": "This tests whether AI providers may face duties to detect or report violent warning signs in chatbot activity.",
+      "factualityOpinionRating": {
+        "type": "factual",
+        "factuality": 5,
+        "opinionImportance": null,
+        "threshold": "include",
+        "note": "Concrete legal action by a provincial government; clears pushback threshold."
+      },
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-08T06:15:00.000Z"
+    },
+    {
+      "id": "curated-et-google-cloud-india-ai-sovereignty-2026-07-08",
+      "title": "Google Cloud will host its latest AI models in India",
+      "summary": "Economic Times reports that Google Cloud will make its latest AI models available locally in India, while building a forward-deployed engineering hub and exploring AI-server manufacturing plans.",
+      "fullSummary": "Economic Times reports that Google Cloud will make its latest AI models available locally in India as part of a data-sovereignty push, according to global chief Thomas Kurian. The report says Google Cloud is establishing a hub of forward-deployed engineers in India to serve customers locally and in Asia, and that Kurian will meet partners about plans for manufacturing AI servers. This is a regional infrastructure and adoption story, not just a cloud sales announcement.",
+      "keyFacts": [
+        "Google Cloud will make its latest AI models available locally in India",
+        "The company is building a forward-deployed engineering hub in India",
+        "Thomas Kurian is meeting partners about AI-server manufacturing plans"
+      ],
+      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/in-a-big-sovereignty-push-google-cloud-to-host-its-latest-ai-models-in-india-global-chief-thomas-kurian/articleshow/132245958.cms",
+      "sourceName": "The Economic Times",
+      "relatedSources": [
+        "Google Cloud",
+        "Thomas Kurian",
+        "India"
+      ],
+      "lane": "regional",
+      "publishedAt": "2026-07-08T00:30:00.000Z",
+      "importance": 997,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "whyItMatters": "AI sovereignty is becoming a product requirement, and India is large enough that local model hosting can change cloud competition across Asia.",
+      "factualityOpinionRating": {
+        "type": "factual",
+        "factuality": 5,
+        "opinionImportance": null,
+        "threshold": "include",
+        "note": "Named executive interview with concrete local-hosting and engineering commitments."
+      },
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-08T06:15:00.000Z"
+    },
     {
       "id": "curated-bi-perplexity-teammate-coding-tool-2026-07-07",
       "title": "Perplexity is building an AI coding tool called Teammate",
@@ -269,6 +368,41 @@
       "curatedAt": "2026-07-08T05:58:00.000Z"
     },
     {
+      "id": "curated-et-ukraine-local-ai-model-control-2026-07-07",
+      "title": "Ukraine will favor AI models it can run without provider control",
+      "summary": "Reuters via Economic Times reports that Ukraine will favor AI systems run on its own servers for government services after the U.S. ordered Anthropic to cut access, with Kyivstar building a Gemma-based local model.",
+      "fullSummary": "Reuters via Economic Times reports that Ukraine will favor AI systems it can run on its own servers for government services, aiming to avoid dependence on providers that can restrict access. The policy was reinforced after the U.S. government ordered Anthropic to cut access. Ukraine is also developing a local model with Kyivstar based on Google's Gemma for government, business, and military use.",
+      "keyFacts": [
+        "Ukraine will favor AI systems run on its own servers for government services",
+        "The shift follows a U.S. order that Anthropic cut access",
+        "Ukraine is developing a Kyivstar model based on Google's Gemma"
+      ],
+      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/ukraine-to-pick-ai-models-operated-without-provider-control-official-says/articleshow/132242843.cms",
+      "sourceName": "The Economic Times",
+      "relatedSources": [
+        "Reuters",
+        "Ukraine",
+        "Kyivstar",
+        "Google Gemma",
+        "Anthropic"
+      ],
+      "lane": "regional",
+      "publishedAt": "2026-07-07T16:09:51.000Z",
+      "importance": 995,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "whyItMatters": "National-security users are starting to treat model hosting and provider control as operational risks, not only procurement details.",
+      "factualityOpinionRating": {
+        "type": "factual",
+        "factuality": 5,
+        "opinionImportance": null,
+        "threshold": "include",
+        "note": "Government AI procurement and sovereignty decision reported by Reuters."
+      },
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-08T06:15:00.000Z"
+    },
+    {
       "id": "curated-arxiv-hpylori-evidence-linked-multi-agent-2026-07-07",
       "title": "Paper tests evidence-linked multi-agent AI on biopsy reports",
       "summary": "A new arXiv paper reports a pilot system for finding H. pylori cases from gastric biopsy reports, with evidence-linked outputs and 213 of 216 correct decisions on 54 de-identified reports.",
@@ -333,6 +467,73 @@
       },
       "summaryEngine": "chat-curated",
       "curatedAt": "2026-07-08T05:58:00.000Z"
+    },
+    {
+      "id": "curated-et-amazon-25b-ai-bond-sale-2026-07-07",
+      "title": "Amazon aims to raise $25 billion for AI infrastructure spending",
+      "summary": "Reuters via Economic Times reports that Amazon is looking to raise at least $25 billion through a U.S. dollar bond sale to help fund its AI infrastructure buildout.",
+      "fullSummary": "Reuters via Economic Times reports that Amazon is looking to raise at least $25 billion through a U.S. dollar bond sale, citing Bloomberg. The report says the proceeds are meant to help fund Amazon's heavy AI investments as big tech companies tap debt and equity markets for infrastructure buildouts. It also notes that Amazon, Alphabet, Microsoft, and Meta are expected to spend more than $700 billion on AI this year.",
+      "keyFacts": [
+        "Amazon is reportedly seeking at least $25 billion in a bond sale",
+        "The proceeds are tied to AI infrastructure investment",
+        "The report says big tech AI spending is expected to exceed $700 billion this year"
+      ],
+      "url": "https://economictimes.indiatimes.com/tech/funding/amazon-aims-to-raise-25-billion-from-bond-sale-bloomberg-news-reports/articleshow/132241545.cms",
+      "sourceName": "The Economic Times",
+      "relatedSources": [
+        "Reuters",
+        "Bloomberg",
+        "Amazon"
+      ],
+      "lane": "infrastructure",
+      "publishedAt": "2026-07-07T14:11:34.000Z",
+      "importance": 996,
+      "sourceConfidence": "high",
+      "filterCategory": "funding",
+      "whyItMatters": "AI infrastructure spending is now large enough to reshape big-tech balance sheets and debt markets, not just GPU supply chains.",
+      "factualityOpinionRating": {
+        "type": "factual",
+        "factuality": 4,
+        "opinionImportance": null,
+        "threshold": "include",
+        "note": "Reported debt raise tied directly to AI infrastructure; include as funding/infrastructure."
+      },
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-08T06:15:00.000Z"
+    },
+    {
+      "id": "curated-ai-news-insilico-ipf-phase-iii-2026-07-07",
+      "title": "Insilico advances an AI-discovered IPF drug to Phase III",
+      "summary": "AI News reports that Insilico Medicine's AI-identified IPF drug rentosertib is advancing to Phase III trials after Phase IIa data showed lung-function gains in a 71-patient study.",
+      "fullSummary": "AI News reports that Insilico Medicine is advancing rentosertib, an AI-identified drug candidate for idiopathic pulmonary fibrosis, into Phase III trials. The article says a randomized 71-patient Phase IIa study across 22 Chinese clinical sites showed a mean forced vital capacity gain of 98.4 mL in the 60 mg daily arm, compared with a 20.3 mL loss for placebo. The program used Insilico's Pharma.AI platform, including PandaOmics for target discovery and Chemistry42 for generative molecular design.",
+      "keyFacts": [
+        "Rentosertib is advancing to Phase III trials for idiopathic pulmonary fibrosis",
+        "The Phase IIa study involved 71 patients across 22 Chinese clinical sites",
+        "The 60 mg daily arm showed a mean forced vital capacity gain of 98.4 mL",
+        "Insilico says the program used PandaOmics and Chemistry42"
+      ],
+      "url": "https://www.artificialintelligence-news.com/news/insilico-medicine-advances-ai-drug-for-ipf-to-phase-iii-trials/",
+      "sourceName": "AI News",
+      "relatedSources": [
+        "Insilico Medicine",
+        "PandaOmics",
+        "Chemistry42"
+      ],
+      "lane": "health-science",
+      "publishedAt": "2026-07-07T12:30:00.000Z",
+      "importance": 994,
+      "sourceConfidence": "medium",
+      "filterCategory": "general",
+      "whyItMatters": "AI drug discovery needs clinical proof, and Phase III is where the field's strongest claims start facing real efficacy tests.",
+      "factualityOpinionRating": {
+        "type": "factual",
+        "factuality": 4,
+        "opinionImportance": null,
+        "threshold": "include",
+        "note": "Single-source clinical-development report with specific trial figures; include as high-signal health-science coverage."
+      },
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-08T06:15:00.000Z"
     },
     {
       "id": "curated-et-mowito-3m-robotics-preseed-2026-07-07",
@@ -568,6 +769,40 @@
       },
       "summaryEngine": "chat-curated",
       "curatedAt": "2026-07-08T05:58:00.000Z"
+    },
+    {
+      "id": "curated-techcrunch-sk-hynix-ai-memory-adr-2026-07-06",
+      "title": "SK Hynix plans US ADR offering as AI memory demand surges",
+      "summary": "TechCrunch reports that SK Hynix plans to sell nearly 17.8 million shares as U.S. ADRs, potentially raising about $28 billion while AI data-center demand strains memory-chip supply.",
+      "fullSummary": "TechCrunch reports that SK Hynix plans to sell nearly 17.8 million shares through U.S. American depositary receipts, potentially raising about $28 billion based on its Seoul closing price. The company is benefiting from AI-driven demand for high-bandwidth memory, DRAM, and NAND as hyperscalers build AI factories. The item is a backlog correction from the TechCrunch AI page because it ties public-market access directly to the AI memory boom.",
+      "keyFacts": [
+        "SK Hynix plans to sell nearly 17.8 million shares as U.S. ADRs",
+        "TechCrunch says the offering could raise about $28 billion based on the prior Seoul close",
+        "The company cited first-quarter revenue up nearly 200% year over year",
+        "AI data-center demand is straining memory supply"
+      ],
+      "url": "https://techcrunch.com/2026/07/06/us-investors-will-soon-get-access-to-sk-hynix-another-memory-maker-riding-the-ai-boom/",
+      "sourceName": "TechCrunch",
+      "relatedSources": [
+        "SK Hynix",
+        "Micron",
+        "Samsung"
+      ],
+      "lane": "infrastructure",
+      "publishedAt": "2026-07-06T23:21:00.000Z",
+      "importance": 993,
+      "sourceConfidence": "high",
+      "filterCategory": "funding",
+      "whyItMatters": "AI demand is turning memory suppliers into major public-market infrastructure bets, broadening the AI trade beyond Nvidia.",
+      "factualityOpinionRating": {
+        "type": "factual",
+        "factuality": 5,
+        "opinionImportance": null,
+        "threshold": "include",
+        "note": "Material AI-memory financing and market-access story missed on the named-source page."
+      },
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-08T06:15:00.000Z"
     },
     {
       "id": "curated-techcrunch-google-ai-training-opt-out-2026-07-06",
@@ -25725,7 +25960,7 @@
     }
   ],
   "errors": [],
-  "totalItems": 934,
-  "lastRefresh": "2026-07-08T05:58:00.000Z",
-  "count": 934
+  "totalItems": 941,
+  "lastRefresh": "2026-07-08T06:15:00.000Z",
+  "count": 941
 }
