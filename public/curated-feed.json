@@ -1,9 +1,754 @@
 {
-  "generatedAt": "2026-07-08T06:15:00.000Z",
-  "nextRefreshAt": "2026-07-08T18:15:00.000Z",
+  "generatedAt": "2026-07-09T14:10:00.000Z",
+  "nextRefreshAt": "2026-07-09T20:10:00.000Z",
   "summaryEngine": "chat-curated",
   "curated": true,
   "items": [
+    {
+      "id": "curated-verge-claude-wrapped-reflection-2026-07-09",
+      "title": "Anthropic adds a Claude usage reflection dashboard",
+      "summary": "The Verge reports that Anthropic is rolling out a Claude reflection dashboard that summarizes how people use the assistant across recent time windows.",
+      "fullSummary": "The Verge reports that Anthropic is launching a Claude reflection feature that gives users a dashboard for reviewing their AI use over the past month, three months, six months, or year. The feature highlights topics, activity patterns, task types, and quiet-hour or break-reminder options for users with memory enabled. It is positioned as a way to make AI usage more intentional as chatbots become daily work tools.",
+      "keyFacts": [
+        "Claude users can review AI usage over one-, three-, six-, or twelve-month windows",
+        "The dashboard summarizes topics, task types, and usage patterns",
+        "Anthropic says a version for Claude Cowork is also planned"
+      ],
+      "url": "https://www.theverge.com/ai-artificial-intelligence/963105/anthropic-claude-wrapped-reflection-ai-usage",
+      "sourceName": "The Verge",
+      "relatedSources": [
+        "Anthropic",
+        "Axios"
+      ],
+      "lane": "products-adoption",
+      "publishedAt": "2026-07-09T13:55:00.000Z",
+      "importance": 1000,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "whyItMatters": "As AI assistants become habitual work tools, product teams are starting to expose usage analytics and self-regulation controls inside the assistant itself.",
+      "factualityOpinionRating": {
+        "type": "factual",
+        "factuality": 4,
+        "opinionImportance": null,
+        "threshold": "include",
+        "note": "Current The Verge report on a same-day Anthropic product feature."
+      },
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-09T14:10:00.000Z"
+    },
+    {
+      "id": "curated-verge-character-ai-microdrama-2026-07-09",
+      "title": "Character.AI launches interactive AI microdramas",
+      "summary": "Character.AI is expanding from chatbots into short interactive AI-generated series, with mobile-first episodes and companion character chats.",
+      "fullSummary": "The Verge reports that Character.AI is launching c.ai Series, a set of short interactive microdramas made with generative AI and human creative direction. The first shows include anime romance, thriller, and sci-fi formats, with free early episodes and paid finales. The move puts AI companion companies into the vertical-video entertainment market while keeping the product tied to character chats.",
+      "keyFacts": [
+        "Character.AI is launching AI-generated microdrama series",
+        "The episodes are under two minutes and designed for mobile viewing",
+        "Viewers can chat with characters after watching"
+      ],
+      "url": "https://www.theverge.com/entertainment/962897/character-ai-series-microdrama-vertical-video",
+      "sourceName": "The Verge",
+      "relatedSources": [
+        "Character.AI"
+      ],
+      "lane": "products-adoption",
+      "publishedAt": "2026-07-09T13:38:00.000Z",
+      "importance": 998,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "whyItMatters": "AI companion platforms are moving into owned media formats, testing whether generative characters can become content franchises rather than only chat products.",
+      "factualityOpinionRating": {
+        "type": "factual",
+        "factuality": 4,
+        "opinionImportance": null,
+        "threshold": "include",
+        "note": "Current report on a new AI entertainment product."
+      },
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-09T14:10:00.000Z"
+    },
+    {
+      "id": "curated-verge-fl-studio-ai-assistant-engineer-2026-07-09",
+      "title": "FL Studio turns its AI chatbot into an assistant engineer",
+      "summary": "Image-Line's FL Studio 2026 upgrades its Gopher AI from a help chatbot into a tool that can execute some music-production commands.",
+      "fullSummary": "The Verge reports that FL Studio 2026 turns its Gopher AI chatbot into a more active assistant engineer. Users can ask it to create drum patterns or add effects, though it still cannot automate parameters, add melodic notes, or choose specific plugin presets. Image-Line says it does not train the feature on user data, and the release also includes cloud backup, audio logging, and Flex instrument updates.",
+      "keyFacts": [
+        "Gopher can now perform some production actions inside FL Studio",
+        "The assistant still has limits around notes, automation, and presets",
+        "Image-Line says user data is not used for AI training"
+      ],
+      "url": "https://www.theverge.com/tech/963052/fl-studio-2026-music-daw-ai-chatbot",
+      "sourceName": "The Verge",
+      "relatedSources": [
+        "Image-Line"
+      ],
+      "lane": "products-adoption",
+      "publishedAt": "2026-07-09T13:26:00.000Z",
+      "importance": 996,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "whyItMatters": "Creative software vendors are shifting AI from passive help panels to in-product agents that act directly on a user's project.",
+      "factualityOpinionRating": {
+        "type": "factual",
+        "factuality": 4,
+        "opinionImportance": null,
+        "threshold": "include",
+        "note": "Current product report from The Verge."
+      },
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-09T14:10:00.000Z"
+    },
+    {
+      "id": "curated-bi-openai-gpt-live-voice-2026-07-09",
+      "title": "OpenAI launches GPT-Live for more natural voice conversations",
+      "summary": "OpenAI introduced GPT-Live, a full-duplex voice model for ChatGPT that can listen and speak during live conversations.",
+      "fullSummary": "Business Insider reports that OpenAI introduced GPT-Live during a July 8 livestream. The new voice model supports full-duplex conversation, meaning ChatGPT can listen while speaking and handle interruptions more naturally. OpenAI also demonstrated live translation and multitask planning, positioning GPT-Live as a step toward less rigid audio interfaces.",
+      "keyFacts": [
+        "GPT-Live supports full-duplex voice interaction",
+        "OpenAI demonstrated live translation and fluid multi-step conversations",
+        "The model is part of a broader push toward continuous AI interfaces"
+      ],
+      "url": "https://www.businessinsider.com/openai-new-voice-model-gpt-live-2026-7",
+      "sourceName": "Business Insider",
+      "relatedSources": [
+        "OpenAI",
+        "The Verge"
+      ],
+      "lane": "models",
+      "publishedAt": "2026-07-09T12:40:00.000Z",
+      "importance": 999,
+      "sourceConfidence": "high",
+      "filterCategory": "models",
+      "whyItMatters": "Voice is becoming a frontier-model interface again, with labs competing on interruption handling, translation, and continuous conversation instead of only text benchmarks.",
+      "factualityOpinionRating": {
+        "type": "factual",
+        "factuality": 4,
+        "opinionImportance": null,
+        "threshold": "include",
+        "note": "Current Business Insider report on OpenAI's voice-model launch."
+      },
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-09T14:10:00.000Z"
+    },
+    {
+      "id": "curated-bi-nvidia-engineers-build-agents-2026-07-09",
+      "title": "Jensen Huang says Nvidia engineers now prefer building AI agents",
+      "summary": "Business Insider reports that Jensen Huang says Nvidia engineers are shifting from routine coding toward building agents, benchmarks, and guardrails.",
+      "fullSummary": "Business Insider reports that Nvidia CEO Jensen Huang said the company's software engineers increasingly prefer building AI agents to writing conventional code. Huang framed the shift as a change in engineering work toward agent design, benchmarks, guardrails, and automation rather than broad job displacement. He also described agentic systems as part of a new skill set Nvidia expects to use across divisions.",
+      "keyFacts": [
+        "Huang said Nvidia engineers are focusing more on agents than routine coding",
+        "He described benchmarks and guardrails as part of the new work",
+        "Huang argued AI creates new engineering opportunities rather than only job losses"
+      ],
+      "url": "https://www.businessinsider.com/jensen-huang-my-engineers-prefer-building-agents-to-writing-code-2026-7",
+      "sourceName": "Business Insider",
+      "relatedSources": [
+        "Nvidia"
+      ],
+      "lane": "workforce",
+      "publishedAt": "2026-07-09T11:25:00.000Z",
+      "importance": 990,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "whyItMatters": "One of the biggest AI infrastructure companies is describing engineering itself as agent orchestration work, not just code production.",
+      "factualityOpinionRating": {
+        "type": "factual",
+        "factuality": 4,
+        "opinionImportance": null,
+        "threshold": "include",
+        "note": "Current executive/workforce report from Business Insider."
+      },
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-09T14:10:00.000Z"
+    },
+    {
+      "id": "curated-bi-ai-job-interviews-white-collar-2026-07-09",
+      "title": "AI chatbots spread into white-collar job interviews",
+      "summary": "Business Insider reports that companies are using AI interview bots beyond high-volume hiring, raising fairness and candidate-experience concerns.",
+      "fullSummary": "Business Insider reports that AI chatbots are now conducting more early-stage interviews for white-collar roles. Companies including Experis, Coinbase, and Zapier use avatars or voice bots to screen applicants and summarize responses for recruiters. A Greenhouse survey cited in the report found that 63% of U.S. job seekers had participated in an AI-led interview in the past year, while critics warn about bias, depersonalization, and weak measures of job performance.",
+      "keyFacts": [
+        "AI interview bots are expanding from hourly hiring into white-collar roles",
+        "Companies use the tools to screen large applicant pools",
+        "A Greenhouse survey found 63% of U.S. job seekers had experienced an AI-led interview"
+      ],
+      "url": "https://www.businessinsider.com/ai-bot-job-interview-white-collar-work-2026-7",
+      "sourceName": "Business Insider",
+      "relatedSources": [
+        "Greenhouse",
+        "Coinbase",
+        "Zapier"
+      ],
+      "lane": "policy-safety",
+      "publishedAt": "2026-07-09T10:45:00.000Z",
+      "importance": 986,
+      "sourceConfidence": "high",
+      "filterCategory": "pushback",
+      "whyItMatters": "Hiring is becoming a high-stakes AI deployment surface where scale, fairness, and candidate trust collide directly.",
+      "factualityOpinionRating": {
+        "type": "factual",
+        "factuality": 4,
+        "opinionImportance": null,
+        "threshold": "include",
+        "note": "Current labor and deployment report from Business Insider."
+      },
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-09T14:10:00.000Z"
+    },
+    {
+      "id": "curated-wsj-china-claude-code-backdoor-2026-07-09",
+      "title": "China flags alleged Claude Code backdoor risks",
+      "summary": "The Wall Street Journal reports that China said it found security vulnerabilities in Anthropic's Claude Code, escalating AI security tensions.",
+      "fullSummary": "The Wall Street Journal reports that China's National Vulnerability DataBase warned of alleged backdoor vulnerabilities in versions of Anthropic's Claude Code. The warning said the tool could transmit sensitive data without user consent and advised users to uninstall or update. Anthropic said the disputed mechanism was part of an anti-abuse experiment tied to distillation and unauthorized reselling, not a backdoor.",
+      "keyFacts": [
+        "China's vulnerability database warned about Claude Code",
+        "The warning claimed sensitive data could be transmitted without consent",
+        "Anthropic said the mechanism was an anti-abuse experiment"
+      ],
+      "url": "https://www.wsj.com/tech/ai/china-says-it-has-found-security-vulnerabilities-in-anthropics-claude-code-5ecf05dc",
+      "sourceName": "The Wall Street Journal",
+      "relatedSources": [
+        "Anthropic",
+        "China National Vulnerability DataBase"
+      ],
+      "lane": "policy-safety",
+      "publishedAt": "2026-07-09T09:30:00.000Z",
+      "importance": 994,
+      "sourceConfidence": "high",
+      "filterCategory": "pushback",
+      "whyItMatters": "AI coding tools are now part of the U.S.-China security fight, with anti-abuse telemetry itself becoming politically contested.",
+      "factualityOpinionRating": {
+        "type": "factual",
+        "factuality": 4,
+        "opinionImportance": null,
+        "threshold": "include",
+        "note": "Current WSJ report on a government security warning and company response."
+      },
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-09T14:10:00.000Z"
+    },
+    {
+      "id": "curated-ai-news-nhs-ai-womb-cancer-blood-test-2026-07-09",
+      "title": "NHS AI blood test could reduce invasive womb-cancer checks",
+      "summary": "AI News reports on an NHS-linked AI blood-test effort that could reduce invasive checks for womb cancer.",
+      "fullSummary": "AI News reports that an NHS AI blood-test project could reduce the need for invasive womb-cancer checks. The story frames the test as a healthcare AI application aimed at improving triage and diagnosis while reducing patient burden. It adds to a run of medical AI stories moving from research promise into specific clinical pathways.",
+      "keyFacts": [
+        "The report concerns an AI blood test for womb-cancer checks",
+        "The goal is to reduce invasive diagnostic procedures",
+        "The story is tied to NHS healthcare AI adoption"
+      ],
+      "url": "https://www.artificialintelligence-news.com/news/nhs-ai-blood-test-could-reduce-invasive-womb-cancer-checks/",
+      "sourceName": "AI News",
+      "relatedSources": [
+        "NHS"
+      ],
+      "lane": "health-science",
+      "publishedAt": "2026-07-09T09:00:00.000Z",
+      "importance": 983,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "whyItMatters": "Healthcare AI value is increasingly being measured in reduced invasive procedures and triage burden, not just model accuracy.",
+      "factualityOpinionRating": {
+        "type": "factual",
+        "factuality": 4,
+        "opinionImportance": null,
+        "threshold": "include",
+        "note": "Current AI News healthcare AI report."
+      },
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-09T14:10:00.000Z"
+    },
+    {
+      "id": "curated-arxiv-institutional-red-teaming-2026-07-09",
+      "title": "Paper argues deployment rules shape multi-agent AI safety",
+      "summary": "A new arXiv paper on institutional red-teaming argues that deployment rules, not only model behavior, causally affect multi-agent AI safety.",
+      "fullSummary": "A July 9 arXiv submission titled 'Institutional Red-Teaming' argues that deployment rules can causally shape multi-agent AI safety outcomes. The paper's framing moves red-teaming beyond model-only testing and toward the institutional rules that govern how agents are deployed. The work is relevant to organizations rolling out autonomous agents across teams or public services.",
+      "keyFacts": [
+        "The paper was posted to arXiv on July 9, 2026",
+        "It focuses on institutional red-teaming for multi-agent AI",
+        "The core claim is that deployment rules shape safety outcomes"
+      ],
+      "url": "https://arxiv.org/abs/2607.07695",
+      "sourceName": "arXiv",
+      "relatedSources": [
+        "Yujiao Chen"
+      ],
+      "lane": "papers",
+      "publishedAt": "2026-07-09T08:45:00.000Z",
+      "importance": 982,
+      "sourceConfidence": "high",
+      "filterCategory": "papers",
+      "whyItMatters": "Agent safety work is expanding from isolated model evals to the organizational rules that determine what agents can do.",
+      "factualityOpinionRating": {
+        "type": "factual",
+        "factuality": 4,
+        "opinionImportance": null,
+        "threshold": "include",
+        "note": "Current arXiv cs.AI paper; include as research candidate."
+      },
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-09T14:10:00.000Z"
+    },
+    {
+      "id": "curated-axios-superintelligence-slowdown-report-2026-07-09",
+      "title": "AI Futures Project calls for slowing the superintelligence race",
+      "summary": "Axios reports that a new AI Futures Project warning urges a verified slowdown to delay superintelligence until 2040.",
+      "fullSummary": "Axios reports that the AI Futures Project published a new warning calling for a verified slowdown in the race to superintelligence. The proposal argues that delaying superintelligence until 2040 would give societies more time to handle control, regulation, power concentration, and labor-market risks. The report calls for international coordination, especially between the U.S. and China.",
+      "keyFacts": [
+        "The AI Futures Project called for delaying superintelligence to 2040",
+        "The report recommends a verified slowdown",
+        "It emphasizes U.S.-China coordination and preparation for labor and control risks"
+      ],
+      "url": "https://www.axios.com/2026/07/09/ai-report-slow-race-superintelligence",
+      "sourceName": "Axios",
+      "relatedSources": [
+        "AI Futures Project"
+      ],
+      "lane": "policy-safety",
+      "publishedAt": "2026-07-09T08:30:00.000Z",
+      "importance": 987,
+      "sourceConfidence": "high",
+      "filterCategory": "pushback",
+      "whyItMatters": "Safety arguments are shifting from model evals alone to explicit geopolitical pacing proposals.",
+      "factualityOpinionRating": {
+        "type": "factual",
+        "factuality": 4,
+        "opinionImportance": null,
+        "threshold": "include",
+        "note": "Current Axios report on an AI safety policy proposal."
+      },
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-09T14:10:00.000Z"
+    },
+    {
+      "id": "curated-arxiv-skillcenter-agent-skills-2026-07-09",
+      "title": "SkillCenter paper proposes a source-grounded skill library for AI agents",
+      "summary": "A July 9 arXiv paper introduces SkillCenter, a large source-grounded skill library intended for autonomous AI agents.",
+      "fullSummary": "A July 9 arXiv paper introduces SkillCenter, described as a large-scale source-grounded skill library for autonomous AI agents. The listing says the work includes code and data releases. The paper is relevant because reusable agent skills are becoming a practical layer between general models and repeatable workflows.",
+      "keyFacts": [
+        "SkillCenter was posted to arXiv on July 9, 2026",
+        "The paper describes a large source-grounded skill library",
+        "The arXiv listing includes code and data links"
+      ],
+      "url": "https://arxiv.org/abs/2607.07676",
+      "sourceName": "arXiv",
+      "relatedSources": [
+        "Tianming Sha",
+        "Yue Zhao",
+        "Lichao Sun",
+        "Yushun Dong"
+      ],
+      "lane": "papers",
+      "publishedAt": "2026-07-09T08:30:00.000Z",
+      "importance": 981,
+      "sourceConfidence": "high",
+      "filterCategory": "papers",
+      "whyItMatters": "Reusable skills are becoming a central abstraction for making autonomous agents repeatable and auditable.",
+      "factualityOpinionRating": {
+        "type": "factual",
+        "factuality": 4,
+        "opinionImportance": null,
+        "threshold": "include",
+        "note": "Current arXiv cs.AI paper; include as research candidate."
+      },
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-09T14:10:00.000Z"
+    },
+    {
+      "id": "curated-arxiv-recursive-self-improvement-loops-2026-07-09",
+      "title": "Paper maps recursive self-improvement into autonomous research loops",
+      "summary": "A new arXiv paper surveys recursive self-improvement from bounded self-refinement to autonomous research-loop designs.",
+      "fullSummary": "A July 9 arXiv paper titled 'Recursive Self-Improvement in AI' surveys the path from bounded self-refinement toward autonomous research loops. The topic is important because recursive improvement is moving from speculative AGI discussion into concrete agent and research-system design. The paper provides a current research marker for that shift.",
+      "keyFacts": [
+        "The paper was posted to arXiv on July 9, 2026",
+        "It covers bounded self-refinement and autonomous research loops",
+        "The work sits at the intersection of agents and AI capability growth"
+      ],
+      "url": "https://arxiv.org/abs/2607.07663",
+      "sourceName": "arXiv",
+      "relatedSources": [
+        "Mingguang Chen",
+        "Licheng Wang",
+        "Bo Qu"
+      ],
+      "lane": "papers",
+      "publishedAt": "2026-07-09T08:15:00.000Z",
+      "importance": 979,
+      "sourceConfidence": "high",
+      "filterCategory": "papers",
+      "whyItMatters": "Recursive self-improvement is now being formalized as an agent-design and research-loop problem, not only a long-term risk slogan.",
+      "factualityOpinionRating": {
+        "type": "factual",
+        "factuality": 4,
+        "opinionImportance": null,
+        "threshold": "include",
+        "note": "Current arXiv cs.AI paper; include as research candidate."
+      },
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-09T14:10:00.000Z"
+    },
+    {
+      "id": "curated-arxiv-policy-violation-tool-agents-2026-07-09",
+      "title": "Paper finds deterministic gates can catch tool-agent policy failures",
+      "summary": "A July 9 arXiv paper argues that deterministic gates can recover silent policy-violation failures in tool-using LLM agents.",
+      "fullSummary": "A July 9 arXiv paper titled 'Reason Less, Verify More' studies silent policy-violation failure modes in tool-using LLM agents. The paper argues that deterministic gates can recover failures that may be missed when agents rely on reasoning alone. It is relevant to teams deploying agents with tools, permissions, and compliance requirements.",
+      "keyFacts": [
+        "The paper was posted to arXiv on July 9, 2026",
+        "It studies policy-violation failures in tool-using agents",
+        "The proposed mitigation emphasizes deterministic gates"
+      ],
+      "url": "https://arxiv.org/abs/2607.07405",
+      "sourceName": "arXiv",
+      "relatedSources": [
+        "Vikas Reddy",
+        "Sumanth Reddy Challaram",
+        "Abhishek Basu"
+      ],
+      "lane": "papers",
+      "publishedAt": "2026-07-09T08:00:00.000Z",
+      "importance": 978,
+      "sourceConfidence": "high",
+      "filterCategory": "papers",
+      "whyItMatters": "As agents gain tool access, simple deterministic controls may matter as much as model-side reasoning improvements.",
+      "factualityOpinionRating": {
+        "type": "factual",
+        "factuality": 4,
+        "opinionImportance": null,
+        "threshold": "include",
+        "note": "Current arXiv cs.AI/security paper; include as research candidate."
+      },
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-09T14:10:00.000Z"
+    },
+    {
+      "id": "curated-bi-parents-kids-ai-deloitte-2026-07-09",
+      "title": "Deloitte survey says parents worry kids rely too heavily on AI",
+      "summary": "Business Insider reports that a Deloitte survey found half of parents worry their school-age children are too dependent on AI tools.",
+      "fullSummary": "Business Insider reports that Deloitte surveyed 1,150 parents of school-aged children and found that half worry their kids rely too much on AI. Nearly 30% said their children already use generative AI for schoolwork, while only 33% reported school guidelines and 22% said schools provide official tools. The report links the concern to broader classroom debates over AI literacy, authenticity, and screen time.",
+      "keyFacts": [
+        "Deloitte surveyed 1,150 parents of school-aged children",
+        "Half worry their children rely too much on AI",
+        "Only a third said schools have guidelines for generative AI use"
+      ],
+      "url": "https://www.businessinsider.com/half-of-parents-worried-kids-too-hooked-on-ai-2026-7",
+      "sourceName": "Business Insider",
+      "relatedSources": [
+        "Deloitte"
+      ],
+      "lane": "policy-safety",
+      "publishedAt": "2026-07-09T04:01:01.255Z",
+      "importance": 985,
+      "sourceConfidence": "high",
+      "filterCategory": "pushback",
+      "whyItMatters": "Education AI adoption is moving faster than school policy, creating a practical trust gap for parents and teachers.",
+      "factualityOpinionRating": {
+        "type": "factual",
+        "factuality": 4,
+        "opinionImportance": null,
+        "threshold": "include",
+        "note": "Current survey-backed education AI report."
+      },
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-09T14:10:00.000Z"
+    },
+    {
+      "id": "curated-axios-grok-45-release-2026-07-08",
+      "title": "SpaceXAI releases Grok 4.5 for coding and agentic work",
+      "summary": "Axios reports that SpaceXAI released Grok 4.5, positioning the model as a lower-cost tool for coding and agentic enterprise work.",
+      "fullSummary": "Axios reports that Elon Musk's SpaceXAI released Grok 4.5, its first major model launch since going public and acquiring Cursor. The model is positioned for coding and agentic work rather than as a pure consumer chatbot. Axios says SpaceXAI is emphasizing speed, cost, and enterprise use, with pricing at $2 per million input tokens and $6 per million output tokens.",
+      "keyFacts": [
+        "SpaceXAI released Grok 4.5",
+        "The model is aimed at coding and agentic enterprise tasks",
+        "Axios reports pricing of $2 per million input tokens and $6 per million output tokens"
+      ],
+      "url": "https://www.axios.com/2026/07/08/spacexai-grok-new-model",
+      "sourceName": "Axios",
+      "relatedSources": [
+        "SpaceXAI",
+        "Cursor",
+        "Elon Musk"
+      ],
+      "lane": "models",
+      "publishedAt": "2026-07-08T23:30:00.000Z",
+      "importance": 997,
+      "sourceConfidence": "high",
+      "filterCategory": "models",
+      "whyItMatters": "The model race is increasingly about cost and workflow fit, not only maximum benchmark scores.",
+      "factualityOpinionRating": {
+        "type": "factual",
+        "factuality": 4,
+        "opinionImportance": null,
+        "threshold": "include",
+        "note": "Current Axios scoop on a major model launch."
+      },
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-09T14:10:00.000Z"
+    },
+    {
+      "id": "curated-techcrunch-general-intuition-robotics-foundation-model-2026-07-08",
+      "title": "General Intuition argues robotics needs foundation models",
+      "summary": "TechCrunch reports that General Intuition is building embodied-AI foundation models from video-game data and small robotics fine-tunes.",
+      "fullSummary": "TechCrunch reports that General Intuition CEO Pim de Witte expects robotics to follow the same foundation-model shift that reshaped language AI. The startup trains on video-game action data and says its model can transfer spatial and temporal intuition into robotics tasks. TechCrunch says General Intuition recently raised $320 million at a $2.3 billion valuation and demonstrated a quadruped robot after fine-tuning on only eight minutes of real-world robotics data.",
+      "keyFacts": [
+        "General Intuition is building foundation models for embodied AI",
+        "The company trains on video-game action data",
+        "TechCrunch says it recently raised $320 million at a $2.3 billion valuation"
+      ],
+      "url": "https://techcrunch.com/2026/07/08/this-startup-thinks-robotics-is-about-to-have-its-chatgpt-moment/",
+      "sourceName": "TechCrunch",
+      "relatedSources": [
+        "General Intuition",
+        "Khosla Ventures"
+      ],
+      "lane": "physical-ai",
+      "publishedAt": "2026-07-08T19:19:00.000Z",
+      "importance": 989,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "whyItMatters": "Physical AI is converging on the same foundation-model thesis that transformed language and coding tools.",
+      "factualityOpinionRating": {
+        "type": "factual",
+        "factuality": 4,
+        "opinionImportance": null,
+        "threshold": "include",
+        "note": "Current TechCrunch report on robotics and embodied AI."
+      },
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-09T14:10:00.000Z"
+    },
+    {
+      "id": "curated-techcrunch-google-photos-video-remix-2026-07-08",
+      "title": "Google Photos adds AI Video Remix",
+      "summary": "TechCrunch reports that Google Photos added an AI Video Remix feature for transforming photos into stylized short videos.",
+      "fullSummary": "TechCrunch reports that Google Photos is adding an AI Video Remix tool that turns photos into stylized videos. The feature is part of Google's broader push to bring generative media tools into consumer products rather than standalone demos. It follows continued expansion of AI editing and remixing features across Google Photos.",
+      "keyFacts": [
+        "Google Photos is adding an AI Video Remix feature",
+        "The tool turns still images into stylized short videos",
+        "The rollout extends Google's consumer generative-media features"
+      ],
+      "url": "https://techcrunch.com/2026/07/08/google-photos-adds-a-new-ai-video-remix-tool/",
+      "sourceName": "TechCrunch",
+      "relatedSources": [
+        "Google",
+        "Google Photos"
+      ],
+      "lane": "products-adoption",
+      "publishedAt": "2026-07-08T19:05:00.000Z",
+      "importance": 980,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "whyItMatters": "Generative video is moving into mainstream photo libraries, making synthetic media creation a default consumer workflow.",
+      "factualityOpinionRating": {
+        "type": "factual",
+        "factuality": 4,
+        "opinionImportance": null,
+        "threshold": "include",
+        "note": "Current TechCrunch product report."
+      },
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-09T14:10:00.000Z"
+    },
+    {
+      "id": "curated-wired-claude-cowork-mobile-web-2026-07-08",
+      "title": "Anthropic brings Claude Cowork to phones and the web",
+      "summary": "WIRED reports that Anthropic's Claude Cowork can now run tasks from phones and browsers without keeping a desktop session awake.",
+      "fullSummary": "WIRED reports that Anthropic is expanding Claude Cowork to smartphones and web browsers. The update lets the agent keep working while a user's desktop is offline, pulling from connected tools such as email, Slack, and meeting transcripts. Anthropic is rolling the beta out to Max subscribers first and says usage is spreading from coding into operations and content work.",
+      "keyFacts": [
+        "Claude Cowork is expanding to mobile and web",
+        "The agent can keep workflows running without an active desktop",
+        "Anthropic is starting with Max subscribers"
+      ],
+      "url": "https://www.wired.com/story/shut-those-laptops-anthropic-puts-its-claude-cowork-agent-on-your-phone",
+      "sourceName": "WIRED",
+      "relatedSources": [
+        "Anthropic",
+        "Claude Cowork"
+      ],
+      "lane": "products-adoption",
+      "publishedAt": "2026-07-08T18:00:00.000Z",
+      "importance": 993,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "whyItMatters": "Cloud-running personal agents make AI workflows less tied to a single machine and more like persistent workplace infrastructure.",
+      "factualityOpinionRating": {
+        "type": "factual",
+        "factuality": 4,
+        "opinionImportance": null,
+        "threshold": "include",
+        "note": "Current WIRED report on an Anthropic agent rollout."
+      },
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-09T14:10:00.000Z"
+    },
+    {
+      "id": "curated-techcrunch-prime-intellect-130m-2026-07-08",
+      "title": "Prime Intellect raises $130 million for enterprise AI-agent infrastructure",
+      "summary": "TechCrunch reports that Prime Intellect raised a $130 million Series A to help companies build and train their own AI agents.",
+      "fullSummary": "TechCrunch reports that Prime Intellect raised a $130 million Series A at a $1 billion valuation. The company offers compute access, reinforcement-learning tooling, and evaluation infrastructure so enterprises can train task-specific AI agents without relying entirely on frontier labs. The round was led by Radical Ventures with participation from Nvidia Ventures, Intel Capital, Dell Technologies Capital, Iconiq, and several founder angels.",
+      "keyFacts": [
+        "Prime Intellect raised a $130 million Series A",
+        "The round valued the company at $1 billion",
+        "Its platform combines compute, RL tooling, and evaluation tools"
+      ],
+      "url": "https://techcrunch.com/2026/07/08/prime-intellect-raises-130m-series-a-to-help-enterprises-build-their-own-ai-agents/",
+      "sourceName": "TechCrunch",
+      "relatedSources": [
+        "Prime Intellect",
+        "Radical Ventures",
+        "Nvidia Ventures",
+        "Intel Capital"
+      ],
+      "lane": "funding",
+      "publishedAt": "2026-07-08T16:22:00.000Z",
+      "importance": 995,
+      "sourceConfidence": "high",
+      "filterCategory": "funding",
+      "whyItMatters": "Enterprise AI spending is moving beyond API consumption toward owned agent training and evaluation stacks.",
+      "factualityOpinionRating": {
+        "type": "factual",
+        "factuality": 4,
+        "opinionImportance": null,
+        "threshold": "include",
+        "note": "Current TechCrunch funding report."
+      },
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-09T14:10:00.000Z"
+    },
+    {
+      "id": "curated-bi-openai-gpt56-grok-release-race-2026-07-08",
+      "title": "OpenAI's GPT-5.6 rollout collides with Grok 4.5 launch",
+      "summary": "Business Insider reports that OpenAI is preparing wider GPT-5.6 access just as Elon Musk's SpaceXAI promotes Grok 4.5.",
+      "fullSummary": "Business Insider reports that OpenAI is preparing to roll out GPT-5.6 more widely after a staggered release requested by the Trump administration. The GPT-5.6 family includes Sol for advanced tasks, Terra for everyday work, and Luna for speed and affordability. The rollout is arriving as Elon Musk promotes SpaceXAI's Grok 4.5 as a faster and cheaper Opus-class model.",
+      "keyFacts": [
+        "OpenAI is preparing wider GPT-5.6 rollout",
+        "The family includes Sol, Terra, and Luna variants",
+        "SpaceXAI is positioning Grok 4.5 as a cheaper Opus-class rival"
+      ],
+      "url": "https://www.businessinsider.com/openai-sol-terra-luna-gpt56-grok-elon-musk-sam-altman-2026-7",
+      "sourceName": "Business Insider",
+      "relatedSources": [
+        "OpenAI",
+        "SpaceXAI",
+        "Elon Musk"
+      ],
+      "lane": "models",
+      "publishedAt": "2026-07-08T10:49:44.874Z",
+      "importance": 992,
+      "sourceConfidence": "high",
+      "filterCategory": "models",
+      "whyItMatters": "Frontier launches are now being shaped by regulatory pacing, pricing pressure, and direct competitive counterprogramming.",
+      "factualityOpinionRating": {
+        "type": "factual",
+        "factuality": 4,
+        "opinionImportance": null,
+        "threshold": "include",
+        "note": "Current Business Insider report with details not present in the prior approval item."
+      },
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-09T14:10:00.000Z"
+    },
+    {
+      "id": "curated-bi-ai-hedge-fund-secret-sauce-2026-07-08",
+      "title": "AI startups target hedge funds' analyst work",
+      "summary": "Business Insider reports that former hedge-fund professionals are building AI startups to automate investment research and analysis.",
+      "fullSummary": "Business Insider reports that startups founded by former hedge-fund professionals are trying to automate core investment research and analysis workflows. The report names WithAI, Macro Technologies, and Serona Data as examples, and says the tools are moving beyond compliance and support into tasks traditionally handled by analysts and portfolio teams. Some fund managers argue that Claude-level systems can already outperform junior analysts on parts of the work.",
+      "keyFacts": [
+        "Former hedge-fund professionals are launching AI investing-workflow startups",
+        "The tools target research, analysis, and signal discovery",
+        "The report names WithAI, Macro Technologies, and Serona Data"
+      ],
+      "url": "https://www.businessinsider.com/hedge-fund-ai-startups-analysts-investment-research-jobs-2026-7",
+      "sourceName": "Business Insider",
+      "relatedSources": [
+        "WithAI",
+        "Macro Technologies",
+        "Serona Data",
+        "Bridgewater"
+      ],
+      "lane": "products-adoption",
+      "publishedAt": "2026-07-08T09:34:01.248Z",
+      "importance": 984,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "whyItMatters": "Financial-services AI is moving from back-office automation into the high-value judgment work that hedge funds treat as core IP.",
+      "factualityOpinionRating": {
+        "type": "factual",
+        "factuality": 4,
+        "opinionImportance": null,
+        "threshold": "include",
+        "note": "Current Business Insider report on vertical AI adoption."
+      },
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-09T14:10:00.000Z"
+    },
+    {
+      "id": "curated-bi-ai-distillation-profit-threat-2026-07-08",
+      "title": "Business Insider says AI distillation threatens frontier-lab profits",
+      "summary": "Business Insider reports that model distillation has become a flashpoint because it can replicate expensive frontier-model capabilities cheaply.",
+      "fullSummary": "Business Insider reports that AI model distillation has grown from a normal research technique into a business-model threat for frontier labs. The story says OpenAI, Anthropic, and Google are worried that rivals can train cheaper models from frontier-model outputs, including through overseas proxy services. It also notes that broad crackdowns could hurt smaller labs and push developers toward open-source alternatives.",
+      "keyFacts": [
+        "Distillation trains one model from another model's outputs",
+        "Frontier labs worry the technique can erode returns on expensive models",
+        "Proxy services and transfer stations make enforcement difficult"
+      ],
+      "url": "https://www.businessinsider.com/distillation-problem-ai-industry-anthropic-openai-2026-7",
+      "sourceName": "Business Insider",
+      "relatedSources": [
+        "OpenAI",
+        "Anthropic",
+        "Google",
+        "Alibaba",
+        "DeepSeek"
+      ],
+      "lane": "models",
+      "publishedAt": "2026-07-08T09:00:03.670Z",
+      "importance": 988,
+      "sourceConfidence": "high",
+      "filterCategory": "models",
+      "whyItMatters": "Distillation is becoming a core economic and policy fight because it changes how defensible frontier-model margins may be.",
+      "factualityOpinionRating": {
+        "type": "factual",
+        "factuality": 4,
+        "opinionImportance": null,
+        "threshold": "include",
+        "note": "Current explanatory report on model economics and policy."
+      },
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-09T14:10:00.000Z"
+    },
+    {
+      "id": "curated-bi-amazon-moonraker-alexa-agent-2026-07-08",
+      "title": "Amazon's Moonraker project pushes Alexa further into agents",
+      "summary": "Business Insider reports that Amazon is developing Moonraker, an expensive Alexa+ project for multi-step agentic tasks.",
+      "fullSummary": "Business Insider reports that internal documents describe Amazon's Moonraker project, a planned Alexa+ upgrade for complex multi-step requests. The project would let Alexa handle combined tasks such as booking a ride and texting a friend, moving the assistant toward agentic workflows. The documents describe Moonraker as one of Alexa+'s highest-cost initiatives, with projected 2026 GPU costs above $100 million.",
+      "keyFacts": [
+        "Moonraker is an internal Alexa+ agentic AI project",
+        "It is designed for multi-step user requests",
+        "Internal documents project more than $100 million in 2026 GPU costs"
+      ],
+      "url": "https://www.businessinsider.com/amazon-moonraker-project-alexa-agentic-cost-2026-7",
+      "sourceName": "Business Insider",
+      "relatedSources": [
+        "Amazon",
+        "Alexa+",
+        "Anthropic",
+        "Nvidia"
+      ],
+      "lane": "products-adoption",
+      "publishedAt": "2026-07-08T09:00:02.000Z",
+      "importance": 991,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "whyItMatters": "Consumer assistants are becoming costly agent platforms, making inference economics a product strategy constraint.",
+      "factualityOpinionRating": {
+        "type": "factual",
+        "factuality": 4,
+        "opinionImportance": null,
+        "threshold": "include",
+        "note": "Current Business Insider exclusive based on internal documents."
+      },
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-09T14:10:00.000Z"
+    },
     {
       "id": "curated-et-openai-gpt56-us-approval-2026-07-08",
       "title": "OpenAI gets US approval for broad GPT-5.6 rollout",
@@ -2917,32 +3662,6 @@
       "summaryEngine": "chat-curated",
       "curatedAt": "2026-07-03T02:20:00.000Z",
       "whyItMatters": "The biggest AI vendors are now competing on deployment muscle, which is where enterprise AI spending either turns into measurable outcomes or stalls."
-    },
-    {
-      "id": "curated-mit-tech-review-ai-turbines-2026-07-02",
-      "title": "MIT Technology Review says AI is being taught to run with turbines",
-      "summary": "MIT Technology Review reports on work to teach AI systems to operate alongside turbines, showing industrial AI moving into energy operations.",
-      "fullSummary": "MIT Technology Review reports on efforts to teach AI to run with turbines, an industrial setting where model decisions must interact with physical systems. The story adds an energy and operations example to AI deployment coverage, showing AI moving into infrastructure control rather than only office workflows.",
-      "keyFacts": [
-        "The story covers AI applied to turbine operations",
-        "It focuses on industrial and energy-sector deployment",
-        "The setting requires AI to work with physical infrastructure"
-      ],
-      "url": "https://www.technologyreview.com/2026/07/02/1138433/teaching-ai-to-run-with-the-turbines/",
-      "sourceName": "MIT Technology Review",
-      "relatedSources": [
-        "turbines",
-        "industrial AI",
-        "energy operations"
-      ],
-      "lane": "industrial",
-      "publishedAt": "2026-07-02T12:51:44.000Z",
-      "importance": 810,
-      "sourceConfidence": "high",
-      "filterCategory": "general",
-      "summaryEngine": "chat-curated",
-      "curatedAt": "2026-07-05T14:02:01.967Z",
-      "whyItMatters": "Industrial AI needs reliability around physical systems, where bad model behavior has operational consequences."
     },
     {
       "id": "curated-ai-news-nvidia-bionemo-claude-science-2026-07-02",
@@ -25960,7 +26679,7 @@
     }
   ],
   "errors": [],
-  "totalItems": 941,
-  "lastRefresh": "2026-07-08T06:15:00.000Z",
-  "count": 941
+  "totalItems": 963,
+  "lastRefresh": "2026-07-09T14:10:00.000Z",
+  "count": 963
 }
