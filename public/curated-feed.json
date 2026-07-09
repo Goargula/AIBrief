@@ -1,9 +1,72 @@
 {
-  "generatedAt": "2026-07-09T14:10:00.000Z",
-  "nextRefreshAt": "2026-07-09T20:10:00.000Z",
+  "generatedAt": "2026-07-09T15:30:00.000Z",
+  "nextRefreshAt": "2026-07-09T21:30:00.000Z",
   "summaryEngine": "chat-curated",
   "curated": true,
   "items": [
+    {
+      "id": "curated-register-capita-ai-pensions-fiasco-2026-07-09",
+      "title": "UK withholds GBP 10 million from Capita after AI-enabled pensions fiasco",
+      "summary": "The Register reports that the UK government is withholding nearly GBP 10 million from Capita after a troubled civil-service pensions transition that had been pitched as an AI-enabled flagship project.",
+      "fullSummary": "The Register reports that the UK government is withholding GBP 9.9 million from Capita after the company struggled with the transition of the Civil Service pensions scheme. Capita had pitched the project as a flagship AI-enabled pension administration case, but MPs heard that service failures and backlog problems continued after launch. The story is a concrete example of AI transformation promises colliding with messy public-sector delivery.",
+      "keyFacts": [
+        "The UK government is withholding GBP 9.9 million from Capita",
+        "Capita had pitched the pension service as a flagship AI-enabled use case",
+        "MPs heard that failed KPIs and backlog problems are still affecting pension users"
+      ],
+      "url": "https://www.theregister.com/public-sector/2026/07/09/ukgov-withholds-10m-payment-from-capita-over-pensions-project-fiasco-as-dispute-continues/5269227",
+      "sourceName": "The Register",
+      "relatedSources": [
+        "Capita",
+        "UK Cabinet Office"
+      ],
+      "lane": "policy-safety",
+      "publishedAt": "2026-07-09T15:01:00.000Z",
+      "importance": 999,
+      "sourceConfidence": "high",
+      "filterCategory": "pushback",
+      "whyItMatters": "AI modernization projects fail in the real world when the operational service underneath them breaks, especially in public-benefit systems.",
+      "factualityOpinionRating": {
+        "type": "factual",
+        "factuality": 4,
+        "opinionImportance": null,
+        "threshold": "include",
+        "note": "Current The Register report based on parliamentary evidence and contract penalties."
+      },
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-09T15:30:00.000Z"
+    },
+    {
+      "id": "curated-verge-meta-muse-spark-api-coding-2026-07-09",
+      "title": "Meta opens Muse Spark 1.1 coding model through an API preview",
+      "summary": "The Verge reports that Meta is releasing Muse Spark 1.1 through a public API preview for US developers, positioning the model for coding and agentic workflows.",
+      "fullSummary": "The Verge reports that Meta is opening Muse Spark 1.1 to developers through a new Meta Model API in public preview for US developers. Meta says the model improves on the first Muse Spark generation with stronger coding, complex bug fixing, multimodal perception, and support for end-to-end agentic workflows. The launch expands Meta from app-distributed AI into a developer API race against OpenAI, Anthropic, and Google.",
+      "keyFacts": [
+        "Muse Spark 1.1 is available through a public API preview for US developers",
+        "Meta says the model is stronger at coding and agentic workflows",
+        "The model also remains available through Meta AI products"
+      ],
+      "url": "https://www.theverge.com/ai-artificial-intelligence/963193/meta-muse-spark-model-api",
+      "sourceName": "The Verge",
+      "relatedSources": [
+        "Meta"
+      ],
+      "lane": "models",
+      "publishedAt": "2026-07-09T14:00:00.000Z",
+      "importance": 998,
+      "sourceConfidence": "high",
+      "filterCategory": "models",
+      "whyItMatters": "Meta is turning its in-house model work into a developer surface, which changes how it competes beyond social-app distribution.",
+      "factualityOpinionRating": {
+        "type": "factual",
+        "factuality": 4,
+        "opinionImportance": null,
+        "threshold": "include",
+        "note": "Current report on a same-day Meta model/API launch."
+      },
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-09T15:30:00.000Z"
+    },
     {
       "id": "curated-verge-claude-wrapped-reflection-2026-07-09",
       "title": "Anthropic adds a Claude usage reflection dashboard",
@@ -97,6 +160,39 @@
       },
       "summaryEngine": "chat-curated",
       "curatedAt": "2026-07-09T14:10:00.000Z"
+    },
+    {
+      "id": "curated-techcrunch-ollama-65m-series-b-2026-07-09",
+      "title": "Ollama raises $65 million as local open-model tooling scales",
+      "summary": "TechCrunch reports that Ollama raised a $65 million Series B led by Theory Ventures and now reaches nearly 9 million monthly developers.",
+      "fullSummary": "TechCrunch reports that Ollama raised a $65 million Series B led by Theory Ventures, following an earlier $15 million Series A from Benchmark. Ollama helps developers run open-weight AI models locally and through hosted tiers, and the company says it has nearly 9 million monthly developers, 176,000 GitHub stars, and use inside most Fortune 500 companies. The round shows investor demand around open-model tooling, not just frontier-model labs.",
+      "keyFacts": [
+        "Ollama raised a $65 million Series B led by Theory Ventures",
+        "The company says it reaches nearly 9 million monthly developers",
+        "Ollama helps developers run open-weight models locally and through hosted tiers"
+      ],
+      "url": "https://techcrunch.com/2026/07/09/popular-open-source-ai-developer-tool-ollama-raises-65m-grows-to-nearly-9m-users/",
+      "sourceName": "TechCrunch",
+      "relatedSources": [
+        "Ollama",
+        "Theory Ventures",
+        "Benchmark"
+      ],
+      "lane": "funding",
+      "publishedAt": "2026-07-09T13:00:00.000Z",
+      "importance": 997,
+      "sourceConfidence": "high",
+      "filterCategory": "funding",
+      "whyItMatters": "Open-weight model adoption is creating venture-scale developer infrastructure companies outside the closed frontier-lab stack.",
+      "factualityOpinionRating": {
+        "type": "factual",
+        "factuality": 4,
+        "opinionImportance": null,
+        "threshold": "include",
+        "note": "Current TechCrunch funding report with company usage figures."
+      },
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-09T15:30:00.000Z"
     },
     {
       "id": "curated-bi-openai-gpt-live-voice-2026-07-09",
@@ -225,6 +321,38 @@
       },
       "summaryEngine": "chat-curated",
       "curatedAt": "2026-07-09T14:10:00.000Z"
+    },
+    {
+      "id": "curated-bi-startup-ai-token-cost-30000-2026-07-09",
+      "title": "Startup founder says one Claude setting drove a $30,000 AI-token month",
+      "summary": "Business Insider reports that a Turbo AI cofounder spent about $30,000 on Claude Code tokens in one month before cutting costs by turning off fast mode for routine work.",
+      "fullSummary": "Business Insider reports that Turbo AI cofounder Sarthak Dhawan said his small team accidentally spent about $30,000 on Claude Code tokens in a heavy shipping month. He said the cost came partly from leaving fast mode on, and the team now uses fast mode only when latency matters. The piece is a concrete operating example of AI-agent costs moving from abstract token economics into startup budgets and engineering habits.",
+      "keyFacts": [
+        "Turbo AI spent about $30,000 on Claude Code tokens in one month",
+        "The founder linked part of the bill to leaving fast mode enabled",
+        "The team now reserves fast mode for latency-sensitive pairing"
+      ],
+      "url": "https://www.businessinsider.com/startup-cofounder-accidentally-spent-30-000-ai-tokens-worth-it-2026-7",
+      "sourceName": "Business Insider",
+      "relatedSources": [
+        "Turbo AI",
+        "Anthropic"
+      ],
+      "lane": "products-adoption",
+      "publishedAt": "2026-07-09T09:11:01.236Z",
+      "importance": 996,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "whyItMatters": "AI coding tools are becoming material operating expenses, and teams are learning that model settings can matter as much as vendor pricing.",
+      "factualityOpinionRating": {
+        "type": "factual",
+        "factuality": 3,
+        "opinionImportance": null,
+        "threshold": "include",
+        "note": "First-person Business Insider account with specific operating details."
+      },
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-09T15:30:00.000Z"
     },
     {
       "id": "curated-ai-news-nhs-ai-womb-cancer-blood-test-2026-07-09",
@@ -420,6 +548,37 @@
       "curatedAt": "2026-07-09T14:10:00.000Z"
     },
     {
+      "id": "curated-register-temasek-ai-exposure-2026-07-09",
+      "title": "Temasek plans to raise AI exposure to 15 percent of its portfolio",
+      "summary": "The Register reports that Singapore sovereign wealth fund Temasek plans to lift AI exposure from about 6 percent of assets to 15 percent by 2031.",
+      "fullSummary": "The Register reports that Singapore sovereign wealth fund Temasek plans to raise AI exposure from about 6 percent of its portfolio to 15 percent by 2031. The fund said it will target energy and data centers, semiconductors, cloud service providers, foundation models, and AI applications and software infrastructure. Temasek also said AI-driven data-center demand is part of why it plans to expand infrastructure investments.",
+      "keyFacts": [
+        "Temasek holds more than $400 billion in assets",
+        "The fund plans to raise AI exposure to 15 percent by 2031",
+        "Target areas include data centers, semiconductors, cloud providers, foundation models, and AI applications"
+      ],
+      "url": "https://www.theregister.com/ai-and-ml/2026/07/09/singaporean-sovereign-wealth-fund-temasek-thinks-ai-is-going-to-pay-off/5268953",
+      "sourceName": "The Register",
+      "relatedSources": [
+        "Temasek"
+      ],
+      "lane": "ai-infrastructure",
+      "publishedAt": "2026-07-09T05:20:00.000Z",
+      "importance": 995,
+      "sourceConfidence": "high",
+      "filterCategory": "funding",
+      "whyItMatters": "Sovereign funds are becoming major allocators for the AI infrastructure stack, which can shape funding availability beyond venture capital.",
+      "factualityOpinionRating": {
+        "type": "factual",
+        "factuality": 4,
+        "opinionImportance": null,
+        "threshold": "include",
+        "note": "Current report from Temasek annual-review remarks."
+      },
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-09T15:30:00.000Z"
+    },
+    {
       "id": "curated-bi-parents-kids-ai-deloitte-2026-07-09",
       "title": "Deloitte survey says parents worry kids rely too heavily on AI",
       "summary": "Business Insider reports that a Deloitte survey found half of parents worry their school-age children are too dependent on AI tools.",
@@ -482,6 +641,102 @@
       },
       "summaryEngine": "chat-curated",
       "curatedAt": "2026-07-09T14:10:00.000Z"
+    },
+    {
+      "id": "curated-register-entire-github-ai-agent-hosting-2026-07-08",
+      "title": "Former GitHub CEO launches Git hosting network for AI-agent coding",
+      "summary": "The Register reports that former GitHub CEO Thomas Dohmke launched Entire, a Git hosting network designed for AI-agent-heavy software workflows.",
+      "fullSummary": "The Register reports that former GitHub CEO Thomas Dohmke has launched Entire, a Git hosting network aimed at a world where AI agents generate much of the code. Entire lets developers mirror GitHub repositories and track agent sessions alongside code commits. The pitch is that centralized code hosts are under strain from AI-agent traffic and need infrastructure that records not just what changed, but why agents changed it.",
+      "keyFacts": [
+        "Former GitHub CEO Thomas Dohmke launched Entire",
+        "Entire mirrors repositories and tracks AI-agent coding sessions",
+        "The company says AI agents are stressing existing Git hosting workflows"
+      ],
+      "url": "https://www.theregister.com/ai-and-ml/2026/07/08/former-github-ceo-launches-competitor-designed-for-the-age-of-vibe-coding/5268694",
+      "sourceName": "The Register",
+      "relatedSources": [
+        "Entire",
+        "GitHub"
+      ],
+      "lane": "developer-tools",
+      "publishedAt": "2026-07-08T20:55:00.000Z",
+      "importance": 994,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "whyItMatters": "AI coding is not only changing IDEs; it is creating pressure on repository hosting, provenance, and review infrastructure.",
+      "factualityOpinionRating": {
+        "type": "factual",
+        "factuality": 4,
+        "opinionImportance": null,
+        "threshold": "include",
+        "note": "Current product/company launch report from The Register."
+      },
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-09T15:30:00.000Z"
+    },
+    {
+      "id": "curated-techcrunch-google-synthid-mcconnell-hoax-2026-07-08",
+      "title": "Google SynthID helps debunk an AI-generated McConnell hoax image",
+      "summary": "TechCrunch reports that Google SynthID was used to identify an AI-generated image falsely depicting Senator Mitch McConnell in medical distress.",
+      "fullSummary": "TechCrunch reports that Google SynthID helped debunk a widely shared AI-generated hoax image that appeared to show Senator Mitch McConnell in a hospital bed. Snopes found the image carried the SynthID watermark used to identify AI-generated pictures. The case is a rare practical win for provenance technology, while also showing the limits of systems that only work when generation tools participate.",
+      "keyFacts": [
+        "Snopes identified a SynthID watermark in the McConnell hoax image",
+        "The image had circulated on Reddit and X",
+        "SynthID only works when generation systems participate in the watermarking program"
+      ],
+      "url": "https://techcrunch.com/2026/07/08/googles-deepfake-detector-system-used-to-debunk-mcconnell-hoax-pic/",
+      "sourceName": "TechCrunch",
+      "relatedSources": [
+        "Google",
+        "Snopes"
+      ],
+      "lane": "policy-safety",
+      "publishedAt": "2026-07-08T20:37:00.000Z",
+      "importance": 992,
+      "sourceConfidence": "high",
+      "filterCategory": "pushback",
+      "whyItMatters": "Synthetic-media provenance is often criticized as theoretical, so a visible real-world debunk is useful evidence for what watermarking can and cannot do.",
+      "factualityOpinionRating": {
+        "type": "factual",
+        "factuality": 4,
+        "opinionImportance": null,
+        "threshold": "include",
+        "note": "Current TechCrunch in-brief report with concrete provenance example."
+      },
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-09T15:30:00.000Z"
+    },
+    {
+      "id": "curated-register-copilot-workflow-jailbreak-2026-07-08",
+      "title": "Researchers find workflow-level jailbreak path in GitHub Copilot",
+      "summary": "The Register reports that Alan Turing Institute researchers found GitHub Copilot could refuse harmful direct prompts but still produce harmful content when the task was embedded in multi-step coding workflows.",
+      "fullSummary": "The Register reports that Alan Turing Institute researchers found a workflow-level jailbreak pattern in GitHub Copilot. In tests, Copilot rarely answered harmful prompts in a direct chat, but produced prohibited content far more reliably when the same objective was split across normal IDE actions such as reading files, running scripts, and improving an evaluation pipeline. The finding argues that coding-agent safety needs workflow-level evaluation, not only prompt-level refusal tests.",
+      "keyFacts": [
+        "Researchers tested GitHub Copilot across several underlying models",
+        "Direct harmful prompts were usually refused",
+        "The same goals could bypass guardrails when distributed across coding workflow steps"
+      ],
+      "url": "https://www.theregister.com/security/2026/07/08/github-copilot-sorry-dave-i-cant-do-that-harmful-thing-unless-you-ask-me-in-code/5268654",
+      "sourceName": "The Register",
+      "relatedSources": [
+        "GitHub Copilot",
+        "Alan Turing Institute"
+      ],
+      "lane": "policy-safety",
+      "publishedAt": "2026-07-08T20:19:00.000Z",
+      "importance": 993,
+      "sourceConfidence": "high",
+      "filterCategory": "pushback",
+      "whyItMatters": "Agent safety can fail across a workflow even when single-turn refusals look strong, which matters for IDE-integrated AI systems.",
+      "factualityOpinionRating": {
+        "type": "factual",
+        "factuality": 4,
+        "opinionImportance": null,
+        "threshold": "include",
+        "note": "Current report on published research into coding-agent safety."
+      },
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-09T15:30:00.000Z"
     },
     {
       "id": "curated-techcrunch-general-intuition-robotics-foundation-model-2026-07-08",
@@ -612,6 +867,75 @@
       },
       "summaryEngine": "chat-curated",
       "curatedAt": "2026-07-09T14:10:00.000Z"
+    },
+    {
+      "id": "curated-register-ghostapproval-ai-coding-agents-2026-07-08",
+      "title": "GhostApproval bug hits major AI coding agents",
+      "summary": "The Register reports that Wiz found a symlink-based vulnerability pattern affecting multiple AI coding assistants, including Amazon Q Developer, Claude Code, Cursor, Google Antigravity, and Windsurf.",
+      "fullSummary": "The Register reports that Wiz found a vulnerability pattern called GhostApproval in at least six widely used AI coding assistants. The issue can trick agents into accessing files outside the intended workspace sandbox, creating a path toward remote code execution on a developer machine. Amazon, Cursor, and Google rated the issue critical or high severity and issued or prepared fixes, while other vendors had acknowledged reports at the time of publication.",
+      "keyFacts": [
+        "Wiz named the vulnerability pattern GhostApproval",
+        "Affected tools included Amazon Q Developer, Claude Code, Cursor, Google Antigravity, and Windsurf",
+        "The issue involves symlink-style workspace-boundary bypasses"
+      ],
+      "url": "https://www.theregister.com/security/2026/07/08/bug-in-top-ai-coding-agents-shows-that-unix-era-security-headaches-never-really-die/5268025",
+      "sourceName": "The Register",
+      "relatedSources": [
+        "Wiz",
+        "Amazon Q Developer",
+        "Claude Code",
+        "Cursor",
+        "Google Antigravity",
+        "Windsurf"
+      ],
+      "lane": "policy-safety",
+      "publishedAt": "2026-07-08T15:00:00.000Z",
+      "importance": 991,
+      "sourceConfidence": "high",
+      "filterCategory": "pushback",
+      "whyItMatters": "Coding agents are being granted deep workspace access, so old filesystem security mistakes can become new agent execution risks.",
+      "factualityOpinionRating": {
+        "type": "factual",
+        "factuality": 4,
+        "opinionImportance": null,
+        "threshold": "include",
+        "note": "Current security report with named affected tool classes and remediation status."
+      },
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-09T15:30:00.000Z"
+    },
+    {
+      "id": "curated-et-enlife-ai-alzheimers-blood-test-funding-2026-07-08",
+      "title": "Enlife raises Rs 6 crore for AI blood test for Alzheimer's",
+      "summary": "The Economic Times reports that Bengaluru deeptech startup Enlife raised Rs 6 crore to develop an AI-powered blood-test platform for earlier Alzheimer's detection.",
+      "fullSummary": "The Economic Times reports that Bengaluru-based Enlife Research raised Rs 6 crore from Piper Serica to develop an AI-powered blood-test platform for Alzheimer's detection. The startup aims to replace expensive and invasive scans with India-specific biomarker analysis and says its platform could eventually detect disease much earlier from a single blood draw. The funding will support validation, R&D hiring, and moving its first assay toward clinical-grade testing.",
+      "keyFacts": [
+        "Enlife raised Rs 6 crore led by Piper Serica",
+        "The company is building an AI-powered blood-test platform for Alzheimer's detection",
+        "The funds will support biomarker validation and clinical-grade assay development"
+      ],
+      "url": "https://economictimes.indiatimes.com/tech/funding/deeptech-startup-enlife-bags-rs-6-crore-to-develop-ai-blood-test-for-alzheimers/articleshow/132264863.cms",
+      "sourceName": "The Economic Times",
+      "relatedSources": [
+        "Enlife",
+        "Piper Serica",
+        "IISc"
+      ],
+      "lane": "health-science",
+      "publishedAt": "2026-07-08T13:21:10.000Z",
+      "importance": 990,
+      "sourceConfidence": "high",
+      "filterCategory": "funding",
+      "whyItMatters": "Healthcare AI funding is moving into India-specific diagnostics, where local datasets and affordability can matter as much as model performance.",
+      "factualityOpinionRating": {
+        "type": "factual",
+        "factuality": 4,
+        "opinionImportance": null,
+        "threshold": "include",
+        "note": "Current ETtech funding report with named investors and use of funds."
+      },
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-09T15:30:00.000Z"
     },
     {
       "id": "curated-bi-openai-gpt56-grok-release-race-2026-07-08",
@@ -748,6 +1072,38 @@
       },
       "summaryEngine": "chat-curated",
       "curatedAt": "2026-07-09T14:10:00.000Z"
+    },
+    {
+      "id": "curated-et-sambanova-billion-dollar-funding-2026-07-08",
+      "title": "SambaNova raises $1 billion for AI inference infrastructure",
+      "summary": "The Economic Times reports that AI chip startup SambaNova raised $1 billion at an $11 billion valuation to expand chips, systems, software, and full-stack AI infrastructure.",
+      "fullSummary": "The Economic Times reports that SambaNova raised $1 billion at an $11 billion valuation, announced at the Raise Summit in Paris. The company focuses on AI inference, the processing used when models answer everyday queries, and said it will invest across chips, systems, software, and full-stack AI infrastructure. The round adds another major challenger to Nvidia-dominated AI compute markets, especially around cost-effective inference.",
+      "keyFacts": [
+        "SambaNova raised $1 billion at an $11 billion valuation",
+        "The company focuses on AI inference infrastructure",
+        "It plans to invest across chips, systems, software, and full-stack AI infrastructure"
+      ],
+      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/us-chip-startup-sambanova-scores-billion-dollar-funding-round/articleshow/132257832.cms",
+      "sourceName": "The Economic Times",
+      "relatedSources": [
+        "SambaNova",
+        "Intel"
+      ],
+      "lane": "ai-infrastructure",
+      "publishedAt": "2026-07-08T08:18:48.000Z",
+      "importance": 989,
+      "sourceConfidence": "high",
+      "filterCategory": "funding",
+      "whyItMatters": "Inference is becoming its own capital-intensive market, and funding rounds at this scale show investors still expect room for Nvidia challengers.",
+      "factualityOpinionRating": {
+        "type": "factual",
+        "factuality": 4,
+        "opinionImportance": null,
+        "threshold": "include",
+        "note": "Current AFP/ET report on the funding round and valuation."
+      },
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-09T15:30:00.000Z"
     },
     {
       "id": "curated-et-openai-gpt56-us-approval-2026-07-08",
@@ -1345,6 +1701,40 @@
       },
       "summaryEngine": "chat-curated",
       "curatedAt": "2026-07-08T05:58:00.000Z"
+    },
+    {
+      "id": "curated-ai-news-loreal-mondelez-nestle-product-ai-2026-07-07",
+      "title": "L'Oreal, Mondelez, and Nestle use AI to speed product development",
+      "summary": "AI News reports that L'Oreal, Mondelez, Nestle, and other consumer-goods firms are using AI to accelerate product formulation, recipe testing, packaging materials, and supply-chain flexibility.",
+      "fullSummary": "AI News reports that L'Oreal has used AI to shorten product formulation work, including simulating how molecules affect skin and hair before lab testing. Mondelez is using AI to generate and test recipe options across brands such as Oreo and Chips Ahoy, while Nestle has used generative AI for packaging materials discovery. The story shows AI moving into product R&D for consumer goods, not only software and back-office automation.",
+      "keyFacts": [
+        "L'Oreal says AI has made some product formulation work faster",
+        "Mondelez uses AI to generate and test recipe options",
+        "Nestle and IBM Research built a generative AI tool for packaging-material discovery"
+      ],
+      "url": "https://www.artificialintelligence-news.com/news/ai-product-development-loreal-mondelez-nestle/",
+      "sourceName": "AI News",
+      "relatedSources": [
+        "L'Oreal",
+        "Mondelez",
+        "Nestle",
+        "IBM Research"
+      ],
+      "lane": "products-adoption",
+      "publishedAt": "2026-07-07T12:00:00.000Z",
+      "importance": 988,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "whyItMatters": "Consumer-goods companies are using AI to compress physical product-development cycles, where lab tests, ingredient sourcing, and supply constraints all affect launch speed.",
+      "factualityOpinionRating": {
+        "type": "factual",
+        "factuality": 4,
+        "opinionImportance": null,
+        "threshold": "include",
+        "note": "Direct AI News article from the current named-source page."
+      },
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-09T15:30:00.000Z"
     },
     {
       "id": "curated-techcrunch-savi-security-7m-ai-scam-app-2026-07-07",
@@ -26679,7 +27069,7 @@
     }
   ],
   "errors": [],
-  "totalItems": 963,
-  "lastRefresh": "2026-07-09T14:10:00.000Z",
-  "count": 963
+  "totalItems": 975,
+  "lastRefresh": "2026-07-09T15:30:00.000Z",
+  "count": 975
 }
