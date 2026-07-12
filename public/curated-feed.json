@@ -1,9 +1,595 @@
 {
-  "generatedAt": "2026-07-09T15:30:00.000Z",
-  "nextRefreshAt": "2026-07-09T21:30:00.000Z",
+  "generatedAt": "2026-07-12T17:40:00.000Z",
+  "nextRefreshAt": "2026-07-12T23:40:00.000Z",
   "summaryEngine": "chat-curated",
   "curated": true,
   "items": [
+    {
+      "id": "curated-verge-apple-car-ai-chip-legacy-2026-07-12",
+      "title": "Apple's abandoned car program becomes a foundation for its AI chips",
+      "summary": "The Verge reports that Apple’s failed self-driving car effort helped shape the Neural Engine and is now feeding into the company’s next AI hardware roadmap, including accelerated M7 development.",
+      "fullSummary": "The Verge reports that Apple’s self-driving car program never shipped a vehicle, but its early need for powerful on-device AI processing helped drive the Neural Engine that later appeared in the iPhone X and Apple’s M-series chips. The report says Apple is now accelerating M7 development, with significant Neural Engine upgrades and a possible M7 Ultra server product that could support up to 1.5 TB of RAM.",
+      "keyFacts": [
+        "Apple’s car project pushed early work on on-device AI processing",
+        "The Neural Engine became central to Apple’s privacy-focused AI hardware story",
+        "Apple is reportedly accelerating M7 development and exploring an M7 Ultra server product"
+      ],
+      "url": "https://www.theverge.com/tech/964519/apple-silicon-self-driving-car-ai-m7-ultra",
+      "sourceName": "The Verge",
+      "relatedSources": [
+        "Apple",
+        "Bloomberg"
+      ],
+      "lane": "infrastructure",
+      "publishedAt": "2026-07-12T16:27:00.000Z",
+      "importance": 1000,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "whyItMatters": "Apple’s AI gap is often framed as software weakness, but its hardware path may define how much AI can run privately on devices and Apple-controlled servers.",
+      "factualityOpinionRating": {
+        "type": "factual",
+        "factuality": 4,
+        "opinionImportance": null,
+        "threshold": "include",
+        "note": "Current Verge report citing Mark Gurman's Power On details."
+      },
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-12T17:40:00.000Z"
+    },
+    {
+      "id": "curated-bi-ai-distillation-fair-use-backlash-2026-07-12",
+      "title": "AI labs' distillation complaints reopen the web-scraping fair-use fight",
+      "summary": "Business Insider argues that Anthropic, OpenAI, and Google are now confronting a version of the same extraction problem that publishers and website owners have raised about AI scraping.",
+      "fullSummary": "Business Insider says the latest dispute over model distillation exposes an awkward symmetry for AI labs. Anthropic, OpenAI, and Google have warned that rivals can use model outputs to reproduce expensive capabilities, while publishers and site owners have long argued that AI companies extract value from public web content without permission. The piece also points to Cloudflare-style crawl-versus-referral concerns and the unsettled legal line between benign distillation and extraction attacks.",
+      "keyFacts": [
+        "Anthropic has complained about rivals using its model outputs for distillation",
+        "OpenAI and Google have made similar warnings about output extraction",
+        "Publishers and site owners have raised parallel complaints about AI crawlers and web scraping"
+      ],
+      "url": "https://www.businessinsider.com/ai-giants-learn-hard-truth-modern-internet-anthropic-openai-google-2026-7",
+      "sourceName": "Business Insider",
+      "relatedSources": [
+        "Anthropic",
+        "OpenAI",
+        "Google",
+        "Cloudflare"
+      ],
+      "lane": "policy-safety",
+      "publishedAt": "2026-07-12T14:02:01.249Z",
+      "importance": 999,
+      "sourceConfidence": "medium",
+      "filterCategory": "pushback",
+      "whyItMatters": "The same legal and economic logic behind AI training disputes is now turning inward as labs try to protect their own model outputs.",
+      "factualityOpinionRating": {
+        "type": "opinion",
+        "factuality": 3,
+        "opinionImportance": 4,
+        "threshold": "include",
+        "note": "Analysis column grounded in current distillation and crawler disputes."
+      },
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-12T17:40:00.000Z"
+    },
+    {
+      "id": "curated-verge-ai-data-center-pushback-2026-07-12",
+      "title": "Community opposition to AI data centers spreads across buildout plans",
+      "summary": "The Verge reports that local resistance to AI data centers is moving from isolated fights into a broader planning and infrastructure constraint for tech companies.",
+      "fullSummary": "The Verge traces today’s AI data-center fights through earlier battles such as Apple’s abandoned Athenry, Ireland data center and current US community opposition. The report says residents are raising concerns about power demand, water, noise, traffic, flooding, wildlife, and local control, and that new data-center proposals are facing scrutiny as AI infrastructure expands.",
+      "keyFacts": [
+        "The story frames AI data-center opposition as a growing community-level constraint",
+        "Earlier Apple data-center resistance in Ireland is used as a precedent",
+        "Current objections include power, water, noise, traffic, flooding, wildlife, and local control"
+      ],
+      "url": "https://www.theverge.com/column/963346/ai-data-centers-fight",
+      "sourceName": "The Verge",
+      "relatedSources": [
+        "Apple",
+        "Data Center Knowledge"
+      ],
+      "lane": "policy-safety",
+      "publishedAt": "2026-07-12T12:00:00.000Z",
+      "importance": 998,
+      "sourceConfidence": "high",
+      "filterCategory": "pushback",
+      "whyItMatters": "AI infrastructure is increasingly constrained by permitting, power, water, and local legitimacy, not only by GPU supply.",
+      "factualityOpinionRating": {
+        "type": "factual",
+        "factuality": 4,
+        "opinionImportance": null,
+        "threshold": "include",
+        "note": "Current Verge infrastructure report with named historical and current examples."
+      },
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-12T17:40:00.000Z"
+    },
+    {
+      "id": "curated-bi-big-tech-ai-org-chart-2026-07-11",
+      "title": "AI reshapes Big Tech hiring toward engineers and away from product, design, and marketing",
+      "summary": "Business Insider reports that Big Tech hiring patterns are shifting as engineers make up a larger share of hires while design, product, and marketing roles shrink.",
+      "fullSummary": "Business Insider reports that AI is changing the Big Tech org chart, with engineers taking a larger share of hiring while design, product, and marketing roles contract. The piece frames the change as a practical labor-market signal: companies are reorganizing around AI buildout and automation while reducing some functions that were central in earlier software-platform cycles.",
+      "keyFacts": [
+        "Engineers are taking a larger share of Big Tech hires",
+        "Design, product, and marketing roles are shrinking in the reported hiring mix",
+        "The shift reflects AI buildout and automation pressure inside large tech firms"
+      ],
+      "url": "https://www.businessinsider.com/ai-rewrites-big-tech-org-chart-2026-7",
+      "sourceName": "Business Insider",
+      "relatedSources": [
+        "Big Tech",
+        "AI hiring"
+      ],
+      "lane": "products-adoption",
+      "publishedAt": "2026-07-11T14:31:01.252Z",
+      "importance": 996,
+      "sourceConfidence": "medium",
+      "filterCategory": "general",
+      "whyItMatters": "The AI transition is not just a product story; it is changing which roles large tech companies value and how teams are structured.",
+      "factualityOpinionRating": {
+        "type": "factual",
+        "factuality": 3,
+        "opinionImportance": null,
+        "threshold": "include",
+        "note": "Current Business Insider workforce report; details may depend on its hiring dataset."
+      },
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-12T17:40:00.000Z"
+    },
+    {
+      "id": "curated-techcrunch-openai-families-chatgpt-2026-07-11",
+      "title": "OpenAI looks beyond individual ChatGPT users toward family products",
+      "summary": "TechCrunch reports that OpenAI is hiring a product manager for families, caregivers, and older adults as ChatGPT use broadens beyond younger individual users.",
+      "fullSummary": "TechCrunch reports that OpenAI is hiring a dedicated product manager to build experiences for families, caregivers, and older adults. Sensor Tower estimates cited in the report show ChatGPT’s global 35-and-older user share rising to 31% in Q2 from 26% a year earlier, while nearly one in four US smartphone users who are parents used ChatGPT during the quarter. The move points toward family plans, child and teen profiles, caregiver tools, shared memory, tutoring, and stronger controls.",
+      "keyFacts": [
+        "OpenAI is hiring a product manager focused on families, caregivers, and older adults",
+        "Sensor Tower estimates ChatGPT’s 35-and-older share rose to 31% globally in Q2",
+        "Nearly one in four US smartphone users who are parents used ChatGPT during the quarter"
+      ],
+      "url": "https://techcrunch.com/2026/07/11/openai-bets-on-families-as-chatgpt-goes-deeper-into-households/",
+      "sourceName": "TechCrunch",
+      "relatedSources": [
+        "OpenAI",
+        "Sensor Tower",
+        "Family Online Safety Institute"
+      ],
+      "lane": "products-adoption",
+      "publishedAt": "2026-07-11T14:13:00.000Z",
+      "importance": 997,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "whyItMatters": "Consumer AI is moving from individual productivity into household, child-safety, and caregiving contexts where product design and trust rules are different.",
+      "factualityOpinionRating": {
+        "type": "factual",
+        "factuality": 4,
+        "opinionImportance": null,
+        "threshold": "include",
+        "note": "TechCrunch report based on job posting and Sensor Tower estimates."
+      },
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-12T17:40:00.000Z"
+    },
+    {
+      "id": "curated-bi-ai-critical-thinking-warning-2026-07-11",
+      "title": "Professor warns AI dependence could weaken critical thinking",
+      "summary": "Business Insider reports on a professor’s warning that AI’s danger is not only wrong answers, but people becoming less likely to question, verify, and evaluate information.",
+      "fullSummary": "Business Insider reports that a professor is warning about AI’s effect on critical thinking. The concern is that as people outsource more first-draft reasoning and verification to AI tools, they may become less likely to interrogate sources, question outputs, or evaluate claims independently. The story fits a broader education and workplace debate about how to use AI without hollowing out judgment.",
+      "keyFacts": [
+        "The warning focuses on weakened questioning, verification, and evaluation",
+        "The concern is about dependence even when AI outputs appear useful",
+        "The issue spans education, workplace use, and information literacy"
+      ],
+      "url": "https://www.businessinsider.com/ai-may-be-weakening-ability-judge-whats-true-professor-says-2026-6",
+      "sourceName": "Business Insider",
+      "relatedSources": [
+        "AI education",
+        "critical thinking"
+      ],
+      "lane": "policy-safety",
+      "publishedAt": "2026-07-11T10:44:01.249Z",
+      "importance": 995,
+      "sourceConfidence": "medium",
+      "filterCategory": "pushback",
+      "whyItMatters": "The real adoption risk may be cognitive dependency, not just hallucination rates or cheating detection.",
+      "factualityOpinionRating": {
+        "type": "opinion",
+        "factuality": 3,
+        "opinionImportance": 3,
+        "threshold": "include",
+        "note": "Reported expert warning; included for high-signal education and cognitive-risk angle."
+      },
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-12T17:40:00.000Z"
+    },
+    {
+      "id": "curated-bi-law-school-analog-ai-cheating-2026-07-11",
+      "title": "University of Chicago Law School bans laptops to counter AI-enabled cheating",
+      "summary": "Business Insider reports that the University of Chicago Law School is going analog with a laptop ban as AI-enabled cheating pressures legal education.",
+      "fullSummary": "Business Insider reports that the University of Chicago Law School has announced a laptop ban intended to foster independent thinking amid AI’s rise in legal education and practice. The move is part of a wider institutional response to AI-enabled cheating and overreliance on AI tools in environments where reasoning, writing, and judgment are core skills.",
+      "keyFacts": [
+        "University of Chicago Law School announced a laptop ban",
+        "The rule is framed as a response to AI-enabled cheating and independent-thinking concerns",
+        "The policy reflects a broader move by some schools toward analog assessment"
+      ],
+      "url": "https://www.businessinsider.com/laptops-closed-chicago-law-school-adopts-new-rule-combat-ai-2026-7",
+      "sourceName": "Business Insider",
+      "relatedSources": [
+        "University of Chicago Law School"
+      ],
+      "lane": "policy-safety",
+      "publishedAt": "2026-07-11T00:55:46.916Z",
+      "importance": 994,
+      "sourceConfidence": "medium",
+      "filterCategory": "pushback",
+      "whyItMatters": "Schools are moving from AI-detection debates to structural changes in how work is produced and assessed.",
+      "factualityOpinionRating": {
+        "type": "factual",
+        "factuality": 3,
+        "opinionImportance": null,
+        "threshold": "include",
+        "note": "Current Business Insider report on a named education-policy change."
+      },
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-12T17:40:00.000Z"
+    },
+    {
+      "id": "curated-techcrunch-meta-instagram-ai-feature-removed-2026-07-10",
+      "title": "Meta removes Instagram AI photo-reference feature after backlash",
+      "summary": "TechCrunch reports that Meta removed a Muse Image feature that let users reference public Instagram accounts for AI image generation after criticism from users and talent agencies.",
+      "fullSummary": "TechCrunch reports that Meta has removed a controversial Instagram-linked AI feature that allowed users to modify photos from public accounts by mentioning them. The feature launched with Meta’s Muse Image generator and did not alert account owners when their public photos were referenced. Meta said the feature missed the mark and took it down after backlash, including scrutiny from users and talent agencies.",
+      "keyFacts": [
+        "Meta removed a Muse Image feature tied to public Instagram accounts",
+        "The feature did not notify users when their public photos were referenced",
+        "Meta said it heard feedback that the feature missed the mark"
+      ],
+      "url": "https://techcrunch.com/2026/07/10/meta-removes-controversial-ai-feature-on-instagram-after-backlash/",
+      "sourceName": "TechCrunch",
+      "relatedSources": [
+        "Meta",
+        "Instagram",
+        "Muse Image"
+      ],
+      "lane": "policy-safety",
+      "publishedAt": "2026-07-10T23:55:00.000Z",
+      "importance": 993,
+      "sourceConfidence": "high",
+      "filterCategory": "pushback",
+      "whyItMatters": "The rollback shows how quickly consumer AI features can become privacy and consent problems when they touch real people’s images.",
+      "factualityOpinionRating": {
+        "type": "factual",
+        "factuality": 4,
+        "opinionImportance": null,
+        "threshold": "include",
+        "note": "TechCrunch report with Meta's removal statement."
+      },
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-12T17:40:00.000Z"
+    },
+    {
+      "id": "curated-techcrunch-apple-sues-openai-secrets-2026-07-10",
+      "title": "Apple sues OpenAI over alleged trade-secret theft",
+      "summary": "TechCrunch reports that Apple filed a lawsuit against OpenAI alleging trade-secret theft and breach of contract tied to hardware secrets.",
+      "fullSummary": "TechCrunch reports that Apple filed a lawsuit against OpenAI on Friday alleging trade-secret theft and breach of contract. The case adds a major Apple-OpenAI legal dispute to an already crowded AI litigation landscape, expanding the fight beyond training data, copyright, and model behavior into alleged hardware-related secrets.",
+      "keyFacts": [
+        "Apple filed a lawsuit against OpenAI on July 10",
+        "The claims include alleged trade-secret theft and breach of contract",
+        "The dispute concerns alleged hardware secrets rather than only AI training data"
+      ],
+      "url": "https://techcrunch.com/2026/07/10/apple-sues-openai-over-alleged-trade-secret-theft/",
+      "sourceName": "TechCrunch",
+      "relatedSources": [
+        "Apple",
+        "OpenAI"
+      ],
+      "lane": "policy-safety",
+      "publishedAt": "2026-07-10T21:00:00.000Z",
+      "importance": 992,
+      "sourceConfidence": "high",
+      "filterCategory": "pushback",
+      "whyItMatters": "The case broadens AI litigation into alleged hardware-secret misuse between two of the most important consumer AI companies.",
+      "factualityOpinionRating": {
+        "type": "factual",
+        "factuality": 4,
+        "opinionImportance": null,
+        "threshold": "include",
+        "note": "Current TechCrunch report based on Apple's lawsuit filing."
+      },
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-12T17:40:00.000Z"
+    },
+    {
+      "id": "curated-techcrunch-sk-hynix-ipo-ai-memory-2026-07-10",
+      "title": "SK Hynix raises $26.5 billion in US debut as AI memory demand surges",
+      "summary": "TechCrunch reports that SK Hynix raised $26.5 billion in the largest US debut by a non-American company, powered by demand for high-bandwidth memory used in AI accelerators.",
+      "fullSummary": "TechCrunch reports that South Korean memory-chip maker SK Hynix raised $26.5 billion in its US market debut, selling 177.9 million ADRs at $149 each. The company makes high-bandwidth memory, a critical input for Nvidia AI GPUs, and plans to use proceeds for a South Korean fab, packaging capacity, and EUV scanners. The report also notes US pressure for Korean memory makers to build more fabs in America.",
+      "keyFacts": [
+        "SK Hynix raised $26.5 billion in its US market debut",
+        "The company sold 177.9 million ADRs at $149 each",
+        "Proceeds are earmarked for memory manufacturing, packaging capacity, and EUV equipment"
+      ],
+      "url": "https://techcrunch.com/2026/07/10/sk-hynix-raises-26-5b-in-the-biggest-foreign-ipo-in-us-history-is-urged-to-build-new-us-fabs/",
+      "sourceName": "TechCrunch",
+      "relatedSources": [
+        "SK Hynix",
+        "Nvidia",
+        "Micron",
+        "US Commerce Department"
+      ],
+      "lane": "infrastructure",
+      "publishedAt": "2026-07-10T17:17:00.000Z",
+      "importance": 991,
+      "sourceConfidence": "high",
+      "filterCategory": "funding",
+      "whyItMatters": "The AI boom is turning memory supply into a capital-markets and industrial-policy story, not just a chip-spec story.",
+      "factualityOpinionRating": {
+        "type": "factual",
+        "factuality": 4,
+        "opinionImportance": null,
+        "threshold": "include",
+        "note": "TechCrunch report citing SK Hynix filing and market debut details."
+      },
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-12T17:40:00.000Z"
+    },
+    {
+      "id": "curated-bi-furniture-delivery-cartage-ai-2026-07-10",
+      "title": "Sundays uses Cartage AI to improve furniture delivery logistics",
+      "summary": "Business Insider reports that furniture brand Sundays is using Cartage AI’s Wilson system to improve delivery logistics, customer service, and operational efficiency.",
+      "fullSummary": "Business Insider reports that Sundays, a furniture brand, is using Cartage AI’s Wilson to improve furniture delivery. The deployment targets a concrete operational pain point: coordinating deliveries, reducing customer-service friction, and improving logistics efficiency in a high-touch retail category where poor delivery experiences can damage customer trust.",
+      "keyFacts": [
+        "Sundays is using Cartage AI’s Wilson system",
+        "The deployment focuses on furniture delivery logistics",
+        "The goal is better customer service and operating efficiency"
+      ],
+      "url": "https://www.businessinsider.com/sundays-furniture-delivery-cartage-ai-2026-7",
+      "sourceName": "Business Insider",
+      "relatedSources": [
+        "Sundays",
+        "Cartage AI"
+      ],
+      "lane": "products-adoption",
+      "publishedAt": "2026-07-10T16:15:43.993Z",
+      "importance": 990,
+      "sourceConfidence": "medium",
+      "filterCategory": "general",
+      "whyItMatters": "This is the useful end of enterprise AI: a narrow workflow deployment aimed at a measurable service problem.",
+      "factualityOpinionRating": {
+        "type": "factual",
+        "factuality": 3,
+        "opinionImportance": null,
+        "threshold": "include",
+        "note": "Business Insider report on a named retail logistics deployment."
+      },
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-12T17:40:00.000Z"
+    },
+    {
+      "id": "curated-bi-mosseri-human-creators-ai-content-2026-07-10",
+      "title": "Instagram chief says human creators gain value as AI content floods social feeds",
+      "summary": "Business Insider reports that Instagram head Adam Mosseri expects authentic human creators to become more valuable as social platforms fill with synthetic AI content.",
+      "fullSummary": "Business Insider reports that Instagram chief Adam Mosseri says human creators will become more valuable as AI-generated content grows across social media. His argument is that users will increasingly seek authenticity and human provenance as synthetic content becomes easier to make and harder to distinguish from human-made posts.",
+      "keyFacts": [
+        "Adam Mosseri expects human creators to become more valuable",
+        "The claim is tied to rising volumes of synthetic AI content",
+        "The story highlights authenticity as a social-platform differentiator"
+      ],
+      "url": "https://www.businessinsider.com/instagram-chief-says-ai-will-make-human-creators-more-valuable-2026-7",
+      "sourceName": "Business Insider",
+      "relatedSources": [
+        "Instagram",
+        "Meta",
+        "Adam Mosseri"
+      ],
+      "lane": "products-adoption",
+      "publishedAt": "2026-07-10T11:02:50.846Z",
+      "importance": 989,
+      "sourceConfidence": "medium",
+      "filterCategory": "general",
+      "whyItMatters": "Major social platforms are starting to define human provenance and authenticity as product features in an AI-content-heavy web.",
+      "factualityOpinionRating": {
+        "type": "factual",
+        "factuality": 3,
+        "opinionImportance": null,
+        "threshold": "include",
+        "note": "Reported executive view from Instagram's chief."
+      },
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-12T17:40:00.000Z"
+    },
+    {
+      "id": "curated-ai-news-token-budget-workforce-2026-07-10",
+      "title": "AI News argues token discipline can beat AI-driven headcount cuts",
+      "summary": "AI News reports that companies facing rising AI token bills can reduce spend through caching, routing, batching, retrieval, and compression instead of treating layoffs as the only budget lever.",
+      "fullSummary": "AI News uses examples from Nvidia, hyperscaler capex, Challenger job-cut data, Gartner survey results, Uber’s coding-tool budget overrun, and ProjectDiscovery’s prompt-caching gains to argue that token spending is more flexible than headcount. The article says repeated-input caching, smaller-model routing, batch processing, retrieval, prompt compression, and open-weight models can cut AI costs without removing the people needed to turn AI output into business value.",
+      "keyFacts": [
+        "The article cites ProjectDiscovery cutting LLM spend by 59% to 70% after raising cache hits from 7% to 84%",
+        "It cites Gartner survey findings that headcount cuts did not correlate with better AI returns",
+        "It frames token optimization as an alternative to AI-attributed layoffs"
+      ],
+      "url": "https://www.artificialintelligence-news.com/news/shrink-token-budget-not-team/",
+      "sourceName": "AI News",
+      "relatedSources": [
+        "Nvidia",
+        "Gartner",
+        "Uber",
+        "ProjectDiscovery"
+      ],
+      "lane": "products-adoption",
+      "publishedAt": "2026-07-10T09:00:00.000Z",
+      "importance": 982,
+      "sourceConfidence": "medium",
+      "filterCategory": "general",
+      "whyItMatters": "The story gives concrete cost controls for AI adoption instead of treating workforce cuts as an inevitable consequence of higher model spend.",
+      "factualityOpinionRating": {
+        "type": "opinion",
+        "factuality": 3,
+        "opinionImportance": 3,
+        "threshold": "include",
+        "note": "Analysis piece with named data points and examples; included for practical enterprise-AI cost signal."
+      },
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-12T17:40:00.000Z"
+    },
+    {
+      "id": "curated-techcrunch-openai-gpt-56-family-2026-07-09",
+      "title": "OpenAI launches GPT-5.6 model family",
+      "summary": "TechCrunch reports that OpenAI launched a new GPT-5.6 model family, adding another frontier-model release to a crowded competitive week.",
+      "fullSummary": "TechCrunch reports that OpenAI unveiled its GPT-5.6 family of models on July 9, introducing a new set of heavyweight AI systems. The launch follows broader reports that OpenAI is pushing the model family into products such as ChatGPT and Microsoft Copilot while competitors continue to ship new model releases.",
+      "keyFacts": [
+        "OpenAI unveiled the GPT-5.6 model family on July 9",
+        "The release adds new heavyweight models to OpenAI's lineup",
+        "The launch lands amid competing frontier-model releases"
+      ],
+      "url": "https://techcrunch.com/2026/07/09/openai-launches-its-new-family-of-models-with-gpt-5-6/",
+      "sourceName": "TechCrunch",
+      "relatedSources": [
+        "OpenAI",
+        "GPT-5.6"
+      ],
+      "lane": "models",
+      "publishedAt": "2026-07-09T22:24:00.000Z",
+      "importance": 988,
+      "sourceConfidence": "high",
+      "filterCategory": "models",
+      "whyItMatters": "Model-release cadence is still one of the clearest signals of frontier competition and downstream product pressure.",
+      "factualityOpinionRating": {
+        "type": "factual",
+        "factuality": 4,
+        "opinionImportance": null,
+        "threshold": "include",
+        "note": "TechCrunch report on OpenAI's July 9 model launch."
+      },
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-12T17:40:00.000Z"
+    },
+    {
+      "id": "curated-techcrunch-lyzr-agent-fundraise-2026-07-09",
+      "title": "Lyzr lets its own AI agent help run a $100 million fundraise",
+      "summary": "TechCrunch reports that enterprise-agent startup Lyzr used its own agent, SivaClaw, to field investor questions and manage parts of a $100 million fundraising process.",
+      "fullSummary": "TechCrunch reports via Bloomberg that Lyzr, a Jersey City startup building enterprise AI agents, used its own system to help run a $100 million fundraise. The agent, SivaClaw, reportedly answered questions from more than 130 investors, drafted investment memos, and tracked which slides investors lingered on.",
+      "keyFacts": [
+        "Lyzr used its SivaClaw agent during a $100 million fundraising process",
+        "The agent reportedly fielded questions from more than 130 investors",
+        "It drafted investment memos and tracked investor slide engagement"
+      ],
+      "url": "https://techcrunch.com/2026/07/09/an-ai-agent-startup-just-let-its-agent-run-its-100-million-fundraise/",
+      "sourceName": "TechCrunch",
+      "relatedSources": [
+        "Lyzr",
+        "SivaClaw",
+        "Bloomberg"
+      ],
+      "lane": "funding",
+      "publishedAt": "2026-07-09T20:00:00.000Z",
+      "importance": 985,
+      "sourceConfidence": "medium",
+      "filterCategory": "funding",
+      "whyItMatters": "Agent startups are beginning to use their own products in investor workflows, turning fundraising itself into a proof point.",
+      "factualityOpinionRating": {
+        "type": "factual",
+        "factuality": 3,
+        "opinionImportance": null,
+        "threshold": "include",
+        "note": "TechCrunch brief citing Bloomberg reporting."
+      },
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-12T17:40:00.000Z"
+    },
+    {
+      "id": "curated-techcrunch-gradium-voice-ai-seed-2026-07-09",
+      "title": "Voice AI startup Gradium reaches $100 million seed round with Nvidia backing",
+      "summary": "TechCrunch reports that Paris-based voice AI startup Gradium reopened its seed round and reached $100 million with backing from Nvidia.",
+      "fullSummary": "TechCrunch reports that Paris-based Gradium, which builds voice AI models, reopened its seed round to new investors including Nvidia and has now raised $100 million total. The deal shows continued investor appetite for specialized AI model companies outside the US, especially in voice and multimodal interfaces.",
+      "keyFacts": [
+        "Gradium has raised $100 million total in its seed round",
+        "Nvidia joined the reopened round",
+        "The Paris-based startup builds voice AI models"
+      ],
+      "url": "https://techcrunch.com/2026/07/09/paris-based-ai-voice-startup-gradium-raises-100m-seed-backed-by-nvidia/",
+      "sourceName": "TechCrunch",
+      "relatedSources": [
+        "Gradium",
+        "Nvidia"
+      ],
+      "lane": "funding",
+      "publishedAt": "2026-07-09T19:00:00.000Z",
+      "importance": 984,
+      "sourceConfidence": "high",
+      "filterCategory": "funding",
+      "whyItMatters": "Large seed rounds are still flowing into focused AI-model layers, with Nvidia backing companies that may expand the demand for its ecosystem.",
+      "factualityOpinionRating": {
+        "type": "factual",
+        "factuality": 4,
+        "opinionImportance": null,
+        "threshold": "include",
+        "note": "TechCrunch report citing Gradium's funding announcement."
+      },
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-12T17:40:00.000Z"
+    },
+    {
+      "id": "curated-bi-openai-codex-chatgpt-gpt56-2026-07-09",
+      "title": "OpenAI folds Codex into ChatGPT as GPT-5.6 rolls out",
+      "summary": "Business Insider reports that OpenAI is merging Codex into ChatGPT and releasing GPT-5.6 models as it makes a bigger push for office and coding workflows.",
+      "fullSummary": "Business Insider reports that OpenAI is making a larger office-productivity push by merging Codex into ChatGPT and launching GPT-5.6 models. The move positions ChatGPT as a broader workplace interface that combines conversational AI, coding assistance, and model upgrades in one surface.",
+      "keyFacts": [
+        "OpenAI is merging Codex into ChatGPT",
+        "The move is paired with the GPT-5.6 model rollout",
+        "The strategy targets office productivity and coding workflows"
+      ],
+      "url": "https://www.businessinsider.com/openai-codex-chatgpt-app-releases-gpt-5-6-models-2026-7",
+      "sourceName": "Business Insider",
+      "relatedSources": [
+        "OpenAI",
+        "ChatGPT",
+        "Codex"
+      ],
+      "lane": "products-adoption",
+      "publishedAt": "2026-07-09T18:52:15.092Z",
+      "importance": 987,
+      "sourceConfidence": "medium",
+      "filterCategory": "models",
+      "whyItMatters": "OpenAI is consolidating coding and chat into one workplace surface, which changes how users encounter model upgrades.",
+      "factualityOpinionRating": {
+        "type": "factual",
+        "factuality": 3,
+        "opinionImportance": null,
+        "threshold": "include",
+        "note": "Business Insider report on OpenAI workplace and Codex integration."
+      },
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-12T17:40:00.000Z"
+    },
+    {
+      "id": "curated-bi-anthropic-web-bots-cloudflare-2026-07-09",
+      "title": "Cloudflare rankings spotlight Anthropic's crawler traffic versus referrals",
+      "summary": "Business Insider reports that Cloudflare’s AI rankings sharpened criticism of Anthropic’s web crawling by comparing crawl volume with referrals back to publishers.",
+      "fullSummary": "Business Insider reports that Cloudflare’s latest AI rankings exposed a large imbalance between Anthropic crawler activity and traffic referrals back to websites. The story places Anthropic’s bot behavior inside the broader publisher dispute over AI crawlers, content economics, and whether AI companies are extracting more value from the web than they return.",
+      "keyFacts": [
+        "Cloudflare rankings compared AI crawler activity with referral traffic",
+        "Anthropic was highlighted for a high crawl-to-referral imbalance",
+        "The issue feeds publisher concerns about AI crawling and web economics"
+      ],
+      "url": "https://www.businessinsider.com/anthropic-web-bots-crawling-referrals-cloudflare-distillation-2026-7",
+      "sourceName": "Business Insider",
+      "relatedSources": [
+        "Anthropic",
+        "Cloudflare"
+      ],
+      "lane": "policy-safety",
+      "publishedAt": "2026-07-09T16:53:08.581Z",
+      "importance": 986,
+      "sourceConfidence": "medium",
+      "filterCategory": "pushback",
+      "whyItMatters": "Crawl-versus-referral data gives publishers a concrete metric for arguing that AI bots impose costs without returning traffic.",
+      "factualityOpinionRating": {
+        "type": "factual",
+        "factuality": 3,
+        "opinionImportance": null,
+        "threshold": "include",
+        "note": "Business Insider report based on Cloudflare AI crawler rankings."
+      },
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-12T17:40:00.000Z"
+    },
     {
       "id": "curated-register-capita-ai-pensions-fiasco-2026-07-09",
       "title": "UK withholds GBP 10 million from Capita after AI-enabled pensions fiasco",
@@ -415,6 +1001,38 @@
       },
       "summaryEngine": "chat-curated",
       "curatedAt": "2026-07-09T14:10:00.000Z"
+    },
+    {
+      "id": "curated-ai-news-aws-graphrag-drug-research-2026-07-09",
+      "title": "AWS GraphRAG deployment reportedly cuts drug research cycles by 87%",
+      "summary": "AI News reports that an AWS GraphRAG deployment is being used to shorten drug-research cycles, claiming an 87% reduction in research-cycle time.",
+      "fullSummary": "AI News reports on an AWS GraphRAG deployment in drug research that it says cut research cycles by 87%. The story points to a practical health-science use case for graph-augmented retrieval, where structured biomedical relationships and generative AI are combined to accelerate research workflows.",
+      "keyFacts": [
+        "AI News reports an 87% reduction in drug-research cycles",
+        "The deployment uses AWS GraphRAG",
+        "The use case combines graph retrieval with generative AI for biomedical research"
+      ],
+      "url": "https://www.artificialintelligence-news.com/news/aws-graphrag-deployment-cuts-drug-research-cycles-by-87/",
+      "sourceName": "AI News",
+      "relatedSources": [
+        "AWS",
+        "GraphRAG"
+      ],
+      "lane": "health-science",
+      "publishedAt": "2026-07-09T08:30:00.000Z",
+      "importance": 983,
+      "sourceConfidence": "medium",
+      "filterCategory": "general",
+      "whyItMatters": "Drug discovery is one of the places where AI claims need concrete cycle-time evidence, and this report provides a measurable deployment claim.",
+      "factualityOpinionRating": {
+        "type": "factual",
+        "factuality": 3,
+        "opinionImportance": null,
+        "threshold": "include",
+        "note": "AI News report with a quantified deployment claim; primary study details should be checked if used as evidence elsewhere."
+      },
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-12T17:40:00.000Z"
     },
     {
       "id": "curated-axios-superintelligence-slowdown-report-2026-07-09",
