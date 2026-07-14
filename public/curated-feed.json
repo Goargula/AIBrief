@@ -1,9 +1,178 @@
 {
-  "generatedAt": "2026-07-14T18:55:00.000Z",
-  "nextRefreshAt": "2026-07-15T00:55:00.000Z",
+  "generatedAt": "2026-07-14T22:00:00.000Z",
+  "nextRefreshAt": "2026-07-15T04:00:00.000Z",
   "summaryEngine": "chat-curated",
   "curated": true,
   "items": [
+    {
+      "id": "curated-wsj-openai-ipo-window-narrows-2026-07-14",
+      "title": "OpenAI's challenges narrow its IPO window",
+      "summary": "The Wall Street Journal reports that OpenAI's IPO path is getting tighter as legal disputes, leadership changes, Microsoft tension, and Anthropic's rise complicate its market timing.",
+      "fullSummary": "The Wall Street Journal says OpenAI's route to an IPO is becoming more complicated. The company faces Apple's trade-secret lawsuit, lingering Musk-related litigation, a leadership gap from Fidji Simo stepping down, a cooler Microsoft relationship, and stronger competition from Anthropic. The report says OpenAI may still push forward quickly to avoid losing the listing narrative to rivals.",
+      "keyFacts": [
+        "WSJ says OpenAI's IPO window is narrowing",
+        "Apple's lawsuit and other legal issues are part of the pressure",
+        "Anthropic's rise and Microsoft tension complicate OpenAI's timing"
+      ],
+      "url": "https://www.wsj.com/tech/ai/openais-growing-challenges-narrow-its-ipo-window-8ad8f734",
+      "sourceName": "Wall Street Journal",
+      "relatedSources": [
+        "OpenAI",
+        "Microsoft",
+        "Anthropic",
+        "Apple"
+      ],
+      "lane": "funding",
+      "publishedAt": "2026-07-14T20:00:00.000Z",
+      "importance": 999,
+      "sourceConfidence": "medium",
+      "filterCategory": "funding",
+      "whyItMatters": "OpenAI's public-market timing is becoming a strategic race against litigation, governance churn, and a more credible Anthropic.",
+      "factualityOpinionRating": {
+        "type": "factual",
+        "factuality": 3,
+        "opinionImportance": null,
+        "threshold": "include",
+        "note": "WSJ gated report; source-link check treats 401 as manual review."
+      },
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-14T22:00:00.000Z"
+    },
+    {
+      "id": "curated-techcrunch-apple-siri-ai-public-beta-2026-07-14",
+      "title": "Apple opens its new Siri AI through the iOS 27 public beta",
+      "summary": "TechCrunch reports that Apple has opened its redesigned AI-powered Siri to public beta users across iPhone, iPad, Mac, Apple Watch, CarPlay, AirPods, Apple TV, and Vision Pro.",
+      "fullSummary": "Apple is making its biggest Siri overhaul available beyond developers through the iOS 27 public beta. TechCrunch says the new Siri can access on-device information such as emails, photos, messages, and screen context, while also grounding answers in broader world knowledge. The assistant runs through Apple Intelligence, Apple foundation models, and Private Cloud Compute, giving Apple a wider real-world test before the fall release.",
+      "keyFacts": [
+        "Apple released the redesigned Siri AI in the iOS 27 public beta",
+        "The assistant can use device context and world knowledge",
+        "The feature spans iPhone, iPad, Mac, Apple Watch, CarPlay, AirPods, Apple TV, and Vision Pro"
+      ],
+      "url": "https://techcrunch.com/2026/07/14/apple-opens-its-new-siri-ai-to-everyone-with-the-ios-27-public-beta/",
+      "sourceName": "TechCrunch",
+      "relatedSources": [
+        "Apple",
+        "Google"
+      ],
+      "lane": "products-adoption",
+      "publishedAt": "2026-07-14T19:42:00.000Z",
+      "importance": 1000,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "whyItMatters": "Apple is finally putting its redesigned assistant in front of normal users, which makes Siri AI a live platform test rather than a conference promise.",
+      "factualityOpinionRating": {
+        "type": "factual",
+        "factuality": 4,
+        "opinionImportance": null,
+        "threshold": "include",
+        "note": "TechCrunch hands-on style product report with release timing and platform details."
+      },
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-14T22:00:00.000Z"
+    },
+    {
+      "id": "curated-techcrunch-anthropic-ad-backlash-2026-07-14",
+      "title": "Anthropic's new safety-themed ad draws backlash",
+      "summary": "TechCrunch reports that Anthropic's latest ad unsettled viewers with dystopian imagery and a heavy safety message, prompting criticism from Sam Altman and other tech-industry observers.",
+      "fullSummary": "Anthropic's new ad, titled 'There's hope in hard questions,' leans into concerns about AI risk with imagery including surveillance, homelessness, labor exploitation, and graveyards. TechCrunch says the campaign appears intended to cast Anthropic as the responsible AI company, but the tone backfired with some viewers and drew public criticism from OpenAI CEO Sam Altman. The reaction shows how AI companies are now competing over trust and safety narratives, not only model performance.",
+      "keyFacts": [
+        "Anthropic released a new ad centered on AI risk and responsibility",
+        "The ad drew criticism for its imagery and tone",
+        "Sam Altman publicly mocked the campaign"
+      ],
+      "url": "https://techcrunch.com/2026/07/14/anthropics-newest-ad-is-creeping-people-out/",
+      "sourceName": "TechCrunch",
+      "relatedSources": [
+        "Anthropic",
+        "OpenAI",
+        "Sam Altman"
+      ],
+      "lane": "policy-safety",
+      "publishedAt": "2026-07-14T19:41:00.000Z",
+      "importance": 991,
+      "sourceConfidence": "medium",
+      "filterCategory": "pushback",
+      "whyItMatters": "The AI trust battle has moved into mass-market messaging, where safety branding itself can become a reputational risk.",
+      "factualityOpinionRating": {
+        "type": "opinion",
+        "factuality": 3,
+        "opinionImportance": 3,
+        "threshold": "include",
+        "note": "TechCrunch analysis of public reaction to Anthropic marketing."
+      },
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-14T22:00:00.000Z"
+    },
+    {
+      "id": "curated-techcrunch-overtone-ai-dating-18m-2026-07-14",
+      "title": "Hinge founder raises $18 million for AI dating startup Overtone",
+      "summary": "TechCrunch reports that Hinge founder Justin McLeod raised $18 million for Overtone, a voice- and audio-forward AI dating service backed by Match Group, FirstMark, and Pace Capital.",
+      "fullSummary": "Justin McLeod, who stepped down as Hinge CEO last year, has raised $18 million for a new dating company called Overtone. The startup describes itself as a voice- and audio-forward service that uses AI to provide curated introductions. Match Group, FirstMark Capital, and Pace Capital are backing the company.",
+      "keyFacts": [
+        "Justin McLeod raised $18 million for Overtone",
+        "Overtone is described as an AI-enabled voice and audio dating service",
+        "Match Group, FirstMark, and Pace Capital are investors"
+      ],
+      "url": "https://techcrunch.com/2026/07/14/the-founder-of-hinge-raised-18m-to-build-a-new-ai-dating-service-overtone/",
+      "sourceName": "TechCrunch",
+      "relatedSources": [
+        "Overtone",
+        "Hinge",
+        "Match Group",
+        "FirstMark Capital",
+        "Pace Capital"
+      ],
+      "lane": "products-adoption",
+      "publishedAt": "2026-07-14T19:39:00.000Z",
+      "importance": 990,
+      "sourceConfidence": "high",
+      "filterCategory": "funding",
+      "whyItMatters": "Consumer AI is moving into high-trust social matching, where voice and curation could reshape dating-product design.",
+      "factualityOpinionRating": {
+        "type": "factual",
+        "factuality": 4,
+        "opinionImportance": null,
+        "threshold": "include",
+        "note": "TechCrunch funding report with named investors."
+      },
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-14T22:00:00.000Z"
+    },
+    {
+      "id": "curated-techcrunch-google-ai-training-publishers-lawsuit-2026-07-14",
+      "title": "Publishers file another AI-training lawsuit against Google",
+      "summary": "TechCrunch reports that publishers and authors including Hachette, Cengage, Elsevier, Scott Turow, and S.C.R.I.B.E. filed a class action accusing Google of using copyrighted works to train Gemini.",
+      "fullSummary": "A new class action lawsuit accuses Google of using copyrighted works to train Gemini and of removing or altering copyright information to conceal that use. TechCrunch says plaintiffs include Hachette, Cengage, Elsevier, author Scott Turow, and S.C.R.I.B.E. The case adds Google to the growing list of AI companies facing publisher and author lawsuits over training data.",
+      "keyFacts": [
+        "Publishers and authors filed a class action against Google",
+        "The complaint alleges copyrighted works were used to train Gemini",
+        "Plaintiffs include Hachette, Cengage, Elsevier, Scott Turow, and S.C.R.I.B.E."
+      ],
+      "url": "https://techcrunch.com/2026/07/14/google-faces-another-ai-training-lawsuit-from-major-publishers/",
+      "sourceName": "TechCrunch",
+      "relatedSources": [
+        "Google",
+        "Gemini",
+        "Hachette",
+        "Cengage",
+        "Elsevier"
+      ],
+      "lane": "policy-safety",
+      "publishedAt": "2026-07-14T18:33:00.000Z",
+      "importance": 999,
+      "sourceConfidence": "high",
+      "filterCategory": "pushback",
+      "whyItMatters": "Training-data litigation is spreading across frontier labs, and Google now faces another major publisher-backed complaint over Gemini.",
+      "factualityOpinionRating": {
+        "type": "factual",
+        "factuality": 4,
+        "opinionImportance": null,
+        "threshold": "include",
+        "note": "TechCrunch report citing the filed complaint and named plaintiffs."
+      },
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-14T22:00:00.000Z"
+    },
     {
       "id": "curated-axios-ai-cybercrime-barriers-falling-2026-07-14",
       "title": "AI-powered cybercrime is getting easier",
@@ -37,6 +206,39 @@
       },
       "summaryEngine": "chat-curated",
       "curatedAt": "2026-07-14T18:55:00.000Z"
+    },
+    {
+      "id": "curated-techcrunch-meta-token-budget-caps-2026-07-14",
+      "title": "Meta's Adam Mosseri says engineer AI-token budgets may need caps",
+      "summary": "TechCrunch reports that Instagram head Adam Mosseri expects companies may soon need to cap AI-token spending per engineer as model usage starts to rival employee compensation costs.",
+      "fullSummary": "Adam Mosseri said on Lenny's Podcast that within a year or two, a strong engineer's AI-token burn rate could approach their salary or total employment cost. TechCrunch frames the remark as a sign that AI adoption inside engineering teams is becoming a real cost-control problem, not just a productivity story. It follows broader concerns that agentic coding and model use can push enterprise AI bills higher than expected.",
+      "keyFacts": [
+        "Mosseri said engineer AI-token spending could eventually rival employment cost",
+        "He suggested companies may need caps on token budgets",
+        "The comment reflects rising AI cost-control pressure inside engineering teams"
+      ],
+      "url": "https://techcrunch.com/2026/07/14/metas-adam-mosseri-says-ai-token-budgets-could-soon-be-capped-per-engineer/",
+      "sourceName": "TechCrunch",
+      "relatedSources": [
+        "Meta",
+        "Adam Mosseri",
+        "Lenny's Podcast"
+      ],
+      "lane": "products-adoption",
+      "publishedAt": "2026-07-14T16:22:00.000Z",
+      "importance": 997,
+      "sourceConfidence": "medium",
+      "filterCategory": "general",
+      "whyItMatters": "AI coding adoption is now colliding with budget controls, which is where productivity claims meet operating reality.",
+      "factualityOpinionRating": {
+        "type": "factual",
+        "factuality": 3,
+        "opinionImportance": null,
+        "threshold": "include",
+        "note": "TechCrunch report based on Mosseri interview remarks."
+      },
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-14T22:00:00.000Z"
     },
     {
       "id": "curated-ap-new-york-ai-datacenter-moratorium-2026-07-14",
@@ -106,6 +308,40 @@
       "curatedAt": "2026-07-14T18:55:00.000Z"
     },
     {
+      "id": "curated-techcrunch-reflection-nebius-1b-compute-2026-07-14",
+      "title": "Reflection signs $1 billion compute deal with Nebius",
+      "summary": "TechCrunch reports that open-model startup Reflection AI signed a $1 billion compute agreement with Nebius for access to Nvidia's latest chips.",
+      "fullSummary": "Reflection AI signed a $1 billion compute deal with European AI infrastructure company Nebius, according to TechCrunch. Nebius will provide access to Nvidia's latest chips, and the deal follows another recent Reflection agreement for SpaceX compute resources. The story shows how open-model developers are competing for the same scarce training and deployment capacity as closed frontier labs.",
+      "keyFacts": [
+        "Reflection AI signed a $1 billion compute deal with Nebius",
+        "The deal gives Reflection access to Nvidia's latest chips",
+        "Reflection is building open models and recently signed another compute deal with SpaceX"
+      ],
+      "url": "https://techcrunch.com/2026/07/14/reflection-inks-1b-compute-deal-with-nebius/",
+      "sourceName": "TechCrunch",
+      "relatedSources": [
+        "Reflection AI",
+        "Nebius",
+        "Nvidia",
+        "SpaceX"
+      ],
+      "lane": "infrastructure",
+      "publishedAt": "2026-07-14T14:37:00.000Z",
+      "importance": 996,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "whyItMatters": "Compute access remains the real bottleneck for open-model challengers trying to compete with frontier labs.",
+      "factualityOpinionRating": {
+        "type": "factual",
+        "factuality": 4,
+        "opinionImportance": null,
+        "threshold": "include",
+        "note": "TechCrunch in-brief report with named parties and deal size."
+      },
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-14T22:00:00.000Z"
+    },
+    {
       "id": "curated-axios-openai-device-apple-lawsuit-delay-2026-07-14",
       "title": "Apple lawsuit could slow OpenAI's device plans",
       "summary": "Axios says Apple's trade-secret lawsuit could pause OpenAI's push into consumer AI hardware, the major rationale behind its acquisition of Jony Ive's io.",
@@ -138,6 +374,103 @@
       },
       "summaryEngine": "chat-curated",
       "curatedAt": "2026-07-14T18:55:00.000Z"
+    },
+    {
+      "id": "curated-techcrunch-open-models-hugging-face-share-2026-07-14",
+      "title": "Open models are taking over more of the AI workload",
+      "summary": "TechCrunch reports that Chinese open-weight models led Hugging Face downloads this spring and that open models are handling a growing share of real application traffic.",
+      "fullSummary": "TechCrunch says Chinese open-weight models accounted for 41% of Hugging Face downloads this spring, surpassing U.S. models. It also cites OpenRouter rankings where the top six popular models were open models from Chinese firms, and Vercel data showing open-weight models handling nearly a third of AI requests on the platform in June. The piece argues that the practical AI race is shifting below the expensive frontier layer.",
+      "keyFacts": [
+        "Chinese open-weight models accounted for 41% of Hugging Face downloads this spring",
+        "Open models dominated OpenRouter's top usage rankings",
+        "Vercel data showed open-weight models handling nearly a third of AI requests in June"
+      ],
+      "url": "https://techcrunch.com/2026/07/14/the-real-ai-race-may-no-longer-be-at-the-frontier-open-models-hugging-face/",
+      "sourceName": "TechCrunch",
+      "relatedSources": [
+        "Hugging Face",
+        "OpenRouter",
+        "Vercel",
+        "DeepSeek",
+        "MiniMax"
+      ],
+      "lane": "models",
+      "publishedAt": "2026-07-14T14:24:00.000Z",
+      "importance": 995,
+      "sourceConfidence": "medium",
+      "filterCategory": "models",
+      "whyItMatters": "Usage is shifting toward cheaper open models, which affects developer economics and weakens the assumption that only frontier APIs matter.",
+      "factualityOpinionRating": {
+        "type": "factual",
+        "factuality": 3,
+        "opinionImportance": null,
+        "threshold": "include",
+        "note": "TechCrunch analysis citing Hugging Face, OpenRouter, and Vercel usage data."
+      },
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-14T22:00:00.000Z"
+    },
+    {
+      "id": "curated-techcrunch-spotify-ai-music-assistant-2026-07-14",
+      "title": "Spotify launches a conversational AI music assistant",
+      "summary": "TechCrunch reports that Spotify Premium users in the U.S., Ireland, and Sweden can now talk to the app to choose music and audio through a beta AI assistant.",
+      "fullSummary": "Spotify is adding a conversational AI assistant that lets Premium users ask for music or audio in natural language. TechCrunch says the beta initially supports English-speaking users 18 and older in the U.S., Ireland, and Sweden on iOS and Android. Spotify says it uses a mix of its own AI technology and multiple outside models depending on the task.",
+      "keyFacts": [
+        "Spotify launched a beta conversational music assistant",
+        "The feature is available to Premium users in the U.S., Ireland, and Sweden",
+        "Spotify uses its own AI plus models from multiple providers"
+      ],
+      "url": "https://techcrunch.com/2026/07/14/spotify-expands-its-ai-push-with-a-chatgpt-like-music-assistant/",
+      "sourceName": "TechCrunch",
+      "relatedSources": [
+        "Spotify"
+      ],
+      "lane": "products-adoption",
+      "publishedAt": "2026-07-14T14:06:00.000Z",
+      "importance": 994,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "whyItMatters": "A mainstream consumer app is turning natural-language AI into the primary interface for media discovery.",
+      "factualityOpinionRating": {
+        "type": "factual",
+        "factuality": 4,
+        "opinionImportance": null,
+        "threshold": "include",
+        "note": "TechCrunch product report with launch geographies and platform details."
+      },
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-14T22:00:00.000Z"
+    },
+    {
+      "id": "curated-techcrunch-superhuman-auto-draft-2026-07-14",
+      "title": "Superhuman improves AI auto-drafts for email replies",
+      "summary": "TechCrunch reports that Superhuman is launching a new auto-draft feature that identifies important emails and writes less robotic replies.",
+      "fullSummary": "Superhuman is rolling out a new version of its auto-draft feature for email. TechCrunch says the feature identifies important messages and prepares draft replies that sound less like generic AI output. The update reflects the broader push to make AI productivity tools useful in routine knowledge-work workflows rather than just impressive in demos.",
+      "keyFacts": [
+        "Superhuman launched a new AI auto-draft feature",
+        "The feature identifies important emails and prepares draft replies",
+        "TechCrunch says the new drafts are less robotic than earlier attempts"
+      ],
+      "url": "https://techcrunch.com/2026/07/14/superhumans-new-auto-draft-feature-almost-makes-me-like-ai-replies/",
+      "sourceName": "TechCrunch",
+      "relatedSources": [
+        "Superhuman"
+      ],
+      "lane": "products-adoption",
+      "publishedAt": "2026-07-14T14:00:00.000Z",
+      "importance": 989,
+      "sourceConfidence": "medium",
+      "filterCategory": "general",
+      "whyItMatters": "Email remains a core productivity battleground where AI needs to save time without sounding visibly synthetic.",
+      "factualityOpinionRating": {
+        "type": "factual",
+        "factuality": 3,
+        "opinionImportance": null,
+        "threshold": "include",
+        "note": "TechCrunch product hands-on with beta auto-draft feature."
+      },
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-14T22:00:00.000Z"
     },
     {
       "id": "curated-guardian-australia-office-of-ai-datacentres-2026-07-14",
@@ -573,6 +906,37 @@
       },
       "summaryEngine": "chat-curated",
       "curatedAt": "2026-07-14T18:30:00.000Z"
+    },
+    {
+      "id": "curated-toi-hcltech-ai-datacentres-3500cr-2026-07-14",
+      "title": "HCLTech plans Rs 3,500 crore investment in AI data centers",
+      "summary": "Times of India reports that HCLTech will invest up to Rs 3,500 crore in AI-focused data centers that could scale to 50 MW for sovereign AI demand.",
+      "fullSummary": "HCLTech announced plans to invest up to Rs 3,500 crore in AI-focused data centers, according to Times of India. The facilities could scale to 50 MW and are aimed at enterprises and governments looking for sovereign AI infrastructure. The move adds another India-specific AI infrastructure buildout to the current data-center rush.",
+      "keyFacts": [
+        "HCLTech plans to invest up to Rs 3,500 crore",
+        "The AI-focused data centers could scale to 50 MW",
+        "The target market is enterprise and government sovereign AI infrastructure"
+      ],
+      "url": "https://timesofindia.indiatimes.com/business/india-business/hcltech-to-up-ai-game-invest-3500-crore-in-data-centres-of-up-to-50-mw/articleshow/132378824.cms",
+      "sourceName": "Times of India",
+      "relatedSources": [
+        "HCLTech"
+      ],
+      "lane": "infrastructure",
+      "publishedAt": "2026-07-14T01:36:03.000Z",
+      "importance": 993,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "whyItMatters": "India's AI infrastructure market is moving from policy talk into concrete sovereign-compute investment by major IT firms.",
+      "factualityOpinionRating": {
+        "type": "factual",
+        "factuality": 4,
+        "opinionImportance": null,
+        "threshold": "include",
+        "note": "Times of India report on HCLTech's announced investment plan."
+      },
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-14T22:00:00.000Z"
     },
     {
       "id": "curated-verge-apple-car-ai-chip-legacy-2026-07-12",
@@ -28290,7 +28654,7 @@
     }
   ],
   "errors": [],
-  "totalItems": 1012,
-  "lastRefresh": "2026-07-14T18:55:00.000Z",
-  "count": 1012
+  "totalItems": 1023,
+  "lastRefresh": "2026-07-14T22:00:00.000Z",
+  "count": 1023
 }
