@@ -1,9 +1,242 @@
 {
-  "generatedAt": "2026-07-14T18:30:00.000Z",
-  "nextRefreshAt": "2026-07-14T21:30:00.000Z",
+  "generatedAt": "2026-07-14T18:55:00.000Z",
+  "nextRefreshAt": "2026-07-15T00:55:00.000Z",
   "summaryEngine": "chat-curated",
   "curated": true,
   "items": [
+    {
+      "id": "curated-axios-ai-cybercrime-barriers-falling-2026-07-14",
+      "title": "AI-powered cybercrime is getting easier",
+      "summary": "Axios reports that attackers are moving from AI experiments into real campaigns, with researchers citing AI-assisted ransomware, bank-fraud malware, and faster cloud attacks.",
+      "fullSummary": "Axios says researchers are seeing cybercriminals use AI more practically as access costs fall and model capabilities improve. Recent examples include the JadePuffer ransomware case, where an AI agent rewrote exploit code in seconds, a cloud attack compressed into 72 hours, and AI-generated malware used in bank fraud targeting Mexican financial organizations. Researchers say early attacks still make mistakes, but the window for defenders to prepare is shrinking.",
+      "keyFacts": [
+        "Researchers told Axios AI-assisted attacks are moving beyond experiments",
+        "JadePuffer used an AI agent to rewrite exploit code in 31 seconds",
+        "Other reports cited AI-assisted cloud attacks and bank-fraud malware"
+      ],
+      "url": "https://www.axios.com/2026/07/14/ai-cybercrime-ransomware-hackers",
+      "sourceName": "Axios",
+      "relatedSources": [
+        "Sysdig",
+        "Sygnia",
+        "Elastic",
+        "Halcyon"
+      ],
+      "lane": "policy-safety",
+      "publishedAt": "2026-07-14T17:11:13.000Z",
+      "importance": 999,
+      "sourceConfidence": "high",
+      "filterCategory": "pushback",
+      "whyItMatters": "The AI security story is no longer theoretical: attackers are starting to use agents and model-generated code inside real intrusions.",
+      "factualityOpinionRating": {
+        "type": "factual",
+        "factuality": 4,
+        "opinionImportance": null,
+        "threshold": "include",
+        "note": "Axios report based on named security researchers and recent incident reports."
+      },
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-14T18:55:00.000Z"
+    },
+    {
+      "id": "curated-ap-new-york-ai-datacenter-moratorium-2026-07-14",
+      "title": "New York pauses large AI data centers for one year",
+      "summary": "AP reports that New York has imposed a one-year pause on large data-center projects while regulators study power, water, noise, climate, and local-control rules.",
+      "fullSummary": "Governor Kathy Hochul signed an executive order pausing state permitting for large hyperscale data centers, a move AP says makes New York a central test case in the national fight over AI infrastructure. The order gives regulators a year to develop standards for energy use, water demand, environmental impact, and community consent. It lands as AI companies argue data centers are essential to U.S. competitiveness and local residents push back over utility costs and environmental strain.",
+      "keyFacts": [
+        "New York paused state permitting for large hyperscale data centers",
+        "Regulators will study energy, water, noise, and environmental standards",
+        "The moratorium responds to public resistance to AI infrastructure buildouts"
+      ],
+      "url": "https://apnews.com/article/c1e05b74208a6c570eec7c658ac8f187",
+      "sourceName": "Associated Press",
+      "relatedSources": [
+        "New York State",
+        "Kathy Hochul"
+      ],
+      "lane": "infrastructure",
+      "publishedAt": "2026-07-14T15:30:00.000Z",
+      "importance": 998,
+      "sourceConfidence": "high",
+      "filterCategory": "pushback",
+      "whyItMatters": "A statewide pause turns local data-center backlash into a direct constraint on AI infrastructure growth.",
+      "factualityOpinionRating": {
+        "type": "factual",
+        "factuality": 4,
+        "opinionImportance": null,
+        "threshold": "include",
+        "note": "AP report on a signed New York executive order."
+      },
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-14T18:55:00.000Z"
+    },
+    {
+      "id": "curated-wsj-datacenter-stake-sales-ai-boom-2026-07-14",
+      "title": "Data-center owners race to sell stakes into the AI boom",
+      "summary": "The Wall Street Journal reports that U.S. data-center developers are trying to sell majority stakes worth billions as AI demand drives construction costs and investor appetite higher.",
+      "fullSummary": "The Wall Street Journal says data-center builders including Netrality, DataBank, Edged, and EdgeCore are working with bankers to sell stakes as AI demand reshapes the sector. DataBank could reportedly fetch about $25 billion, while prior AI-infrastructure deals have already pushed sector M&A to record levels. The same buildout faces harder power constraints, equipment shortages, and growing local opposition.",
+      "keyFacts": [
+        "Several U.S. data-center developers are exploring large stake sales",
+        "DataBank could reportedly be valued around $25 billion",
+        "AI demand is driving higher construction costs and record infrastructure M&A"
+      ],
+      "url": "https://www.wsj.com/finance/investing/data-center-builders-are-racing-to-offload-stakes-worth-billions-1a7d92f8",
+      "sourceName": "Wall Street Journal",
+      "relatedSources": [
+        "DataBank",
+        "Netrality",
+        "Edged",
+        "EdgeCore",
+        "DigitalBridge"
+      ],
+      "lane": "infrastructure",
+      "publishedAt": "2026-07-14T15:00:00.000Z",
+      "importance": 997,
+      "sourceConfidence": "medium",
+      "filterCategory": "funding",
+      "whyItMatters": "AI infrastructure has become a private-markets asset rush, not just a cloud-capex line item.",
+      "factualityOpinionRating": {
+        "type": "factual",
+        "factuality": 3,
+        "opinionImportance": null,
+        "threshold": "include",
+        "note": "WSJ infrastructure-finance report; gated but source-link check treats 401 as manual review."
+      },
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-14T18:55:00.000Z"
+    },
+    {
+      "id": "curated-axios-openai-device-apple-lawsuit-delay-2026-07-14",
+      "title": "Apple lawsuit could slow OpenAI's device plans",
+      "summary": "Axios says Apple's trade-secret lawsuit could pause OpenAI's push into consumer AI hardware, the major rationale behind its acquisition of Jony Ive's io.",
+      "fullSummary": "Axios frames Apple's lawsuit against OpenAI and io as a direct threat to OpenAI's device ambitions. Apple alleges OpenAI coordinated trade-secret theft as it built a consumer hardware division, and is seeking injunctions that could prevent OpenAI and io from using disputed materials. The dispute could complicate OpenAI's planned device roadmap and its broader IPO narrative.",
+      "keyFacts": [
+        "Apple is seeking injunctions tied to alleged hardware trade-secret misuse",
+        "OpenAI bought io last year to build consumer AI hardware",
+        "Axios says the case could delay OpenAI's device strategy"
+      ],
+      "url": "https://www.axios.com/2026/07/14/litigation-openai-device-apple",
+      "sourceName": "Axios",
+      "relatedSources": [
+        "Apple",
+        "OpenAI",
+        "io",
+        "Jony Ive"
+      ],
+      "lane": "policy-safety",
+      "publishedAt": "2026-07-14T14:24:40.000Z",
+      "importance": 996,
+      "sourceConfidence": "medium",
+      "filterCategory": "pushback",
+      "whyItMatters": "OpenAI's hardware bet is one of its biggest moves beyond software, and an injunction fight could slow that expansion before launch.",
+      "factualityOpinionRating": {
+        "type": "factual",
+        "factuality": 3,
+        "opinionImportance": null,
+        "threshold": "include",
+        "note": "Axios follow-up on an already covered Apple-OpenAI lawsuit, included for device-strategy impact."
+      },
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-14T18:55:00.000Z"
+    },
+    {
+      "id": "curated-guardian-australia-office-of-ai-datacentres-2026-07-14",
+      "title": "Australia creates an Office of AI and fast-tracks data-center approvals",
+      "summary": "The Guardian reports that Prime Minister Anthony Albanese will create an Office of AI while promising faster approvals for data centers and a national AI framework.",
+      "fullSummary": "Australia is setting up an Office of AI inside the Department of the Prime Minister and Cabinet to coordinate a national approach to the technology. The Guardian says Albanese will pair that governance push with faster data-center approvals intended to attract AI investment, while keeping pressure on standards, security, copyright, and public trust. The plan also expands the government's GovAI program.",
+      "keyFacts": [
+        "Australia is creating an Office of AI in the prime minister's department",
+        "The government plans faster approvals for AI-related data centers",
+        "The framework will cover standards, security, copyright, and public trust"
+      ],
+      "url": "https://www.theguardian.com/technology/2026/jul/14/anthony-albanese-promises-fast-track-approvals-for-datacentres-to-shore-up-ai-investment",
+      "sourceName": "The Guardian",
+      "relatedSources": [
+        "Anthony Albanese",
+        "Australian Government"
+      ],
+      "lane": "regional",
+      "publishedAt": "2026-07-14T13:45:00.000Z",
+      "importance": 995,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "whyItMatters": "Australia is trying to bundle AI investment, standards, copyright, security, and infrastructure into one national governance lane.",
+      "factualityOpinionRating": {
+        "type": "factual",
+        "factuality": 4,
+        "opinionImportance": null,
+        "threshold": "include",
+        "note": "Guardian report on Albanese's announced national AI framework."
+      },
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-14T18:55:00.000Z"
+    },
+    {
+      "id": "curated-guardian-uk-ai-race-capital-rules-2026-07-14",
+      "title": "UK weighs looser capital rules despite AI bubble warnings",
+      "summary": "The Guardian says the UK is trying to catch up in the AI race while the Bank of England warns that heavy AI-linked investment could create financial-stability risks.",
+      "fullSummary": "The Guardian's TechScape says the UK is considering looser bank capital rules to stimulate growth and lending, even as the Bank of England warns of an AI-related market correction. Governor Andrew Bailey flagged a triple risk: oversized AI-stock investment, slower adoption than companies expect, and rapid technical change that could leave firms behind. The piece argues the UK wants AI investment but remains cautious about going all-in.",
+      "keyFacts": [
+        "The UK is considering easing bank capital rules to support growth",
+        "The Bank of England warned about AI-related market-correction risk",
+        "The Guardian frames the UK as trying to catch up without overcommitting"
+      ],
+      "url": "https://www.theguardian.com/technology/2026/jul/13/uk-catch-up-global-ai-race-risks",
+      "sourceName": "The Guardian",
+      "relatedSources": [
+        "Bank of England",
+        "Andrew Bailey",
+        "OpenAI"
+      ],
+      "lane": "infrastructure",
+      "publishedAt": "2026-07-14T13:24:31.000Z",
+      "importance": 994,
+      "sourceConfidence": "medium",
+      "filterCategory": "general",
+      "whyItMatters": "AI financing risk is spreading into macroprudential policy, not just venture and hyperscaler capex debates.",
+      "factualityOpinionRating": {
+        "type": "factual",
+        "factuality": 3,
+        "opinionImportance": null,
+        "threshold": "include",
+        "note": "Guardian analysis/newsletter with specific Bank of England and UK policy context."
+      },
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-14T18:55:00.000Z"
+    },
+    {
+      "id": "curated-ap-softbank-5t-ai-demand-2026-07-14",
+      "title": "SoftBank's Masayoshi Son says AI may need $5 trillion a year",
+      "summary": "AP reports that SoftBank CEO Masayoshi Son dismissed AI bubble worries and argued the world may need nearly $5 trillion in annual AI infrastructure investment.",
+      "fullSummary": "Masayoshi Son told a SoftBank event that talk of an AI bubble is outdated and that AI infrastructure could require almost $5 trillion in global annual investment. AP says Son pointed to data centers, chips, and energy systems as core bottlenecks, and projected AI-related industries could account for 20% of world GDP by 2040. SoftBank has already made large AI bets, including a major OpenAI commitment and a new battery push in Japan.",
+      "keyFacts": [
+        "Son projected nearly $5 trillion in annual AI infrastructure investment",
+        "He argued AI-related industries could reach 20% of world GDP by 2040",
+        "SoftBank has made large AI investments, including in OpenAI"
+      ],
+      "url": "https://apnews.com/article/97ce41a43624440aa2b91c025937b979",
+      "sourceName": "Associated Press",
+      "relatedSources": [
+        "SoftBank",
+        "Masayoshi Son",
+        "OpenAI"
+      ],
+      "lane": "infrastructure",
+      "publishedAt": "2026-07-14T12:10:00.000Z",
+      "importance": 993,
+      "sourceConfidence": "high",
+      "filterCategory": "general",
+      "whyItMatters": "Son's figure captures the scale of the infrastructure bet behind frontier AI, whether or not the market ultimately validates it.",
+      "factualityOpinionRating": {
+        "type": "factual",
+        "factuality": 4,
+        "opinionImportance": null,
+        "threshold": "include",
+        "note": "AP report from SoftBank event remarks."
+      },
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-14T18:55:00.000Z"
+    },
     {
       "id": "curated-verge-hassabis-us-led-ai-watchdog-2026-07-14",
       "title": "DeepMind's Demis Hassabis calls for a US-led global AI watchdog",
@@ -38,6 +271,39 @@
       "curatedAt": "2026-07-14T18:30:00.000Z"
     },
     {
+      "id": "curated-bi-data-center-protests-market-bottleneck-2026-07-14",
+      "title": "Data-center protests are becoming an AI market bottleneck",
+      "summary": "Business Insider reports that Morgan Stanley sees public opposition to data centers as a growing constraint on AI infrastructure, capex, and debt issuance.",
+      "fullSummary": "Business Insider says community resistance to data centers is beginning to matter for markets. Morgan Stanley analysts warn that opposition over electricity prices, water use, noise, and environmental effects could delay projects, change where facilities are built, and reduce or reshape investment. The report says delayed and canceled projects reached large dollar totals in 2025 and early 2026, making public sentiment a practical constraint alongside power and equipment shortages.",
+      "keyFacts": [
+        "Morgan Stanley warned data-center opposition is becoming an AI infrastructure bottleneck",
+        "Public resistance could affect capex, site selection, and debt issuance",
+        "The report points to large dollar totals of delayed or canceled projects"
+      ],
+      "url": "https://www.businessinsider.com/data-center-protests-ai-trade-markets-sei-be-morgan-stanley-2026-7",
+      "sourceName": "Business Insider",
+      "relatedSources": [
+        "Morgan Stanley",
+        "Digital Realty",
+        "Bloom Energy"
+      ],
+      "lane": "infrastructure",
+      "publishedAt": "2026-07-14T11:00:00.000Z",
+      "importance": 992,
+      "sourceConfidence": "medium",
+      "filterCategory": "pushback",
+      "whyItMatters": "Local AI-infrastructure backlash is starting to show up in market models, not just town-hall politics.",
+      "factualityOpinionRating": {
+        "type": "factual",
+        "factuality": 3,
+        "opinionImportance": null,
+        "threshold": "include",
+        "note": "Business Insider market report based on Morgan Stanley analysis."
+      },
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-14T18:55:00.000Z"
+    },
+    {
       "id": "curated-axios-singularity-air-defense-series-a-2026-07-14",
       "title": "Air-defense AI startup Singularity raises $80 million",
       "summary": "Axios reports that Singularity emerged from stealth with an $80 million Series A led by Khosla Ventures and Felicis to build lower-cost defenses against drones and missiles.",
@@ -70,6 +336,144 @@
       },
       "summaryEngine": "chat-curated",
       "curatedAt": "2026-07-14T18:30:00.000Z"
+    },
+    {
+      "id": "curated-et-openai-xai-legal-fees-2026-07-14",
+      "title": "OpenAI seeks more than $1 million from xAI after dismissed lawsuit",
+      "summary": "Economic Times reports that OpenAI asked a federal court to make Elon Musk's xAI pay more than $1 million in legal fees after a dismissed trade-secret case.",
+      "fullSummary": "OpenAI has asked a U.S. federal court to order xAI to pay more than $1 million in legal fees tied to a dismissed trade-secret lawsuit. Economic Times, citing Bloomberg, says the request escalates the legal fight between two major AI companies and reflects OpenAI's effort to recover defense costs after the case was thrown out.",
+      "keyFacts": [
+        "OpenAI is seeking more than $1 million in legal fees from xAI",
+        "The request follows dismissal of an xAI trade-secret lawsuit",
+        "The dispute is part of a broader legal fight between OpenAI and Musk-linked AI ventures"
+      ],
+      "url": "https://m.economictimes.com/tech/technology/openai-seeks-over-1-million-from-xai-as-legal-battle-escalates/articleshow/132391447.cms",
+      "sourceName": "Economic Times",
+      "relatedSources": [
+        "OpenAI",
+        "xAI",
+        "Bloomberg"
+      ],
+      "lane": "policy-safety",
+      "publishedAt": "2026-07-14T10:00:00.000Z",
+      "importance": 991,
+      "sourceConfidence": "medium",
+      "filterCategory": "pushback",
+      "whyItMatters": "The OpenAI-xAI fight is moving from model rivalry into legal cost recovery and trade-secret precedent.",
+      "factualityOpinionRating": {
+        "type": "factual",
+        "factuality": 3,
+        "opinionImportance": null,
+        "threshold": "include",
+        "note": "Economic Times item citing Bloomberg court-reporting."
+      },
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-14T18:55:00.000Z"
+    },
+    {
+      "id": "curated-axios-pixverse-439m-video-ai-2026-07-14",
+      "title": "PixVerse raises $439 million for video-generation AI",
+      "summary": "Axios Pro Rata reports that Singapore-based video-generation startup PixVerse raised $439 million in Series C funding at a $2 billion valuation.",
+      "fullSummary": "Axios Pro Rata's July 14 venture roundup says PixVerse raised $439 million in Series C funding at a $2 billion valuation. The Singapore-based company works on video-generation AI, one of the most competitive areas of generative media. CDH Investments led the round.",
+      "keyFacts": [
+        "PixVerse raised $439 million in Series C funding",
+        "The round valued the company at $2 billion",
+        "CDH Investments led the financing"
+      ],
+      "url": "https://techcrunch.com/2026/07/13/video-generation-startup-pixverse-raises-439m-valuation-soars-past-2b/",
+      "sourceName": "TechCrunch",
+      "relatedSources": [
+        "Axios Pro Rata",
+        "PixVerse",
+        "CDH Investments"
+      ],
+      "lane": "models",
+      "publishedAt": "2026-07-14T09:30:00.000Z",
+      "importance": 990,
+      "sourceConfidence": "medium",
+      "filterCategory": "funding",
+      "whyItMatters": "Large video-generation rounds show investor appetite remains strong for expensive media models despite copyright and compute concerns.",
+      "factualityOpinionRating": {
+        "type": "factual",
+        "factuality": 3,
+        "opinionImportance": null,
+        "threshold": "include",
+        "note": "Axios Pro Rata venture roundup with round size, valuation, and lead investor."
+      },
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-14T18:55:00.000Z"
+    },
+    {
+      "id": "curated-axios-limx-dynamics-200m-humanoid-robotics-2026-07-14",
+      "title": "LimX Dynamics raises $200 million for humanoid robotics",
+      "summary": "Axios Pro Rata reports that Chinese humanoid robotics company LimX Dynamics raised $200 million at a $2.2 billion valuation.",
+      "fullSummary": "LimX Dynamics, a Chinese humanoid robotics company, raised $200 million at a $2.2 billion valuation, according to Axios Pro Rata's July 14 venture roundup. The round included investors such as Stone Venture, GGG, and Redstone VC. The financing adds another large robotics deal to the physical-AI funding cycle.",
+      "keyFacts": [
+        "LimX Dynamics raised $200 million",
+        "The round valued the Chinese humanoid robotics company at $2.2 billion",
+        "Investors included Stone Venture, GGG, and Redstone VC"
+      ],
+      "url": "https://www.cnbc.com/2026/07/13/chinese-humanoid-startups-ipo-limx-unitree.html",
+      "sourceName": "CNBC",
+      "relatedSources": [
+        "Axios Pro Rata",
+        "LimX Dynamics",
+        "Unitree",
+        "Stone Venture",
+        "GGG",
+        "Redstone VC"
+      ],
+      "lane": "physical-ai",
+      "publishedAt": "2026-07-14T09:20:00.000Z",
+      "importance": 989,
+      "sourceConfidence": "medium",
+      "filterCategory": "funding",
+      "whyItMatters": "Humanoid robotics funding is turning physical AI into a regional capital race, not just a U.S. startup theme.",
+      "factualityOpinionRating": {
+        "type": "factual",
+        "factuality": 3,
+        "opinionImportance": null,
+        "threshold": "include",
+        "note": "Axios Pro Rata venture roundup with valuation and investor details."
+      },
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-14T18:55:00.000Z"
+    },
+    {
+      "id": "curated-axios-emerald-ai-datacenter-management-100m-talks-2026-07-14",
+      "title": "Emerald AI is in talks for funding at a $1 billion valuation",
+      "summary": "Axios Pro Rata reports that Emerald AI, which makes data-center management software, is in talks to raise at least $100 million at a $1 billion valuation.",
+      "fullSummary": "Axios Pro Rata says Emerald AI is in talks to raise at least $100 million at a $1 billion valuation. The company makes data-center management software and counts Amplo, CRV, Earthshot Ventures, and Energy Impact Partners among its investors. The potential round sits directly in the AI infrastructure-management lane.",
+      "keyFacts": [
+        "Emerald AI is reportedly in talks to raise at least $100 million",
+        "The proposed valuation is about $1 billion",
+        "The company makes data-center management software"
+      ],
+      "url": "https://www.axios.com/pro/climate-deals/2026/07/13/emerald-ai-valuation-funding-data-center-software",
+      "sourceName": "Axios Pro",
+      "relatedSources": [
+        "Axios Pro Rata",
+        "Emerald AI",
+        "Amplo",
+        "CRV",
+        "Earthshot Ventures",
+        "Energy Impact Partners"
+      ],
+      "lane": "infrastructure",
+      "publishedAt": "2026-07-14T09:10:00.000Z",
+      "importance": 988,
+      "sourceConfidence": "medium",
+      "filterCategory": "funding",
+      "whyItMatters": "As AI data centers become harder to power and manage, software for operating them is becoming a venture-scale market.",
+      "factualityOpinionRating": {
+        "type": "factual",
+        "factuality": 3,
+        "opinionImportance": null,
+        "threshold": "include",
+        "note": "Axios Pro Rata says the round is in talks, so confidence stays medium."
+      },
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-14T18:55:00.000Z"
     },
     {
       "id": "curated-axios-pro-rata-chai-discovery-400m-2026-07-14",
@@ -27886,7 +28290,7 @@
     }
   ],
   "errors": [],
-  "totalItems": 1000,
-  "lastRefresh": "2026-07-14T18:30:00.000Z",
-  "count": 1000
+  "totalItems": 1012,
+  "lastRefresh": "2026-07-14T18:55:00.000Z",
+  "count": 1012
 }
