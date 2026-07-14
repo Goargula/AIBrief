@@ -1,9 +1,175 @@
 {
-  "generatedAt": "2026-07-12T17:40:00.000Z",
-  "nextRefreshAt": "2026-07-12T23:40:00.000Z",
+  "generatedAt": "2026-07-14T18:30:00.000Z",
+  "nextRefreshAt": "2026-07-14T21:30:00.000Z",
   "summaryEngine": "chat-curated",
   "curated": true,
   "items": [
+    {
+      "id": "curated-verge-hassabis-us-led-ai-watchdog-2026-07-14",
+      "title": "DeepMind's Demis Hassabis calls for a US-led global AI watchdog",
+      "summary": "The Verge reports that Google DeepMind CEO Demis Hassabis wants a US-led standards body with authority to evaluate frontier AI models and coordinate a slowdown if releases are judged too risky.",
+      "fullSummary": "Demis Hassabis used a new essay to argue that frontier AI governance needs a standards body modeled loosely on financial self-regulation. The proposed US-led organization would bring independent experts and open-source representatives into model evaluation, with enough authority to pause or slow releases that present unacceptable risks. The push comes as Hassabis says AGI may be only a few years away and as governments are taking a more active role in model-release decisions.",
+      "keyFacts": [
+        "Hassabis proposed a US-led standards body for frontier AI model reviews",
+        "The body would be able to coordinate an industry slowdown for models judged too risky",
+        "The proposal follows recent government scrutiny of advanced model releases"
+      ],
+      "url": "https://www.theverge.com/tech/965270/google-deepmind-demis-hassabis-global-ai-watchdog",
+      "sourceName": "The Verge",
+      "relatedSources": [
+        "Google DeepMind",
+        "Axios",
+        "Business Insider"
+      ],
+      "lane": "policy-safety",
+      "publishedAt": "2026-07-14T11:43:29.000Z",
+      "importance": 1000,
+      "sourceConfidence": "high",
+      "filterCategory": "pushback",
+      "whyItMatters": "One of the leading frontier-lab CEOs is moving from general safety warnings to a concrete release-review institution with enforcement teeth.",
+      "factualityOpinionRating": {
+        "type": "factual",
+        "factuality": 4,
+        "opinionImportance": null,
+        "threshold": "include",
+        "note": "Current Verge report cross-checked with Business Insider coverage of the same Hassabis essay."
+      },
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-14T18:30:00.000Z"
+    },
+    {
+      "id": "curated-axios-singularity-air-defense-series-a-2026-07-14",
+      "title": "Air-defense AI startup Singularity raises $80 million",
+      "summary": "Axios reports that Singularity emerged from stealth with an $80 million Series A led by Khosla Ventures and Felicis to build lower-cost defenses against drones and missiles.",
+      "fullSummary": "Singularity, an air-defense startup founded by Jack Oswald and Shail Giroux, has raised an $80 million Series A at a reported $400 million valuation. The company says it is building countermeasure technologies that could be far cheaper than systems such as Patriot or THAAD, aiming at the rising threat from inexpensive drones and missiles. Its team includes veterans of Anduril, Lockheed Martin, SpaceX, Tesla, and Toyota, with former US and Ukrainian defense officials advising the company.",
+      "keyFacts": [
+        "Singularity raised an $80 million Series A led by Khosla Ventures and Felicis",
+        "The round values the air-defense startup at about $400 million",
+        "The company is targeting cheaper defenses against drones and missiles"
+      ],
+      "url": "https://www.axios.com/2026/07/14/singularity-air-defense-seriesa-venture-oswald",
+      "sourceName": "Axios",
+      "relatedSources": [
+        "Khosla Ventures",
+        "Felicis",
+        "Anduril",
+        "Lockheed Martin"
+      ],
+      "lane": "physical-ai",
+      "publishedAt": "2026-07-14T10:30:00.000Z",
+      "importance": 998,
+      "sourceConfidence": "high",
+      "filterCategory": "funding",
+      "whyItMatters": "Defense AI is pulling major venture capital into physical systems where autonomy, sensors, and real-time decision tools have immediate battlefield stakes.",
+      "factualityOpinionRating": {
+        "type": "factual",
+        "factuality": 4,
+        "opinionImportance": null,
+        "threshold": "include",
+        "note": "Axios funding report with named investors, valuation, and company details."
+      },
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-14T18:30:00.000Z"
+    },
+    {
+      "id": "curated-axios-pro-rata-chai-discovery-400m-2026-07-14",
+      "title": "Chai Discovery raises $400 million for AI drug discovery",
+      "summary": "Axios Pro Rata reports that Chai Discovery raised $400 million, adding another large financing round to the AI-for-drug-discovery sector.",
+      "fullSummary": "Axios Pro Rata's July 14 venture roundup says Chai Discovery raised $400 million for AI drug discovery. The round lands in a year when investors are still backing large life-sciences AI platforms, even as the broader AI market faces questions about infrastructure costs and eventual returns. The financing puts Chai Discovery among the better-funded current AI biology companies.",
+      "keyFacts": [
+        "Chai Discovery raised $400 million",
+        "The company works in AI drug discovery",
+        "The round was highlighted in Axios Pro Rata's July 14 venture roundup"
+      ],
+      "url": "https://www.axios.com/newsletters/axios-pro-rata-c00bc78e-07ca-4665-9c03-58dc9e2b9585",
+      "sourceName": "Axios Pro Rata",
+      "relatedSources": [
+        "Chai Discovery"
+      ],
+      "lane": "health-science",
+      "publishedAt": "2026-07-14T09:00:00.000Z",
+      "importance": 997,
+      "sourceConfidence": "medium",
+      "filterCategory": "funding",
+      "whyItMatters": "Large AI-biology rounds show investors are still willing to fund expensive scientific platforms, not just enterprise copilots or consumer agents.",
+      "factualityOpinionRating": {
+        "type": "factual",
+        "factuality": 3,
+        "opinionImportance": null,
+        "threshold": "include",
+        "note": "Axios newsletter item; include with medium confidence because detailed round terms are sparse in the roundup."
+      },
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-14T18:30:00.000Z"
+    },
+    {
+      "id": "curated-marketwatch-ai-debt-270b-2026-07-14",
+      "title": "AI infrastructure debt jumps to $270 billion",
+      "summary": "MarketWatch reports that AI-related corporate debt has nearly doubled over the past year, led by hyperscalers borrowing to fund data centers and other infrastructure.",
+      "fullSummary": "MarketWatch says AI-related corporate debt has risen 99% year over year to about $270 billion, with Amazon, Alphabet, Meta, and Oracle among the hyperscalers issuing investment-grade bonds to finance AI infrastructure. Amazon alone has raised $92 billion this year, including a $25 billion bond deal. The borrowing wave is increasing overall investment-grade supply and raising questions about credit exposure if AI infrastructure demand or market conditions turn.",
+      "keyFacts": [
+        "AI-related corporate debt has reportedly reached $270 billion",
+        "Hyperscalers are issuing bonds to finance AI infrastructure buildouts",
+        "Amazon has raised $92 billion this year, including a $25 billion bond deal"
+      ],
+      "url": "https://www.marketwatch.com/story/ai-related-debt-jumped-99-over-the-past-year-its-a-shock-to-the-system-for-investors-b47ce4ea",
+      "sourceName": "MarketWatch",
+      "relatedSources": [
+        "Amazon",
+        "Alphabet",
+        "Meta",
+        "Oracle"
+      ],
+      "lane": "infrastructure",
+      "publishedAt": "2026-07-14T08:00:00.000Z",
+      "importance": 996,
+      "sourceConfidence": "medium",
+      "filterCategory": "general",
+      "whyItMatters": "The AI buildout is increasingly a credit-market story, so infrastructure risk is moving from chips and power into bond supply and lender concentration.",
+      "factualityOpinionRating": {
+        "type": "factual",
+        "factuality": 3,
+        "opinionImportance": null,
+        "threshold": "include",
+        "note": "MarketWatch market report with specific debt and issuance figures."
+      },
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-14T18:30:00.000Z"
+    },
+    {
+      "id": "curated-toi-nous-research-1-5b-funding-talks-2026-07-14",
+      "title": "Nous Research seeks new funding at a $1.5 billion valuation",
+      "summary": "Times of India reports via TechCrunch that Nous Research is in talks to raise at least $75 million at a valuation around $1.5 billion for its open-source Hermes agent work.",
+      "fullSummary": "Nous Research, the open-source AI company behind the Hermes agent, is reportedly in advanced talks for a new round that could value it at $1.5 billion. The round is said to be led by Robot Ventures, with Union Square Ventures and other investors participating, and the company is aiming to raise at least $75 million. The financing would reflect investor demand for open-source AI-agent alternatives as large closed and open frontier projects continue to draw scrutiny.",
+      "keyFacts": [
+        "Nous Research is reportedly in advanced talks to raise at least $75 million",
+        "The proposed round would value the company around $1.5 billion",
+        "Robot Ventures is leading, with Union Square Ventures also backing the round"
+      ],
+      "url": "https://timesofindia.indiatimes.com/technology/tech-news/nous-research-maker-of-openclaws-american-rival-hermes-agent-in-talks-to-raise-new-funding-at-1-5-billion-valuation/articleshow/132389419.cms",
+      "sourceName": "Times of India",
+      "relatedSources": [
+        "TechCrunch",
+        "Nous Research",
+        "Robot Ventures",
+        "Union Square Ventures"
+      ],
+      "lane": "models",
+      "publishedAt": "2026-07-14T07:00:00.000Z",
+      "importance": 995,
+      "sourceConfidence": "medium",
+      "filterCategory": "funding",
+      "whyItMatters": "Open-source agent companies are becoming venture-scale bets, giving the market alternatives to frontier labs' closed model stacks.",
+      "factualityOpinionRating": {
+        "type": "factual",
+        "factuality": 3,
+        "opinionImportance": null,
+        "threshold": "include",
+        "note": "Times of India syndicates TechCrunch reporting on funding talks, so treat as medium confidence until the round closes."
+      },
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-14T18:30:00.000Z"
+    },
     {
       "id": "curated-verge-apple-car-ai-chip-legacy-2026-07-12",
       "title": "Apple's abandoned car program becomes a foundation for its AI chips",
@@ -746,6 +912,39 @@
       },
       "summaryEngine": "chat-curated",
       "curatedAt": "2026-07-09T14:10:00.000Z"
+    },
+    {
+      "id": "curated-bi-monumint-banking-ai-pivot-2026-07-09",
+      "title": "YC founders pivot from OmniAI to banking-agent startup Monumint",
+      "summary": "Business Insider reports that the founders of OmniAI used their $3.2 million seed funding to pivot into Monumint, a banking-agent startup serving lenders and credit unions.",
+      "fullSummary": "Tyler Maran and Anna Pojawis raised $3.2 million for OmniAI, then decided the original business analytics product was not big enough and rebuilt around their banking background. Their new company, Monumint, offers AI agents for banks, credit unions, and lenders, including workflows such as coordinating multi-owner loan applications and updating beneficiaries. The startup says it now has 20 paying customers, including FDIC-insured institutions.",
+      "keyFacts": [
+        "The founders raised $3.2 million for OmniAI before pivoting",
+        "Monumint builds AI agents for banks, credit unions, and lenders",
+        "The company reports 20 paying customers after the pivot"
+      ],
+      "url": "https://www.businessinsider.com/monumint-pitch-deck-founders-pivot-omniai-banking-ai-solutions-2026-7",
+      "sourceName": "Business Insider",
+      "relatedSources": [
+        "Monumint",
+        "OmniAI",
+        "Y Combinator"
+      ],
+      "lane": "products-adoption",
+      "publishedAt": "2026-07-09T13:00:00.000Z",
+      "importance": 991,
+      "sourceConfidence": "medium",
+      "filterCategory": "general",
+      "whyItMatters": "Banking-agent startups are moving beyond demos into regulated workflows where customer coordination and account changes require high reliability.",
+      "factualityOpinionRating": {
+        "type": "factual",
+        "factuality": 3,
+        "opinionImportance": null,
+        "threshold": "include",
+        "note": "Business Insider startup profile with customer and funding details."
+      },
+      "summaryEngine": "chat-curated",
+      "curatedAt": "2026-07-14T18:30:00.000Z"
     },
     {
       "id": "curated-techcrunch-ollama-65m-series-b-2026-07-09",
@@ -27687,7 +27886,7 @@
     }
   ],
   "errors": [],
-  "totalItems": 975,
-  "lastRefresh": "2026-07-09T15:30:00.000Z",
-  "count": 975
+  "totalItems": 1000,
+  "lastRefresh": "2026-07-14T18:30:00.000Z",
+  "count": 1000
 }
